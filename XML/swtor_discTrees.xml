@@ -267,6 +267,11 @@
             <StandardHealthPercentMax Value="0.03075" />
             <StandardHealthPercentMin Value="0.03075" />
           </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.3075" />
+            <StandardHealthPercentMax Value="0.03075" />
+            <StandardHealthPercentMin Value="0.03075" />
+          </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.agent.adrenaline_probe">
@@ -596,9 +601,9 @@
           <CombatLogID Value="993073748246528" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
-              <Coefficient Value="0.14" />
-              <StandardHealthPercentMax Value="0.014" />
-              <StandardHealthPercentMin Value="0.014" />
+              <Coefficient Value="0.201" />
+              <StandardHealthPercentMax Value="0.0201" />
+              <StandardHealthPercentMin Value="0.0201" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -614,6 +619,18 @@
           <Cooldown Value="1" />
           <CombatLogID Value="2302695176142848" />
         </Ability>
+        <Ability Name="abl.agent.skill.engineering.engineers_tool_belt">
+          <Label Value="Engineer's Tool Belt" />
+          <Description Value="Increases the critical hit chance of Fragmentation Grenade by 10% and when Fragmentation Grenade deals damage to its primary target, it restores 5 energy." />
+          <Icon Value="utilitybeltwithmanyslots" />
+          <Damage Value="False" />
+          <Healing Value="False" />
+          <Passive Value="True" />
+          <LevelAquired Value="12" />
+          <OnGCD Value="True" />
+          <Cooldown Value="1" />
+          <CombatLogID Value="2302609276796928" />
+        </Ability>
         <Talent Name="tal.agent.skill.engineering.electrified_blast">
           <Label Value="Electrified Blast" />
           <Description Value="Snipe and Fragmentation Grenade apply 1 stack of Electrified Railgun's effect to the primary target." />
@@ -625,12 +642,6 @@
           <Description Value="Reduces the energy cost of Explosive Probe, Interrogation Probe and Plasma Probe by 5." />
           <Icon Value="slicing" />
           <LevelAquired Value="44" />
-        </Talent>
-        <Talent Name="tal.agent.skill.engineering.engineers_tool_belt">
-          <Label Value="Engineer's Tool Belt" />
-          <Description Value="Reduces the cooldown of Fragmentation Grenade by 6 seconds and increases the critical hit chance by 10%." />
-          <Icon Value="utilitybeltwithmanyslots" />
-          <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.agent.skill.engineering.explosive_engineering">
           <Label Value="Explosive Engineering" />
@@ -683,7 +694,7 @@
         </Ability>
         <Ability Name="abl.agent.skill.virulence.lethal_takedown">
           <Label Value="Lethal Takedown" />
-          <Description Value="In addition, damage dealt by Cull has a 45% chance to trigger Lethal Takedown, which finishes the cooldown of Takedown and makes your next Takedown usable on a target with any health level." />
+          <Description Value="In addition, damage dealt by Cull has a 80% chance to trigger Lethal Takedown, which finishes the cooldown of Takedown and makes your next Takedown usable on a target with any health level." />
           <Icon Value="cannonheal" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -714,7 +725,7 @@
         </Ability>
         <Ability Name="abl.agent.skill.lethality.lethal_purpose">
           <Label Value="Lethal Purpose" />
-          <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 1 energy." />
+          <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 2 energy." />
           <Icon Value="assassinstraining" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -739,14 +750,14 @@
           <CombatLogID Value="3440827149844480" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="0.178" />
-              <StandardHealthPercentMax Value="0.018" />
-              <StandardHealthPercentMin Value="0.018" />
+              <Coefficient Value="0.153" />
+              <StandardHealthPercentMax Value="0.0153" />
+              <StandardHealthPercentMin Value="0.0153" />
             </Type>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="0.178" />
-              <StandardHealthPercentMax Value="0.018" />
-              <StandardHealthPercentMin Value="0.018" />
+              <Coefficient Value="0.153" />
+              <StandardHealthPercentMax Value="0.0153" />
+              <StandardHealthPercentMin Value="0.0153" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -764,6 +775,11 @@
           <TargetArc Value="270" />
           <CombatLogID Value="1703989619982336" />
           <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.3" />
+              <StandardHealthPercentMax Value="0.027" />
+              <StandardHealthPercentMin Value="0.027" />
+            </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.3" />
               <StandardHealthPercentMax Value="0.027" />
@@ -840,7 +856,7 @@
         </Talent>
         <Talent Name="tal.agent.skill.virulence.hew">
           <Label Value="Hew" />
-          <Description Value="Increases the damage dealt by Snipe, Lethal Shot, Series of Shots and Cull by 5%." />
+          <Description Value="Increases the damage dealt by Snipe, Lethal Shot, Series of Shots and Cull by 5%. Additionally, when Corrosive Grenade and Corrosive Dart end they are replaced by a lingering version for 5 seconds that will only deal damage when Cull deals damage." />
           <Icon Value="linetheshot" />
           <LevelAquired Value="36" />
         </Talent>
@@ -853,7 +869,7 @@
         <Talent Name="tal.agent.skill.virulence.corrosive_dispersion">
           <Label Value="Corrosive Dispersion" />
           <Description Value="Corrosive Grenade spreads your Corrosive Dart to the targets it damages, as long as it damages at least one target already affected by your Corrosive Dart." />
-          <Icon Value="empire" />
+          <Icon Value="abl_ag_sn_corrosive_dispersion" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.agent.skill.lethality.corrosive_microbes">
@@ -951,7 +967,7 @@
         <Talent Name="tal.agent.skill.utility.imperial_efficiency">
           <Label Value="Imperial Efficiency" />
           <Description Value="Increases the damage dealt by Suppressive Fire by 25%." />
-          <Icon Value="barrage" />
+          <Icon Value="abl_ag_sn_imp_efficiency" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="7" />
         </Talent>
@@ -965,7 +981,7 @@
         <Talent Name="tal.agent.skill.utility.series_of_snares">
           <Label Value="Series of Snares" />
           <Description Value="Each shot of Series of Shots and Penetrating Blasts slows the target by 20% for 3 seconds. The effect can stack up to 4 times." />
-          <Icon Value="republic" />
+          <Icon Value="abl_ag_sn_series_snares" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="20" />
         </Talent>
@@ -986,7 +1002,7 @@
         <Talent Name="tal.agent.skill.utility.crippling_diversion">
           <Label Value="Crippling Diversion" />
           <Description Value="Diversion slows all targets by 50% for as long as they remain in the area." />
-          <Icon Value="movementslowed" />
+          <Icon Value="abl_agsm_sngs_crippling_diversion" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="21" />
         </Talent>
@@ -1382,7 +1398,7 @@
         <Ability Name="abl.agent.skill.marksmanship.honed_shots">
           <Label Value="Honed Shots" />
           <Description Value="Snipe grants Honed Shots, increasing the critical hit chance and damage done by Snipe by 5% for 15 seconds.  Stacks up to 3 times." />
-          <Icon Value="empire" />
+          <Icon Value="abl_agsm_sngs_honed_shot" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -1496,7 +1512,7 @@
         <Talent Name="tal.agent.skill.marksmanship.accurized_rifle">
           <Label Value="Accurized Rifle" />
           <Description Value="Increases the critical chance of Suppressive Fire by 15% and increases its critical damage by 30%." />
-          <Icon Value="focusfire" />
+          <Icon Value="abl_ag_sn_accurized_rifle" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.agent.skill.marksmanship.precision_ambush">
@@ -1652,7 +1668,7 @@
         </Ability>
         <Ability Name="abl.agent.skill.concealment.veiled_strike">
           <Label Value="Veiled Strike" />
-          <Description Value="Strikes at the target for &lt;&lt;1&gt;&gt; kinetic damage.  Shares a cooldown with Shiv." />
+          <Description Value="Strikes the target for &lt;&lt;1&gt;&gt; kinetic damage, granting a Tactical Advantage.  Shares a cooldown with Shiv." />
           <Icon Value="abl_ag_op_veiled_strike" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -1673,7 +1689,7 @@
         </Ability>
         <Ability Name="abl.agent.skill.concealment.crippling_slice">
           <Label Value="Crippling Slice" />
-          <Description Value="Slices the target for &lt;&lt;1&gt;&gt; kinetic damage and immobilizes the target, preventing them from moving or turning for &lt;&lt;2&gt;&gt; seconds. Additionally inflicts trauma for &lt;&lt;3&gt;&gt; seconds, reducing all healing the target receives by 20%." />
+          <Description Value="Slices the target low for &lt;&lt;1&gt;&gt; kinetic damage and immobilizes it, preventing it from moving or turning for &lt;&lt;2&gt;&gt; seconds." />
           <Icon Value="abl_ag_op_crippling_slice" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -1682,6 +1698,7 @@
           <OnGCD Value="True" />
           <Cooldown Value="15" />
           <Range Value="0" />
+          <TargetArc Value="270" />
           <CombatLogID Value="3403443754500096" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
@@ -1693,14 +1710,14 @@
         </Ability>
         <Talent Name="tal.agent.skill.concealment.imperial_ammunition">
           <Label Value="Imperial Ammunition" />
-          <Description Value="Increases the critical hit chance of Carbine Burst by 10% and the critical damage bonus by 25%" />
-          <Icon Value="empire" />
+          <Description Value="Increases the critical chance of Carbine Burst by 15% and its critical damage bonus by 30%." />
+          <Icon Value="abl_ag_op_imp_ammo" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.agent.skill.concealment.enhanced_chemicals">
           <Label Value="Enhanced Chemicals" />
-          <Description Value="Increases the damage and critical hit chance of Volatile Substance by 5%." />
-          <Icon Value="empire" />
+          <Description Value="Increases the damage dealt by and critical chance of Volatile Substance by 5%." />
+          <Icon Value="abl_ag_op_enhance_chem" />
           <LevelAquired Value="59" />
         </Talent>
         <Talent Name="tal.agent.skill.concealment.surgical_strikes">
@@ -1895,8 +1912,8 @@
         </Talent>
         <Talent Name="tal.agent.skill.medic.tactical_medicine">
           <Label Value="Tactical Medicine" />
-          <Description Value="Spending a Tactical Advantage increases outgoing healing by 15% for 6 seconds.  This can only occur once every 10 seconds." />
-          <Icon Value="republic" />
+          <Description Value="Consuming a Tactical Advantage with a healing ability increases all healing done by 3% for 6 seconds. This can only occur once every 10 seconds." />
+          <Icon Value="abl_ag_op_tactical_med" />
           <LevelAquired Value="59" />
         </Talent>
         <Talent Name="tal.agent.skill.medic.surprise_surgery">
@@ -2022,18 +2039,6 @@
               <StandardHealthPercentMin Value="0.045" />
             </Type>
           </Coeffcients>
-        </Ability>
-        <Ability Name="abl.agent.medical_doctor">
-          <Label Value="" />
-          <Description Value="Reduces the cooldown of Revive by 100%." />
-          <Icon Value="healingscan" />
-          <Damage Value="False" />
-          <Healing Value="False" />
-          <Passive Value="True" />
-          <LevelAquired Value="10" />
-          <OnGCD Value="True" />
-          <Cooldown Value="1" />
-          <CombatLogID Value="-1" />
         </Ability>
         <Ability Name="abl.agent.toxin_scan">
           <Label Value="Toxin Scan" />
@@ -2193,7 +2198,7 @@
         </Ability>
         <Ability Name="abl.agent.tactical_advantage">
           <Label Value="Tactical Advantage" />
-          <Description Value="Defeating an opponent, activating Shiv, or activating Backstab while stealthed puts you in a position of Tactical Advantage, enabling the use of executions for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Tactical Advantage can exist at once." />
+          <Description Value="Defeating an opponent or activating Shiv puts you in a position of Tactical Advantage, enabling the use of executions for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Tactical Advantage can exist at once." />
           <Icon Value="iachisssecretpolice" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -2225,7 +2230,7 @@
         </Talent>
         <Talent Name="tal.agent.skirmisher">
           <Label Value="Skirmisher" />
-          <Description Value="Increases the damage dealt by Overload Shot by 15% and increases the damage from your weapons by 20%." />
+          <Description Value="Increases the damage dealt by Overload Shot by 15% and increases the damage from your weapons by 20%. In addition, Fragmentation Grenade now deals its area damage to any nearby enemy targets, even if those targets are stronger than weak or standard." />
           <Icon Value="defensivecommand" />
           <LevelAquired Value="10" />
         </Talent>
@@ -2240,6 +2245,12 @@
           <Description Value="Increases the critical chance of Kolto Infusion, Backstab, and Lethal Strike by 15%." />
           <Icon Value="iamilitaryofficer" />
           <LevelAquired Value="35" />
+        </Talent>
+        <Talent Name="tal.agent.medical_doctor">
+          <Label Value="Medical Doctor" />
+          <Description Value="Reduces the cooldown of Revive by 100%." />
+          <Icon Value="healingscan" />
+          <LevelAquired Value="10" />
         </Talent>
       </base>
       <DisciplineTree Name="lethality">
@@ -2272,7 +2283,7 @@
         </Ability>
         <Ability Name="abl.agent.skill.lethality.lethal_purpose">
           <Label Value="Lethal Purpose" />
-          <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 1 energy." />
+          <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 2 energy." />
           <Icon Value="assassinstraining" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -2385,6 +2396,11 @@
               <StandardHealthPercentMax Value="0.027" />
               <StandardHealthPercentMin Value="0.027" />
             </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.3" />
+              <StandardHealthPercentMax Value="0.027" />
+              <StandardHealthPercentMin Value="0.027" />
+            </Type>
           </Coeffcients>
         </Ability>
         <Ability Name="abl.agent.skill.lethality.combat_stims">
@@ -2456,7 +2472,7 @@
         <Talent Name="tal.agent.skill.lethality.lethal_proliferation">
           <Label Value="Lethal Proliferation" />
           <Description Value="Carbine Burst spreads your Corrosive Dart to the targets it damages, as long as it damages at least one target already affected by your Corrosive Dart." />
-          <Icon Value="" />
+          <Icon Value="abl_ag_op_lethal_proliferation" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.agent.skill.lethality.devouring_microbes">
@@ -2617,7 +2633,7 @@
         <Talent Name="tal.agent.skill.utility.imperial_weaponry">
           <Label Value="Imperial Weaponry" />
           <Description Value="Carbine Burst deals 15% more damage and costs 10 less energy." />
-          <Icon Value="empire" />
+          <Icon Value="abl_ag_op_imp_weaponry" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="7" />
         </Talent>
@@ -2638,7 +2654,7 @@
         <Talent Name="tal.agent.skill.utility.nanotech_suit">
           <Label Value="Nanotech Suit" />
           <Description Value="Reduces all area of effect damage taken by 30%." />
-          <Icon Value="empire" />
+          <Icon Value="abl_ag_op_nanotech_suit" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="4" />
         </Talent>
@@ -2666,7 +2682,7 @@
         <Talent Name="tal.agent.skill.utility.imperial_tactics">
           <Label Value="Imperial Tactics" />
           <Description Value="Sever Tendon will now grant a Tactical Advantage." />
-          <Icon Value="empire" />
+          <Icon Value="abl_ag_op_imp_tactics" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="20" />
         </Talent>
@@ -2680,7 +2696,7 @@
         <Talent Name="tal.agent.skill.utility.evasive_screen">
           <Label Value="Evasive Screen" />
           <Description Value="When activated, Cloaking Screen grants 2 seconds of Evasion." />
-          <Icon Value="empire" />
+          <Icon Value="abl_ag_op_evasive_screen" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="16" />
         </Talent>
@@ -3592,7 +3608,7 @@
         <Talent Name="tal.bounty_hunter.skill.firebug.insulated_mats">
           <Label Value="Insulated Mats" />
           <Description Value="Increases elemental and internal damage reduction by 2% and reduces the cooldown on Sonic Missile by 10 seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_insulated_mats" />
           <LevelAquired Value="32" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.firebug.flame_suit">
@@ -3671,7 +3687,7 @@
         <Ability Name="abl.bounty_hunter.skill.utility.reflective_armor">
           <Label Value="Reflective Armor" />
           <Description Value="When Close and Personal is triggered, it will also deal &lt;&lt;1&gt;&gt; elemental damage to the attacker if the attacker is within 10 meters." />
-          <Icon Value="determination" />
+          <Icon Value="abl_bhtr_ptvg_reflective_armor" />
           <Damage Value="True" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -3755,35 +3771,35 @@
         <Talent Name="tal.bounty_hunter.skill.utility.automated_suit">
           <Label Value="Automated Suit" />
           <Description Value="Allows Kolto Overload to be activated while stunned and causes Kolto Overload to purge stun effects when activated. This will not work against other types of incapacitating effects or scripted stuns, which are often used by Flashpoint and Operation bosses or other special non-player characters." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_automated_suit" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="17" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.overdrive">
           <Label Value="Overdrive" />
           <Description Value="Hydraulic Overrides increases movement speed by an additional 45% while active." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_overdrive" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="20" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.accelerated_reel">
           <Label Value="Accelerated Reel" />
           <Description Value="Reduces the cooldown of Grapple by 15 seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_ptvg_accelerated_reel" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="11" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.bracer_propellant">
           <Label Value="Bracer Propellant" />
           <Description Value="Increases the range of Flame Burst and Magnetic Blast by 5 meters and the radius of Flame Sweep by 2 meters." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_bracer_propellant" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="5" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.enhanced_paralytics">
           <Label Value="Enhanced Paralytics" />
           <Description Value="Increases the stun durations of Electro Dart and Carbonize by 1 second each." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_enhanced_paralytics" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="16" />
         </Talent>
@@ -3804,35 +3820,35 @@
         <Talent Name="tal.bounty_hunter.skill.utility.efficient_suit">
           <Label Value="Efficient Suit" />
           <Description Value="Increases the range of Grapple and Shoulder Cannon by 10 meters and eliminates the heat generated by Electro Dart and Carbonize." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_efficent_suit" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="21" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.fuel_additives">
           <Label Value="Fuel Additives" />
           <Description Value="Explosive Fuel increases damage done by 5% while Ion Gas Cylinder is active and increases damage reduction by 5% while Ion Gas Cylinder is not active." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_fuel_additives" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="19" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.engulfing_flames">
           <Label Value="Engulfing Flames" />
           <Description Value="Increases Flame Sweep damage by 25%." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_engulfing_flames" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="6" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.liquid_cooling">
           <Label Value="Liquid Cooling" />
           <Description Value="When Thermal Sensor Override is activated, it vents 10 heat over the next 5 seconds and immediately increases threat towards all current enemies by a small amount if Ion Gas Cylinder is active, or reduces threat towards all current enemies if Ion Gas Cylinder is not active." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_liquid_cooling" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="18" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.utility.iron_will">
           <Label Value="Iron Will" />
           <Description Value="Reduces the cooldown of Determination by 30 seconds and the cooldown of Hydraulic Overrides by 5 seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_ptvg_iron_will" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="7" />
         </Talent>
@@ -3842,7 +3858,7 @@
         <Ability Name="abl.bounty_hunter.skill.shield_tech.shield_enhancers">
           <Label Value="Shield Enhancers" />
           <Description Value="Rocket Punch and Rail Shot grant Shield Enhancers when activated, increasing shield chance by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
-          <Icon Value="shieldgenerator2" />
+          <Icon Value="abl_bhtr_ptvg_shield_enhancers" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -4107,6 +4123,21 @@
               <StandardHealthPercentMax Value="0.082" />
               <StandardHealthPercentMin Value="0.068" />
             </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
           </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.advanced_prototype.retractable_blade">
@@ -4231,7 +4262,7 @@
         <Talent Name="tal.bounty_hunter.skill.advanced_prototype.prototype_missile_silos">
           <Label Value="Prototype Missile Silos" />
           <Description Value="Reduces the cooldown of Explosive Dart by 6 seconds and the cooldown of Death from Above by 15 seconds and increases the damage of both abilities by 15%. In addition, damage dealt by Explosive Dart refreshes the duration of your Retractable Blade's bleed effect if present." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_pt_prototype_missilesilos" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.advanced_prototype.serrated_blades">
@@ -4254,7 +4285,7 @@
         <Ability Name="abl.bounty_hunter.skill.bodyguard.kolto_boosters">
           <Label Value="Kolto Boosters" />
           <Description Value="Reduces the heat generated by Kolto Missile by 5, and increases the critical heal chance of Kolto Shell by 5%. Additionally, Kolto Shot vents 1 heat when it normally heals and 2 heat when it critically heals." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_me_kolto_boosters" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -4436,7 +4467,7 @@
         <Ability Name="abl.bounty_hunter.skill.bodyguard.emergency_response">
           <Label Value="Emergency Response" />
           <Description Value="Eliminates the heat generated by Emergency Scan. In addition, activating Emergency Scan grants Emergency Response, which makes your next Healing Scan activate instantly. Lasts &lt;&lt;1&gt;&gt; seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_meco_emergency_response" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -4558,7 +4589,7 @@
         <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.speed_to_burn">
           <Label Value="Speed to Burn" />
           <Description Value="Damage dealt by Combustible Gas Cylinder has a 50% chance to make your next Power Shot or Serrated Shot activate instantly. This effect cannot occur more than once every 12 seconds." />
-          <Icon Value="republic" />
+          <Icon Value="abl_bh_me_speed_burn" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -4651,7 +4682,7 @@
         <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.collateral_damage">
           <Label Value="Collateral Damage" />
           <Description Value="Increases the damage dealt by Fusion Missile and Explosive Dart by 25% and causes Fusion Missile to spread your Incendiary Missile burn to targets it hits, if it hits a target already affected by your Incendiary Missile burn. Additionally, Explosive Dart will spread your Serrated Shot bleed to targets it hits, if it hits a target already affected by your Serrated Shot bleed." />
-          <Icon Value="empire" />
+          <Icon Value="abl_bh_me_collateral_damage" />
           <LevelAquired Value="16" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
@@ -4876,7 +4907,7 @@
         <Talent Name="tal.bounty_hunter.skill.utility.boresights">
           <Label Value="Boresights" />
           <Description Value="Increases the damage dealt by Sweeping Blasters by 25%." />
-          <Icon Value="assaultcannonironsight" />
+          <Icon Value="abl_bh_me_boresights" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="16" />
         </Talent>
@@ -4890,7 +4921,7 @@
         <Talent Name="tal.bounty_hunter.skill.utility.thrill_of_the_hunt">
           <Label Value="Thrill of the Hunt" />
           <Description Value="Allows Unload, Blazing Bolts, and Progressive Scan to be activated while moving." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_me_thrill_hunt" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="12" />
         </Talent>
@@ -5263,9 +5294,9 @@
           <CombatLogID Value="814274259714048" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.74" />
-              <StandardHealthPercentMax Value="0.174" />
-              <StandardHealthPercentMin Value="0.174" />
+              <Coefficient Value="1.42" />
+              <StandardHealthPercentMax Value="0.142" />
+              <StandardHealthPercentMin Value="0.142" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
@@ -5439,16 +5470,16 @@
           <CombatLogID Value="985140943650816" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
-              <Coefficient Value="1.94" />
-              <StandardHealthPercentMax Value="0.214" />
-              <StandardHealthPercentMin Value="0.174" />
+              <Coefficient Value="1.586" />
+              <StandardHealthPercentMax Value="0.179" />
+              <StandardHealthPercentMin Value="0.139" />
             </Type>
           </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.arsenal.blowback">
           <Label Value="Blowback" />
           <Description Value="Being interrupted grants Blowback, which makes your next Blazing Bolts immune to interruption. This effect cannot occur more than once every 8 seconds." />
-          <Icon Value="republic" />
+          <Icon Value="abl_bhtr_meco_blowback" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -5466,7 +5497,7 @@
         <Talent Name="tal.bounty_hunter.skill.arsenal.burst_mode">
           <Label Value="Burst Mode" />
           <Description Value="While High Velocity Gas Cylinder is active, the armor penetration granted by Supercharged Gas is increased by 5%, and Supercharged Velocity stacks build twice as fast and can build 3 additional stacks." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_meco_burst_mode" />
           <LevelAquired Value="44" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.arsenal.riddle">
@@ -5496,7 +5527,7 @@
         <Talent Name="tal.bounty_hunter.skill.arsenal.blazing_barrels">
           <Label Value="Blazing Barrels" />
           <Description Value="Increases the critical chance of Sweeping Blasters by 15% and its critical damage bonus by 30%." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bh_me_blazing_barrels" />
           <LevelAquired Value="16" />
         </Talent>
         <Talent Name="tal.bounty_hunter.skill.arsenal.target_tracking">
@@ -5974,7 +6005,7 @@
         <Talent Name="tal.jedi_consular.skill.utility.cloak_of_resilience">
           <Label Value="Cloak of Resilience" />
           <Description Value="Activating Force Cloak grants 2 seconds of Resilience." />
-          <Icon Value="flashgrenade" />
+          <Icon Value="abl_jc_sh_cloak_resilience" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="20" />
         </Talent>
@@ -6009,7 +6040,7 @@
         <Talent Name="tal.jedi_consular.skill.utility.martial_prowess">
           <Label Value="Martial Prowess" />
           <Description Value="Force Pull immobilizes its target for 3 seconds, Serenity Strike immobilizes its target for 2 seconds, and Low Slash immobilizes its target for 1 second after the incapacitating effect wears off." />
-          <Icon Value="immobilized" />
+          <Icon Value="abl_jc_sh_martial_prowess" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="19" />
         </Talent>
@@ -6044,7 +6075,7 @@
         <Talent Name="tal.jedi_consular.skill.utility.sturdiness">
           <Label Value="Sturdiness" />
           <Description Value="While Deflection is active, you are immune to stun, sleep, lift, and incapacitating effects." />
-          <Icon Value="spiritarmor" />
+          <Icon Value="abl_jc_sh_sturdiness" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="18" />
         </Talent>
@@ -6079,7 +6110,7 @@
         <Talent Name="tal.jedi_consular.skill.utility.force_harmonics">
           <Label Value="Force Harmonics" />
           <Description Value="Reduces the cooldown of Force Wave by 2.5 seconds and Force Potency grants 1 additional charge when activated." />
-          <Icon Value="sonicboom" />
+          <Icon Value="abl_jc_sh_force_harmonics" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="14" />
         </Talent>
@@ -6159,7 +6190,7 @@
         <Ability Name="abl.jedi_consular.skill.combat.mental_fortitude">
           <Label Value="Mental Fortitude" />
           <Description Value="Increases damage reduction and Endurance by 2% and allows for Spinning Kick to be used out of Stealth mode. Additionally, while Combat Technique is active, activating Force Potency will grant 30% shield absorption for &lt;&lt;1&gt;&gt; seconds." />
-          <Icon Value="mindtrick" />
+          <Icon Value="abl_jc_sh_mental_fortitude" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -6273,7 +6304,7 @@
         <Talent Name="tal.jedi_consular.skill.combat.psychokinesis">
           <Label Value="Psychokinesis" />
           <Description Value="While Combat Technique is active, Force Breach causes its targets to become unsteady for 45 seconds. Unsteady targets have their melee and ranged accuracy reduced by 5%. In addition, Whirling Blow deals 15% more damage to Unsteady targets." />
-          <Icon Value="cleave" />
+          <Icon Value="abl_jc_sh_psychokinesis" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.jedi_consular.skill.combat.kinetic_bulwark">
@@ -6453,7 +6484,7 @@
         <Talent Name="tal.jedi_consular.skill.serenity.prolific_justice">
           <Label Value="Prolific Justice" />
           <Description Value="Force in Balance spreads your periodic Force Breach and Sever Force effects to the targets it damages, as long as it damages targets already affected by your Force Breach and Sever Force. In addition, Force in Balance overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
-          <Icon Value="darkmeditation" />
+          <Icon Value="abl_jc_sh_prolific_justice" />
           <LevelAquired Value="28" />
         </Talent>
         <Talent Name="tal.jedi_consular.skill.serenity.adjudication">
@@ -6662,7 +6693,7 @@
         <Talent Name="tal.jedi_consular.skill.infiltration.prevalling_strikes">
           <Label Value="Prevalling Strikes" />
           <Description Value="Increases the damage dealt by Clairvoyant Strike, Whirling Blow and Spinning Strike by 10%." />
-          <Icon Value="republic" />
+          <Icon Value="abl_jc_sh_prevailing_strikes" />
           <LevelAquired Value="52" />
         </Talent>
         <Talent Name="tal.jedi_consular.skill.infiltration.shadows_respite">
@@ -7078,7 +7109,7 @@
         <Ability Name="abl.jedi_consular.skill.seer.altruism">
           <Label Value="Altruism" />
           <Description Value="Mind Crush, Disturbance, Deliverance, and Salvation grant Altruism, which causes your next Benevolence to activate instantly and consume no Force. This effect may not occur more than once every 10 seconds." />
-          <Icon Value="republic" />
+          <Icon Value="abl_jc_sa_altruism" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -7164,7 +7195,7 @@
         </Ability>
         <Ability Name="abl.jedi_consular.skill.seer.resplendence">
           <Label Value="Resplendence" />
-          <Description Value="Healing Trance critical hits grant 1 charge of Resplendence, which improves the effectiveness of your next Noble Sacrifice or Salvation. Noble Sacrifice: Activates without degenerating your force regeneration rate. Consumes 1 charge. Salvation: Activates 33% faster and costs 10 less force per charge. Consumes all charges." />
+          <Description Value="Healing Trance critical hits grant 1 charge of Resplendence, which improves the effectiveness of your next Noble Sacrifice or Salvation. Noble Sacrifice: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Salvation: Activates 33% faster and costs 10 less force per charge. Consumes all charges." />
           <Icon Value="unleashedpalm" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -7475,7 +7506,7 @@
         <Talent Name="tal.jedi_consular.skill.utility.tectonic_mastery">
           <Label Value="Tectonic Mastery" />
           <Description Value="Increases the damage dealt by Forcequake by 25%." />
-          <Icon Value="ringoffire" />
+          <Icon Value="abl_jc_sa_tectonic_mastery" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="13" />
         </Talent>
@@ -7952,7 +7983,7 @@
         <Talent Name="tal.jedi_consular.skill.balance.abundant_justice">
           <Label Value="Abundant Justice" />
           <Description Value="Force in Balance spreads your Weaken Mind and Sever Force to the targets it damages, as long as it damages targets already affected by your Weaken Mind and Sever Force. In addition, Force in Balance overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
-          <Icon Value="casting" />
+          <Icon Value="abl_jc_sa_abundant_justice" />
           <LevelAquired Value="28" />
         </Talent>
         <Talent Name="tal.jedi_consular.skill.balance.telekinetic_balance">
@@ -8024,7 +8055,7 @@
         <Ability Name="abl.jedi_consular.skill.telekinetics.tidal_force">
           <Label Value="Tidal Force" />
           <Description Value="Disturbance, Telekinetic Burst, Turbulence, and Forcequake grant Tidal Force when activated. Tidal Force immediately finishes the cooldown on Telekinetic Wave and makes your next Telekinetic Wave activate instantly and consume 50% less Force. This effect cannot occur more than once every 10 seconds." />
-          <Icon Value="mentalfocus" />
+          <Icon Value="abl_jc_sa_mental_continuum" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -8201,7 +8232,7 @@
         <Talent Name="tal.jedi_consular.skill.telekinetics.resonating_vibrations">
           <Label Value="Resonating Vibrations" />
           <Description Value="Increases the critical chance of Force Quake by 15% and its critical damage bonus by 30%." />
-          <Icon Value="ringoffire" />
+          <Icon Value="abl_jc_sa_resonating_vibrations" />
           <LevelAquired Value="16" />
         </Talent>
         <Talent Name="tal.jedi_consular.skill.telekinetics.flowing_force">
@@ -9132,7 +9163,7 @@
         <Talent Name="tal.jedi_knight.skill.watchman.burning_sweep">
           <Label Value="Burning Sweep" />
           <Description Value="Force Sweep spreads your Cauterize and Force Melt burns to targets it hits, if it hits a target already affected by those burns." />
-          <Icon Value="republic" />
+          <Icon Value="abl_jk_se_burning_sweep" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.watchman.accelerating_victory">
@@ -9462,7 +9493,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.pulse">
           <Label Value="Pulse" />
           <Description Value="Reduces the cooldown of Force Stasis by 15 seconds." />
-          <Icon Value="cloudmind" />
+          <Icon Value="carbonized" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="12" />
         </Talent>
@@ -9476,7 +9507,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.trailblazer">
           <Label Value="Trailblazer" />
           <Description Value="Cyclone Slash deals 25% more damage." />
-          <Icon Value="sprint" />
+          <Icon Value="abl_jk_gu_trailblazer" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="6" />
         </Talent>
@@ -9674,18 +9705,6 @@
             </Type>
           </Coeffcients>
         </Ability>
-        <Ability Name="abl.jedi_knight.skill.combat.immaculate_force">
-          <Label Value="Immaculate Force" />
-          <Description Value="Opportune Attack now additionally increases the critical chance of Blade Storm by &lt;&lt;1&gt;&gt;%." />
-          <Icon Value="whirling_blow" />
-          <Damage Value="False" />
-          <Healing Value="False" />
-          <Passive Value="True" />
-          <LevelAquired Value="36" />
-          <OnGCD Value="True" />
-          <Cooldown Value="1" />
-          <CombatLogID Value="1262887888748544" />
-        </Ability>
         <Ability Name="abl.jedi_knight.skill.combat.opportune_attack">
           <Label Value="Opportune Attack" />
           <Description Value="Damage dealt by Ataru Form grants Opportune Attack, which makes your next Blade Storm or Clashing Blast deal 5% more damage and sunder the target for &lt;&lt;1&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%." />
@@ -9697,18 +9716,6 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3486302263574528" />
-        </Ability>
-        <Ability Name="abl.jedi_knight.skill.combat.combat_trance">
-          <Label Value="" />
-          <Description Value="" />
-          <Icon Value="bhoutlaw" />
-          <Damage Value="False" />
-          <Healing Value="False" />
-          <Passive Value="True" />
-          <LevelAquired Value="32" />
-          <OnGCD Value="True" />
-          <Cooldown Value="1" />
-          <CombatLogID Value="-1" />
         </Ability>
         <Ability Name="abl.jedi_knight.skill.combat.blade_rush">
           <Label Value="Blade Rush" />
@@ -9725,9 +9732,9 @@
           <CombatLogID Value="1261711067709440" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.34" />
-              <StandardHealthPercentMax Value="0.134" />
-              <StandardHealthPercentMin Value="0.134" />
+              <Coefficient Value="1.36" />
+              <StandardHealthPercentMax Value="0.136" />
+              <StandardHealthPercentMin Value="0.136" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
@@ -9787,11 +9794,23 @@
           <Icon Value="momentousblow" />
           <LevelAquired Value="24" />
         </Talent>
+        <Talent Name="tal.jedi_knight.skill.combat.combat_trance">
+          <Label Value="Combat Trance" />
+          <Description Value="When Opportunity is consumed by Blade Storm or Clashing Blast, you build 1 focus." />
+          <Icon Value="cc_attack" />
+          <LevelAquired Value="32" />
+        </Talent>
         <Talent Name="tal.jedi_knight.skill.combat.dual_wield_mastery">
           <Label Value="Dual Wield Mastery" />
           <Description Value="Increases the damage dealt with offhand lightsaber attacks by 25%." />
           <Icon Value="dualmastery" />
           <LevelAquired Value="16" />
+        </Talent>
+        <Talent Name="tal.jedi_knight.skill.combat.immaculate_force">
+          <Label Value="Immaculate Force" />
+          <Description Value="Execute now additionally increases the critical chance of Blade Storm and Clashing Blast by 100%." />
+          <Icon Value="whirling_blow" />
+          <LevelAquired Value="36" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.combat.swift_blades">
           <Label Value="Swift Blades" />
@@ -9936,7 +9955,7 @@
         <Talent Name="tal.jedi_knight.skill.defense.warding_power">
           <Label Value="Warding Power" />
           <Description Value="Increases the critical chance of Force Sweep by 20%. Additionally, Warding Strike increases shield absorption by 3%." />
-          <Icon Value="interceptorshield" />
+          <Icon Value="abl_jk_gu_warding_power" />
           <LevelAquired Value="56" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.defense.shield_specialization">
@@ -9948,7 +9967,7 @@
         <Talent Name="tal.jedi_knight.skill.defense.pacification">
           <Label Value="Pacification" />
           <Description Value="Force Sweep deals 65% more damage and consumes 2 less focus. Additionally, the critical chance of Cyclone Slash is increased by 20%." />
-          <Icon Value="telekineticblast" />
+          <Icon Value="abl_jk_gu_pacification" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.defense.lunge">
@@ -10022,9 +10041,9 @@
           <Cooldown Value="1" />
           <CombatLogID Value="3187106251800576" />
         </Ability>
-        <Ability Name="abl.jedi_knight.skill.vigilance.vigilant_slash">
-          <Label Value="" />
-          <Description Value="" />
+        <Ability Name="abl.jedi_knight.skill.vigilance.vigilant_thrust">
+          <Label Value="Vigilant Thrust" />
+          <Description Value="Thrusts your weapon into the ground, causing a Force-empowered shockwave that deals &lt;&lt;1&gt;&gt; energy damage to up to 8 enemies within 5 meters. Stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;.  Shares a cooldown with Force Sweep." />
           <Icon Value="abl_jk_gu_vigilant_strike" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -10033,17 +10052,12 @@
           <OnGCD Value="True" />
           <Cooldown Value="15" />
           <TargetArc Value="360" />
-          <CombatLogID Value="-1" />
+          <CombatLogID Value="3503417708249088" />
           <Coeffcients>
-            <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.23" />
-              <StandardHealthPercentMax Value="0.123" />
-              <StandardHealthPercentMin Value="0.123" />
-            </Type>
             <Type Value="effAction_SpellDamage">
-              <Coefficient Value="1.15" />
-              <StandardHealthPercentMax Value="0.135" />
-              <StandardHealthPercentMin Value="0.095" />
+              <Coefficient Value="2.26" />
+              <StandardHealthPercentMax Value="0.246" />
+              <StandardHealthPercentMin Value="0.206" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10183,7 +10197,7 @@
         <Talent Name="tal.jedi_knight.skill.vigilance.smoldering_saber">
           <Label Value="Smoldering Saber" />
           <Description Value="Increases the critical chance of Plasma Brand, Vigilant Thrust, and burning effects by 10%." />
-          <Icon Value="republic" />
+          <Icon Value="abl_jk_gu_smoldering_saber" />
           <LevelAquired Value="59" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.vigilance.effluence">
@@ -10195,7 +10209,7 @@
         <Talent Name="tal.jedi_knight.skill.vigilance.burning_storm">
           <Label Value="Burning Storm" />
           <Description Value="Force Sweep and Vigilant Thrust spread your burning effects to all targets they damage, if at least one of the targets is already affected by your burns. In addition, Cyclone Slash deals 25% more damage to burning targets." />
-          <Icon Value="abl_bh_pt_firestorm" />
+          <Icon Value="abl_jk_gu_burning_storm" />
           <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.vigilance.master_focus">
@@ -10355,7 +10369,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.pulse">
           <Label Value="Pulse" />
           <Description Value="Reduces the cooldown of Force Stasis by 15 seconds." />
-          <Icon Value="cloudmind" />
+          <Icon Value="carbonized" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="12" />
         </Talent>
@@ -10369,7 +10383,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.trailblazer">
           <Label Value="Trailblazer" />
           <Description Value="Cyclone Slash deals 25% more damage." />
-          <Icon Value="sprint" />
+          <Icon Value="abl_jk_gu_trailblazer" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="6" />
         </Talent>
@@ -10383,7 +10397,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.peaceful_focus">
           <Label Value="Peaceful Focus" />
           <Description Value="Focused Defense removes all cleansable effects when activated." />
-          <Icon Value="salvation" />
+          <Icon Value="abl_jk_gu_peaceful_focus" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="20" />
         </Talent>
@@ -10411,7 +10425,7 @@
         <Talent Name="tal.jedi_knight.skill.utility.true_harmony">
           <Label Value="True Harmony" />
           <Description Value="Enure increases your movement speed by 50% and grants immunity to movement-impairing effects while active." />
-          <Icon Value="meditation" />
+          <Icon Value="abl_jk_gu_true_harmony" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="21" />
         </Talent>
@@ -10976,7 +10990,7 @@
         <Talent Name="tal.jedi_knight.skill.focus.concentrated_power">
           <Label Value="Concentrated Power" />
           <Description Value="While Shii-Cho Form is active, Concentrated Slice enables Riposte and beats down its target for 45 seconds. Beat Down targets take 5% more damage from melee attacks." />
-          <Icon Value="bhoutlaw" />
+          <Icon Value="abl_jk_gu_concentrated_power" />
           <LevelAquired Value="59" />
         </Talent>
         <Talent Name="tal.jedi_knight.skill.focus.shiicho_mastery">
@@ -12443,7 +12457,7 @@
         </Ability>
         <Ability Name="abl.sith_inquisitor.skill.corruption.force_surge">
           <Label Value="Force Surge" />
-          <Description Value="Innervate critical hits grant 1 charge of Force Surge, which improves the effectiveness of your next Consumption or Revivification. Consumption: Activates without degenerating your Force regeneration rate. Consumes 1 charge. Revivification: Activates 33% faster and costs 10 less Force per charge. Consumes all charges." />
+          <Description Value="Innervate critical hits grant 1 charge of Force Surge, which improves the effectiveness of your next Consumption or Revivification. Consumption: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Revivification: Activates 33% faster and costs 10 less Force per charge. Consumes all charges." />
           <Icon Value="berserk" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -15958,6 +15972,26 @@
       </DisciplineTree>
       <DisciplineTree Name="vengeance">
         <Label Value="Vengeance" />
+        <Ability Name="abl.sith_warrior.skill.vengeance.vengeful_slam">
+          <Label Value="Vengeful Slam" />
+          <Description Value="Slams your weapon on the ground, causing a Force-empowered shockwave that deals &lt;&lt;1&gt;&gt; energy damage to up to 8 enemies within 5 meters. Stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;.   Shares a cooldown with Smash." />
+          <Icon Value="abl_sw_ju_vengeful_slash" />
+          <Damage Value="True" />
+          <Healing Value="False" />
+          <Passive Value="False" />
+          <LevelAquired Value="57" />
+          <OnGCD Value="True" />
+          <Cooldown Value="15" />
+          <TargetArc Value="360" />
+          <CombatLogID Value="3503361873674240" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="2.26" />
+              <StandardHealthPercentMax Value="0.246" />
+              <StandardHealthPercentMin Value="0.206" />
+            </Type>
+          </Coeffcients>
+        </Ability>
         <Ability Name="abl.sith_warrior.skill.vengeance.shien_form">
           <Label Value="Shien Form" />
           <Description Value="Enters an aggressive lightsaber form, increasing all damage dealt by 6% and movement speed by 15%. All attacks that consume rage will refund 1 rage when used." />
@@ -16089,31 +16123,6 @@
               <Coefficient Value="0.435" />
               <StandardHealthPercentMax Value="0.0435" />
               <StandardHealthPercentMin Value="0.0435" />
-            </Type>
-          </Coeffcients>
-        </Ability>
-        <Ability Name="abl.sith_warrior.skill.vengeance.vengeful_slash">
-          <Label Value="" />
-          <Description Value="" />
-          <Icon Value="abl_sw_ju_vengeful_slash" />
-          <Damage Value="True" />
-          <Healing Value="False" />
-          <Passive Value="False" />
-          <LevelAquired Value="57" />
-          <OnGCD Value="True" />
-          <Cooldown Value="15" />
-          <TargetArc Value="360" />
-          <CombatLogID Value="-1" />
-          <Coeffcients>
-            <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.23" />
-              <StandardHealthPercentMax Value="0.123" />
-              <StandardHealthPercentMin Value="0.123" />
-            </Type>
-            <Type Value="effAction_SpellDamage">
-              <Coefficient Value="1.15" />
-              <StandardHealthPercentMax Value="0.135" />
-              <StandardHealthPercentMin Value="0.095" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16926,6 +16935,11 @@
             <StandardHealthPercentMax Value="0.03075" />
             <StandardHealthPercentMin Value="0.03075" />
           </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.3075" />
+            <StandardHealthPercentMax Value="0.03075" />
+            <StandardHealthPercentMin Value="0.03075" />
+          </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.dodge">
@@ -17198,7 +17212,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.scrapper.shank_shot">
           <Label Value="Shank Shot" />
-          <Description Value="Shoots the target for &lt;&lt;1&gt;&gt; kinetic damage and immobilizes the target, preventing them from moving or turning for &lt;&lt;2&gt;&gt; seconds. Additionally inflicts trauma for &lt;&lt;3&gt;&gt; seconds, reducing all healing the target receives by 20%." />
+          <Description Value="Fires a close-up scattergun shot at the target's shank, dealing &lt;&lt;1&gt;&gt; kinetic damage and immobilizing the target, preventing it from moving or turning for &lt;&lt;2&gt;&gt; seconds." />
           <Icon Value="abl_sm_sc_shank_shot" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -17207,6 +17221,7 @@
           <OnGCD Value="True" />
           <Cooldown Value="15" />
           <Range Value="0" />
+          <TargetArc Value="270" />
           <CombatLogID Value="3406471706443776" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
@@ -17304,7 +17319,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.scrapper.bludgeon">
           <Label Value="Bludgeon" />
-          <Description Value="Strikes at the target for &lt;&lt;1&gt;&gt; kinetic damage.  Shares a cooldown with Blaster Whip." />
+          <Description Value="Bashes the target with the scattergun's butt for &lt;&lt;1&gt;&gt; kinetic damage, granting an Upper Hand.  Shares a cooldown with Blaster Whip." />
           <Icon Value="abl_sm_sc_bludgeon" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -17313,6 +17328,7 @@
           <OnGCD Value="True" />
           <Cooldown Value="6" />
           <Range Value="0" />
+          <TargetArc Value="270" />
           <CombatLogID Value="3406458821541888" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
@@ -17351,7 +17367,7 @@
         </Talent>
         <Talent Name="tal.smuggler.skill.scrapper.let_em_have_it">
           <Label Value="Let 'Em Have It" />
-          <Description Value="Increases the critical hit chance of Blaster Volley by 10% and the critical damage bonus by 25%." />
+          <Description Value="Increases the critical chance of Blaster Volley by 15% and its critical damage bonus by 30%." />
           <Icon Value="empire" />
           <LevelAquired Value="12" />
         </Talent>
@@ -17363,7 +17379,7 @@
         </Talent>
         <Talent Name="tal.smuggler.skill.scrapper.pressure_cooker">
           <Label Value="Pressure Cooker" />
-          <Description Value="Increases the damage and critical hit chance of Blood Boiler by 5%" />
+          <Description Value="Increases the damage dealt by and critical chance of Blood Boiler by 5%." />
           <Icon Value="republic" />
           <LevelAquired Value="59" />
         </Talent>
@@ -17574,7 +17590,7 @@
         </Ability>
         <Ability Name="abl.smuggler.upper_hand">
           <Label Value="Upper Hand" />
-          <Description Value="Defeating an opponent, activating Blaster Whip, or activating Back Blast while stealthed grants the Upper Hand, enabling the use of exploits for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Upper Hand can exist at once." />
+          <Description Value="Defeating an opponent or activating Blaster Whip gives you the Upper Hand, enabling the use of exploits for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Upper Hand can exist at once." />
           <Icon Value="overcome" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -17583,18 +17599,6 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="2275727076491264" />
-        </Ability>
-        <Ability Name="abl.smuggler.defibrillator">
-          <Label Value="Defibrillator" />
-          <Description Value="Reduces the cooldown of Revive by 100%." />
-          <Icon Value="armortechupgrade1" />
-          <Damage Value="False" />
-          <Healing Value="False" />
-          <Passive Value="True" />
-          <LevelAquired Value="10" />
-          <OnGCD Value="True" />
-          <Cooldown Value="1" />
-          <CombatLogID Value="2439451229814784" />
         </Ability>
         <Ability Name="abl.smuggler.tendon_blast">
           <Label Value="Tendon Blast" />
@@ -17686,8 +17690,14 @@
         </Talent>
         <Talent Name="tal.smuggler.blasters_blazing">
           <Label Value="Blasters Blazing" />
-          <Description Value="Increases the damage dealt by Quick Shot by 15% and increases the damage done by your weapons by 20%." />
+          <Description Value="Increases the damage dealt by Quick Shot by 15% and increases the damage done by your weapons by 20%. In addition, Thermal Grenade now deals its area damage to any nearby enemy targets, even if those targets are stronger than weak or standard." />
           <Icon Value="unload" />
+          <LevelAquired Value="10" />
+        </Talent>
+        <Talent Name="tal.smuggler.defibrillator">
+          <Label Value="Defibrillator" />
+          <Description Value="Reduces the cooldown of Revive by 100%." />
+          <Icon Value="armortechupgrade1" />
           <LevelAquired Value="10" />
         </Talent>
         <Talent Name="tal.smuggler.element_of_surprise">
@@ -17876,8 +17886,8 @@
         </Talent>
         <Talent Name="tal.smuggler.skill.sawbones.bedside_manner">
           <Label Value="Bedside Manner" />
-          <Description Value="Spending an Upper Hand increases outgoing healing by 15% for 6 seconds.  This can only occur once every 10 seconds." />
-          <Icon Value="mirilantrader" />
+          <Description Value="Consuming an Upper Hand with a healing ability increases all healing done by 3% for 6 seconds. This can only occur once every 10 seconds." />
+          <Icon Value="abl_sm_sc_bedside_manner" />
           <LevelAquired Value="59" />
         </Talent>
         <Talent Name="tal.smuggler.skill.sawbones.healing_hand">
@@ -17969,6 +17979,11 @@
               <StandardHealthPercentMax Value="0.027" />
               <StandardHealthPercentMin Value="0.027" />
             </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.3" />
+              <StandardHealthPercentMax Value="0.027" />
+              <StandardHealthPercentMin Value="0.027" />
+            </Type>
           </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.ruffian.scurry">
@@ -18028,7 +18043,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
           <Label Value="Fighting Spirit" />
-          <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 1 energy." />
+          <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 2 energy." />
           <Icon Value="cc_aggressive" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -18040,7 +18055,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.ruffian.point_blank_shot">
           <Label Value="Point Blank Shot" />
-          <Description Value="Ambushes an enemy for &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;3&gt;&gt; internal damage. If used while stealthed, deals &lt;&lt;2&gt;&gt; kinetic damage, &lt;&lt;4&gt;&gt; internal damage, and grants Upper Hand.  Shares a cooldown with Backblast." />
+          <Description Value="Blasts an enemy at point-blank range for &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;3&gt;&gt; internal damage. If used while stealthed, deals &lt;&lt;2&gt;&gt; kinetic damage, &lt;&lt;4&gt;&gt; internal damage, and grants an Upper Hand.  Shares a cooldown with Back Blast." />
           <Icon Value="abl_sm_sc_point_blank_shot" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -18599,7 +18614,7 @@
         <Talent Name="tal.smuggler.skill.utility.crippling_diversion">
           <Label Value="Crippling Diversion" />
           <Description Value="Diversion slows all targets by 50% for as long as they remain in the area." />
-          <Icon Value="movementslowed" />
+          <Icon Value="abl_agsm_sngs_crippling_diversion" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="21" />
         </Talent>
@@ -18648,9 +18663,9 @@
           <CombatLogID Value="1159319047372800" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
-              <Coefficient Value="0.14" />
-              <StandardHealthPercentMax Value="0.014" />
-              <StandardHealthPercentMin Value="0.014" />
+              <Coefficient Value="0.201" />
+              <StandardHealthPercentMax Value="0.0201" />
+              <StandardHealthPercentMin Value="0.0201" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18668,7 +18683,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.saboteur.insurrection">
           <Label Value="Insurrection" />
-          <Description Value="Increases the number of Contingency Charges dropped by Sabotage Charge by &lt;&lt;1[%d/%d/%d]&gt;&gt;. In addition, when your Contingency Charges detonate, you recover &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
+          <Description Value="Increases the number of Contingency Charges dropped by Sabotage Charge by 2. In addition, when your Contingency Charges detonate, you recover 5 energy." />
           <Icon Value="siupstartslave" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -18680,7 +18695,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.saboteur.scatter_bombs">
           <Label Value="Scatter Bombs" />
-          <Description Value="Reduces the energy cost of Thermal Grenade by 5. In addition, when rolling with Scamper, you drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;3&gt;&gt; kinetic damage to any nearby enemy. Enemies can only be struck by 2 bombs." />
+          <Description Value="Reduces the energy cost of Thermal Grenade by 5. In addition, when rolling with Scamper, you drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;1&gt;&gt; kinetic damage to any nearby enemy. Enemies can only be struck by 2 bombs." />
           <Icon Value="scatterbombs" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -18697,9 +18712,21 @@
             </Type>
           </Coeffcients>
         </Ability>
+        <Ability Name="abl.smuggler.skill.saboteur.saboteurs_utility_belt">
+          <Label Value="Saboteur's Utility Belt" />
+          <Description Value="Increases the critical hit chance of Thermal Grenade by 10% and when Thermal Grenade deals damage to its primary target, it restores 5 energy." />
+          <Icon Value="utilitybeltwithmanyslots" />
+          <Damage Value="False" />
+          <Healing Value="False" />
+          <Passive Value="True" />
+          <LevelAquired Value="12" />
+          <OnGCD Value="True" />
+          <Cooldown Value="1" />
+          <CombatLogID Value="2303214867185664" />
+        </Ability>
         <Ability Name="abl.smuggler.skill.saboteur.contingency_charges">
           <Label Value="Contingency Charges" />
-          <Description Value="After Sabotage Charge detonates, it drops &lt;&lt;1[%d contingency charges/%d contingency charge/%d contingency charges]&gt;&gt; on the target. A Contingency Charge explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Contingency Charges cannot be detonated more than once every half second." />
+          <Description Value="After Sabotage Charge detonates, it drops 2 contingency charges on the target. A Contingency Charge explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Contingency Charges cannot be detonated more than once every half second." />
           <Icon Value="democharge" />
           <Damage Value="True" />
           <Healing Value="False" />
@@ -18737,7 +18764,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.saboteur.sapping_charge">
           <Label Value="Sapping Charge" />
-          <Description Value="Shock Charge reduces the target's movement speed by 70% for the duration." />
+          <Description Value="Shock Charge reduces the target's movement speed by 30% for the duration." />
           <Icon Value="shocked" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -18809,12 +18836,6 @@
           <Description Value="Reduces the activation time of XS Freighter Flyby by 1 second and its cooldown by 15 seconds. In addition, Incendiary Grenade overwhelms the targets it damages for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
           <Icon Value="smuggler" />
           <LevelAquired Value="48" />
-        </Talent>
-        <Talent Name="tal.smuggler.skill.saboteur.saboteurs_utility_belt">
-          <Label Value="Saboteur's Utility Belt" />
-          <Description Value="Reduces the cooldown of Thermal Grenade by 6 seconds and increases the critical hit chance by 10%." />
-          <Icon Value="utilitybeltwithmanyslots" />
-          <LevelAquired Value="12" />
         </Talent>
         <Talent Name="tal.smuggler.skill.saboteur.arsonist">
           <Label Value="Arsonist" />
@@ -18890,7 +18911,7 @@
         <Ability Name="abl.smuggler.skill.sharpshooter.honed_shots">
           <Label Value="Honed Shots" />
           <Description Value="Charged Burst grants Honed Shots, increasing the critical hit chance and damage done by Charged Burst by 5% for 15 seconds.  Stacks up to 3 times." />
-          <Icon Value="republic" />
+          <Icon Value="abl_agsm_sngs_honed_shot" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -19087,6 +19108,11 @@
               <StandardHealthPercentMax Value="0.027" />
               <StandardHealthPercentMin Value="0.027" />
             </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.3" />
+              <StandardHealthPercentMax Value="0.027" />
+              <StandardHealthPercentMin Value="0.027" />
+            </Type>
           </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.dirty_fighting.wounding_shot">
@@ -19126,14 +19152,14 @@
           <LevelAquired Value="41" />
           <OnGCD Value="True" />
           <Cooldown Value="18" />
-          <Range Value="10" />
+          <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="3404620575539200" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="0.178" />
-              <StandardHealthPercentMax Value="0.018" />
-              <StandardHealthPercentMin Value="0.018" />
+              <Coefficient Value="0.153" />
+              <StandardHealthPercentMax Value="0.0153" />
+              <StandardHealthPercentMin Value="0.0153" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
@@ -19141,9 +19167,14 @@
               <StandardHealthPercentMin Value="0" />
             </Type>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="0.178" />
-              <StandardHealthPercentMax Value="0.018" />
-              <StandardHealthPercentMin Value="0.018" />
+              <Coefficient Value="0.153" />
+              <StandardHealthPercentMax Value="0.0153" />
+              <StandardHealthPercentMin Value="0.0153" />
+            </Type>
+            <Type Value="effAction_WeaponDamage">
+              <Coefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -19163,7 +19194,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
           <Label Value="Fighting Spirit" />
-          <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 1 energy." />
+          <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 2 energy." />
           <Icon Value="cc_aggressive" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -19194,7 +19225,7 @@
         </Ability>
         <Ability Name="abl.smuggler.skill.dirty_fighting.dirty_shot">
           <Label Value="Dirty Shot" />
-          <Description Value="Damage dealt by Wounding Shots has a 45% chance to trigger Dirty Shot, which finishes the cooldown of Quickdraw and makes your next Quickdraw usable on a target with any health level." />
+          <Description Value="Damage dealt by Wounding Shots has a 80% chance to trigger Dirty Shot, which finishes the cooldown of Quickdraw and makes your next Quickdraw usable on a target with any health level." />
           <Icon Value="rioteer" />
           <Damage Value="False" />
           <Healing Value="False" />
@@ -19206,7 +19237,7 @@
         </Ability>
         <Talent Name="tal.smuggler.skill.dirty_fighting.cheap_shots">
           <Label Value="Cheap Shots" />
-          <Description Value="Increases the damage dealt by Charged Burst, Dirty Bast, Speed Shot and Wounding Shots by 5%." />
+          <Description Value="Increases the damage dealt by Charged Burst, Dirty Bast, Speed Shot and Wounding Shots by 5%. Additionally, when Shrap Bomb and Vital Shots end they are replaced by a lingering version for 5 seconds that will only deal damage when Wounding Shots deals damage." />
           <Icon Value="hammershot" />
           <LevelAquired Value="36" />
         </Talent>
@@ -19930,7 +19961,7 @@
         <Ability Name="abl.trooper.skill.combat_medic.emergency_response">
           <Label Value="Emergency Response" />
           <Description Value="Eliminates the energy cell use by Bacta Infusion. In addition, activating Bacta Infusion grants Emergency Response, which makes your next Advanced Medical Probe activate instantly. Lasts &lt;&lt;1&gt;&gt; seconds." />
-          <Icon Value="rapidscan" />
+          <Icon Value="abl_bhtr_meco_emergency_response" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -20137,9 +20168,9 @@
           <CombatLogID Value="3393522380046336" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.0475" />
-              <StandardHealthPercentMax Value="0.10475" />
-              <StandardHealthPercentMin Value="0.10475" />
+              <Coefficient Value="1.125" />
+              <StandardHealthPercentMax Value="0.1125" />
+              <StandardHealthPercentMin Value="0.1125" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20191,7 +20222,7 @@
         <Ability Name="abl.trooper.skill.gunnery.blowback">
           <Label Value="Blowback" />
           <Description Value="Being interrupted grants Blowback, which makes your next Boltstorm immune to interruption. This effect cannot occur more than once every 8 seconds." />
-          <Icon Value="chargedplating" />
+          <Icon Value="abl_bhtr_meco_blowback" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -20214,9 +20245,9 @@
           <CombatLogID Value="1202535008305152" />
           <Coeffcients>
             <Type Value="effAction_SpellDamage">
-              <Coefficient Value="1.94" />
-              <StandardHealthPercentMax Value="0.214" />
-              <StandardHealthPercentMin Value="0.174" />
+              <Coefficient Value="1.586" />
+              <StandardHealthPercentMax Value="0.179" />
+              <StandardHealthPercentMin Value="0.139" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20279,7 +20310,7 @@
         <Talent Name="tal.trooper.skill.gunnery.burst_mode">
           <Label Value="Burst Mode" />
           <Description Value="While Armor Piercing Cell is active, the armor penetration granted by Supercharged Cell is increased by 5%, and Supercharged Celerity stacks build twice as fast and can build 3 additional stacks." />
-          <Icon Value="ionclip" />
+          <Icon Value="abl_bhtr_meco_burst_mode" />
           <LevelAquired Value="44" />
         </Talent>
         <Talent Name="tal.trooper.skill.gunnery.ironsights">
@@ -20367,9 +20398,9 @@
           <CombatLogID Value="801260508807168" />
           <Coeffcients>
             <Type Value="effAction_WeaponDamage">
-              <Coefficient Value="1.74" />
-              <StandardHealthPercentMax Value="0.174" />
-              <StandardHealthPercentMin Value="0.174" />
+              <Coefficient Value="1.42" />
+              <StandardHealthPercentMax Value="0.142" />
+              <StandardHealthPercentMin Value="0.142" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20680,6 +20711,12 @@
             </Type>
           </Coeffcients>
         </Ability>
+        <Talent Name="tal.trooper.skill.gunnery.special_munitions">
+          <Label Value="Special Munitions" />
+          <Description Value="Reduces the pushback suffered while activating Charged Bolt, Grav Round, Concussive Round, Plasma Grenade, and Serrated Bolt by 75%, and increases the effect of your cells while they are active: Plasma Cell: Increases ranged critical chance by 5%. Armor Piercing Cell: Reduces the cost of High Impact Bolt by 10. Combat Support Cell: Increases tech critical chance by 3%." />
+          <Icon Value="armament2" />
+          <LevelAquired Value="38" />
+        </Talent>
       </base>
       <UtilityTree Name="utility">
         <Ability Name="abl.trooper.skill.utility.kolto_wave">
@@ -21028,7 +21065,7 @@
         <Ability Name="abl.trooper.skill.shield_specialist.shield_enhancers">
           <Label Value="Shield Enhancers" />
           <Description Value="Stockstrike and High Impact Bolt grant Shield Enhancers when activated, increasing shield chance by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
-          <Icon Value="shieldgenerator1" />
+          <Icon Value="abl_bhtr_ptvg_shield_enhancers" />
           <Damage Value="False" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -21178,7 +21215,7 @@
         <Ability Name="abl.trooper.skill.utility.reflective_armor">
           <Label Value="Reflective Armor" />
           <Description Value="When Into the Fray is triggered, it will also deal &lt;&lt;1&gt;&gt; elemental damage to the attacker if the attacker is within 10 meters." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_ptvg_reflective_armor" />
           <Damage Value="True" />
           <Healing Value="False" />
           <Passive Value="True" />
@@ -21276,7 +21313,7 @@
         <Talent Name="tal.trooper.skill.utility.iron_will">
           <Label Value="Iron Will" />
           <Description Value="Reduces the cooldown of Tenacity by 30 seconds and the cooldown of Hold the Line by 5 seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_ptvg_iron_will" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="7" />
         </Talent>
@@ -21297,7 +21334,7 @@
         <Talent Name="tal.trooper.skill.utility.accelerated_reel">
           <Label Value="Accelerated Reel" />
           <Description Value="Reduces the cooldown of Harpoon by 15 seconds." />
-          <Icon Value="stimpack" />
+          <Icon Value="abl_bhtr_ptvg_accelerated_reel" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="11" />
         </Talent>
@@ -21924,6 +21961,21 @@
           <TargetArc Value="270" />
           <CombatLogID Value="3393354876321792" />
           <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.082" />
+              <StandardHealthPercentMin Value="0.068" />
+            </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.75" />
               <StandardHealthPercentMax Value="0.082" />
