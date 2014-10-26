@@ -34,6 +34,7 @@
             <Coefficient Value="0.5" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.5" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -93,6 +94,7 @@
             <Coefficient Value="1.74" />
             <StandardHealthPercentMax Value="0.174" />
             <StandardHealthPercentMin Value="0.174" />
+            <AmmountModifier Value="0.16" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -107,6 +109,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412477304700928" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.agent.distraction">
         <Label Value="Distraction" />
@@ -133,6 +149,19 @@
         <OnGCD Value="False" />
         <Cooldown Value="20" />
         <CombatLogID Value="784716294782976" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3.06" />
+            <StandardHealthPercentMax Value="0.153" />
+            <StandardHealthPercentMin Value="0.153" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.042" />
+            <StandardHealthPercentMin Value="0.042" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.state.take_cover">
         <Label Value="Take Cover" />
@@ -230,6 +259,7 @@
             <Coefficient Value="1.39" />
             <StandardHealthPercentMax Value="0.139" />
             <StandardHealthPercentMin Value="0.139" />
+            <AmmountModifier Value="-0.07" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -411,6 +441,15 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="1624803307945984" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+            <ThreatModifier Value="-1" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.proficiency.armor.medium">
         <Label Value="Armor Proficiency: Medium" />
@@ -689,6 +728,7 @@
               <Coefficient Value="0.805" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -753,11 +793,13 @@
               <Coefficient Value="0.153" />
               <StandardHealthPercentMax Value="0.0153" />
               <StandardHealthPercentMin Value="0.0153" />
+              <AmmountModifier Value="-0.9" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.153" />
               <StandardHealthPercentMax Value="0.0153" />
               <StandardHealthPercentMin Value="0.0153" />
+              <AmmountModifier Value="-0.9" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -810,6 +852,7 @@
               <Coefficient Value="0.988" />
               <StandardHealthPercentMax Value="0.099" />
               <StandardHealthPercentMin Value="0.099" />
+              <AmmountModifier Value="-0.34" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.77" />
@@ -921,6 +964,14 @@
           <CombatLogID Value="3394883884679168" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="5" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.agent.skill.utility.ballistic_damper">
           <Label Value="Ballistic Dampers" />
@@ -935,6 +986,14 @@
           <CombatLogID Value="3394012006318080" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="1" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.3" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.agent.skill.utility.counter_strike">
           <Label Value="Counterstrike" />
@@ -1114,6 +1173,7 @@
               <Coefficient Value="0.451" />
               <StandardHealthPercentMax Value="0.045" />
               <StandardHealthPercentMin Value="0.045" />
+              <AmmountModifier Value="-0.7" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1149,6 +1209,7 @@
               <Coefficient Value="0.93" />
               <StandardHealthPercentMax Value="0.093" />
               <StandardHealthPercentMin Value="0.093" />
+              <AmmountModifier Value="-0.38" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1170,6 +1231,7 @@
               <Coefficient Value="0.62" />
               <StandardHealthPercentMax Value="0.062" />
               <StandardHealthPercentMin Value="0.062" />
+              <AmmountModifier Value="-0.59" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1205,6 +1267,7 @@
               <Coefficient Value="0.86" />
               <StandardHealthPercentMax Value="0.1" />
               <StandardHealthPercentMin Value="0.08" />
+              <AmmountModifier Value="-0.43" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1219,6 +1282,13 @@
           <OnGCD Value="True" />
           <Cooldown Value="20" />
           <CombatLogID Value="3200519434665984" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.13" />
+              <StandardHealthPercentMax Value="0.013" />
+              <StandardHealthPercentMin Value="0.013" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.agent.laze_target">
           <Label Value="Laze Target" />
@@ -1250,6 +1320,7 @@
               <Coefficient Value="2.51" />
               <StandardHealthPercentMax Value="0.251" />
               <StandardHealthPercentMin Value="0.251" />
+              <AmmountModifier Value="0.67" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1356,6 +1427,7 @@
               <Coefficient Value="1.273" />
               <StandardHealthPercentMax Value="0.127" />
               <StandardHealthPercentMin Value="0.127" />
+              <AmmountModifier Value="-0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1449,6 +1521,7 @@
               <Coefficient Value="3.684" />
               <StandardHealthPercentMax Value="0.37" />
               <StandardHealthPercentMin Value="0.37" />
+              <AmmountModifier Value="1.36" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -1470,6 +1543,7 @@
               <Coefficient Value="2.23" />
               <StandardHealthPercentMax Value="0.223" />
               <StandardHealthPercentMin Value="0.223" />
+              <AmmountModifier Value="0.49" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -2082,6 +2156,7 @@
               <Coefficient Value="0.84" />
               <StandardHealthPercentMax Value="0.084" />
               <StandardHealthPercentMin Value="0.084" />
+              <AmmountModifier Value="-0.44" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -2273,11 +2348,13 @@
               <Coefficient Value="0.208" />
               <StandardHealthPercentMax Value="0.021" />
               <StandardHealthPercentMin Value="0.021" />
+              <AmmountModifier Value="-0.86" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.208" />
               <StandardHealthPercentMax Value="0.021" />
               <StandardHealthPercentMin Value="0.021" />
+              <AmmountModifier Value="-0.86" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -2311,6 +2388,7 @@
               <Coefficient Value="1.359" />
               <StandardHealthPercentMax Value="0.136" />
               <StandardHealthPercentMin Value="0.136" />
+              <AmmountModifier Value="-0.09" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.47" />
@@ -2573,6 +2651,14 @@
           <CombatLogID Value="3403538243780608" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="21" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.04" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.agent.skill.utility.counter_strike">
           <Label Value="Counterstrike" />
@@ -2763,6 +2849,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412494484570112" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.bounty_hunter.hunters_boon">
         <Label Value="Hunter's Boon" />
@@ -2856,51 +2956,61 @@
             <Coefficient Value="0.2" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.2" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.2" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.2" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.2" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.8" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2915,6 +3025,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1" />
         <CombatLogID Value="2264285283614720" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.005" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.015" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.bounty_hunter.death_from_above">
         <Label Value="Death from Above" />
@@ -3059,11 +3183,13 @@
             <Coefficient Value="1.97" />
             <StandardHealthPercentMax Value="0.197" />
             <StandardHealthPercentMin Value="0.197" />
+            <AmmountModifier Value="0.31" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.31" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -3157,16 +3283,19 @@
             <Coefficient Value="1.0475" />
             <StandardHealthPercentMax Value="0.10475" />
             <StandardHealthPercentMin Value="0.10475" />
+            <AmmountModifier Value="-0.3" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.3" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.0475" />
             <StandardHealthPercentMax Value="0.10475" />
             <StandardHealthPercentMin Value="0.10475" />
+            <AmmountModifier Value="-0.3" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -3298,6 +3427,19 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3177532769697792" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="1" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.player.proficiency.armor.shield">
           <Label Value="Armor Proficiency: Shield Generator" />
@@ -3662,6 +3804,14 @@
           <CombatLogID Value="3391422141038592" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="15" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.05" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.utility.pyro_shield">
           <Label Value="Pyro Shield" />
@@ -3883,6 +4033,7 @@
               <Coefficient Value="0.1" />
               <StandardHealthPercentMax Value="0.01" />
               <StandardHealthPercentMin Value="0.01" />
+              <ThreatModifier Value="3" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -3904,11 +4055,13 @@
               <Coefficient Value="1.14" />
               <StandardHealthPercentMax Value="0.114" />
               <StandardHealthPercentMin Value="0.114" />
+              <AmmountModifier Value="0.01" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="1.14" />
               <StandardHealthPercentMax Value="0.114" />
               <StandardHealthPercentMin Value="0.114" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -4103,6 +4256,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3182695320387584" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0.58" />
+              <StandardHealthPercentMax Value="0.029" />
+              <StandardHealthPercentMin Value="0.029" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.advanced_prototype.energy_burst">
           <Label Value="Energy Burst" />
@@ -4616,11 +4777,13 @@
               <Coefficient Value="0.7" />
               <StandardHealthPercentMax Value="0.07" />
               <StandardHealthPercentMin Value="0.07" />
+              <AmmountModifier Value="-0.53" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.53" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.4" />
@@ -4659,11 +4822,13 @@
               <Coefficient Value="2.47" />
               <StandardHealthPercentMax Value="0.247" />
               <StandardHealthPercentMin Value="0.247" />
+              <AmmountModifier Value="0.65" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.65" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -4840,6 +5005,14 @@
           <CombatLogID Value="3394840935006208" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="8" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0.58" />
+              <StandardHealthPercentMax Value="0.029" />
+              <StandardHealthPercentMin Value="0.029" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.utility.power_barrier">
           <Label Value="Power Barrier" />
@@ -5090,11 +5263,13 @@
               <Coefficient Value="0.515" />
               <StandardHealthPercentMax Value="0.0515" />
               <StandardHealthPercentMin Value="0.0515" />
+              <AmmountModifier Value="-0.6575" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.6575" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -5169,6 +5344,15 @@
           <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="1681075969458176" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.kolto_shot">
           <Label Value="Kolto Shot" />
@@ -5297,11 +5481,13 @@
               <Coefficient Value="1.42" />
               <StandardHealthPercentMax Value="0.142" />
               <StandardHealthPercentMin Value="0.142" />
+              <AmmountModifier Value="-0.05" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.05" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -5351,6 +5537,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3165584170680320" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.bounty_hunter.skill.arsenal.barrage">
           <Label Value="Barrage" />
@@ -5382,11 +5576,13 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.34" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.34" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -5447,11 +5643,13 @@
               <Coefficient Value="1.125" />
               <StandardHealthPercentMax Value="0.1125" />
               <StandardHealthPercentMin Value="0.1125" />
+              <AmmountModifier Value="-0.25" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.25" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -5686,16 +5884,19 @@
             <Coefficient Value="1.23" />
             <StandardHealthPercentMax Value="0.143" />
             <StandardHealthPercentMin Value="0.103" />
+            <AmmountModifier Value="0.01" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.295" />
             <StandardHealthPercentMax Value="0.0295" />
             <StandardHealthPercentMin Value="0.0295" />
+            <AmmountModifier Value="0.01" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.295" />
             <StandardHealthPercentMax Value="0.0295" />
             <StandardHealthPercentMin Value="0.0295" />
+            <AmmountModifier Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -5779,6 +5980,7 @@
             <Coefficient Value="1.07" />
             <StandardHealthPercentMax Value="0.127" />
             <StandardHealthPercentMin Value="0.087" />
+            <LifeStealModifier Value="1" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="1.07" />
@@ -5840,6 +6042,7 @@
             <Coefficient Value="0.9" />
             <StandardHealthPercentMax Value="0.1" />
             <StandardHealthPercentMin Value="0.08" />
+            <AmmountModifier Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -5854,6 +6057,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412528844308480" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.mount.skill.speeder_piloting">
         <Label Value="Speeder Piloting" />
@@ -5885,11 +6102,13 @@
             <Coefficient Value="0.775" />
             <StandardHealthPercentMax Value="0.0775" />
             <StandardHealthPercentMin Value="0.0775" />
+            <AmmountModifier Value="-0.48" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.775" />
             <StandardHealthPercentMax Value="0.0775" />
             <StandardHealthPercentMin Value="0.0775" />
+            <AmmountModifier Value="-0.48" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -5911,16 +6130,19 @@
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.66" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.66" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-1" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -5937,6 +6159,15 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3488187754217472" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+            <ThreatModifier Value="-1" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.proficiency.armor.focus">
         <Label Value="Armor Proficiency: Focus" />
@@ -6275,11 +6506,13 @@
               <Coefficient Value="1.54" />
               <StandardHealthPercentMax Value="0.174" />
               <StandardHealthPercentMin Value="0.134" />
+              <ThreatModifier Value="0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="1.54" />
               <StandardHealthPercentMax Value="0.174" />
               <StandardHealthPercentMin Value="0.134" />
+              <ThreatModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6389,6 +6622,8 @@
               <Coefficient Value="1.86" />
               <StandardHealthPercentMax Value="0.186" />
               <StandardHealthPercentMin Value="0.186" />
+              <AmmountModifier Value="0.24" />
+              <LifeStealModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6460,6 +6695,7 @@
               <Coefficient Value="1.81" />
               <StandardHealthPercentMax Value="0.201" />
               <StandardHealthPercentMin Value="0.161" />
+              <LifeStealModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6655,11 +6891,13 @@
               <Coefficient Value="0.81" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.81" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6681,6 +6919,7 @@
               <Coefficient Value="1.64" />
               <StandardHealthPercentMax Value="0.164" />
               <StandardHealthPercentMin Value="0.164" />
+              <AmmountModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6815,6 +7054,7 @@
               <Coefficient Value="0.66" />
               <StandardHealthPercentMax Value="0.086" />
               <StandardHealthPercentMin Value="0.046" />
+              <ThreatModifier Value="0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.39" />
@@ -6851,6 +7091,7 @@
               <Coefficient Value="2.37" />
               <StandardHealthPercentMax Value="0.236" />
               <StandardHealthPercentMin Value="0.236" />
+              <AmmountModifier Value="0.58" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -6883,6 +7124,7 @@
               <HealingPowerCoefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.15" />
             </Type>
             <Type Value="effAction_Heal">
               <HealingPowerCoefficient Value="0.6" />
@@ -6992,6 +7234,7 @@
               <Coefficient Value="2.88" />
               <StandardHealthPercentMax Value="0.288" />
               <StandardHealthPercentMin Value="0.288" />
+              <AmmountModifier Value="0.92" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -7030,6 +7273,7 @@
               <Coefficient Value="0.78" />
               <StandardHealthPercentMax Value="0.078" />
               <StandardHealthPercentMin Value="0.078" />
+              <AmmountModifier Value="-0.48" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -7746,6 +7990,62 @@
           <Cooldown Value="180" />
           <ChannelDuration Value="8" />
           <CombatLogID Value="3120895035965440" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.02" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="3.27" />
+              <StandardHealthPercentMax Value="0.164" />
+              <StandardHealthPercentMin Value="0.164" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.02" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="6.54" />
+              <StandardHealthPercentMax Value="0.328" />
+              <StandardHealthPercentMin Value="0.328" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.04" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="9.81" />
+              <StandardHealthPercentMax Value="0.492" />
+              <StandardHealthPercentMin Value="0.492" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.06" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="13.08" />
+              <StandardHealthPercentMax Value="0.656" />
+              <StandardHealthPercentMin Value="0.656" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.08" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_consular.force_empowerment">
           <Label Value="Force Empowerment" />
@@ -7758,6 +8058,14 @@
           <OnGCD Value="False" />
           <Cooldown Value="300" />
           <CombatLogID Value="3429041759584256" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.0736223" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_consular.force_armor">
           <Label Value="Force Armor" />
@@ -7771,6 +8079,26 @@
           <Cooldown Value="1" />
           <Range Value="30" />
           <CombatLogID Value="812736661422080" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="3.27" />
+              <StandardHealthPercentMax Value="0.164" />
+              <StandardHealthPercentMin Value="0.164" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.005" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_consular.restoration">
           <Label Value="Restoration" />
@@ -7925,6 +8253,7 @@
               <Coefficient Value="1.74" />
               <StandardHealthPercentMax Value="0.194" />
               <StandardHealthPercentMin Value="0.154" />
+              <LifeStealModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -7965,6 +8294,7 @@
               <Coefficient Value="1.81" />
               <StandardHealthPercentMax Value="0.201" />
               <StandardHealthPercentMin Value="0.161" />
+              <LifeStealModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -8075,6 +8405,28 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="999348695465984" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.45" />
+              <StandardHealthPercentMax Value="0.051" />
+              <StandardHealthPercentMin Value="0.039" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.75" />
+              <StandardHealthPercentMax Value="0.095" />
+              <StandardHealthPercentMin Value="0.055" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.543" />
+              <StandardHealthPercentMax Value="0.0603" />
+              <StandardHealthPercentMin Value="0.0483" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.588" />
+              <StandardHealthPercentMax Value="0.0648" />
+              <StandardHealthPercentMin Value="0.0528" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_burst">
           <Label Value="Telekinetic Burst" />
@@ -8165,6 +8517,13 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3218339253977088" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.474" />
+              <StandardHealthPercentMax Value="0.057" />
+              <StandardHealthPercentMin Value="0.037" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_consular.skill.telekinetics.clamoring_force">
           <Label Value="Clamoring Force" />
@@ -8305,6 +8664,7 @@
             <Coefficient Value="1.87" />
             <StandardHealthPercentMax Value="0.207" />
             <StandardHealthPercentMin Value="0.167" />
+            <AmmountModifier Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8319,6 +8679,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="180" />
         <CombatLogID Value="812169725739008" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.25" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_knight.cyclone_slash">
         <Label Value="Cyclone Slash" />
@@ -8336,16 +8710,19 @@
             <Coefficient Value="0.81" />
             <StandardHealthPercentMax Value="0.081" />
             <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.46" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.81" />
             <StandardHealthPercentMax Value="0.081" />
             <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8380,6 +8757,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1343014798622720" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.proficiency.weapon.lightsaber">
         <Label Value="Weapon Proficiency: Lightsaber" />
@@ -8423,6 +8814,7 @@
             <Coefficient Value="2.67" />
             <StandardHealthPercentMax Value="0.267" />
             <StandardHealthPercentMin Value="0.267" />
+            <AmmountModifier Value="0.78" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8445,21 +8837,25 @@
             <Coefficient Value="1.39" />
             <StandardHealthPercentMax Value="0.139" />
             <StandardHealthPercentMin Value="0.139" />
+            <AmmountModifier Value="-0.075" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.075" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="2.78" />
             <StandardHealthPercentMax Value="0.278" />
             <StandardHealthPercentMin Value="0.278" />
+            <AmmountModifier Value="0.85" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.85" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8530,16 +8926,19 @@
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.67" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.67" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.67" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
@@ -8550,11 +8949,13 @@
             <Coefficient Value="0.67" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-1" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8615,11 +9016,13 @@
             <Coefficient Value="0.96" />
             <StandardHealthPercentMax Value="0.096" />
             <StandardHealthPercentMin Value="0.096" />
+            <AmmountModifier Value="-0.36" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.96" />
             <StandardHealthPercentMax Value="0.096" />
             <StandardHealthPercentMin Value="0.096" />
+            <AmmountModifier Value="-0.36" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8653,11 +9056,13 @@
             <Coefficient Value="1.61" />
             <StandardHealthPercentMax Value="0.161" />
             <StandardHealthPercentMin Value="0.161" />
+            <AmmountModifier Value="0.08" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.08" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -8721,16 +9126,19 @@
               <Coefficient Value="0.5" />
               <StandardHealthPercentMax Value="0.06" />
               <StandardHealthPercentMin Value="0.04" />
+              <AmmountModifier Value="-0.665" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.33" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.5" />
               <StandardHealthPercentMax Value="0.06" />
               <StandardHealthPercentMin Value="0.04" />
+              <AmmountModifier Value="-0.665" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -8800,11 +9208,13 @@
               <Coefficient Value="0.25" />
               <StandardHealthPercentMax Value="0.025" />
               <StandardHealthPercentMin Value="0.025" />
+              <AmmountModifier Value="-0.83" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.83" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -8890,6 +9300,15 @@
           <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="2210413508820992" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.dual_saber_throw">
           <Label Value="Twin Saber Throw" />
@@ -8909,11 +9328,13 @@
               <Coefficient Value="1.23" />
               <StandardHealthPercentMax Value="0.12" />
               <StandardHealthPercentMin Value="0.12" />
+              <AmmountModifier Value="-0.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -8928,6 +9349,14 @@
           <OnGCD Value="False" />
           <Cooldown Value="1" />
           <CombatLogID Value="2528563211272192" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.focused_slash">
           <Label Value="Focused Slash" />
@@ -8968,11 +9397,13 @@
               <Coefficient Value="0.75" />
               <StandardHealthPercentMax Value="0.075" />
               <StandardHealthPercentMin Value="0.075" />
+              <AmmountModifier Value="-0.5" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.2" />
@@ -9037,6 +9468,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="1262192104046592" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.skill.watchman.plasma_blades">
           <Label Value="Plasma Blades" />
@@ -9104,11 +9543,13 @@
               <Coefficient Value="3.05" />
               <StandardHealthPercentMax Value="0.306" />
               <StandardHealthPercentMin Value="0.306" />
+              <AmmountModifier Value="1.04" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.04" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9193,16 +9634,19 @@
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9224,46 +9668,55 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9671,11 +10124,13 @@
               <Coefficient Value="0.55" />
               <StandardHealthPercentMax Value="0.055" />
               <StandardHealthPercentMin Value="0.055" />
+              <AmmountModifier Value="-0.63375" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.55" />
               <StandardHealthPercentMax Value="0.055" />
               <StandardHealthPercentMin Value="0.055" />
+              <AmmountModifier Value="-0.63375" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9697,11 +10152,13 @@
               <Coefficient Value="1.73" />
               <StandardHealthPercentMax Value="0.173" />
               <StandardHealthPercentMin Value="0.173" />
+              <AmmountModifier Value="0.16" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.16" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9735,11 +10192,13 @@
               <Coefficient Value="1.36" />
               <StandardHealthPercentMax Value="0.136" />
               <StandardHealthPercentMin Value="0.136" />
+              <AmmountModifier Value="-0.09" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.09" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9841,6 +10300,7 @@
               <Coefficient Value="1.28" />
               <StandardHealthPercentMax Value="0.128" />
               <StandardHealthPercentMin Value="0.128" />
+              <AmmountModifier Value="-0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9862,11 +10322,15 @@
               <Coefficient Value="2.84" />
               <StandardHealthPercentMax Value="0.284" />
               <StandardHealthPercentMin Value="0.284" />
+              <AmmountModifier Value="0.9" />
+              <ThreatModifier Value="0.3" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.84" />
               <StandardHealthPercentMax Value="0.284" />
               <StandardHealthPercentMin Value="0.284" />
+              <AmmountModifier Value="0.9" />
+              <ThreatModifier Value="0.3" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9925,6 +10389,7 @@
               <Coefficient Value="1.2" />
               <StandardHealthPercentMax Value="0.16" />
               <StandardHealthPercentMin Value="0.08" />
+              <ThreatModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -9939,6 +10404,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="2308467612188672" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="1" />
+              <StandardHealthPercentMax Value="0.05" />
+              <StandardHealthPercentMin Value="0.05" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.skill.defense.dust_storm">
           <Label Value="Dust Storm" />
@@ -10026,6 +10499,7 @@
               <Coefficient Value="0.0566" />
               <StandardHealthPercentMax Value="0.005" />
               <StandardHealthPercentMin Value="0.005" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10114,6 +10588,7 @@
               <Coefficient Value="0.085" />
               <StandardHealthPercentMax Value="0.008" />
               <StandardHealthPercentMin Value="0.008" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10147,6 +10622,7 @@
               <Coefficient Value="2.78" />
               <StandardHealthPercentMax Value="0.278" />
               <StandardHealthPercentMin Value="0.278" />
+              <AmmountModifier Value="0.85" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10337,6 +10813,14 @@
           <CombatLogID Value="3430016717160448" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="11" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="1" />
+              <StandardHealthPercentMax Value="0.05" />
+              <StandardHealthPercentMin Value="0.05" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.skill.utility.battlefield_command">
           <Label Value="Battlefield Command" />
@@ -10546,6 +11030,7 @@
               <Coefficient Value="1.52" />
               <StandardHealthPercentMax Value="0.171" />
               <StandardHealthPercentMin Value="0.131" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10565,6 +11050,7 @@
               <HealingPowerCoefficient Value="2.325" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <ThreatModifier Value="-1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10613,6 +11099,7 @@
               <Coefficient Value="1.41" />
               <StandardHealthPercentMax Value="0.161" />
               <StandardHealthPercentMin Value="0.121" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10640,6 +11127,15 @@
           <OnGCD Value="False" />
           <Cooldown Value="60" />
           <CombatLogID Value="2211126473392128" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.3" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.player.proficiency.armor.shield">
           <Label Value="Armor Proficiency: Shield Generator" />
@@ -10676,6 +11172,13 @@
           <OnGCD Value="False" />
           <Cooldown Value="60" />
           <CombatLogID Value="3126160665870336" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="1.5" />
+              <StandardHealthPercentMax Value="0.095" />
+              <StandardHealthPercentMin Value="0.055" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.jedi_knight.soresu_form">
           <Label Value="Soresu Form" />
@@ -10731,6 +11234,7 @@
               <Coefficient Value="1.73" />
               <StandardHealthPercentMax Value="0.173" />
               <StandardHealthPercentMin Value="0.173" />
+              <AmmountModifier Value="0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10752,6 +11256,7 @@
               <Coefficient Value="0.98" />
               <StandardHealthPercentMax Value="0.1" />
               <StandardHealthPercentMin Value="0.098" />
+              <AmmountModifier Value="-0.35" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10782,16 +11287,19 @@
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -10813,46 +11321,55 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -11128,6 +11645,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412606153719808" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_inquisitor.force_slow">
         <Label Value="Force Slow" />
@@ -11147,6 +11678,7 @@
             <Coefficient Value="1.07" />
             <StandardHealthPercentMax Value="0.127" />
             <StandardHealthPercentMin Value="0.087" />
+            <LifeStealModifier Value="1" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="1.07" />
@@ -11173,16 +11705,19 @@
             <Coefficient Value="1.23" />
             <StandardHealthPercentMax Value="0.143" />
             <StandardHealthPercentMin Value="0.103" />
+            <AmmountModifier Value="0.01" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.295" />
             <StandardHealthPercentMax Value="0.0295" />
             <StandardHealthPercentMin Value="0.0295" />
+            <AmmountModifier Value="0.01" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.295" />
             <StandardHealthPercentMax Value="0.0295" />
             <StandardHealthPercentMin Value="0.0295" />
+            <AmmountModifier Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -11224,6 +11759,15 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="808334319943680" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+            <ThreatModifier Value="-1" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.proficiency.weapon.vibrosword">
         <Label Value="Weapon Proficiency: Vibrosword" />
@@ -11339,11 +11883,13 @@
             <Coefficient Value="0.775" />
             <StandardHealthPercentMax Value="0.0775" />
             <StandardHealthPercentMin Value="0.0775" />
+            <AmmountModifier Value="-0.48" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.775" />
             <StandardHealthPercentMax Value="0.0775" />
             <StandardHealthPercentMin Value="0.0775" />
+            <AmmountModifier Value="-0.48" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -11410,16 +11956,19 @@
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.66" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.66" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-1" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -11464,6 +12013,28 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="808519003537408" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.45" />
+              <StandardHealthPercentMax Value="0.051" />
+              <StandardHealthPercentMin Value="0.039" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.7518" />
+              <StandardHealthPercentMax Value="0.095" />
+              <StandardHealthPercentMin Value="0.055" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.588" />
+              <StandardHealthPercentMax Value="0.0648" />
+              <StandardHealthPercentMin Value="0.0528" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.543" />
+              <StandardHealthPercentMax Value="0.0603" />
+              <StandardHealthPercentMin Value="0.0483" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_effusion">
           <Label Value="Lightning Effusion" />
@@ -11533,6 +12104,13 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3210531003432960" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.646" />
+              <StandardHealthPercentMax Value="0.0706" />
+              <StandardHealthPercentMin Value="0.0586" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_inquisitor.skill.lightning.conduction">
           <Label Value="Conduction" />
@@ -11881,6 +12459,62 @@
           <Cooldown Value="180" />
           <ChannelDuration Value="8" />
           <CombatLogID Value="3120899330932736" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.02" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="3.27" />
+              <StandardHealthPercentMax Value="0.164" />
+              <StandardHealthPercentMin Value="0.164" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.02" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="6.54" />
+              <StandardHealthPercentMax Value="0.328" />
+              <StandardHealthPercentMin Value="0.328" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.04" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="9.81" />
+              <StandardHealthPercentMax Value="0.492" />
+              <StandardHealthPercentMin Value="0.492" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.06" />
+            </Type>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="13.08" />
+              <StandardHealthPercentMax Value="0.656" />
+              <StandardHealthPercentMin Value="0.656" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.08" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_inquisitor.static_barrier">
           <Label Value="Static Barrier" />
@@ -11894,6 +12528,20 @@
           <Cooldown Value="1" />
           <Range Value="30" />
           <CombatLogID Value="3411286364782592" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="3" />
+              <StandardHealthPercentMax Value="0.15" />
+              <StandardHealthPercentMin Value="0.15" />
+              <AmmountPercent Value="1" />
+            </Type>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.02" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_inquisitor.dark_heal">
           <Label Value="Dark Heal" />
@@ -11927,6 +12575,14 @@
           <OnGCD Value="False" />
           <Cooldown Value="300" />
           <CombatLogID Value="3415495432732672" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.0736223" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Talent Name="tal.sith_inquisitor.skill.sith_lifebinder">
           <Label Value="Sith Lifebinder" />
@@ -11985,6 +12641,7 @@
               <Coefficient Value="1.74" />
               <StandardHealthPercentMax Value="0.194" />
               <StandardHealthPercentMin Value="0.154" />
+              <LifeStealModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -12082,6 +12739,7 @@
               <Coefficient Value="1.81" />
               <StandardHealthPercentMax Value="0.201" />
               <StandardHealthPercentMin Value="0.161" />
+              <LifeStealModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -12649,6 +13307,7 @@
               <Coefficient Value="0.78" />
               <StandardHealthPercentMax Value="0.078" />
               <StandardHealthPercentMin Value="0.078" />
+              <AmmountModifier Value="-0.48" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -12682,6 +13341,7 @@
               <Coefficient Value="2.31" />
               <StandardHealthPercentMax Value="0.231" />
               <StandardHealthPercentMin Value="0.231" />
+              <AmmountModifier Value="0.54" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -12703,6 +13363,7 @@
               <Coefficient Value="2.88" />
               <StandardHealthPercentMax Value="0.288" />
               <StandardHealthPercentMin Value="0.288" />
+              <AmmountModifier Value="0.92" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -12831,6 +13492,7 @@
               <Coefficient Value="0.66" />
               <StandardHealthPercentMax Value="0.086" />
               <StandardHealthPercentMin Value="0.046" />
+              <ThreatModifier Value="0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.39" />
@@ -12922,6 +13584,7 @@
               <HealingPowerCoefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.15" />
             </Type>
             <Type Value="effAction_Heal">
               <HealingPowerCoefficient Value="0.6" />
@@ -12975,6 +13638,7 @@
               <Coefficient Value="1.64" />
               <StandardHealthPercentMax Value="0.164" />
               <StandardHealthPercentMin Value="0.164" />
+              <AmmountModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -13113,11 +13777,13 @@
               <Coefficient Value="0.81" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.81" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -13354,6 +14020,8 @@
               <Coefficient Value="1.86" />
               <StandardHealthPercentMax Value="0.186" />
               <StandardHealthPercentMin Value="0.186" />
+              <AmmountModifier Value="0.24" />
+              <LifeStealModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -13451,6 +14119,7 @@
               <Coefficient Value="1.81" />
               <StandardHealthPercentMax Value="0.201" />
               <StandardHealthPercentMin Value="0.161" />
+              <LifeStealModifier Value="0.1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -13577,11 +14246,13 @@
               <Coefficient Value="1.54" />
               <StandardHealthPercentMax Value="0.174" />
               <StandardHealthPercentMin Value="0.134" />
+              <ThreatModifier Value="0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="1.54" />
               <StandardHealthPercentMax Value="0.174" />
               <StandardHealthPercentMin Value="0.134" />
+              <ThreatModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -13756,21 +14427,25 @@
             <Coefficient Value="1.3875" />
             <StandardHealthPercentMax Value="0.13875" />
             <StandardHealthPercentMin Value="0.13875" />
+            <AmmountModifier Value="-0.075" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.075" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="2.775" />
             <StandardHealthPercentMax Value="0.2775" />
             <StandardHealthPercentMin Value="0.2775" />
+            <AmmountModifier Value="0.85" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.85" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -13804,11 +14479,13 @@
             <Coefficient Value="1.61" />
             <StandardHealthPercentMax Value="0.161" />
             <StandardHealthPercentMin Value="0.161" />
+            <AmmountModifier Value="0.08" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.08" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -13828,16 +14505,19 @@
             <Coefficient Value="0.81" />
             <StandardHealthPercentMax Value="0.081" />
             <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.46" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.81" />
             <StandardHealthPercentMax Value="0.081" />
             <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -13852,6 +14532,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="180" />
         <CombatLogID Value="807793154064384" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.25" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.03" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.flurry.sith_warrior.assault_optimize">
         <Label Value="Assault" />
@@ -13871,16 +14565,19 @@
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.67" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.67" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.33" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.67" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
@@ -13891,11 +14588,13 @@
             <Coefficient Value="0.67" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.33" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-1" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -13943,6 +14642,7 @@
             <Coefficient Value="1.87" />
             <StandardHealthPercentMax Value="0.207" />
             <StandardHealthPercentMin Value="0.167" />
+            <AmmountModifier Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -14003,11 +14703,13 @@
             <Coefficient Value="0.96" />
             <StandardHealthPercentMax Value="0.096" />
             <StandardHealthPercentMin Value="0.096" />
+            <AmmountModifier Value="-0.36" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.96" />
             <StandardHealthPercentMax Value="0.096" />
             <StandardHealthPercentMin Value="0.096" />
+            <AmmountModifier Value="-0.36" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -14102,6 +14804,7 @@
             <Coefficient Value="2.67" />
             <StandardHealthPercentMax Value="0.267" />
             <StandardHealthPercentMin Value="0.267" />
+            <AmmountModifier Value="0.78" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -14116,6 +14819,14 @@
         <OnGCD Value="False" />
         <Cooldown Value="120" />
         <CombatLogID Value="807823218835456" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.1" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.call_on_the_force">
         <Label Value="Heroic Moment: Call on the Force" />
@@ -14128,6 +14839,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412666283261952" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.smash">
         <Label Value="Smash" />
@@ -14368,11 +15093,13 @@
               <Coefficient Value="3.05" />
               <StandardHealthPercentMax Value="0.306" />
               <StandardHealthPercentMin Value="0.306" />
+              <AmmountModifier Value="1.04" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.04" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -14449,11 +15176,13 @@
               <Coefficient Value="0.75" />
               <StandardHealthPercentMax Value="0.075" />
               <StandardHealthPercentMin Value="0.075" />
+              <AmmountModifier Value="-0.5" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.5" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.2" />
@@ -14511,6 +15240,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="1261152721960960" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Talent Name="tal.sith_warrior.skill.annihilation.deep_wound">
           <Label Value="Deep Wound" />
@@ -14629,16 +15366,19 @@
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -14724,46 +15464,55 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -14878,11 +15627,13 @@
               <Coefficient Value="1.23" />
               <StandardHealthPercentMax Value="0.123" />
               <StandardHealthPercentMin Value="0.123" />
+              <AmmountModifier Value="-0.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -14897,6 +15648,14 @@
           <OnGCD Value="False" />
           <Cooldown Value="1" />
           <CombatLogID Value="807724434587648" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.cloak_of_pain">
           <Label Value="Cloak of Pain" />
@@ -14968,6 +15727,15 @@
           <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="2210516588036096" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.force_camouflage">
           <Label Value="Force Camouflage" />
@@ -14999,11 +15767,13 @@
               <Coefficient Value="0.25" />
               <StandardHealthPercentMax Value="0.025" />
               <StandardHealthPercentMin Value="0.025" />
+              <AmmountModifier Value="-0.83" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.83" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15037,16 +15807,19 @@
               <Coefficient Value="0.5" />
               <StandardHealthPercentMax Value="0.06" />
               <StandardHealthPercentMin Value="0.04" />
+              <AmmountModifier Value="-0.665" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.33" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.5" />
               <StandardHealthPercentMax Value="0.06" />
               <StandardHealthPercentMin Value="0.04" />
+              <AmmountModifier Value="-0.665" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15111,11 +15884,13 @@
               <Coefficient Value="0.55" />
               <StandardHealthPercentMax Value="0.055" />
               <StandardHealthPercentMin Value="0.055" />
+              <AmmountModifier Value="-0.63375" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.55" />
               <StandardHealthPercentMax Value="0.055" />
               <StandardHealthPercentMin Value="0.055" />
+              <AmmountModifier Value="-0.63375" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15149,11 +15924,13 @@
               <Coefficient Value="1.36" />
               <StandardHealthPercentMax Value="0.136" />
               <StandardHealthPercentMin Value="0.136" />
+              <AmmountModifier Value="-0.09" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.09" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15187,11 +15964,13 @@
               <Coefficient Value="1.73" />
               <StandardHealthPercentMax Value="0.173" />
               <StandardHealthPercentMin Value="0.173" />
+              <AmmountModifier Value="0.16" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.16" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15325,6 +16104,14 @@
           <CombatLogID Value="3426550678552576" />
           <UtilityLevel Value="Masterful" />
           <UtilityPos Value="11" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="1" />
+              <StandardHealthPercentMax Value="0.05" />
+              <StandardHealthPercentMin Value="0.05" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.skill.utility.pooled_hatred">
           <Label Value="Pooled Hatred" />
@@ -15603,16 +16390,19 @@
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="3.26" />
               <StandardHealthPercentMax Value="0.327" />
               <StandardHealthPercentMin Value="0.327" />
+              <AmmountModifier Value="1.18" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.18" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15686,46 +16476,55 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.35" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15816,6 +16615,7 @@
               <Coefficient Value="1.84" />
               <StandardHealthPercentMax Value="0.204" />
               <StandardHealthPercentMin Value="0.164" />
+              <ThreatModifier Value="0.5" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15842,6 +16642,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="2308471907155968" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="1" />
+              <StandardHealthPercentMax Value="0.05" />
+              <StandardHealthPercentMin Value="0.05" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.skill.immortal.crushing_blow">
           <Label Value="Crushing Blow" />
@@ -15861,11 +16669,15 @@
               <Coefficient Value="2.84" />
               <StandardHealthPercentMax Value="0.284" />
               <StandardHealthPercentMin Value="0.284" />
+              <AmmountModifier Value="0.9" />
+              <ThreatModifier Value="0.3" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="2.84" />
               <StandardHealthPercentMax Value="0.284" />
               <StandardHealthPercentMin Value="0.284" />
+              <AmmountModifier Value="0.9" />
+              <ThreatModifier Value="0.3" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -15899,6 +16711,7 @@
               <Coefficient Value="1.28" />
               <StandardHealthPercentMax Value="0.128" />
               <StandardHealthPercentMin Value="0.128" />
+              <AmmountModifier Value="-0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16033,6 +16846,7 @@
               <Coefficient Value="0.0566" />
               <StandardHealthPercentMax Value="0.005" />
               <StandardHealthPercentMin Value="0.005" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16076,6 +16890,7 @@
               <Coefficient Value="0.085" />
               <StandardHealthPercentMax Value="0.008" />
               <StandardHealthPercentMin Value="0.008" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16097,6 +16912,7 @@
               <Coefficient Value="2.78" />
               <StandardHealthPercentMax Value="0.278" />
               <StandardHealthPercentMin Value="0.278" />
+              <AmmountModifier Value="0.85" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16236,6 +17052,13 @@
           <OnGCD Value="False" />
           <Cooldown Value="60" />
           <CombatLogID Value="3126177845739520" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="1.5" />
+              <StandardHealthPercentMax Value="0.095" />
+              <StandardHealthPercentMin Value="0.055" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.endless_rage">
           <Label Value="Endless Rage" />
@@ -16267,6 +17090,7 @@
               <Coefficient Value="1.73" />
               <StandardHealthPercentMax Value="0.173" />
               <StandardHealthPercentMin Value="0.173" />
+              <AmmountModifier Value="0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16337,6 +17161,15 @@
           <OnGCD Value="False" />
           <Cooldown Value="60" />
           <CombatLogID Value="2211074933784576" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.3" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.sith_warrior.riposte_passive">
           <Label Value="Riposte (Passive)" />
@@ -16368,6 +17201,7 @@
               <Coefficient Value="1.41" />
               <StandardHealthPercentMax Value="0.161" />
               <StandardHealthPercentMin Value="0.121" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16400,6 +17234,7 @@
               <HealingPowerCoefficient Value="2.325" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <ThreatModifier Value="-1" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16435,6 +17270,7 @@
               <Coefficient Value="1.22" />
               <StandardHealthPercentMax Value="0.122" />
               <StandardHealthPercentMin Value="0.122" />
+              <AmmountModifier Value="-0.19" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16480,6 +17316,7 @@
               <Coefficient Value="1.58" />
               <StandardHealthPercentMax Value="0.158" />
               <StandardHealthPercentMin Value="0.158" />
+              <AmmountModifier Value="0.06" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -16521,6 +17358,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1412692053065728" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.flurry_of_bolts_optimize">
         <Label Value="Flurry of Bolts" />
@@ -16540,6 +17391,7 @@
             <Coefficient Value="0.5" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.5" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1" />
@@ -16571,16 +17423,19 @@
             <Coefficient Value="1.74" />
             <StandardHealthPercentMax Value="0.174" />
             <StandardHealthPercentMin Value="0.174" />
+            <AmmountModifier Value="0.16" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.94" />
             <StandardHealthPercentMax Value="0.194" />
             <StandardHealthPercentMin Value="0.194" />
+            <AmmountModifier Value="0.29" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="0.29" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -16630,6 +17485,15 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="1624966516703232" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+            <ThreatModifier Value="-1" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.recuperate">
         <Label Value="Recuperate" />
@@ -16662,16 +17526,19 @@
             <Coefficient Value="1.39" />
             <StandardHealthPercentMax Value="0.139" />
             <StandardHealthPercentMin Value="0.139" />
+            <AmmountModifier Value="-0.07" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.39" />
             <StandardHealthPercentMax Value="0.139" />
             <StandardHealthPercentMin Value="0.139" />
+            <AmmountModifier Value="-0.07" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.07" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -16888,6 +17755,19 @@
         <OnGCD Value="False" />
         <Cooldown Value="20" />
         <CombatLogID Value="962484991164416" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3.06" />
+            <StandardHealthPercentMax Value="0.153" />
+            <StandardHealthPercentMin Value="0.153" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.042" />
+            <StandardHealthPercentMin Value="0.042" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.escape">
         <Label Value="Escape" />
@@ -17040,6 +17920,14 @@
           <CombatLogID Value="3405904770760704" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="19" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.04" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.utility.dirty_trickster">
           <Label Value="Dirty Trickster" />
@@ -17637,6 +18525,7 @@
               <Coefficient Value="0.84" />
               <StandardHealthPercentMax Value="0.084" />
               <StandardHealthPercentMin Value="0.084" />
+              <AmmountModifier Value="-0.44" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -17947,11 +18836,13 @@
               <Coefficient Value="0.208" />
               <StandardHealthPercentMax Value="0.021" />
               <StandardHealthPercentMin Value="0.021" />
+              <AmmountModifier Value="-0.86" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.208" />
               <StandardHealthPercentMax Value="0.021" />
               <StandardHealthPercentMin Value="0.021" />
+              <AmmountModifier Value="-0.86" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18016,6 +18907,7 @@
               <Coefficient Value="1.359" />
               <StandardHealthPercentMax Value="0.136" />
               <StandardHealthPercentMin Value="0.136" />
+              <AmmountModifier Value="-0.09" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.47" />
@@ -18183,11 +19075,13 @@
               <Coefficient Value="2.51" />
               <StandardHealthPercentMax Value="0.251" />
               <StandardHealthPercentMin Value="0.251" />
+              <AmmountModifier Value="0.67" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.67" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18209,11 +19103,13 @@
               <Coefficient Value="0.62" />
               <StandardHealthPercentMax Value="0.062" />
               <StandardHealthPercentMin Value="0.062" />
+              <AmmountModifier Value="-0.59" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.59" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18265,6 +19161,13 @@
           <OnGCD Value="True" />
           <Cooldown Value="20" />
           <CombatLogID Value="3204719912681472" />
+          <Coeffcients>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.13" />
+              <StandardHealthPercentMax Value="0.013" />
+              <StandardHealthPercentMin Value="0.013" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.leg_shot">
           <Label Value="Leg Shot" />
@@ -18284,11 +19187,13 @@
               <Coefficient Value="0.86" />
               <StandardHealthPercentMax Value="0.1" />
               <StandardHealthPercentMin Value="0.08" />
+              <AmmountModifier Value="-0.43" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0.1" />
               <StandardHealthPercentMin Value="0.08" />
+              <AmmountModifier Value="-0.43" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18323,11 +19228,13 @@
               <Coefficient Value="0.431" />
               <StandardHealthPercentMax Value="0.043125" />
               <StandardHealthPercentMin Value="0.043125" />
+              <AmmountModifier Value="-0.7125" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.7125" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18362,11 +19269,13 @@
               <Coefficient Value="0.93" />
               <StandardHealthPercentMax Value="0.093" />
               <StandardHealthPercentMin Value="0.093" />
+              <AmmountModifier Value="-0.38" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.38" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18470,6 +19379,14 @@
           <CombatLogID Value="3404315632861184" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="2" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.01" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.utility.snap_shot">
           <Label Value="Snap Shot" />
@@ -18512,6 +19429,14 @@
           <CombatLogID Value="3404298452992000" />
           <UtilityLevel Value="Skillful" />
           <UtilityPos Value="1" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.3" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.utility.dirty_trickster">
           <Label Value="Dirty Trickster" />
@@ -18900,11 +19825,13 @@
               <Coefficient Value="2.23" />
               <StandardHealthPercentMax Value="0.223" />
               <StandardHealthPercentMin Value="0.223" />
+              <AmmountModifier Value="0.49" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="0.49" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18962,11 +19889,13 @@
               <Coefficient Value="3.684" />
               <StandardHealthPercentMax Value="0.37" />
               <StandardHealthPercentMin Value="0.37" />
+              <AmmountModifier Value="1.36" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="1.36" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -18989,11 +19918,13 @@
               <Coefficient Value="1.273" />
               <StandardHealthPercentMax Value="0.127" />
               <StandardHealthPercentMin Value="0.127" />
+              <AmmountModifier Value="-0.15" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.15" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -19134,11 +20065,13 @@
               <Coefficient Value="0.805" />
               <StandardHealthPercentMax Value="0.081" />
               <StandardHealthPercentMin Value="0.081" />
+              <AmmountModifier Value="-0.46" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.46" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -19160,21 +20093,25 @@
               <Coefficient Value="0.153" />
               <StandardHealthPercentMax Value="0.0153" />
               <StandardHealthPercentMin Value="0.0153" />
+              <AmmountModifier Value="-0.9" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.9" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0.153" />
               <StandardHealthPercentMax Value="0.0153" />
               <StandardHealthPercentMin Value="0.0153" />
+              <AmmountModifier Value="-0.9" />
             </Type>
             <Type Value="effAction_WeaponDamage">
               <Coefficient Value="0" />
               <StandardHealthPercentMax Value="0" />
               <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.9" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -19191,6 +20128,25 @@
           <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="3404611985604608" />
+          <Coeffcients>
+            <Type Value="effAction_WeaponDamage">
+              <Coefficient Value="0.988" />
+              <StandardHealthPercentMax Value="0.099" />
+              <StandardHealthPercentMin Value="0.099" />
+              <AmmountModifier Value="-0.34" />
+            </Type>
+            <Type Value="effAction_WeaponDamage">
+              <Coefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountModifier Value="-0.34" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="0.77" />
+              <StandardHealthPercentMax Value="0.077" />
+              <StandardHealthPercentMin Value="0.077" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
           <Label Value="Fighting Spirit" />
@@ -19483,6 +20439,7 @@
             <Coefficient Value="1.0475" />
             <StandardHealthPercentMax Value="0.10475" />
             <StandardHealthPercentMin Value="0.10475" />
+            <AmmountModifier Value="-0.3" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -19535,6 +20492,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1" />
         <CombatLogID Value="801251918872576" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.005" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.015" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.player.mount.skill.speeder_piloting">
         <Label Value="Speeder Piloting" />
@@ -19632,6 +20603,7 @@
             <Coefficient Value="1.97" />
             <StandardHealthPercentMax Value="0.197" />
             <StandardHealthPercentMin Value="0.197" />
+            <AmmountModifier Value="0.31" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -19681,6 +20653,20 @@
         <OnGCD Value="False" />
         <Cooldown Value="1200" />
         <CombatLogID Value="1342946079145984" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
       </Ability>
       <Ability Name="abl.trooper.stealth_scan">
         <Label Value="Stealth Scan" />
@@ -19730,6 +20716,7 @@
               <Coefficient Value="2.47" />
               <StandardHealthPercentMax Value="0.247" />
               <StandardHealthPercentMin Value="0.247" />
+              <AmmountModifier Value="0.65" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -19858,6 +20845,7 @@
               <Coefficient Value="0.7" />
               <StandardHealthPercentMax Value="0.07" />
               <StandardHealthPercentMin Value="0.07" />
+              <AmmountModifier Value="-0.53" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="0.4" />
@@ -20171,6 +21159,7 @@
               <Coefficient Value="1.125" />
               <StandardHealthPercentMax Value="0.1125" />
               <StandardHealthPercentMin Value="0.1125" />
+              <AmmountModifier Value="-0.25" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20185,6 +21174,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3169672979546112" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.skill.gunnery.charged_barrel">
           <Label Value="Charged Barrel" />
@@ -20216,6 +21213,7 @@
               <Coefficient Value="2.02" />
               <StandardHealthPercentMax Value="0.202" />
               <StandardHealthPercentMin Value="0.202" />
+              <AmmountModifier Value="0.34" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20401,6 +21399,7 @@
               <Coefficient Value="1.42" />
               <StandardHealthPercentMax Value="0.142" />
               <StandardHealthPercentMin Value="0.142" />
+              <AmmountModifier Value="-0.05" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20623,6 +21622,7 @@
               <Coefficient Value="0.515" />
               <StandardHealthPercentMax Value="0.0515" />
               <StandardHealthPercentMin Value="0.0515" />
+              <AmmountModifier Value="-0.6575" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -20651,6 +21651,15 @@
           <Range Value="30" />
           <TargetArc Value="270" />
           <CombatLogID Value="1682579208011776" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+              <ThreatModifier Value="-1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.bacta_infusion">
           <Label Value="Bacta Infusion" />
@@ -20767,6 +21776,14 @@
           <CombatLogID Value="3413631416926208" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="12" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0.58" />
+              <StandardHealthPercentMax Value="0.029" />
+              <StandardHealthPercentMin Value="0.029" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.skill.utility.reflexive_battery">
           <Label Value="Reflexive Battery" />
@@ -21092,11 +22109,13 @@
               <Coefficient Value="1.14" />
               <StandardHealthPercentMax Value="0.114" />
               <StandardHealthPercentMin Value="0.114" />
+              <AmmountModifier Value="0.01" />
             </Type>
             <Type Value="effAction_SpellDamage">
               <Coefficient Value="1.14" />
               <StandardHealthPercentMax Value="0.114" />
               <StandardHealthPercentMin Value="0.114" />
+              <AmmountModifier Value="0.01" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -21116,6 +22135,7 @@
               <Coefficient Value="0.1" />
               <StandardHealthPercentMax Value="0.01" />
               <StandardHealthPercentMin Value="0.01" />
+              <ThreatModifier Value="3" />
             </Type>
           </Coeffcients>
         </Ability>
@@ -21246,6 +22266,14 @@
           <CombatLogID Value="3393419300831232" />
           <UtilityLevel Value="Heroic" />
           <UtilityPos Value="15" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.05" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.skill.utility.entangling_tools">
           <Label Value="Entangling Heat" />
@@ -21555,6 +22583,19 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3172499068026880" />
+          <Coeffcients>
+            <Type Value="effAction_Heal">
+              <HealingPowerCoefficient Value="0" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+              <AmmountPercent Value="0.025" />
+            </Type>
+            <Type Value="effAction_SpellDamage">
+              <Coefficient Value="1" />
+              <StandardHealthPercentMax Value="0" />
+              <StandardHealthPercentMin Value="0" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.neural_jolt">
           <Label Value="Neural Jolt" />
@@ -21913,6 +22954,14 @@
           <OnGCD Value="True" />
           <Cooldown Value="1" />
           <CombatLogID Value="3174264299585536" />
+          <Coeffcients>
+            <Type Value="effAction_AbsorbDamage">
+              <HealingPowerCoefficient Value="0.58" />
+              <StandardHealthPercentMax Value="0.029" />
+              <StandardHealthPercentMin Value="0.029" />
+              <AmmountPercent Value="1" />
+            </Type>
+          </Coeffcients>
         </Ability>
         <Ability Name="abl.trooper.skill.tactics.tactical_surge">
           <Label Value="Tactical Surge" />
