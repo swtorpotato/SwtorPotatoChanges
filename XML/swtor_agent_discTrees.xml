@@ -77,7 +77,7 @@
     </Ability>
     <Ability Name="abl.agent.snipe">
       <Label Value="Snipe" />
-      <Description Value="Shoots a target for &lt;&lt;1&gt;&gt; weapon damage." />
+      <Description Value="Shoots a target for &lt;&lt;1&gt;&gt; weapon damage. Can only be used from cover." />
       <Icon Value="snipe" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -209,7 +209,7 @@
     </Ability>
     <Ability Name="abl.agent.evasion">
       <Label Value="Evasion" />
-      <Description Value="Increases your chance to dodge melee and ranged attacks by 200% for &lt;&lt;1&gt;&gt; seconds. Does not break Stealth." />
+      <Description Value="Purges all hostile removable effects and increases your chance to dodge melee and ranged attacks by 100% for &lt;&lt;1&gt;&gt; seconds. Does not break Stealth." />
       <Icon Value="evasion" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -329,7 +329,7 @@
     </Ability>
     <Ability Name="abl.agent.fragmentation_grenade">
       <Label Value="Fragmentation Grenade" />
-      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the primary target and &lt;&lt;2&gt;&gt; kinetic damage to up to 7 standard or weak enemies within 5 meters of the primary target. If the primary target is a standard or weak enemy, it is knocked to the ground." />
+      <Description Value="Throws a fragmentation grenade that deals &lt;&lt;1&gt;&gt; kinetic damage to up to 5 enemies in an 8-meter radius. If the primary target is standard or weak, it is knocked down by the blast." />
       <Icon Value="remotedetonationmine" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -468,7 +468,7 @@
       <Label Value="Engineering" />
       <Ability Name="abl.agent.skill.engineering.energy_overrides">
         <Label Value="Energy Overrides" />
-        <Description Value="After activating EMP Discharge, the next Fragmentation Grenade costs no energy." />
+        <Description Value="After activating EMP Discharge, the next Explosive Probe or Plasma Probe used costs &lt;&lt;1[%d/%d/%d]&gt;&gt;% less energy." />
         <Icon Value="ionclip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -480,7 +480,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.cluster_bombs">
         <Label Value="Cluster Bombs" />
-        <Description Value="After Explosive Probe detonates, it drops 2 cluster bombs on the target. A cluster bomb explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Cluster bombs cannot be detonated more than once every half second." />
+        <Description Value="After Explosive Probe detonates, it drops &lt;&lt;1[%d cluster bombs/%d cluster bomb/%d cluster bombs]&gt;&gt; on the target. A cluster bomb explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Cluster bombs cannot be detonated more than once every half second." />
         <Icon Value="democharge" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -539,7 +539,7 @@
       <Ability Name="abl.agent.skill.engineering.explosive_probe">
         <Label Value="Explosive Probe" />
         <Description Value="Puts an explosive probe on the target that detonates when the target takes damage, dealing &lt;&lt;1&gt;&gt; kinetic damage to the target. Standard and weak targets are additionally knocked down and set on fire, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
-        <Icon Value="explosiveprobe" />
+        <Icon Value="abl_sm_gs_extra_shrapnel" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -569,7 +569,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.scatter_bombs">
         <Label Value="Scatter Bombs" />
-        <Description Value="Reduces the energy cost of Fragmentation Grenade by 5. In addition, when rolling with Covered Escape, you drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;1&gt;&gt; kinetic damage to any nearby enemy. Enemies can only be struck by 2 bombs." />
+        <Description Value="Reduces the energy cost of Fragmentation Grenade by &lt;&lt;1&gt;&gt;. In addition, when rolling with Covered Escape, you have a &lt;&lt;2&gt;&gt;% chance to drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;3&gt;&gt; kinetic damage to any nearby enemy, but a single enemy can only be hit by a maximum of 2 bombs." />
         <Icon Value="scatterbombs" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -588,7 +588,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.inventive_interrogation_techniques">
         <Label Value="Inventive Interrogation Techniques" />
-        <Description Value="Interrogation Probe reduces the target's movement speed by 30% for the duration." />
+        <Description Value="Interrogation Probe reduces the target's movement speed by &lt;&lt;1[%d/%d/%d]&gt;&gt;% for the duration." />
         <Icon Value="surveyorskit" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -626,7 +626,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.plasma_probe">
         <Label Value="Plasma Probe" />
-        <Description Value="Deploys a probe that attacks the target area, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 targets within 5 meters and slowing all affected targets by 70% while they remain in the target area. Only one plasma probe can be active at a time." />
+        <Description Value="Deploys a probe that attacks the target area, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 targets within 5 meters and slowing all affected targets by 70% while they remain in the target area. If a target is affected by your Interrogation Probe, that target is stunned for &lt;&lt;3&gt;&gt; seconds. The stun can only occur once every 18 seconds." />
         <Icon Value="plasmaprobe" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -647,7 +647,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.imperial_methodology">
         <Label Value="Imperial Methodology" />
-        <Description Value="Increases the number of cluster bombs dropped by Explosive Probe by 2. In addition, when the cluster bombs detonate, you recover 5 energy." />
+        <Description Value="Increases the number of cluster bombs dropped by Explosive Probe by &lt;&lt;1[%d/%d/%d]&gt;&gt;. In addition, when the cluster bombs detonate, you recover &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
         <Icon Value="shrapnelburst" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -659,7 +659,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.engineering.engineers_tool_belt">
         <Label Value="Engineer's Tool Belt" />
-        <Description Value="Increases the critical hit chance of Fragmentation Grenade by 10% and when Fragmentation Grenade deals damage to its primary target, it restores 5 energy." />
+        <Description Value="Reduces the cooldown of Flash Bang by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds and Fragmentation Grenade by &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="utilitybeltwithmanyslots" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -671,25 +671,25 @@
       </Ability>
       <Talent Name="tal.agent.skill.engineering.electrified_blast">
         <Label Value="Electrified Blast" />
-        <Description Value="Snipe and Fragmentation Grenade apply 1 stack of Electrified Railgun's effect to the primary target." />
+        <Description Value="Snipe and Overload Shot have a &lt;&lt;1&gt;&gt;% chance to apply 1 stack of Electrified Railgun's effect to the target." />
         <Icon Value="shockround" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.agent.skill.engineering.efficient_engineering">
         <Label Value="Efficient Engineering" />
-        <Description Value="Reduces the energy cost of Explosive Probe, Interrogation Probe and Plasma Probe by 5." />
+        <Description Value="Reduces the energy cost of Explosive Probe, Interrogation Probe and Plasma Probe by &lt;&lt;1[%d/%d/%d]&gt;&gt;." />
         <Icon Value="slicing" />
         <LevelAquired Value="44" />
       </Talent>
       <Talent Name="tal.agent.skill.engineering.explosive_engineering">
         <Label Value="Explosive Engineering" />
-        <Description Value="Increases the damage dealt by Explosive Probe, Cluster Bombs, Fragmentation Grenade, Plasma Probe, Scatter Bombs, and Orbital Strike by 15%." />
+        <Description Value="Increases the damage dealt by Explosive Probe, Cluster Bombs, Fragmentation Grenade, Suppressive Fire, Plasma Probe, Scatter Bombs, and Orbital Strike by &lt;&lt;1&gt;&gt;%." />
         <Icon Value="explosiveprobe" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.agent.skill.engineering.imperial_auto_loader">
         <Label Value="Imperial Auto Loader" />
-        <Description Value="Reduces the cooldown of Series of Shots by 6 seconds, reduces the energy cost of Series of Shots by 1 per second, and reduces the energy cost of Snipe by 5." />
+        <Description Value="Reduces the cooldown of Explosive Probe by &lt;&lt;3&gt;&gt; seconds and Series of Shots by &lt;&lt;1&gt;&gt; seconds and reduces their energy costs along with Snipe by &lt;&lt;2&gt;&gt;." />
         <Icon Value="bombardmentsniper" />
         <LevelAquired Value="56" />
       </Talent>
@@ -701,7 +701,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.engineering.experimental_explosives">
         <Label Value="Experimental Explosives" />
-        <Description Value="Increases the critical damage dealt by Explosive Probe, Interrogation Probe, EMP Discharge, and all area effects by 30%." />
+        <Description Value="Increases the critical damage dealt by all area effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="thermaldetonation" />
         <LevelAquired Value="32" />
       </Talent>
@@ -764,7 +764,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.lethal_purpose">
         <Label Value="Lethal Purpose" />
-        <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 2 energy." />
+        <Description Value="Reduces the cooldown of Adrenaline Probe by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. In addition, critical hits with poison effects restore &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
         <Icon Value="assassinstraining" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -804,7 +804,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.corrosive_grenade">
         <Label Value="Corrosive Grenade" />
-        <Description Value="Hurls a corrosive grenade that spews acid in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 8 targets." />
+        <Description Value="Hurls a corrosive grenade that spews acid in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 5 targets." />
         <Icon Value="stickygrenade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -880,13 +880,13 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.lethal_dose">
         <Label Value="Lethal Dose" />
-        <Description Value="Increases the critical hit chance of all periodic effects by 10%." />
+        <Description Value="Increases the critical hit chance of all periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="creepingterror" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.agent.skill.lethality.adhesive_corrosives">
         <Label Value="Adhesive Corrosives" />
-        <Description Value="Corrosive Greande reduces the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Corrosive Grenade reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="movementslowed" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1010,7 +1010,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.utility.hit_and_run">
         <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1155,7 +1155,7 @@
       </Ability>
       <Ability Name="abl.agent.suppressive_fire">
         <Label Value="Suppressive Fire" />
-        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1]&gt;&gt; weapon damage and spending 45 energy over the duration to up to 8 targets within 8 meters. Can only be used from cover." />
+        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1]&gt;&gt; weapon damage over the duration to up to 3 targets within 5 meters." />
         <Icon Value="barrage" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1191,7 +1191,7 @@
       </Ability>
       <Ability Name="abl.agent.series_of_shots">
         <Label Value="Series of Shots" />
-        <Description Value="Unleashes a series of shots that deals &lt;&lt;1&gt;&gt; weapon damage and uses 20 energy over the duration." />
+        <Description Value="Unleashes a series of shots that deals &lt;&lt;1&gt;&gt; weapon damage over the duration. Must be in cover to use." />
         <Icon Value="reactiveshots" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1214,7 +1214,7 @@
       </Ability>
       <Ability Name="abl.agent.shatter_shot">
         <Label Value="Shatter Shot" />
-        <Description Value="Fires a high-impact shot that deals &lt;&lt;1&gt;&gt; weapon damage and inflicts trauma for &lt;&lt;2&gt;&gt; seconds, reducing all healing the target receives by 20%." />
+        <Description Value="Fires a high-impact shot that deals &lt;&lt;1&gt;&gt; weapon damage and reduces the target's armor by 20% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Additionally inflicts trauma for &lt;&lt;3&gt;&gt; seconds, reducing all healing the target receives by 20%." />
         <Icon Value="perforatingshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1291,7 +1291,7 @@
       </Ability>
       <Ability Name="abl.agent.laze_target">
         <Label Value="Laze Target" />
-        <Description Value="Increases the critical hit chance of your next Ambush, Explosive Probe, or Cull by 100%." />
+        <Description Value="Increases the critical hit chance of your next Snipe by 100%." />
         <Icon Value="lazetarget" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1325,7 +1325,7 @@
       </Ability>
       <Ability Name="abl.agent.orbital_strike">
         <Label Value="Orbital Strike" />
-        <Description Value="Calls in support from orbiting warships, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 enemies within 8 meters of the targeted area. Additionally, standard and weak enemies are knocked down by the blasts. Can only be used from cover." />
+        <Description Value="Calls in support from orbiting warships, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to all enemies within 8 meters of the targeted area. Standard and weak enemies are additionally knocked down by the blasts." />
         <Icon Value="orbitalbombardment" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1419,20 +1419,20 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
-        <ChannelDuration Value="3" />
+        <ChannelDuration Value="2" />
         <CombatLogID Value="3394699201085440" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.273" />
-            <StandardHealthPercentMax Value="0.127" />
-            <StandardHealthPercentMin Value="0.127" />
-            <AmmountModifier Value="-0.15" />
+            <Coefficient Value="0.847" />
+            <StandardHealthPercentMax Value="0.085" />
+            <StandardHealthPercentMin Value="0.085" />
+            <AmmountModifier Value="-0.44" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.recoil_control">
         <Label Value="Recoil Control" />
-        <Description Value="Firing Snipe twice in a row, firing Takedown or Ambush once, or completing a Penetrating Blasts now finishes the cooldown on Followthrough." />
+        <Description Value="Increases the speed at which Series of Shots channels and fires by &lt;&lt;1&gt;&gt;%. Additionally, firing Snipe twice in a row, firing Takedown or Ambush once, or completing a Series of Shots now finishes the cooldown on Followthrough." />
         <Icon Value="boltaction" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1442,21 +1442,9 @@
         <Cooldown Value="1" />
         <CombatLogID Value="2301071678504960" />
       </Ability>
-      <Ability Name="abl.agent.skill.marksmanship.heavy_shot">
-        <Label Value="Heavy Shot" />
-        <Description Value="When Ambush strikes a target within 10 meters, the target is knocked back several meters." />
-        <Icon Value="ambush" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="20" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="2301226297327616" />
-      </Ability>
       <Ability Name="abl.agent.skill.marksmanship.sniper_volley">
         <Label Value="Sniper Volley" />
-        <Description Value="Immediately finishes the cooldown of Penetrating Blasts, increases base energy regeneration rate by 2 per second, and increases alacrity by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Immediately finishes the cooldown of Series of Shots, increases base energy regeneration rate by 2 per second, and increases alacrity by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="lockandload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1480,7 +1468,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.zeroing_shots">
         <Label Value="Zeroing Shots" />
-        <Description Value="Snipe zeroes in your sights, reducing the activation time of your next Ambush by 0.25 seconds. Stacks up to 2 times." />
+        <Description Value="Snipe zeroes in your sights, reducing the activation time of your next Ambush by &lt;&lt;1&gt;&gt;%. Stacks up to 2 times." />
         <Icon Value="iaassassin" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1492,7 +1480,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.muzzle_fluting">
         <Label Value="Muzzle Fluting" />
-        <Description Value="Followthrough reduces the energy cost of your next two Snipes by 5." />
+        <Description Value="Followthrough reduces the energy cost of your next two Snipes by &lt;&lt;1&gt;&gt;." />
         <Icon Value="rifleflashguard" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1539,34 +1527,40 @@
         <CombatLogID Value="2300994369093632" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="2.23" />
-            <StandardHealthPercentMax Value="0.223" />
-            <StandardHealthPercentMin Value="0.223" />
-            <AmmountModifier Value="0.49" />
+            <Coefficient Value="1.917" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.192" />
+            <AmmountModifier Value="-0.92" />
           </Type>
         </Coeffcients>
       </Ability>
+      <Talent Name="tal.agent.skill.marksmanship.heavy_diversion">
+        <Label Value="Heavy Diversion" />
+        <Description Value="Targets affected by your Diversion continue to be affected for 3 seconds after leaving the area of effect." />
+        <Icon Value="accuracyreduced" />
+        <LevelAquired Value="24" />
+      </Talent>
       <Talent Name="tal.agent.skill.marksmanship.headshot">
         <Label Value="Headshot" />
-        <Description Value="Increases the critical chance of Takedown and Penetrating Blasts by 15% and reduces the energy cost of Takedown by 3." />
+        <Description Value="Increases the critical chance of Takedown and Series of Shots by &lt;&lt;1&gt;&gt;% and reduces their energy cost by &lt;&lt;2&gt;&gt;." />
         <Icon Value="headshot" />
         <LevelAquired Value="28" />
       </Talent>
       <Talent Name="tal.agent.skill.marksmanship.between_the_eyes">
         <Label Value="Between the Eyes" />
-        <Description Value="Increases the critical hit chance of Snipe and Followthrough by 4%. Additionally increases armor penetration by 10%." />
+        <Description Value="Increases the critical hit chance of Snipe, Series of Shots and Followthrough by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. Additionally increases armor penetration by &lt;&lt;2&gt;&gt;%." />
         <Icon Value="snipe" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.agent.skill.marksmanship.rapid_fire">
         <Label Value="Rapid Fire" />
-        <Description Value="Reduces the cooldown of Ambush and Penetrating Blast by 3 seconds." />
+        <Description Value="Reduces the cooldown of Ambush and Series of Shots by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="blindfire" />
         <LevelAquired Value="36" />
       </Talent>
       <Talent Name="tal.agent.skill.marksmanship.portable_bunker">
         <Label Value="Portable Bunker" />
-        <Description Value="Increases the duration of Entrench by 3 seconds. In addition, when you enter cover after using Covered Escape, you gain Entrench for the first 3 seconds." />
+        <Description Value="Increases the duration of Entrench by &lt;&lt;1&gt;&gt; seconds. In addition, when you enter cover after using Covered Escape, you gain Entrench for the first 3 seconds." />
         <Icon Value="portablebunker" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1590,9 +1584,9 @@
       </Talent>
       <Talent Name="tal.agent.skill.marksmanship.precision_ambush">
         <Label Value="Precision Ambush" />
-        <Description Value="Ambush ignores 20% of the target's armor." />
+        <Description Value="Ambush ignores &lt;&lt;1[%d/%d/%d]&gt;&gt;% of the target's armor." />
         <Icon Value="blasterhugescope" />
-        <LevelAquired Value="24" />
+        <LevelAquired Value="20" />
       </Talent>
     </DisciplineTree>
   </AdvClass>
@@ -1601,7 +1595,7 @@
       <Label Value="Concealment" />
       <Ability Name="abl.agent.skill.concealment.calculated_frenzy">
         <Label Value="Calculated Frenzy" />
-        <Description Value="Backstab grants Calculated Frenzy, which increases ranged and tech critical chance by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Veiled Strike causes the target to become susceptible for &lt;&lt;2&gt;&gt; seconds. Susceptible targets take 5% more damage from tech attacks." />
+        <Description Value="Backstab and Hidden Strike have a &lt;&lt;1&gt;&gt;% chance to trigger Calculated Frenzy, which increases ranged and tech critical chance by &lt;&lt;2&gt;&gt;% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="opportunity" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1613,7 +1607,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.tactical_opportunity">
         <Label Value="Tactical Opportunity" />
-        <Description Value="Collateral Strike immediately re-grants Tactical Advantage when hitting a poisoned target. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Collateral Strike has a &lt;&lt;1&gt;&gt;% chance to immediately re-grant Tactical Advantage when hitting a poisoned target. This effect cannot occur more than once every 10 seconds." />
         <Icon Value="hiltstrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1646,7 +1640,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.collateral_strike">
         <Label Value="Collateral Strike" />
-        <Description Value="Laceration triggers a Collateral Strike, dealing &lt;&lt;1&gt;&gt; additional kinetic damage. Standard and weak targets are additionally stunned by Collateral Strike." />
+        <Description Value="Laceration has a &lt;&lt;1&gt;&gt;% chance to trigger a Collateral Strike, dealing &lt;&lt;2&gt;&gt; additional kinetic damage. Standard and weak targets are additionally stunned by Collateral Strike." />
         <Icon Value="stockstrike" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1665,7 +1659,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.shadow_operative_elite">
         <Label Value="Shadow Operative Elite" />
-        <Description Value="Increases your effective stealth level by 2 and reduces all area effect damage taken by 30%. In addition, when you activate Exfiltrate, you dodge all incoming attacks for 1.5 seconds." />
+        <Description Value="Increases your effective stealth level by &lt;&lt;1&gt;&gt; and reduces all area effect damage taken by &lt;&lt;3&gt;&gt;%. In addition, when you activate Exfiltrate, you gain a &lt;&lt;2&gt;&gt;% chance to dodge all incoming attacks for 1.5 seconds." />
         <Icon Value="fadeaway" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1698,7 +1692,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.acid_blade">
         <Label Value="Acid Blade" />
-        <Description Value="Coats your instruments in acid, causing Backstab to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Coats your instruments in acid, causing your next Hidden Strike or Backstab to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. This ability does not respect the global cooldown and does not break stealth." />
         <Icon Value="acidblade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1729,7 +1723,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.culling">
         <Label Value="Culling" />
-        <Description Value="Increases damage dealt by Laceration and Collateral Strike by 5%. In addition, when Collateral Strike damages a target, you recover 8 energy." />
+        <Description Value="Increases damage dealt by Laceration and Collateral Strike by &lt;&lt;1&gt;&gt;%. In addition, when Collateral Strike damages a target, you recover &lt;&lt;2&gt;&gt; energy." />
         <Icon Value="aimboost" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1795,25 +1789,25 @@
       </Talent>
       <Talent Name="tal.agent.skill.concealment.surgical_strikes">
         <Label Value="Surgical Strikes" />
-        <Description Value="Increases the damage dealt by Veiled Strike, Overload Shot and Backstab by 5%." />
+        <Description Value="Increases the damage dealt by Shiv, Overload Shot and Backstab by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="perforatingshot" />
         <LevelAquired Value="44" />
       </Talent>
       <Talent Name="tal.agent.skill.concealment.scouting">
         <Label Value="Scouting" />
-        <Description Value="Increases your stealth detection level by 2 and chance to dodge by 2%." />
+        <Description Value="Increases your stealth detection level by &lt;&lt;1[%d/%d/%d]&gt;&gt; and chance to dodge by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="tacticalmap" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.agent.skill.concealment.meticulously_kept_blades">
         <Label Value="Meticulously Kept Blades" />
-        <Description Value="Increases the critical damage dealt by Veiled Strike, Backstab, Volatile Substance, and Laceration by 30%." />
+        <Description Value="Increases the critical damage dealt by Backstab, Laceration, Hidden Strike, and Acid Blade by &lt;&lt;1&gt;&gt;%." />
         <Icon Value="trickblades" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.agent.skill.concealment.waylay">
         <Label Value="Waylay" />
-        <Description Value="Increases the damage dealt by Backstab by 5%." />
+        <Description Value="Increases the damage dealt by Backstab by &lt;&lt;1&gt;&gt;%." />
         <Icon Value="criticalblade" />
         <LevelAquired Value="40" />
       </Talent>
@@ -1843,7 +1837,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.incisive_action">
         <Label Value="Incisive Action" />
-        <Description Value="Reduces the activation time of Kolto Injection and Kolto Infusion by 0.5 seconds and allows Kolto Injection to grant Tactical Advantage." />
+        <Description Value="Reduces the activation time of Kolto Injection and Kolto Infusion by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds and gives Kolto Injection a &lt;&lt;2&gt;&gt;% chance to grant Tactical Advantage." />
         <Icon Value="cyberneticexperiement" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1855,7 +1849,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.medical_engineering">
         <Label Value="Medical Engineering" />
-        <Description Value="Each tick of Kolto Waves, Kolto Probe, Kolto Infusion, and Recuperative Nanotech has a 30% chance to grant Tactical Advantage. This effect cannot occur more than once every 6 seconds." />
+        <Description Value="Each tick of Kolto Probe, Kolto Infusion, and Recuperative Nanotech has a &lt;&lt;1&gt;&gt;% chance to grant Tactical Advantage. This effect cannot occur more than once every 9 seconds. Each rank beyond the first reduces this rate limit by 1.5 seconds." />
         <Icon Value="luminescentcells1" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1907,7 +1901,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.patient_studies">
         <Label Value="Patient Studies" />
-        <Description Value="Increases the speed at which Kolto Waves Diagnostic Scan channels by 30%. Diagnostic Scan criticals restore 2 energy." />
+        <Description Value="Increases the speed at which Diagnostic Scan channels by &lt;&lt;1&gt;&gt;%. Diagnostic Scan criticals restore &lt;&lt;2&gt;&gt; energy." />
         <Icon Value="imperialdatapad" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1941,7 +1935,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.surgical_precision">
         <Label Value="Surgical Precision" />
-        <Description Value="Increases the healing dealt by Surgical Probe by 20% and increases the max stack limit of Tactical Advantage by 1. In addition, Surgical Probe immediately re-grants Tactical Advantage once every 10 seconds." />
+        <Description Value="Increases the healing dealt by Surgical Probe by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and increases the max stack limit of Tactical Advantage by &lt;&lt;2&gt;&gt;. In addition, Surgical Probe immediately re-grants Tactical Advantage once every 10 seconds." />
         <Icon Value="surveyorskit" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1973,19 +1967,19 @@
       </Ability>
       <Talent Name="tal.agent.skill.medic.prognosis_critical">
         <Label Value="Prognosis: Critical" />
-        <Description Value="Increases the critical chance of Diagnostic Scan and Kolto Waves by 25%." />
+        <Description Value="Increases the critical chance of Diagnostic Scan by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="emergencystimpak" />
         <LevelAquired Value="20" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.surgical_steadiness">
         <Label Value="Surgical Steadiness" />
-        <Description Value="Reduces the pushback suffered while activating healing abilities by 70%, and reduces the threat generated by heals by 10%." />
+        <Description Value="Reduces the pushback suffered while activating healing abilities by &lt;&lt;1[%d/%d/%d]&gt;&gt;%, and reduces the threat generated by heals by &lt;&lt;2[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="firstaid" />
         <LevelAquired Value="14" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.tactical_medicine">
         <Label Value="Tactical Medicine" />
-        <Description Value="Consuming a Tactical Advantage with a healing ability increases all healing done by 3% for 6 seconds. This can only occur once every 10 seconds." />
+        <Description Value="Consuming a Tactical Advantage with a healing ability increases all healing done by 3% for 6 seconds." />
         <Icon Value="abl_ag_op_tactical_med" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1997,25 +1991,25 @@
       </Talent>
       <Talent Name="tal.agent.skill.medic.durable_meds">
         <Label Value="Durable Meds" />
-        <Description Value="Increases the healing dealt by Kolto Probe and Recuperative Nanotech by 10%. Additionally increases the duration of Recuperative Nanotech by 3 seconds and reduces the energy cost of Kolto Probe by 5." />
+        <Description Value="Increases the healing dealt by Kolto Probe and Recuperative Nanotech by &lt;&lt;1&gt;&gt;%. Additionally increases the duration of Recuperative Nanotech by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and reduces the energy cost of Kolto Probe by &lt;&lt;3&gt;&gt;." />
         <Icon Value="powerednanotech" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.accomplished_doctor">
         <Label Value="Accomplished Doctor" />
-        <Description Value="Increases the critical healing bonus of Kolto Injection, Recuperative Nanotech, Surgical Probe, and Kolto Waves by 30%." />
+        <Description Value="Increases the critical healing bonus of Kolto Injection, Kolto Infusion and Recuperative Nanotech by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.medical_therapy">
         <Label Value="Medical Therapy" />
-        <Description Value="Increases the healing dealt by periodic effects by 10%. In addition, the energy cost of Recuperative Nanotech is reduced by 5, and targets affected by Recuperative Nanotech are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
+        <Description Value="Increases the healing dealt by periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and Surgical Probe by &lt;&lt;2[%d/%d/%d]&gt;&gt;%. Additionally reduces the energy cost of Recuperative Nanotech by &lt;&lt;3&gt;&gt;." />
         <Icon Value="medicalcrate" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.medical_consult">
         <Label Value="Medical Consult" />
-        <Description Value="Increases the critical chance of Kolto Probe by 5%. Additionally, Kolto Infusion makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
+        <Description Value="Increases all healing dealt by &lt;&lt;1&gt;&gt;% at all times and an additional &lt;&lt;2&gt;&gt;% while Tactical Advantage is active. Additionally increases the duration of Tactical Advantage by &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="diagnosticscan" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2023,7 +2017,7 @@
     <base Name="base">
       <Ability Name="abl.agent.backstab">
         <Label Value="Backstab" />
-        <Description Value="Ambushes an enemy for &lt;&lt;1&gt;&gt; kinetic damage. Only usable while behind the target. If used from stealth, Backstab deals &lt;&lt;2&gt;&gt; kinetic damage and grants a Tactical Advantage." />
+        <Description Value="Ambushes an enemy for &lt;&lt;1&gt;&gt; kinetic damage. Only usable while behind the target." />
         <Icon Value="criticalblade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2049,7 +2043,7 @@
       </Ability>
       <Ability Name="abl.agent.exfiltrate">
         <Label Value="Exfiltrate" />
-        <Description Value="Roll forward 12 meters. Activating Exfiltrate a second time within 10 seconds allows you to roll again, but puts the ability on cooldown for 10 seconds. While rolling, your chance to dodge melee and ranged attacks is increased by 30%. Does not break stealth. Cannot be used while immobilized or hindered." />
+        <Description Value="Roll forward 12 meters.  Can be activated a 2nd time within 10 seconds to roll again and go on cooldown for 10 seconds. While rolling, your chance to dodge melee and ranged attacks is increased by 30%. Does not break stealth. Cannot be used while immobilized." />
         <Icon Value="newrolloperative" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2129,7 +2123,7 @@
       </Ability>
       <Ability Name="abl.agent.cloaking_screen">
         <Label Value="Cloaking Screen" />
-        <Description Value="Overloads your stealth generator, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable." />
+        <Description Value="Overloads your stealth generator, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable, but all healing done and received is decreased by 100%." />
         <Icon Value="coveredescape" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2141,7 +2135,7 @@
       </Ability>
       <Ability Name="abl.agent.carbine_burst">
         <Label Value="Carbine Burst" />
-        <Description Value="Executes your Tactical Advantage, firing a short burst that hits up to 8 targets in a 10-meter cone in front of you for &lt;&lt;1&gt;&gt; weapon damage. Requires and consumes Tactical Advantage." />
+        <Description Value="Executes your Tactical Advantage, firing a short burst that hits up to 5 targets in a 10-meter cone in front of you for &lt;&lt;1&gt;&gt; weapon damage. Requires and consumes Tactical Advantage." />
         <Icon Value="desperatecommand" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2272,7 +2266,7 @@
       </Ability>
       <Ability Name="abl.agent.tactical_advantage">
         <Label Value="Tactical Advantage" />
-        <Description Value="Defeating an opponent or activating Shiv puts you in a position of Tactical Advantage, enabling the use of executions for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Tactical Advantage can exist at once." />
+        <Description Value="Defeating an opponent or activating Shiv or Hidden Strike puts you in a position of Tactical Advantage, increasing all damage dealt by 2% and enabling the use of executions for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Tactical Advantage can exist at once." />
         <Icon Value="iachisssecretpolice" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2359,7 +2353,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.lethal_purpose">
         <Label Value="Lethal Purpose" />
-        <Description Value="Reduces the cooldown of Adrenaline Probe by 15 seconds. In addition, critical hits with poison effects restore 2 energy." />
+        <Description Value="Reduces the cooldown of Adrenaline Probe by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. In addition, critical hits with poison effects restore &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
         <Icon Value="assassinstraining" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2439,7 +2433,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.fatality">
         <Label Value="Fatality" />
-        <Description Value="Shiv triggers Fatality, which makes your next Corrosive Assault regrant Tactical Advantage and cost no energy. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Shiv has a &lt;&lt;1&gt;&gt;% chance to trigger Fatality, which makes your next Cull regrant Tactical Advantage and cost no energy. This effect cannot occur more than once every 10 seconds." />
         <Icon Value="focusedsights" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2451,7 +2445,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.corrosive_grenade">
         <Label Value="Corrosive Grenade" />
-        <Description Value="Hurls a corrosive grenade that spews acid in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 8 targets." />
+        <Description Value="Hurls a corrosive grenade that spews acid in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 5 targets." />
         <Icon Value="stickygrenade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2482,7 +2476,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.combat_stims">
         <Label Value="Combat Stims" />
-        <Description Value="Stim Boost immediately restores 10 energy when activated. Additionally reduces the cooldown of Stim Boost by 30 seconds." />
+        <Description Value="Stim Boost immediately restores &lt;&lt;1[%d/%d/%d]&gt;&gt; energy when activated. Additionally reduces the cooldown of Stim Boost by &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="stimulants" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2494,7 +2488,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.lethality.quickening">
         <Label Value="Quickening" />
-        <Description Value="Increases the duration of your Evasion by 1 second and your effective stealth level by 2. In addition, when you activate Exfiltrate, you gain Quickening, which makes your next Kolto Infusion activate instantly, cost no energy, and not require or consume Tactical Advantage.  This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Increases the duration of your Evasion by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and your effective stealth level by &lt;&lt;2&gt;&gt;. In addition, when you activate Exfiltrate, you have a &lt;&lt;3&gt;&gt;% chance to gain Quickening, which makes your next Kolto Infusion activate instantly, cost no energy, and not require or consume Tactical Advantage." />
         <Icon Value="trenchhealer" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2506,19 +2500,19 @@
       </Ability>
       <Talent Name="tal.agent.skill.lethality.lethal_dose">
         <Label Value="Lethal Dose" />
-        <Description Value="Increases the critical hit chance of all periodic effects by 10%." />
+        <Description Value="Increases the critical hit chance of all periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="creepingterror" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.agent.skill.lethality.adhesive_corrosives">
         <Label Value="Adhesive Corrosives" />
-        <Description Value="Corrosive Greande reduces the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Corrosive Grenade reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="movementslowed" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.agent.skill.lethality.license_to_kill">
         <Label Value="License to Kill" />
-        <Description Value="Reduces the energy cost of Corrosive Assault by 5, and causes damage dealt by Shiv to make its target susceptible for 45 seconds. Susceptible targets take 5% more damage from tech attacks." />
+        <Description Value="Reduces the energy cost of Cull by &lt;&lt;1&gt;&gt;." />
         <Icon Value="imperialagent" />
         <LevelAquired Value="16" />
       </Talent>
@@ -2530,7 +2524,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.cut_down_operative">
         <Label Value="Cut Down" />
-        <Description Value="Increases the damage dealt by Lethal Strike, Overload Shot, Carbine Burst and Corrosive Assault by 5%." />
+        <Description Value="Increases the damage dealt by Overload Shot, Carbine Burst and Cull by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
         <Icon Value="linetheshot" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2554,7 +2548,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.devouring_microbes">
         <Label Value="Devouring Microbes" />
-        <Description Value="Increases the damage dealt by poison effects by 15% on targets below 30% of max health. In addition, if a target dies with Toxic Blast, it finishes the cooldown of Toxic Blast." />
+        <Description Value="Increases the damage dealt by poison effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;% on targets below 30% of max health." />
         <Icon Value="wither" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2689,7 +2683,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.utility.hit_and_run">
         <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />
