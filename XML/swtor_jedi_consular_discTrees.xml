@@ -133,6 +133,7 @@
       <Cooldown Value="15" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="2" />
       <CombatLogID Value="812796790964224" />
       <ForceCost Value="40" />
       <Coeffcients>
@@ -418,6 +419,7 @@
       <Cooldown Value="60" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="2" />
       <CombatLogID Value="3488187754217472" />
       <ForceCost Value="10" />
       <Coeffcients>
@@ -852,6 +854,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="3347334301745152" />
         <ForceCost Value="30" />
         <Coeffcients>
@@ -1585,6 +1588,7 @@
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
         <Cooldown Value="1" />
+        <ActivationTime Value="0.5" />
         <CombatLogID Value="3200416355450880" />
       </Ability>
       <Ability Name="abl.jedi_consular.mind_maze">
@@ -1655,6 +1659,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="3" />
         <CombatLogID Value="812990064492544" />
         <ForceCost Value="90" />
         <Coeffcients>
@@ -1677,6 +1682,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="3" />
         <CombatLogID Value="812951409786880" />
         <ForceCost Value="40" />
         <Coeffcients>
@@ -2127,6 +2133,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="812710891618304" />
         <ForceCost Value="70" />
         <Coeffcients>
@@ -2149,6 +2156,7 @@
         <Cooldown Value="300" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="812826855735296" />
         <ForceCost Value="30" />
       </Ability>
@@ -2257,6 +2265,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="812723776520192" />
         <ForceCost Value="40" />
         <Coeffcients>
@@ -2475,6 +2484,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="3347334301745152" />
         <ForceCost Value="30" />
         <Coeffcients>
@@ -2541,6 +2551,7 @@
         <Cooldown Value="12" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3347338596712448" />
         <ForceCost Value="50" />
         <Coeffcients>
@@ -2737,6 +2748,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3347325711810560" />
         <ForceCost Value="30" />
         <Coeffcients>
@@ -2771,6 +2783,7 @@
         <Cooldown Value="6" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="947130483081216" />
         <ForceCost Value="50" />
         <Coeffcients>
@@ -2872,6 +2885,7 @@
         <Cooldown Value="9" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="885781170225152" />
         <ForceCost Value="50" />
         <Coeffcients>

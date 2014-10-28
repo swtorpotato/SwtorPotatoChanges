@@ -72,6 +72,7 @@
       <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="807157498904576" />
       <EnergyCost Value="20" />
       <Coeffcients>
@@ -141,6 +142,7 @@
       <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="1624966516703232" />
       <Coeffcients>
         <Type Value="effAction_Heal">
@@ -988,6 +990,7 @@
         <Cooldown Value="300" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="807217628446720" />
       </Ability>
       <Ability Name="abl.smuggler.pugnacity">
@@ -1065,6 +1068,7 @@
         <Cooldown Value="9" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="3470823201439744" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -1287,6 +1291,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="3406424461803520" />
         <EnergyCost Value="25" />
         <Coeffcients>
@@ -1900,7 +1905,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ChannelDuration Value="4" />
+        <ChannelDuration Value="4.5" />
         <CombatLogID Value="807282052956160" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
@@ -1982,6 +1987,7 @@
         <Cooldown Value="45" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="2524220999335936" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -2582,6 +2588,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="1112293450448896" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -2822,6 +2829,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3404611985604608" />
         <EnergyCost Value="15" />
         <Coeffcients>

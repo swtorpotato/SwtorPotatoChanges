@@ -87,6 +87,7 @@
       <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="814892735004672" />
       <EnergyCost Value="20" />
       <Coeffcients>
@@ -445,6 +446,7 @@
       <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="1624803307945984" />
       <Coeffcients>
         <Type Value="effAction_Heal">
@@ -856,6 +858,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3395639798923264" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1177,7 +1180,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ChannelDuration Value="4" />
+        <ChannelDuration Value="4.5" />
         <CombatLogID Value="869606323388416" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
@@ -1350,6 +1353,7 @@
         <Cooldown Value="45" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="2145301804613632" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -1518,6 +1522,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="3394042071089152" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1892,6 +1897,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="3401961990782976" />
         <EnergyCost Value="25" />
         <Coeffcients>
@@ -2193,6 +2199,7 @@
         <Cooldown Value="300" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="814875555135488" />
       </Ability>
       <Ability Name="abl.agent.infiltrate">
@@ -2232,6 +2239,7 @@
         <Cooldown Value="9" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="1014376786034688" />
         <EnergyCost Value="20" />
         <Coeffcients>

@@ -110,6 +110,7 @@
       <LevelAquired Value="4" />
       <OnGCD Value="True" />
       <Cooldown Value="1" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="2020687623487488" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
@@ -612,6 +613,7 @@
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2027705600049152" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -692,6 +694,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2467012034953216" />
       </Ability>
       <Ability Name="abl.bounty_hunter.flame_sweep">
@@ -1800,6 +1803,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="3401390760132608" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -2001,6 +2005,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3394707791020032" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -2416,6 +2421,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2497540662493184" />
       </Ability>
       <Ability Name="abl.bounty_hunter.high_velocity_gas_cylinder">
@@ -2428,6 +2434,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2022311121125376" />
       </Ability>
       <Ability Name="abl.bounty_hunter.power_surge">
@@ -2454,6 +2461,7 @@
         <Cooldown Value="12" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="984595482804224" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -2579,6 +2587,7 @@
         <Cooldown Value="60" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="1681075969458176" />
         <EnergyCost Value="5" />
         <Coeffcients>
@@ -2629,6 +2638,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="814235605008384" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -2714,6 +2724,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="814274259714048" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -2743,6 +2754,7 @@
         <Cooldown Value="300" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2940854301884416" />
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.upgraded_arsenal">
@@ -2907,6 +2919,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="985140943650816" />
         <EnergyCost Value="15" />
         <Coeffcients>

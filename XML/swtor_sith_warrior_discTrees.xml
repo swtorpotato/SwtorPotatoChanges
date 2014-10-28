@@ -1333,6 +1333,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2210516588036096" />
         <Coeffcients>
           <Type Value="effAction_Heal">

@@ -116,6 +116,7 @@
       <LevelAquired Value="4" />
       <OnGCD Value="True" />
       <Cooldown Value="1" />
+      <ActivationTime Value="1.5" />
       <CombatLogID Value="1202324554907648" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
@@ -597,6 +598,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3418278571540480" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -807,6 +809,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="3393462250504192" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1003,6 +1006,7 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <Range Value="30" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="1202535008305152" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1158,6 +1162,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="801260508807168" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1179,6 +1184,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2491411744161792" />
       </Ability>
       <Ability Name="abl.player.proficiency.armor.generator">
@@ -1245,6 +1251,7 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2297266337480704" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -1334,6 +1341,7 @@
         <Cooldown Value="12" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="997175442014208" />
         <EnergyCost Value="20" />
         <Coeffcients>
@@ -1356,6 +1364,7 @@
         <Cooldown Value="300" />
         <Range Value="30" />
         <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2940764107571200" />
       </Ability>
       <Ability Name="abl.trooper.field_aid">
@@ -1420,6 +1429,7 @@
         <Cooldown Value="60" />
         <Range Value="30" />
         <TargetArc Value="270" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="1682579208011776" />
         <EnergyCost Value="5" />
         <Coeffcients>
@@ -1464,6 +1474,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="801256213839872" />
       </Ability>
       <Ability Name="abl.trooper.electro_net">
@@ -2274,6 +2285,7 @@
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="801312048414720" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2415,6 +2427,7 @@
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="2466986265149440" />
       </Ability>
       <Ability Name="abl.trooper.guard">
