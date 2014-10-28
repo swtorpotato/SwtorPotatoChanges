@@ -73,6 +73,7 @@
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="807157498904576" />
+      <EnergyCost Value="20" />
       <Coeffcients>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="1.74" />
@@ -119,6 +120,7 @@
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="3465149549641728" />
+      <EnergyCost Value="15" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="1.68" />
@@ -176,6 +178,7 @@
       <Range Value="10" />
       <TargetArc Value="270" />
       <CombatLogID Value="980094357078016" />
+      <EnergyCost Value="15" />
       <Coeffcients>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="1.39" />
@@ -310,6 +313,7 @@
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="807290642890752" />
+      <EnergyCost Value="20" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="1.54" />
@@ -336,6 +340,7 @@
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="807178973741056" />
+      <EnergyCost Value="10" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="0.67" />
@@ -449,6 +454,7 @@
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="2115340112756736" />
+      <EnergyCost Value="15" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="0.3075" />
@@ -733,6 +739,7 @@
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3406463116509184" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.33" />
@@ -873,6 +880,7 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="3406458821541888" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.3" />
@@ -894,6 +902,7 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="985076519141376" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.34" />
@@ -953,6 +962,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="981455861710848" />
+        <EnergyCost Value="10" />
       </Ability>
       <Ability Name="abl.player.proficiency.weapon.shotgun">
         <Label Value="Weapon Proficiency: Scattergun" />
@@ -1029,6 +1039,7 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="981331307659264" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.26" />
@@ -1055,6 +1066,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3470823201439744" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="1.29" />
@@ -1093,6 +1105,7 @@
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="1138200693178368" />
+        <EnergyCost Value="20" />
       </Ability>
       <Ability Name="abl.smuggler.disappearing_act">
         <Label Value="Disappearing Act" />
@@ -1156,6 +1169,7 @@
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="1701421229539328" />
+        <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.65" />
@@ -1175,6 +1189,7 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="1797757345988608" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.84" />
@@ -1218,6 +1233,7 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="3406415871868928" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.37" />
@@ -1272,6 +1288,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3406424461803520" />
+        <EnergyCost Value="25" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="2.72" />
@@ -1317,6 +1334,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="1147159994957824" />
+        <EnergyCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.535" />
@@ -1514,6 +1532,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807698664783872" />
+        <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.3" />
@@ -1557,6 +1576,7 @@
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3406729404481536" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.359" />
@@ -1613,6 +1633,7 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="3406802418925568" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="1.02" />
@@ -1725,6 +1746,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807243398250496" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="2.51" />
@@ -1753,6 +1775,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807204743544832" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.62" />
@@ -1837,6 +1860,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807226218381312" />
+        <EnergyCost Value="12" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.86" />
@@ -1959,6 +1983,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="2524220999335936" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.7" />
@@ -2234,6 +2259,7 @@
         <Cooldown Value="18" />
         <Range Value="30" />
         <CombatLogID Value="1957027618226176" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.27" />
@@ -2255,6 +2281,7 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="1159319047372800" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.201" />
@@ -2381,6 +2408,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3404564740964352" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.72" />
@@ -2412,6 +2440,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="1957100632670208" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.4" />
@@ -2489,6 +2518,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="2301861952487424" />
+        <EnergyCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.917" />
@@ -2553,6 +2583,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="1112293450448896" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="3.684" />
@@ -2691,6 +2722,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807698664783872" />
+        <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.3" />
@@ -2791,6 +2823,7 @@
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3404611985604608" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.988" />
