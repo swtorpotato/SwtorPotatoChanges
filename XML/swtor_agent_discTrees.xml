@@ -539,7 +539,7 @@
       <Ability Name="abl.agent.skill.engineering.explosive_probe">
         <Label Value="Explosive Probe" />
         <Description Value="Puts an explosive probe on the target that detonates when the target takes damage, dealing &lt;&lt;1&gt;&gt; kinetic damage to the target. Standard and weak targets are additionally knocked down and set on fire, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
-        <Icon Value="explosiveprobe" />
+        <Icon Value="abl_sm_gs_extra_shrapnel" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -886,7 +886,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.adhesive_corrosives">
         <Label Value="Adhesive Corrosives" />
-        <Description Value="Corrosive Greande reduces the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Corrosive Grenade reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="movementslowed" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1010,7 +1010,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.utility.hit_and_run">
         <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1419,14 +1419,14 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
-        <ChannelDuration Value="3" />
+        <ChannelDuration Value="2" />
         <CombatLogID Value="3394699201085440" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.273" />
-            <StandardHealthPercentMax Value="0.127" />
-            <StandardHealthPercentMin Value="0.127" />
-            <AmmountModifier Value="-0.15" />
+            <Coefficient Value="0.847" />
+            <StandardHealthPercentMax Value="0.085" />
+            <StandardHealthPercentMin Value="0.085" />
+            <AmmountModifier Value="-0.44" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1441,18 +1441,6 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="2301071678504960" />
-      </Ability>
-      <Ability Name="abl.agent.skill.marksmanship.heavy_shot">
-        <Label Value="Heavy Shot" />
-        <Description Value="When Ambush strikes a target within 10 meters, the target is knocked back several meters." />
-        <Icon Value="ambush" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="20" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="2301226297327616" />
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.sniper_volley">
         <Label Value="Sniper Volley" />
@@ -1539,13 +1527,19 @@
         <CombatLogID Value="2300994369093632" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="2.23" />
-            <StandardHealthPercentMax Value="0.223" />
-            <StandardHealthPercentMin Value="0.223" />
-            <AmmountModifier Value="0.49" />
+            <Coefficient Value="1.917" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.192" />
+            <AmmountModifier Value="-0.92" />
           </Type>
         </Coeffcients>
       </Ability>
+      <Talent Name="tal.agent.skill.marksmanship.heavy_diversion">
+        <Label Value="Heavy Diversion" />
+        <Description Value="Targets affected by your Diversion continue to be affected for 3 seconds after leaving the area of effect." />
+        <Icon Value="accuracyreduced" />
+        <LevelAquired Value="24" />
+      </Talent>
       <Talent Name="tal.agent.skill.marksmanship.headshot">
         <Label Value="Headshot" />
         <Description Value="Increases the critical chance of Takedown and Penetrating Blasts by 15% and reduces the energy cost of Takedown by 3." />
@@ -1592,7 +1586,7 @@
         <Label Value="Precision Ambush" />
         <Description Value="Ambush ignores 20% of the target's armor." />
         <Icon Value="blasterhugescope" />
-        <LevelAquired Value="24" />
+        <LevelAquired Value="20" />
       </Talent>
     </DisciplineTree>
   </AdvClass>
@@ -1985,7 +1979,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.medic.tactical_medicine">
         <Label Value="Tactical Medicine" />
-        <Description Value="Consuming a Tactical Advantage with a healing ability increases all healing done by 3% for 6 seconds. This can only occur once every 10 seconds." />
+        <Description Value="Consuming a Tactical Advantage with a healing ability increases all healing done by 3% for 6 seconds." />
         <Icon Value="abl_ag_op_tactical_med" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2512,7 +2506,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.adhesive_corrosives">
         <Label Value="Adhesive Corrosives" />
-        <Description Value="Corrosive Greande reduces the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Corrosive Grenade reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="movementslowed" />
         <LevelAquired Value="40" />
       </Talent>
@@ -2689,7 +2683,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.utility.hit_and_run">
         <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />

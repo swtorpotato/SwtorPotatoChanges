@@ -469,9 +469,9 @@
             <StandardHealthPercentMin Value="0.039" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.7518" />
-            <StandardHealthPercentMax Value="0.095" />
-            <StandardHealthPercentMin Value="0.055" />
+            <Coefficient Value="0.64" />
+            <StandardHealthPercentMax Value="0.084" />
+            <StandardHealthPercentMin Value="0.044" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.588" />
@@ -479,9 +479,9 @@
             <StandardHealthPercentMin Value="0.0528" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.543" />
-            <StandardHealthPercentMax Value="0.0603" />
-            <StandardHealthPercentMin Value="0.0483" />
+            <Coefficient Value="0.51" />
+            <StandardHealthPercentMax Value="0.071" />
+            <StandardHealthPercentMin Value="0.031" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -500,7 +500,7 @@
       <Ability Name="abl.sith_inquisitor.skill.lightning.charged_reaction">
         <Label Value="Charged Reaction" />
         <Description Value="Direct damage dealt by your Crushing Darkness and Chain Lightning abilities refreshes the duration of your Affliction on affected targets. In addition, Lightning Bolt increases your Force regeneration rate by 10% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
-        <Icon Value="absorbtionfield" />
+        <Icon Value="abl_si_so_charged_reaction" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -600,9 +600,9 @@
         <CombatLogID Value="808484643799040" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.506" />
-            <StandardHealthPercentMax Value="0.271" />
-            <StandardHealthPercentMin Value="0.231" />
+            <Coefficient Value="2.14" />
+            <StandardHealthPercentMax Value="0.234" />
+            <StandardHealthPercentMin Value="0.194" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -621,9 +621,9 @@
         <CombatLogID Value="3411385149030400" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.151" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -681,7 +681,7 @@
       <Talent Name="tal.sith_inquisitor.skill.lightning.storm_brewing">
         <Label Value="Storm Brewing" />
         <Description Value="Increases the critical chance of Force Storm by 15% and its critical damage bonus by 30%." />
-        <Icon Value="childoftheempire" />
+        <Icon Value="abl_si_so_storm_brewing" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.lightning.chaos_nexus">
@@ -1238,7 +1238,7 @@
       <Talent Name="tal.sith_inquisitor.skill.madness.pestilence">
         <Label Value="Pestilence" />
         <Description Value="Death Field spreads your Affliction and Creeping Terror to the targets it damages, as long as it damages targets already affected by your Affliction and Creeping Terror. In addition, Death Field overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
-        <Icon Value="sithholocron3" />
+        <Icon Value="abl_si_so_pestilence" />
         <LevelAquired Value="28" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.devour">
@@ -1367,7 +1367,7 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.force_mobility">
         <Label Value="Force Mobility" />
         <Description Value="Thundering Blast, Innervate, and Force Leech may be activated while moving." />
-        <Icon Value="empire" />
+        <Icon Value="abl_sijc_sosa_force_mobility" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -1381,7 +1381,7 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.tempest_mastery">
         <Label Value="Tempest Mastery" />
         <Description Value="Increases the damage dealt by Force Storm by 25%." />
-        <Icon Value="ringoffire" />
+        <Icon Value="abl_si_so_tempest_mastery" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
       </Talent>
@@ -1468,7 +1468,7 @@
       <Ability Name="abl.sith_inquisitor.skill.corruption.dark_concentration">
         <Label Value="Dark Concentration" />
         <Description Value="Crushing Darkness, Lightning Strike, Dark Infusion, and Revivification grant Dark Concentration, which causes your next Dark Heal to activate instantly and consume no Force. This effect may not occur more than once every 10 seconds." />
-        <Icon Value="darkGift" />
+        <Icon Value="abl_si_so_dark_concentration" />
         <Damage Value="False" />
         <Healing Value="True" />
         <Passive Value="True" />
@@ -1620,7 +1620,7 @@
       <Ability Name="abl.sith_inquisitor.skill.corruption.renewal">
         <Label Value="Renewal" />
         <Description Value="Refreshing your Resurgence on a target will heal them for an additional &lt;&lt;1&gt;&gt; health after &lt;&lt;2&gt;&gt; seconds." />
-        <Icon Value="mentaltorment" />
+        <Icon Value="abl_sijc_sosa_renewal" />
         <Damage Value="False" />
         <Healing Value="True" />
         <Passive Value="True" />
@@ -2239,7 +2239,7 @@
       <Talent Name="tal.sith_inquisitor.skill.deception.dominating_slashes">
         <Label Value="Dominating Slashes" />
         <Description Value="Increases the damage dealt by Lacerate, Voltaic Slash, and Assassinate by 10%." />
-        <Icon Value="empire" />
+        <Icon Value="abl_si_as_dominating_slashes" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.deception.assassins_mark">
@@ -2251,7 +2251,7 @@
       <Talent Name="tal.sith_inquisitor.skill.deception.whirling_edge">
         <Label Value="Whirling Edge" />
         <Description Value="Increases the critical chance of Lacerate by 15% and its critical damage bonus by 30%." />
-        <Icon Value="spinningstrike" />
+        <Icon Value="abl_sijc_assh_whirling_edge" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.deception.twin_surge">
@@ -2374,7 +2374,7 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.hand_of_darkness">
         <Label Value="Hand of Darkness" />
         <Description Value="Force Pull immobilizes its target for 3 seconds, Leeching Strike immobilizes its target for 2 seconds, and Low Slash immobilizes its target for 1 second after the incapacitating effect wears off." />
-        <Icon Value="immobilized" />
+        <Icon Value="abl_si_as_hand_darkness" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -2388,21 +2388,21 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.gait_manipulation">
         <Label Value="Gait Manipulation" />
         <Description Value="Force Cloak increases your movement speed by 50% while it is active, and Force Slow reduces the movement speed of its target by an additional 20%." />
-        <Icon Value="newrolloperative" />
+        <Icon Value="abl_sijc_assh_gaitmanip_motioncontrol" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.sapped_mind">
         <Label Value="Sapped Mind" />
         <Description Value="When damage breaks your Mind Trap prematurely, the target will suffer from a Sapped Mind, reducing the damage they deal by 25% for 10 seconds." />
-        <Icon Value="damagereduced" />
+        <Icon Value="abl_sijc_assh_sapped_mind" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.dark_stability">
         <Label Value="Dark Stability" />
         <Description Value="While Deflection is active, you are immune to stun, sleep, lift, and incapacitating effects." />
-        <Icon Value="empire" />
+        <Icon Value="abl_si_as_dark_stability" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -2430,7 +2430,7 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.shroud_of_madness">
         <Label Value="Shroud of Madness" />
         <Description Value="Activating Force Cloak grants 2 seconds of Force Shroud." />
-        <Icon Value="shadowcloak" />
+        <Icon Value="abl_si_as_shroud_madness" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="20" />
       </Talent>
@@ -2444,7 +2444,7 @@
       <Talent Name="tal.sith_inquisitor.skill.utility.audacity">
         <Label Value="Audacity" />
         <Description Value="Reduces the cooldown of Overload by 2.5 seconds and Recklessness grants 1 additional charge when activated." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_si_as_audacity" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
       </Talent>
@@ -2635,7 +2635,7 @@
       <Talent Name="tal.sith_inquisitor.skill.hatred.profuse_horror">
         <Label Value="Profuse Horror" />
         <Description Value="Death Field spreads your periodic Discharge and Creeping Terror effects to the targets it damages, as long as it damages targets already affected by your Discharge and Creeping Terror. In addition, Death Field overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
-        <Icon Value="sithholocron3" />
+        <Icon Value="abl_si_as_profuse_horror" />
         <LevelAquired Value="28" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.inevitable_demise">
@@ -2708,7 +2708,7 @@
       <Ability Name="abl.sith_inquisitor.skill.darkness.shroud_of_darkness">
         <Label Value="Shroud of Darkness" />
         <Description Value="Increases damage reduction and Endurance by 2% and allows for Spike to be used out of stealth mode. Additionally, while Dark Charge is active, activating Recklessness will grant 30% shield absorption for &lt;&lt;1&gt;&gt; seconds." />
-        <Icon Value="doom_aura" />
+        <Icon Value="abl_si_as_shroud_darkness" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -2829,7 +2829,7 @@
       <Talent Name="tal.sith_inquisitor.skill.darkness.torment">
         <Label Value="Torment" />
         <Description Value="While Dark Charge is active, Discharge causes its targets to become unsteady for 45 seconds. Unsteady targets have their melee and ranged accuracy reduced by 5%. In addition, Lacerate deals 15% more damage to Unsteady targets." />
-        <Icon Value="mentaltorment" />
+        <Icon Value="abl_si_as_torment" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.darkness.blood_of_sith">

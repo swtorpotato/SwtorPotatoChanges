@@ -472,7 +472,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.scorching_bolts">
         <Label Value="Scorching Bolts" />
-        <Description Value="High Impact Bolt and Mag Bolt ignores 30% of the target's armor, and dealing damage with either ability will always trigger your Plasma Cell, if it is active. In addition, if High Impact Bolt or Mag Bolt is used against a burning target, you regenerate 10 energy cells." />
+        <Description Value="High Impact Bolt and Mag Bolt ignores 30% of the target's armor, and dealing damage with either ability will always trigger your Plasma Cell, if it is active. In addition, if High Impact Bolt or Mag Bolt is used against a burning target, you regenerate 5 energy cells." />
         <Icon Value="shrapround" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -530,7 +530,7 @@
       <Ability Name="abl.trooper.skill.assault_specialist.blazing_celerity">
         <Label Value="Blazing Celerity" />
         <Description Value="Damage dealt by Plasma Cell has a 50% chance to make your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 12 seconds." />
-        <Icon Value="republic" />
+        <Icon Value="abl_tr_co_blazing_celerity" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -541,7 +541,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.ionic_accelerator_commando">
         <Label Value="Ionic Accelerator" />
-        <Description Value="While Plasma Cell is active, Charged Bolts, Full Auto, and Hail of Bolts finish the cooldown on High Impact Bolt and Mag Bolt and make the next High Impact Bolt or Mag Bolt cost no energy cells.  This effect cannot occur more than once every 8 seconds." />
+        <Description Value="While Plasma Cell is active, Charged Bolts, Full Auto, and Hail of Bolts finish the cooldown on High Impact Bolt and Mag Bolt and make the next High Impact Bolt or Mag Bolt cost no energy cells.  This effect cannot occur more than once every 7.5 seconds." />
         <Icon Value="terminate" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -618,7 +618,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.relentless_assault">
         <Label Value="Relentless Assault" />
-        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic elemental attacks by 30% on targets below 30% max health." />
+        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic effects by 30% on targets below 30% max health." />
         <Icon Value="immolate" />
         <LevelAquired Value="56" />
       </Talent>
@@ -630,14 +630,14 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
         <Label Value="Hyper Barrels" />
-        <Description Value="Reduces the cost of Charged Bolts by 5 and the cooldown of Full Auto by 3 seconds. Additionally increases the damage dealt by High Impact Bolt, Charged Bolts, Full Auto, and Serrated Bolt and Mag Bolt by 5%." />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.explosive_dissemination">
         <Label Value="Explosive Dissemination" />
         <Description Value="Increases the damage dealt by Plasma Grenade and Sticky Grenade by 25% and causes your Plasma Grenade to spread your Incendiary Round burn to targets it hits, if it hits a target already affected by your Incendiary Round burn.  Additionally, Sticky Grenade will spread your Serrated Bolt bleed to targets it hits, if it hits a target already affected by your Serrated Bolt bleed." />
-        <Icon Value="elementaloverload" />
+        <Icon Value="abl_tr_co_explosive_dessemination" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.assault_trooper_commando">
@@ -648,7 +648,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.blaze_of_glory">
         <Label Value="Blaze of Glory" />
-        <Description Value="Assault Plastique, Charged Bolts, High Impact Bolt, Full Auto, Hail of Bolts, Sticky Grenade, Explosive Round, Serrated Bolt, and Mag Bolt deal 10% additional damage to burning targets." />
+        <Description Value="Assault Plastique, Charged Bolts, High Impact Bolt, Full Auto, Hail of Bolts, Sticky Grenade, Explosive Round, Serrated Bolt, and Mag Bolt deal 5% additional damage to burning targets." />
         <Icon Value="decoyarsenal" />
         <LevelAquired Value="36" />
       </Talent>
@@ -713,7 +713,7 @@
       <Ability Name="abl.trooper.skill.combat_medic.field_triage">
         <Label Value="Field Triage" />
         <Description Value="Activating Medical Probe grants a charge of field Triage, which reduces the cost of your next Advanced Medical Probe by 5 energy cells. This effect can stack up to 3 charges." />
-        <Icon Value="mirilantrader" />
+        <Icon Value="abl_tr_co_med_shot" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -744,7 +744,7 @@
       <Ability Name="abl.trooper.skill.combat_medic.med_boosters">
         <Label Value="Med Boosters" />
         <Description Value="Reduces the energy cells depleted of Kolto Bomb by 5, and increases the critical heal chance of Trauma Probe by 5%. Additionally, Med Shot regenerates 1 energy cell when it normally heals and 2 energy cells when it critically heals." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_co_med_boosters" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -993,9 +993,9 @@
         <CombatLogID Value="1202535008305152" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.586" />
-            <StandardHealthPercentMax Value="0.179" />
-            <StandardHealthPercentMin Value="0.139" />
+            <Coefficient Value="1.502" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1026,9 +1026,9 @@
         <CombatLogID Value="2025880238948352" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.44" />
-            <StandardHealthPercentMax Value="0.2642" />
-            <StandardHealthPercentMin Value="0.2242" />
+            <Coefficient Value="2.78" />
+            <StandardHealthPercentMax Value="0.297" />
+            <StandardHealthPercentMin Value="0.258" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.22" />
@@ -1040,7 +1040,7 @@
       <Talent Name="tal.trooper.skill.gunnery.blazing_barrel">
         <Label Value="Blazing Barrel" />
         <Description Value="Increases the critical chance of Hail of Bolts by 15% and its critical damage bonus by 30%." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_co_blazing_barrel" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.trooper.skill.gunnery.cell_charger">
@@ -1070,12 +1070,12 @@
       <Talent Name="tal.trooper.skill.gunnery.cover_fire">
         <Label Value="Cover Fire" />
         <Description Value="Full Auto and Boltstorm slow the target's movement speed by 70% for 2 seconds with each hit." />
-        <Icon Value="rotarycannon" />
+        <Icon Value="cripplingfire" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.trooper.skill.gunnery.deadly_cannon">
         <Label Value="Deadly Cannon" />
-        <Description Value="Increases the critical damage bonus of High Impact Bolt, Grav Round, Demolition Round, and Vortex Bolt by 30%." />
+        <Description Value="Increases the critical damage bonus of High Impact Bolt, Demolition Round, and Vortex Bolt by 30%." />
         <Icon Value="deadlycannon" />
         <LevelAquired Value="36" />
       </Talent>
@@ -1476,6 +1476,12 @@
         <Icon Value="armament2" />
         <LevelAquired Value="38" />
       </Talent>
+      <Talent Name="tal.trooper.skill.mortar_salvo">
+        <Label Value="Mortar Salvo" />
+        <Description Value="Increases the damage dealt by Explosive Round by 10%." />
+        <Icon Value="missilesalvo" />
+        <LevelAquired Value="10" />
+      </Talent>
     </base>
     <UtilityTree Name="utility">
       <Ability Name="abl.trooper.skill.utility.kolto_wave">
@@ -1636,7 +1642,7 @@
       <Talent Name="tal.trooper.skill.utility.forced_march">
         <Label Value="Forced March" />
         <Description Value="Allows Full Auto, Boltstorm, and Successive Treatment to be activated while moving." />
-        <Icon Value="" />
+        <Icon Value="abl_tr_co_forced_march" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
@@ -1699,7 +1705,7 @@
       <Talent Name="tal.trooper.skill.utility.chain_gunnery">
         <Label Value="Chain Gunnery" />
         <Description Value="Increases the damage dealt by Hail of Bolts by 25%." />
-        <Icon Value="rotarycannon" />
+        <Icon Value="abl_tr_co_chain_gunnery" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="17" />
       </Talent>
@@ -1904,7 +1910,7 @@
       <Talent Name="tal.trooper.skill.shield_specialist.soldiers_grit">
         <Label Value="Soldier's Grit" />
         <Description Value="Adrenaline Rush now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Battle Focus increases alacrity by 5% while active." />
-        <Icon Value="aimboost" />
+        <Icon Value="cc_aggressive" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.trooper.skill.shield_specialist.ceramic_plating">
@@ -2005,7 +2011,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.utility.guard_cannon">
         <Label Value="Guard Cannon" />
-        <Description Value="Increases the damage dealt by Shoulder Cannon by 5%. In addition, damaging a target with your Shoulder Cannon missiles heals you for 5% of your total health." />
+        <Description Value="Damaging a target with your Shoulder Cannon missiles heals you for 5% of your total health." />
         <Icon Value="cannonheal" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2042,28 +2048,28 @@
       <Talent Name="tal.trooper.skill.utility.paralytic_augs">
         <Label Value="Paralytic Augs" />
         <Description Value="Increases the stun durations of Cryo Grenade and Neural Surge by 1 second each." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_paralytic_augs" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
       <Talent Name="tal.trooper.skill.utility.re_energizers">
         <Label Value="Re-energizers" />
         <Description Value="When Reserve Powercell is activated, it recharges 10 energy cells over the next 5 seconds and immediately increases threat towards all current enemies by a small amount if Ion Cell is active, or reduces threat towards all current enemies if Ion Cell is not active." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_reenergizers" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
       <Talent Name="tal.trooper.skill.utility.containment_tactics">
         <Label Value="Containment Tactics" />
         <Description Value="Reduces the cooldown of Cryo Grenade by 10 seconds." />
-        <Icon Value="tirefin" />
+        <Icon Value="abl_tr_vg_muzzle_augs" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
       </Talent>
       <Talent Name="tal.trooper.skill.utility.emergency_stims">
         <Label Value="Emergency Stims" />
         <Description Value="Allows Adrenaline Rush to be activated while stunned and causes Adrenaline Rush to purge stun effects when activated. This will not work against other types of incapacitating effects or scripted stuns, which are often used by Flashpoint and Operation bosses or other special non-player characters." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_emergency_stims" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="17" />
       </Talent>
@@ -2077,14 +2083,14 @@
       <Talent Name="tal.trooper.skill.utility.focus_stims">
         <Label Value="Focus Stims" />
         <Description Value="Battle Focus increases damage done by 5% while Ion Cell is active and increases damage reduction by 5% while Ion Cell is not active." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_focus_stims" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
       <Talent Name="tal.trooper.skill.utility.efficient_tools">
         <Label Value="Efficient Tools" />
         <Description Value="Increases the range of Harpoon and Shoulder Cannon by 10 meters and eliminates the energy cell cost of Cryo Grenade and Neural Surge." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_efficent_tools" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
@@ -2097,7 +2103,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.utility.defensive_measures">
         <Label Value="Defensive Measures" />
-        <Description Value="Harpoon immobilizes the target for 3 seconds. In addition, Stealth Scan immobilizes any targets it reveals for 3 seconds." />
+        <Description Value="Harpoon immobilizes the target for 3 seconds. In addition, the cooldown of Stealth Scan is reduced by 5 seconds, and any targets it reveals are immobilized for 3 seconds." />
         <Icon Value="probedroid" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -2105,7 +2111,7 @@
       <Talent Name="tal.trooper.skill.utility.charge_the_line">
         <Label Value="Charge the Line" />
         <Description Value="Hold the Line increases movement speed by an additional 45% while active." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_charge_line" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="20" />
       </Talent>
@@ -2416,7 +2422,7 @@
       <Ability Name="abl.trooper.skill.plasmatech.fire_pulse">
         <Label Value="Fire Pulse" />
         <Description Value="Emits a fiery pulse wave, dealing &lt;&lt;1&gt;&gt; elemental damage to the target." />
-        <Icon Value="forcecrush" />
+        <Icon Value="abl_tr_vg_shrap_satchel" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2580,7 +2586,7 @@
       <Talent Name="tal.trooper.skill.plasmatech.insulated_augs">
         <Label Value="Insulated Augs" />
         <Description Value="Increases elemental and internal damage reduction by 2% and reduces the cooldown on Sonic Round by 10 seconds." />
-        <Icon Value="stimpack" />
+        <Icon Value="abl_tr_vg_insulated_augs" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.trooper.skill.plasmatech.rain_of_fire">
@@ -2624,7 +2630,7 @@
       <Label Value="Tactics" />
       <Ability Name="abl.trooper.skill.tactics.sonic_defense">
         <Label Value="Sonic Defense" />
-        <Description Value="Activating Sonic Round increases your defense chance by 25% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Activating Sonic Round increases your defense chance by 30% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="assaulttech" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2683,7 +2689,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.high_friction_bolts">
         <Label Value="High Friction Bolts" />
-        <Description Value="While High Energy Cell is active, High Impact Bolt may be fired at targets that are not incapacitated or suffering from periodic damage. In addition, High Impact Bolt ignores 30% of the target's armor, regenerates 10 energy cells if it hits a bleeding target, and refreshes the duration of your Gut's bleed effect if present." />
+        <Description Value="While High Energy Cell is active, High Impact Bolt may be fired at targets that are not incapacitated or suffering from periodic damage. In addition, High Impact Bolt ignores 30% of the target's armor, regenerates 5 energy cells if it hits a bleeding target, and refreshes the duration of your Gut's bleed effect, if present." />
         <Icon Value="shrapround" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2736,7 +2742,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.tactical_accelerator">
         <Label Value="Tactical Accelerator" />
-        <Description Value="While High Energy Cell is active, Stockstrike, Tactical Surge, and Explosive Surge finish the cooldown on High Impact Bolt and make the next High Impact Bolt deplete no energy cells. This effect cannot occur more than once every 6 seconds." />
+        <Description Value="While High Energy Cell is active, Stockstrike, Tactical Surge, Sticky Grenade, and Explosive Surge finish the cooldown on High Impact Bolt and make the next High Impact Bolt deplete no energy cells. This effect cannot occur more than once every 6 seconds." />
         <Icon Value="terminate" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2761,30 +2767,30 @@
         <CombatLogID Value="3393354876321792" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.75" />
-            <StandardHealthPercentMax Value="0.082" />
-            <StandardHealthPercentMin Value="0.068" />
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.75" />
-            <StandardHealthPercentMax Value="0.082" />
-            <StandardHealthPercentMin Value="0.068" />
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.75" />
-            <StandardHealthPercentMax Value="0.082" />
-            <StandardHealthPercentMin Value="0.068" />
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.75" />
-            <StandardHealthPercentMax Value="0.082" />
-            <StandardHealthPercentMin Value="0.068" />
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.trooper.skill.tactics.havoc_training">
         <Label Value="Havoc Training" />
-        <Description Value="Increases the critical strike damage bonus of Stockstrike, High Impact Bolt, Tactical Surge, Gut, Assault Plastique, and Cell Burst by 30%. Additionally, when Assault Plastique damages a target, the target will become Susceptible, increasing the damage it takes from tech attacks by 5%." />
+        <Description Value="Increases the critical strike damage bonus of Stockstrike, High Impact Bolt, Tactical Surge, Gut, Assault Plastique, and Cell Burst by 30%. Additionally, when Assault Plastique damages a target, the target will become Susceptible, increasing the damage it takes from tech attacks by 5% for 45 seconds." />
         <Icon Value="trooper" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2796,8 +2802,8 @@
       </Talent>
       <Talent Name="tal.trooper.skill.tactics.grenadiership">
         <Label Value="Grenadiership" />
-        <Description Value="Reduces the cooldown of Sticky Grenade by 6 seconds and the cooldown of Mortar Volley by 15 seconds and increases the damage of both abilities by 15%. In addition, damage dealt by Sticky Grenade refreshes the duration of your Gut's bleed effect if present." />
-        <Icon Value="stimpack" />
+        <Description Value="Reduces the cooldown of Mortar Volley by 15 seconds and increases the damage it deals by 10%. In addition, Sticky Grenade deals 50% more damage, its cooldown is reduced by 6 seconds, and damage dealt by it will refresh the duration of your Gut's bleed on the affected target, if present." />
+        <Icon Value="abl_tr_vg_grenadiership" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.trooper.skill.tactics.riot_augs">
@@ -2820,7 +2826,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.tactics.nightvision_scope">
         <Label Value="Nightvision Scope" />
-        <Description Value="Increases stealth detection level by 2, melee and ranged defense by 2%, and reduces the cooldown of Stealth Scan by 5 seconds." />
+        <Description Value="Increases your melee and ranged defense chance by 3% and your stealth detection level by 3." />
         <Icon Value="blastershortscope" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2832,7 +2838,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.tactics.serrated_blades">
         <Label Value="Serrated Blades" />
-        <Description Value="Increases the damage dealt by Gut's bleed effect by 15% and causes targets damaged by your Stockstrike to become Sundered, reducing their armor by 20%." />
+        <Description Value="Increases the damage dealt by Gut's bleed effect by 15% and causes targets damaged by your Stockstrike to become Sundered, reducing their armor by 20% for 45 seconds." />
         <Icon Value="criticalblade" />
         <LevelAquired Value="16" />
       </Talent>

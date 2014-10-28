@@ -550,7 +550,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.relentless">
         <Label Value="Relentless" />
         <Description Value="Increases the duration of Undying Rage by 2 seconds." />
-        <Icon Value="republic" />
+        <Icon Value="abl_sw_ma_relentless" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="17" />
       </Talent>
@@ -578,7 +578,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.expunging_camouflage">
         <Label Value="Expunging Camouflage" />
         <Description Value="Force Camouflage removes all cleansable effects when activated." />
-        <Icon Value="empire" />
+        <Icon Value="abl_swjk_mase_expunging_camo" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
@@ -592,14 +592,14 @@
       <Talent Name="tal.sith_warrior.skill.utility.inescapable">
         <Label Value="Inescapable" />
         <Description Value="Crippling Slash consumes 2 less rage. In addition, using Crippling Slash against a target already slowed by your Crippling Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
-        <Icon Value="empire" />
+        <Icon Value="abl_sw_ma_inescapable" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.path_carver">
         <Label Value="Path Carver" />
         <Description Value="Sweeping Slash deals 25% more damage." />
-        <Icon Value="perforatingshot" />
+        <Icon Value="abl_sw_ju_path_carver" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Talent>
@@ -870,7 +870,7 @@
       <Talent Name="tal.sith_warrior.skill.annihilation.hemorrhaging_smash">
         <Label Value="Hemorrhaging Smash" />
         <Description Value="Smash spreads your Rupture and Force Gash bleeds to targets it hits, if it hits a target already affected by those bleeds." />
-        <Icon Value="empire" />
+        <Icon Value="abl_sw_ma_hemorrhaging_smash" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.bleedout">
@@ -882,7 +882,7 @@
       <Talent Name="tal.sith_warrior.skill.annihilation.swift_demise">
         <Label Value="Swift Demise" />
         <Description Value="Juyo Form and Annihilator build two stacks at a time." />
-        <Icon Value="republic" />
+        <Icon Value="abl_sw_ma_swift_demise" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.pulverize">
@@ -909,7 +909,7 @@
       <Ability Name="abl.sith_warrior.skill.fury.furious_defense">
         <Label Value="Furious Defense" />
         <Description Value="While Shii-Cho Form is active, Furious Strike grants Furious Defense, increasing your defense chance by 10% for &lt;&lt;1&gt;&gt; seconds." />
-        <Icon Value="bhoutlaw" />
+        <Icon Value="abl_sw_ma_rising_power" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -1616,7 +1616,7 @@
       <Talent Name="tal.sith_warrior.skill.carnage.ataru_savvy">
         <Label Value="Ataru Savvy" />
         <Description Value="While Ataru Form is active, Sweeping Slash triggers an Ataru Form strike on each enemy target it damages." />
-        <Icon Value="cc_aggressive" />
+        <Icon Value="abl_swjk_mase_ataru_savvy" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.shriek">
@@ -1634,7 +1634,7 @@
       <Talent Name="tal.sith_warrior.skill.carnage.efficient_strikes">
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Berserk reduces the rage consumed by Massacre and Sweeping Slash by 1." />
-        <Icon Value="republic" />
+        <Icon Value="abl_swjk_mase_efficent_strikes" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.blood_frenzy">
@@ -1843,21 +1843,21 @@
       <Talent Name="tal.sith_warrior.skill.utility.through_power">
         <Label Value="Through Power" />
         <Description Value="Endure Pain increases your movement speed by 50% and grants immunity to movement-impairing effects while active." />
-        <Icon Value="bravado" />
+        <Icon Value="abl_sw_ju_through_power" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.path_carver">
         <Label Value="Path Carver" />
         <Description Value="Sweeping Slash deals 25% more damage." />
-        <Icon Value="perforatingshot" />
+        <Icon Value="abl_sw_ju_path_carver" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.intercessor">
         <Label Value="Intercessor" />
         <Description Value="Reduces the cooldown of Intercede by 5 seconds and reduces the threat and damage taken by an additional 10% each for the friendly target of Intercede." />
-        <Icon Value="swwarhardenednoble" />
+        <Icon Value="abl_swjk_jugu_intercessor" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -1871,7 +1871,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.whiplash">
         <Label Value="Whiplash" />
         <Description Value="Saber Throw immobilizes the target for 3 seconds." />
-        <Icon Value="turbulence" />
+        <Icon Value="abl_swjk_jugu_whiplash" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -1892,7 +1892,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.consuming_rage">
         <Label Value="Consuming Rage" />
         <Description Value="Enraged Defense removes all cleansable effects when activated." />
-        <Icon Value="subterfuge" />
+        <Icon Value="abl_sw_ju_consuming_rage" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="20" />
       </Talent>
@@ -2149,7 +2149,7 @@
       <Talent Name="tal.sith_warrior.skill.rage.furious_power">
         <Label Value="Furious Power" />
         <Description Value="While Shii-Cho Form is active, Furious Strike enables Retaliation and beats down its target for 45 seconds. Beat Down targets take 5% more damage from melee attacks." />
-        <Icon Value="bhoutlaw" />
+        <Icon Value="abl_sw_ju_furious_power" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.dark_resonance">
@@ -2337,13 +2337,13 @@
       <Talent Name="tal.sith_warrior.skill.immortal.heavy_handed">
         <Label Value="Heavy Handed" />
         <Description Value="Smash deals 65% more damage and consumes 2 less rage. Additionally, the critical chance of Sweeping Slash is increased by 20%." />
-        <Icon Value="cc_attack" />
+        <Icon Value="abl_sw_ju_heavy_handed" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.consuming_power">
         <Label Value="Consuming Power" />
         <Description Value="Increases the critical chance of Smash by 20%. Additionally, Aegis Assault increases shield absorption by 3%." />
-        <Icon Value="republic" />
+        <Icon Value="abl_sw_ju_consuming_power" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.force_grip">
@@ -2563,7 +2563,7 @@
       <Talent Name="tal.sith_warrior.skill.vengeance.bloodbath">
         <Label Value="Bloodbath" />
         <Description Value="Smash and Vengeful Slam spread your bleed effects to all targets they damage, if at least one of the targets is already affected by your bleeds. In addition, Sweeping Slash deals 25% more damage to bleeding targets." />
-        <Icon Value="republic" />
+        <Icon Value="abl_sw_ju_bloodbath" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.ruin">
@@ -2581,7 +2581,7 @@
       <Talent Name="tal.sith_warrior.skill.vengeance.gushing_veins">
         <Label Value="Gushing Veins" />
         <Description Value="Increases the critical chance of Shatter, Vengeful Slam, and bleeding effects by 10%." />
-        <Icon Value="republic" />
+        <Icon Value="abl_sw_ju_gushing_veins" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.deafening_defense">

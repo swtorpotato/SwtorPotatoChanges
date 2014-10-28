@@ -40,6 +40,14 @@
       <Cooldown Value="120" />
       <TargetArc Value="360" />
       <CombatLogID Value="812182610640896" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.1" />
+        </Type>
+      </Coeffcients>
     </Ability>
     <Ability Name="abl.jedi_knight.blade_storm">
       <Label Value="Blade Storm" />
@@ -544,7 +552,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
-        <LevelAquired Value="50" />
+        <LevelAquired Value="48" />
         <OnGCD Value="False" />
         <Cooldown Value="180" />
         <CombatLogID Value="812186905608192" />
@@ -1005,7 +1013,7 @@
       <Talent Name="tal.jedi_knight.skill.watchman.accelerating_victory">
         <Label Value="Accelerating Victory" />
         <Description Value="Juyo Form and Merciless build two stacks at a time." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_se_accelerating_victory" />
         <LevelAquired Value="59" />
       </Talent>
     </DisciplineTree>
@@ -1014,7 +1022,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.concentrated_slice">
         <Label Value="Concentrated Slice" />
         <Description Value="Slices the target for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_gu_focused_strike" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -1118,7 +1126,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
         <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_gu_concentrated_burst" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -1139,7 +1147,7 @@
       <Ability Name="abl.jedi_knight.skill.concentration.concentrated_defense">
         <Label Value="Concentrated Defense" />
         <Description Value="While Shii-Cho Form is active, Concentrated Slice grants Concentrated Defense, increasing your defense chance by 10% for &lt;&lt;1&gt;&gt; seconds." />
-        <Icon Value="bhoutlaw" />
+        <Icon Value="abl_jk_se_focused_power" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -1348,7 +1356,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.force_aegis">
         <Label Value="Force Aegis" />
         <Description Value="Increases the duration of Guarded by the Force by 2 seconds." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_se_force_aegis" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="17" />
       </Talent>
@@ -1425,7 +1433,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.just_pursuit">
         <Label Value="Just Pursuit" />
         <Description Value="Leg Slash consumes 2 less focus. In addition, using Leg Slash against a target already slowed by your Leg Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_se_just_persuit" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -1453,7 +1461,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.expunging_camouflage">
         <Label Value="Expunging Camouflage" />
         <Description Value="Force Camouflage removes all cleansable effects when activated." />
-        <Icon Value="gatherstrength" />
+        <Icon Value="abl_swjk_mase_expunging_camo" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
@@ -1627,13 +1635,13 @@
       <Talent Name="tal.jedi_knight.skill.combat.ataru_savvy">
         <Label Value="Ataru Savvy" />
         <Description Value="While Ataru Form is active, Cyclone Slash triggers an Ataru Form strike on each enemy target it damages." />
-        <Icon Value="cc_aggressive" />
+        <Icon Value="abl_swjk_mase_ataru_savvy" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.efficient_strikes">
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Zen reduces the focus consumed by Blade Rush and Cyclone Slash by 1." />
-        <Icon Value="republic" />
+        <Icon Value="abl_swjk_mase_efficent_strikes" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.saber_storm">
@@ -1781,9 +1789,9 @@
         <CombatLogID Value="3453231015395328" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.2" />
-            <StandardHealthPercentMax Value="0.16" />
-            <StandardHealthPercentMin Value="0.08" />
+            <Coefficient Value="1.84" />
+            <StandardHealthPercentMax Value="0.204" />
+            <StandardHealthPercentMin Value="0.164" />
             <ThreatModifier Value="0.5" />
           </Type>
         </Coeffcients>
@@ -2113,7 +2121,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.preparation">
         <Label Value="Preparation" />
-        <Description Value="When you exit combat, the active cooldowns of Force Leap, Combat Focus, and Saber Throw are reduced by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="When you exit combat, the active cooldowns of Force Leap, Combat Focus, and Saber Throw are reduced by 100%." />
         <Icon Value="chargedupforce" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2255,7 +2263,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.whiplash">
         <Label Value="Whiplash" />
         <Description Value="Saber Throw immobilizes the target for 3 seconds." />
-        <Icon Value="turbulence" />
+        <Icon Value="abl_swjk_jugu_whiplash" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -2297,7 +2305,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.intercessor">
         <Label Value="Intercessor" />
         <Description Value="Reduces the cooldown of Guardian Leap by 5 seconds and reduces the threat and damage taken by an additional 10% each for the friendly target of Guardian Leap." />
-        <Icon Value="forceleap_old" />
+        <Icon Value="abl_swjk_jugu_intercessor" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -2667,7 +2675,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.concentrated_slice">
         <Label Value="Concentrated Slice" />
         <Description Value="Slices the target for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_gu_focused_strike" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2771,7 +2779,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
         <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
-        <Icon Value="republic" />
+        <Icon Value="abl_jk_gu_concentrated_burst" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />

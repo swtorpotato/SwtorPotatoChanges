@@ -498,7 +498,7 @@
       <Talent Name="tal.jedi_consular.skill.utility.motion_control">
         <Label Value="Motion Control" />
         <Description Value="Force Cloak increases your movement speed by 50% while it is active, and Force Slow reduces the movement speed of its target by an additional 20%." />
-        <Icon Value="newrollscoundrel" />
+        <Icon Value="abl_sijc_assh_gaitmanip_motioncontrol" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
@@ -519,7 +519,7 @@
       <Talent Name="tal.jedi_consular.skill.utility.lambaste">
         <Label Value="Lambaste" />
         <Description Value="Increases the damage done by Whirling Blow by 25%." />
-        <Icon Value="twirl" />
+        <Icon Value="bladedance" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
       </Talent>
@@ -575,7 +575,7 @@
       <Talent Name="tal.jedi_consular.skill.utility.sapped_mind">
         <Label Value="Sapped Mind" />
         <Description Value="When damage breaks your Mind Maze prematurely, the target will suffer from a Sapped Mind, reducing the damage they deal by 25% for 10 seconds." />
-        <Icon Value="damagereduced" />
+        <Icon Value="abl_sijc_assh_sapped_mind" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
       </Talent>
@@ -1205,7 +1205,7 @@
       <Talent Name="tal.jedi_consular.skill.infiltration.whirling_edge">
         <Label Value="Whirling Edge" />
         <Description Value="Increases the critical chance of Whirling Blow by 15% and its critical damage bonus by 30%." />
-        <Icon Value="spinningstrike" />
+        <Icon Value="abl_sijc_assh_whirling_edge" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_consular.skill.infiltration.deep_impact">
@@ -1600,6 +1600,12 @@
         <Icon Value="techniques" />
         <LevelAquired Value="15" />
       </Talent>
+      <Talent Name="tal.jedi_consular.skill.applied_force">
+        <Label Value="Applied Force" />
+        <Description Value="Increases the damage dealt by Double Strike, Whirling Blow, Spinning Strike, Clairvoyant Strike, and Serenity Strike by 5% and reduces the Force they consume by 3." />
+        <Icon Value="penetratedefenses" />
+        <LevelAquired Value="35" />
+      </Talent>
     </base>
   </AdvClass>
   <AdvClass Name="sage" Label="Sage">
@@ -1914,7 +1920,7 @@
       <Talent Name="tal.jedi_consular.skill.utility.force_mobility">
         <Label Value="Force Mobility" />
         <Description Value="Turbulence, Healing Trance, and Force Serenity can be activated while moving." />
-        <Icon Value="overcome" />
+        <Icon Value="abl_sijc_sosa_force_mobility" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -2667,14 +2673,14 @@
             <StandardHealthPercentMin Value="0.039" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.75" />
-            <StandardHealthPercentMax Value="0.095" />
-            <StandardHealthPercentMin Value="0.055" />
+            <Coefficient Value="0.64" />
+            <StandardHealthPercentMax Value="0.084" />
+            <StandardHealthPercentMin Value="0.044" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.543" />
-            <StandardHealthPercentMax Value="0.0603" />
-            <StandardHealthPercentMin Value="0.0483" />
+            <Coefficient Value="0.51" />
+            <StandardHealthPercentMax Value="0.071" />
+            <StandardHealthPercentMin Value="0.031" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="0.588" />
@@ -2698,9 +2704,9 @@
         <CombatLogID Value="3347325711810560" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.151" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2731,9 +2737,9 @@
         <CombatLogID Value="947130483081216" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.51" />
-            <StandardHealthPercentMax Value="0.271" />
-            <StandardHealthPercentMin Value="0.231" />
+            <Coefficient Value="2.14" />
+            <StandardHealthPercentMax Value="0.234" />
+            <StandardHealthPercentMin Value="0.194" />
           </Type>
         </Coeffcients>
       </Ability>
