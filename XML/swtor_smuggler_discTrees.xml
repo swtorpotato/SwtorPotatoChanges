@@ -62,7 +62,7 @@
     </Ability>
     <Ability Name="abl.smuggler.charged_burst">
       <Label Value="Charged Burst" />
-      <Description Value="Fires a series of powerful blasts for &lt;&lt;1&gt;&gt; weapon damage. Can only be used from cover. Fires both blasters if dual wielding." />
+      <Description Value="Fires a series of powerful blasts for &lt;&lt;1&gt;&gt; weapon damage. Fires both blasters if dual wielding." />
       <Icon Value="chargedburst" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -299,7 +299,7 @@
     </Ability>
     <Ability Name="abl.smuggler.thermal_grenade">
       <Label Value="Thermal Grenade" />
-      <Description Value="Throws a thermal grenade that deals &lt;&lt;1&gt;&gt; kinetic damage to up to 5 targets in an 8-meter radius. If the primary target is standard or weak, it is knocked down by the blast." />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the primary target and &lt;&lt;2&gt;&gt; kinetic damage to up to 7 standard or weak enemies within 5 meters of the primary target. If the primary target is a standard or weak enemy, it is knocked to the ground." />
       <Icon Value="remotedetonationmine" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -479,7 +479,7 @@
     </Ability>
     <Ability Name="abl.smuggler.dodge">
       <Label Value="Dodge" />
-      <Description Value="Purges hostile removable effects and increases your chance to dodge melee and ranged attacks by 100% for &lt;&lt;1&gt;&gt; seconds. Does not break Stealth." />
+      <Description Value="Increases your chance to dodge melee and ranged attacks by 200% for &lt;&lt;1&gt;&gt; seconds. Does not break Stealth." />
       <Icon Value="evasion" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -494,7 +494,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.smuggler.skill.utility.holdout_defense">
         <Label Value="Holdout Defense" />
-        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
+        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="pistolwhip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -643,7 +643,7 @@
       <Talent Name="tal.smuggler.skill.utility.smuggled_getup">
         <Label Value="Smuggled Get-up" />
         <Description Value="Reduces all area of effect damage taken by 30%." />
-        <Icon Value="abl_sm_sc_smuggled_getup" />
+        <Icon Value="durablearmors" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
       </Talent>
@@ -692,14 +692,14 @@
       <Talent Name="tal.smuggler.skill.utility.skedaddle">
         <Label Value="Skedaddle" />
         <Description Value="When activated, Disappearing Act grants 2 seconds of Dodge." />
-        <Icon Value="abl_sm_sc_skedaddle" />
+        <Icon Value="republic" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.get_the_bulge">
         <Label Value="Get the Bulge" />
-        <Description Value="Tendon Blast will now grant an Upper Hand." />
-        <Icon Value="abl_sm_sc_get_bulge" />
+        <Description Value="Tendon Blast will now grant Upper Hand." />
+        <Icon Value="republic" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
       </Talent>
@@ -743,7 +743,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.rolling_punches">
         <Label Value="Rolling Punches" />
-        <Description Value="Back Blast and Shoot First have a &lt;&lt;1&gt;&gt;% chance to trigger Rolling Punches, which increases ranged and tech critical chance by &lt;&lt;2&gt;&gt;% for &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Back Blast grants Rolling Punches, which increases ranged and tech critical chance by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Bludgeon causes the target to become susceptible for &lt;&lt;2&gt;&gt; seconds. Susceptible targets take 5% more damage from tech attacks." />
         <Icon Value="scrapperbrawler" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -776,7 +776,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.slippery_devil">
         <Label Value="Slippery Devil" />
-        <Description Value="Increases your effective stealth level by &lt;&lt;1&gt;&gt; and reduces all area effect damage taken by &lt;&lt;3&gt;&gt;%. In addition, when you activate Scamper you gain a &lt;&lt;2&gt;&gt;% chance to dodge all incoming attacks for 1.5 seconds." />
+        <Description Value="Increases your effective stealth level by 2 and reduces all area effect damage taken by 30%. In addition, when you activate Scamper you dodge all incoming attacks for 1.5 seconds." />
         <Icon Value="fadeaway" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -788,7 +788,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.flying_fists">
         <Label Value="Flying Fists" />
-        <Description Value="Sucker Punch has a &lt;&lt;1&gt;&gt;% chance to trigger Flying Fists, dealing &lt;&lt;2&gt;&gt; additional kinetic damage. Standard and weak targets are additionally stunned by Flying Fists." />
+        <Description Value="Sucker Punch triggers Flying Fists, dealing &lt;&lt;1&gt;&gt; additional kinetic damage. Standard and weak targets are additionally stunned by Flying Fists." />
         <Icon Value="weakenresolve" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -807,7 +807,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.fight_or_flight">
         <Label Value="Fight or Flight" />
-        <Description Value="Exiting stealth mode now finishes the cooldown of Sneak, and Sneak can now be used out of stealth mode, increasing movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. In addition, Disappearing Act no longer reduces healing dealt and received." />
+        <Description Value="Exiting stealth mode now finishes the cooldown of Sneak, and Sneak can now be used out of stealth mode, increasing movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="stealthspeed" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -819,7 +819,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.flechette_round">
         <Label Value="Flechette Round" />
-        <Description Value="Loads a flechette round, causing your next Shoot First or Back Blast to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. This ability does not respect the global cooldown and does not break stealth." />
+        <Description Value="Loads your shotgun with flechettes, causing Back Blast to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="pointblankshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -838,7 +838,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.turn_the_tables">
         <Label Value="Turn the Tables" />
-        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by &lt;&lt;1&gt;&gt;%. In addition, when Flying Fists damages a target, you recover &lt;&lt;2&gt;&gt; energy." />
+        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by 5%. In addition, when Flying Fists damages a target, you recover 8 energy." />
         <Icon Value="shotgun1" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -850,7 +850,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.round_two">
         <Label Value="Round Two" />
-        <Description Value="Flying Fists has a &lt;&lt;1&gt;&gt;% chance to immediately regrant Upper Hand when hitting a bleeding target. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Flying Fists immediately regrants Upper Hand when hitting a bleeding target. This effect cannot occur more than once every 10 seconds." />
         <Icon Value="block" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -904,37 +904,37 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.scrapper.sawed_off">
         <Label Value="Sawed Off" />
-        <Description Value="Increases the damage dealt by Back Blast by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Back Blast by 5%." />
         <Icon Value="scatterblast" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.let_em_have_it">
         <Label Value="Let 'Em Have It" />
         <Description Value="Increases the critical chance of Blaster Volley by 15% and its critical damage bonus by 30%." />
-        <Icon Value="abl_sm_sc_letem_haveit" />
+        <Icon Value="empire" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.underdogs_luck">
         <Label Value="Underdog" />
-        <Description Value="Increases the critical damage dealt by Back Blast, Sucker Punch, Shoot First and Flechette Round by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical damage dealt by Back Blast, Sucker Punch, Blood Boiler, and Bludgeon by 30%." />
         <Icon Value="bravado" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.pressure_cooker">
         <Label Value="Pressure Cooker" />
         <Description Value="Increases the damage dealt by and critical chance of Blood Boiler by 5%." />
-        <Icon Value="abl_sm_sc_pressure_cooker" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.shifty_eyed">
         <Label Value="Shifty-eyed" />
-        <Description Value="Increases stealth detection level by &lt;&lt;1[%d/%d/%d]&gt;&gt; and chance to dodge by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases stealth detection level by 2 and chance to dodge by 2%." />
         <Icon Value="aimboost" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.scrappy">
         <Label Value="Scrappy" />
-        <Description Value="Increases the damage dealt by Blaster Whip, Quick Shot and Back Blast by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Bludgeon, Quick Shot and Back Blast by 5%." />
         <Icon Value="bhrattatakigladiator" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1006,7 +1006,7 @@
       </Ability>
       <Ability Name="abl.smuggler.scamper">
         <Label Value="Scamper" />
-        <Description Value="Roll forward 12 meters.  Can be activated a 2nd time within 10 seconds to roll again and go on cooldown for 10 seconds. While rolling, your chance to dodge melee and ranged attacks is increased by 30%. Does not break stealth. Cannot be used while immobilized." />
+        <Description Value="Roll forward 12 meters. Activating Scamper a second time within 10 seconds allows you to roll again, but puts the ability on cooldown for 10 seconds. While rolling, your chance to dodge melee and ranged attacks is increased by 30%. Does not break stealth. Cannot be used while immobilized or hindered." />
         <Icon Value="newrollscoundrel" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1018,7 +1018,7 @@
       </Ability>
       <Ability Name="abl.smuggler.back_blast">
         <Label Value="Back Blast" />
-        <Description Value="Fires the scattergun point-blank into the target's backside, dealing &lt;&lt;1&gt;&gt; kinetic damage. Must be behind the target to use." />
+        <Description Value="Fires the scattergun point-blank into the target's backside, dealing &lt;&lt;1&gt;&gt; kinetic damage. Only usable while behind the target. If used from stealth, Back Blast deals &lt;&lt;2&gt;&gt; kinetic damage and grants an Upper Hand." />
         <Icon Value="scatterblast" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1096,7 +1096,7 @@
       </Ability>
       <Ability Name="abl.smuggler.disappearing_act">
         <Label Value="Disappearing Act" />
-        <Description Value="Overloads your stealth generator, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable, but all healing done and received is decreased by 100%." />
+        <Description Value="Overloads your stealth generator, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable." />
         <Icon Value="coveredescape" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1133,7 +1133,7 @@
       </Ability>
       <Ability Name="abl.smuggler.upper_hand">
         <Label Value="Upper Hand" />
-        <Description Value="Defeating an opponent or activating Blaster Whip or Shoot First grants the Upper Hand, increasing all damage dealt by 2% and enabling the use of exploits for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Upper Hand can exist at once." />
+        <Description Value="Defeating an opponent or activating Blaster Whip gives you the Upper Hand, enabling the use of exploits for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Up to 2 charges of Upper Hand can exist at once." />
         <Icon Value="overcome" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1166,7 +1166,7 @@
       </Ability>
       <Ability Name="abl.smuggler.blaster_volley">
         <Label Value="Blaster Volley" />
-        <Description Value="Exploits Upper Hand to fire a blaster burst that hits up to 5 targets in a 10-meter cone in front of you for &lt;&lt;1&gt;&gt; weapon damage. Requires and consumes Upper Hand." />
+        <Description Value="Exploits Upper Hand to fire a blaster burst that hits up to 8 targets in a 10-meter cone in front of you for &lt;&lt;1&gt;&gt; weapon damage. Requires and consumes Upper Hand." />
         <Icon Value="desperatecommand" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1282,7 +1282,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.emergent_emergencies">
         <Label Value="Emergent Emergencies" />
-        <Description Value="Increases the healing dealt by Emergency Medpac by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and increases the max stack limit of Upper Hand by &lt;&lt;2&gt;&gt;. In addition, Emergency Medpac immediately regrants Upper Hand once every 10 seconds." />
+        <Description Value="Increases the healing dealt by Emergency Medpac by 20% and increases the max stack limit of Upper Hand by 1. In addition, Emergency Medpac immediately regrants Upper Hand once every 10 seconds." />
         <Icon Value="mirilanyouthleader" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1294,7 +1294,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.exploratory_surgery">
         <Label Value="Exploratory Surgery" />
-        <Description Value="Reduces the activation time of Underworld Medicine and Kolto Pack by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds and gives Underworld Medicine a &lt;&lt;2&gt;&gt;% chance to grant Upper Hand." />
+        <Description Value="Reduces the activation time of Underworld Medicine and Kolto Pack by 0.5 seconds and allows Underworld Medicine to grant Upper Hand." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1349,7 +1349,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.medpac_mastery">
         <Label Value="Medpac Mastery" />
-        <Description Value="Each tick of Slow-release Medpac, Kolto Pack, and Kolto Cloud has a &lt;&lt;1&gt;&gt;% chance to grant Upper Hand. This effect cannot occur more than once every 9 seconds. Each rank beyond the first reduces this rate limit by 1.5 seconds." />
+        <Description Value="Each tick of Slow-release Medpac, Kolto Pack, Kolto Cloud, and Kolto Waves has a 30% chance to grant Upper Hand. This effect cannot occur more than once every 6 seconds." />
         <Icon Value="medkit" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1400,7 +1400,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.patient_studies">
         <Label Value="Patient Studies" />
-        <Description Value="Increases the speed at which Diagnostic Scan channels by &lt;&lt;1&gt;&gt;%. In addition, Diagnostic Scan critical hits restore &lt;&lt;2&gt;&gt; energy." />
+        <Description Value="Increases the speed at which Diagnostic Scan channels by 30%. In addition, Diagnostic Scan critical hits restore 2 energy." />
         <Icon Value="republicdatapad" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1412,37 +1412,37 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.sawbones.puissant_poultices">
         <Label Value="Puissant Poultices" />
-        <Description Value="Increases the healing dealt by Slow-release Medpac and Kolto Cloud by &lt;&lt;1&gt;&gt;%. Additionally increases the duration of Kolto Cloud by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and reduces the energy cost of Slow-release Medpac by &lt;&lt;3&gt;&gt;." />
+        <Description Value="Increases the healing dealt by Slow-release Medpac and Kolto Cloud by 10%. Additionally increases the duration of Kolto Cloud by 3 seconds and reduces the energy cost of Slow-release Medpac by 5." />
         <Icon Value="homegrownpharmacology" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.accomplished_sawbones">
         <Label Value="Accomplished Sawbones" />
-        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Pack and Kolto Cloud by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Cloud, Emergency Medpac, and Kolto Waves by 30%." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.smuggled_technology">
         <Label Value="Smuggled Technology" />
-        <Description Value="Reduces the pushback suffered while activating healing abilities by &lt;&lt;1[%d/%d/%d]&gt;&gt;%, and reduces the threat generated by heals by &lt;&lt;2[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Reduces the pushback suffered while activating healing abilities by 70%, and reduces the threat generated by heals by 10%." />
         <Icon Value="medicalcrate" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.bedside_manner">
         <Label Value="Bedside Manner" />
-        <Description Value="Increases total Cunning by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Consuming an Upper Hand with a healing ability increases all healing done by 3% for 6 seconds. This can only occur once every 10 seconds." />
         <Icon Value="abl_sm_sc_bedside_manner" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.healing_hand">
         <Label Value="Healing Hand" />
-        <Description Value="Increases all healing dealt by &lt;&lt;1&gt;&gt;% at all times and an additional &lt;&lt;2&gt;&gt;% while Upper Hand is active. Additionally increases the duration of Upper Hand by &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Increases the critical chance of Slow-release Medpac by 5%. Additionally, Kolto Pack makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
         <Icon Value="firstaid" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.prognosis_critical">
         <Label Value="Prognosis: Critical" />
-        <Description Value="Increases the critical chance of Diagnostic Scan by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical chance of Diagnostic Scan and Kolto Waves by 25%." />
         <Icon Value="emergencystimpak" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1454,7 +1454,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.homegrown_pharmacology">
         <Label Value="Homegrown Pharmacology" />
-        <Description Value="Increases the healing dealt by periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and Emergency Medpac by &lt;&lt;2[%d/%d/%d]&gt;&gt;%. Additionally reduces the energy cost of Kolto Cloud by &lt;&lt;3&gt;&gt;." />
+        <Description Value="Increases the healing dealt by periodic effects by 10%. In addition, the energy cost of Kolto Cloud is reduced by 5, and targets affected by Kolto Cloud are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
         <Icon Value="bioanalysis" />
         <LevelAquired Value="40" />
       </Talent>
@@ -1463,7 +1463,7 @@
       <Label Value="Ruffian" />
       <Ability Name="abl.smuggler.skill.dirty_fighting.feelin_woozy">
         <Label Value="Feelin' Woozy" />
-        <Description Value="Shrap Bomb has a &lt;&lt;1&gt;&gt;% chance to reduce the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Shrap Bomb reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="forcestun" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1503,7 +1503,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.shrap_bomb">
         <Label Value="Shrap Bomb" />
-        <Description Value="Hurls a shrap bomb that explodes with razor-sharp shrapnel on impact, causing up to 5 targets within 5 meters to bleed for &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Hurls a shrap bomb that explodes with razor-sharp shrapnel on impact in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 8 targets." />
         <Icon Value="fraggrenade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1590,7 +1590,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
         <Label Value="Fighting Spirit" />
-        <Description Value="Reduces the cooldown of Cool Head by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. In addition, critical hits with bleed effects restore &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
+        <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 2 energy." />
         <Icon Value="cc_aggressive" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1650,7 +1650,7 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.dirty_fighting.open_wound">
         <Label Value="Open Wound" />
-        <Description Value="Increases the duration of Vital Shot by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Increases the duration of Vital Shot by 6 seconds." />
         <Icon Value="perforatingshot" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1660,17 +1660,17 @@
         <Icon Value="forcedetect" />
         <LevelAquired Value="28" />
       </Talent>
+      <Talent Name="tal.smuggler.skill.ruffian.overpower">
+        <Label Value="Cheap Shots" />
+        <Description Value="Increases the damage dealt by Quick Shot, Blaster Volley, Point Blank Shot, and Brutal Shots by 5%." />
+        <Icon Value="hammershot" />
+        <LevelAquired Value="59" />
+      </Talent>
       <Talent Name="tal.smuggler.skill.ruffian.black_market_mods">
         <Label Value="Black Market Mods" />
         <Description Value="Blaster Volley spreads your Vital Shot to the targets it damages, as long as it damages at least one target already affected by your Vital Shot." />
         <Icon Value="blastercompetitiontrigger" />
         <LevelAquired Value="12" />
-      </Talent>
-      <Talent Name="tal.smuggler.skill.ruffian.cheap_shots">
-        <Label Value="Cheap Shots" />
-        <Description Value="Increases the damage dealt by Quick Shot, Blaster Volley, Point Blank Shot, and Brutal Shots by 5%." />
-        <Icon Value="abl_sm_sc_blkmarket_mods" />
-        <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.smuggler.skill.ruffian.cold_blooded">
         <Label Value="Cold Blooded" />
@@ -1680,7 +1680,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.black_market_equipment">
         <Label Value="Black Market Equipment" />
-        <Description Value="Increases the critical hit chance of all periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical hit chance of all periodic effects by 10%." />
         <Icon Value="armament1" />
         <LevelAquired Value="48" />
       </Talent>
@@ -1742,7 +1742,7 @@
       </Ability>
       <Ability Name="abl.smuggler.flourish_shot">
         <Label Value="Flourish Shot" />
-        <Description Value="Fires a high-impact shot that deals &lt;&lt;1&gt;&gt; weapon damage and reduces the target's armor by 20% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Additionally inflicts trauma for &lt;&lt;3&gt;&gt; seconds, reducing all healing the target receives by 20%. Fires both blasters if dual wielding." />
+        <Description Value="Fires high-impact shots that deal &lt;&lt;1&gt;&gt; weapon damage and inflict trauma for &lt;&lt;2&gt;&gt; seconds, reducing all healing the target receives by 20%. Requires dual blasters." />
         <Icon Value="perforatingshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1795,7 +1795,7 @@
       </Ability>
       <Ability Name="abl.smuggler.hunker_down">
         <Label Value="Hunker Down" />
-        <Description Value="Hunkers down, becoming immune to all controlling effects. Only usable in cover. Ends prematurely if cover is exited. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Hunkers you down into cover, becoming immune to all controlling effects. Only grants protection while in cover. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="entrench" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1866,7 +1866,7 @@
       </Ability>
       <Ability Name="abl.smuggler.sweeping_gunfire">
         <Label Value="Sweeping Gunfire" />
-        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 3 targets within 5 meters. Requires dual blasters." />
+        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 3 targets within 5 meters. Requires dual blasters. Can only be used from cover." />
         <Icon Value="sweepinggunfire" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1936,7 +1936,7 @@
       </Ability>
       <Ability Name="abl.smuggler.smugglers_luck">
         <Label Value="Smuggler's Luck" />
-        <Description Value="Increases the critical hit chance of your next Charged Burst by 100%." />
+        <Description Value="Increases the critical hit chance of your next Aimed Shot, Sabotage Charge, or Wounding Shots by 100%." />
         <Icon Value="smuggler'sluck" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1948,7 +1948,7 @@
       </Ability>
       <Ability Name="abl.smuggler.xs_freighter_flyby">
         <Label Value="XS Freighter Flyby" />
-        <Description Value="Calls in support from your crew, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to all enemies within 8 meters of the targeted area. Standard and weak enemies additionally panic from the flames." />
+        <Description Value="Calls in support from your crew, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 enemies within 8 meters of the targeted area. Additionally, standard and weak enemies are stunned by the flames. Can only be used from cover." />
         <Icon Value="freighterflyby" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1966,20 +1966,6 @@
             <StandardHealthPercentMin Value="0.07" />
           </Type>
         </Coeffcients>
-      </Ability>
-      <Ability Name="abl.smuggler.diversion">
-        <Label Value="Diversion" />
-        <Description Value="Reduces the accuracy by 45% and exposes from cover of up to 8 enemies within 8 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds.  Cannot be used on Operation bosses." />
-        <Icon Value="smokegrenade" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="False" />
-        <LevelAquired Value="22" />
-        <OnGCD Value="True" />
-        <Cooldown Value="60" />
-        <Range Value="30" />
-        <TargetArc Value="360" />
-        <CombatLogID Value="3431223602970624" />
       </Ability>
       <Talent Name="tal.smuggler.hold_position">
         <Label Value="Hold Position" />
@@ -2009,7 +1995,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.smuggler.skill.utility.holdout_defense">
         <Label Value="Holdout Defense" />
-        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
+        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="pistolwhip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2173,7 +2159,7 @@
       <Talent Name="tal.smuggler.skill.utility.compounding_impact">
         <Label Value="Compounding Impact" />
         <Description Value="Each shot of Speed Shot and Penetrating Rounds snare the target by 20% for 3 seconds. The effect can stack up to 4 times." />
-        <Icon Value="abl_sm_gs_compounding_impact" />
+        <Icon Value="unload" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -2201,7 +2187,7 @@
       <Talent Name="tal.smuggler.skill.utility.efficient_ammo">
         <Label Value="Efficient Ammo" />
         <Description Value="Increases the damage dealt by Sweeping Gunfire by 25%" />
-        <Icon Value="abl_sm_gs_efficient_ammo" />
+        <Icon Value="barrage" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Talent>
@@ -2244,7 +2230,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.incendiary_grenade">
         <Label Value="Incendiary Grenade" />
-        <Description Value="Throws an incendiary device that sets the target area on fire, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 targets within 5 meters and slowing all affected targets by 70% until they leave the target area. If a target is affected by your Shock Charge that target is stunned for &lt;&lt;3&gt;&gt; seconds. The stun can only occur once every 18 seconds." />
+        <Description Value="Throws an incendiary device that sets the target area on fire, dealing &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds to up to 8 targets within 5 meters and slowing all affected targets by 70% while they remain in the target area. Only one incendiary grenade can be active at a time." />
         <Icon Value="firebomb" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2265,7 +2251,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.seize_the_moment">
         <Label Value="Seize the Moment" />
-        <Description Value="After activating Sabotage, the next Sabotage Charge or Incendiary Grenade activated costs &lt;&lt;1[%d/%d/%d]&gt;&gt;% less energy." />
+        <Description Value="After activating Sabotage, the next Thermal Grenade costs no energy." />
         <Icon Value="cc_attack" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2277,7 +2263,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.insurrection">
         <Label Value="Insurrection" />
-        <Description Value="Increases the number of Contingency Charges dropped by Sabotage Charge by &lt;&lt;1[%d/%d/%d]&gt;&gt;. In addition, when your Contingency Charges detonate, you recover &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
+        <Description Value="Increases the number of Contingency Charges dropped by Sabotage Charge by 2. In addition, when your Contingency Charges detonate, you recover 5 energy." />
         <Icon Value="siupstartslave" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2289,7 +2275,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.scatter_bombs">
         <Label Value="Scatter Bombs" />
-        <Description Value="Reduces the energy cost of Thermal Grenade by &lt;&lt;1&gt;&gt;. In addition, when rolling with Hightail It, you have a &lt;&lt;2&gt;&gt;% chance to drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;3&gt;&gt; kinetic damage to any nearby enemy, but a single enemy can only be hit by a maximum of 2 bombs." />
+        <Description Value="Reduces the energy cost of Thermal Grenade by 5. In addition, when rolling with Scamper, you drop 5 Scatter Bombs in a trail behind you. These bombs explode soon after, dealing &lt;&lt;1&gt;&gt; kinetic damage to any nearby enemy. Enemies can only be struck by 2 bombs." />
         <Icon Value="scatterbombs" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2308,7 +2294,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.saboteurs_utility_belt">
         <Label Value="Saboteur's Utility Belt" />
-        <Description Value="Reduces the cooldown of Flash Grenade by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds and Thermal Grenade by &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Increases the critical hit chance of Thermal Grenade by 10% and when Thermal Grenade deals damage to its primary target, it restores 5 energy." />
         <Icon Value="utilitybeltwithmanyslots" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2320,7 +2306,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.contingency_charges">
         <Label Value="Contingency Charges" />
-        <Description Value="After Sabotage Charge detonates, it drops &lt;&lt;1[%d contingency charges/%d contingency charge/%d contingency charges]&gt;&gt; on the target. A Contingency Charge explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Contingency Charges cannot be detonated more than once every half second." />
+        <Description Value="After Sabotage Charge detonates, it drops 2 contingency charges on the target. A Contingency Charge explodes when damaged by blaster fire, dealing &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage to the target. Contingency Charges cannot be detonated more than once every half second." />
         <Icon Value="democharge" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2358,7 +2344,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.sapping_charge">
         <Label Value="Sapping Charge" />
-        <Description Value="Shock Charge reduces the target's movement speed by &lt;&lt;1[%d/%d/%d]&gt;&gt;% for the duration." />
+        <Description Value="Shock Charge reduces the target's movement speed by 30% for the duration." />
         <Icon Value="shocked" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2371,7 +2357,7 @@
       <Ability Name="abl.smuggler.skill.saboteur.sabotage_charge">
         <Label Value="Sabotage Charge" />
         <Description Value="Attaches a sabotage charge to the target that detonates when the target takes damage, dealing &lt;&lt;1&gt;&gt; kinetic damage. Standard and weak targets are additionally knocked down and set on fire, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
-        <Icon Value="abl_sm_gs_extra_shrapnel" />
+        <Icon Value="explosiveprobe" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2433,25 +2419,25 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.arsonist">
         <Label Value="Arsonist" />
-        <Description Value="Increases the critical damage dealt by all area effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical damage dealt by Sabotage Charge, Shock Charge, Sabotage, and all area effects by 30%." />
         <Icon Value="burned" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.independent_anarchy">
         <Label Value="Independent Anarchy" />
-        <Description Value="Increases the damage dealt by Sabotage Charge, Contingency Charges, Thermal Grenade, Sweeping Gunfire, Incendiary Grenade, Scatter Bombs, and XS Freighter Flyby by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Sabotage Charge, Contingency Charges, Thermal Grenade, Sweeping Gunfire, Incendiary Grenade, Scatter Bombs, and XS Freighter Flyby by 15%." />
         <Icon Value="explosive" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.jury_rigged_mods">
         <Label Value="Jury-Rigged Mods" />
-        <Description Value="Reduces the cooldown of Sabotage Charge by &lt;&lt;3&gt;&gt; seconds and Speed Shot by &lt;&lt;1&gt;&gt; seconds and reduces their energy costs along with Charged Burst by &lt;&lt;2&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Speed Shot by 6 seconds, reduces the energy cost of Speed Shot by 1 per second, and reduces the energy cost of Charged Burst by 5." />
         <Icon Value="armament2" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.dealers_discount">
         <Label Value="Dealer's Discount" />
-        <Description Value="Reduces the energy cost of Sabotage Charge, Shock Charge and Incendiary Grenade by &lt;&lt;1[%d/%d/%d]&gt;&gt;." />
+        <Description Value="Reduces the energy cost of Sabotage Charge, Shock Charge and Incendiary Grenade by 5." />
         <Icon Value="credit_chip" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2466,7 +2452,7 @@
       <Label Value="Sharpshooter" />
       <Ability Name="abl.smuggler.skill.sharpshooter.burst_volley">
         <Label Value="Burst Volley" />
-        <Description Value="Immediately finishes the cooldown of Speed Shot, increases base energy regeneration by 2 per second, and increases alacrity by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Immediately finishes the cooldown of Penetrating Rounds, increases base energy regeneration by 2 per second, and increases alacrity by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="lockandload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2478,7 +2464,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.trickshot">
         <Label Value="Trickshot" />
-        <Description Value="Fires a wild follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Charged Burst, Aimed Shot, Quickdraw or a complete Speed Shot. Fires both blasters if dual wielding." />
+        <Description Value="Fires a wild follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Charged Burst, Aimed Shot, Quickdraw or a complete Speed Shot. Requires both blasters." />
         <Icon Value="luckyshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2491,16 +2477,16 @@
         <CombatLogID Value="2301861952487424" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.917" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.192" />
-            <AmmountModifier Value="-0.92" />
+            <Coefficient Value="2.23" />
+            <StandardHealthPercentMax Value="0.223" />
+            <StandardHealthPercentMin Value="0.223" />
+            <AmmountModifier Value="0.49" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="-0.92" />
+            <AmmountModifier Value="0.49" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2518,7 +2504,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.smoking_barrel">
         <Label Value="Smoking Barrels" />
-        <Description Value="Trickshot reduces the energy cost of your next two Charged Bursts by &lt;&lt;1&gt;&gt;." />
+        <Description Value="Trickshot reduces the energy cost of your next two Charged Bursts by 5." />
         <Icon Value="bangbang" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2530,7 +2516,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.recoil_control">
         <Label Value="Recoil Control" />
-        <Description Value="Increases the speed at which Speed Shot channels and fires by &lt;&lt;1&gt;&gt;%. Additionally, firing Charged Burst twice in a row, firing Quickdraw or Aimed Shot once, or completing a Speed Shot now finishes the cooldown on Trickshot." />
+        <Description Value="Firing Charged Burst twice in a row, firing Quickdraw or Aimed Shot once, or completing a Speed Shot now finishes the cooldown on Trickshot." />
         <Icon Value="followthrough" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2580,26 +2566,38 @@
         <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
-        <ChannelDuration Value="2" />
+        <ChannelDuration Value="3" />
         <CombatLogID Value="3404435891945472" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.847" />
-            <StandardHealthPercentMax Value="0.085" />
-            <StandardHealthPercentMin Value="0.085" />
-            <AmmountModifier Value="-0.44" />
+            <Coefficient Value="1.273" />
+            <StandardHealthPercentMax Value="0.127" />
+            <StandardHealthPercentMin Value="0.127" />
+            <AmmountModifier Value="-0.15" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="-0.44" />
+            <AmmountModifier Value="-0.15" />
           </Type>
         </Coeffcients>
       </Ability>
+      <Ability Name="abl.smuggler.skill.sharpshooter.percussive_shot">
+        <Label Value="Percussive Shot" />
+        <Description Value="When Aimed Shot strikes a target within 10 meters, the target is knocked back several meters." />
+        <Icon Value="ambush" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2301956441767936" />
+      </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.charged_aim">
         <Label Value="Charged Aim" />
-        <Description Value="Charged Burst gets your blasters charged up, reducing the activation time of your next Aimed Shot by &lt;&lt;1&gt;&gt;%. Stacks up to 2 times." />
+        <Description Value="Charged Burst gets your blasters charged up, reducing the activation time of your next Aimed Shot by 0.25 seconds. Stacks up to 2 times." />
         <Icon Value="iaassassin" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2611,25 +2609,19 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.sharpshooter.stay_low">
         <Label Value="Stay Low" />
-        <Description Value="Increases the duration of Hunker Down by &lt;&lt;1&gt;&gt; seconds. In addition, when you enter cover after using Hightail It, you gain Hunker Down for the first 3 seconds." />
+        <Description Value="Increases the duration of Hunker Down by 3 seconds. In addition, when you enter cover after using Hightail It, you gain Hunker Down for the first 3 seconds." />
         <Icon Value="portablebunker" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.slick_shooter">
         <Label Value="Slick Shooter" />
-        <Description Value="Increases the critical hit chance of Charged Burst, Speed Shot and Trickshot by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. Additionally increases armor penetration by &lt;&lt;2&gt;&gt;%." />
+        <Description Value="Increases the critical hit chance of Charged Burst and Trickshot by 4%. Additionally increases armor penetration by 10%." />
         <Icon Value="chargedburst" />
         <LevelAquired Value="40" />
       </Talent>
-      <Talent Name="tal.smuggler.skill.sharpshooter.percussive_diversion">
-        <Label Value="Percussive Diversion" />
-        <Description Value="Targets affected by your Diversion continue to be affected for 3 seconds after leaving the area of effect." />
-        <Icon Value="accuracyreduced" />
-        <LevelAquired Value="24" />
-      </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.rapid_fire">
         <Label Value="Rapid Fire" />
-        <Description Value="Reduces the cooldown of Aimed Shot and Speed Shot by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Aimed Shot and Speed Shot by 3 seconds." />
         <Icon Value="rapidshots" />
         <LevelAquired Value="36" />
       </Talent>
@@ -2641,26 +2633,26 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.deadeye">
         <Label Value="Deadeye" />
-        <Description Value="Increases the critical damage dealt by Speed Shot, Quickdraw and Trickshot by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical damage dealt by Aimed Shot, Penetrating Rounds, Trickshot, Charged Burst, and Quickdraw by 30%." />
         <Icon Value="bhoutlaw" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.aim_high">
         <Label Value="Aim High" />
-        <Description Value="Increases the critical chance of Quickdraw and Speed Shot by &lt;&lt;1&gt;&gt;% and reduces and reduces their energy cost by &lt;&lt;2&gt;&gt;." />
+        <Description Value="Increases the critical chance of Quickdraw and Penetrating Rounds by 15% and reduces and reduces the energy cost of Quickdraw by 3." />
         <Icon Value="headshot" />
         <LevelAquired Value="28" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.sharp_aim">
         <Label Value="Sharp Aim" />
-        <Description Value="Aimed Shot ignores &lt;&lt;1[%d/%d/%d]&gt;&gt;% of the target's armor." />
+        <Description Value="Aimed Shot ignores 20% of the target's armor." />
         <Icon Value="blasterhugescope" />
-        <LevelAquired Value="20" />
+        <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sharpshooter.accurized_blasters">
         <Label Value="Accurized Blasters" />
         <Description Value="Increases the critical chance of Sweeping Gunfire by 15% and increases its critical damage by 30%." />
-        <Icon Value="abl_sm_gs_accurized_blasters" />
+        <Icon Value="focusfire" />
         <LevelAquired Value="12" />
       </Talent>
     </DisciplineTree>
@@ -2668,7 +2660,7 @@
       <Label Value="Dirty Fighting" />
       <Ability Name="abl.smuggler.skill.dirty_fighting.feelin_woozy">
         <Label Value="Feelin' Woozy" />
-        <Description Value="Shrap Bomb has a &lt;&lt;1&gt;&gt;% chance to reduce the movement speed of all targets by 30% for 6 seconds." />
+        <Description Value="Shrap Bomb reduces the movement speed of all targets by 30% for 6 seconds." />
         <Icon Value="forcestun" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2680,7 +2672,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.shrap_bomb">
         <Label Value="Shrap Bomb" />
-        <Description Value="Hurls a shrap bomb that explodes with razor-sharp shrapnel on impact, causing up to 5 targets within 5 meters to bleed for &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Hurls a shrap bomb that explodes with razor-sharp shrapnel on impact in a 5-meter radius on impact, dealing &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds to up to 8 targets." />
         <Icon Value="fraggrenade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2711,7 +2703,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.wounding_shot">
         <Label Value="Wounding Shots" />
-        <Description Value="Fires a wave of bolts at the target each second, dealing &lt;&lt;1&gt;&gt; weapon damage. For each of your bleed effects present on the target during each wave, the target hemorrhages for an additional &lt;&lt;2&gt;&gt; internal damage. Fires both blasters if dual wielding." />
+        <Description Value="Fires a wave of bolts at the target, dealing &lt;&lt;1&gt;&gt; weapon damage and spending 6 energy each second. When you deal damage with Wounding Shots, each of your bleed effects on the target also deal damage." />
         <Icon Value="flankingshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2741,7 +2733,7 @@
       <Ability Name="abl.smuggler.skill.dirty_fighting.hemorrhaging_blast">
         <Label Value="Hemorrhaging Blast" />
         <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage and for the next 10 seconds causes the target to take an additional &lt;&lt;1&gt;&gt; weapon damage whenever it takes damage from your Wounding Shots or a bleed effect. Requires both blasters to activate." />
-        <Icon Value="abl_sm_sc_let_loose" />
+        <Icon Value="rupture" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2782,7 +2774,7 @@
         <Label Value="Dirty Blast" />
         <Description Value="Shoots a target for &lt;&lt;1&gt;&gt; weapon damage and &lt;&lt;2&gt;&gt; internal bleed damage." />
         <Icon Value="abl_sm_gs_dirty_blast" />
-        <Damage Value="True" />
+        <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="57" />
@@ -2813,7 +2805,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
         <Label Value="Fighting Spirit" />
-        <Description Value="Reduces the cooldown of Cool Head by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. In addition, critical hits with bleed effects restore &lt;&lt;2[%d/%d/%d]&gt;&gt; energy." />
+        <Description Value="Reduces the cooldown of Cool Head by 15 seconds. In addition, critical hits with bleed effects restore 2 energy." />
         <Icon Value="cc_aggressive" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2825,7 +2817,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.incendiary_mine">
         <Label Value="Incendiary Mine" />
-        <Description Value="Increases the duration of your Scrambling Field by 5 seconds. In addition, when you activate Hightail It, you detonate an Incendiary Mine that deals &lt;&lt;1&gt;&gt; internal damage to all nearby enemies over the duration. Targets that remain within are additionally slowed by 70% for the duration. Lasts &lt;&lt;2&gt;&gt; seconds. Does not affect sleeping or incapacitated targets." />
+        <Description Value="Increases the duration of your Scrambling Field by 5 seconds. In addition, when you activate Scamper, you detonate an Incendiary Mine that deals &lt;&lt;1&gt;&gt; internal damage to all nearby enemies over the duration. Targets that remain within are additionally slowed by 70% for the duration. Lasts &lt;&lt;2&gt;&gt; seconds. Does not affect sleeping or incapacitated targets." />
         <Icon Value="improvisedmine" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2844,7 +2836,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.dirty_shot">
         <Label Value="Dirty Shot" />
-        <Description Value="Increases all Wounding Shots damage dealt by &lt;&lt;1&gt;&gt;%. In addition, damage dealt by Wounding Shots has a &lt;&lt;2&gt;&gt;% chance to trigger Dirty Shot, which finishes the cooldown of Quickdraw and makes your next Quickdraw usable on a target with any health level." />
+        <Description Value="Damage dealt by Wounding Shots has a 80% chance to trigger Dirty Shot, which finishes the cooldown of Quickdraw and makes your next Quickdraw usable on a target with any health level." />
         <Icon Value="rioteer" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2856,19 +2848,19 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.dirty_fighting.cheap_shots">
         <Label Value="Cheap Shots" />
-        <Description Value="Increases the damage dealt by Charged Burst, Speed Shot and Wounding Shots by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Charged Burst, Dirty Bast, Speed Shot and Wounding Shots by 5%. Additionally, when Shrap Bomb and Vital Shots end they are replaced by a lingering version for 5 seconds that will only deal damage when Wounding Shots deals damage." />
         <Icon Value="hammershot" />
         <LevelAquired Value="36" />
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.open_wound">
         <Label Value="Open Wound" />
-        <Description Value="Increases the duration of Vital Shot by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Increases the duration of Vital Shot by 6 seconds." />
         <Icon Value="perforatingshot" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.bombastic">
         <Label Value="Bombastic" />
-        <Description Value="Increases the damage dealt by Thermal Grenade and Shrap Bomb by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Thermal Grenade by 5% and reduced the energy cost of Speed Shot by 1 per second." />
         <Icon Value="shrapnelburst" />
         <LevelAquired Value="40" />
       </Talent>
@@ -2886,21 +2878,21 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.reopen_wounds">
         <Label Value="Reopen Wounds" />
-        <Description Value="Increases the critical chance of Wounding Shots and Speed Shot by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical chance of Wounding Shots and Speed Shot by 10%." />
         <Icon Value="bloomingshot" />
         <LevelAquired Value="44" />
       </Talent>
-      <Talent Name="tal.smuggler.skill.dirty_fighting.black_market_equipment">
-        <Label Value="Black Market Equipment" />
-        <Description Value="Increases the critical hit chance of all periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
-        <Icon Value="armament1" />
-        <LevelAquired Value="16" />
-      </Talent>
-      <Talent Name="tal.smuggler.skill.dirty_fighting.cold_blooded">
+      <Talent Name="tal.smuggler.skill.ruffian.cold_blooded">
         <Label Value="Cold Blooded" />
-        <Description Value="Increases the damage dealt by bleeding effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;% on targets below 30% of max health." />
+        <Description Value="Increases the damage dealt by bleeding effects by 15% on targets below 30% of max health. In addition, if a target dies with Sanguinary Shot, it finishes the cooldown of Sanguinary Shot." />
         <Icon Value="shadowcloak" />
         <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.smuggler.skill.dirty_fighting.black_market_equipment">
+        <Label Value="Black Market Equipment" />
+        <Description Value="Increases the critical hit chance of all periodic effects by 10%." />
+        <Icon Value="armament1" />
+        <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.mortal_wound">
         <Label Value="Mortal Wound" />

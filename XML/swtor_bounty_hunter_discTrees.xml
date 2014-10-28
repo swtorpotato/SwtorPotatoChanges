@@ -28,7 +28,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.explosive_dart">
       <Label Value="Explosive Dart" />
-      <Description Value="Fires a dart that will detonate after several seconds. Standard and weak enemies enter a state of panic while the dart is active. The explosion deals &lt;&lt;1&gt;&gt; kinetic damage to up to 3 nearby enemies when it detonates. Standard and weak targets are knocked back from the blast." />
+      <Description Value="Fires a dart that will detonate after several seconds. Standard and weak enemies enter a state of panic while the dart is active. The explosion deals &lt;&lt;1&gt;&gt; kinetic damage to up to 8 nearby enemies when it detonates. Standard and weak targets are knocked back from the blast." />
       <Icon Value="koltoinhibitordart" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -101,7 +101,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.combustible_gas_cylinder">
       <Label Value="Combustible Gas Cylinder" />
-      <Description Value="Loads your blaster with combustible gas, giving all of your blaster attacks a 25% chance to deal &lt;&lt;1&gt;&gt; additional elemental damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Only one cylinder can be active at a time." />
+      <Description Value="Loads your blaster with combustible gas, giving all of your blaster attacks a 25% chance to deal &lt;&lt;1&gt;&gt; additional elemental damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. This effect cannot occur more than once per second. Only one cylinder can be active at a time." />
       <Icon Value="plasmaclip" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -251,7 +251,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.death_from_above">
       <Label Value="Death from Above" />
-      <Description Value="Rains death from above, firing a volley of missiles at the target area, dealing &lt;&lt;1&gt;&gt; kinetic damage over the duration. Standard and weak targets are knocked down by the blasts." />
+      <Description Value="Rains death from above, firing a volley of missiles that deal &lt;&lt;1&gt;&gt; kinetic damage over the duration to up to 8 enemies within the targeted area. Standard and weak targets are knocked down by the blasts. Generates 30 heat over the duration." />
       <Icon Value="deathFromAbove" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -297,7 +297,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.flame_thrower">
       <Label Value="Flame Thrower" />
-      <Description Value="Torches everything in a 10-meter cone with a flamethrower, dealing &lt;&lt;1&gt;&gt; elemental damage over the duration." />
+      <Description Value="Torches everything in a 10-meter cone with a flamethrower, dealing &lt;&lt;1&gt;&gt; elemental damage to up to 8 targets and generating 28 heat over the duration." />
       <Icon Value="bountyhunter" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -376,7 +376,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.rail_shot">
       <Label Value="Rail Shot" />
-      <Description Value="Fires a very powerful shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable against incapacitated targets and targets suffering from periodic damage. Deals additional damage if dual wielding." />
+      <Description Value="Fires a very powerful shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable against incapacitated targets or targets suffering from periodic damage. Deals additional damage if dual wielding." />
       <Icon Value="railshot" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -404,7 +404,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.electro_dart">
       <Label Value="Electro Dart" />
-      <Description Value="Fires an electro dart that stuns the target for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. " />
+      <Description Value="Fires an electro dart, dealing &lt;&lt;2&gt;&gt; energy damage and stunning the target for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. " />
       <Icon Value="taserjolt" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -437,7 +437,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.missile_blast">
       <Label Value="Missile Blast" />
-      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the target and &lt;&lt;2&gt;&gt; additional kinetic damage to up to 3 nearby enemies in a 5-meter radius. If the primary target is a weak or standard enemy, it is knocked to the ground." />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the primary target and &lt;&lt;2&gt;&gt; kinetic damage to up to 7 standard or weak enemies within 5 meters of the primary target. If the primary target is a standard or weak enemy, it is knocked to the ground." />
       <Icon Value="missileBlast" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -475,7 +475,7 @@
     </Ability>
     <Ability Name="abl.bounty_hunter.unload">
       <Label Value="Unload" />
-      <Description Value="Unloads your blaster into the target, dealing &lt;&lt;1&gt;&gt; weapon damage over 3 seconds. Weak and standard enemies caught in the blaster fire are stunned for the duration. Fires both blasters if dual wielding." />
+      <Description Value="Unloads your blaster into the target, dealing &lt;&lt;1&gt;&gt; weapon damage and generating 24 heat over the duration. Weak and standard enemies caught in the blaster fire are stunned for the duration. Fires both blasters if dual wielding." />
       <Icon Value="unload" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -527,7 +527,7 @@
     <base Name="base">
       <Ability Name="abl.bounty_hunter.sonic_missile">
         <Label Value="Sonic Missile" />
-        <Description Value="Fires a sonic missile that taunts your target and all nearby enemies, forcing them to attack for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Enemy players have their damage reduced for 6 seconds unless they attack you. This effect cannot be resisted." />
+        <Description Value="Fires a sonic missile that taunts your target and all nearby enemies, forcing them to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;, if Ion Gas Cylinder is active. If Ion Gas Cylinder is not active, threat towards all current enemies is immediately reduced. Enemy players have their damage reduced by 30% for &lt;&lt;2&gt;&gt; seconds unless they attack you." />
         <Icon Value="sonicmissle" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -553,7 +553,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.carbonize">
         <Label Value="Carbonize" />
-        <Description Value="Encases up to 5 enemies within 8 meters in carbonite, stunning them for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Encases up to 8 enemies within 8 meters in carbonite, dealing &lt;&lt;2&gt;&gt; internal damage and stunning them for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="carbonize" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -598,7 +598,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.ion_gas_cylinder">
         <Label Value="Ion Gas Cylinder" />
-        <Description Value="Loads your blaster with ion-charged gas, giving ranged attacks a 15% chance to deal &lt;&lt;1&gt;&gt; additional energy damage. While this cylinder is active, all damage dealt is reduced by 5% and threat generation is increased by 100%. Increases armor by 60%, decreases all damage taken by 5%, and increases shield chance by 15%. Only one cylinder can be active at a time. Ion Jolts can only occur once every 1.5 seconds." />
+        <Description Value="Loads your blaster with ion-charged gas, giving ranged attacks a 15% chance to deal &lt;&lt;1&gt;&gt; additional energy damage once every 1.5 seconds. While this cylinder is active, armor rating is increased by 60%, damage reduction is increased by 5%, shield chance is increased by 15%, threat generation is increased by 100%, accuracy is increased by 10%, and all damage dealt is reduced by 10%. Only one cylinder can be active at a time." />
         <Icon Value="ionClip" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -627,7 +627,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.close_and_personal">
         <Label Value="Close and Personal" />
-        <Description Value="Increases the duration of Energy Shield by &lt;&lt;1&gt;&gt; seconds. In addition, suffering direct damage from area attacks vents &lt;&lt;2&gt;&gt; heat and heals you for &lt;&lt;3&gt;&gt;% of your total health. This effect cannot occur more than once every 3 seconds." />
+        <Description Value="Increases the duration of Energy Shield by 3 seconds. In addition, suffering direct damage from area attacks vents 2 heat and heals you for 2.5% of your total health. This effect cannot occur more than once every 3 seconds." />
         <Icon Value="meleetankunlock" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -678,7 +678,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.high_energy_gas_cylinder">
         <Label Value="High Energy Gas Cylinder" />
-        <Description Value="Loads your blaster with a high-energy gas cylinder. While active, all internal and elemental damage dealt is increased by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. Only one cylinder can be active at a time." />
+        <Description Value="Loads your blaster with a high-energy gas cylinder. While active, all energy and kinetic damage dealt is increased by 3%. Only one cylinder can be active at a time." />
         <Icon Value="armorpiercingclip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -690,7 +690,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.flame_sweep">
         <Label Value="Flame Sweep" />
-        <Description Value="Torches up to 5 targets within 5 meters for &lt;&lt;1&gt;&gt; elemental damage." />
+        <Description Value="Torches up to 8 targets within 5 meters for &lt;&lt;1&gt;&gt; elemental damage." />
         <Icon Value="flamingsweep" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -744,7 +744,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.neural_dart">
         <Label Value="Neural Dart" />
-        <Description Value="Fires a neural dart that taunts the target to attack for 6 seconds. Player targets deal 30% less damage when attacking anyone other than you. Effect lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. This effect cannot be resisted." />
+        <Description Value="Fires a neural dart that taunts the target, forcing it to attack you. Player targets deal 30% less damage when attacking anyone other than you. Effect lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="sleepdart" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -863,7 +863,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.automated_defenses">
         <Label Value="Automated Defenses" />
-        <Description Value="While Kolto Overload is active, your damage reduction is increased by &lt;&lt;2&gt;&gt;%. Additionally, getting attacked reduces the active cooldown of your Kolto Overload by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="While Kolto Overload is active, your damage reduction is increased by 30%. Additionally, getting attacked reduces the active cooldown of your Kolto Overload by 6 seconds. This effect cannot occur more than once every 1.5 seconds." />
         <Icon Value="adrenelinerush" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -964,7 +964,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.flame_suit">
         <Label Value="Flame Suit" />
-        <Description Value="Reduces the damage taken by all periodic effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Reduces the damage taken from all periodic effects by 15%." />
         <Icon Value="rangedtankunlock" />
         <LevelAquired Value="24" />
       </Talent>
@@ -982,7 +982,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.rain_of_fire">
         <Label Value="Rain of Fire" />
-        <Description Value="Rapid Shots, Power Shot, Rail Shot, Unload and Sweeping Blasters deal &lt;&lt;1[%d/%d/%d]&gt;&gt;% additional damage to burning targets." />
+        <Description Value="Rail Shot and Flaming Fist deal 10% additional damage to burning targets." />
         <Icon Value="decoyarsenal" />
         <LevelAquired Value="44" />
       </Talent>
@@ -994,7 +994,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.volatile_igniter">
         <Label Value="Volatile Igniter" />
-        <Description Value="Reduces the cost of Flame Sweep by &lt;&lt;1&gt;&gt; and gives Flame Sweep a &lt;&lt;2&gt;&gt;% chance to trigger your Combustible Gas Cylinder on all affected targets." />
+        <Description Value="Flaming Fist, Flame Burst, and Flame Sweep trigger Combustible Gas Cylinder, if it is active, on all affected targets." />
         <Icon Value="ringoffire" />
         <LevelAquired Value="12" />
       </Talent>
@@ -1002,7 +1002,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.bounty_hunter.skill.utility.shield_cannon">
         <Label Value="Shield Cannon" />
-        <Description Value="Damaging a target with your Shoulder Cannon missiles heals you for 5% of your total health." />
+        <Description Value="Increases the damage dealt by Shoulder Cannon by 5%. In addition, damaging a target with your Shoulder Cannon missiles heals you for 5% of your total health." />
         <Icon Value="cannonheal" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1122,7 +1122,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.utility.no_escape">
         <Label Value="No Escape" />
-        <Description Value="Grapple immobilizes the target for 3 seconds. In addition, the cooldown of Stealth Scan is reduced by 5 seconds, and any targets it reveals are immobilized for 3 seconds." />
+        <Description Value="Grapple immobilizes the target for 3 seconds. In addition, Stealth Scan immobilizes any targets it reveals for 3 seconds." />
         <Icon Value="probedroid" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1228,7 +1228,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.ion_overload">
         <Label Value="Ion Overload" />
-        <Description Value="When you deal damage with Rocket Punch, you have a &lt;&lt;1&gt;&gt;% chance to trigger your Ion Gas Cylinder. In addition, when Ion Gas Cylinder deals damage, it has a &lt;&lt;1&gt;&gt;% chance to shock the target for &lt;&lt;2&gt;&gt; additional energy damage over &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;. Does not damage sleeping, lifted, or incapacitated enemies. Generates a high amount of threat." />
+        <Description Value="While Ion Gas Cylinder is active, dealing damage with Rocket Punch triggers Ion Gas Cylinder on the target and dealing damage with Rail Shot triggers Ion Gas Cylinder on the target and up to 7 additional enemies within 5 meters. In addition, when Ion Gas Cylinder deals damage, it will also shock the target for &lt;&lt;1&gt;&gt; additional energy damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. None of these effects damage sleeping, lifted, or incapacitated enemies. Generates a high amount of threat." />
         <Icon Value="ionClip" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1248,7 +1248,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.jet_charge">
         <Label Value="Jet Charge" />
-        <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; kinetic damage, interrupting the target's current action and immobilizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Cannot be used against targets in cover." />
+        <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; kinetic damage, interrupting the target's current action and immobilizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Cannot be used against targets in cover. Activating Jet Charge grants Jet Speed, increasing movement speed by 30% for &lt;&lt;3&gt;&gt; seconds. The duration of Jet Speed is refreshed if attacked while it is active." />
         <Icon Value="jetcharge" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1276,7 +1276,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.firestorm">
         <Label Value="Firestorm" />
-        <Description Value="Flame Sweep has a &lt;&lt;1&gt;&gt;% chance to snare affected targets, reducing their movement speed by 50% for &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Incinerates everything in a 10-meter cone, generating 28 heat and dealing &lt;&lt;1&gt;&gt; elemental damage to up to 8 enemy targets over the duration. Affected targets are impaired for &lt;&lt;2&gt;&gt; seconds, reducing the Force and tech damage they deal by 5%.  Shares a cooldown with Flame Thrower." />
         <Icon Value="abl_bh_pt_firestorm" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1297,7 +1297,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.flame_surge">
         <Label Value="Flame Surge" />
-        <Description Value="Increases the damage dealt by Flame Sweep by &lt;&lt;1&gt;&gt;%. In addition, Jet Charge grants &lt;&lt;2[%d charges/%d charge/%d charges]&gt;&gt; of Flame Surge, which makes your next Flame Sweep generate no heat." />
+        <Description Value="Increases the damage dealt by Flame Sweep by 15%. In addition, Jet Charge grants 2 charges of Flame Surge, which makes your Flame Burst and Flame Sweep generate no heat. Each use of Flame Burst or Flame Sweep consumes a charge of Flame Surge." />
         <Icon Value="flamingsweep" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1309,7 +1309,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.flame_engine">
         <Label Value="Flame Engine" />
-        <Description Value="Direct damage attacks have a &lt;&lt;1&gt;&gt;% chance to trigger Flame Engine, which finishes the cooldown on Flame Thrower and causes your next Flame Thrower to be free and channel and tick twice as fast. This effect cannot occur more than once every 24 seconds, but each rank beyond the first reduces this rate limit by 6 seconds." />
+        <Description Value="While Ion Gas Cylinder is active, direct damage attacks have a 50% chance to trigger Flame Engine, which finishes the cooldown on Flame Thrower or Firestorm and causes your next Flame Thrower or Firestorm to generate no heat and channel twice as fast. This effect cannot occur more than once every 15 seconds." />
         <Icon Value="poweredflamethrower" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1321,7 +1321,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.combust">
         <Label Value="Combust" />
-        <Description Value="Flame Burst and Flame Sweep combust the target, lowering its damage dealt by &lt;&lt;1[%d/%d/%d]&gt;&gt;% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="While Ion Gas Cylinder is active, Flame Burst and Flame Sweep cause trauma and weaken their targets. Weakened targets deal 5% less damage with ranged and melee attacks for &lt;&lt;1&gt;&gt; seconds. Targets with Trauma receive 20% less healing from all sources for &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="damageincreased" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1333,7 +1333,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.heat_blast">
         <Label Value="Heat Blast" />
-        <Description Value="Fires a shot that consumes all Heat Screens to deal &lt;&lt;1&gt;&gt; elemental damage, vent 8 heat, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Heat Screens and does not respect the global cooldown." />
+        <Description Value="Fires a shot that consumes all Heat Screens to deal &lt;&lt;1&gt;&gt; elemental damage, vent 10 heat, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Heat Screens and does not respect the global cooldown." />
         <Icon Value="desperatecommand" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1354,7 +1354,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.heat_screen">
         <Label Value="Heat Screen" />
-        <Description Value="Shielding an attack or triggering your Ion Gas Cylinder generates a Heat Screen, increasing shield absorption by &lt;&lt;1&gt;&gt;% for &lt;&lt;2&gt;&gt; seconds. Stacks up to 3 times. This effect cannot occur more than once every 1.5 seconds. In addition, each time you build a Heat Screen or refresh your Heat Screen stacks, the active cooldown of Heat Blast is reduced by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Shielding an attack or triggering your Ion Gas Cylinder generates a Heat Screen, increasing shield absorption by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times. This effect cannot occur more than once every 1.5 seconds. In addition, each time you build a Heat Screen or refresh your Heat Screen stacks, the active cooldown of Heat Blast is reduced by 1 second." />
         <Icon Value="heatscreen" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1366,7 +1366,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.shield_vents">
         <Label Value="Shield Vents" />
-        <Description Value="Increases shield chance by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. In addition, shielding or defending an attack vents &lt;&lt;2&gt;&gt; heat. This effect cannot occur more than once every 6 seconds." />
+        <Description Value="Increases shield chance by 2%. In addition, shielding or defending an attack vents 1 heat. This effect cannot occur more than once every 1.5 seconds." />
         <Icon Value="droideye" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1420,7 +1420,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.shield_tech.ablative_upgrades">
         <Label Value="Ablative Upgrades" />
-        <Description Value="Increases shield absorption by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases shield absorption by 4%." />
         <Icon Value="bioelectricshieldenhancer" />
         <LevelAquired Value="56" />
       </Talent>
@@ -1456,7 +1456,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.energy_rebounder">
         <Label Value="Energy Rebounder" />
-        <Description Value="When you take damage, you have &lt;&lt;1&gt;&gt;% chance to reduce the active cooldown of Energy Shield by &lt;&lt;2&gt;&gt; seconds. This effect cannot occur more than once every 1.5 seconds. In addition, when taking damage, you have a &lt;&lt;3&gt;&gt;% chance to emit an Energy Redoubt, which absorbs a low amount of damage and lasts &lt;&lt;4&gt;&gt; seconds. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="When you take damage, the active cooldown of Energy Shield is reduced by 3 seconds. This effect cannot occur more than once every 1.5 seconds. In addition, when taking damage, you have a 20% chance to emit an Energy Redoubt, which absorbs a low amount of damage and lasts &lt;&lt;1&gt;&gt; seconds. This effect cannot occur more than once every 10 seconds." />
         <Icon Value="absorbtionfield" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1489,24 +1489,24 @@
         <CombatLogID Value="3388896700268544" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.089" />
-            <StandardHealthPercentMin Value="0.079" />
+            <Coefficient Value="0.75" />
+            <StandardHealthPercentMax Value="0.082" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.089" />
-            <StandardHealthPercentMin Value="0.079" />
+            <Coefficient Value="0.75" />
+            <StandardHealthPercentMax Value="0.082" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.089" />
-            <StandardHealthPercentMin Value="0.079" />
+            <Coefficient Value="0.75" />
+            <StandardHealthPercentMax Value="0.082" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.089" />
-            <StandardHealthPercentMin Value="0.079" />
+            <Coefficient Value="0.75" />
+            <StandardHealthPercentMax Value="0.082" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1538,7 +1538,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.sonic_defense">
         <Label Value="Sonic Defense" />
-        <Description Value="Activating Sonic Missile increases your defense chance by 30% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Activating Sonic Missile increases your defense chance by 25% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="assaulttech" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1550,7 +1550,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.prototype_particle_accelerator">
         <Label Value="Prototype Particle Accelerator" />
-        <Description Value="While High Energy Gas Cylinder is active, Rocket Punch, Magnetic Blast, Explosive Dart, and Flame Sweep finish the cooldown on Rail Shot and make the next Rail Shot generate no heat. This effect cannot occur more than once every 6 seconds." />
+        <Description Value="While High Energy Gas Cylinder is active, Rocket Punch, Magnetic Blast, and Flame Sweep finish the cooldown on Rail Shot and make the next Rail Shot generate no heat. This effect cannot occur more than once every 6 seconds." />
         <Icon Value="terminate" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1562,7 +1562,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.prototype_rail">
         <Label Value="Prototype Rail" />
-        <Description Value="While High Energy Gas Cylinder is active, Rail Shot may be fired at targets that are not incapacitated or suffering from periodic damage. In addition, Rail Shot ignores 30% of the target's armor, vents 5 heat if it hits a bleeding target, and refreshes the duration of your Retractable Blade's bleed effect, if present." />
+        <Description Value="While High Energy Gas Cylinder is active, Rail Shot may be fired at targets that are not incapacitated or suffering from periodic damage. In addition, Rail Shot ignores 30% of the target's armor, vents 10 heat if it hits a bleeding target, and refreshes the duration of your Retractable Blade's bleed effect if present." />
         <Icon Value="shrapround" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1595,19 +1595,19 @@
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.stabilized_armor">
         <Label Value="Stabilized Armor" />
-        <Description Value="Reduces damage taken from area effects by &lt;&lt;1&gt;&gt;%. Additionally, while stunned, you take &lt;&lt;2&gt;&gt;% less damage from all sources." />
+        <Description Value="Reduces damage taken from area effects by 30%. Additionally, while stunned, you take 30% less damage from all sources." />
         <Icon Value="tenacity" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.prototype_weapon_systems">
         <Label Value="Prototype Weapon Systems" />
-        <Description Value="Increases the critical strike damage bonus of Rocket Punch, Flame Thrower, Retractable Blade, and Immolate by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage bonus of Rocket Punch, Rail Shot, Magnetic Blast, Retractable Blade, Thermal Detonator, and Energy Burst by 30%. Additionally, when Thermal Detonator damages a target, the target will become Susceptible, increasing the damage it takes from tech attacks by 5%." />
         <Icon Value="armament2" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.power_loaders">
         <Label Value="Power Loaders" />
-        <Description Value="Increases the damage dealt by Shoulder Cannon by &lt;&lt;1&gt;&gt;%, and immediately loads &lt;&lt;2&gt;&gt; additional missiles. Additionally, this increases the critical hit chance of Rocket Punch by &lt;&lt;3&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by Shoulder Cannon by 15%, and immediately loads 3 additional missiles. Additionally, this increases the critical hit chance of Rocket Punch and Thermal Detonator by 5%." />
         <Icon Value="powerloaders" />
         <LevelAquired Value="56" />
       </Talent>
@@ -1625,25 +1625,25 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.infrared_sensors">
         <Label Value="Infrared Sensors" />
-        <Description Value="Increases your melee and ranged defense chance by 3% and your stealth detection level by 3." />
+        <Description Value="Increases stealth detection level by 2, melee and ranged defense by 2%, and reduces the cooldown of Stealth Scan by 5 seconds." />
         <Icon Value="bloodthirst" />
         <LevelAquired Value="44" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.prototype_missile_silos">
         <Label Value="Prototype Missile Silos" />
-        <Description Value="Reduces the cooldown of Death from Above by 15 seconds and increases the damage it deals by 10%. In addition, Explosive Dart deals 50% more damage, its cooldown is reduced by 6 seconds, and damage dealt by it will refresh the duration of your Retractable Blade's bleed on the affected target, if present." />
+        <Description Value="Reduces the cooldown of Explosive Dart by 6 seconds and the cooldown of Death from Above by 15 seconds and increases the damage of both abilities by 15%. In addition, damage dealt by Explosive Dart refreshes the duration of your Retractable Blade's bleed effect if present." />
         <Icon Value="abl_bh_pt_prototype_missilesilos" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.serrated_blades">
         <Label Value="Serrated Blades" />
-        <Description Value="Increases the damage dealt by Retractable Blade's bleed effect by 15% and causes targets damaged by your Rocket Punch to become Sundered, reducing their armor by 20% for 45 seconds." />
+        <Description Value="Increases the damage dealt by Retractable Blade's bleed effect by 15% and causes targets damaged by your Rocket Punch to become Sundered, reducing their armor by 20%." />
         <Icon Value="criticalblade" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.blood_tracker">
         <Label Value="Blood Tracker" />
-        <Description Value="Increases the damage you deal to bleeding targets by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage you deal to bleeding targets by 3%." />
         <Icon Value="cyborgmerc" />
         <LevelAquired Value="36" />
       </Talent>
@@ -1688,7 +1688,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.proactive_medicine">
         <Label Value="Proactive Medicine" />
-        <Description Value="Healing Scan has a &lt;&lt;1&gt;&gt;% chance to apply Proactive Medicine to the target, healing for an additional &lt;&lt;2&gt;&gt; over &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Emergency Scan applies Proactive Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Progressive Scan grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="armament3" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1746,7 +1746,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.kolto_missile">
         <Label Value="Kolto Missile" />
-        <Description Value="Heals up to 4 allies within 8 meters of the targeted area for &lt;&lt;1&gt;&gt;." />
+        <Description Value="Heals up to 8 allies within 8 meters of the targeted area for &lt;&lt;1&gt;&gt;." />
         <Icon Value="sonicmissle" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1812,7 +1812,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.critical_efficiency">
         <Label Value="Critical Efficiency" />
-        <Description Value="Healing Scan has a &lt;&lt;1&gt;&gt;% chance to reduce the heat cost of your next Rapid Scan by 8." />
+        <Description Value="Activating Rapid Scan grants a charge of Critical Efficiency, which reduces the heat generated by your next Healing Scan by 5. This effect can stack up to 3 charges." />
         <Icon Value="mirilantrader" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1860,25 +1860,25 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.warden">
         <Label Value="Warden" />
-        <Description Value="Increases the critical healing bonus of all heals by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical healing bonus of all heals by 15%." />
         <Icon Value="souterrimpirate" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.empowered_scans">
         <Label Value="Empowered Scans" />
-        <Description Value="Increases the healing done by Rapid Scan and Healing Scan by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. In addition, Rapid Scan builds &lt;&lt;2[%d/%d/%d]&gt;&gt; charges of Combat Support Cylinder." />
+        <Description Value="Increases the healing done by Emergency Scan and Healing Scan by 5%. In addition, Rapid Scan generates an extra stack of Supercharge when activated, and Progressive Scan channels 20% faster." />
         <Icon Value="imperialdatapad" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.bodyguard">
         <Label Value="Bodyguard" />
-        <Description Value="Increases the max number of Kolto Shell charges by &lt;&lt;3&gt;&gt;, increases the healing each charge does by &lt;&lt;1&gt;&gt;%, and reduces the rate limits of Kolto Shell and Peacekeeper by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; each." />
+        <Description Value="Increases the max number of Kolto Shell charges by 3, increases the healing each charge does by 15%, and reduces Kolto Shell's rate limit by 1 second." />
         <Icon Value="rangedtankunlock" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.med_tech">
         <Label Value="Med Tech" />
-        <Description Value="Reduces the activation time of Rapid Scan by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and reduces the cooldown of Healing Scan by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the activation time of Rapid Scan by 0.5 seconds and reduces the cooldown of Healing Scan by 3 seconds." />
         <Icon Value="medicalcrate" />
         <LevelAquired Value="16" />
       </Talent>
@@ -1887,7 +1887,7 @@
       <Label Value="Innovative Ordnance" />
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.innovative_particle_accelerator">
         <Label Value="Innovative Particle Accelerator" />
-        <Description Value="While Combustible Gas Cylinder is active, Power Shot, Unload, and Sweeping Blasters finish the cooldown on Rail Shot and Mag Shot and make the next Rail Shot or Mag Shot generate no heat. This effect cannot occur more than once every 7.5 seconds." />
+        <Description Value="While Combustible Gas Cylinder is active, Power Shot, Unload, and Sweeping Blasters finish the cooldown on Rail Shot and Mag Shot and make the next Rail Shot or Mag Shot generate no heat. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="terminate" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2003,7 +2003,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.superheated_shot">
         <Label Value="Superheated Shot" />
-        <Description Value="Rail Shot and Mag Shot ignore 30% of the target's armor, and dealing damage with either ability will always trigger your Combustible Gas Cylinder, if it is active. In addition, if Rail Shot or Mag Shot is used against a burning target, you vent 5 heat." />
+        <Description Value="Rail Shot and Mag Shot ignore 30% of the target's armor, and dealing damage with either ability will always trigger your Combustible Gas Cylinder, if it is active. In addition, if Rail Shot or Mag Shot is used against a burning target, you vent 10 heat." />
         <Icon Value="shrapround" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2061,7 +2061,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
         <Label Value="Power Barrels" />
-        <Description Value="Reduces the cooldown of Unload by 3 seconds." />
+        <Description Value="Reduces the heat generated by Power Shot by 5 and the cooldown of Unload by 3 seconds. Additionally, increases the damage dealt by Rail Shot, Power Shot, Unload, Serrated Shot, and Mag Shot by 5%." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -2073,7 +2073,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.blaze_of_glory">
         <Label Value="Blaze of Glory" />
-        <Description Value="Thermal Detonator, Power Shot, Rail Shot, Unload, Sweeping Blasters, Explosive Dart, Serrated Shot, Mag Shot, and Missile Blast deal 5% additional damage to burning targets." />
+        <Description Value="Thermal Detonator, Power Shot, Rail Shot, Unload, Sweeping Blasters, Explosive Dart, Serrated Shot, Mag Shot, and Missile Blast deal 10% additional damage to burning targets." />
         <Icon Value="decoyarsenal" />
         <LevelAquired Value="36" />
       </Talent>
@@ -2085,7 +2085,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.relentless_ordnance">
         <Label Value="Relentless Ordnance" />
-        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic effects by 30% on targets below 30% max health." />
+        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic elemental effects by 30% on targets below 30% max health." />
         <Icon Value="forcecrush" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2384,7 +2384,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.combat_support_cylinder">
         <Label Value="Combat Support Cylinder" />
-        <Description Value="While active, Rapid Shots charges your powercell with each use. Charges increase all damage and healing dealt, up to a maximum of 3% at 30 charges. In addition, targeting an ally or yourself with Rapid Shots will heal the target for 100% of your tech bonus healing. Only one cylinder can be active at a time." />
+        <Description Value="Loads your blaster with a combat support cylinder. While active, all healing and damage done is increased by 3%. Only one cylinder can be active at a time." />
         <Icon Value="emittermatrix2" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2455,7 +2455,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.sweeping_blasters">
         <Label Value="Sweeping Blasters" />
-        <Description Value="Fires waves of blaster bolts at up to 5 targets within 5 meters of the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Standard and weak targets are sometimes knocked back by the sweeping bolts. Requires two blasters." />
+        <Description Value="Fires waves of blaster bolts at up to 8 targets within 5 meters of the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Standard and weak targets are sometimes knocked back by the sweeping bolts. Requires two blasters. Builds 32 heat over the duration." />
         <Icon Value="sweepinggunfire" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2496,7 +2496,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.jet_boost">
         <Label Value="Jet Boost" />
-        <Description Value="Blasts 5 nearby enemies back and away. Targets hit by this take &lt;&lt;1&gt;&gt; elemental damage and have their movement slowed by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Blasts 8 nearby enemies back and away. Targets hit by this take &lt;&lt;1&gt;&gt; elemental damage and have their movement slowed by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="jetBoost" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2591,7 +2591,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.fusion_missile">
         <Label Value="Fusion Missile" />
-        <Description Value="Fires a fusion missile that detonates on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 3 targets within 5 meters and searing all targets with radiation burns that deal &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Standard and weak targets enter a state of panic from the flames." />
+        <Description Value="Fires a fusion missile that detonates on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 8 targets within 8 meters and searing all targets with radiation burns that deal &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Standard and weak targets enter a state of panic from the flames." />
         <Icon Value="tacticalnuke" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2737,7 +2737,7 @@
       <Label Value="Arsenal" />
       <Ability Name="abl.bounty_hunter.skill.arsenal.decoy">
         <Label Value="Decoy" />
-        <Description Value="Chaff Flare has a &lt;&lt;1&gt;&gt;% chance to intercept and absorb the next incoming direct Force or tech attack. Lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Chaff Flare intercepts and absorbs the next incoming direct Force or tech attack. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="chaffflare" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2757,7 +2757,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.barrage">
         <Label Value="Barrage" />
-        <Description Value="Power Shot and Tracer Missile have a &lt;&lt;1&gt;&gt;% chance to finish the cooldown on Unload and increase the damage dealt by the next Unload by 25%. This effect cannot occur more than once every 8 seconds." />
+        <Description Value="Tracer Missile finishes the cooldown on Unload and Blazing Bolts and increases the damage dealt by the next Unload or Blazing Bolts by 10%. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="rioteer" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2797,7 +2797,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.tracer_lock">
         <Label Value="Tracer Lock" />
-        <Description Value="Tracer Missile grants Target Lock, increasing the damage dealt by the next Rail Shot by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and reducing the activation time of the next Healing Scan by 20%. Stacks up to 5 times." />
+        <Description Value="Tracer Missile grants Tracer Lock, increasing the damage dealt by the next Rail Shot by 6% or reducing the activation time of the next Healing Scan by 20%. Stacks up to 5 times." />
         <Icon Value="marktarget" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2809,7 +2809,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.heatseeker_missiles">
         <Label Value="Heatseeker Missiles" />
-        <Description Value="Fires several missiles that deal &lt;&lt;1&gt;&gt; kinetic damage. This damage is increased by &lt;&lt;2[%d/%d/%d]&gt;&gt;% if the target is affected by your heat signature." />
+        <Description Value="Fires several missiles that deal &lt;&lt;1&gt;&gt; kinetic damage. This damage is increased by 10% if the target is affected by your heat signature." />
         <Icon Value="heatseekermissiles" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2822,9 +2822,9 @@
         <CombatLogID Value="814592087293952" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.78" />
-            <StandardHealthPercentMax Value="0.298" />
-            <StandardHealthPercentMin Value="0.258" />
+            <Coefficient Value="2.442" />
+            <StandardHealthPercentMax Value="0.2642" />
+            <StandardHealthPercentMin Value="0.2242" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="2.22" />
@@ -2864,7 +2864,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.tracer_missile">
         <Label Value="Tracer Missile" />
-        <Description Value="Launches a missile at the target that deals &lt;&lt;1&gt;&gt; kinetic damage and applies a heat signature, reducing the target's armor rating by 20% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Heat signatures leave targets vulnerable to Rail Shot." />
+        <Description Value="Launches a missile at the target that deals &lt;&lt;1&gt;&gt; kinetic damage, sunders the target, and leaves a Heat Signature on them. Sundered targets have their armor reduced by 20% for &lt;&lt;3&gt;&gt; seconds. Heat signatures leave targets vulnerable to Rail Shot and increase the damage they take from Heatseeker Missiles for &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="unexplodedmortarshell" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2877,9 +2877,9 @@
         <CombatLogID Value="985140943650816" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.502" />
-            <StandardHealthPercentMax Value="0.17" />
-            <StandardHealthPercentMin Value="0.13" />
+            <Coefficient Value="1.586" />
+            <StandardHealthPercentMax Value="0.179" />
+            <StandardHealthPercentMin Value="0.139" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2909,13 +2909,13 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.riddle">
         <Label Value="Riddle" />
-        <Description Value="Increases the damage dealt by Unload by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical hit chance for Unload, Blazing Bolts, and Priming Shot by 5%." />
         <Icon Value="unload" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.ironsights">
         <Label Value="Ironsights" />
-        <Description Value="Increases Aim by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by dart attacks, missile attacks, and Priming Shot by 10%. Additionally, Priming Shot marks its target. Marked targets take 5% more damage from ranged weapon attacks." />
         <Icon Value="assaultcannonironsight" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2939,7 +2939,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.target_tracking">
         <Label Value="Target Tracking" />
-        <Description Value="Increases the critical damage bonus of Rail Shot, Heatseeker Missiles, and  Priming Shotby 30%." />
+        <Description Value="Increases the critical damage bonus of Rail Shot, Tracer Missile, Heatseeker Missiles, and  Priming Shotby 30%." />
         <Icon Value="missilefan" />
         <LevelAquired Value="36" />
       </Talent>

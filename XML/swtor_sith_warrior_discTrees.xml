@@ -57,7 +57,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.vicious_slash">
       <Label Value="Vicious Slash" />
-      <Description Value="Slashes the target for &lt;&lt;1&gt;&gt; damage. Attacks with both weapons if dual wielding." />
+      <Description Value="Slashes the target for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
       <Icon Value="slash" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -85,7 +85,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.sweeping_slash">
       <Label Value="Sweeping Slash" />
-      <Description Value="Slashes up to 5 enemies in front of you for &lt;&lt;1&gt;&gt; weapon damage each. Attacks with both lightsabers if dual wielding." />
+      <Description Value="Slashes up to 8 enemies within 5 meters in front of you for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
       <Icon Value="whirlingassault" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -117,7 +117,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.saber_ward">
       <Label Value="Saber Ward" />
-      <Description Value="Raises a lightsaber ward, increasing melee and ranged defenses by 50% and reducing the damage taken from Force and tech attacks by 25%. Lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Description Value="Raises a lightsaber ward, increasing melee and ranged defenses by 50% and absorbing 25% of the damage taken from Force and tech attacks. Lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
       <Icon Value="lightsaberReflection" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -143,7 +143,7 @@
     </Ability>
     <Ability Name="abl.flurry.sith_warrior.assault_optimize">
       <Label Value="Assault" />
-      <Description Value="Inflicts &lt;&lt;1&gt;&gt; damage with a series of quick melee attacks. Builds 2 Rage. Attacks with both weapons if dual wielding." />
+      <Description Value="Generates 2 rage and inflicts &lt;&lt;1&gt;&gt; weapon damage with a series of quick melee attacks. Attacks with both weapons if dual wielding." />
       <Icon Value="assault" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -220,7 +220,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.force_scream">
       <Label Value="Force Scream" />
-      <Description Value="Blasts the target with a Force-enhanced scream, dealing &lt;&lt;1&gt;&gt; kinetic damage. In addition, standard and weak enemies are stunned and deafened for 4 seconds." />
+      <Description Value="Blasts the target with a Force-enhanced scream, dealing &lt;&lt;1&gt;&gt; kinetic damage. In addition, standard and weak enemies are stunned for 4 seconds." />
       <Icon Value="forcestream" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -254,7 +254,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.force_choke">
       <Label Value="Force Choke" />
-      <Description Value="Chokes the target, crushing and stunning it while Force Choke is channeled. Deals &lt;&lt;1&gt;&gt; kinetic damage every second. Builds 1 rage per second." />
+      <Description Value="Chokes the target, crushing and stunning it while Force Choke is channeled. Deals &lt;&lt;1&gt;&gt; kinetic damage and builds 4 rage over the channel duration." />
       <Icon Value="choke" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -333,7 +333,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.intimidating_roar">
       <Label Value="Intimidating Roar" />
-      <Description Value="Paralyzes all nearby enemies in fear, preventing all action for up to 6 seconds. Damage ends the effect prematurely. Has no effect on droids." />
+      <Description Value="Paralyzes up to 8 nearby enemies in fear, preventing all action for up to &lt;&lt;1&gt;&gt; seconds. Damage ends the effect prematurely. Has no effect on droids." />
       <Icon Value="afraid" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -382,7 +382,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.vicious_throw">
       <Label Value="Vicious Throw" />
-      <Description Value="Throws the main-hand lightsaber at a target, dealing &lt;&lt;1&gt;&gt; energy damage. Only usable on targets at or below 30% max health." />
+      <Description Value="Throws the main-hand lightsaber at a target, dealing &lt;&lt;1&gt;&gt; weapon damage. Only usable on targets at or below 30% max health." />
       <Icon Value="throwexecute" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -450,7 +450,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.smash">
       <Label Value="Smash" />
-      <Description Value="Smashes the target and up to 4 enemies within 5 meters, dealing &lt;&lt;1&gt;&gt; kinetic damage. Also stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Description Value="Smashes up to 8 enemies within 5 meters, dealing &lt;&lt;1&gt;&gt; kinetic damage. Stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
       <Icon Value="thunderfist" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -550,7 +550,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.relentless">
         <Label Value="Relentless" />
         <Description Value="Increases the duration of Undying Rage by 2 seconds." />
-        <Icon Value="abl_sw_ma_relentless" />
+        <Icon Value="republic" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="17" />
       </Talent>
@@ -578,7 +578,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.expunging_camouflage">
         <Label Value="Expunging Camouflage" />
         <Description Value="Force Camouflage removes all cleansable effects when activated." />
-        <Icon Value="abl_swjk_mase_expunging_camo" />
+        <Icon Value="empire" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
@@ -592,14 +592,14 @@
       <Talent Name="tal.sith_warrior.skill.utility.inescapable">
         <Label Value="Inescapable" />
         <Description Value="Crippling Slash consumes 2 less rage. In addition, using Crippling Slash against a target already slowed by your Crippling Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
-        <Icon Value="abl_sw_ma_inescapable" />
+        <Icon Value="empire" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.path_carver">
         <Label Value="Path Carver" />
         <Description Value="Sweeping Slash deals 25% more damage." />
-        <Icon Value="abl_sw_ju_path_carver" />
+        <Icon Value="perforatingshot" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Talent>
@@ -699,7 +699,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.enraged_charge">
         <Label Value="Enraged Charge" />
-        <Description Value="Force Charge has a &lt;&lt;1&gt;&gt;% chance to generate 1 additional rage." />
+        <Description Value="Force Charge builds 1 additional rage." />
         <Icon Value="forcecharge" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -711,7 +711,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.bloodlust">
         <Label Value="Bloodlust" />
-        <Description Value="Your direct damage attacks that critically hit a bleeding target have a &lt;&lt;1&gt;&gt;% chance to build 1 rage." />
+        <Description Value="Your direct damage attacks that critically hit a bleeding target build 1 rage. This effect cannot occur more than once every 4 seconds. In addition, Annihilate makes its target assailable for &lt;&lt;1&gt;&gt; seconds. Assailable targets take 7% more elemental and internal damage." />
         <Icon Value="regenerate" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -735,7 +735,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.deadly_saber">
         <Label Value="Deadly Saber" />
-        <Description Value="Charges your lightsabers with deadly energy for 15 seconds, causing your next 3 successful melee attacks to make the target bleed for &lt;&lt;1&gt;&gt; internal damage over 6 seconds. Stacks up to 3 times.  Must be in Juyo Form." />
+        <Description Value="Charges your lightsabers with deadly energy for 15 seconds, causing your next 3 successful melee attacks to make the target bleed for &lt;&lt;1&gt;&gt; internal damage over 6 seconds. Stacks up to 3 times. Juyo Form must be active." />
         <Icon Value="vengefulstrike" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -813,7 +813,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.hemmorhage">
         <Label Value="Hemorrhage" />
-        <Description Value="Increases the damage dealt by your bleed effects by &lt;&lt;1&gt;&gt;%. In addition, your bleed effects have a &lt;&lt;2&gt;&gt;% chance to build 1 rage when dealing damage. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="Your bleed effects have a 20% chance to build 1 rage when dealing damage. This effect cannot occur more than once every 4 seconds." />
         <Icon Value="disable" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -825,7 +825,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.hungering">
         <Label Value="Hungering" />
-        <Description Value="Critical hits with bleed effects heal you for &lt;&lt;1[%d/%d/%d]&gt;&gt;% of your maximum health." />
+        <Description Value="Critical hits with bleed effects heal you for 1% of your maximum health." />
         <Icon Value="blood_soaked_skull" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -845,13 +845,13 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.annihilation.deep_wound">
         <Label Value="Deep Wound" />
-        <Description Value="Increases the direct damage dealt by Rupture by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the direct damage dealt by Rupture by 5%." />
         <Icon Value="hamstring" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.indefatigable_onslaught">
         <Label Value="Indefatigable Onslaught" />
-        <Description Value="Juyo Form can now stack up to 6 times, and Annihilate can now stack up to 4 times in total.  Your damage over time effects from Deadly Saber and Rupture cannot be cleansed." />
+        <Description Value="Juyo Form can now stack up to 6 times, and Annihilate can now stack up to 4 times in total." />
         <Icon Value="intimidatingpresence" />
         <LevelAquired Value="48" />
       </Talent>
@@ -863,31 +863,31 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.close_quarters">
         <Label Value="Close Quarters" />
-        <Description Value="Reduces the minimum range of Force Charge by &lt;&lt;1[%d/%d/%d]&gt;&gt; meters." />
+        <Description Value="Reduces the minimum range of Force Charge by 10 meters and its cooldown by 2 seconds." />
         <Icon Value="sithescape" />
         <LevelAquired Value="20" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.hemorrhaging_smash">
         <Label Value="Hemorrhaging Smash" />
         <Description Value="Smash spreads your Rupture and Force Gash bleeds to targets it hits, if it hits a target already affected by those bleeds." />
-        <Icon Value="abl_sw_ma_hemorrhaging_smash" />
+        <Icon Value="empire" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.bleedout">
         <Label Value="Bleedout" />
-        <Description Value="Increases the critical strike damage of your bleed effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of your bleed effects by 5%." />
         <Icon Value="bloomingshot" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.swift_demise">
         <Label Value="Swift Demise" />
         <Description Value="Juyo Form and Annihilator build two stacks at a time." />
-        <Icon Value="abl_sw_ma_swift_demise" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.pulverize">
         <Label Value="Pulverize" />
-        <Description Value="Reduces the cooldown of Rupture by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the duration of Rupture's bleed effect by 3 seconds." />
         <Icon Value="jumpingstrike" />
         <LevelAquired Value="24" />
       </Talent>
@@ -896,7 +896,7 @@
       <Label Value="Fury" />
       <Ability Name="abl.sith_warrior.skill.rage.cascading_power">
         <Label Value="Cascading Power" />
-        <Description Value="Increases all damage dealt by &lt;&lt;1&gt;&gt;% for &lt;&lt;2&gt;&gt; seconds after using Smash." />
+        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="elementaloverload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -909,7 +909,7 @@
       <Ability Name="abl.sith_warrior.skill.fury.furious_defense">
         <Label Value="Furious Defense" />
         <Description Value="While Shii-Cho Form is active, Furious Strike grants Furious Defense, increasing your defense chance by 10% for &lt;&lt;1&gt;&gt; seconds." />
-        <Icon Value="abl_sw_ma_rising_power" />
+        <Icon Value="bhoutlaw" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -920,7 +920,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
         <Label Value="Battle Cry" />
-        <Description Value="While Shii-Cho Form is active, Force Charge and Obliterate have a &lt;&lt;1&gt;&gt;% chance to make the next Force Scream activated cost no rage." />
+        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream consume no rage." />
         <Icon Value="nightmare" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -932,7 +932,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.dominate">
         <Label Value="Dominate" />
-        <Description Value="Force Charge and Obliterate have a &lt;&lt;1&gt;&gt;% chance to make your next Smash used within &lt;&lt;2&gt;&gt; seconds an automatic critical hit.  This bonus only applies to players if they are the primary target." />
+        <Description Value="Force Charge and Obliterate make your next Smash or Raging Burst used within &lt;&lt;1&gt;&gt; seconds an automatic critical hit." />
         <Icon Value="thunder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -978,7 +978,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.force_crush">
         <Label Value="Force Crush" />
-        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3[%d/%d/%d]&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage." />
+        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2&gt;&gt; kinetic damage." />
         <Icon Value="forceCrush" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1042,7 +1042,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.obliterate">
         <Label Value="Obliterate" />
-        <Description Value="Jumps to a target, dealing &lt;&lt;1&gt;&gt; weapon damage and immobilizing it for 1 second. Strikes with both weapons if dual wielding." />
+        <Description Value="Jumps to a target, dealing &lt;&lt;1&gt;&gt; weapon damage and immobilizing it for &lt;&lt;2&gt;&gt; second. Can be used while immobilized. Strikes with both weapons if dual wielding." />
         <Icon Value="saberstorm" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1155,7 +1155,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.dark_resonance">
         <Label Value="Dark Resonance" />
-        <Description Value="Increases the critical strike damage of all attacks by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of all attacks by 15%." />
         <Icon Value="doom_aura" />
         <LevelAquired Value="24" />
       </Talent>
@@ -1167,13 +1167,13 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.decimate">
         <Label Value="Decimate" />
-        <Description Value="Increases the damage dealt by Smash and Sweeping Slash by &lt;&lt;1&gt;&gt;% and reduces the cooldown of Smash and Obliterate by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the damage dealt by Smash by 40% and reduces the cooldowns of Smash and Raging Burst by 3 seconds each." />
         <Icon Value="thunderfist" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.saber_strength">
         <Label Value="Saber Strength" />
-        <Description Value="Increases the damage dealt by Vicious Slash, Vicious Throw and Obliterate by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage you deal with saber attacks by 5%." />
         <Icon Value="sithwarrior" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1181,7 +1181,7 @@
     <base Name="base">
       <Ability Name="abl.sith_warrior.fury">
         <Label Value="Fury" />
-        <Description Value="Activating an attack that spends rage and defeating opponents builds Fury. When 30 stacks of Fury are built, you become Furious, enabling the use of Berserk, Predation and Bloodthirst." />
+        <Description Value="Activating an attack that spends rage and defeating opponents builds Fury. When 30 stacks of Fury are built, you become Furious, enabling the use of Berserk, Predation, and Bloodthirst." />
         <Icon Value="brooding" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1205,7 +1205,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.dual_saber_throw">
         <Label Value="Dual Saber Throw" />
-        <Description Value="Throws both lightsabers in a straight line towards the target, dealing &lt;&lt;1&gt;&gt; weapon damage to all enemies directly in front of you up to 30 meters away. Affected enemies are slowed by 50% for &lt;&lt;2&gt;&gt; seconds. Requires two lightsabers." />
+        <Description Value="Throws both lightsabers in a straight line towards the target, dealing &lt;&lt;1&gt;&gt; weapon damage to up to 8 enemies directly in front of you up to 30 meters away. Affected enemies are slowed by 50% for &lt;&lt;2&gt;&gt; seconds. Requires two lightsabers." />
         <Icon Value="conaldualsaberthrowmarauder" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1233,7 +1233,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.berserk">
         <Label Value="Berserk" />
-        <Description Value="Requires and converts 30 stacks of Fury to go Berserk. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 rage every 0.5 seconds. Juyo Form: Increases the critical chance of your bleed attacks by 100% and causes bleed damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
+        <Description Value="Requires and converts 30 stacks of Fury to go Berserk. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 rage every second. Juyo Form: Increases the critical chance of your bleed attacks by 100% and causes bleed damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
         <Icon Value="berserk" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1345,7 +1345,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.crippling_slash">
         <Label Value="Crippling Slash" />
-        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage and slows the target's movement speed to 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Attacks with both weapons if dual wielding." />
+        <Description Value="Slashes the target for &lt;&lt;1&gt;&gt; weapon damage, slowing its movement speed by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and reducing the healing it receives by 20% for &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;. Requires two lightsabers." />
         <Icon Value="lowslash_old" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1373,7 +1373,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.predation">
         <Label Value="Predation" />
-        <Description Value="Requires and converts 30 stacks of Fury to issue Predation to you and your group, increasing movement speed by 50% and melee and ranged defense by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Requires and converts 30 stacks of Fury to issue Predation to you and your Operation group members within 40 meters, increasing movement speed by 50% and melee and ranged defense by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="rampage" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1419,7 +1419,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.bloodthirst">
         <Label Value="Bloodthirst" />
-        <Description Value="Requires and converts 30 stacks of Fury to issue Bloodthirst to you and your Operation group members within 40 meters, increasing all damage and healing done by 15%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Requires and converts 30 stacks of Fury to issue Bloodthirst to you and your Operation group members within 40 meters, increasing all damage and healing done by 10% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="bloodthirst" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1490,7 +1490,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.frenzied_sabers">
         <Label Value="Frenzied Sabers" />
-        <Description Value="When your Ataru Form deals damage, your damage reduction and melee and ranged defense are increased by &lt;&lt;1&gt;&gt;%. Stacks up to 3 times. Lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="When your Ataru Form deals damage, your damage reduction and melee and ranged defense are increased by 2%. Stacks up to 3 times. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="reflection" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1530,7 +1530,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.execute">
         <Label Value="Execute" />
-        <Description Value="Your Ataru Form hits have a &lt;&lt;1&gt;&gt;% chance to grant Execute, which makes your next Force Scream deal 10% more damage." />
+        <Description Value="Damage dealt by Ataru Form grants Execute, which makes your next Force Scream or Devastating Blast deal 5% more damage and sunder the target for &lt;&lt;1&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%." />
         <Icon Value="spinningstrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1570,7 +1570,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.slaughter">
         <Label Value="Slaughter" />
-        <Description Value="Ataru Form damage has a &lt;&lt;1&gt;&gt;% chance to trigger Slaughter, which finishes the cooldown on Vicious Throw and makes your next Vicious Throw free and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
+        <Description Value="Damage dealt by Ataru Form triggers Slaughter, which finishes the cooldown on Vicious Throw and makes your next Vicious Throw usable on a target at any health level without consuming any rage. This effect cannot occur more than once every 20 seconds." />
         <Icon Value="throwexecute" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1616,7 +1616,7 @@
       <Talent Name="tal.sith_warrior.skill.carnage.ataru_savvy">
         <Label Value="Ataru Savvy" />
         <Description Value="While Ataru Form is active, Sweeping Slash triggers an Ataru Form strike on each enemy target it damages." />
-        <Icon Value="abl_swjk_mase_ataru_savvy" />
+        <Icon Value="cc_aggressive" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.shriek">
@@ -1627,14 +1627,14 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.ataru_mastery">
         <Label Value="Ataru Mastery" />
-        <Description Value="Increases the damage dealt by your triggered Ataru Form attacks by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by your triggered Ataru Form attacks by 5%." />
         <Icon Value="vicioussaber" />
         <LevelAquired Value="20" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.efficient_strikes">
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Berserk reduces the rage consumed by Massacre and Sweeping Slash by 1." />
-        <Icon Value="abl_swjk_mase_efficent_strikes" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.blood_frenzy">
@@ -1645,7 +1645,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.dual_wield_mastery">
         <Label Value="Dual Wield Mastery" />
-        <Description Value="Increases the damage dealt with offhand lightsaber attacks by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt with offhand lightsaber attacks by 25%." />
         <Icon Value="dualmastery" />
         <LevelAquired Value="16" />
       </Talent>
@@ -1657,13 +1657,13 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.enraged_assault">
         <Label Value="Enraged Assault" />
-        <Description Value="Reduces the cooldown of Battering Assault by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Reduces the cooldown of Battering Assault by 3 seconds." />
         <Icon Value="batteringAssault" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.sever">
         <Label Value="Sever" />
-        <Description Value="Increases the critical strike damage bonus of Force Scream and Massacre by &lt;&lt;1&gt;&gt;%. In addition, the cooldown of Gore is reduced by &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Increases the critical strike damage bonus of Massacre, Gore, and Devastating Blast by 10%." />
         <Icon Value="sunderingassault" />
         <LevelAquired Value="48" />
       </Talent>
@@ -1843,21 +1843,21 @@
       <Talent Name="tal.sith_warrior.skill.utility.through_power">
         <Label Value="Through Power" />
         <Description Value="Endure Pain increases your movement speed by 50% and grants immunity to movement-impairing effects while active." />
-        <Icon Value="abl_sw_ju_through_power" />
+        <Icon Value="bravado" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.path_carver">
         <Label Value="Path Carver" />
         <Description Value="Sweeping Slash deals 25% more damage." />
-        <Icon Value="abl_sw_ju_path_carver" />
+        <Icon Value="perforatingshot" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.intercessor">
         <Label Value="Intercessor" />
         <Description Value="Reduces the cooldown of Intercede by 5 seconds and reduces the threat and damage taken by an additional 10% each for the friendly target of Intercede." />
-        <Icon Value="abl_swjk_jugu_intercessor" />
+        <Icon Value="swwarhardenednoble" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -1871,7 +1871,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.whiplash">
         <Label Value="Whiplash" />
         <Description Value="Saber Throw immobilizes the target for 3 seconds." />
-        <Icon Value="abl_swjk_jugu_whiplash" />
+        <Icon Value="turbulence" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -1892,7 +1892,7 @@
       <Talent Name="tal.sith_warrior.skill.utility.consuming_rage">
         <Label Value="Consuming Rage" />
         <Description Value="Enraged Defense removes all cleansable effects when activated." />
-        <Icon Value="abl_sw_ju_consuming_rage" />
+        <Icon Value="subterfuge" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="20" />
       </Talent>
@@ -1901,7 +1901,7 @@
       <Label Value="Rage" />
       <Ability Name="abl.sith_warrior.skill.rage.cascading_power">
         <Label Value="Cascading Power" />
-        <Description Value="Increases all damage dealt by &lt;&lt;1&gt;&gt;% for &lt;&lt;2&gt;&gt; seconds after using Smash." />
+        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="elementaloverload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1913,7 +1913,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.overpower">
         <Label Value="Overpower" />
-        <Description Value="While Shii-Cho Form is active, Assault, Sundering Assault, Vicious Slash, Force Scream and Vicious Throw have a &lt;&lt;1&gt;&gt;% chance to reduce the active cooldown of Smash and Obliterate by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and Enrage by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="While Shii-Cho Form is active, Assault, Sundering Assault, Vicious Slash, Sweeping Slash, Retaliation, Force Scream, Vicious Throw, and Furious Strike reduce the active cooldowns of Smash, Raging Burst, and Obliterate by 1 second and Enrage by 2 seconds." />
         <Icon Value="meleedpsunlock" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1925,7 +1925,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
         <Label Value="Battle Cry" />
-        <Description Value="While Shii-Cho Form is active, Force Charge and Obliterate have a &lt;&lt;1&gt;&gt;% chance to make the next Force Scream activated cost no rage." />
+        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream consume no rage." />
         <Icon Value="nightmare" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1956,7 +1956,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.dominate">
         <Label Value="Dominate" />
-        <Description Value="Force Charge and Obliterate have a &lt;&lt;1&gt;&gt;% chance to make your next Smash used within &lt;&lt;2&gt;&gt; seconds an automatic critical hit.  This bonus only applies to players if they are the primary target." />
+        <Description Value="Force Charge and Obliterate make your next Smash or Raging Burst used within &lt;&lt;1&gt;&gt; seconds an automatic critical hit." />
         <Icon Value="thunder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2002,7 +2002,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.force_crush">
         <Label Value="Force Crush" />
-        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3[%d/%d/%d]&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage." />
+        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2&gt;&gt; kinetic damage." />
         <Icon Value="forceCrush" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2054,7 +2054,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.obliterate">
         <Label Value="Obliterate" />
-        <Description Value="Jumps to a target, dealing &lt;&lt;1&gt;&gt; weapon damage and immobilizing it for 1 second. Strikes with both weapons if dual wielding." />
+        <Description Value="Jumps to a target, dealing &lt;&lt;1&gt;&gt; weapon damage and immobilizing it for &lt;&lt;2&gt;&gt; second. Can be used while immobilized. Strikes with both weapons if dual wielding." />
         <Icon Value="saberstorm" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2124,7 +2124,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.shockwave">
         <Label Value="Shockwave" />
-        <Description Value="While Shii-Cho Form is active, Enrage grants &lt;&lt;1[%d stacks/%d stack/%d stacks]&gt;&gt; of Shockwave, reducing the rage cost and increasing the damage dealt by your next Smash by &lt;&lt;2&gt;&gt;%. Stacks up to 3 times. Additionally, each hit of Force Crush grants 1 stack of Shockwave. Also reduces the cooldown of Enrage by &lt;&lt;3&gt;&gt; seconds and causes Enrage to generate &lt;&lt;4&gt;&gt; additional rage over &lt;&lt;4&gt;&gt; seconds.  The bonus damage only applies to players if they are the primary target." />
+        <Description Value="While Shii-Cho Form is active, damage dealt by Force Crush grants Shockwave, increasing the damage dealt by your next Smash or Raging Burst by 5% and reducing the rage consumed by your next Smash or Raging Burst by 34%. Shockwave stacks up to 3 times. Additionally, the cooldown of Enrage is reduced by 15 seconds, and Enrage instantly grants 3 stacks of Shockwave and generates 6 additional rage over &lt;&lt;1&gt;&gt; seconds when used while Shii-Cho Form is active." />
         <Icon Value="riflegrenade" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2136,7 +2136,7 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.rage.brutality">
         <Label Value="Brutality" />
-        <Description Value="Increases the critical strike chance of Vicious Slash and Vicious Throw by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike chance of Vicious Slash, Sweeping Slash, Retaliation, Vicious Throw, and Furious Strike by 10%." />
         <Icon Value="slash" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2149,12 +2149,12 @@
       <Talent Name="tal.sith_warrior.skill.rage.furious_power">
         <Label Value="Furious Power" />
         <Description Value="While Shii-Cho Form is active, Furious Strike enables Retaliation and beats down its target for 45 seconds. Beat Down targets take 5% more damage from melee attacks." />
-        <Icon Value="abl_sw_ju_furious_power" />
+        <Icon Value="bhoutlaw" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.dark_resonance">
         <Label Value="Dark Resonance" />
-        <Description Value="Increases the critical strike damage of all attacks by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of all attacks by 15%." />
         <Icon Value="doom_aura" />
         <LevelAquired Value="24" />
       </Talent>
@@ -2166,13 +2166,13 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.decimate">
         <Label Value="Decimate" />
-        <Description Value="Increases the damage dealt by Smash and Sweeping Slash by &lt;&lt;1&gt;&gt;% and reduces the cooldown of Smash and Obliterate by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the damage dealt by Smash by 40% and reduces the cooldowns of Smash and Raging Burst by 3 seconds each." />
         <Icon Value="thunderfist" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.rage.saber_strength">
         <Label Value="Saber Strength" />
-        <Description Value="Increases the damage dealt by Vicious Slash, Vicious Throw and Obliterate by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage you deal with saber attacks by 5%." />
         <Icon Value="sithwarrior" />
         <LevelAquired Value="20" />
       </Talent>
@@ -2215,7 +2215,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.revenge">
         <Label Value="Revenge" />
-        <Description Value="While in Soresu Form, parrying, deflecting, shielding or resisting an attack has a &lt;&lt;1&gt;&gt;% chance to grant Revenge, reducing the rage cost of your next Force Scream or Smash by 1. Lasts 10 seconds and stacks up to 3 times." />
+        <Description Value="While in Soresu Form, parrying, deflecting, shielding, or resisting an attack has a 50% chance to grant Revenge, reducing the rage consumed by your next Force Scream or Vicious Throw by 1. Lasts up to &lt;&lt;1&gt;&gt; seconds, and stacks up to 3 times." />
         <Icon Value="reflection" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2227,7 +2227,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.sonic_barrier">
         <Label Value="Sonic Barrier" />
-        <Description Value="Force Scream has a &lt;&lt;1&gt;&gt;% chance to grant Sonic Barrier, which absorbs a moderate amount of damage. Lasts &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="While in Soresu Form, activating Force Scream grants Sonic Barrier, which absorbs a moderate amount of damage. Lasts up to &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="drain_life" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2247,7 +2247,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.crushing_blow">
         <Label Value="Crushing Blow" />
-        <Description Value="Crushes the target beneath a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Retaliation, and increasing your damage reduction by 3% for &lt;&lt;2&gt;&gt; seconds. If the target is affected by your armor reduction, Crushing Blow damages up to 4 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
+        <Description Value="Crushes the target beneath a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Retaliation, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Aegis Assault, Crushing Blow damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
         <Icon Value="crushingblow" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2277,7 +2277,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.quake">
         <Label Value="Quake" />
-        <Description Value="Smash and Sweeping Slash have a &lt;&lt;1&gt;&gt;% chance to reduce the melee and ranged accuracy of affected targets by 5% for &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Targets damaged by your Smash and Sweeping Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="forcequake" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2324,7 +2324,7 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.immortal.dark_blood">
         <Label Value="Dark Blood" />
-        <Description Value="Increases the duration of Endure Pain by &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Increases elemental and internal damage reduction by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the duration of Endure Pain by 10 seconds. Increases elemental and internal damage reduction by 5%." />
         <Icon Value="blood_soaked_skull" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2337,13 +2337,13 @@
       <Talent Name="tal.sith_warrior.skill.immortal.heavy_handed">
         <Label Value="Heavy Handed" />
         <Description Value="Smash deals 65% more damage and consumes 2 less rage. Additionally, the critical chance of Sweeping Slash is increased by 20%." />
-        <Icon Value="abl_sw_ju_heavy_handed" />
+        <Icon Value="cc_attack" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.consuming_power">
         <Label Value="Consuming Power" />
         <Description Value="Increases the critical chance of Smash by 20%. Additionally, Aegis Assault increases shield absorption by 3%." />
-        <Icon Value="abl_sw_ju_consuming_power" />
+        <Icon Value="republic" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.force_grip">
@@ -2360,19 +2360,19 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.sweeping_fury">
         <Label Value="Sweeping Fury" />
-        <Description Value="Reduces the rate limit by which Endless Rage can generate rage by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally reduces the rage cost of Force Scream, Sweeping Slash and Crushing Blow by &lt;&lt;2&gt;&gt;." />
+        <Description Value="Reduces the rate limit by which Endless Rage can generate rage by 3 seconds, and reduces the rage consumed by Force Scream, Vicious Slash, Sweeping Slash, and Crushing Blow by 1. And while in Soresu Form, Vicious Slash and Sweeping Slash inflict their targets with Trauma, which reduces the healing received from all sources by 20% for 6 seconds." />
         <Icon Value="whirlingassault" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.pillar_of_strength">
         <Label Value="Pillar of Strength" />
-        <Description Value="Reduces the cooldown of Invincible by &lt;&lt;1&gt;&gt; seconds, increases the damage dealt by Backhand and Crushing Blow by &lt;&lt;2&gt;&gt;%, and reduces the cooldown of Retaliation by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Invincible by 30 seconds, increases the damage dealt by Backhand and Crushing Blow by 15%, and reduces the cooldown of Retaliation by 1.5 seconds." />
         <Icon Value="bravado" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.shield_specialization">
         <Label Value="Shield Specialization" />
-        <Description Value="Increases shield chance by &lt;&lt;1&gt;&gt;% and reduces the cooldown of Saber Ward by &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Increases shield chance by 4% and reduces the cooldown of Saber Ward by 30 seconds." />
         <Icon Value="shieldgeneratorproficiency" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2401,7 +2401,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.shien_form">
         <Label Value="Shien Form" />
-        <Description Value="Enters an aggressive lightsaber form, increasing all damage dealt by 6% and movement speed by 15%. All attacks that cost rage will refund 1 rage when used." />
+        <Description Value="Enters an aggressive lightsaber form, increasing all damage dealt by 6% and movement speed by 15%. All attacks that consume rage will refund 1 rage when used." />
         <Icon Value="shien" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2413,7 +2413,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.sundering_throw">
         <Label Value="Sundering Throw" />
-        <Description Value="Reduces the cooldown of Saber Throw by &lt;&lt;1&gt;&gt; seconds, and gives Saber Throw a &lt;&lt;2&gt;&gt;% chance to apply armor reduction to the target." />
+        <Description Value="Reduces the cooldown of Saber Throw by 5 seconds, and causes Saber Throw to sunder its target for &lt;&lt;1&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%." />
         <Icon Value="saberthrowsith" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2425,7 +2425,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.draining_scream">
         <Label Value="Draining Scream" />
-        <Description Value="Force Scream has a &lt;&lt;1&gt;&gt;% chance to cause the target to bleed for &lt;&lt;2[%d/%d/%d]&gt;&gt; damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Force Scream causes the target to bleed for &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="forcestream" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2446,7 +2446,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.savagery">
         <Label Value="Savagery" />
-        <Description Value="Impale, Vicious Throw and Shatter have a &lt;&lt;1&gt;&gt;% chance to increase the critical chance of your next Force Scream by &lt;&lt;2&gt;&gt;%. Lasts &lt;&lt;3&gt;&gt; seconds. Stacks up to 2 times." />
+        <Description Value="Shatter, Impale, and Vicious Throw increase the critical chance of your next Force Scream by 50%. Lasts &lt;&lt;1&gt;&gt; seconds. Stacks up to 2 times." />
         <Icon Value="empoweredscream" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2458,7 +2458,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.destroyer">
         <Label Value="Destroyer" />
-        <Description Value="Increases the damage dealt by your bleeding effects by &lt;&lt;1&gt;&gt;%. In addition, your Ravage and bleeding damage has a &lt;&lt;2&gt;&gt;% chance to trigger Destroyer, which finishes the cooldown on Vicious Throw and makes your next Vicious Throw free and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
+        <Description Value="Increases the damage dealt by your bleeding effects by 10%. In addition, your Ravage and bleed damage has a 30% chance to trigger Destroyer, which finishes the cooldown on Vicious Throw and makes your next Vicious Throw consume no rage and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
         <Icon Value="throwexecute" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2538,7 +2538,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.rampage">
         <Label Value="Rampage" />
-        <Description Value="Impale and Shatter have a &lt;&lt;1&gt;&gt;% chance to produce a stack of Rampage. At 2 stacks, Rampage finishes the cooldown on Ravage and generates 3 rage." />
+        <Description Value="Shatter finishes the active cooldown on Ravage and generates 3 rage." />
         <Icon Value="bladerush" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2550,7 +2550,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.unstoppable">
         <Label Value="Unstoppable" />
-        <Description Value="While in Shien Form, Force Charge has a &lt;&lt;1&gt;&gt;% chance to grant Unstoppable, reducing all damage taken by 20% and granting immunity to interrupts and all controlling effects for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="While in Shien Form, Force Charge grants Unstoppable, increasing damage reduction by 20% and granting immunity to interrupts and all controlling effects for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="siupstartslave" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2563,30 +2563,30 @@
       <Talent Name="tal.sith_warrior.skill.vengeance.bloodbath">
         <Label Value="Bloodbath" />
         <Description Value="Smash and Vengeful Slam spread your bleed effects to all targets they damage, if at least one of the targets is already affected by your bleeds. In addition, Sweeping Slash deals 25% more damage to bleeding targets." />
-        <Icon Value="abl_sw_ju_bloodbath" />
+        <Icon Value="republic" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.ruin">
         <Label Value="Ruin" />
-        <Description Value="Smash no longer costs rage." />
+        <Description Value="Reduces the cooldowns of Smash and Vengeful Slam by 6 seconds each, and both abilities no longer consume rage." />
         <Icon Value="massivesmash" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.vengeance">
         <Label Value="Vengeance" />
-        <Description Value="Reduces the cooldown of Impale by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and Force Scream by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Impale by 6 seconds and Force Scream by 3 seconds." />
         <Icon Value="swsithpureblood" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.gushing_veins">
         <Label Value="Gushing Veins" />
         <Description Value="Increases the critical chance of Shatter, Vengeful Slam, and bleeding effects by 10%." />
-        <Icon Value="abl_sw_ju_gushing_veins" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.deafening_defense">
         <Label Value="Deafening Defense" />
-        <Description Value="Reduces all damage taken by &lt;&lt;1&gt;&gt;% at all times and by an additional &lt;&lt;2&gt;&gt;% while Endure Pain is active. Additionally reduces the cooldown of Intimidating Roar by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases damage reduction by 5% at all times and by an additional 15% while Endure Pain is active. In addition, the cooldown of Intimidating Roar is reduced by 15 seconds." />
         <Icon Value="berserk" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2668,7 +2668,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.retaliation">
         <Label Value="Retaliation" />
-        <Description Value="Retaliates against the target for &lt;&lt;1&gt;&gt; weapon damage. Retaliation can only be used after a successful melee or ranged defense and it does not respect the global cooldown. Attacks with both weapons if dual wielding. Cannot miss, be parried or dodged." />
+        <Description Value="Retaliates against the target for &lt;&lt;1&gt;&gt; weapon damage. Cannot be parried, dodged, or miss. While in Soresu Form, Retaliation can only be used after successfully defending against a melee or ranged attack. While not in Soresu Form, Retaliation can only be used after one of your melee attacks is parried, dodged, or misses." />
         <Icon Value="vicious_slash" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2766,8 +2766,8 @@
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.riposte_passive">
-        <Label Value="riposte_passive" />
-        <Description Value="This invisible passive ability sets a tag for 8 seconds after the Warrior parries/deflects/dodges an attack." />
+        <Label Value="Riposte (Passive)" />
+        <Description Value="This invisible passive ability sets a tag for 8 seconds after the Warrior parries/deflects/dodges or is missed by an attack while in Soresu Form, or has an attack miss, get parried/dodged while not in Soresu Form." />
         <Icon Value="vicious_slash" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2778,8 +2778,8 @@
         <CombatLogID Value="999864091541504" />
       </Ability>
       <Ability Name="abl.sith_warrior.force_push">
-        <Label Value="Disruption" />
-        <Description Value="Smashes into the target, disrupting its current action and preventing that ability from being used for the next 4 seconds." />
+        <Label Value="Force Push" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage, knocks the target back several meters, and knocks the target down for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Force Push immediately finishes the cooldown of Force Charge." />
         <Icon Value="forcethrow" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2848,7 +2848,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.sundering_assault">
         <Label Value="Sundering Assault" />
-        <Description Value="Strikes the target for &lt;&lt;1&gt;&gt; damage, and reduces the target's armor by 20% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Builds 5 rage." />
+        <Description Value="Generate 5 rage and strike the target for &lt;&lt;1&gt;&gt; weapon damage, sundering the target if your discipline is Vengeance or Rage. Sundered targets have their armor reduced by 20% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="sunderingAssault" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2894,7 +2894,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.saber_throw">
         <Label Value="Saber Throw" />
-        <Description Value="Throws the main-hand lightsaber at a distant target, inflicting &lt;&lt;1&gt;&gt; damage and building 3 rage. " />
+        <Description Value="Throws the main hand lightsaber at a distant target, inflicting &lt;&lt;1&gt;&gt; weapon damage and building 3 rage." />
         <Icon Value="saberThrowSith" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2916,7 +2916,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.taunt">
         <Label Value="Taunt" />
-        <Description Value="Taunts the target, forcing it to attack the Warrior for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Player targets deal 30% less damage when attacking anyone other than you. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. This effect cannot be resisted." />
+        <Description Value="Taunts the target, forcing it to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Player targets deal 30% less damage when attacking anyone other than you for &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="taunt" />
         <Damage Value="False" />
         <Healing Value="False" />

@@ -40,14 +40,6 @@
       <Cooldown Value="120" />
       <TargetArc Value="360" />
       <CombatLogID Value="812182610640896" />
-      <Coeffcients>
-        <Type Value="effAction_Heal">
-          <HealingPowerCoefficient Value="0" />
-          <StandardHealthPercentMax Value="0" />
-          <StandardHealthPercentMin Value="0" />
-          <AmmountPercent Value="0.1" />
-        </Type>
-      </Coeffcients>
     </Ability>
     <Ability Name="abl.jedi_knight.blade_storm">
       <Label Value="Blade Storm" />
@@ -131,7 +123,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.sweep">
       <Label Value="Force Sweep" />
-      <Description Value="Strikes the target and up to 4 enemies within 5 meters with the Force, dealing &lt;&lt;1&gt;&gt; kinetic damage. Also stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Description Value="Strikes the target and up to 8 enemies within 5 meters with the Force, dealing &lt;&lt;1&gt;&gt; kinetic damage. Also stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
       <Icon Value="cycloneattack" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -471,7 +463,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.force_stasis">
       <Label Value="Force Stasis" />
-      <Description Value="Subdues the target, stunning it while the ability is channeled and dealing &lt;&lt;1&gt;&gt; kinetic damage every second. Builds 1 focus per second." />
+      <Description Value="Subdues the target, stunning it while the ability is channeled and dealing &lt;&lt;1&gt;&gt; kinetic damage and building 4 focus over the duration of the channel." />
       <Icon Value="carbonized" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -552,7 +544,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
-        <LevelAquired Value="48" />
+        <LevelAquired Value="50" />
         <OnGCD Value="False" />
         <Cooldown Value="180" />
         <CombatLogID Value="812186905608192" />
@@ -583,7 +575,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.juyo_form">
         <Label Value="Juyo Form" />
-        <Description Value="Enters an offensive lightsaber form, causing your melee attacks to increase all damage dealt by 2% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 5 times. This effect cannot occur more than once every second." />
+        <Description Value="Enters an offensive lightsaber form, causing your melee attacks to increase all damage dealt by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 5 times. This effect cannot occur more than once every second." />
         <Icon Value="juyo" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -595,7 +587,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.leg_slash">
         <Label Value="Leg Slash" />
-        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage and slows the target's movement speed to 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Attacks with both weapons if dual wielding." />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage, slowing the target's movement speed to 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and reducing the healing it receives by 20% for &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;. Requires two lightsabers." />
         <Icon Value="legslash" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -637,7 +629,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.inspiration">
         <Label Value="Inspiration" />
-        <Description Value="Requires and converts 30 stacks of Centering to inspire you and your Operation group members within 40 meters, increasing all damage and healing done by 15%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Requires and converts 30 stacks of Centering to inspire you and your Operation group members within 40 meters, increasing all damage and healing done by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="twilekvisionary" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -661,7 +653,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.transcendence">
         <Label Value="Transcendence" />
-        <Description Value="Requires and converts 30 stacks of Centering to issue Transcendence to you and your group, increasing movement speed by 50% and melee and ranged defense by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Requires and converts 30 stacks of Centering to issue Transcendence to you and your group members within 40 meters, increasing movement speed by 50% and melee and ranged defense by 10%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="promulgator" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -743,7 +735,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.zen">
         <Label Value="Zen" />
-        <Description Value="Requires and converts 30 stacks of Centering to enter a Zen state. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 focus every 0.5 seconds. Juyo Form: Increases the critical chance of your burn attacks by 100% and causes burn damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
+        <Description Value="Requires and converts 30 stacks of Centering to enter a Zen state. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 focus every second. Juyo Form: Increases the critical chance of your burn attacks by 100% and causes burn damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
         <Icon Value="jkmiralukansurvivor" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -882,7 +874,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.plasma_blades">
         <Label Value="Plasma Blades" />
-        <Description Value="Increases the damage dealt by your burn effects by &lt;&lt;1&gt;&gt;%. In addition, your burn effects have a &lt;&lt;2&gt;&gt;% chance to build 1 focus when dealing damage. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="Your burn effects have a 20% chance to build 1 focus when dealing damage. This effect cannot occur more than once every 4 seconds." />
         <Icon Value="blazingsabers" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -906,7 +898,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.burning_focus">
         <Label Value="Burning Focus" />
-        <Description Value="Your direct damage attacks that critically hit a burning target have a &lt;&lt;1&gt;&gt;% chance to build 1 focus." />
+        <Description Value="Your direct damage attacks that critically hit a burning target build 1 focus. This effect cannot occur more than once 4 seconds. In addition, Merciless Slash makes its target assailable for &lt;&lt;1&gt;&gt; seconds. Assailable targets take 7% more elemental and internal damage." />
         <Icon Value="cc_aggressive" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -918,7 +910,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.searing_saber">
         <Label Value="Searing Saber" />
-        <Description Value="Increases the critical strike damage of your burn effects by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of your burn effects by 15%." />
         <Icon Value="explosivefuel" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -970,7 +962,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.focused_leap">
         <Label Value="Focused Leap" />
-        <Description Value="Force Leap has a &lt;&lt;1&gt;&gt;% chance to generate 1 additional focus." />
+        <Description Value="Force Leap generates 1 additional focus." />
         <Icon Value="forceleap" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -988,19 +980,19 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.mind_sear">
         <Label Value="Mind Sear" />
-        <Description Value="Reduces the cooldown of Cauterize by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the duration of Cauterize's burn effect by 3 seconds." />
         <Icon Value="mentaltorment" />
         <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.close_quarters">
         <Label Value="Close Quarters" />
-        <Description Value="Reduces the minimum range of Force Leap by &lt;&lt;1[%d/%d/%d]&gt;&gt; meters." />
+        <Description Value="Reduces the minimum range of Force Leap by 10 meters and its cooldown by 2 seconds." />
         <Icon Value="sithescape" />
         <LevelAquired Value="20" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.repelling_blows">
         <Label Value="Repelling Blows" />
-        <Description Value="Increases the direct damage dealt by Cauterize by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the direct damage dealt by Cauterize by 5%." />
         <Icon Value="vicioussaber" />
         <LevelAquired Value="16" />
       </Talent>
@@ -1013,7 +1005,7 @@
       <Talent Name="tal.jedi_knight.skill.watchman.accelerating_victory">
         <Label Value="Accelerating Victory" />
         <Description Value="Juyo Form and Merciless build two stacks at a time." />
-        <Icon Value="abl_jk_se_accelerating_victory" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
     </DisciplineTree>
@@ -1022,7 +1014,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.concentrated_slice">
         <Label Value="Concentrated Slice" />
         <Description Value="Slices the target for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
-        <Icon Value="abl_jk_gu_focused_strike" />
+        <Icon Value="republic" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -1126,7 +1118,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
         <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
-        <Icon Value="abl_jk_gu_concentrated_burst" />
+        <Icon Value="republic" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -1147,7 +1139,7 @@
       <Ability Name="abl.jedi_knight.skill.concentration.concentrated_defense">
         <Label Value="Concentrated Defense" />
         <Description Value="While Shii-Cho Form is active, Concentrated Slice grants Concentrated Defense, increasing your defense chance by 10% for &lt;&lt;1&gt;&gt; seconds." />
-        <Icon Value="abl_jk_se_focused_power" />
+        <Icon Value="bhoutlaw" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
@@ -1189,7 +1181,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.momentum">
         <Label Value="Momentum" />
-        <Description Value="While Shii-Cho Form is active, Force Leap and Zealous Leap have a &lt;&lt;1&gt;&gt;% chance to make the next Blade Storm activate without a focus cost." />
+        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm consume no focus." />
         <Icon Value="cc_follow" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1201,7 +1193,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.felling_blow">
         <Label Value="Felling Blow" />
-        <Description Value="Force Leap and Zealous Leap have a &lt;&lt;1&gt;&gt;% chance to make your next Force Sweep used within &lt;&lt;2&gt;&gt; seconds an automatic critical hit. The bonus only applies to players if they are the primary target." />
+        <Description Value="Force Leap and Zealous Leap make your next Force Sweep or Focused Burst used within &lt;&lt;1&gt;&gt; seconds an automatic critical hit." />
         <Icon Value="jumping_strike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1225,7 +1217,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
         <Label Value="Heightened Power" />
-        <Description Value="Increases all damage dealt by &lt;&lt;1&gt;&gt;% for &lt;&lt;2&gt;&gt; seconds after using Force Sweep." />
+        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Blast. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="energyrebounder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1237,7 +1229,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.force_exhaustion">
         <Label Value="Force Exhaustion" />
-        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3[%d/%d/%d]&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage." />
+        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2&gt;&gt; kinetic damage." />
         <Icon Value="forceexhaustion" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1274,7 +1266,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.focused_resonance">
         <Label Value="Focused Resonance" />
-        <Description Value="Increases the critical strike damage of all attacks by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of all attacks by 15%." />
         <Icon Value="jcforceprodigy" />
         <LevelAquired Value="24" />
       </Talent>
@@ -1286,13 +1278,13 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.swelling_winds">
         <Label Value="Swelling Winds" />
-        <Description Value="Increases the damage dealt by Force Sweep and Cyclone Slash by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and reduces the cooldown of Force Sweep and Zealous Leap by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the damage dealt by Force Sweep by 40% and reduces the cooldowns of Force Sweep and Focused Burst by 3 seconds each." />
         <Icon Value="cycloneattack" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.saber_strength">
         <Label Value="Saber Strength" />
-        <Description Value="Increases the damage dealt by Slash, Dispatch and Zealous Leap by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage you deal with saber attacks by 5%." />
         <Icon Value="forceleap_old" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1356,7 +1348,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.force_aegis">
         <Label Value="Force Aegis" />
         <Description Value="Increases the duration of Guarded by the Force by 2 seconds." />
-        <Icon Value="abl_jk_se_force_aegis" />
+        <Icon Value="republic" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="17" />
       </Talent>
@@ -1433,7 +1425,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.just_pursuit">
         <Label Value="Just Pursuit" />
         <Description Value="Leg Slash consumes 2 less focus. In addition, using Leg Slash against a target already slowed by your Leg Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
-        <Icon Value="abl_jk_se_just_persuit" />
+        <Icon Value="republic" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -1461,7 +1453,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.expunging_camouflage">
         <Label Value="Expunging Camouflage" />
         <Description Value="Force Camouflage removes all cleansable effects when activated." />
-        <Icon Value="abl_swjk_mase_expunging_camo" />
+        <Icon Value="gatherstrength" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
       </Talent>
@@ -1477,7 +1469,7 @@
       <Label Value="Combat" />
       <Ability Name="abl.jedi_knight.skill.combat.saber_screen">
         <Label Value="Saber Screen" />
-        <Description Value="When your Ataru Form deals damage, your damage reduction and melee and ranged defense are increased by &lt;&lt;1&gt;&gt;%. Stacks up to 3 times. Lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="When your Ataru Form deals damage, your damage reduction and melee and ranged defense are increased by 2%. Stacks up to 3 times. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="reflection" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1501,7 +1493,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.hand_of_justice">
         <Label Value="Hand of Justice" />
-        <Description Value="Ataru Form damage has a &lt;&lt;1&gt;&gt;% chance to trigger Hand of Justice, which finishes the cooldown on Dispatch and makes your next Dispatch free and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
+        <Description Value="Damage dealt by Ataru Form triggers Hand of Justice, which finishes the cooldown on Dispatch and makes your next Dispatch usable on a target at any health level without consuming any focus. This effect cannot occur more than once every 20 seconds." />
         <Icon Value="forcestrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1628,31 +1620,31 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.combat.ataru_mastery">
         <Label Value="Ataru Mastery" />
-        <Description Value="Increases the damage dealt by your triggered Ataru Form attacks by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by your triggered Ataru Form attacks by 5%." />
         <Icon Value="duelwield" />
         <LevelAquired Value="20" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.ataru_savvy">
         <Label Value="Ataru Savvy" />
         <Description Value="While Ataru Form is active, Cyclone Slash triggers an Ataru Form strike on each enemy target it damages." />
-        <Icon Value="abl_swjk_mase_ataru_savvy" />
+        <Icon Value="cc_aggressive" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.efficient_strikes">
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Zen reduces the focus consumed by Blade Rush and Cyclone Slash by 1." />
-        <Icon Value="abl_swjk_mase_efficent_strikes" />
+        <Icon Value="republic" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.saber_storm">
         <Label Value="Saber Storm" />
-        <Description Value="Increases the critical strike damage bonus of Blade Storm and Blade Rush by &lt;&lt;1&gt;&gt;%. In addition, the cooldown of Precision Slash is reduced by &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Increases the critical strike damage bonus of Blade Rush, Precision Slash, and Clashing Blast by 10%." />
         <Icon Value="saberstorm" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.righteous_zeal">
         <Label Value="Righteous Zeal" />
-        <Description Value="Reduces the cooldown of Zealous Strike by &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Reduces the cooldown of Zealous Strike by 3 seconds." />
         <Icon Value="momentousblow" />
         <LevelAquired Value="24" />
       </Talent>
@@ -1664,7 +1656,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.dual_wield_mastery">
         <Label Value="Dual Wield Mastery" />
-        <Description Value="Increases the damage dealt with offhand lightsaber attacks by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt with offhand lightsaber attacks by 25%." />
         <Icon Value="dualmastery" />
         <LevelAquired Value="16" />
       </Talent>
@@ -1709,7 +1701,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.guardian_slash">
         <Label Value="Guardian Slash" />
-        <Description Value="Strikes the target with a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Riposte, and increasing your damage reduction by 3% for &lt;&lt;2&gt;&gt; seconds. If the target is affected by your armor reduction, Guardian Slash damages up to 4 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
+        <Description Value="Strikes the target with a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Riposte, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Warding Strike, Guardian Slash damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
         <Icon Value="flourish" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1739,7 +1731,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.courage">
         <Label Value="Courage" />
-        <Description Value="While in Soresu Form, parrying, deflecting, shielding or resisting an attack has a &lt;&lt;1&gt;&gt;% chance to grant courage, reducing the focus cost of your next Blade Storm or Force Sweep by 1. Lasts 10 seconds and stacks up to 3 times." />
+        <Description Value="While in Soresu Form, parrying, deflecting, shielding or resisting an attack has a 50% chance to grant Courage, reducing the focus cost of your next Blade Storm or Dispatch by 1. Lasts up to &lt;&lt;1&gt;&gt; seconds and stacks up to 3 times." />
         <Icon Value="zabraktracker" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1789,16 +1781,16 @@
         <CombatLogID Value="3453231015395328" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.84" />
-            <StandardHealthPercentMax Value="0.204" />
-            <StandardHealthPercentMin Value="0.164" />
+            <Coefficient Value="1.2" />
+            <StandardHealthPercentMax Value="0.16" />
+            <StandardHealthPercentMin Value="0.08" />
             <ThreatModifier Value="0.5" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.blade_barrier">
         <Label Value="Blade Barrier" />
-        <Description Value="Blade Storm has a &lt;&lt;1&gt;&gt;% chance to grant Blade Barrier, which absorbs a moderate amount of damage. Lasts &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="While in Soresu Form, activating Blade Storm grants Blade Barrier, which absorbs a moderate amount of damage. Lasts up to &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="absorbtionfield" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1818,7 +1810,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.dust_storm">
         <Label Value="Dust Storm" />
-        <Description Value="Force Sweep and Cyclone Slash have a &lt;&lt;1&gt;&gt;% chance to reduce the melee and ranged accuracy of affected targets by 5% for &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Targets damaged by your Force Sweep and Cyclone Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="coveredescape" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1836,7 +1828,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.shield_specialization">
         <Label Value="Shield Specialization" />
-        <Description Value="Increases shield chance by &lt;&lt;1&gt;&gt;% and reduces the cooldown of Saber Ward by &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Increases shield chance by 4% and reduces the cooldown of Saber Ward by 30 seconds." />
         <Icon Value="shieldgeneratorproficiency" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1860,7 +1852,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.cyclonic_sweeps">
         <Label Value="Cyclonic Sweeps" />
-        <Description Value="Reduces the rate limit by which Visionary can generate focus by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally reduces the focus cost of Blade Storm, Cyclone Slash and Guardian Slash by &lt;&lt;2&gt;&gt;." />
+        <Description Value="Reduces the rate limit by which Visionary can generate focus by 3 seconds, and reduces the focus consumed by Blade Storm, Slash, Cyclone Slash, and Guardian Slash by 1. And while in Soresu Form, Slash and Cyclone Slash inflict their targets with Trauma, which reduces the healing received from all sources by 20% for 6 seconds." />
         <Icon Value="spinningslash" />
         <LevelAquired Value="32" />
       </Talent>
@@ -1872,13 +1864,13 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.beacon_of_might">
         <Label Value="Beacon of Might" />
-        <Description Value="Reduces the cooldown of Warding Call by &lt;&lt;1&gt;&gt; seconds, increases the damage dealt by Hilt Strike and Guardian Slash by &lt;&lt;2&gt;&gt;%, and reduces the cooldown of Riposte by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Warding Call by 30 seconds, increases the damage dealt by Hilt Strike and Guardian Slash by 15%, and reduces the cooldown of Riposte by 1.5 seconds." />
         <Icon Value="unleashedpalm" />
         <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.inner_peace">
         <Label Value="Inner Peace" />
-        <Description Value="Increases the duration of Enure by &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Increases elemental and internal damage reduction by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the duration of Enure by 10 seconds. Increases elemental and internal damage reduction by 5%." />
         <Icon Value="jkforcesensitiveorphan" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1887,7 +1879,7 @@
       <Label Value="Vigilance" />
       <Ability Name="abl.jedi_knight.skill.vigilance.burning_blade">
         <Label Value="Burning Blade" />
-        <Description Value="Blade Storm has a &lt;&lt;1&gt;&gt;% chance to cause the target to burn for &lt;&lt;2[%d/%d/%d]&gt;&gt; damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Blade Storm causes the target to burn for &lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="agonizingsaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1908,7 +1900,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.keening">
         <Label Value="Keening" />
-        <Description Value="Increases the damage dealt by your burning effects by &lt;&lt;1&gt;&gt;%. In addition, your Master Strike and burning damage has a &lt;&lt;2&gt;&gt;% chance to trigger Keening, which finishes the cooldown on Dispatch and makes your next Dispatch free and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
+        <Description Value="Increases the damage dealt by your burning effects by 10%. In addition, your Master Strike and burning damage has a 30% chance to trigger Keening, which finishes the cooldown on Dispatch and makes your next Dispatch free and usable on a target with any health level. This effect cannot occur more than once every 20 seconds." />
         <Icon Value="forcestrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1940,7 +1932,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.sundering_throw">
         <Label Value="Sundering Throw" />
-        <Description Value="Reduces the cooldown of Saber Throw by &lt;&lt;1&gt;&gt; seconds, and gives Saber Throw a &lt;&lt;2&gt;&gt;% chance to apply armor reduction to the target." />
+        <Description Value="Reduces the cooldown of Saber Throw by 5 seconds, and causes Saber Throw to sunder its target for &lt;&lt;1&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%." />
         <Icon Value="saberthrow" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1952,7 +1944,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.zen_strike">
         <Label Value="Zen Strike" />
-        <Description Value="Overhead Slash and Plasma Brand have a &lt;&lt;1&gt;&gt;% chance to produce a stack of Zen Strike. At 2 stacks, Zen Strike finishes the cooldown on Master Strike and generates 3 focus." />
+        <Description Value="Plasma Brand finishes the active cooldown on Master Strike and generates 3 Focus." />
         <Icon Value="masterstrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1965,7 +1957,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.force_rush">
         <Label Value="Force Rush" />
-        <Description Value="Overhead Slash, Dispatch and Plasma Brand have a &lt;&lt;1&gt;&gt;% chance to increase the critical chance of your next Blade Storm by &lt;&lt;2&gt;&gt;%. Lasts &lt;&lt;3&gt;&gt; seconds. Stacks up to 2 times." />
+        <Description Value="Plasma Brand, Overhead Slash, and Dispatch increase the critical chance of your next Blade Storm by 50%. Lasts &lt;&lt;1&gt;&gt; seconds. Stacks up to 2 times." />
         <Icon Value="disturbance" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2031,7 +2023,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.unremitting">
         <Label Value="Unremitting" />
-        <Description Value="While in Shien Form, Force Leap has a &lt;&lt;1&gt;&gt;% chance to grant Unremitting, reducing all damage taken by 20% and granting immunity to interrupts and all controlling effects for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="While in Shien Form, Force Leap grants Unremitting, reducing all damage taken by 20% and granting immunity to interrupts and all controlling effects for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="meleedpsunlock" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2069,7 +2061,7 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.vigilance.commanding_awe">
         <Label Value="Commanding Awe" />
-        <Description Value="Reduces all damage taken by &lt;&lt;1&gt;&gt;% at all times and by an additional &lt;&lt;2&gt;&gt;% while Enure is active. Additionally reduces the cooldown of Awe by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases damage reduction by 5% at all times and by an additional 15% while Enure is active. In addition, the cooldown of Awe is reduced by 15 seconds." />
         <Icon Value="salvation" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2081,7 +2073,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.vigilance.effluence">
         <Label Value="Effluence" />
-        <Description Value="Force Sweep no longer costs focus." />
+        <Description Value="Reduces the cooldowns of Force Sweep and Vigilant Thrust by 6 seconds each, and both abilities no longer consume focus." />
         <Icon Value="telekineticblast" />
         <LevelAquired Value="24" />
       </Talent>
@@ -2099,7 +2091,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.vigilance.vigilance">
         <Label Value="Vigilance" />
-        <Description Value="Reduces the cooldown of Overhead Slash by &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and Blade Storm by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Reduces the cooldown of Overhead Slash by 6 seconds and Blade Storm by 3 seconds." />
         <Icon Value="auraofcertainty" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2121,7 +2113,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.preparation">
         <Label Value="Preparation" />
-        <Description Value="When you exit combat, the active cooldowns of Force Leap, Combat Focus, and Saber Throw are reduced by 100%." />
+        <Description Value="When you exit combat, the active cooldowns of Force Leap, Combat Focus, and Saber Throw are reduced by &lt;&lt;1&gt;&gt;%." />
         <Icon Value="chargedupforce" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2263,7 +2255,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.whiplash">
         <Label Value="Whiplash" />
         <Description Value="Saber Throw immobilizes the target for 3 seconds." />
-        <Icon Value="abl_swjk_jugu_whiplash" />
+        <Icon Value="turbulence" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
       </Talent>
@@ -2305,7 +2297,7 @@
       <Talent Name="tal.jedi_knight.skill.utility.intercessor">
         <Label Value="Intercessor" />
         <Description Value="Reduces the cooldown of Guardian Leap by 5 seconds and reduces the threat and damage taken by an additional 10% each for the friendly target of Guardian Leap." />
-        <Icon Value="abl_swjk_jugu_intercessor" />
+        <Icon Value="forceleap_old" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
@@ -2397,7 +2389,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.freezing_storm">
         <Label Value="Freezing Force" />
-        <Description Value="Freezes nearby foes, reducing their movement speed by 50% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. " />
+        <Description Value="Freezes up to 8 enemies within 8 meters, dealing &lt;&lt;1&gt;&gt; elemental damage and reducing movement speed by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. " />
         <Icon Value="shockwave" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2459,7 +2451,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.challenging_call">
         <Label Value="Challenging Call" />
-        <Description Value="Taunts all enemies within 15 meters, forcing them to attack the Knight for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;, if in Soresu Form. If not in Soresu Form, threat will be immediately reduced by a moderate amount. Also, causes affected player targets to deal 30% less damage when attacking anyone other than you. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. This effect cannot be resisted." />
+        <Description Value="Taunts all enemies within 15 meters, forcing them to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;, if in Soresu Form. If not in Soresu Form, threat will be immediately reduced by a moderate amount. Also, causes affected player targets to deal 30% less damage for &lt;&lt;2&gt;&gt; seconds when attacking anyone other than you." />
         <Icon Value="auraOfResistance" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2508,7 +2500,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.riposte_passive">
         <Label Value="Riposte Passive" />
-        <Description Value="This invisible passive ability sets a tag for 8 seconds after the Knight parries/deflects/dodges an attack." />
+        <Description Value="This invisible passive ability sets a tag for 8 seconds after the Knight parries/deflects/dodges an attack or is missed by an attack while in Soresu Form, or has an attack miss, get parried/dodged while not in Soresu Form." />
         <Icon Value="vengefulstrike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2585,7 +2577,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.soresu_form">
         <Label Value="Soresu Form" />
-        <Description Value="Enters a defensive lightsaber form, reducing all damage taken by 6%, increasing armor rating by 60% and threat generation by 100%. Soresu Form also increases shield chance by 15%. While active, all Strike abilities generate 1 less focus." />
+        <Description Value="Enters a defensive lightsaber form, increasing armor rating by 60%, damage reduction by 6%, shield chance by 15%, threat generation by 100%, and accuracy by 10%. While active, all damage dealt is reduced by 10%, and all Strike abilities generate 1 less focus." />
         <Icon Value="soresu" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2621,7 +2613,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.riposte">
         <Label Value="Riposte" />
-        <Description Value="Ripostes a parried or deflected attack, striking back at the target for &lt;&lt;1&gt;&gt; weapon damage. Riposte can only be used after a successful melee or ranged defense and does not respect the global cooldown. Attacks with both weapons if dual wielding. Cannot miss, be parried or dodged." />
+        <Description Value="Ripostes the target for &lt;&lt;1&gt;&gt; weapon damage. Cannot be parried, dodged, or miss. While in Soresu Form, Riposte can only be used after successfully defending against a melee or ranged attack. While not in Soresu Form, Riposte can only be used after one of your melee attacks is parried, dodged, or misses." />
         <Icon Value="riposte" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2643,7 +2635,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.sundering_strike">
         <Label Value="Sundering Strike" />
-        <Description Value="Strikes the target for &lt;&lt;1&gt;&gt; damage, and reduces the target's armor by 20% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Builds 5 focus." />
+        <Description Value="Generate 5 Focus and strike the target for &lt;&lt;1&gt;&gt; weapon damage, sundering the target if your discipline is Vigilance or Focus. Sundered targets have their armor reduced by 20% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="penetrateDefenses" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2675,7 +2667,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.concentrated_slice">
         <Label Value="Concentrated Slice" />
         <Description Value="Slices the target for &lt;&lt;1&gt;&gt; weapon damage. Attacks with both weapons if dual wielding." />
-        <Icon Value="abl_jk_gu_focused_strike" />
+        <Icon Value="republic" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2779,7 +2771,7 @@
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
         <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
-        <Icon Value="abl_jk_gu_concentrated_burst" />
+        <Icon Value="republic" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -2818,7 +2810,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.singularity">
         <Label Value="Singularity" />
-        <Description Value="While Shii-Cho Form is active, Combat Focus grants &lt;&lt;1[%d stacks/%d stack/%d stacks]&gt;&gt; of Singularity, reducing the focus cost and increasing the damage dealt by your next Force Sweep by &lt;&lt;2&gt;&gt;%. Stacks up to 3 times. Additionally, each hit of Force Exhaustion grants 1 stack of Singularity. Also reduces the cooldown of Combat Focus by &lt;&lt;3&gt;&gt; seconds and causes Combat Focus to generate &lt;&lt;4&gt;&gt; additional focus over &lt;&lt;4&gt;&gt; seconds. The bonus damage only applies to players if they are the primary target." />
+        <Description Value="While Shii-Cho Form is active, damage dealt by Force Exhaustion grants Singularity, increasing the damage dealt by your next Force Sweep or Focused Burst by 5% and reducing the Focus consumed by your next Force Sweep or Focused Burst by 34%. Singularity stacks up to 3 times. Additionally, the cooldown of Combat Focus is reduced by 15 seconds, and Combat Focus instantly grants 3 stacks of Singularity and generates 6 additional focus over &lt;&lt;1&gt;&gt; seconds when used while Shii-Cho Form is active." />
         <Icon Value="riflegrenade" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2830,7 +2822,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.momentum">
         <Label Value="Momentum" />
-        <Description Value="While Shii-Cho Form is active, Force Leap and Zealous Leap have a &lt;&lt;1&gt;&gt;% chance to make the next Blade Storm activate without a focus cost." />
+        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm consume no focus." />
         <Icon Value="cc_follow" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2842,7 +2834,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.zephyrean_slash">
         <Label Value="Zephyrean Slash" />
-        <Description Value="While Shii-Cho Form is active, all Strike abilities, Slash, Blade Storm and Dispatch have a &lt;&lt;1&gt;&gt;% chance to reduce the active cooldown of Force Sweep and Zealous Leap by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and Combat Focus by &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="While Shii-Cho Form is active, Strike, Sundering Strike, Slash, Cyclone Smash, Riposte, Blade Storm, Dispatch, and Concentrated Strike reduce the active cooldowns of Force Sweep, Focused Burst, and Zealous Leap by 1 second and Combat Focus by 2 seconds." />
         <Icon Value="twinarcs" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2854,7 +2846,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.felling_blow">
         <Label Value="Felling Blow" />
-        <Description Value="Force Leap and Zealous Leap have a &lt;&lt;1&gt;&gt;% chance to make your next Force Sweep used within &lt;&lt;2&gt;&gt; seconds an automatic critical hit. The bonus only applies to players if they are the primary target." />
+        <Description Value="Force Leap and Zealous Leap make your next Force Sweep or Focused Burst used within &lt;&lt;1&gt;&gt; seconds an automatic critical hit." />
         <Icon Value="jumping_strike" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2866,7 +2858,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
         <Label Value="Heightened Power" />
-        <Description Value="Increases all damage dealt by &lt;&lt;1&gt;&gt;% for &lt;&lt;2&gt;&gt; seconds after using Force Sweep." />
+        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Blast. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="energyrebounder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2878,7 +2870,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.force_exhaustion">
         <Label Value="Force Exhaustion" />
-        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3[%d/%d/%d]&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2[%d/%d/%d]&gt;&gt; kinetic damage." />
+        <Description Value="Progressively slows the target from 50% to 5% movement speed over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; and deals &lt;&lt;3&gt;&gt; kinetic damage each second. At the end of the duration, the target is crushed and takes an additional &lt;&lt;2&gt;&gt; kinetic damage." />
         <Icon Value="forceexhaustion" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2921,7 +2913,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.focused_resonance">
         <Label Value="Focused Resonance" />
-        <Description Value="Increases the critical strike damage of all attacks by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike damage of all attacks by 15%." />
         <Icon Value="jcforceprodigy" />
         <LevelAquired Value="24" />
       </Talent>
@@ -2933,19 +2925,19 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.swift_slash">
         <Label Value="Swift Slash" />
-        <Description Value="Increases the critical strike chance of Slash and Dispatch by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the critical strike chance of Slash, Cyclone Smash, Riposte, Dispatch, and Concentrated Slice by 10%." />
         <Icon Value="jediknight" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.swelling_winds">
         <Label Value="Swelling Winds" />
-        <Description Value="Increases the damage dealt by Force Sweep and Cyclone Slash by &lt;&lt;1[%d/%d/%d]&gt;&gt;% and reduces the cooldown of Force Sweep and Zealous Leap by &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Increases the damage dealt by Force Sweep by 40% and reduces the cooldowns of Force Sweep and Focused Burst by 3 seconds each." />
         <Icon Value="cycloneattack" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.saber_strength">
         <Label Value="Saber Strength" />
-        <Description Value="Increases the damage dealt by Slash, Dispatch and Zealous Leap by &lt;&lt;1&gt;&gt;%." />
+        <Description Value="Increases the damage you deal with saber attacks by 5%." />
         <Icon Value="forceleap_old" />
         <LevelAquired Value="20" />
       </Talent>
