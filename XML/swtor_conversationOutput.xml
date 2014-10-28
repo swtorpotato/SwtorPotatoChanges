@@ -23601,6 +23601,24 @@
       </Node>
     </Node>
   </Conversation>
+  <Conversation Name="cnv.exp.02.yavin_4.ambient.sith_ghosts" ID="16141159992351197872">
+    <Node ID="1">
+      <Speaker Value="Sith Spirit" />
+      <Dialog Value="[Eerie whispers]" />
+    </Node>
+    <Node ID="2">
+      <Speaker Value="Sith Spirit" />
+      <Dialog Value="[Eerie whispers]" />
+    </Node>
+    <Node ID="3">
+      <Speaker Value="Sith Spirit" />
+      <Dialog Value="[Eerie whispers]" />
+    </Node>
+    <Node ID="4">
+      <Speaker Value="Sith Spirit" />
+      <Dialog Value="[Eerie whispers]" />
+    </Node>
+  </Conversation>
   <Conversation Name="cnv.exp.02.yavin_4.the_enemy_within.shared.revan" ID="16140948910272810094">
     <Node ID="1">
       <Node ID="113">
@@ -25315,7 +25333,7 @@
                     <Node ID="168">
                       <Node ID="169">
                         <Node ID="19">
-                          <Speaker Value="Vette No Shock Collar" />
+                          <Speaker Value="Vette" />
                           <Dialog Value="Hey. You okay? You look like me after we went out for shaclaw on Voss and you had to hold my lekku." />
                           <LinksTo Node="21" />
                         </Node>
@@ -25329,7 +25347,7 @@
                   </Node>
                   <Node ID="20">
                     <Node ID="17">
-                      <Speaker Value="Vette No Shock Collar" />
+                      <Speaker Value="Vette" />
                       <Dialog Value="Whoa. You look like Jaesa did that time she tried exoboar soup." />
                       <Node ID="21">
                         <Speaker Value="Player" />
@@ -25339,7 +25357,7 @@
                             <Speaker Value="Player" />
                             <Dialog Value="Every star went dim, both in that galaxy and our own. The end of everything." />
                             <Node ID="24">
-                              <Speaker Value="Vette No Shock Collar" />
+                              <Speaker Value="Vette" />
                               <Dialog Value="See? Probably just something you ate. Maybe? I hope?" />
                               <Node ID="25">
                                 <Node ID="26">
@@ -25373,7 +25391,7 @@
                                           <Dialog Value="There is such a galaxy off the Outer Rim, known as the Rishi Maze." />
                                           <Node ID="41">
                                             <Node ID="42">
-                                              <Speaker Value="Vette No Shock Collar" />
+                                              <Speaker Value="Vette" />
                                               <Dialog Value="Rishi? I've heard of Rishi. It's a planet. Some kind of pirate resort? Sounds like a real dive. I've kinda always wanted to go." />
                                               <Node ID="43">
                                                 <Node ID="44">
@@ -26233,7 +26251,12 @@
                                                                     <Speaker Value="Player" />
                                                                     <Dialog Value="Let's find out who. Prep your gear--I'm setting course for Rishi." />
                                                                     <Node ID="63">
-                                                                      <Node ID="64" />
+                                                                      <Node ID="64">
+                                                                        <LinksTo Node="187" />
+                                                                        <Node ID="241">
+                                                                          <Node ID="242" />
+                                                                        </Node>
+                                                                      </Node>
                                                                     </Node>
                                                                   </Node>
                                                                 </Node>
