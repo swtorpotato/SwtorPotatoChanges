@@ -232,7 +232,7 @@
       <Range Value="10" />
       <TargetArc Value="270" />
       <CombatLogID Value="946838425305088" />
-      <ForceCost Value="15" />
+      <ForceCost Value="10" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="1.07" />
@@ -1283,7 +1283,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
-        <LevelAquired Value="30" />
+        <LevelAquired Value="20" />
         <OnGCD Value="False" />
         <Cooldown Value="45" />
         <TargetArc Value="360" />
@@ -1376,7 +1376,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
-        <LevelAquired Value="14" />
+        <LevelAquired Value="16" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <Range Value="30" />
@@ -1438,7 +1438,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
-        <LevelAquired Value="16" />
+        <LevelAquired Value="14" />
         <OnGCD Value="False" />
         <Cooldown Value="15" />
         <Range Value="30" />
@@ -1656,17 +1656,17 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="15" />
+        <Cooldown Value="12" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="3" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="812990064492544" />
-        <ForceCost Value="90" />
+        <ForceCost Value="60" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.44" />
-            <StandardHealthPercentMax Value="0.022" />
-            <StandardHealthPercentMin Value="0.022" />
+            <HealingPowerCoefficient Value="0.2" />
+            <StandardHealthPercentMax Value="0.01" />
+            <StandardHealthPercentMin Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1684,12 +1684,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="3" />
         <CombatLogID Value="812951409786880" />
-        <ForceCost Value="40" />
+        <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="3.89" />
-            <StandardHealthPercentMax Value="0.214" />
-            <StandardHealthPercentMin Value="0.174" />
+            <HealingPowerCoefficient Value="2.64" />
+            <StandardHealthPercentMax Value="0.152" />
+            <StandardHealthPercentMin Value="0.112" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1718,11 +1718,12 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3347287057104896" />
+        <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.22" />
-            <StandardHealthPercentMax Value="0.131" />
-            <StandardHealthPercentMin Value="0.091" />
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1740,7 +1741,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.renewal">
         <Label Value="Renewal" />
-        <Description Value="Refreshing your Rejuvenate on a target will heal them for an additional &lt;&lt;1&gt;&gt; health after &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="&lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after refreshing your Rejuvenate on a target, the target will be healed for &lt;&lt;1&gt;&gt; health plus any healing that remained from the previous Rejuvenate." />
         <Icon Value="supriseadvantage" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1751,9 +1752,9 @@
         <CombatLogID Value="3428311615143936" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.088" />
-            <StandardHealthPercentMin Value="0.048" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1770,9 +1771,9 @@
         <CombatLogID Value="953182092001280" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.5" />
-            <StandardHealthPercentMax Value="0.035" />
-            <StandardHealthPercentMin Value="0.015" />
+            <HealingPowerCoefficient Value="0.68" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1792,9 +1793,9 @@
         <CombatLogID Value="812964294688768" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.175" />
-            <StandardHealthPercentMax Value="0.05875" />
-            <StandardHealthPercentMin Value="0.05875" />
+            <HealingPowerCoefficient Value="0.92" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1883,9 +1884,9 @@
         <UtilityPos Value="1" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.92" />
-            <StandardHealthPercentMax Value="0.046" />
-            <StandardHealthPercentMin Value="0.046" />
+            <HealingPowerCoefficient Value="0.61" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2135,12 +2136,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="812710891618304" />
-        <ForceCost Value="70" />
+        <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.13" />
-            <StandardHealthPercentMax Value="0.126" />
-            <StandardHealthPercentMin Value="0.086" />
+            <HealingPowerCoefficient Value="1.75" />
+            <StandardHealthPercentMax Value="0.108" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2234,22 +2235,22 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="812809675866112" />
-        <ForceCost Value="45" />
+        <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.062" />
-            <StandardHealthPercentMin Value="0.022" />
+            <HealingPowerCoefficient Value="0.8" />
+            <StandardHealthPercentMax Value="0.06" />
+            <StandardHealthPercentMin Value="0.02" />
           </Type>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.34" />
-            <StandardHealthPercentMax Value="0.017" />
-            <StandardHealthPercentMin Value="0.017" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.088" />
-            <StandardHealthPercentMin Value="0.048" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2390,13 +2391,7 @@
             <HealingPowerCoefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountPercent Value="0.01" />
-          </Type>
-          <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0" />
-            <StandardHealthPercentMax Value="0" />
-            <StandardHealthPercentMin Value="0" />
-            <AmmountPercent Value="0.005" />
+            <AmmountPercent Value="0.02" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2565,7 +2560,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.rippling_force">
         <Label Value="Rippling Force" />
-        <Description Value="Damage dealt by Telekinetic Throw has a 20% chance and damage dealt by Disturbance has a 60% chance to apply Rippling Force to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Damage dealt by Telekinetic Throw has a 20% chance and damage dealt by Force Serenity has a 60% chance to apply Rippling Force to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="crushed" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2613,7 +2608,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.balance.mental_scarring">
         <Label Value="Mental Scarring" />
-        <Description Value="Increases the critical damage bonus of Force in Balance, Force Serenity, and your periodic damage abilities by 30%." />
+        <Description Value="Increases the damage dealt by periodic effects by 15% on targets below 30% of max health. In addition, Force Serenity restore 15 force when used on a target affected by your Force Suppression." />
         <Icon Value="soothe" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2625,7 +2620,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.balance.telekinetic_balance">
         <Label Value="Telekinetic Balance" />
-        <Description Value="Telekinetic Throw no longer has a cooldown and deals 10% more damage." />
+        <Description Value="Telekinetic Throw no longer has a cooldown." />
         <Icon Value="cc_stay" />
         <LevelAquired Value="12" />
       </Talent>

@@ -721,22 +721,22 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3412162538110976" />
-        <ForceCost Value="45" />
+        <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.84" />
-            <StandardHealthPercentMax Value="0.062" />
-            <StandardHealthPercentMin Value="0.022" />
+            <HealingPowerCoefficient Value="0.8" />
+            <StandardHealthPercentMax Value="0.06" />
+            <StandardHealthPercentMin Value="0.02" />
           </Type>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.34" />
-            <StandardHealthPercentMax Value="0.017" />
-            <StandardHealthPercentMin Value="0.017" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.088" />
-            <StandardHealthPercentMin Value="0.048" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1031,12 +1031,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="808218355826688" />
-        <ForceCost Value="70" />
+        <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.13" />
-            <StandardHealthPercentMax Value="0.126" />
-            <StandardHealthPercentMin Value="0.086" />
+            <HealingPowerCoefficient Value="1.75" />
+            <StandardHealthPercentMax Value="0.108" />
+            <StandardHealthPercentMin Value="0.068" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1228,7 +1228,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.lightning_burns">
         <Label Value="Lightning Burns" />
-        <Description Value="Damage dealt by Force Lightning has a 20% chance and damage dealt by Lightning Strike has a 60% chance to apply Lightning Burns to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Damage dealt by Force Lightning has a 20% chance and damage dealt by Force Leech has a 60% chance to apply Lightning Burns to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="crushed" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1289,7 +1289,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.madness">
         <Label Value="Madness" />
-        <Description Value="Force Lightning no longer has a cooldown and deals 10% more damage." />
+        <Description Value="Force Lightning no longer has a cooldown." />
         <Icon Value="instantdeathdevice" />
         <LevelAquired Value="12" />
       </Talent>
@@ -1301,7 +1301,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.creeping_death">
         <Label Value="Creeping Death" />
-        <Description Value="Increases the critical damage bonus of Death Field and your periodic damage abilities by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the damage dealt by periodic effects by 15% on targets below 30% of max health. In addition, Force Leech restore 15 force when used on a target affected by your Deathmark." />
         <Icon Value="forcecrush" />
         <LevelAquired Value="48" />
       </Talent>
@@ -1336,9 +1336,9 @@
         <UtilityPos Value="1" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.92" />
-            <StandardHealthPercentMax Value="0.046" />
-            <StandardHealthPercentMin Value="0.046" />
+            <HealingPowerCoefficient Value="0.61" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1520,17 +1520,17 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="15" />
+        <Cooldown Value="12" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="3" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="808703687131136" />
-        <ForceCost Value="90" />
+        <ForceCost Value="60" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.44" />
-            <StandardHealthPercentMax Value="0.022" />
-            <StandardHealthPercentMin Value="0.022" />
+            <HealingPowerCoefficient Value="0.2" />
+            <StandardHealthPercentMax Value="0.01" />
+            <StandardHealthPercentMin Value="0.01" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1548,12 +1548,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="3" />
         <CombatLogID Value="3411032961712128" />
-        <ForceCost Value="40" />
+        <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="3.89" />
-            <StandardHealthPercentMax Value="0.214" />
-            <StandardHealthPercentMin Value="0.174" />
+            <HealingPowerCoefficient Value="2.64" />
+            <StandardHealthPercentMax Value="0.152" />
+            <StandardHealthPercentMin Value="0.112" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1594,9 +1594,9 @@
         <CombatLogID Value="987632024682496" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.5" />
-            <StandardHealthPercentMax Value="0.035" />
-            <StandardHealthPercentMin Value="0.015" />
+            <HealingPowerCoefficient Value="0.68" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1628,9 +1628,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.22" />
-            <StandardHealthPercentMax Value="0.131" />
-            <StandardHealthPercentMin Value="0.091" />
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1650,15 +1650,15 @@
         <CombatLogID Value="1104395005591552" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.175" />
-            <StandardHealthPercentMax Value="0.05875" />
-            <StandardHealthPercentMin Value="0.05875" />
+            <HealingPowerCoefficient Value="0.92" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.renewal">
         <Label Value="Renewal" />
-        <Description Value="Refreshing your Resurgence on a target will heal them for an additional &lt;&lt;1&gt;&gt; health after &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="&lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after refreshing your Resurgence on a target, the target will be healed for &lt;&lt;1&gt;&gt; health plus any healing that remained from the previous Resurgence." />
         <Icon Value="abl_sijc_sosa_renewal" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1669,9 +1669,9 @@
         <CombatLogID Value="3415246324629504" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.088" />
-            <StandardHealthPercentMin Value="0.048" />
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>

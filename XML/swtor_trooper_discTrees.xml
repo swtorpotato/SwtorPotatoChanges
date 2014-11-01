@@ -537,7 +537,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.blazing_celerity">
         <Label Value="Blazing Celerity" />
-        <Description Value="Damage dealt by Plasma Cell has a 50% chance to make your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 12 seconds." />
+        <Description Value="Damage dealt by Plasma Cell makes your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 15 seconds." />
         <Icon Value="abl_tr_co_blazing_celerity" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -631,7 +631,7 @@
         <Label Value="Relentless Assault" />
         <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic effects by 30% on targets below 30% max health." />
         <Icon Value="immolate" />
-        <LevelAquired Value="56" />
+        <LevelAquired Value="36" />
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.superheated_plasma">
         <Label Value="Superheated Plasma" />
@@ -641,7 +641,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
         <Label Value="Hyper Barrels" />
-        <Description Value="Reduces the cooldown of Full Auto by 3 seconds." />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -651,17 +651,17 @@
         <Icon Value="abl_tr_co_explosive_dessemination" />
         <LevelAquired Value="16" />
       </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.flaming_wound">
+        <Label Value="Flaming Wound" />
+        <Description Value="Your elemental attacks deal 5% more damage to bleeding targets." />
+        <Icon Value="decoyarsenal" />
+        <LevelAquired Value="56" />
+      </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.assault_trooper_commando">
         <Label Value="Assault Trooper" />
         <Description Value="Increases the critical damage bonus for Full Auto, Charged Bolts, Incendiary Round, Assault Plastique, Serrated Bolt, and Mag Bolt by 30%.  Additionaly, Serrated Bolt marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
         <Icon Value="tzabrakguerillafighter" />
         <LevelAquired Value="44" />
-      </Talent>
-      <Talent Name="tal.trooper.skill.assault_specialist.blaze_of_glory">
-        <Label Value="Blaze of Glory" />
-        <Description Value="Assault Plastique, Charged Bolts, High Impact Bolt, Full Auto, Hail of Bolts, Sticky Grenade, Explosive Round, Serrated Bolt, and Mag Bolt deal 5% additional damage to burning targets." />
-        <Icon Value="decoyarsenal" />
-        <LevelAquired Value="36" />
       </Talent>
     </DisciplineTree>
     <DisciplineTree Name="combat_medic">
@@ -746,9 +746,9 @@
         <CombatLogID Value="2275984774529024" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.5" />
-            <StandardHealthPercentMax Value="0.035" />
-            <StandardHealthPercentMin Value="0.015" />
+            <HealingPowerCoefficient Value="0.67" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -809,14 +809,14 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="2.5" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3393462250504192" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.44" />
-            <StandardHealthPercentMax Value="0.142" />
-            <StandardHealthPercentMin Value="0.102" />
+            <HealingPowerCoefficient Value="1.873" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.074" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1241,14 +1241,14 @@
       </Ability>
       <Ability Name="abl.trooper.plasma_grenade">
         <Label Value="Plasma Grenade" />
-        <Description Value="Lobs a plasma grenade that detonates on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 3 targets within 5 meters and igniting the targets in fiery plasma, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Standard and weak targets enter a state of panic from the flames." />
+        <Description Value="Lobs a plasma grenade that detonates on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 8 targets within 8 meters and igniting the targets in fiery plasma, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Standard and weak targets enter a state of panic from the flames." />
         <Icon Value="fraggrenade" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="True" />
-        <Cooldown Value="15" />
+        <Cooldown Value="20" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -1256,14 +1256,14 @@
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.4" />
-            <StandardHealthPercentMax Value="0.16" />
-            <StandardHealthPercentMin Value="0.1" />
+            <Coefficient Value="0.565" />
+            <StandardHealthPercentMax Value="0.077" />
+            <StandardHealthPercentMin Value="0.037" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.1" />
-            <StandardHealthPercentMax Value="0.01" />
-            <StandardHealthPercentMin Value="0.01" />
+            <Coefficient Value="0.11" />
+            <StandardHealthPercentMax Value="0.011" />
+            <StandardHealthPercentMin Value="0.011" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1338,17 +1338,17 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="12" />
+        <Cooldown Value="13" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="1.5" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="997175442014208" />
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.18" />
-            <StandardHealthPercentMax Value="0.129" />
-            <StandardHealthPercentMin Value="0.089" />
+            <HealingPowerCoefficient Value="2.898" />
+            <StandardHealthPercentMax Value="0.165" />
+            <StandardHealthPercentMin Value="0.125" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1476,6 +1476,18 @@
         <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="801256213839872" />
+      </Ability>
+      <Ability Name="abl.trooper.target_lock">
+        <Label Value="" />
+        <Description Value="" />
+        <Icon Value="lockandload" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="25" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="-1" />
       </Ability>
       <Ability Name="abl.trooper.electro_net">
         <Label Value="Electro Net" />
@@ -1769,7 +1781,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.static_shield">
         <Label Value="Static Shield" />
-        <Description Value="Increases the critical chance of Stockstrike and Explosive Surge by &lt;&lt;1[%d/%d/%d]&gt;&gt;%. In addition, shielding or defending an attack has a &lt;&lt;2&gt;&gt;% chance to finish the cooldown on Stockstrike. This effect cannot occur more than once every 7.5 seconds." />
+        <Description Value="Increases the critical chance of Stockstrike and Explosive Surge by 10%. In addition, shielding or defending an attack has a 50% chance to finish the cooldown on Stockstrike. This effect cannot occur more than once every 7.5 seconds." />
         <Icon Value="portablecover" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2445,7 +2457,7 @@
       </Ability>
       <Talent Name="tal.trooper.skill.blaster_augs">
         <Label Value="Blaster Augs" />
-        <Description Value="Increases the effect of your cells while they are active: Plasma Cell: Increases the damage and critical hit chance of elemental attacks by 3%. Ion Cell: Increases the damage dealt by Ion Cell by 10%. High Energy Cell: Further increases all energy and kinetic damage dealt by 2%." />
+        <Description Value="Increases the effect of your cells while they are active: Plasma Cell: Increases the critical hit chance of elemental attacks by 3%. Ion Cell: Increases the damage dealt by Ion Cell by 10%. High Energy Cell: Further increases all energy and kinetic damage dealt by 2%." />
         <Icon Value="armament2" />
         <LevelAquired Value="38" />
       </Talent>
@@ -2592,7 +2604,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.pulse_generator">
         <Label Value="Pulse Generator" />
-        <Description Value="While Plasma Cell is active, Ion Pulse, Explosive Surge, and Fire Pulse grant Pulse Generator, increasing the damage your next Pulse Cannon deals by 20%, causing it to slow affected targets by 30%, and making it immune to interrupts. This effect can stack up to 3 times." />
+        <Description Value="While Plasma Cell is active, Ion Pulse, Explosive Surge, and Fire Pulse grant Pulse Generator, increasing the damage your next Pulse Cannon deals by 15%, causing it to slow affected targets by 30%, and making it immune to interrupts. This effect can stack up to 3 times." />
         <Icon Value="demolition" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2616,7 +2628,7 @@
       </Ability>
       <Talent Name="tal.trooper.skill.plasmatech.plasmatic_assault">
         <Label Value="Plasmatic Assault" />
-        <Description Value="Increases the critical bonus damage of Pulse Cannon, Shockstrike, Incendiary Round, Fire Pulse, and Plasmatize by 30%." />
+        <Description Value="Increases the critical bonus damage of Pulse Cannon, Shockstrike, and Fire Pulse by 30%." />
         <Icon Value="elementaloverload" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2658,7 +2670,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.plasmatech.burnout">
         <Label Value="Burnout" />
-        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by elemental attacks by 10% on targets below 30% max health." />
+        <Description Value="Increases the damage dealt by elemental attacks by 10% on targets below 30% max health." />
         <Icon Value="immolate" />
         <LevelAquired Value="59" />
       </Talent>

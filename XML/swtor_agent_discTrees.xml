@@ -148,19 +148,20 @@
       <Passive Value="False" />
       <LevelAquired Value="32" />
       <OnGCD Value="False" />
-      <Cooldown Value="20" />
+      <Cooldown Value="30" />
       <CombatLogID Value="784716294782976" />
       <Coeffcients>
         <Type Value="effAction_AbsorbDamage">
-          <HealingPowerCoefficient Value="3.06" />
-          <StandardHealthPercentMax Value="0.153" />
-          <StandardHealthPercentMin Value="0.153" />
+          <HealingPowerCoefficient Value="3.28" />
+          <StandardHealthPercentMax Value="0.164" />
+          <StandardHealthPercentMin Value="0.164" />
           <AmmountPercent Value="1" />
         </Type>
         <Type Value="effAction_Heal">
-          <HealingPowerCoefficient Value="0.84" />
-          <StandardHealthPercentMax Value="0.042" />
-          <StandardHealthPercentMin Value="0.042" />
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.05" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -1023,17 +1024,17 @@
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
       </Ability>
-      <Ability Name="abl.agent.skill.utility.hit_and_run">
-        <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
-        <Icon Value="shiv" />
+      <Ability Name="abl.agent.skill.utility.reestablish_range">
+        <Label Value="Reestablish Range" />
+        <Description Value="Striking a target with Shiv grants Reestablish Range, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
+        <Icon Value="forcecharge" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
-        <CombatLogID Value="3395605439184896" />
+        <CombatLogID Value="3512699132575744" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
       </Ability>
@@ -1252,7 +1253,7 @@
       </Ability>
       <Ability Name="abl.agent.diversion">
         <Label Value="Diversion" />
-        <Description Value="Reduces the accuracy by 45% and exposes from cover of up to 8 enemies within 8 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds.  Cannot be used on Operation bosses." />
+        <Description Value="Reduces the accuracy by 45% and exposes from cover up to 8 enemies within 8 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds.  Cannot be used on Operation bosses." />
         <Icon Value="smokegrenade" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1683,7 +1684,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.shadow_operative_elite">
         <Label Value="Shadow Operative Elite" />
-        <Description Value="Increases your effective stealth level by 2 and reduces all area effect damage taken by 30%. In addition, when you activate Exfiltrate, you dodge all incoming attacks for 1.5 seconds." />
+        <Description Value="Increases your effective stealth level by 2. In addition, when you activate Exfiltrate, you dodge or resist all incoming attacks for 1.5 seconds." />
         <Icon Value="fadeaway" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1853,11 +1854,12 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="815240627355648" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.091" />
-            <StandardHealthPercentMax Value="0.075" />
-            <StandardHealthPercentMin Value="0.035" />
+            <HealingPowerCoefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.11" />
+            <StandardHealthPercentMin Value="0.07" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1899,12 +1901,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
         <CombatLogID Value="3401961990782976" />
-        <EnergyCost Value="25" />
+        <EnergyCost Value="24" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="3.724" />
-            <StandardHealthPercentMax Value="0.206" />
-            <StandardHealthPercentMin Value="0.166" />
+            <HealingPowerCoefficient Value="3" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1921,15 +1923,15 @@
         <CombatLogID Value="2280447245549568" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.1" />
-            <StandardHealthPercentMax Value="0.08" />
-            <StandardHealthPercentMin Value="0.02" />
+            <HealingPowerCoefficient Value="0.67" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.agent.skill.medic.patient_studies">
         <Label Value="Patient Studies" />
-        <Description Value="Increases the speed at which Kolto Waves Diagnostic Scan channels by 30%. Diagnostic Scan criticals restore 2 energy." />
+        <Description Value="Increases the speed at which Diagnostic Scan channels by 30%. In addition, critical Diagnostic Scan heals restore 2 energy." />
         <Icon Value="imperialdatapad" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1941,7 +1943,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.kolto_waves">
         <Label Value="Kolto Waves" />
-        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;1&gt;&gt; health over the channel duration. Depletes 32 energy over the duration of the channel." />
+        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;1&gt;&gt; health over the channel duration. Depletes 28 energy over the duration of the channel." />
         <Icon Value="abl_ag_op_kolto_waves" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1955,15 +1957,15 @@
         <CombatLogID Value="3402082249867264" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.78" />
-            <StandardHealthPercentMax Value="0.039" />
-            <StandardHealthPercentMin Value="0.039" />
+            <HealingPowerCoefficient Value="0.62" />
+            <StandardHealthPercentMax Value="0.031" />
+            <StandardHealthPercentMin Value="0.031" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.agent.skill.medic.surgical_precision">
         <Label Value="Surgical Precision" />
-        <Description Value="Increases the healing dealt by Surgical Probe by 20% and increases the max stack limit of Tactical Advantage by 1. In addition, Surgical Probe immediately re-grants Tactical Advantage once every 10 seconds." />
+        <Description Value="Increases the healing dealt by Surgical Probe by 5% and increases the max stack limit of Tactical Advantage by 1. In addition, Surgical Probe immediately re-grants Tactical Advantage once every 10 seconds." />
         <Icon Value="surveyorskit" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1975,7 +1977,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.medic.recuperative_nano_tech">
         <Label Value="Recuperative Nanotech" />
-        <Description Value="Heals up to 4 allies within 10 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Heals the target and up to 3 allies within 10 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="recuperativenanotech" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1984,19 +1986,20 @@
         <OnGCD Value="True" />
         <Cooldown Value="15" />
         <Range Value="30" />
+        <TargetArc Value="360" />
         <CombatLogID Value="815232037421056" />
-        <EnergyCost Value="30" />
+        <EnergyCost Value="25" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.532" />
-            <StandardHealthPercentMax Value="0.027" />
-            <StandardHealthPercentMin Value="0.027" />
+            <HealingPowerCoefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.016" />
+            <StandardHealthPercentMin Value="0.016" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.agent.skill.medic.prognosis_critical">
         <Label Value="Prognosis: Critical" />
-        <Description Value="Increases the critical chance of Diagnostic Scan and Kolto Waves by 25%." />
+        <Description Value="Increases the critical chance of Diagnostic Scan by 25% and Kolto Waves by 10%." />
         <Icon Value="emergencystimpak" />
         <LevelAquired Value="20" />
       </Talent>
@@ -2020,25 +2023,25 @@
       </Talent>
       <Talent Name="tal.agent.skill.medic.durable_meds">
         <Label Value="Durable Meds" />
-        <Description Value="Increases the healing dealt by Kolto Probe and Recuperative Nanotech by 10%. Additionally increases the duration of Recuperative Nanotech by 3 seconds and reduces the energy cost of Kolto Probe by 5." />
+        <Description Value="Increases the healing dealt by Recuperative Nanotech by 5%. Additionally, increases the duration of Recuperative Nanotech by 3 seconds and reduces the energy cost of Kolto Probe by 5." />
         <Icon Value="powerednanotech" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.accomplished_doctor">
         <Label Value="Accomplished Doctor" />
-        <Description Value="Increases the critical healing bonus of Kolto Injection, Recuperative Nanotech, Surgical Probe, and Kolto Waves by 30%." />
+        <Description Value="Increases the critical healing bonus of Kolto Injection, Kolto Infusion, and Surgical Probe by 20%." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.medical_therapy">
         <Label Value="Medical Therapy" />
-        <Description Value="Increases the healing dealt by periodic effects by 10%. In addition, the energy cost of Recuperative Nanotech is reduced by 5, and targets affected by Recuperative Nanotech are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
+        <Description Value="Increases the healing dealt by periodic effects by 3%. In addition, the energy cost of Recuperative Nanotech is reduced by 5, and targets affected by Recuperative Nanotech are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
         <Icon Value="medicalcrate" />
         <LevelAquired Value="40" />
       </Talent>
       <Talent Name="tal.agent.skill.medic.medical_consult">
         <Label Value="Medical Consult" />
-        <Description Value="Increases the critical chance of Kolto Probe by 5%. Additionally, Kolto Infusion makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
+        <Description Value="Increases the critical chance of Kolto Probe by 3%. Additionally, Kolto Infusion makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
         <Icon Value="diagnosticscan" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2597,7 +2600,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.agent.skill.utility.infiltrator">
         <Label Value="Infiltrator" />
-        <Description Value="Increases movement speed by 15% and effective stealth level by 2." />
+        <Description Value="Increases movement speed by 15% and effective stealth level by 3." />
         <Icon Value="stealth" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2607,11 +2610,11 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3403499589074944" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="3" />
+        <UtilityPos Value="6" />
       </Ability>
       <Ability Name="abl.agent.skill.utility.med_shield">
         <Label Value="Med Shield" />
-        <Description Value="Your Shield Probe heals you for &lt;&lt;1&gt;&gt; when it collapses." />
+        <Description Value="Your Shield Probe heals you for 5% of your maximum health when it collapses." />
         <Icon Value="medshield" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -2621,7 +2624,7 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3402112314638336" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="9" />
+        <UtilityPos Value="10" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.84" />
@@ -2646,7 +2649,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.utility.endorphin_rush">
         <Label Value="Endorphin Rush" />
-        <Description Value="Adrenaline Probe now immediately restores 16 additional energy." />
+        <Description Value="Adrenaline Probe now immediately restores 15 additional energy." />
         <Icon Value="antitoxinprobe" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2656,7 +2659,7 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3402125199540224" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="11" />
+        <UtilityPos Value="14" />
       </Ability>
       <Ability Name="abl.agent.skill.utility.advanced_cloaking">
         <Label Value="Advanced Cloaking" />
@@ -2670,11 +2673,11 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3403551128682496" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="13" />
+        <UtilityPos Value="11" />
       </Ability>
       <Ability Name="abl.agent.skill.utility.revitalizers">
         <Label Value="Revitalizers" />
-        <Description Value="Stim Boost now additionally grants Revitalizers, restoring 4% of total health every 3 seconds and reduces damage received by 20% for the duration" />
+        <Description Value="Stim Boost now additionally grants Revitalizers, restoring 5% of total health every 3 seconds and reducing damage received by 20% for the duration." />
         <Icon Value="reanimation" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2684,13 +2687,13 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3403538243780608" />
         <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="21" />
+        <UtilityPos Value="19" />
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountPercent Value="0.04" />
+            <AmmountPercent Value="0.05" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2706,7 +2709,7 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3395588259315712" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="8" />
+        <UtilityPos Value="13" />
       </Ability>
       <Ability Name="abl.agent.skill.utility.pin_down">
         <Label Value="Pin Down" />
@@ -2720,11 +2723,11 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3403542538747904" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="10" />
+        <UtilityPos Value="8" />
       </Ability>
       <Ability Name="abl.agent.skill.utility.hit_and_run">
         <Label Value="Hit and Run" />
-        <Description Value="Striking a target with Shiv grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Series of Shots and Penetrating Blasts knocks back the target if they are within 10 meters." />
+        <Description Value="Striking a target with Shiv or Veiled Strike grants Hit and Run, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="shiv" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2734,14 +2737,14 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3395605439184896" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="2" />
+        <UtilityPos Value="5" />
       </Ability>
       <Talent Name="tal.agent.skill.utility.chem_resistant_inlays">
         <Label Value="Chem-resistant Inlays" />
         <Description Value="Increases damage reduction by 5%." />
         <Icon Value="armorunderlay3" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="6" />
+        <UtilityPos Value="2" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.jarring_strike">
         <Label Value="Jarring Strike" />
@@ -2752,66 +2755,66 @@
       </Talent>
       <Talent Name="tal.agent.skill.utility.imperial_weaponry">
         <Label Value="Imperial Weaponry" />
-        <Description Value="Carbine Burst deals 15% more damage and costs 10 less energy." />
+        <Description Value="Carbine Burst deals 25% more damage." />
         <Icon Value="abl_ag_op_imp_weaponry" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="7" />
+        <UtilityPos Value="3" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.slip_away">
         <Label Value="Slip Away" />
         <Description Value="Reduces the cooldown of Debilitate by 15 seconds." />
         <Icon Value="hamstring" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="1" />
+        <UtilityPos Value="7" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.escape_plan">
         <Label Value="Escape Plan" />
-        <Description Value="Reduces the cooldown of Escape by 30 seconds, Shield Probe by 4 seconds, and Infiltrate by 60 seconds." />
+        <Description Value="Reduces the cooldown of Escape by 30 seconds, Shield Probe by 5 seconds, and Infiltrate by 60 seconds." />
         <Icon Value="schematics" />
         <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="15" />
+        <UtilityPos Value="21" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.nanotech_suit">
         <Label Value="Nanotech Suit" />
         <Description Value="Reduces all area of effect damage taken by 30%." />
         <Icon Value="abl_ag_op_nanotech_suit" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="4" />
+        <UtilityPos Value="1" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.sedatives">
         <Label Value="Sedatives" />
         <Description Value="When Sleep Dart wears off, the target is struck by Sedatives, reducing all damage dealt by 50% for the next 10 seconds." />
         <Icon Value="genericinjection1" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="14" />
+        <UtilityPos Value="12" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.flash_powder">
         <Label Value="Flash Powder" />
         <Description Value="Reduces target's accuracy by 20% for 8 seconds after Flash Bang ends." />
         <Icon Value="drugmedicinecolorvariant1" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="5" />
+        <UtilityPos Value="4" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.augmented_shields">
         <Label Value="Augmented Shields" />
         <Description Value="Increases the amount of damage absorbed by Shield Probe by 30%." />
         <Icon Value="poweredshieldprobe" />
         <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="19" />
+        <UtilityPos Value="20" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.imperial_tactics">
         <Label Value="Imperial Tactics" />
         <Description Value="Sever Tendon will now grant a Tactical Advantage." />
         <Icon Value="abl_ag_op_imp_tactics" />
         <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="20" />
+        <UtilityPos Value="15" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.precision_instruments">
         <Label Value="Precision Instruments" />
         <Description Value="Reduces the energy cost of Debilitate and Sever Tendon by 5." />
         <Icon Value="armament3" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="12" />
+        <UtilityPos Value="9" />
       </Talent>
       <Talent Name="tal.agent.skill.utility.evasive_screen">
         <Label Value="Evasive Screen" />

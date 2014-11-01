@@ -790,7 +790,7 @@
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.prototype_cylinders">
         <Label Value="Prototype Cylinders" />
-        <Description Value="Increases the effect of your gas cylinders while they are active: Combustible Gas Cylinder: Increases the damage and critical hit chance of elemental attacks by 3%. Ion Gas Cylinder: Increases the damage dealt by Ion Gas Cylinder by 10%. High Energy Gas Cylinder: Further increases all energy and kinetic damage dealt by 2%." />
+        <Description Value="Increases the effect of your gas cylinders while they are active: Combustible Gas Cylinder: Increases critical hit chance of elemental attacks by 3%. Ion Gas Cylinder: Increases the damage dealt by Ion Gas Cylinder by 10%. High Energy Gas Cylinder: Further increases all energy and kinetic damage dealt by 2%." />
         <Icon Value="blasterpowerpackc" />
         <LevelAquired Value="38" />
       </Talent>
@@ -949,7 +949,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.superheated_flame_thrower">
         <Label Value="Superheated Flame Thrower" />
-        <Description Value="While Combustible Gas Cylinder is active, Flame Burst, Flame Sweep, and Immolate grant Superheated Flame Thrower, increasing the damage your next Flame Thrower deals by 20%, causing it to slow affected targets by 30%, and making it immune to interrupts. This effect can stack up to 3 times." />
+        <Description Value="While Combustible Gas Cylinder is active, Flame Burst, Flame Sweep, and Immolate grant Superheated Flame Thrower, increasing the damage your next Flame Thrower deals by 15% causing it to slow affected targets by 30%, and making it immune to interrupts. This effect can stack up to 3 times." />
         <Icon Value="bountyhunter" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -967,7 +967,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.firebug">
         <Label Value="Firebug" />
-        <Description Value="Increases the critical bonus damage of Flame Thrower, Flaming Fist, Incendiary Missile, Immolate, and Scorch by 30%." />
+        <Description Value="Increases the critical bonus damage of Flame Thrower, Flaming Fist, and Immolate by 30%." />
         <Icon Value="elementaloverload" />
         <LevelAquired Value="48" />
       </Talent>
@@ -985,7 +985,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.burnout">
         <Label Value="Burnout" />
-        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by elemental attacks by 10% on targets below 30% max health." />
+        <Description Value="Increases the damage dealt by elemental attacks by 10% on targets below 30% max health." />
         <Icon Value="forcecrush" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1758,9 +1758,9 @@
         <CombatLogID Value="987851068014592" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.5" />
-            <StandardHealthPercentMax Value="0.035" />
-            <StandardHealthPercentMin Value="0.015" />
+            <HealingPowerCoefficient Value="0.67" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1803,14 +1803,14 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="2.5" />
+        <ActivationTime Value="1.5" />
         <CombatLogID Value="3401390760132608" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.44" />
-            <StandardHealthPercentMax Value="0.142" />
-            <StandardHealthPercentMin Value="0.102" />
+            <HealingPowerCoefficient Value="1.873" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.074" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1983,7 +1983,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.speed_to_burn">
         <Label Value="Speed to Burn" />
-        <Description Value="Damage dealt by Combustible Gas Cylinder has a 50% chance to make your next Power Shot or Serrated Shot activate instantly. This effect cannot occur more than once every 12 seconds." />
+        <Description Value="Damage dealt by Combustible Gas Cylinder makes your next Power Shot or Serrated Shot activate instantly. This effect cannot occur more than once every 15 seconds." />
         <Icon Value="abl_bh_me_speed_burn" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2089,7 +2089,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
         <Label Value="Power Barrels" />
-        <Description Value="Reduces the cooldown of Unload by 3 seconds." />
+        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -2099,23 +2099,23 @@
         <Icon Value="creepingterror" />
         <LevelAquired Value="24" />
       </Talent>
-      <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.blaze_of_glory">
-        <Label Value="Blaze of Glory" />
-        <Description Value="Thermal Detonator, Power Shot, Rail Shot, Unload, Sweeping Blasters, Explosive Dart, Serrated Shot, Mag Shot, and Missile Blast deal 5% additional damage to burning targets." />
-        <Icon Value="decoyarsenal" />
-        <LevelAquired Value="36" />
-      </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.rapid_venting">
         <Label Value="Rapid Venting" />
         <Description Value="Increases alacrity by 2% and reduces the cooldown of Vent Heat and Thermal Sensor Override by 30 seconds." />
         <Icon Value="vent" />
         <LevelAquired Value="48" />
       </Talent>
+      <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.flaming_wound">
+        <Label Value="Flaming Wound" />
+        <Description Value="Your elemental attacks deal 5% more damage to bleeding targets." />
+        <Icon Value="decoyarsenal" />
+        <LevelAquired Value="56" />
+      </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.relentless_ordnance">
         <Label Value="Relentless Ordnance" />
         <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic effects by 30% on targets below 30% max health." />
         <Icon Value="forcecrush" />
-        <LevelAquired Value="56" />
+        <LevelAquired Value="36" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.ordnance_expert">
         <Label Value="Ordnance Expert" />
@@ -2458,17 +2458,17 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="12" />
+        <Cooldown Value="13" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="1.5" />
+        <ActivationTime Value="2" />
         <CombatLogID Value="984595482804224" />
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.18" />
-            <StandardHealthPercentMax Value="0.129" />
-            <StandardHealthPercentMin Value="0.089" />
+            <HealingPowerCoefficient Value="2.898" />
+            <StandardHealthPercentMax Value="0.165" />
+            <StandardHealthPercentMin Value="0.125" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2635,7 +2635,7 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="True" />
-        <Cooldown Value="15" />
+        <Cooldown Value="20" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2643,14 +2643,14 @@
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.51" />
-            <StandardHealthPercentMax Value="0.071" />
-            <StandardHealthPercentMin Value="0.031" />
+            <Coefficient Value="0.565" />
+            <StandardHealthPercentMax Value="0.077" />
+            <StandardHealthPercentMin Value="0.037" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.1" />
-            <StandardHealthPercentMax Value="0.01" />
-            <StandardHealthPercentMin Value="0.01" />
+            <Coefficient Value="0.11" />
+            <StandardHealthPercentMax Value="0.011" />
+            <StandardHealthPercentMin Value="0.011" />
           </Type>
         </Coeffcients>
       </Ability>

@@ -415,19 +415,20 @@
       <Passive Value="False" />
       <LevelAquired Value="32" />
       <OnGCD Value="False" />
-      <Cooldown Value="20" />
+      <Cooldown Value="30" />
       <CombatLogID Value="962484991164416" />
       <Coeffcients>
         <Type Value="effAction_AbsorbDamage">
-          <HealingPowerCoefficient Value="3.06" />
-          <StandardHealthPercentMax Value="0.153" />
-          <StandardHealthPercentMin Value="0.153" />
+          <HealingPowerCoefficient Value="3.28" />
+          <StandardHealthPercentMax Value="0.164" />
+          <StandardHealthPercentMin Value="0.164" />
           <AmmountPercent Value="1" />
         </Type>
         <Type Value="effAction_Heal">
-          <HealingPowerCoefficient Value="0.84" />
-          <StandardHealthPercentMax Value="0.042" />
-          <StandardHealthPercentMin Value="0.042" />
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.05" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -502,7 +503,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.smuggler.skill.utility.holdout_defense">
         <Label Value="Holdout Defense" />
-        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
+        <Description Value="Slapping a target with Blaster Whip or Bludgeon grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="pistolwhip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -558,7 +559,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.sneaky">
         <Label Value="Sneaky" />
-        <Description Value="Increases movement speed by &lt;&lt;2[%d/%d/%d]&gt;&gt;% and effective stealth level by &lt;&lt;1[%d/%d/%d]&gt;&gt;." />
+        <Description Value="Increases movement speed by 15% and effective stealth level by 3." />
         <Icon Value="stealth" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -572,7 +573,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.surprise_comeback">
         <Label Value="Surprise Comeback" />
-        <Description Value="Pugnacity now additionally grants Surprise Comeback, restoring 4% of total health every 3 seconds and reduces damage received by 20% for the duration." />
+        <Description Value="Pugnacity now additionally grants Surprise Comeback, restoring 5% of total health every 3 seconds and reducing damage received by 20% for the duration." />
         <Icon Value="reanimation" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -588,7 +589,7 @@
             <HealingPowerCoefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountPercent Value="0.04" />
+            <AmmountPercent Value="0.05" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -608,7 +609,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.med_screen">
         <Label Value="Med Screen" />
-        <Description Value="Your Defense Screen heals you for &lt;&lt;1&gt;&gt; when it collapses." />
+        <Description Value="Your Defense Screen heals you for 5% of your maximum health when it collapses." />
         <Icon Value="medshield" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -629,7 +630,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.keep_cool">
         <Label Value="Keep Cool" />
-        <Description Value="Cool Head now immediately restores 16 additional energy." />
+        <Description Value="Cool Head now immediately restores 15 additional energy." />
         <Icon Value="coolhead" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -657,14 +658,14 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.smuggled_defenses">
         <Label Value="Smuggled Defenses" />
-        <Description Value="Reduces the cooldown of Escape by 30 seconds, Defense Screen by 4 seconds and Smuggle by 60 seconds." />
+        <Description Value="Reduces the cooldown of Escape by 30 seconds, Defense Screen by 5 seconds, and Smuggle by 60 seconds." />
         <Icon Value="republiclockbox" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.dirty_escape">
         <Label Value="Dirty Escape" />
-        <Description Value="Reduces the cooldown of Dirty Kick and Flash Grenade by 15 seconds." />
+        <Description Value="Reduces the cooldown of Dirty Kick by 15 seconds." />
         <Icon Value="dirtykick" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="7" />
@@ -713,7 +714,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.let_loose">
         <Label Value="Let Loose" />
-        <Description Value="Blaster Volley deals 15% more damage and costs 10 less energy." />
+        <Description Value="Blaster Volley deals 25% more damage." />
         <Icon Value="rotarycannon" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -785,7 +786,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.slippery_devil">
         <Label Value="Slippery Devil" />
-        <Description Value="Increases your effective stealth level by 2 and reduces all area effect damage taken by 30%. In addition, when you activate Scamper you dodge all incoming attacks for 1.5 seconds." />
+        <Description Value="Increases your effective stealth level by 2. In addition, when you activate Scamper, you dodge or resist all incoming attacks for 1.5 seconds." />
         <Icon Value="fadeaway" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1293,18 +1294,18 @@
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
         <CombatLogID Value="3406424461803520" />
-        <EnergyCost Value="25" />
+        <EnergyCost Value="24" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.72" />
-            <StandardHealthPercentMax Value="0.156" />
-            <StandardHealthPercentMin Value="0.116" />
+            <HealingPowerCoefficient Value="3" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.emergent_emergencies">
         <Label Value="Emergent Emergencies" />
-        <Description Value="Increases the healing dealt by Emergency Medpac by 20% and increases the max stack limit of Upper Hand by 1. In addition, Emergency Medpac immediately regrants Upper Hand once every 10 seconds." />
+        <Description Value="Increases the healing dealt by Emergency Medpac by 5% and increases the max stack limit of Upper Hand by 1. In addition, Emergency Medpac immediately regrants Upper Hand once every 10 seconds." />
         <Icon Value="mirilanyouthleader" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1328,7 +1329,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.kolto_cloud">
         <Label Value="Kolto Cloud" />
-        <Description Value="Heals up to 4 allies within 10 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Heals the target and up to 3 allies within 10 meters for &lt;&lt;1[%d/%d/%d]&gt;&gt; over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="recuperativenanotech" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1339,18 +1340,18 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="1147159994957824" />
-        <EnergyCost Value="30" />
+        <EnergyCost Value="25" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.535" />
-            <StandardHealthPercentMax Value="0.027" />
-            <StandardHealthPercentMin Value="0.027" />
+            <HealingPowerCoefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.016" />
+            <StandardHealthPercentMin Value="0.016" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.kolto_waves">
         <Label Value="Kolto Waves" />
-        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;1&gt;&gt; health over the channel duration. Depletes 32 energy over the duration of the channel." />
+        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;1&gt;&gt; health over the channel duration. Depletes 28 energy over the duration of the channel." />
         <Icon Value="abl_sm_sc_kolto_waves" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1364,9 +1365,9 @@
         <CombatLogID Value="3406411576901632" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.78" />
-            <StandardHealthPercentMax Value="0.039" />
-            <StandardHealthPercentMin Value="0.039" />
+            <HealingPowerCoefficient Value="0.62" />
+            <StandardHealthPercentMax Value="0.031" />
+            <StandardHealthPercentMin Value="0.031" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1393,12 +1394,14 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <Range Value="30" />
+        <TargetArc Value="360" />
         <CombatLogID Value="807518276157440" />
+        <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.091" />
-            <StandardHealthPercentMax Value="0.075" />
-            <StandardHealthPercentMin Value="0.035" />
+            <HealingPowerCoefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.11" />
+            <StandardHealthPercentMin Value="0.07" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1415,15 +1418,15 @@
         <CombatLogID Value="982263315562496" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.1" />
-            <StandardHealthPercentMax Value="0.08" />
-            <StandardHealthPercentMin Value="0.02" />
+            <HealingPowerCoefficient Value="0.67" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.patient_studies">
         <Label Value="Patient Studies" />
-        <Description Value="Increases the speed at which Diagnostic Scan channels by 30%. In addition, Diagnostic Scan critical hits restore 2 energy." />
+        <Description Value="Increases the speed at which Diagnostic Scan channels by 30%. In addition, critical Diagnostic Scan heals restore 2 energy." />
         <Icon Value="republicdatapad" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1435,13 +1438,13 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.sawbones.puissant_poultices">
         <Label Value="Puissant Poultices" />
-        <Description Value="Increases the healing dealt by Slow-release Medpac and Kolto Cloud by 10%. Additionally increases the duration of Kolto Cloud by 3 seconds and reduces the energy cost of Slow-release Medpac by 5." />
+        <Description Value="Increases the healing dealt by Kolto Cloud by 5%. Additionally, increases the duration of Kolto Cloud by 3 seconds and reduces the energy cost of Slow-release Medpac by 5." />
         <Icon Value="homegrownpharmacology" />
         <LevelAquired Value="48" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.accomplished_sawbones">
         <Label Value="Accomplished Sawbones" />
-        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Cloud, Emergency Medpac, and Kolto Waves by 30%." />
+        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Pack, and Emergency Medpac by 20%." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1459,13 +1462,13 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.healing_hand">
         <Label Value="Healing Hand" />
-        <Description Value="Increases the critical chance of Slow-release Medpac by 5%. Additionally, Kolto Pack makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
+        <Description Value="Increases the critical chance of Slow-release Medpac by 3%. Additionally, Kolto Pack makes its target resistant for 45 seconds. Resistant targets have their elemental and internal damage reduction increased by 3%." />
         <Icon Value="firstaid" />
         <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.prognosis_critical">
         <Label Value="Prognosis: Critical" />
-        <Description Value="Increases the critical chance of Diagnostic Scan and Kolto Waves by 25%." />
+        <Description Value="Increases the critical chance of Diagnostic Scan by 25% and Kolto Waves by 10%." />
         <Icon Value="emergencystimpak" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1477,7 +1480,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.homegrown_pharmacology">
         <Label Value="Homegrown Pharmacology" />
-        <Description Value="Increases the healing dealt by periodic effects by 10%. In addition, the energy cost of Kolto Cloud is reduced by 5, and targets affected by Kolto Cloud are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
+        <Description Value="Increases the healing dealt by periodic effects by 3%. In addition, the energy cost of Kolto Cloud is reduced by 5, and targets affected by Kolto Cloud are invigorated for 45 seconds. Invigorated targets receive 3% more healing from all sources." />
         <Icon Value="bioanalysis" />
         <LevelAquired Value="40" />
       </Talent>
@@ -1641,9 +1644,9 @@
         <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.02" />
-            <StandardHealthPercentMax Value="0.122" />
-            <StandardHealthPercentMin Value="0.082" />
+            <Coefficient Value="1.31" />
+            <StandardHealthPercentMax Value="0.151" />
+            <StandardHealthPercentMin Value="0.111" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="1.574" />
@@ -1651,9 +1654,9 @@
             <StandardHealthPercentMin Value="0.137" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.31" />
-            <StandardHealthPercentMax Value="0.151" />
-            <StandardHealthPercentMin Value="0.111" />
+            <Coefficient Value="1.02" />
+            <StandardHealthPercentMax Value="0.122" />
+            <StandardHealthPercentMin Value="0.082" />
           </Type>
           <Type Value="effAction_SpellDamage">
             <Coefficient Value="1.22" />
@@ -1875,8 +1878,8 @@
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
-            <StandardHealthPercentMax Value="0.1" />
-            <StandardHealthPercentMin Value="0.08" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
             <AmmountModifier Value="-0.43" />
           </Type>
         </Coeffcients>
@@ -2038,20 +2041,6 @@
       </Talent>
     </base>
     <UtilityTree Name="utility">
-      <Ability Name="abl.smuggler.skill.utility.holdout_defense">
-        <Label Value="Holdout Defense" />
-        <Description Value="Slapping a target with Blaster Whip grants Holdout Defense, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
-        <Icon Value="pistolwhip" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="1" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="3404341402664960" />
-        <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="7" />
-      </Ability>
       <Ability Name="abl.smuggler.skill.utility.pandemonium">
         <Label Value="Pandemonium" />
         <Description Value="Activating Pulse Detonator makes the next Charged Burst or Dirty Blast activate instantly." />
@@ -2065,6 +2054,20 @@
         <CombatLogID Value="3404362877501440" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
+      </Ability>
+      <Ability Name="abl.smuggler.skill.utility.reset_engagement">
+        <Label Value="Reset Engagement" />
+        <Description Value="Slapping a target with Blaster Whip grants Reset Enagement, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
+        <Icon Value="pistolwhip" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3512729197346816" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.cool_under_pressure">
         <Label Value="Cool Under Pressure" />
@@ -2187,13 +2190,6 @@
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
       </Talent>
-      <Talent Name="tal.smuggler.skill.utility.dirty_escape">
-        <Label Value="Dirty Escape" />
-        <Description Value="Reduces the cooldown of Dirty Kick and Flash Grenade by 15 seconds." />
-        <Icon Value="dirtykick" />
-        <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="15" />
-      </Talent>
       <Talent Name="tal.smuggler.skill.utility.hold_your_ground">
         <Label Value="Hold Your Ground" />
         <Description Value="Reduces the cooldown of Escape by 30 seconds, Defense Screen by 4 seconds and Pulse Detonator by 5 seconds." />
@@ -2235,6 +2231,13 @@
         <Icon Value="abl_sm_gs_efficient_ammo" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.smuggler.skill.utility.plan_b_and_c">
+        <Label Value="Plan B &amp; C" />
+        <Description Value="Reduces the cooldown of Dirty Kick and Flash Grenade by 15 seconds." />
+        <Icon Value="dirtykick" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.crippling_diversion">
         <Label Value="Crippling Diversion" />
