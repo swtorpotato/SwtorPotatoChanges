@@ -925,7 +925,7 @@
         <Label Value="Rebounding Force" />
         <Description Value="When your Force Technique deals damage, it restores 2 Force." />
         <Icon Value="reflection" />
-        <Damage Value="True" />
+        <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
         <LevelAquired Value="32" />
@@ -1362,10 +1362,10 @@
         <ForceCost Value="40" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="2.37" />
-            <StandardHealthPercentMax Value="0.236" />
-            <StandardHealthPercentMin Value="0.236" />
-            <AmmountModifier Value="0.58" />
+            <Coefficient Value="2.31" />
+            <StandardHealthPercentMax Value="0.231" />
+            <StandardHealthPercentMin Value="0.231" />
+            <AmmountModifier Value="0.54" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1500,17 +1500,17 @@
         <Passive Value="False" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="12" />
+        <Cooldown Value="6" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="2295904832847872" />
         <ForceCost Value="25" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="2.88" />
-            <StandardHealthPercentMax Value="0.288" />
-            <StandardHealthPercentMin Value="0.288" />
-            <AmmountModifier Value="0.92" />
+            <Coefficient Value="2.657" />
+            <StandardHealthPercentMax Value="0.266" />
+            <StandardHealthPercentMin Value="0.266" />
+            <AmmountModifier Value="0.77" />
           </Type>
         </Coeffcients>
       </Ability>

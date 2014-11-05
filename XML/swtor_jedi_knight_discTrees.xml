@@ -2658,9 +2658,9 @@
         <ActionCost Value="2" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.73" />
-            <StandardHealthPercentMax Value="0.173" />
-            <StandardHealthPercentMin Value="0.173" />
+            <Coefficient Value="1.877" />
+            <StandardHealthPercentMax Value="0.188" />
+            <StandardHealthPercentMin Value="0.188" />
             <AmmountModifier Value="0.15" />
           </Type>
         </Coeffcients>
