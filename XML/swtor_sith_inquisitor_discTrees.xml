@@ -620,7 +620,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
         <Label Value="Lightning Bolt" />
-        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage." />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage. Lightning Bolt shares a cooldown with Lightning Strike." />
         <Icon Value="abl_si_so_lightning_bolt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1491,7 +1491,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.lightning_barrier">
         <Label Value="Lightning Barrier" />
-        <Description Value="Increases the amount absorbed by your Static Barrier by 20%." />
+        <Description Value="Increases the amount absorbed by your Static Barrier by 10%." />
         <Icon Value="chargedplating" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -1571,7 +1571,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.force_bending">
         <Label Value="Force Bending" />
-        <Description Value="Your Resurgence grants Force Bending, which increases the effect of your next healing ability: Dark Heal: Critical chance increased by 60%. Dark Infusion: Activation time reduced by 0.5 seconds. Innervate: Critical chance increased by 25%. Revivification: Force cost reduced by 30%. Roaming Mend: Force cost reduced by 30%." />
+        <Description Value="Your Resurgence grants Force Bending for 15 seconds, which increases the effect of your next healing ability: Dark Heal: Critical chance increased by 60%. Dark Infusion: Activation time reduced by 0.5 seconds. Innervate: Critical chance increased by 25%. Revivification: Force cost reduced by 30%. Roaming Mend: Force cost reduced by 30%." />
         <Icon Value="drain_life" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1602,7 +1602,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.force_surge">
         <Label Value="Force Surge" />
-        <Description Value="Innervate critical hits grant 1 charge of Force Surge, which improves the effectiveness of your next Consumption or Revivification. Consumption: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Revivification: Activates 33% faster and costs 10 less Force per charge. Consumes all charges." />
+        <Description Value="Innervate critical heals grant 1 charge of Force Surge, which improves the effectiveness of your next Consumption or Revivification. Consumption: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Revivification: Consumes 5 less Force per charge and reduces activation time by 0.25 seconds for each of the first two charges, or makes it activate instantly with the third charge. Consumes all charges." />
         <Icon Value="berserk" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2102,7 +2102,7 @@
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.thrashing_blades">
         <Label Value="Thrashing Blades" />
-        <Description Value="Increases the damage dealt by Thrash, Lacerate, Assassinate, Voltaic Slash, and Leeching Strike by 5% and reduces the Force they consume by 3." />
+        <Description Value="Increases the damage dealt by Thrash, Lacerate, Voltaic Slash, and Leeching Strike by 5% and reduces the Force they consume by 3." />
         <Icon Value="sithwarrior" />
         <LevelAquired Value="35" />
       </Talent>
@@ -2140,7 +2140,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.electric_ambush">
         <Label Value="Electric Ambush" />
-        <Description Value="While Surging Charge is active, Recklessness builds 3 Static Charges, and exiting combat reduces the active cooldown of Recklessness by 60 seconds. Additionally, the critical damage dealt by Voltaic Slash and Maul is increased by 30%." />
+        <Description Value="While Surging Charge is active, Recklessness builds 3 Static Charges, and exiting combat reduces the active cooldown of Recklessness by 60 seconds. Additionally, the critical damage dealt by Maul is increased by 30%." />
         <Icon Value="chargedgauntlets" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2188,7 +2188,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.saber_conduit">
         <Label Value="Saber Conduit" />
-        <Description Value="Your Surging Charge restores 6 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Lacerate builds charges of Voltage, and while Surging Charge is active, Discharge causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
+        <Description Value="Your Surging Charge restores 9 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Lacerate builds charges of Voltage, and while Surging Charge is active, Discharge causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
         <Icon Value="chargedsaber" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2323,7 +2323,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.deception.dark_embrace">
         <Label Value="Dark Embrace" />
-        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 25%." />
+        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 50%." />
         <Icon Value="rattatakiacolyte" />
         <LevelAquired Value="20" />
       </Talent>
@@ -2565,7 +2565,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.hatred.raze">
         <Label Value="Raze" />
-        <Description Value="Melee attacks that strike a target affected by your Lightning Charge's Discharge effect finish the cooldown on Crushing Darkness and Demolish and make your next Crushing Darkness or Demolish activate instantly and consume no Force. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Melee attacks that strike a target affected by your Lightning Charge's Discharge effect finish the cooldown on Crushing Darkness and Demolish and make your next Crushing Darkness or Demolish activate instantly and consume no Force. This effect cannot occur more than once every 9 seconds." />
         <Icon Value="rupture" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2628,7 +2628,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.hatred.fulguration">
         <Label Value="Fulguration" />
-        <Description Value="When your Lightning Charge deals damage, it restores 2 Force." />
+        <Description Value="When your Lightning Charge deals damage, it restores 5 Force." />
         <Icon Value="crushed" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2694,7 +2694,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.inevitable_demise">
         <Label Value="Inevitable Demise" />
-        <Description Value="Increases the critical damage bonus of Death Field, Demolish, and your periodic damage abilities by 30%." />
+        <Description Value="Death Field, Demolish, and your periodic damage abilities deal 15% more damage on targets under 30% health." />
         <Icon Value="forcecrush" />
         <LevelAquired Value="59" />
       </Talent>

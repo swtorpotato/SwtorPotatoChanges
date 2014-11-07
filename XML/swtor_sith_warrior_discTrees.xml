@@ -11,35 +11,35 @@
       <Passive Value="False" />
       <LevelAquired Value="8" />
       <OnGCD Value="True" />
-      <Cooldown Value="30" />
+      <Cooldown Value="18" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <ChannelDuration Value="3" />
       <CombatLogID Value="1261367470325760" />
       <Coeffcients>
         <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="1.3875" />
-          <StandardHealthPercentMax Value="0.13875" />
-          <StandardHealthPercentMin Value="0.13875" />
-          <AmmountModifier Value="-0.075" />
+          <Coefficient Value="1.1275" />
+          <StandardHealthPercentMax Value="0.11275" />
+          <StandardHealthPercentMin Value="0.11275" />
+          <AmmountModifier Value="-0.2475" />
         </Type>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="0" />
           <StandardHealthPercentMax Value="0" />
           <StandardHealthPercentMin Value="0" />
-          <AmmountModifier Value="-0.075" />
+          <AmmountModifier Value="-0.2475" />
         </Type>
         <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="2.775" />
-          <StandardHealthPercentMax Value="0.2775" />
-          <StandardHealthPercentMin Value="0.2775" />
-          <AmmountModifier Value="0.85" />
+          <Coefficient Value="2.255" />
+          <StandardHealthPercentMax Value="0.2255" />
+          <StandardHealthPercentMin Value="0.2255" />
+          <AmmountModifier Value="0.505" />
         </Type>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="0" />
           <StandardHealthPercentMax Value="0" />
           <StandardHealthPercentMin Value="0" />
-          <AmmountModifier Value="0.85" />
+          <AmmountModifier Value="0.505" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -519,7 +519,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.utility.interceptor">
         <Label Value="Interceptor" />
-        <Description Value="Force Charge, Force Gash, Devastating Blast, and Obliterate snare their target, reducing its movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Force Charge, Force Gash, Devastating Blast, and Obliterate snare the target, reducing its movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="lowslash_old" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -905,7 +905,7 @@
       <Label Value="Fury" />
       <Ability Name="abl.sith_warrior.skill.rage.cascading_power">
         <Label Value="Cascading Power" />
-        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
+        <Description Value="Increases all damage dealt by 5% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="elementaloverload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -967,22 +967,22 @@
         <ActionCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="1.18" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1034,9 +1034,9 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.5" />
-            <StandardHealthPercentMax Value="0.27" />
-            <StandardHealthPercentMin Value="0.23" />
+            <Coefficient Value="2.23" />
+            <StandardHealthPercentMax Value="0.243" />
+            <StandardHealthPercentMin Value="0.203" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1246,7 +1246,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.berserk">
         <Label Value="Berserk" />
-        <Description Value="Requires and converts 30 stacks of Fury to go Berserk. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 rage every second. Juyo Form: Increases the critical chance of your bleed attacks by 100% and causes bleed damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
+        <Description Value="Requires and converts 30 stacks of Fury to go Berserk. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Instantly generates 4 rage, plus 8 additional rage over the next few seconds. Juyo Form: Increases the critical chance of your bleed attacks by 100% and causes bleed damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
         <Icon Value="berserk" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1741,7 +1741,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.utility.deadly_reprisal">
         <Label Value="Deadly Reprisal" />
-        <Description Value="Taking direct area effect damage generates 1 rage. This effect cannot occur more than once per second." />
+        <Description Value="Taking non-periodic area of effect damage generates 1 rage. This effect cannot occur more than once per second." />
         <Icon Value="counterattack" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1919,7 +1919,7 @@
       <Label Value="Rage" />
       <Ability Name="abl.sith_warrior.skill.rage.cascading_power">
         <Label Value="Cascading Power" />
-        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
+        <Description Value="Increases all damage dealt by 5% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Smash or Raging Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="elementaloverload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1955,7 +1955,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.force_lash">
         <Label Value="Force Lash" />
-        <Description Value="Vicious Slash, Sweeping Slash, Retaliation, Vicious Throw, and Furious Strike deal &lt;&lt;1&gt;&gt; additional Force energy damage." />
+        <Description Value="Vicious Slash, Sweeping Slash, and Retaliation deal &lt;&lt;1&gt;&gt; additional Force energy damage." />
         <Icon Value="novasaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2000,22 +2000,22 @@
         <ActionCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="1.18" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2067,9 +2067,9 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.5" />
-            <StandardHealthPercentMax Value="0.27" />
-            <StandardHealthPercentMin Value="0.23" />
+            <Coefficient Value="2.23" />
+            <StandardHealthPercentMax Value="0.243" />
+            <StandardHealthPercentMin Value="0.203" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2158,7 +2158,7 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.rage.brutality">
         <Label Value="Brutality" />
-        <Description Value="Increases the critical strike chance of Vicious Slash, Sweeping Slash, Retaliation, Vicious Throw, and Furious Strike by 10%." />
+        <Description Value="Increases the critical strike chance of Vicious Throw and Furious Strike by 5%." />
         <Icon Value="slash" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2353,7 +2353,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.lash_out">
         <Label Value="Lash Out" />
-        <Description Value="While Soresu Form is active, Retaliation consumes no rage and its critical chance is increased by 15%. In addition, the cooldown of Retaliation is reduced by 3 seconds while Saber Ward is active." />
+        <Description Value="While Soresu Form is active, Retaliation consumes no rage and its critical chance is increased by 40%. In addition, the cooldown of Retaliation is reduced by 1 second while Saber Ward is active." />
         <Icon Value="vicious_slash" />
         <LevelAquired Value="20" />
       </Talent>
@@ -2389,7 +2389,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.pillar_of_strength">
         <Label Value="Pillar of Strength" />
-        <Description Value="Reduces the cooldown of Invincible by 30 seconds, increases the damage dealt by Backhand and Crushing Blow by 15%, and reduces the cooldown of Retaliation by 1.5 seconds." />
+        <Description Value="Reduces the cooldown of Invincible by 30 seconds, increases the damage dealt by Backhand and Crushing Blow by 40%, and reduces the cooldown of Retaliation by 1 second." />
         <Icon Value="bravado" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2708,9 +2708,9 @@
         <ActionCost Value="2" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.877" />
-            <StandardHealthPercentMax Value="0.188" />
-            <StandardHealthPercentMin Value="0.188" />
+            <Coefficient Value="1.73" />
+            <StandardHealthPercentMax Value="0.173" />
+            <StandardHealthPercentMin Value="0.173" />
             <AmmountModifier Value="0.15" />
           </Type>
         </Coeffcients>
@@ -2958,7 +2958,7 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.single_saber_mastery">
         <Label Value="Single Saber Mastery" />
-        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 5%. Shien Form: Increases all melee damage dealt by 5%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Smash and Sweeping Slash by 30%." />
+        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 3%. Shien Form: Increases all melee damage dealt by 3%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Smash and Sweeping Slash by 30%." />
         <Icon Value="shiicho" />
         <LevelAquired Value="25" />
       </Talent>

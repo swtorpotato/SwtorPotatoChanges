@@ -477,7 +477,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.utility.force_wake">
         <Label Value="Force Wake" />
-        <Description Value="Force Wave binds its targets in electricity, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Description Value="Force Wave unbalances its targets, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
         <Icon Value="forceslam" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -707,7 +707,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.harnessed_shadows">
         <Label Value="Harnessed Shadows" />
-        <Description Value="Project and Slow Time grant Harnessed Shadows, which makes the next Telekinetic Throw used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Telekinetic Throw by 25%. Stacks up to 3 times. At 3 stacks, each tick of Telekinetic Throw grants Shadow Protection, which increases damage reduction by 1%. Shadow Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Project and Slow Time grant Harnessed Shadows, which makes the next Telekinetic Throw or Cascading Debris used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Telekinetic Throw Throw or Cascading Debris  by 25%. Stacks up to 3 times. At 3 stacks, each tick of Telekinetic Throw grants Shadow Protection, which increases damage reduction by 1%. Shadow Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="healing" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -923,7 +923,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.serenity.rebounding_force">
         <Label Value="Rebounding Force" />
-        <Description Value="When your Force Technique deals damage, it restores 2 Force." />
+        <Description Value="When your Force Technique deals damage, it restores 5 Force." />
         <Icon Value="reflection" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -935,7 +935,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.force_strike">
         <Label Value="Force Strike" />
-        <Description Value="Melee attacks that strike a target affected by your Force Technique's Force Breach effect finish the cooldown on Mind Crush and Vanquish and make your next Mind Crush or Vanquish activate instantly and consume no Force. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Melee attacks that strike a target affected by your Force Technique's Force Breach effect finish the cooldown on Mind Crush and Vanquish and make your next Mind Crush or Vanquish activate instantly and consume no Force. This effect cannot occur more than once every 9 seconds." />
         <Icon Value="chargedupforce" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1018,7 +1018,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.aching_mind">
         <Label Value="Aching Mind" />
-        <Description Value="Increases the critical damage bonus of Force in Balance, Vanquish, and your periodic damage abilities by 30%." />
+        <Description Value="Force in Balance, Vanquish, and your periodic damage abilities deal 15% more damage on targets under 30% health." />
         <Icon Value="creepingterror" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1027,7 +1027,7 @@
       <Label Value="Infiltration" />
       <Ability Name="abl.jedi_consular.skill.infiltration.profundity">
         <Label Value="Profundity" />
-        <Description Value="Your Shadow Technique restores 6 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Whirling Blow builds charges of Clairvoyance, and while Shadow Technique is active, Force Breach causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
+        <Description Value="Your Shadow Technique restores 9 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Whirling Blow builds charges of Clairvoyance, and while Shadow Technique is active, Force Breach causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
         <Icon Value="jkforcesensitiveorphan" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1058,7 +1058,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.potent_shadows">
         <Label Value="Potent Shadows" />
-        <Description Value="While Shadow Technique is active, Force Potency builds 3 Breaching Shadows, and exiting combat reduces the active cooldown of Force Potency by 60 seconds. Additionally, the critical damage dealt by Clairvoyant Strike and Shadow Strike is increased by 30%." />
+        <Description Value="While Shadow Technique is active, Force Potency builds 3 Breaching Shadows, and exiting combat reduces the active cooldown of Force Potency by 60 seconds. Additionally, the critical damage dealt by Shadow Strike is increased by 30%." />
         <Icon Value="agonizingsaber" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1209,7 +1209,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.infiltration.shadows_respite">
         <Label Value="Shadow's Respite" />
-        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 25%." />
+        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 50%." />
         <Icon Value="jkwilderfugitive" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1626,7 +1626,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.applied_force">
         <Label Value="Applied Force" />
-        <Description Value="Increases the damage dealt by Double Strike, Whirling Blow, Spinning Strike, Clairvoyant Strike, and Serenity Strike by 5% and reduces the Force they consume by 3." />
+        <Description Value="Increases the damage dealt by Double Strike, Whirling Blow, Clairvoyant Strike, and Serenity Strike by 5% and reduces the Force they consume by 3." />
         <Icon Value="penetratedefenses" />
         <LevelAquired Value="35" />
       </Talent>
@@ -1695,7 +1695,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.conveyance">
         <Label Value="Conveyance" />
-        <Description Value="Your Rejuvenate grants Conveyance, which increases the effect of your next healing ability: Benevolence: Critical chance increased by 60%. Deliverance: Activation time reduced by 0.5 seconds. Healing Trance: Critical chance increased by 25%. Salvation: Force cost reduced by 30%." />
+        <Description Value="Your Rejuvenate grants Conveyance for 15 seconds, which increases the effect of your next healing ability: Benevolence: Critical chance increased by 60%. Deliverance: Activation time reduced by 0.5 seconds. Healing Trance: Critical chance increased by 25%. Salvation: Force cost reduced by 30%." />
         <Icon Value="jcjedischolar" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1729,7 +1729,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.resplendence">
         <Label Value="Resplendence" />
-        <Description Value="Healing Trance critical hits grant 1 charge of Resplendence, which improves the effectiveness of your next Noble Sacrifice or Salvation. Noble Sacrifice: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Salvation: Activates 33% faster and costs 10 less force per charge. Consumes all charges." />
+        <Description Value="Healing Trance critical hits grant 1 charge of Resplendence, which improves the effectiveness of your next Noble Sacrifice or Salvation. Noble Sacrifice: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Salvation: Consumes 5 less Force per charge and reduces activation time by 0.25 seconds for each of the first two charges, or makes it activate instantly with the third charge. Consumes all charges." />
         <Icon Value="unleashedpalm" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1920,7 +1920,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.utility.force_wake">
         <Label Value="Force Wake" />
-        <Description Value="Force Wave binds its targets in electricity, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Description Value="Force Wave unbalances its targets, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
         <Icon Value="forceslam" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1929,7 +1929,7 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3413940654571520" />
-        <UtilityLevel Value="Skillful" />
+        <UtilityLevel Value="Masterful" />
         <UtilityPos Value="4" />
       </Ability>
       <Talent Name="tal.jedi_consular.skill.utility.life_ward">
@@ -1962,7 +1962,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.telekinetic_defense">
         <Label Value="Telekinetic Defense" />
-        <Description Value="Increases the amount absorbed by your Force Armor by 20%." />
+        <Description Value="Increases the amount absorbed by your Force Armor by 10%." />
         <Icon Value="chargedplating" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -2004,7 +2004,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.jedi_resistance">
         <Label Value="Jedi Resistance" />
-        <Description Value="Increases damage reduction by 2%." />
+        <Description Value="Increases damage reduction by 3%." />
         <Icon Value="jedigeneral" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -2041,7 +2041,7 @@
         <Label Value="Tectonic Mastery" />
         <Description Value="Increases the damage dealt by Forcequake by 25%." />
         <Icon Value="abl_jc_sa_tectonic_mastery" />
-        <UtilityLevel Value="Masterful" />
+        <UtilityLevel Value="Skillful" />
         <UtilityPos Value="13" />
       </Talent>
     </UtilityTree>
@@ -2899,7 +2899,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.telekinetics.resonating_vibrations">
         <Label Value="Resonating Vibrations" />
-        <Description Value="Increases the critical chance of Force Quake by 15% and its critical damage bonus by 30%." />
+        <Description Value="Increases the critical chance of Forcequake by 15% and its critical damage bonus by 30%." />
         <Icon Value="abl_jc_sa_resonating_vibrations" />
         <LevelAquired Value="16" />
       </Talent>

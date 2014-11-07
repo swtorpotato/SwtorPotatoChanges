@@ -668,7 +668,7 @@
       <Label Value="Combat Medic" />
       <Ability Name="abl.trooper.skill.combat_medic.preventative_medicine">
         <Label Value="Preventative Medicine" />
-        <Description Value="Bacta Infusion applies Preventative Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Successive Treatment grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Advanced Medical Probe applies Preventative Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Successive Treatment grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="armament3" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -898,7 +898,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.combat_medic.quick_thinking">
         <Label Value="Quick Thinking" />
-        <Description Value="Reduces the activation time of Medical Probe by 0.5 seconds and reduces the cooldown of Advanced Medical Probe by 3 seconds." />
+        <Description Value="Reduces the cooldown of Advanced Medical Probe by 3 seconds." />
         <Icon Value="auraofleadership" />
         <LevelAquired Value="16" />
       </Talent>
@@ -1031,7 +1031,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.gunnery.demolition_round">
         <Label Value="Demolition Round" />
-        <Description Value="Fires a demolition round that explodes on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage. This damage is increased by 10% if the target is affected by your gravity vortex." />
+        <Description Value="Fires a demolition round that explodes on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage. This damage is increased by 25% if the target is affected by your gravity vortex." />
         <Icon Value="democharge" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1478,8 +1478,8 @@
         <CombatLogID Value="801256213839872" />
       </Ability>
       <Ability Name="abl.trooper.target_lock">
-        <Label Value="" />
-        <Description Value="" />
+        <Label Value="Target Lock" />
+        <Description Value="Full Auto, Boltstorm, High Impact Bolt, and Mag Bolt ignore 30% of the target's armor. In addition, the critical chance of Advanced Medical Probe and Bacta Infusion are increased by 5%, and critical results with damage and healing abilities increase alacrity by 3% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="lockandload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1487,7 +1487,7 @@
         <LevelAquired Value="25" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
-        <CombatLogID Value="-1" />
+        <CombatLogID Value="3514618982957056" />
       </Ability>
       <Ability Name="abl.trooper.electro_net">
         <Label Value="Electro Net" />
@@ -2506,7 +2506,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.shockstrike">
         <Label Value="Shockstrike" />
-        <Description Value="Strikes the target with an overcharged rifle butt, dealing &lt;&lt;1&gt;&gt; kinetic damage and releasing a powerful discharge that deals &lt;&lt;2&gt;&gt; elemental damage.  Shares a cooldown with Stockstrike." />
+        <Description Value="Strikes the target with an overcharged rifle butt, dealing &lt;&lt;1&gt;&gt; kinetic damage and releasing a powerful discharge that deals &lt;&lt;2&gt;&gt; elemental damage. Shockstrike shares a cooldown with Stockstrike.  Shares a cooldown with Stockstrike." />
         <Icon Value="abl_tr_vg_shockstrike" />
         <Damage Value="True" />
         <Healing Value="False" />

@@ -888,7 +888,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.flaming_fist">
         <Label Value="Flaming Fist" />
-        <Description Value="Engages the jetpack and ignites your gauntlet, allowing you to strike the target with a flaming fist that deals &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;2&gt;&gt; elemental damage.  Shares a cooldown with Rocket Punch." />
+        <Description Value="Engages the jetpack and ignites your gauntlet, allowing you to strike the target with a flaming fist that deals &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;2&gt;&gt; elemental damage. Flaming Fist shares a cooldown with Rocket Punch.  Shares a cooldown with Rocket Punch." />
         <Icon Value="abl_bh_pt_flaming_fist" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1592,7 +1592,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.magnetic_blast">
         <Label Value="Magnetic Blast" />
-        <Description Value="Fires a blast of electromagnetized energy at the target, dealing &lt;&lt;1&gt;&gt; energy damage.  Replaces Flame Burst." />
+        <Description Value="Fires a blast of electromagnetized energy at the target, dealing &lt;&lt;1&gt;&gt; energy damage. Magnetic Blast shares a cooldown with Flame Burst." />
         <Icon Value="abl_bh_pt_magnetic_blast" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1707,7 +1707,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.proactive_medicine">
         <Label Value="Proactive Medicine" />
-        <Description Value="Emergency Scan applies Proactive Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Progressive Scan grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Healing Scan applies Proactive Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Progressive Scan grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="armament3" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1901,7 +1901,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.med_tech">
         <Label Value="Med Tech" />
-        <Description Value="Reduces the activation time of Rapid Scan by 0.5 seconds and reduces the cooldown of Healing Scan by 3 seconds." />
+        <Description Value="Reduces the cooldown of Healing Scan by 3 seconds." />
         <Icon Value="medicalcrate" />
         <LevelAquired Value="16" />
       </Talent>

@@ -746,7 +746,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.virulence.lethal_takedown">
         <Label Value="Lethal Takedown" />
-        <Description Value="In addition, damage dealt by Cull has a 80% chance to trigger Lethal Takedown, which finishes the cooldown of Takedown and makes your next Takedown usable on a target with any health level." />
+        <Description Value="Damage dealt by Cull has a 80% chance to trigger Lethal Takedown, which finishes the cooldown of Takedown and makes your next Takedown usable on a target with any health level." />
         <Icon Value="cannonheal" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1537,7 +1537,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.followthrough">
         <Label Value="Followthrough" />
-        <Description Value="Fires a well-controlled follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Snipe, Ambush, Takedown or a complete Series of Shots." />
+        <Description Value="Fires a well-controlled follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Snipe, Ambush, Takedown, or a complete Penetrating Blasts." />
         <Icon Value="followthrough" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1554,7 +1554,7 @@
             <Coefficient Value="1.917" />
             <StandardHealthPercentMax Value="0.192" />
             <StandardHealthPercentMin Value="0.192" />
-            <AmmountModifier Value="-0.92" />
+            <AmmountModifier Value="0.28" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1654,12 +1654,12 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="2176972893454336" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.342" />
-            <StandardHealthPercentMax Value="0.254" />
-            <StandardHealthPercentMin Value="0.214" />
+            <Coefficient Value="2.052" />
+            <StandardHealthPercentMax Value="0.225" />
+            <StandardHealthPercentMin Value="0.185" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1718,7 +1718,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.acid_blade">
         <Label Value="Acid Blade" />
-        <Description Value="Coats your instruments in acid, causing Backstab to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Coats your instruments in acid, causing Backstab to deal an additional &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="acidblade" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1749,7 +1749,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.culling">
         <Label Value="Culling" />
-        <Description Value="Increases damage dealt by Laceration and Collateral Strike by 5%. In addition, when Collateral Strike damages a target, you recover 8 energy." />
+        <Description Value="Increases damage dealt by Laceration and Collateral Strike by 5%. In addition, when Collateral Strike damages a target, you recover 4 energy." />
         <Icon Value="aimboost" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1775,9 +1775,9 @@
         <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.303" />
-            <StandardHealthPercentMax Value="0.25" />
-            <StandardHealthPercentMin Value="0.21" />
+            <Coefficient Value="2.055" />
+            <StandardHealthPercentMax Value="0.226" />
+            <StandardHealthPercentMin Value="0.186" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1816,7 +1816,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.concealment.surgical_strikes">
         <Label Value="Surgical Strikes" />
-        <Description Value="Increases the damage dealt by Veiled Strike, Overload Shot and Backstab by 5%." />
+        <Description Value="Increases the damage dealt by Veiled Strike and Overload Shot by 5%." />
         <Icon Value="perforatingshot" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1834,7 +1834,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.concealment.waylay">
         <Label Value="Waylay" />
-        <Description Value="Increases the damage dealt by Backstab by 5%." />
+        <Description Value="Increases the damage dealt by Backstab by 5% and reduces its energy cost by 5." />
         <Icon Value="criticalblade" />
         <LevelAquired Value="40" />
       </Talent>
@@ -2345,7 +2345,7 @@
       </Talent>
       <Talent Name="tal.agent.imperial_brew">
         <Label Value="Imperial Brew" />
-        <Description Value="Increases the damage dealt by Corrosive Dart and the healing done by Kolto Probe by 10%." />
+        <Description Value="Increases the damage dealt by Corrosive Dart and the healing done by Kolto Probe by 5%." />
         <Icon Value="bubblydrink" />
         <LevelAquired Value="15" />
       </Talent>
@@ -2568,7 +2568,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.lethality.cut_down_operative">
         <Label Value="Cut Down" />
-        <Description Value="Increases the damage dealt by Lethal Strike, Overload Shot, Carbine Burst and Corrosive Assault by 5%." />
+        <Description Value="Increases the damage dealt by Lethal Strike, Overload Shot, Carbine Burst and Corrosive Assault by 5%. Additionally, after using Lethal Strike you gain Cut Down for 6 seconds, which increases the damage done of Corrosive Grenade and Corrosive Dart by 20%." />
         <Icon Value="linetheshot" />
         <LevelAquired Value="59" />
       </Talent>

@@ -829,7 +829,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.flechette_round">
         <Label Value="Flechette Round" />
-        <Description Value="Loads your shotgun with flechettes, causing Back Blast to deal an additional &lt;&lt;1[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Loads your shotgun with flechettes, causing Back Blast to deal an additional &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds and increase armor penetration by 30% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="pointblankshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -848,7 +848,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.turn_the_tables">
         <Label Value="Turn the Tables" />
-        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by 5%. In addition, when Flying Fists damages a target, you recover 8 energy." />
+        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by 5%. In addition, when Flying Fists damages a target, you recover 4 energy." />
         <Icon Value="shotgun1" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -886,9 +886,9 @@
         <EnergyCost Value="15" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.3" />
-            <StandardHealthPercentMax Value="0.25" />
-            <StandardHealthPercentMin Value="0.21" />
+            <Coefficient Value="2.055" />
+            <StandardHealthPercentMax Value="0.226" />
+            <StandardHealthPercentMin Value="0.186" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -905,18 +905,18 @@
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="985076519141376" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.34" />
-            <StandardHealthPercentMax Value="0.254" />
-            <StandardHealthPercentMin Value="0.214" />
+            <Coefficient Value="2.052" />
+            <StandardHealthPercentMax Value="0.225" />
+            <StandardHealthPercentMin Value="0.185" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.smuggler.skill.scrapper.sawed_off">
         <Label Value="Sawed Off" />
-        <Description Value="Increases the damage dealt by Back Blast by 5%." />
+        <Description Value="Increases the damage dealt by Back Blast by 5% and reduces its energy cost by 5." />
         <Icon Value="scatterblast" />
         <LevelAquired Value="40" />
       </Talent>
@@ -946,7 +946,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.scrapper.scrappy">
         <Label Value="Scrappy" />
-        <Description Value="Increases the damage dealt by Bludgeon, Quick Shot and Back Blast by 5%." />
+        <Description Value="Increases the damage dealt by Bludgeon, and Quick Shot by 5%." />
         <Icon Value="bhrattatakigladiator" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1273,7 +1273,7 @@
       </Talent>
       <Talent Name="tal.smuggler.browbeater">
         <Label Value="Browbeater" />
-        <Description Value="Increases the damage dealt by Vital Shot and the healing done by Slow-release Medpac by 10%." />
+        <Description Value="Increases the damage dealt by Vital Shot and the healing done by Slow-release Medpac by 5%." />
         <Icon Value="bloomingshot" />
         <LevelAquired Value="15" />
       </Talent>
@@ -1606,7 +1606,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.ruffian.unfair_advantage">
         <Label Value="Unfair Advantage" />
-        <Description Value="Blaster Whip triggers Unfair Advantage, which makes your next Wounding Shots regrant Upper Hand and cost no energy. This effect cannot occur more than once every 10 seconds." />
+        <Description Value="Blaster Whip triggers Unfair Advantage, which makes your next Brutal Shots regrant Upper Hand and cost no energy. This effect cannot occur more than once every 10 seconds." />
         <Icon Value="rioteer" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1697,7 +1697,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.ruffian.cheap_shots">
         <Label Value="Cheap Shots" />
-        <Description Value="Increases the damage dealt by Quick Shot, Blaster Volley, Point Blank Shot, and Brutal Shots by 5%." />
+        <Description Value="Increases the damage dealt by Quick Shot, Blaster Volley, Point Blank Shot, and Brutal Shots by 5%. Additionally, after using Point Blank Shot you gain Cheap Shots for 6 seconds, which increases the damage done of Shrap Bomb and Vital Shot by 20%." />
         <Icon Value="abl_sm_sc_blkmarket_mods" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1939,7 +1939,7 @@
       </Ability>
       <Ability Name="abl.smuggler.speed_shot">
         <Label Value="Speed Shot" />
-        <Description Value="Unloads both blasters at a high rate of fire, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Requires dual blasters. Must be in cover to use." />
+        <Description Value="Unloads both blasters at a high rate of fire, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Requires dual blasters." />
         <Icon Value="unload" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2105,20 +2105,6 @@
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
       </Ability>
-      <Ability Name="abl.smuggler.skill.utility.holed_up">
-        <Label Value="Holed Up" />
-        <Description Value="Reduces all area effect damage taken by &lt;&lt;1&gt;&gt;% while Hunker Down is active." />
-        <Icon Value="mirilanyouthleader" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="1" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="3404392942272512" />
-        <UtilityLevel Value="Heroic" />
-        <UtilityPos Value="17" />
-      </Ability>
       <Ability Name="abl.smuggler.skill.utility.ballistic_damper">
         <Label Value="Ballistic Dampers" />
         <Description Value="Entering cover grants 3 charges of Ballistic Dampers. Each charge absorbs 30% of the damage dealt by incoming attacks. This effect cannot occur more than once every 1.5 seconds. Ballistic Dampers can only be gained once every 6 seconds." />
@@ -2225,9 +2211,16 @@
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
       </Talent>
+      <Talent Name="tal.smuggler.skill.utility.holed_up">
+        <Label Value="Holed Up" />
+        <Description Value="Reduces all area effect damage taken by 60% while Hunker Down is active." />
+        <Icon Value="mirilanyouthleader" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
       <Talent Name="tal.smuggler.skill.utility.efficient_ammo">
         <Label Value="Efficient Ammo" />
-        <Description Value="Increases the damage dealt by Sweeping Gunfire by 25%" />
+        <Description Value="Increases the damage dealt by Sweeping Gunfire by 25%." />
         <Icon Value="abl_sm_gs_efficient_ammo" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
@@ -2516,7 +2509,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.trickshot">
         <Label Value="Trickshot" />
-        <Description Value="Fires a wild follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Charged Burst, Aimed Shot, Quickdraw or a complete Speed Shot. Requires both blasters." />
+        <Description Value="Fires a wild follow-up shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage. Only usable within the 5 seconds immediately following a Charged Burst, Aimed Shot, Quickdraw, or a complete Penetrating Rounds. Requires both blasters." />
         <Icon Value="luckyshot" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2533,13 +2526,13 @@
             <Coefficient Value="1.917" />
             <StandardHealthPercentMax Value="0.192" />
             <StandardHealthPercentMin Value="0.192" />
-            <AmmountModifier Value="-0.92" />
+            <AmmountModifier Value="0.28" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="-0.92" />
+            <AmmountModifier Value="0.28" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2611,7 +2604,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.penetrating_rounds">
         <Label Value="Penetrating Rounds" />
-        <Description Value="Unleashes a number of rounds that deal &lt;&lt;1&gt;&gt; weapon damage and sunder the target for &lt;&lt;2&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%. Consumes 20 energy over the duration of the channel.  Shares a cooldown with Speed Shot." />
+        <Description Value="Unleashes a number of rounds that deal &lt;&lt;1&gt;&gt; weapon damage and sunder the target for &lt;&lt;2&gt;&gt; seconds. Sundered targets have their armor rating reduced by 20%. Consumes 20 energy over the duration of the channel. Requires both blasters.  Shares a cooldown with Speed Shot." />
         <Icon Value="abl_sm_gs_penetrating_rounds" />
         <Damage Value="True" />
         <Healing Value="False" />

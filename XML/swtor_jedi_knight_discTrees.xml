@@ -133,7 +133,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.sweep">
       <Label Value="Force Sweep" />
-      <Description Value="Strikes the target and up to 8 enemies within 5 meters with the Force, dealing &lt;&lt;1&gt;&gt; kinetic damage. Also stuns weak and standard enemies for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Description Value="Strikes the target and up to 8 enemies within 5 meters with the Force, dealing &lt;&lt;1&gt;&gt; kinetic damage. Also stuns weak and standard enemies for &lt;&lt;2&gt;&gt; seconds." />
       <Icon Value="cycloneattack" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -234,35 +234,35 @@
       <Passive Value="False" />
       <LevelAquired Value="8" />
       <OnGCD Value="True" />
-      <Cooldown Value="30" />
+      <Cooldown Value="18" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <ChannelDuration Value="3" />
       <CombatLogID Value="812139660967936" />
       <Coeffcients>
         <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="1.39" />
-          <StandardHealthPercentMax Value="0.139" />
-          <StandardHealthPercentMin Value="0.139" />
-          <AmmountModifier Value="-0.075" />
+          <Coefficient Value="1.1275" />
+          <StandardHealthPercentMax Value="0.11275" />
+          <StandardHealthPercentMin Value="0.11275" />
+          <AmmountModifier Value="-0.2475" />
         </Type>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="0" />
           <StandardHealthPercentMax Value="0" />
           <StandardHealthPercentMin Value="0" />
-          <AmmountModifier Value="-0.075" />
+          <AmmountModifier Value="-0.2475" />
         </Type>
         <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="2.78" />
-          <StandardHealthPercentMax Value="0.278" />
-          <StandardHealthPercentMin Value="0.278" />
-          <AmmountModifier Value="0.85" />
+          <Coefficient Value="2.255" />
+          <StandardHealthPercentMax Value="0.2255" />
+          <StandardHealthPercentMin Value="0.2255" />
+          <AmmountModifier Value="0.505" />
         </Type>
         <Type Value="effAction_WeaponDamage">
           <Coefficient Value="0" />
           <StandardHealthPercentMax Value="0" />
           <StandardHealthPercentMin Value="0" />
-          <AmmountModifier Value="0.85" />
+          <AmmountModifier Value="0.505" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -750,7 +750,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.zen">
         <Label Value="Zen" />
-        <Description Value="Requires and converts 30 stacks of Centering to enter a Zen state. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Each charge generates 2 focus every second. Juyo Form: Increases the critical chance of your burn attacks by 100% and causes burn damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
+        <Description Value="Requires and converts 30 stacks of Centering to enter a Zen state. Lasts for 6 charges. This effect varies based on your current lightsaber form: Shii-Cho Form: Instantly generates 4 focus, plus 8 additional focus over the next few seconds. Juyo Form: Increases the critical chance of your burn attacks by 100% and causes burn damage to heal your group for 1% of max health each tick. Ataru Form: Grants 30% alacrity. Each attack consumes 1 charge." />
         <Icon Value="jkmiralukansurvivor" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -872,7 +872,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.merciless_zeal">
         <Label Value="Merciless Zeal" />
-        <Description Value="Critical hits with burn effects heal you for &lt;&lt;1[%d/%d/%d]&gt;&gt;% of your maximum health." />
+        <Description Value="Critical hits with burn effects heal you for 1% of your maximum health." />
         <Icon Value="supriseadvantage" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1046,22 +1046,22 @@
         <ActionCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="1.18" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1138,7 +1138,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
-        <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
+        <Description Value="Blasts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
         <Icon Value="abl_jk_gu_concentrated_burst" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1152,9 +1152,9 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.5" />
-            <StandardHealthPercentMax Value="0.27" />
-            <StandardHealthPercentMin Value="0.23" />
+            <Coefficient Value="2.23" />
+            <StandardHealthPercentMax Value="0.243" />
+            <StandardHealthPercentMin Value="0.203" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1239,7 +1239,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
         <Label Value="Heightened Power" />
-        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Blast. This effect cannot occur more than once every 8 seconds." />
+        <Description Value="Increases all damage dealt by 5% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="energyrebounder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1333,9 +1333,9 @@
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
       </Ability>
-      <Ability Name="abl.jedi_knight.skill.focus.incisor">
+      <Ability Name="abl.jedi_knight.skill.utility.incisor">
         <Label Value="Incisor" />
-        <Description Value="Force Leap and Zealous Leap have a &lt;&lt;1&gt;&gt;% chance to snare the target, reducing its movement speed by 50% for &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Force Leap, Force Melt, Clashing Blast, and Zealous Leap snare the target, reducing its movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="legslash" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1343,7 +1343,7 @@
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
-        <CombatLogID Value="3189120591462400" />
+        <CombatLogID Value="3516783646474240" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
       </Ability>
@@ -1411,7 +1411,7 @@
         <UtilityPos Value="15" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.utility.zealous_ward">
-        <Label Value="Blood Ward" />
+        <Label Value="Zealous Ward" />
         <Description Value="Getting attacked while Saber Ward is active heals you for 3% of your maximum health. This effect cannot occur more than once every 1.5 seconds." />
         <Icon Value="saberreflectjuggernaut" />
         <UtilityLevel Value="Heroic" />
@@ -1425,8 +1425,8 @@
         <UtilityPos Value="7" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.utility.contemplation">
-        <Label Value="Brooding" />
-        <Description Value="Reduces the cooldown of Intimidating Roar by 15 seconds. In addition, you build up to 30 Fury over the course of using Channel Hatred. This effect cannot occur more than once every 30 seconds." />
+        <Label Value="Contemplation" />
+        <Description Value="Reduces the cooldown of Awe by 15 seconds. In addition, you build up to 30 Fury over the course of using Introspection. This effect cannot occur more than once every 30 seconds." />
         <Icon Value="jkforcesensitiveorphan" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="21" />
@@ -1867,7 +1867,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.lunge">
         <Label Value="Lunge" />
-        <Description Value="While Soresu Form is active, Riposte consumes no focus and its critical chance is increased by 15%. In addition, the cooldown of Riposte is reduced by 3 seconds while Saber Ward is active." />
+        <Description Value="While Soresu Form is active, Riposte consumes no focus and its critical chance is increased by 40%. In addition, the cooldown of Riposte is reduced by 1 seconds while Saber Ward is active." />
         <Icon Value="riposte" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1891,7 +1891,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.beacon_of_might">
         <Label Value="Beacon of Might" />
-        <Description Value="Reduces the cooldown of Warding Call by 30 seconds, increases the damage dealt by Hilt Strike and Guardian Slash by 15%, and reduces the cooldown of Riposte by 1.5 seconds." />
+        <Description Value="Reduces the cooldown of Warding Call by 30 seconds, increases the damage dealt by Hilt Bash and Guardian Slash by 40%, and reduces the cooldown of Riposte by 1 second." />
         <Icon Value="unleashedpalm" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1906,7 +1906,7 @@
       <Label Value="Vigilance" />
       <Ability Name="abl.jedi_knight.skill.vigilance.burning_blade">
         <Label Value="Burning Blade" />
-        <Description Value="Blade Storm causes the target to burn for &lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Blade Storm causes the target to burn for &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="agonizingsaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2171,7 +2171,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.narrowed_focus">
         <Label Value="Narrowed Focus" />
-        <Description Value="Generates 1 additional Focus when taking direct area effect damage while Shien Form is active." />
+        <Description Value="Taking non-periodic area of effect damage generates 1 focus. This effect cannot occur more than once per second." />
         <Icon Value="bhoutlaw" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2658,9 +2658,9 @@
         <ActionCost Value="2" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.877" />
-            <StandardHealthPercentMax Value="0.188" />
-            <StandardHealthPercentMin Value="0.188" />
+            <Coefficient Value="1.73" />
+            <StandardHealthPercentMax Value="0.173" />
+            <StandardHealthPercentMin Value="0.173" />
             <AmmountModifier Value="0.15" />
           </Type>
         </Coeffcients>
@@ -2689,9 +2689,9 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.single_saber_mastery">
         <Label Value="Single Saber Mastery" />
-        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 5%. Shien Form: Increases all melee damage dealt by 5%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Force Sweep and Cyclone Slash by 30%." />
+        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 3%. Shien Form: Increases all melee damage dealt by 3%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Force Sweep and Cyclone Slash by 30%." />
         <Icon Value="shiicho" />
-        <LevelAquired Value="10" />
+        <LevelAquired Value="25" />
       </Talent>
     </base>
     <DisciplineTree Name="focus">
@@ -2712,22 +2712,22 @@
         <ActionCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="1.18" />
+            <AmmountModifier Value="0.94" />
           </Type>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="3.26" />
-            <StandardHealthPercentMax Value="0.327" />
-            <StandardHealthPercentMin Value="0.327" />
-            <AmmountModifier Value="1.18" />
+            <Coefficient Value="2.91" />
+            <StandardHealthPercentMax Value="0.291" />
+            <StandardHealthPercentMin Value="0.291" />
+            <AmmountModifier Value="0.94" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2804,7 +2804,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.focused_burst">
         <Label Value="Focused Burst" />
-        <Description Value="Bursts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
+        <Description Value="Blasts the enemy target with a powerful burst of Force energy, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
         <Icon Value="abl_jk_gu_concentrated_burst" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2818,15 +2818,15 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.5" />
-            <StandardHealthPercentMax Value="0.27" />
-            <StandardHealthPercentMin Value="0.23" />
+            <Coefficient Value="2.23" />
+            <StandardHealthPercentMax Value="0.243" />
+            <StandardHealthPercentMin Value="0.203" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.force_lash">
         <Label Value="Force Lash" />
-        <Description Value="Slash, Cyclone Smash, Riposte, Dispatch, and Concentrated Slice deal &lt;&lt;1&gt;&gt; additional Force energy damage." />
+        <Description Value="Slash, Cyclone Slash, and Riposte deal &lt;&lt;1&gt;&gt; additional Force energy damage." />
         <Icon Value="novasaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2869,7 +2869,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.zephyrean_slash">
         <Label Value="Zephyrean Slash" />
-        <Description Value="While Shii-Cho Form is active, Strike, Sundering Strike, Slash, Cyclone Smash, Riposte, Blade Storm, Dispatch, and Concentrated Strike reduce the active cooldowns of Force Sweep, Focused Burst, and Zealous Leap by 1 second and Combat Focus by 2 seconds." />
+        <Description Value="While Shii-Cho Form is active, Strike, Sundering Strike, Slash, Cyclone Slash, Riposte, Blade Storm, Dispatch, and Concentrated Strike reduce the active cooldowns of Force Sweep, Focused Burst, and Zealous Leap by 1 second and Combat Focus by 2 seconds." />
         <Icon Value="twinarcs" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2893,7 +2893,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
         <Label Value="Heightened Power" />
-        <Description Value="Increases all damage dealt by 10% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Blast. This effect cannot occur more than once every 8 seconds." />
+        <Description Value="Increases all damage dealt by 5% for &lt;&lt;1&gt;&gt; seconds after dealing damage with Force Sweep or Focused Burst. This effect cannot occur more than once every 8 seconds." />
         <Icon Value="energyrebounder" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2961,7 +2961,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.swift_slash">
         <Label Value="Swift Slash" />
-        <Description Value="Increases the critical strike chance of Slash, Cyclone Smash, Riposte, Dispatch, and Concentrated Slice by 10%." />
+        <Description Value="Increases the critical strike chance of Dispatch and Concentrated Slice by 5%." />
         <Icon Value="jediknight" />
         <LevelAquired Value="52" />
       </Talent>

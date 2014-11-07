@@ -203,7 +203,7 @@
   <SetBonus ID="1590508202538278723">
     <SetBonusName Value="Exhumed Force-Master" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Turbulence or Force Serenity and Thundering Blast or Force Leech increase alacrity by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Turbulence or Force Serenity and Thundering Blast or Force Leech increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces cost of Lightning Strike and Force Lightning or Disturbance and Telekinetic Throw by 2 and reduces the cooldown of Polarity Shift or Mental Alacrity by 15 seconds." />
     <SixPiece Value="Lightning Strike and Lightning Bolt or Disturbance and Telekinetic Burst reduce the cooldown of Recklessness or Force Potency by 1 second." />
     <Sources>
@@ -294,7 +294,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Activating a healing ability has a 15% chance to grant Field Medic's Critical Bonus which causes your next Kolto Injection or Underworld Medicine to be a critical. This effect can only occur once every 30 seconds." />
     <FourPiece Value="Kolto Infusion or Underworld Medicine's energy cost is reduced by 2." />
-    <SixPiece Value="Reduces the cooldown of Recuperative Nanotech or Kolto Cloud by 2 seconds." />
+    <SixPiece Value="Reduces the cooldown of Kolto Waves by 1 second." />
     <Sources>
       <ItemName Value="Resurrected Field Medic's Bracers" NodeName="itm.gen.raid.tech_heals_cun.ilvl_0084.artifact.medium_wrists" />
       <ItemName Value="Revanite Field Medic's Headgear" NodeName="itm.gen.raid.tech_heals_cun.ilvl_0087.artifact.medium_head" />
@@ -439,9 +439,9 @@
   <SetBonus ID="2976082360804472313">
     <SetBonusName Value="Revanite Weaponmaster" />
     <MaxSetBonusPieces Value="14" />
-    <TwoPiece Value="Dual Saber Throw or Twin Saber Throw increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 4% for 15 seconds." />
-    <SixPiece Value="Dealing melee damage will grant Weaponmaster's/Challenger's Critical Bonus making one of your next Vicious Throw, Furious Strike and Annhiliate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
+    <SixPiece Value="Activating Ravage or Master Strike will grant Weaponmaster's/Challenger's Critical Bonus making your next Vicious Throw, Furious Strike and Annihilate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Revanite Weaponmaster's Gloves" NodeName="itm.gen.raid.melee_dps_alt_str.ilvl_0087.artifact.medium_hands" />
       <ItemName Value="Resurrected Weaponmaster's Bracers" NodeName="itm.gen.raid.melee_dps_alt_str.ilvl_0084.artifact.medium_wrists" />
@@ -476,9 +476,9 @@
   <SetBonus ID="4170348218044804044">
     <SetBonusName Value="Dark Reaver Challenger" />
     <MaxSetBonusPieces Value="14" />
-    <TwoPiece Value="Dual Saber Throw or Twin Saber Throw increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 4% for 15 seconds." />
-    <SixPiece Value="Dealing melee damage will grant Weaponmaster's/Challenger's Critical Bonus making one of your next Vicious Throw, Furious Strike and Annhiliate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
+    <SixPiece Value="Activating Ravage or Master Strike will grant Weaponmaster's/Challenger's Critical Bonus making your next Vicious Throw, Furious Strike and Annihilate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Dark Reaver Challenger's Vest" NodeName="itm.gen.pvp.melee_dps2_alt_str.ilvl_0075.artifact.medium_chest" />
       <ItemName Value="Dark Reaver Weaponmaster's Leggings" NodeName="itm.gen.pvp.melee_dps_alt_str.ilvl_0075.artifact.medium_legs" />
@@ -627,9 +627,9 @@
   <SetBonus ID="4414046952776445839">
     <SetBonusName Value="Resurrected Stalker" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike increase power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
-    <FourPiece Value="Increases Recklessness or Force Potency charges by 1 and reduces its cooldown by 15 seconds." />
-    <SixPiece Value="After using Overcharge Saber or Battle Rediness your next Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike will critically hit." />
+    <TwoPiece Value="Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <FourPiece Value="Reduces the cooldown of Recklessness or Force Potency by 15 seconds." />
+    <SixPiece Value="After activating Voltaic Slash and Thrash or Clairvoyant Strike and Double Strike your next Assassinate and Maul or Spinning Strike and Shadow Strike will critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Resurrected Stalker's Legwraps" NodeName="itm.gen.raid.hybrid_dps_will.ilvl_0084.artifact.light_legs" />
       <ItemName Value="Resurrected Stalker's Headgear" NodeName="itm.gen.raid.hybrid_dps_will.ilvl_0084.artifact.light_head" />
@@ -711,9 +711,9 @@
   <SetBonus ID="4491111748298449135">
     <SetBonusName Value="Exhumed Enforcer" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase power by 5% for 15 seconds. Cannot occur more than once every 30 seconds." />
-    <FourPiece Value="Overload Shot and Quick Shot's energy cost is reduced by 2." />
-    <SixPiece Value="Activating Stim Boost or Pugnacity will grant Enforcer's Critical Bonus making your next Laceration and Lethal Shot or Sucker Punch and Point Blank Shot critically hit." />
+    <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
+    <FourPiece Value="Backstab and Lethal Strike or Backblast and Point Blank Shot's energy cost is reduced by 2." />
+    <SixPiece Value="Activating Exfiltrate or Scamper will grant Enforcer's Critical Bonus making your next Veiled Strike and Lethal Shot or Bludgeon and Point Blank Shot critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Exhumed Enforcer's Belt" NodeName="itm.gen.pvp.tech_dps_cun.ilvl_0072.artifact.medium_waist" />
       <ItemName Value="Exhumed Enforcer's Armguards" NodeName="itm.gen.pvp.tech_dps_cun.ilvl_0072.artifact.medium_wrists" />
@@ -769,7 +769,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Activating a healing ability has a 15% chance to grant Combat Medic's Critical Bonus which causes your next Rapid Scan or Medical Probe to be a critical. This effect can only occur once every 30 seconds." />
     <FourPiece Value="While in Combat Support Cylinder or Combat Support Cell the duration of Supercharged Gas and Supercharge Cells is increased by 5 seconds." />
-    <SixPiece Value="Reduces the cooldown of Healing Scan or Advanced Medical Probe by 2 seconds." />
+    <SixPiece Value="Reduces the cooldown of Healing Scan or Advanced Medical Probe by 1.5 seconds." />
     <Sources>
       <ItemName Value="Exhumed Combat Medic's Boots" NodeName="itm.gen.pvp.tech_heals_aim.ilvl_0072.artifact.heavy_feet" />
       <ItemName Value="Dark Reaver Combat Medic's Body Armor" NodeName="itm.gen.pvp.tech_heals_aim.ilvl_0075.artifact.heavy_chest" />
@@ -1001,9 +1001,9 @@
   <SetBonus ID="7106557301573569109">
     <SetBonusName Value="Dark Reaver Combat Tech" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Flaming Fist and Magnetic Blast or Shockstrike and Tactical Surge increase power by 5% for 15 seconds. Cannot occur more than once every 30 seconds." />
-    <FourPiece Value="Flame Burst and Magnetic Blast heat is reduced by 2 or Ion Pulse Tactical Surge energy cells is reduced by 2." />
-    <SixPiece Value="Dealing tech damage will grant Combat Tech's Critical Bonus making one of your next Energy Burst and Immolate or Cell Burst and Fire Pulse critically hit. This effect can't occur more than once every minute." />
+    <TwoPiece Value="Flaming Fist and Magnetic Blast or Shockstrike and Tactical Surge increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
+    <FourPiece Value="Flaming Fist and Rocket Punch's heat is reduced by 2 or Shockstrike and Stockstrike energy cells is reduced by 2." />
+    <SixPiece Value="Activating Flame Burst and Magnetic Blast or Ion Pulse and Tactical Surge will grant Combat Tech's Critical Bonus making one of your next Energy Burst and Immolate or Cell Burst and Fire Pulse critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Dark Reaver Combat Tech's Boots" NodeName="itm.gen.pvp.tech_dps_aim.ilvl_0075.artifact.heavy_feet" />
       <ItemName Value="Exhumed Combat Tech's Gauntlets" NodeName="itm.gen.pvp.tech_dps_aim.ilvl_0072.artifact.heavy_hands" />
@@ -1105,7 +1105,7 @@
   <SetBonus ID="8364425431264944561">
     <SetBonusName Value="Exhumed Professional" />
     <MaxSetBonusPieces Value="14" />
-    <TwoPiece Value="Dealing ranged weapon damage increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Activating Explosive Probe, Ambush and Lethal Shot or Sabotage Charge, Aimed Shot and Dirty Blast increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the cooldown of Target Acquired or Illegal Mods by 15 seconds, and activating either ability restores 15 energy." />
     <SixPiece Value="Laze Target or Smuggler's Luck now has 2 charges and its duration is doubled." />
     <Sources>
@@ -1282,9 +1282,9 @@
   <SetBonus ID="-8133840119065812778">
     <SetBonusName Value="Revanite Enforcer" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase power by 5% for 15 seconds. Cannot occur more than once every 30 seconds." />
-    <FourPiece Value="Overload Shot and Quick Shot's energy cost is reduced by 2." />
-    <SixPiece Value="Activating Stim Boost or Pugnacity will grant Enforcer's Critical Bonus making your next Laceration and Lethal Shot or Sucker Punch and Point Blank Shot critically hit." />
+    <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
+    <FourPiece Value="Backstab and Lethal Strike or Backblast and Point Blank Shot's energy cost is reduced by 2." />
+    <SixPiece Value="Activating Exfiltrate or Scamper will grant Enforcer's Critical Bonus making your next Veiled Strike and Lethal Shot or Bludgeon and Point Blank Shot critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Revanite Enforcer's Jacket" NodeName="itm.gen.raid.tech_dps_cun.ilvl_0087.artifact.medium_chest" />
       <ItemName Value="Resurrected Enforcer's Gloves" NodeName="itm.gen.raid.tech_dps_cun.ilvl_0084.artifact.medium_hands" />
@@ -1371,9 +1371,9 @@
   <SetBonus ID="-7053557906320687425">
     <SetBonusName Value="Revanite Vindicator" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Smash and Raging Burst or Force Sweep and Focused Burst increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Sundering Assault or Sundering Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the minimum range of Saber Throw by 10 meters." />
-    <SixPiece Value="Enrage or Combat Focus will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
+    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
     <Sources>
       <ItemName Value="Revanite Vindicator's Chestguard" NodeName="itm.gen.raid.melee_dps_str.ilvl_0087.artifact.heavy_chest" />
       <ItemName Value="Revanite Vindicator's Greaves" NodeName="itm.gen.raid.melee_dps_str.ilvl_0087.artifact.heavy_legs" />
@@ -1516,7 +1516,7 @@
   <SetBonus ID="-5286644100271962716">
     <SetBonusName Value="Revanite Field Tech" />
     <MaxSetBonusPieces Value="14" />
-    <TwoPiece Value="Dealing ranged weapon damage increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Activating Explosive Probe, Ambush and Lethal Shot or Sabotage Charge, Aimed Shot and Dirty Blast increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the cooldown of Target Acquired or Illegal Mods by 15 seconds, and activating either ability restores 15 energy." />
     <SixPiece Value="Laze Target or Smuggler's Luck now has 2 charges and its duration is doubled." />
     <Sources>
@@ -1712,7 +1712,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Activating a healing ability has a 15% chance to grant Combat Medic's Critical Bonus which causes your next Rapid Scan or Medical Probe to be a critical. This effect can only occur once every 30 seconds." />
     <FourPiece Value="While in Combat Support Cylinder or Combat Support Cell the duration of Supercharged Gas and Supercharge Cells is increased by 5 seconds." />
-    <SixPiece Value="Reduces the cooldown of Healing Scan or Advanced Medical Probe by 2 seconds." />
+    <SixPiece Value="Reduces the cooldown of Healing Scan or Advanced Medical Probe by 1.5 seconds." />
     <Sources>
       <ItemName Value="Resurrected Combat Medic's Legplates" NodeName="itm.gen.raid.tech_heals_aim.ilvl_0084.artifact.heavy_legs" />
       <ItemName Value="Revanite Combat Medic's Gauntlets" NodeName="itm.gen.raid.tech_heals_aim.ilvl_0087.artifact.heavy_hands" />
@@ -1766,9 +1766,9 @@
   <SetBonus ID="-4395787379448232154">
     <SetBonusName Value="Resurrected Combat Tech" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Flaming Fist and Magnetic Blast or Shockstrike and Tactical Surge increase power by 5% for 15 seconds. Cannot occur more than once every 30 seconds." />
-    <FourPiece Value="Flame Burst and Magnetic Blast heat is reduced by 2 or Ion Pulse Tactical Surge energy cells is reduced by 2." />
-    <SixPiece Value="Dealing tech damage will grant Combat Tech's Critical Bonus making one of your next Energy Burst and Immolate or Cell Burst and Fire Pulse critically hit. This effect can't occur more than once every minute." />
+    <TwoPiece Value="Flaming Fist and Magnetic Blast or Shockstrike and Tactical Surge increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
+    <FourPiece Value="Flaming Fist and Rocket Punch's heat is reduced by 2 or Shockstrike and Stockstrike energy cells is reduced by 2." />
+    <SixPiece Value="Activating Flame Burst and Magnetic Blast or Ion Pulse and Tactical Surge will grant Combat Tech's Critical Bonus making one of your next Energy Burst and Immolate or Cell Burst and Fire Pulse critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Resurrected Combat Tech's Helmet" NodeName="itm.gen.raid.tech_dps_aim.ilvl_0084.artifact.heavy_head" />
       <ItemName Value="Resurrected Combat Tech's Boots" NodeName="itm.gen.raid.tech_dps_aim.ilvl_0084.artifact.heavy_feet" />
@@ -1906,9 +1906,9 @@
   <SetBonus ID="-2804858921057183584">
     <SetBonusName Value="Exhumed Stalker" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike increase power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
-    <FourPiece Value="Increases Recklessness or Force Potency charges by 1 and reduces its cooldown by 15 seconds." />
-    <SixPiece Value="After using Overcharge Saber or Battle Rediness your next Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike will critically hit." />
+    <TwoPiece Value="Ball Lightning and Leeching Strike or Psychokinetic Blast and Serenity Strike increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <FourPiece Value="Reduces the cooldown of Recklessness or Force Potency by 15 seconds." />
+    <SixPiece Value="After activating Voltaic Slash and Thrash or Clairvoyant Strike and Double Strike your next Assassinate and Maul or Spinning Strike and Shadow Strike will critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Exhumed Stalker's Boots" NodeName="itm.gen.pvp.hybrid_dps_will.ilvl_0072.artifact.light_feet" />
       <ItemName Value="Dark Reaver Stalker's Legwraps" NodeName="itm.gen.pvp.hybrid_dps_will.ilvl_0075.artifact.light_legs" />
@@ -1990,9 +1990,9 @@
   <SetBonus ID="-2196852889991534796">
     <SetBonusName Value="Revanite Eliminator" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Heatseeker Missile and Thermal Detonator or Demolition Round and Assault Plastique increase alacrity by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Heatseeker Missile and Serrated Shot or Demolition Round and Serrated Bolt increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Power Surge or Tech Override's cooldown is reduced by 5 seconds." />
-    <SixPiece Value="Activating Electro Net will grant Eliminator's Critical Bonus making your next Priming Shot and Mag Shot or Vortex Bolt and Mag Bolt critically hit." />
+    <SixPiece Value="Activating Unload and Blazing Bolts or Full Auto and Boltstorm will grant Eliminator's Critical Bonus making your next Heatseeker Missile and Mag Shot or Demolition Round and Mag Bolt critically hit. This effect can only occur once a minute." />
     <Sources>
       <ItemName Value="Revanite Eliminator's Greaves" NodeName="itm.gen.raid.ranged_dps_aim.ilvl_0087.artifact.heavy_legs" />
       <ItemName Value="Revanite Eliminator's Boots" NodeName="itm.gen.raid.ranged_dps_aim.ilvl_0087.artifact.heavy_feet" />
@@ -2163,7 +2163,7 @@
   <SetBonus ID="-2072948314908061076">
     <SetBonusName Value="Resurrected Force-Master" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Turbulence or Force Serenity and Thundering Blast or Force Leech increase alacrity by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Turbulence or Force Serenity and Thundering Blast or Force Leech increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces cost of Lightning Strike and Force Lightning or Disturbance and Telekinetic Throw by 2 and reduces the cooldown of Polarity Shift or Mental Alacrity by 15 seconds." />
     <SixPiece Value="Lightning Strike and Lightning Bolt or Disturbance and Telekinetic Burst reduce the cooldown of Recklessness or Force Potency by 1 second." />
     <Sources>
@@ -2254,7 +2254,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Activating a healing ability has a 15% chance to grant Field Medic's Critical Bonus which causes your next Kolto Injection or Underworld Medicine to be a critical. This effect can only occur once every 30 seconds." />
     <FourPiece Value="Kolto Infusion or Underworld Medicine's energy cost is reduced by 2." />
-    <SixPiece Value="Reduces the cooldown of Recuperative Nanotech or Kolto Cloud by 2 seconds." />
+    <SixPiece Value="Reduces the cooldown of Kolto Waves by 1 second." />
     <Sources>
       <ItemName Value="Dark Reaver Field Medic's Bracers" NodeName="itm.gen.pvp.tech_heals_cun.ilvl_0075.artifact.medium_wrists" />
       <ItemName Value="Exhumed Field Medic's Suit" NodeName="itm.gen.pvp.tech_heals_cun.ilvl_0072.artifact.medium_chest" />
@@ -2336,9 +2336,9 @@
   <SetBonus ID="-382876479363321508">
     <SetBonusName Value="Exhumed Vindicator" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Smash and Raging Burst or Force Sweep and Focused Burst increases power by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Sundering Assault or Sundering Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the minimum range of Saber Throw by 10 meters." />
-    <SixPiece Value="Enrage or Combat Focus will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
+    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
     <Sources>
       <ItemName Value="Exhumed Vindicator's Handgear" NodeName="itm.gen.pvp.melee_dps_str.ilvl_0072.artifact.heavy_hands" />
       <ItemName Value="Dark Reaver Vindicator's Handgear" NodeName="itm.gen.pvp.melee_dps_str.ilvl_0075.artifact.heavy_hands" />
@@ -2532,9 +2532,9 @@
   <SetBonus ID="-65706603604130889">
     <SetBonusName Value="Dark Reaver Eliminator" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Heatseeker Missile and Thermal Detonator or Demolition Round and Assault Plastique increase alacrity by 5% for 15 seconds. Cannot occur more than once every 30 of seconds." />
+    <TwoPiece Value="Heatseeker Missile and Serrated Shot or Demolition Round and Serrated Bolt increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Power Surge or Tech Override's cooldown is reduced by 5 seconds." />
-    <SixPiece Value="Activating Electro Net will grant Eliminator's Critical Bonus making your next Priming Shot and Mag Shot or Vortex Bolt and Mag Bolt critically hit." />
+    <SixPiece Value="Activating Unload and Blazing Bolts or Full Auto and Boltstorm will grant Eliminator's Critical Bonus making your next Heatseeker Missile and Mag Shot or Demolition Round and Mag Bolt critically hit. This effect can only occur once a minute." />
     <Sources>
       <ItemName Value="Dark Reaver Eliminator's Belt" NodeName="itm.gen.pvp.ranged_dps_aim.ilvl_0075.artifact.heavy_waist" />
       <ItemName Value="Dark Reaver Eliminator's Boots" NodeName="itm.gen.pvp.ranged_dps_aim.ilvl_0075.artifact.heavy_feet" />
