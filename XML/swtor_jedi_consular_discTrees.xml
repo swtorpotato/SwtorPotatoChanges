@@ -859,14 +859,14 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.486" />
-            <StandardHealthPercentMax Value="0.169" />
-            <StandardHealthPercentMin Value="0.129" />
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.38" />
-            <StandardHealthPercentMax Value="0.038" />
-            <StandardHealthPercentMin Value="0.038" />
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -910,20 +910,20 @@
         <ForceCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_consular.skill.serenity.rebounding_force">
         <Label Value="Rebounding Force" />
-        <Description Value="When your Force Technique deals damage, it restores 5 Force." />
+        <Description Value="Sever Force deals 10% additional damage and when your Force Technique deals damage, it restores 5 Force." />
         <Icon Value="reflection" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -961,22 +961,22 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.152" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.jedi_consular.skill.balance.mental_potency">
         <Label Value="Mental Potency" />
-        <Description Value="Reduces the Force cost of Force in Balance by 20." />
+        <Description Value="Increased the damage dealt by Force in Balance by 5% and reduces the Force cost of Force in Balance by 20." />
         <Icon Value="mentalfocus" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.mind_quell">
         <Label Value="Mind Quell" />
-        <Description Value="Increases the damage dealt by Mind Crush and Vanquish by 10%." />
+        <Description Value="Increases the damage dealt by Serenity Strike, Mind Crush, and Vanquish by 20%." />
         <Icon Value="introspection" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2443,21 +2443,9 @@
         <Cooldown Value="1" />
         <CombatLogID Value="2156997000560640" />
       </Ability>
-      <Ability Name="abl.jedi_consular.skill.balance.psychic_projection">
-        <Label Value="Psychic Projection" />
-        <Description Value="When a target affected by your Weaken Mind takes direct damage from your Disturbance, Force Serenity, or Vanquish you gain Psychic Projection, which causes your next Telekinetic Throw to channel and tick twice as fast. This effect cannot occur more than once every 10 seconds." />
-        <Icon Value="forceactivate" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="56" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="3428891435728896" />
-      </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.presence_of_mind">
         <Label Value="Presence of Mind" />
-        <Description Value="Dealing damage with Telekinetic Throw produces a stack of Presence of Mind. At 4 stacks, Presence of Mind causes your next Disturbance, Mind Crush, or Vanquish to activate instantly, consume 50% less Force, and deal 25% more damage." />
+        <Description Value="Dealing damage with Telekinetic Throw produces a stack of Presence of Mind. At 4 stacks, Presence of Mind causes your next Disturbance, Mind Crush, or Vanquish to activate instantly, consume 50% less Force, and deal 20% more damage." />
         <Icon Value="replenish" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2484,14 +2472,14 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.486" />
-            <StandardHealthPercentMax Value="0.169" />
-            <StandardHealthPercentMin Value="0.129" />
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.38" />
-            <StandardHealthPercentMax Value="0.038" />
-            <StandardHealthPercentMin Value="0.038" />
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2523,14 +2511,14 @@
         <ForceCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2593,16 +2581,16 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.152" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.jedi_consular.skill.balance.minds_eye">
         <Label Value="Mind's Eye" />
-        <Description Value="Increases the damage dealt by Rippling Force by 100% and restores 2 Force each time a charge of your Force Suppression is consumed." />
+        <Description Value="Each time a charge of your Force Suppression is consumed, you gain 2 Force." />
         <Icon Value="jkmiralukansurvivor" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2626,9 +2614,15 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.balance.critical_kinesis">
         <Label Value="Critical Kinesis" />
-        <Description Value="Increases the critical chance of Telekinetic Throw and Disturbance by 5%." />
+        <Description Value="Increases the critical chance of Force Serenity and Disturbance by 5%." />
         <Icon Value="railshot" />
         <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.psychic_projection">
+        <Label Value="Psychic Projection" />
+        <Description Value="Telekinetic Throw channels and ticks 33% faster." />
+        <Icon Value="forceactivate" />
+        <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.jedi_consular.skill.balance.mind_warp">
         <Label Value="Mind Warp" />

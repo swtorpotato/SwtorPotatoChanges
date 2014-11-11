@@ -440,7 +440,7 @@
     <SetBonusName Value="Revanite Weaponmaster" />
     <MaxSetBonusPieces Value="14" />
     <TwoPiece Value="Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
-    <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 4% for 15 seconds." />
+    <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 3% for &lt;&lt;1&gt;&gt; seconds." />
     <SixPiece Value="Activating Ravage or Master Strike will grant Weaponmaster's/Challenger's Critical Bonus making your next Vicious Throw, Furious Strike and Annihilate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Revanite Weaponmaster's Gloves" NodeName="itm.gen.raid.melee_dps_alt_str.ilvl_0087.artifact.medium_hands" />
@@ -477,7 +477,7 @@
     <SetBonusName Value="Dark Reaver Challenger" />
     <MaxSetBonusPieces Value="14" />
     <TwoPiece Value="Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
-    <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 4% for 15 seconds." />
+    <FourPiece Value="Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 3% for &lt;&lt;1&gt;&gt; seconds." />
     <SixPiece Value="Activating Ravage or Master Strike will grant Weaponmaster's/Challenger's Critical Bonus making your next Vicious Throw, Furious Strike and Annihilate or Dispatch, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute." />
     <Sources>
       <ItemName Value="Dark Reaver Challenger's Vest" NodeName="itm.gen.pvp.melee_dps2_alt_str.ilvl_0075.artifact.medium_chest" />

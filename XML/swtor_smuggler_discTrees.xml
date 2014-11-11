@@ -848,7 +848,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.turn_the_tables">
         <Label Value="Turn the Tables" />
-        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by 5%. In addition, when Flying Fists damages a target, you recover 4 energy." />
+        <Description Value="Increases the damage dealt by Sucker Punch and Flying Fists by 5%. In addition, when Flying Fists damages a target, you recover 2 energy." />
         <Icon Value="shotgun1" />
         <Damage Value="False" />
         <Healing Value="False" />

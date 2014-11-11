@@ -819,16 +819,28 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.471667" />
-            <StandardHealthPercentMax Value="0.0471667" />
-            <StandardHealthPercentMin Value="0.0471667" />
+            <Coefficient Value="0.452" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.471667" />
-            <StandardHealthPercentMax Value="0.0471667" />
-            <StandardHealthPercentMin Value="0.0471667" />
+            <Coefficient Value="0.452" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
           </Type>
         </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_warrior.skill.annihilation.pulverize">
+        <Label Value="Pulverize" />
+        <Description Value="Your bleed effects have a 20% chance to grant Pulverize, which increases the damage of your next Dual Saber Throw by 100%. This effect can only occur once every 18 seconds." />
+        <Icon Value="jumpingstrike" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2521356256149504" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.hemmorhage">
         <Label Value="Hemorrhage" />
@@ -876,13 +888,13 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.juyo_mastery">
         <Label Value="Juyo Mastery" />
-        <Description Value="Your bleed effects are 1% more likely to critically hit per stack of Juyo Form." />
+        <Description Value="Your bleed effects are 2% more likely to critically hit per stack of Juyo Form." />
         <Icon Value="juyo" />
         <LevelAquired Value="28" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.close_quarters">
         <Label Value="Close Quarters" />
-        <Description Value="Reduces the minimum range of Force Charge by 10 meters and its cooldown by 2 seconds." />
+        <Description Value="Reduces the minimum range of Force Charge by 10 meters and its cooldown by 3 seconds." />
         <Icon Value="sithescape" />
         <LevelAquired Value="20" />
       </Talent>
@@ -896,19 +908,13 @@
         <Label Value="Bleedout" />
         <Description Value="Increases the critical strike damage of your bleed effects by 5%." />
         <Icon Value="bloomingshot" />
-        <LevelAquired Value="52" />
+        <LevelAquired Value="24" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.swift_demise">
         <Label Value="Swift Demise" />
-        <Description Value="Juyo Form and Annihilator build two stacks at a time." />
+        <Description Value="Juyo Form and Annihilator build two stacks at a time. Annihilator also builds up to 3 Swift Demise stacks, which reduce the cost of the next Force Gash." />
         <Icon Value="abl_sw_ma_swift_demise" />
         <LevelAquired Value="59" />
-      </Talent>
-      <Talent Name="tal.sith_warrior.skill.annihilation.pulverize">
-        <Label Value="Pulverize" />
-        <Description Value="Increases the duration of Rupture's bleed effect by 3 seconds." />
-        <Icon Value="jumpingstrike" />
-        <LevelAquired Value="24" />
       </Talent>
     </DisciplineTree>
     <DisciplineTree Name="fury">
@@ -939,7 +945,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
         <Label Value="Battle Cry" />
-        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream consume no rage." />
+        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream deal 5% more damage and generate 1 rage, rather than consume rage." />
         <Icon Value="nightmare" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1147,7 +1153,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.fury.force_flagellation">
         <Label Value="Force Flagellation" />
-        <Description Value="Vicious Slash, Sweeping Slash, Vicious Throw, and Furious Strike deal &lt;&lt;1&gt;&gt; additional Force energy damage. In addition, damage dealt by Smash and Raging Burst overwhelms targets for &lt;&lt;2&gt;&gt; seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Description Value="Vicious Slash and Sweeping Slash deal &lt;&lt;1&gt;&gt; additional Force energy damage. In addition, damage dealt by Smash and Raging Burst overwhelms targets for &lt;&lt;2&gt;&gt; seconds. Overwhelmed targets take 10% more damage from area attacks." />
         <Icon Value="novasaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1166,7 +1172,7 @@
       </Ability>
       <Talent Name="tal.sith_warrior.skill.fury.cruelty">
         <Label Value="Cruelty" />
-        <Description Value="Increases the critical strike chance of Vicious Slash, Sweeping Slash, Vicious Throw, and Furious Strike by 10%." />
+        <Description Value="Increases the critical strike chance of Vicious Slash, Sweeping Slash, Vicious Throw, and Furious Strike by 5%. In addition, Ravage builds 1 Fury each time it deals damage to a target, even during Berserk." />
         <Icon Value="slash" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1489,7 +1495,7 @@
       <Label Value="Carnage" />
       <Ability Name="abl.sith_warrior.skill.carnage.ataru_form">
         <Label Value="Ataru Form" />
-        <Description Value="Enters an acrobatic lightsaber form, increasing accuracy by 3%. In addition, your successful melee attacks have a 20% chance to trigger a second strike that deals &lt;&lt;1&gt;&gt; weapon damage. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="Enters an acrobatic lightsaber form, increasing alacrity by 3%. In addition, your successful melee attacks have a 20% chance to trigger a second strike that deals &lt;&lt;1&gt;&gt; weapon damage. This effect cannot occur more than once every 1.5 seconds." />
         <Icon Value="ataru" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1500,16 +1506,10 @@
         <CombatLogID Value="1259692433080320" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.55" />
-            <StandardHealthPercentMax Value="0.055" />
-            <StandardHealthPercentMin Value="0.055" />
-            <AmmountModifier Value="-0.63375" />
-          </Type>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.55" />
-            <StandardHealthPercentMax Value="0.055" />
-            <StandardHealthPercentMin Value="0.055" />
-            <AmmountModifier Value="-0.63375" />
+            <Coefficient Value="0.5" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.05" />
+            <AmmountModifier Value="-0.67" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1541,16 +1541,16 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.136" />
-            <StandardHealthPercentMin Value="0.136" />
-            <AmmountModifier Value="-0.09" />
+            <Coefficient Value="1.47" />
+            <StandardHealthPercentMax Value="0.147" />
+            <StandardHealthPercentMin Value="0.147" />
+            <AmmountModifier Value="-0.02" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="-0.09" />
+            <AmmountModifier Value="-0.02" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1568,32 +1568,16 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.gore">
         <Label Value="Gore" />
-        <Description Value="Gores the target for &lt;&lt;1&gt;&gt; weapon damage and grants Gore for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds, which increases armor penetration by 100%. Requires two lightsabers." />
+        <Description Value="Increases armor penetration by 100% for &lt;&lt;1&gt;&gt; seconds. Requires two lightsabers." />
         <Icon Value="sweepingslash" />
-        <Damage Value="True" />
+        <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="41" />
-        <OnGCD Value="True" />
-        <Cooldown Value="15" />
-        <Range Value="0" />
-        <TargetArc Value="270" />
+        <OnGCD Value="False" />
+        <Cooldown Value="12" />
         <CombatLogID Value="1261122657189888" />
         <ActionCost Value="1" />
-        <Coeffcients>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.73" />
-            <StandardHealthPercentMax Value="0.173" />
-            <StandardHealthPercentMin Value="0.173" />
-            <AmmountModifier Value="0.16" />
-          </Type>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0" />
-            <StandardHealthPercentMax Value="0" />
-            <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="0.16" />
-          </Type>
-        </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.slaughter">
         <Label Value="Slaughter" />
@@ -1602,7 +1586,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="52" />
+        <LevelAquired Value="48" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3191525773148160" />
@@ -1614,7 +1598,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="56" />
+        <LevelAquired Value="52" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3459999883853824" />
@@ -1635,9 +1619,9 @@
         <ActionCost Value="4" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.56" />
-            <StandardHealthPercentMax Value="0.276" />
-            <StandardHealthPercentMin Value="0.236" />
+            <Coefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.249" />
+            <StandardHealthPercentMin Value="0.209" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1663,7 +1647,7 @@
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Berserk reduces the rage consumed by Massacre and Sweeping Slash by 1." />
         <Icon Value="abl_swjk_mase_efficent_strikes" />
-        <LevelAquired Value="59" />
+        <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.blood_frenzy">
         <Label Value="Blood Frenzy" />
@@ -1691,9 +1675,9 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.carnage.sever">
         <Label Value="Sever" />
-        <Description Value="Increases the critical strike damage bonus of Massacre, Gore, and Devastating Blast by 10%." />
+        <Description Value="Increases the critical strike damage bonus of Massacre and Devastating Blast by 30%." />
         <Icon Value="sunderingassault" />
-        <LevelAquired Value="48" />
+        <LevelAquired Value="59" />
       </Talent>
     </DisciplineTree>
   </AdvClass>
@@ -1953,7 +1937,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
         <Label Value="Battle Cry" />
-        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream consume no rage." />
+        <Description Value="Reduces the cooldown of Obliterate by 3 seconds, and while Shii-Cho Form is active, Force Charge and Obliterate make your next Force Scream deal 5% more damage and generate 1 rage, rather than consume rage." />
         <Icon Value="nightmare" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2628,7 +2612,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.vengeance.ravager">
         <Label Value="Ravager" />
-        <Description Value="Ravage deals 10% more damage." />
+        <Description Value="Ravage deals 20% more damage." />
         <Icon Value="rattatakiacolyte" />
         <LevelAquired Value="20" />
       </Talent>

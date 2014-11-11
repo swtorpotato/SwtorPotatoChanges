@@ -1749,7 +1749,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.concealment.culling">
         <Label Value="Culling" />
-        <Description Value="Increases damage dealt by Laceration and Collateral Strike by 5%. In addition, when Collateral Strike damages a target, you recover 4 energy." />
+        <Description Value="Increases damage dealt by Laceration and Collateral Strike by 5%. In addition, when Collateral Strike damages a target, you recover 2 energy." />
         <Icon Value="aimboost" />
         <Damage Value="False" />
         <Healing Value="False" />

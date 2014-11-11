@@ -849,14 +849,14 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.471667" />
-            <StandardHealthPercentMax Value="0.0471667" />
-            <StandardHealthPercentMin Value="0.0471667" />
+            <Coefficient Value="0.452" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.471667" />
-            <StandardHealthPercentMax Value="0.0471667" />
-            <StandardHealthPercentMin Value="0.0471667" />
+            <Coefficient Value="0.452" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -943,7 +943,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="52" />
+        <LevelAquired Value="24" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="1262157744308224" />
@@ -989,6 +989,18 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3188042554671104" />
       </Ability>
+      <Ability Name="abl.jedi_knight.skill.watchman.mind_sear">
+        <Label Value="Mind Sear" />
+        <Description Value="Your burning effects have a 20% chance to grant Mind Sear which increases the damage of your next Twin Saber Throw by 100%. This effect can only occur once every 18 seconds." />
+        <Icon Value="mentaltorment" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1262187809079296" />
+      </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.focused_leap">
         <Label Value="Focused Leap" />
         <Description Value="Force Leap generates 1 additional focus." />
@@ -1003,19 +1015,13 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.watchman.juyo_mastery">
         <Label Value="Juyo Mastery" />
-        <Description Value="Your burn effects are 1% more likely to critically hit per stack of Juyo Form." />
+        <Description Value="Your burn effects are 2% more likely to critically hit per stack of Juyo Form." />
         <Icon Value="juyo" />
         <LevelAquired Value="28" />
       </Talent>
-      <Talent Name="tal.jedi_knight.skill.watchman.mind_sear">
-        <Label Value="Mind Sear" />
-        <Description Value="Increases the duration of Cauterize's burn effect by 3 seconds." />
-        <Icon Value="mentaltorment" />
-        <LevelAquired Value="24" />
-      </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.close_quarters">
         <Label Value="Close Quarters" />
-        <Description Value="Reduces the minimum range of Force Leap by 10 meters and its cooldown by 2 seconds." />
+        <Description Value="Reduces the minimum range of Force Leap by 10 meters and its cooldown by 3 seconds." />
         <Icon Value="sithescape" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1033,7 +1039,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.accelerating_victory">
         <Label Value="Accelerating Victory" />
-        <Description Value="Juyo Form and Merciless build two stacks at a time." />
+        <Description Value="Juyo Form and Merciless build two stacks at a time. Merciless Slash also builds up to 3 Accelerating Victory stacks, which reduce the cost of the next Force Melt." />
         <Icon Value="abl_jk_se_accelerating_victory" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1194,7 +1200,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.concentration.force_flagellation">
         <Label Value="Force Flagellation" />
-        <Description Value="Slash, Cyclone Slash, Dispatch, and Concentrated Slice deal &lt;&lt;1&gt;&gt; additional Force energy damage. In addition, damage dealt by Force Sweep and Focused Burst overwhelms targets for &lt;&lt;2&gt;&gt; seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Description Value="Slash and Cyclone Slash deal &lt;&lt;1&gt;&gt; additional Force energy damage. In addition, damage dealt by Force Sweep and Focused Burst overwhelms targets for &lt;&lt;2&gt;&gt; seconds. Overwhelmed targets take 10% more damage from area attacks." />
         <Icon Value="novasaber" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1213,7 +1219,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.momentum">
         <Label Value="Momentum" />
-        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm consume no focus." />
+        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm deal 5% more damage and generate 1 focus, rather than consume focus." />
         <Icon Value="cc_follow" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1323,7 +1329,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.concentration.decisive_slashes">
         <Label Value="Decisive Slashes" />
-        <Description Value="Increases the critical strike chance of Slash, Cyclone Slash, Dispatch, and Concentrated Slice by 10%." />
+        <Description Value="Increases the critical strike chance of Slash, Cyclone Slash, Dispatch, and Concentrated Slice by 5%. In addition, Master Strike builds 1 Centering each time it deals damage to a target, even during Zen." />
         <Icon Value="slash" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1519,7 +1525,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="56" />
+        <LevelAquired Value="52" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3469650675367936" />
@@ -1531,14 +1537,14 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="52" />
+        <LevelAquired Value="48" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3188858598457344" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.ataru_form">
         <Label Value="Ataru Form" />
-        <Description Value="Enters an acrobatic lightsaber form, increasing accuracy by 3%. In addition, your successful melee attacks have a 20% chance to trigger a second strike that deals &lt;&lt;1&gt;&gt; weapon damage. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="Enters an acrobatic lightsaber form, increasing alacrity by 3%. In addition, your successful melee attacks have a 20% chance to trigger a second strike that deals &lt;&lt;1&gt;&gt; weapon damage. This effect cannot occur more than once every 1.5 seconds." />
         <Icon Value="ataru" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1549,47 +1555,25 @@
         <CombatLogID Value="1261706772742144" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.55" />
-            <StandardHealthPercentMax Value="0.055" />
-            <StandardHealthPercentMin Value="0.055" />
-            <AmmountModifier Value="-0.63375" />
-          </Type>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.55" />
-            <StandardHealthPercentMax Value="0.055" />
-            <StandardHealthPercentMin Value="0.055" />
-            <AmmountModifier Value="-0.63375" />
+            <Coefficient Value="0.5" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.05" />
+            <AmmountModifier Value="-0.67" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.precision_slash">
-        <Label Value="Precision Slash" />
-        <Description Value="Slashes the target for &lt;&lt;1&gt;&gt; weapon damage and grants Precision for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds, which increases armor penetration by 100%. Requires two lightsabers." />
+        <Label Value="Precision" />
+        <Description Value="Increases armor penetration by 100% for &lt;&lt;1&gt;&gt; seconds. Requires two lightsabers." />
         <Icon Value="twinarcs" />
-        <Damage Value="True" />
+        <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="41" />
-        <OnGCD Value="True" />
-        <Cooldown Value="15" />
-        <Range Value="0" />
-        <TargetArc Value="270" />
+        <OnGCD Value="False" />
+        <Cooldown Value="12" />
         <CombatLogID Value="2209167968305152" />
         <ActionCost Value="1" />
-        <Coeffcients>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.73" />
-            <StandardHealthPercentMax Value="0.173" />
-            <StandardHealthPercentMin Value="0.173" />
-            <AmmountModifier Value="0.16" />
-          </Type>
-          <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0" />
-            <StandardHealthPercentMax Value="0" />
-            <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="0.16" />
-          </Type>
-        </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.opportune_attack">
         <Label Value="Opportune Attack" />
@@ -1619,16 +1603,16 @@
         <ActionCost Value="3" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.36" />
-            <StandardHealthPercentMax Value="0.136" />
-            <StandardHealthPercentMin Value="0.136" />
-            <AmmountModifier Value="-0.09" />
+            <Coefficient Value="1.47" />
+            <StandardHealthPercentMax Value="0.147" />
+            <StandardHealthPercentMin Value="0.147" />
+            <AmmountModifier Value="-0.02" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="-0.09" />
+            <AmmountModifier Value="-0.02" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1648,9 +1632,9 @@
         <ActionCost Value="4" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="2.56" />
-            <StandardHealthPercentMax Value="0.276" />
-            <StandardHealthPercentMin Value="0.236" />
+            <Coefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.249" />
+            <StandardHealthPercentMin Value="0.209" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1670,13 +1654,13 @@
         <Label Value="Efficient Strikes" />
         <Description Value="While Ataru Form is active, Zen reduces the focus consumed by Blade Rush and Cyclone Slash by 1." />
         <Icon Value="abl_swjk_mase_efficent_strikes" />
-        <LevelAquired Value="59" />
+        <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.saber_storm">
         <Label Value="Saber Storm" />
-        <Description Value="Increases the critical strike damage bonus of Blade Rush, Precision Slash, and Clashing Blast by 10%." />
+        <Description Value="Increases the critical strike damage bonus of Blade Rush and Clashing Blast by 10%." />
         <Icon Value="saberstorm" />
-        <LevelAquired Value="48" />
+        <LevelAquired Value="59" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.righteous_zeal">
         <Label Value="Righteous Zeal" />
@@ -2125,7 +2109,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.vigilance.master_focus">
         <Label Value="Master Focus" />
-        <Description Value="Master Strike deals 10% more damage." />
+        <Description Value="Master Strike deals 20% more damage." />
         <Icon Value="mentalacuity" />
         <LevelAquired Value="20" />
       </Talent>
@@ -2867,7 +2851,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.momentum">
         <Label Value="Momentum" />
-        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm consume no focus." />
+        <Description Value="Reduces the cooldown of Zealous Leap by 3 seconds, and while Shii-Cho Form is active, Force Leap and Zealous Leap make your next Blade Storm deal 5% more damage and generate 1 focus, rather than consume focus." />
         <Icon Value="cc_follow" />
         <Damage Value="False" />
         <Healing Value="False" />

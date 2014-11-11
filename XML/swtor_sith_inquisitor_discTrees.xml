@@ -1126,7 +1126,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.wrath">
         <Label Value="Wrath" />
-        <Description Value="Dealing damage with Force Lightning produces a stack of Wrath. At 4 stacks, Wrath causes your next Lightning Strike, Crushing Darkness, or Demolish to activate instantly, consume 50% less Force, and deal 25% more damage." />
+        <Description Value="Dealing damage with Force Lightning produces a stack of Wrath. At 4 stacks, Wrath causes your next Lightning Strike, Crushing Darkness, or Demolish to activate instantly, consume 50% less Force, and deal 20% more damage." />
         <Icon Value="cloakofpain" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1135,18 +1135,6 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="1195199204163584" />
-      </Ability>
-      <Ability Name="abl.sith_inquisitor.skill.madness.lightning_barrage">
-        <Label Value="Lightning Barrage" />
-        <Description Value="When a target affected by your Affliction takes direct damage from your Lightning Strike, Force Leech, or Demolish you gain Lightning Barrage, which causes your next Force Lightning to channel and tick twice as fast. This effect cannot occur more than once every 10 seconds." />
-        <Icon Value="sithsorcerer" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="56" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="3419498342252544" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.creeping_terror">
         <Label Value="Creeping Terror" />
@@ -1164,14 +1152,14 @@
         <ForceCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1192,14 +1180,14 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.486" />
-            <StandardHealthPercentMax Value="0.169" />
-            <StandardHealthPercentMin Value="0.129" />
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.38" />
-            <StandardHealthPercentMax Value="0.038" />
-            <StandardHealthPercentMin Value="0.038" />
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1219,9 +1207,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.152" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
@@ -1265,7 +1253,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.disintegration">
         <Label Value="Disintegration" />
-        <Description Value="Increases the critical chance of Force Lightning and Lightning Strike by 5%." />
+        <Description Value="Increases the critical chance of Force Leech and Lightning Strike by 5%." />
         <Icon Value="crushingdarkness" />
         <LevelAquired Value="32" />
       </Talent>
@@ -1277,7 +1265,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.devour">
         <Label Value="Devour" />
-        <Description Value="Increases the damage dealt by Lightning Burns by 100% and restores 2 Force each time a charge of your Deathmark is consumed." />
+        <Description Value="Each time a charge of your Deathmark is consumed, you gain 2 Force." />
         <Icon Value="suffocate" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1292,6 +1280,12 @@
         <Description Value="Force Lightning no longer has a cooldown." />
         <Icon Value="instantdeathdevice" />
         <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.lightning_barrage">
+        <Label Value="Lightning Barrage" />
+        <Description Value="Force Lightning channels and ticks 33% faster." />
+        <Icon Value="sithsorcerer" />
+        <LevelAquired Value="56" />
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.parasitism">
         <Label Value="Parasitism" />
@@ -2540,14 +2534,14 @@
         <ForceCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.3842857" />
-            <StandardHealthPercentMax Value="0.03842857" />
-            <StandardHealthPercentMin Value="0.03842857" />
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2592,14 +2586,14 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.486" />
-            <StandardHealthPercentMax Value="0.169" />
-            <StandardHealthPercentMin Value="0.129" />
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.38" />
-            <StandardHealthPercentMax Value="0.038" />
-            <StandardHealthPercentMin Value="0.038" />
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2619,16 +2613,16 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.81" />
-            <StandardHealthPercentMax Value="0.201" />
-            <StandardHealthPercentMin Value="0.161" />
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.152" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.hatred.fulguration">
         <Label Value="Fulguration" />
-        <Description Value="When your Lightning Charge deals damage, it restores 5 Force." />
+        <Description Value="Creeping Terror now deals 10% additional damage, and when your Lightning Charge deals damage, it restores 5 Force." />
         <Icon Value="crushed" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2670,7 +2664,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.dreadful_nightmares">
         <Label Value="Dreadful Nightmares" />
-        <Description Value="Increases the damage dealt by Crushing Darkness and Demolish by 10%." />
+        <Description Value="Increases the damage dealt by Leeching Strike, Crushing Darkness, and Demolish by 20%." />
         <Icon Value="dark_embrace" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2682,7 +2676,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.fanatacism">
         <Label Value="Fanaticism" />
-        <Description Value="Reduces the Force consumed by Death Field by 20." />
+        <Description Value="Increases the damage of Death Field by 5% and reduces the Force consumed by Death Field by 20." />
         <Icon Value="frenzy" />
         <LevelAquired Value="12" />
       </Talent>
