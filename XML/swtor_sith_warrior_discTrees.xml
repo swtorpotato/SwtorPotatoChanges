@@ -257,7 +257,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.force_choke">
       <Label Value="Force Choke" />
-      <Description Value="Chokes the target, crushing and stunning it while Force Choke is channeled. Deals &lt;&lt;1&gt;&gt; kinetic damage and builds 4 rage over the channel duration." />
+      <Description Value="Chokes the target, stunning it for &lt;&lt;2&gt;&gt; seconds. Deals &lt;&lt;1&gt;&gt; kinetic damage and builds 3 rage over the duration. This ability can be channeled while moving." />
       <Icon Value="choke" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -267,18 +267,28 @@
       <Cooldown Value="60" />
       <Range Value="10" />
       <TargetArc Value="270" />
-      <ChannelDuration Value="3" />
+      <ChannelDuration Value="1.5" />
       <CombatLogID Value="807754499358720" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.1" />
-          <StandardHealthPercentMax Value="0.11" />
-          <StandardHealthPercentMin Value="0.11" />
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
         </Type>
         <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.1" />
-          <StandardHealthPercentMax Value="0.11" />
-          <StandardHealthPercentMin Value="0.11" />
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
         </Type>
       </Coeffcients>
     </Ability>

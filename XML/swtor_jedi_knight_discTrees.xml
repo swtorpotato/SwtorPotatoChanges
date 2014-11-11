@@ -476,7 +476,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.force_stasis">
       <Label Value="Force Stasis" />
-      <Description Value="Subdues the target, stunning it while the ability is channeled and dealing &lt;&lt;1&gt;&gt; kinetic damage and building 4 focus over the duration of the channel." />
+      <Description Value="Subdues the target, stunning it for &lt;&lt;2&gt;&gt; seconds. Deals &lt;&lt;1&gt;&gt; kinetic damage and builds 3 focus over the duration. This ability can be channeled while moving." />
       <Icon Value="carbonized" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -486,18 +486,28 @@
       <Cooldown Value="60" />
       <Range Value="10" />
       <TargetArc Value="270" />
-      <ChannelDuration Value="3" />
+      <ChannelDuration Value="1.5" />
       <CombatLogID Value="1261925816074240" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.1" />
-          <StandardHealthPercentMax Value="0.11" />
-          <StandardHealthPercentMin Value="0.11" />
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
         </Type>
         <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.1" />
-          <StandardHealthPercentMax Value="0.11" />
-          <StandardHealthPercentMin Value="0.11" />
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.32" />
+          <StandardHealthPercentMax Value="0.032" />
+          <StandardHealthPercentMin Value="0.032" />
         </Type>
       </Coeffcients>
     </Ability>
