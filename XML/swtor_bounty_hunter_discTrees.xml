@@ -1417,7 +1417,7 @@
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.shield_tech.power_armor">
         <Label Value="Power Armor" />
-        <Description Value="Increases damage reduction by 15% and armor rating by 15%." />
+        <Description Value="Increases damage reduction by 2% and armor rating by 15%." />
         <Icon Value="powerarmor" />
         <LevelAquired Value="36" />
       </Talent>
@@ -2089,7 +2089,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
         <Label Value="Power Barrels" />
-        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
+        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 6.5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>

@@ -30,7 +30,7 @@
   <SetBonus ID="297050777087644631">
     <SetBonusName Value="Exhumed Survivor" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Wither or Slow Time increases damage reduction by 2%  for 3 seconds." />
+    <TwoPiece Value="Wither or Slow Time increases damage reduction by 2% for 3 seconds." />
     <FourPiece Value="Wither or Slow Time reduces the cooldown of Mind Control and Mass Mind Control by 2 seconds per activation." />
     <SixPiece Value="Dark Ward's or Kinetic Ward's duration is increased by 3 seconds and charges are increased by 3." />
     <Sources>
@@ -713,7 +713,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
     <FourPiece Value="Backstab and Lethal Strike or Backblast and Point Blank Shot's energy cost is reduced by 2." />
-    <SixPiece Value="Activating Exfiltrate or Scamper will grant Enforcer's Critical Bonus making your next Veiled Strike and Lethal Shot or Bludgeon and Point Blank Shot critically hit. This effect can only occur once every minute." />
+    <SixPiece Value="Activating Shiv and Veiled Strike or Blaster Whip and Bludgeon will grant Enforcer's Critical Bonus making your next Volatile Substance and Corrosive Assault or Blood Broiler and Brutal Shots critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Exhumed Enforcer's Belt" NodeName="itm.gen.pvp.tech_dps_cun.ilvl_0072.artifact.medium_waist" />
       <ItemName Value="Exhumed Enforcer's Armguards" NodeName="itm.gen.pvp.tech_dps_cun.ilvl_0072.artifact.medium_wrists" />
@@ -884,7 +884,7 @@
   <SetBonus ID="5619050282705983134">
     <SetBonusName Value="Revanite Survivor" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Wither or Slow Time increases damage reduction by 2%  for 3 seconds." />
+    <TwoPiece Value="Wither or Slow Time increases damage reduction by 2% for 3 seconds." />
     <FourPiece Value="Wither or Slow Time reduces the cooldown of Mind Control and Mass Mind Control by 2 seconds per activation." />
     <SixPiece Value="Dark Ward's or Kinetic Ward's duration is increased by 3 seconds and charges are increased by 3." />
     <Sources>
@@ -1142,7 +1142,7 @@
   <SetBonus ID="9003472662124777576">
     <SetBonusName Value="Resurrected War Leader" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Crushing Blow or Guardian Slash increases damage reduction by 2%  for 4 seconds." />
+    <TwoPiece Value="Crushing Blow or Guardian Slash increases damage reduction by 2% for 4 seconds." />
     <FourPiece Value="Aegis Assault or Warding Strike reduces the cooldown of Taunt and Challenging Call or Threatening Scream by 2 seconds per activation." />
     <SixPiece Value="Increases the duration of Blade Turning by 1.5 second, and the duration of Invincible or Warding Call by 3 seconds." />
     <Sources>
@@ -1284,7 +1284,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Laceration and Corrosive Assault or Sucker Punch and Brutal Shots increase damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds." />
     <FourPiece Value="Backstab and Lethal Strike or Backblast and Point Blank Shot's energy cost is reduced by 2." />
-    <SixPiece Value="Activating Exfiltrate or Scamper will grant Enforcer's Critical Bonus making your next Veiled Strike and Lethal Shot or Bludgeon and Point Blank Shot critically hit. This effect can only occur once every minute." />
+    <SixPiece Value="Activating Shiv and Veiled Strike or Blaster Whip and Bludgeon will grant Enforcer's Critical Bonus making your next Volatile Substance and Corrosive Assault or Blood Broiler and Brutal Shots critically hit. This effect can only occur once every minute." />
     <Sources>
       <ItemName Value="Revanite Enforcer's Jacket" NodeName="itm.gen.raid.tech_dps_cun.ilvl_0087.artifact.medium_chest" />
       <ItemName Value="Resurrected Enforcer's Gloves" NodeName="itm.gen.raid.tech_dps_cun.ilvl_0084.artifact.medium_hands" />
@@ -1460,7 +1460,7 @@
   <SetBonus ID="-5542605392553779309">
     <SetBonusName Value="Revanite Supercommando" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Heat Blast or Energy Blast increases damage reduction by 2%  for 5 seconds." />
+    <TwoPiece Value="Heat Blast or Energy Blast increases damage reduction by 2% for 5 seconds." />
     <FourPiece Value="While Ion Gas Cylinder or Ion Cell is active, Rocket Punch or Stockstrike reduce the cooldowns of Neural Dart and Sonic Missile or Neural Jolt and Sonic Round by 2 seconds." />
     <SixPiece Value="Increases the duration of Oil Slick or Riot Gas by 3 seconds and the duration of Energy Shield or Reactive Shield by 4 seconds." />
     <Sources>
@@ -2140,7 +2140,7 @@
   <SetBonus ID="-2190871698241706071">
     <SetBonusName Value="Dark Reaver War Leader" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Crushing Blow or Guardian Slash increases damage reduction by 2%  for 4 seconds." />
+    <TwoPiece Value="Crushing Blow or Guardian Slash increases damage reduction by 2% for 4 seconds." />
     <FourPiece Value="Aegis Assault or Warding Strike reduces the cooldown of Taunt and Challenging Call or Threatening Scream by 2 seconds per activation." />
     <SixPiece Value="Increases the duration of Blade Turning by 1.5 second, and the duration of Invincible or Warding Call by 3 seconds." />
     <Sources>
@@ -2453,7 +2453,7 @@
   <SetBonus ID="-178924757051902250">
     <SetBonusName Value="Dark Reaver Supercommando" />
     <MaxSetBonusPieces Value="7" />
-    <TwoPiece Value="Heat Blast or Energy Blast increases damage reduction by 2%  for 5 seconds." />
+    <TwoPiece Value="Heat Blast or Energy Blast increases damage reduction by 2% for 5 seconds." />
     <FourPiece Value="While Ion Gas Cylinder or Ion Cell is active, Rocket Punch or Stockstrike reduce the cooldowns of Neural Dart and Sonic Missile or Neural Jolt and Sonic Round by 2 seconds." />
     <SixPiece Value="Increases the duration of Oil Slick or Riot Gas by 3 seconds and the duration of Energy Shield or Reactive Shield by 4 seconds." />
     <Sources>

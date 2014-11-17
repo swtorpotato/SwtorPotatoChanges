@@ -27,6 +27,7 @@
       <Range Value="10" />
       <TargetArc Value="270" />
       <CombatLogID Value="1679250608357376" />
+      <ForceCost Value="10" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
           <Coefficient Value="0.71" />
@@ -240,11 +241,6 @@
           <StandardHealthPercentMin Value="0.087" />
           <LifeStealModifier Value="1" />
         </Type>
-        <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.07" />
-          <StandardHealthPercentMax Value="0.127" />
-          <StandardHealthPercentMin Value="0.087" />
-        </Type>
       </Coeffcients>
     </Ability>
     <Ability Name="abl.jedi_consular.project">
@@ -299,10 +295,9 @@
       <ForceCost Value="10" />
       <Coeffcients>
         <Type Value="effAction_SpellDamage">
-          <Coefficient Value="0.9" />
-          <StandardHealthPercentMax Value="0.1" />
-          <StandardHealthPercentMin Value="0.08" />
-          <AmmountModifier Value="0.01" />
+          <Coefficient Value="0.58" />
+          <StandardHealthPercentMax Value="0.078" />
+          <StandardHealthPercentMin Value="0.038" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -645,8 +640,8 @@
         <CombatLogID Value="2453757765877760" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.rapid_recovery">
-        <Label Value="" />
-        <Description Value="" />
+        <Label Value="Rapid Recovery" />
+        <Description Value="Increases the amount of Force recovered by Double-bladed Saber Defense by 100%. In addition, when you shield, parry, or deflect an attack, the active cooldown of Resilience is reduced by 1 second. This effect cannot occur more than once a second." />
         <Icon Value="feint" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -654,7 +649,7 @@
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
-        <CombatLogID Value="-1" />
+        <CombatLogID Value="980614048120832" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.particle_acceleration">
         <Label Value="Particle Acceleration" />
@@ -707,7 +702,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.harnessed_shadows">
         <Label Value="Harnessed Shadows" />
-        <Description Value="Project and Slow Time grant Harnessed Shadows, which makes the next Telekinetic Throw or Cascading Debris used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Telekinetic Throw Throw or Cascading Debris  by 25%. Stacks up to 3 times. At 3 stacks, each tick of Telekinetic Throw grants Shadow Protection, which increases damage reduction by 1%. Shadow Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Description Value="Project and Slow Time grant Harnessed Shadows, which makes the next Telekinetic Throw or Cascading Debris used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Telekinetic Throw or Cascading Debris by 25%. Stacks up to 3 times. At 3 stacks, each tick of Telekinetic Throw and Cascading Debris grants Shadow Protection, which increases damage reduction by 1%. Shadow Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
         <Icon Value="healing" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -994,7 +989,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.adjudication">
         <Label Value="Adjudication" />
-        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30%." />
+        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30% and reduces the Force Cost of Spinning Strike by 3." />
         <Icon Value="powerswing" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1619,8 +1614,8 @@
         <CombatLogID Value="812852625539072" />
       </Ability>
       <Talent Name="tal.jedi_consular.skill.technique_mastery">
-        <Label Value="" />
-        <Description Value="" />
+        <Label Value="Technique Mastery" />
+        <Description Value="Improves the effect of your lightsaber charges while they are active: Combat Technique: Increases internal and elemental damage reduction by 10%. Force Technique: Increases the critical hit chance of Force Technique by 50%. Shadow Technique: Increases your armor penetration by 10%." />
         <Icon Value="techniques" />
         <LevelAquired Value="15" />
       </Talent>
@@ -1930,7 +1925,7 @@
         <Cooldown Value="1" />
         <CombatLogID Value="3413940654571520" />
         <UtilityLevel Value="Masterful" />
-        <UtilityPos Value="4" />
+        <UtilityPos Value="13" />
       </Ability>
       <Talent Name="tal.jedi_consular.skill.utility.life_ward">
         <Label Value="Life Ward" />
@@ -2032,7 +2027,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.pain_bearer">
         <Label Value="Pain Bearer" />
-        <Description Value="Increases all healing received by 10%." />
+        <Description Value="Increases all healing received by 10%. Does not affect redistributed life." />
         <Icon Value="guardianleap" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2042,7 +2037,7 @@
         <Description Value="Increases the damage dealt by Forcequake by 25%." />
         <Icon Value="abl_jc_sa_tectonic_mastery" />
         <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="13" />
+        <UtilityPos Value="4" />
       </Talent>
     </UtilityTree>
     <base Name="base">
@@ -2727,7 +2722,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_burst">
         <Label Value="Telekinetic Burst" />
-        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage to the target." />
+        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target by 30% for 3 seconds." />
         <Icon Value="abl_jc_sa_telekinetic_burst" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2742,9 +2737,9 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.151" />
+            <Coefficient Value="1.565" />
+            <StandardHealthPercentMax Value="0.177" />
+            <StandardHealthPercentMin Value="0.137" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2879,9 +2874,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.9" />
-            <StandardHealthPercentMax Value="0.21" />
-            <StandardHealthPercentMin Value="0.17" />
+            <Coefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.2" />
+            <StandardHealthPercentMin Value="0.16" />
           </Type>
         </Coeffcients>
       </Ability>

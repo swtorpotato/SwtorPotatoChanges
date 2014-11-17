@@ -132,11 +132,6 @@
           <StandardHealthPercentMin Value="0.087" />
           <LifeStealModifier Value="1" />
         </Type>
-        <Type Value="effAction_SpellDamage">
-          <Coefficient Value="1.07" />
-          <StandardHealthPercentMax Value="0.127" />
-          <StandardHealthPercentMin Value="0.087" />
-        </Type>
       </Coeffcients>
     </Ability>
     <Ability Name="abl.sith_inquisitor.crushing_darkness">
@@ -620,7 +615,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
         <Label Value="Lightning Bolt" />
-        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage. Lightning Bolt shares a cooldown with Lightning Strike." />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds. Lightning Bolt shares a cooldown with Lightning Strike." />
         <Icon Value="abl_si_so_lightning_bolt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -635,9 +630,9 @@
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.151" />
+            <Coefficient Value="1.565" />
+            <StandardHealthPercentMax Value="0.177" />
+            <StandardHealthPercentMin Value="0.137" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -658,9 +653,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.9" />
-            <StandardHealthPercentMax Value="0.21" />
-            <StandardHealthPercentMin Value="0.17" />
+            <Coefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.2" />
+            <StandardHealthPercentMin Value="0.16" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1247,7 +1242,7 @@
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.madness.lingering_nightmares">
         <Label Value="Lingering Nightmares" />
-        <Description Value="Increases the damage of Crushing Darkness by &lt;&lt;1[%d/%d/%d]&gt;&gt;%." />
+        <Description Value="Increases the duration of Crushing Darkness and Demolish by 2 seconds." />
         <Icon Value="dark_embrace" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1450,7 +1445,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.empty_body">
         <Label Value="Empty Body" />
-        <Description Value="Increases all healing received by 10%." />
+        <Description Value="Increases all healing received by 10%. Does not affect stolen life." />
         <Icon Value="outerrimveteran" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2694,7 +2689,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.claws_of_decay">
         <Label Value="Claws of Decay" />
-        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30%." />
+        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30% and reduces the Force Cost of Assassinate by 3." />
         <Icon Value="animalinsectclaw" />
         <LevelAquired Value="44" />
       </Talent>

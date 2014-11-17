@@ -1898,7 +1898,7 @@
       </Ability>
       <Ability Name="abl.smuggler.sweeping_gunfire">
         <Label Value="Sweeping Gunfire" />
-        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 3 targets within 5 meters. Requires dual blasters. Can only be used from cover." />
+        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 8 targets within 8 meters. Requires dual blasters. Can only be used from cover." />
         <Icon Value="sweepinggunfire" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2488,7 +2488,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.hot_shot">
         <Label Value="Hot Shot" />
-        <Description Value="Charged Burst and Quick Shot apply 1 stack of Blazing Speed's effect to the target." />
+        <Description Value="Charged Burst and Thermal Grenade apply 1 stack of Blazing Speed's effect to the primary target." />
         <Icon Value="shrapround" />
         <LevelAquired Value="40" />
       </Talent>
@@ -2538,7 +2538,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.honed_shots">
         <Label Value="Honed Shots" />
-        <Description Value="Charged Burst grants Honed Shots, increasing the critical hit chance and damage done by Charged Burst by 5% for 15 seconds.  Stacks up to 3 times." />
+        <Description Value="Charged Burst grants Honed Shots, increasing the critical hit chance and damage done by Charged Burst by 5% for &lt;&lt;1&gt;&gt; seconds.  Stacks up to 3 times." />
         <Icon Value="abl_agsm_sngs_honed_shot" />
         <Damage Value="False" />
         <Healing Value="False" />

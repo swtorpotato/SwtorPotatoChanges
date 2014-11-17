@@ -641,7 +641,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
         <Label Value="Hyper Barrels" />
-        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 6.5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
