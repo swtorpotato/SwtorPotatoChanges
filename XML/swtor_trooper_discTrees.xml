@@ -537,7 +537,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.blazing_celerity">
         <Label Value="Blazing Celerity" />
-        <Description Value="Damage dealt by Plasma Cell makes your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 15 seconds." />
+        <Description Value="Damage dealt by Mag Bolt makes your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 15 seconds." />
         <Icon Value="abl_tr_co_blazing_celerity" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -641,7 +641,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
         <Label Value="Hyper Barrels" />
-        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 6.5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -668,7 +668,7 @@
       <Label Value="Combat Medic" />
       <Ability Name="abl.trooper.skill.combat_medic.preventative_medicine">
         <Label Value="Preventative Medicine" />
-        <Description Value="Advanced Medical Probe applies Preventative Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Successive Treatment grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Bacta Infusion applies Preventative Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Successive Treatment grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="armament3" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -680,8 +680,8 @@
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.26" />
-            <StandardHealthPercentMax Value="0.014" />
-            <StandardHealthPercentMin Value="0.014" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -779,9 +779,9 @@
         <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.515" />
-            <StandardHealthPercentMax Value="0.02783333" />
-            <StandardHealthPercentMin Value="0.02383333" />
+            <HealingPowerCoefficient Value="0.46" />
+            <StandardHealthPercentMax Value="0.023" />
+            <StandardHealthPercentMin Value="0.023" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -834,8 +834,8 @@
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.51" />
-            <StandardHealthPercentMax Value="0.0252" />
-            <StandardHealthPercentMin Value="0.0252" />
+            <StandardHealthPercentMax Value="0.0255" />
+            <StandardHealthPercentMin Value="0.0255" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -855,14 +855,14 @@
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.1" />
-            <StandardHealthPercentMax Value="0.075" />
-            <StandardHealthPercentMin Value="0.035" />
+            <HealingPowerCoefficient Value="1.04" />
+            <StandardHealthPercentMax Value="0.072" />
+            <StandardHealthPercentMin Value="0.032" />
           </Type>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.17" />
-            <StandardHealthPercentMax Value="0.0084" />
-            <StandardHealthPercentMin Value="0.0084" />
+            <StandardHealthPercentMax Value="0.0085" />
+            <StandardHealthPercentMin Value="0.0085" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -874,7 +874,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.combat_medic.probe_medic">
         <Label Value="Probe Medic" />
-        <Description Value="Increases the max number of Trauma Probe charges by 3, increases the healing each charge does by 15%, and reduces the rate limits of Trauma Probe by 1 second each." />
+        <Description Value="Increases the max number of Trauma Probe charges by 1, increases the healing each charge does by 5%, and reduces Trauma Probe's rate limit by 0.5 seconds." />
         <Icon Value="surgicalprobe" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1545,9 +1545,9 @@
         <UtilityPos Value="16" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.93" />
-            <StandardHealthPercentMax Value="0.057" />
-            <StandardHealthPercentMin Value="0.037" />
+            <HealingPowerCoefficient Value="0.44" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.012" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2813,7 +2813,7 @@
       <Ability Name="abl.trooper.skill.tactics.cell_burst">
         <Label Value="Cell Burst" />
         <Description Value="Unleashes your High Energy Cell's stored energy to decimate the target, dealing &lt;&lt;1&gt;&gt; energy damage. This damage increases based on your current number of Energy Lodes. While High Energy Cell is active, Energy Lodes build when High Impact Bolt is used, and up to 4 charges may be stored at once." />
-        <Icon Value="abl_tr_vg_cell_burst" />
+        <Icon Value="abl_si_as_demolish" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />

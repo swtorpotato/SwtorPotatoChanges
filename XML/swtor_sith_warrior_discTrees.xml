@@ -294,7 +294,7 @@
     </Ability>
     <Ability Name="abl.sith_warrior.force_charge">
       <Label Value="Force Charge" />
-      <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; damage with the main-hand weapon, immoblizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and interrupting the target's current action. Builds 3 rage. Cannot be used against targets in cover." />
+      <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; damage with the main-hand weapon, immobilizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and interrupting the target's current action. Builds 3 rage. Cannot be used against targets in cover." />
       <Icon Value="forceCharge" />
       <Damage Value="True" />
       <Healing Value="False" />

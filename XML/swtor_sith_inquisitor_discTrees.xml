@@ -615,7 +615,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
         <Label Value="Lightning Bolt" />
-        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds. Lightning Bolt shares a cooldown with Lightning Strike." />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage. Lightning Bolt shares a cooldown with Lightning Strike." />
         <Icon Value="abl_si_so_lightning_bolt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1121,7 +1121,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.wrath">
         <Label Value="Wrath" />
-        <Description Value="Dealing damage with Force Lightning produces a stack of Wrath. At 4 stacks, Wrath causes your next Lightning Strike, Crushing Darkness, or Demolish to activate instantly, consume 50% less Force, and deal 20% more damage." />
+        <Description Value="Dealing damage with Force Lightning produces a stack of Wrath. At 4 stacks, Wrath causes your next Lightning Strike, Crushing Darkness, or Demolish to activate instantly, consume 50% less Force, and deal 25% more damage." />
         <Icon Value="cloakofpain" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1202,9 +1202,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.152" />
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
@@ -1260,7 +1260,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.devour">
         <Label Value="Devour" />
-        <Description Value="Each time a charge of your Deathmark is consumed, you gain 2 Force." />
+        <Description Value="Force Leech deals 25% more damage when used on a target affected by your Affliction. In addition, each time a charge of your Deathmark is consumed, you gain 2 Force." />
         <Icon Value="suffocate" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1278,7 +1278,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.madness.lightning_barrage">
         <Label Value="Lightning Barrage" />
-        <Description Value="Force Lightning channels and ticks 33% faster." />
+        <Description Value="Force Lightning channels and ticks 33% faster but deals 25% less damage." />
         <Icon Value="sithsorcerer" />
         <LevelAquired Value="56" />
       </Talent>
@@ -1445,7 +1445,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.empty_body">
         <Label Value="Empty Body" />
-        <Description Value="Increases all healing received by 10%. Does not affect stolen life." />
+        <Description Value="Increases all healing received by 10%." />
         <Icon Value="outerrimveteran" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2608,9 +2608,9 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.152" />
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
@@ -2671,7 +2671,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.fanatacism">
         <Label Value="Fanaticism" />
-        <Description Value="Increases the damage of Death Field by 5% and reduces the Force consumed by Death Field by 20." />
+        <Description Value="Reduces the Force consumed by Death Field by 20." />
         <Icon Value="frenzy" />
         <LevelAquired Value="12" />
       </Talent>
@@ -2689,7 +2689,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.claws_of_decay">
         <Label Value="Claws of Decay" />
-        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30% and reduces the Force Cost of Assassinate by 3." />
+        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30%." />
         <Icon Value="animalinsectclaw" />
         <LevelAquired Value="44" />
       </Talent>

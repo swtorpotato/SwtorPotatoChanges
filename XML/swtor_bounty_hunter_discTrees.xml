@@ -1493,7 +1493,7 @@
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.energy_burst">
         <Label Value="Energy Burst" />
         <Description Value="Unleashes your High Energy Gas Cylinder's stored energy to decimate the target, dealing &lt;&lt;1&gt;&gt; energy damage. This damage increases based on your current number of Energy Lodes. While High Energy Gas Cylinder is active, Energy Lodes build when Rail Shot is used, and up to 4 charges may be stored at once." />
-        <Icon Value="abl_bh_pt_energy_burst" />
+        <Icon Value="abl_si_as_demolish" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
@@ -1707,7 +1707,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.proactive_medicine">
         <Label Value="Proactive Medicine" />
-        <Description Value="Healing Scan applies Proactive Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Progressive Scan grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
+        <Description Value="Emergency Scan applies Proactive Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Progressive Scan grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
         <Icon Value="armament3" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1719,8 +1719,8 @@
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.26" />
-            <StandardHealthPercentMax Value="0.014" />
-            <StandardHealthPercentMin Value="0.014" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1739,9 +1739,9 @@
         <EnergyCost Value="10" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.515" />
-            <StandardHealthPercentMax Value="0.02783333" />
-            <StandardHealthPercentMin Value="0.02383333" />
+            <HealingPowerCoefficient Value="0.46" />
+            <StandardHealthPercentMax Value="0.023" />
+            <StandardHealthPercentMin Value="0.023" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1780,14 +1780,14 @@
         <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.1" />
-            <StandardHealthPercentMax Value="0.075" />
-            <StandardHealthPercentMin Value="0.035" />
+            <HealingPowerCoefficient Value="1.04" />
+            <StandardHealthPercentMax Value="0.072" />
+            <StandardHealthPercentMin Value="0.032" />
           </Type>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.17" />
-            <StandardHealthPercentMax Value="0.0084" />
-            <StandardHealthPercentMin Value="0.0084" />
+            <StandardHealthPercentMax Value="0.0085" />
+            <StandardHealthPercentMin Value="0.0085" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1828,8 +1828,8 @@
         <Coeffcients>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="0.51" />
-            <StandardHealthPercentMax Value="0.0252" />
-            <StandardHealthPercentMin Value="0.0252" />
+            <StandardHealthPercentMax Value="0.0255" />
+            <StandardHealthPercentMin Value="0.0255" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1890,12 +1890,12 @@
       <Talent Name="tal.bounty_hunter.skill.bodyguard.empowered_scans">
         <Label Value="Empowered Scans" />
         <Description Value="Increases the healing done by Emergency Scan and Healing Scan by 5%. In addition, Rapid Scan generates an extra stack of Supercharge when activated, and Progressive Scan channels 20% faster." />
-        <Icon Value="imperialdatapad" />
+        <Icon Value="abl_bh_me_kolto_shot" />
         <LevelAquired Value="32" />
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.bodyguard">
         <Label Value="Bodyguard" />
-        <Description Value="Increases the max number of Kolto Shell charges by 3, increases the healing each charge does by 15%, and reduces Kolto Shell's rate limit by 1 second." />
+        <Description Value="Increases the max number of Kolto Shell charges by 1, increases the healing each charge does by 5%, and reduces Kolto Shell's rate limit by 0.5 seconds." />
         <Icon Value="rangedtankunlock" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1983,7 +1983,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.speed_to_burn">
         <Label Value="Speed to Burn" />
-        <Description Value="Damage dealt by Combustible Gas Cylinder makes your next Power Shot or Serrated Shot activate instantly. This effect cannot occur more than once every 15 seconds." />
+        <Description Value="Damage dealt by Mag Shot makes your next Power Shot or Serrated Shot activate instantly. This effect cannot occur more than once every 15 seconds." />
         <Icon Value="abl_bh_me_speed_burn" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2089,7 +2089,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
         <Label Value="Power Barrels" />
-        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 6.5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
+        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -2195,9 +2195,9 @@
         <UtilityPos Value="11" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="0.93" />
-            <StandardHealthPercentMax Value="0.057" />
-            <StandardHealthPercentMin Value="0.037" />
+            <HealingPowerCoefficient Value="0.44" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.012" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2986,7 +2986,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.target_tracking">
         <Label Value="Target Tracking" />
-        <Description Value="Increases the critical damage bonus of Rail Shot, Heatseeker Missiles, and  Priming Shotby 30%." />
+        <Description Value="Increases the critical damage bonus of Rail Shot, Heatseeker Missiles, and  Priming Shot by 30%." />
         <Icon Value="missilefan" />
         <LevelAquired Value="36" />
       </Talent>

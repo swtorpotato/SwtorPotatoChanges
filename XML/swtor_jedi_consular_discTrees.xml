@@ -956,16 +956,16 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.152" />
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.jedi_consular.skill.balance.mental_potency">
         <Label Value="Mental Potency" />
-        <Description Value="Increased the damage dealt by Force in Balance by 5% and reduces the Force cost of Force in Balance by 20." />
+        <Description Value="Reduces the Force cost of Force in Balance by 20." />
         <Icon Value="mentalfocus" />
         <LevelAquired Value="12" />
       </Talent>
@@ -989,7 +989,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.adjudication">
         <Label Value="Adjudication" />
-        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30% and reduces the Force Cost of Spinning Strike by 3." />
+        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30%." />
         <Icon Value="powerswing" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2027,7 +2027,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.pain_bearer">
         <Label Value="Pain Bearer" />
-        <Description Value="Increases all healing received by 10%. Does not affect redistributed life." />
+        <Description Value="Increases all healing received by 10%." />
         <Icon Value="guardianleap" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2440,7 +2440,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.presence_of_mind">
         <Label Value="Presence of Mind" />
-        <Description Value="Dealing damage with Telekinetic Throw produces a stack of Presence of Mind. At 4 stacks, Presence of Mind causes your next Disturbance, Mind Crush, or Vanquish to activate instantly, consume 50% less Force, and deal 20% more damage." />
+        <Description Value="Dealing damage with Telekinetic Throw produces a stack of Presence of Mind. At 4 stacks, Presence of Mind causes your next Disturbance, Mind Crush, or Vanquish to activate instantly, consume 50% less Force, and deal 25% more damage." />
         <Icon Value="replenish" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2576,16 +2576,16 @@
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.72" />
-            <StandardHealthPercentMax Value="0.192" />
-            <StandardHealthPercentMin Value="0.152" />
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
             <LifeStealModifier Value="0.1" />
           </Type>
         </Coeffcients>
       </Ability>
       <Talent Name="tal.jedi_consular.skill.balance.minds_eye">
         <Label Value="Mind's Eye" />
-        <Description Value="Each time a charge of your Force Suppression is consumed, you gain 2 Force." />
+        <Description Value="Force Serenity deals 25% more damage when used on a target affected by your Weaken Mind. In addition, each time a charge of your Force Suppression is consumed, you gain 2 Force." />
         <Icon Value="jkmiralukansurvivor" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2615,7 +2615,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.balance.psychic_projection">
         <Label Value="Psychic Projection" />
-        <Description Value="Telekinetic Throw channels and ticks 33% faster." />
+        <Description Value="Telekinetic Throw channels and ticks 33% faster but deals 25% less damage." />
         <Icon Value="forceactivate" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2722,7 +2722,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_burst">
         <Label Value="Telekinetic Burst" />
-        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target by 30% for 3 seconds." />
+        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage to the target." />
         <Icon Value="abl_jc_sa_telekinetic_burst" />
         <Damage Value="True" />
         <Healing Value="False" />

@@ -1477,7 +1477,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.honed_shots">
         <Label Value="Honed Shots" />
-        <Description Value="Snipe grants Honed Shots, increasing the critical hit chance and damage done by Snipe by 5% for &lt;&lt;1&gt;&gt; seconds.  Stacks up to 3 times." />
+        <Description Value="Snipe grants Honed Shots, increasing the critical hit chance and damage done by Snipe by 5% for 15 seconds.  Stacks up to 3 times." />
         <Icon Value="abl_agsm_sngs_honed_shot" />
         <Damage Value="False" />
         <Healing Value="False" />

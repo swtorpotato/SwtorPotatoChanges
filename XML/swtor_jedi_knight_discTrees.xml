@@ -407,7 +407,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.force_leap">
       <Label Value="Force Leap" />
-      <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; damage with the main-hand weapon, immoblizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and interrupting the target's current action. Builds 3 focus. Cannot be used against targets in cover." />
+      <Description Value="Jumps to a distant target, dealing &lt;&lt;1&gt;&gt; damage with the main-hand weapon, immobilizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and interrupting the target's current action. Builds 3 focus. Cannot be used against targets in cover." />
       <Icon Value="forceLeap" />
       <Damage Value="True" />
       <Healing Value="False" />
@@ -1959,7 +1959,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="36" />
+        <LevelAquired Value="40" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="2848894757109760" />
@@ -1971,7 +1971,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="40" />
+        <LevelAquired Value="36" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <TargetArc Value="360" />
@@ -1984,7 +1984,7 @@
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
-        <LevelAquired Value="32" />
+        <LevelAquired Value="48" />
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="1280780722503680" />
@@ -2058,7 +2058,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.plasma_brand">
         <Label Value="Plasma Brand" />
-        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; elemental damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; internal damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="explosivefuel" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2117,7 +2117,7 @@
         <Label Value="Vigilance" />
         <Description Value="Reduces the cooldown of Overhead Slash by 6 seconds and Blade Storm by 3 seconds." />
         <Icon Value="auraofcertainty" />
-        <LevelAquired Value="48" />
+        <LevelAquired Value="32" />
       </Talent>
     </DisciplineTree>
     <UtilityTree Name="utility">
@@ -2221,7 +2221,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.guardianship">
         <Label Value="Guardianship" />
-        <Description Value="Challenging Call protects all allies within range, excluding yourself, granting Guardianship, which absorbs a moderate amount of damage. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Challenging Call has a &lt;&lt;1&gt;&gt;% chance to protect all allies within range, excluding yourself, granting Guardianship, which absorbs a moderate amount of damage. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="auraofresistance" />
         <Damage Value="False" />
         <Healing Value="False" />
