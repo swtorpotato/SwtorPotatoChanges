@@ -827,9 +827,9 @@
             <AmmountModifier Value="-0.5" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.2" />
-            <StandardHealthPercentMax Value="0.02" />
-            <StandardHealthPercentMin Value="0.02" />
+            <Coefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.027" />
+            <StandardHealthPercentMin Value="0.027" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2058,7 +2058,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.plasma_brand">
         <Label Value="Plasma Brand" />
-        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; internal damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; elemental damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="explosivefuel" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2221,7 +2221,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.guardianship">
         <Label Value="Guardianship" />
-        <Description Value="Challenging Call has a &lt;&lt;1&gt;&gt;% chance to protect all allies within range, excluding yourself, granting Guardianship, which absorbs a moderate amount of damage. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Challenging Call protects all allies within range, excluding yourself, granting Guardianship, which absorbs a moderate amount of damage. Lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="auraofresistance" />
         <Damage Value="False" />
         <Healing Value="False" />

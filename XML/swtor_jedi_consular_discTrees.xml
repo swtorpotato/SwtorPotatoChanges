@@ -989,7 +989,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.adjudication">
         <Label Value="Adjudication" />
-        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30%." />
+        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30% and reduces the Force Cost of Spinning Strike by 3." />
         <Icon Value="powerswing" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1644,7 +1644,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.salvation">
         <Label Value="Salvation" />
-        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;2&gt;&gt; over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Applies a periodic healing effect to up to 8 allies within 8 meters of the targeted area, which heals for &lt;&lt;1&gt;&gt; over &lt;&lt;2&gt;&gt; seconds. Once a target has received the periodic healing effect, the target may leave the area and will continue to be healed by the effect." />
         <Icon Value="onewiththeforce" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1677,20 +1677,20 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="3" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="812951409786880" />
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.64" />
-            <StandardHealthPercentMax Value="0.152" />
-            <StandardHealthPercentMin Value="0.112" />
+            <HealingPowerCoefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.1345" />
+            <StandardHealthPercentMin Value="0.0945" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.conveyance">
         <Label Value="Conveyance" />
-        <Description Value="Your Rejuvenate grants Conveyance for 15 seconds, which increases the effect of your next healing ability: Benevolence: Critical chance increased by 60%. Deliverance: Activation time reduced by 0.5 seconds. Healing Trance: Critical chance increased by 25%. Salvation: Force cost reduced by 30%." />
+        <Description Value="Your Rejuvenate grants Conveyance for 15 seconds, which increases the effect of your next healing ability: Benevolence: Critical chance increased by 60%. Deliverance: Activation time reduced by 0.5 seconds. Healing Trance: Critical chance increased by 25%. Salvation: Force cost reduced by 30%. Wandering Mend: Immediately wanders to and heals each target, without waiting for the target to take damage first." />
         <Icon Value="jcjedischolar" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1715,6 +1715,11 @@
         <CombatLogID Value="3347287057104896" />
         <ForceCost Value="50" />
         <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="2.1" />
             <StandardHealthPercentMax Value="0.125" />
@@ -2027,7 +2032,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.pain_bearer">
         <Label Value="Pain Bearer" />
-        <Description Value="Increases all healing received by 10%." />
+        <Description Value="Increases all healing received by 10%. Does not affect redistributed life." />
         <Icon Value="guardianleap" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2722,7 +2727,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_burst">
         <Label Value="Telekinetic Burst" />
-        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage to the target." />
+        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target by 30% for 3 seconds." />
         <Icon Value="abl_jc_sa_telekinetic_burst" />
         <Damage Value="True" />
         <Healing Value="False" />

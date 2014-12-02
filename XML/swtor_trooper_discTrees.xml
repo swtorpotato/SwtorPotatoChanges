@@ -641,7 +641,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
         <Label Value="Hyper Barrels" />
-        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 6.5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -1479,7 +1479,7 @@
       </Ability>
       <Ability Name="abl.trooper.target_lock">
         <Label Value="Target Lock" />
-        <Description Value="Full Auto, Boltstorm, High Impact Bolt, and Mag Bolt ignore 30% of the target's armor. In addition, the critical chance of Advanced Medical Probe and Bacta Infusion are increased by 5%, and critical results with damage and healing abilities increase alacrity by 3% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Full Auto, Boltstorm, High Impact Bolt, and Mag Bolt ignore 30% of the target's armor. In addition, the critical chance of Advanced Medical Probe and Bacta Infusion are increased by 5%, and critical results with damage and healing abilities increase critical damage and healing by 10% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="lockandload" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1955,7 +1955,7 @@
       </Ability>
       <Talent Name="tal.trooper.skill.shield_specialist.soldiers_grit">
         <Label Value="Soldier's Grit" />
-        <Description Value="Adrenaline Rush now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Battle Focus increases alacrity by 5% while active." />
+        <Description Value="Adrenaline Rush now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Battle Focus increases defense chance by 35% while active." />
         <Icon Value="cc_aggressive" />
         <LevelAquired Value="48" />
       </Talent>

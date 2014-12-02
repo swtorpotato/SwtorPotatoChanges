@@ -1429,7 +1429,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.shield_tech.coolant">
         <Label Value="Coolant" />
-        <Description Value="Kolto Overload now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Explosive Fuel increases alacrity by 5% while active." />
+        <Description Value="Kolto Overload now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Explosive Fuel increases defense chance by 35% while active." />
         <Icon Value="coolant" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2089,7 +2089,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.power_barrels">
         <Label Value="Power Barrels" />
-        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
+        <Description Value="Reduces the cooldown of Unload by 3 seconds and Fusion Missile by 6.5 seconds. Additionally lowers the heat cost of Fusion Missile by 5." />
         <Icon Value="shockround" />
         <LevelAquired Value="32" />
       </Talent>
@@ -2389,7 +2389,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.advanced_targeting">
         <Label Value="Advanced Targeting" />
-        <Description Value="Unload, Blazing Bolts, Rail Shot, and Mag Shot ignore 30% of the target's armor. In addition, the critical chance of Healing Scan and Emergency Scan are increased by 5%, and critical results with damage and healing abilities increase alacrity by 3% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Description Value="Unload, Blazing Bolts, Rail Shot, and Mag Shot ignore 30% of the target's armor. In addition, the critical chance of Healing Scan and Emergency Scan are increased by 5%, and critical results with damage and healing abilities increase critical damage and healing by 10% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="lockandload" />
         <Damage Value="False" />
         <Healing Value="False" />

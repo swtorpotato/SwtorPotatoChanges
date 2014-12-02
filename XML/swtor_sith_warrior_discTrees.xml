@@ -529,7 +529,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.utility.interceptor">
         <Label Value="Interceptor" />
-        <Description Value="Force Charge, Force Gash, Devastating Blast, and Obliterate snare the target, reducing its movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Force Charge, Force Rend, Devastating Blast, and Obliterate snare the target, reducing its movement speed by 50% for &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="lowslash_old" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -797,15 +797,15 @@
             <AmmountModifier Value="-0.5" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.2" />
-            <StandardHealthPercentMax Value="0.02" />
-            <StandardHealthPercentMin Value="0.02" />
+            <Coefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.027" />
+            <StandardHealthPercentMin Value="0.027" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.force_gash">
-        <Label Value="Force Gash" />
-        <Description Value="Summons dark Force power to gash the target, causing it to bleed for &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Label Value="Force Rend" />
+        <Description Value="Summons dark Force power to rend the target, causing it to bleed for &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
         <Icon Value="abl_sw_ma_force_gash" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -900,7 +900,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.hemorrhaging_smash">
         <Label Value="Hemorrhaging Smash" />
-        <Description Value="Smash spreads your Rupture and Force Gash bleeds to targets it hits, if it hits a target already affected by those bleeds." />
+        <Description Value="Smash spreads your Rupture and Force Rend bleeds to targets it hits, if it hits a target already affected by those bleeds." />
         <Icon Value="abl_sw_ma_hemorrhaging_smash" />
         <LevelAquired Value="12" />
       </Talent>
@@ -912,7 +912,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.annihilation.swift_demise">
         <Label Value="Swift Demise" />
-        <Description Value="Juyo Form and Annihilator build two stacks at a time. Annihilator also builds up to 3 Swift Demise stacks, which reduce the cost of the next Force Gash." />
+        <Description Value="Juyo Form and Annihilator build two stacks at a time. Annihilator also builds up to 3 Swift Demise stacks, which reduce the cost of the next Force Rend." />
         <Icon Value="abl_sw_ma_swift_demise" />
         <LevelAquired Value="59" />
       </Talent>

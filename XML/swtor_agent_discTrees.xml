@@ -1477,7 +1477,7 @@
       </Ability>
       <Ability Name="abl.agent.skill.marksmanship.honed_shots">
         <Label Value="Honed Shots" />
-        <Description Value="Snipe grants Honed Shots, increasing the critical hit chance and damage done by Snipe by 5% for 15 seconds.  Stacks up to 3 times." />
+        <Description Value="Snipe grants Honed Shots, increasing the critical hit chance and damage done by Snipe by 5% for &lt;&lt;1&gt;&gt; seconds.  Stacks up to 3 times." />
         <Icon Value="abl_agsm_sngs_honed_shot" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1854,12 +1854,12 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="815240627355648" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.8" />
-            <StandardHealthPercentMax Value="0.11" />
-            <StandardHealthPercentMin Value="0.07" />
+            <HealingPowerCoefficient Value="1.26" />
+            <StandardHealthPercentMax Value="0.083" />
+            <StandardHealthPercentMin Value="0.043" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1901,12 +1901,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
         <CombatLogID Value="3401961990782976" />
-        <EnergyCost Value="24" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="3" />
-            <StandardHealthPercentMax Value="0.17" />
-            <StandardHealthPercentMin Value="0.13" />
+            <HealingPowerCoefficient Value="2.55" />
+            <StandardHealthPercentMax Value="0.1475" />
+            <StandardHealthPercentMin Value="0.1075" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2029,7 +2029,7 @@
       </Talent>
       <Talent Name="tal.agent.skill.medic.accomplished_doctor">
         <Label Value="Accomplished Doctor" />
-        <Description Value="Increases the critical healing bonus of Kolto Injection, Kolto Infusion, and Surgical Probe by 20%." />
+        <Description Value="Increases the critical healing bonus of Kolto Injection, Kolto Infusion, and Surgical Probe by 20%. In addition, healing a target with Surgical Probe will refresh the duration of your Kolto Probe on that target, if that target has 2 stacks of your Kolto Probe." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>

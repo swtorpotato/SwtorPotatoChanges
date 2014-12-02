@@ -1294,12 +1294,12 @@
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
         <CombatLogID Value="3406424461803520" />
-        <EnergyCost Value="24" />
+        <EnergyCost Value="20" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="3" />
-            <StandardHealthPercentMax Value="0.17" />
-            <StandardHealthPercentMin Value="0.13" />
+            <HealingPowerCoefficient Value="2.55" />
+            <StandardHealthPercentMax Value="0.1475" />
+            <StandardHealthPercentMin Value="0.1075" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1396,12 +1396,12 @@
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="807518276157440" />
-        <EnergyCost Value="15" />
+        <EnergyCost Value="5" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="1.8" />
-            <StandardHealthPercentMax Value="0.11" />
-            <StandardHealthPercentMin Value="0.07" />
+            <HealingPowerCoefficient Value="1.26" />
+            <StandardHealthPercentMax Value="0.083" />
+            <StandardHealthPercentMin Value="0.043" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1444,7 +1444,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.sawbones.accomplished_sawbones">
         <Label Value="Accomplished Sawbones" />
-        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Pack, and Emergency Medpac by 20%." />
+        <Description Value="Increases the critical healing bonus of Underworld Medicine, Kolto Pack, and Emergency Medpac by 20%. In addition, healing a target with Emergency Medpac will refresh the duration of your Slow-release Medpac on that target, if that target has 2 stacks of your Slow-release Medpac." />
         <Icon Value="accomplishedsawbones" />
         <LevelAquired Value="52" />
       </Talent>
@@ -1898,7 +1898,7 @@
       </Ability>
       <Ability Name="abl.smuggler.sweeping_gunfire">
         <Label Value="Sweeping Gunfire" />
-        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 3 targets within 5 meters. Requires dual blasters. Can only be used from cover." />
+        <Description Value="Sprays a wave of bolts over the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration to up to 8 targets within 8 meters. Requires dual blasters. Can only be used from cover." />
         <Icon Value="sweepinggunfire" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2057,7 +2057,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.utility.reset_engagement">
         <Label Value="Reset Engagement" />
-        <Description Value="Slapping a target with Blaster Whip grants Reset Enagement, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
+        <Description Value="Slapping a target with Blaster Whip grants Reset Engagement, increasing your movement speed by 50% for &lt;&lt;1&gt;&gt; seconds. Additionally, the final shot of Speedshot and Penetrating Rounds knocks back the target if they are within 10 meters." />
         <Icon Value="pistolwhip" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2150,7 +2150,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.hot_pursuit">
         <Label Value="Hot Pursuit" />
-        <Description Value="You gain 4 charges of Hot Pursuit upon exiting cover, which reduces the energy cost of Quick Shot by 100%. Each use of Quick Shot consumes 1 charge, and consumes of the first charge triggers a 20 second rate-limit on this skill. This effect lasts 15 seconds but is also removed by consuming all charges or reentering cover." />
+        <Description Value="You gain 4 charges of Hot Pursuit upon exiting cover, which reduces the energy cost of Quick Shot by 100%. Each use of Quick Shot consumes 1 charge, and consuming the first charge triggers a 20 second rate-limit on this skill. This effect lasts 15 seconds but is also removed by consuming all charges or reentering cover." />
         <Icon Value="desperatecommand" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -2488,7 +2488,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.saboteur.hot_shot">
         <Label Value="Hot Shot" />
-        <Description Value="Charged Burst and Quick Shot apply 1 stack of Blazing Speed's effect to the target." />
+        <Description Value="Charged Burst and Thermal Grenade apply 1 stack of Blazing Speed's effect to the primary target." />
         <Icon Value="shrapround" />
         <LevelAquired Value="40" />
       </Talent>
@@ -2538,7 +2538,7 @@
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.honed_shots">
         <Label Value="Honed Shots" />
-        <Description Value="Charged Burst grants Honed Shots, increasing the critical hit chance and damage done by Charged Burst by 5% for 15 seconds.  Stacks up to 3 times." />
+        <Description Value="Charged Burst grants Honed Shots, increasing the critical hit chance and damage done by Charged Burst by 5% for &lt;&lt;1&gt;&gt; seconds.  Stacks up to 3 times." />
         <Icon Value="abl_agsm_sngs_honed_shot" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2905,7 +2905,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.dirty_fighting.bombastic">
         <Label Value="Bombastic" />
-        <Description Value="Increases the damage dealt by Thermal Grenade by 5% and reduced the energy cost of Speed Shot by 1 per second." />
+        <Description Value="Increases the damage dealt by Thermal Grenade by 5% and reduces the energy cost of Speed Shot by 1 per tick." />
         <Icon Value="shrapnelburst" />
         <LevelAquired Value="40" />
       </Talent>

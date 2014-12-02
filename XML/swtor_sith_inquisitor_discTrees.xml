@@ -615,7 +615,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
         <Label Value="Lightning Bolt" />
-        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage. Lightning Bolt shares a cooldown with Lightning Strike." />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds. Lightning Bolt shares a cooldown with Lightning Strike." />
         <Icon Value="abl_si_so_lightning_bolt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1445,7 +1445,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.empty_body">
         <Label Value="Empty Body" />
-        <Description Value="Increases all healing received by 10%." />
+        <Description Value="Increases all healing received by 10%. Does not affect stolen life." />
         <Icon Value="outerrimveteran" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -1502,7 +1502,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.revivification">
         <Label Value="Revivification" />
-        <Description Value="Heals up to 8 allies that remain within 8 meters of the targeted area for &lt;&lt;2&gt;&gt; over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Applies a periodic healing effect to up to 8 allies within 8 meters of the targeted area, which heals for &lt;&lt;1&gt;&gt; over &lt;&lt;2&gt;&gt; seconds. Once a target has received the periodic healing effect, the target may leave the area and will continue to be healed by the effect." />
         <Icon Value="darkaffliction" />
         <Damage Value="False" />
         <Healing Value="True" />
@@ -1535,14 +1535,14 @@
         <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
-        <ActivationTime Value="3" />
+        <ActivationTime Value="2.5" />
         <CombatLogID Value="3411032961712128" />
         <ForceCost Value="30" />
         <Coeffcients>
           <Type Value="effAction_Heal">
-            <HealingPowerCoefficient Value="2.64" />
-            <StandardHealthPercentMax Value="0.152" />
-            <StandardHealthPercentMin Value="0.112" />
+            <HealingPowerCoefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.1345" />
+            <StandardHealthPercentMin Value="0.0945" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1560,7 +1560,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.force_bending">
         <Label Value="Force Bending" />
-        <Description Value="Your Resurgence grants Force Bending for 15 seconds, which increases the effect of your next healing ability: Dark Heal: Critical chance increased by 60%. Dark Infusion: Activation time reduced by 0.5 seconds. Innervate: Critical chance increased by 25%. Revivification: Force cost reduced by 30%. Roaming Mend: Force cost reduced by 30%." />
+        <Description Value="Your Resurgence grants Force Bending for 15 seconds, which increases the effect of your next healing ability: Dark Heal: Critical chance increased by 60%. Dark Infusion: Activation time reduced by 0.5 seconds. Innervate: Critical chance increased by 25%. Revivification: Force cost reduced by 30%. Roaming Mend: Immediately roams to and heals each target, without waiting for the target to take damage first." />
         <Icon Value="drain_life" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1616,6 +1616,11 @@
         <CombatLogID Value="3401283385950208" />
         <ForceCost Value="50" />
         <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
           <Type Value="effAction_Heal">
             <HealingPowerCoefficient Value="2.1" />
             <StandardHealthPercentMax Value="0.125" />
@@ -2689,7 +2694,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.claws_of_decay">
         <Label Value="Claws of Decay" />
-        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30%." />
+        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30% and reduces the Force Cost of Assassinate by 3." />
         <Icon Value="animalinsectclaw" />
         <LevelAquired Value="44" />
       </Talent>
