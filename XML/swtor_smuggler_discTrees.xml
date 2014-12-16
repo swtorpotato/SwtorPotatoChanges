@@ -1939,7 +1939,7 @@
       </Ability>
       <Ability Name="abl.smuggler.speed_shot">
         <Label Value="Speed Shot" />
-        <Description Value="Unloads both blasters at a high rate of fire, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Requires dual blasters." />
+        <Description Value="Unloads both blasters at a high rate of fire, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Consumes 20 energy over the duration of the channel. Requires dual blasters." />
         <Icon Value="unload" />
         <Damage Value="True" />
         <Healing Value="False" />

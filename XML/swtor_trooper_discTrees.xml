@@ -1201,7 +1201,7 @@
       </Ability>
       <Ability Name="abl.trooper.supercharged_cell">
         <Label Value="Supercharged Cell" />
-        <Description Value="Requires and converts 10 stacks of Supercharge to recharge 10 energy cells and empower your active cell: Combat Support Cell: Increases healing done by 5% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. While active, Advanced Medical Probe has no cooldown and cost 5 fewer energy cells. Plasma Cell: Increases periodic damage dealt by 10% for &lt;&lt;2&gt;&gt; seconds and causes the next successful ranged attack on a target affected by your Incendiary Missile's burn to apply Supercharged Burn to the target, which deals &lt;&lt;3&gt;&gt; elemental damage over &lt;&lt;4&gt;&gt; seconds. Armor-piercing Cell: Increases armor penetration by 10% for &lt;&lt;5&gt;&gt; seconds. While active, damage dealt by Grav Round, Demolition Round, Boltstorm, and Vortex Bolt grants Supercharged Velocity, which increases alacrity by 1%. This effect cannot occur more than once per second and can stack up to 3 times." />
+        <Description Value="Requires and converts 10 stacks of Supercharge to recharge 10 energy cells and empower your active cell: Combat Support Cell: Increases healing done by 5% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. While active, Advanced Medical Probe has no cooldown and cost 5 fewer energy cells. Plasma Cell: Increases periodic damage dealt by 10% for &lt;&lt;2&gt;&gt; seconds and causes the next successful ranged attack on a target affected by your Incendiary Round's burn to apply Supercharged Burn to the target, which deals &lt;&lt;3&gt;&gt; elemental damage over &lt;&lt;4&gt;&gt; seconds. Armor-piercing Cell: Increases armor penetration by 10% for &lt;&lt;5&gt;&gt; seconds. While active, damage dealt by Grav Round, Demolition Round, Boltstorm, and Vortex Bolt grants Supercharged Velocity, which increases alacrity by 1%. This effect cannot occur more than once per second and can stack up to 3 times." />
         <Icon Value="bodyguardhealproc" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1220,7 +1220,7 @@
       </Ability>
       <Ability Name="abl.trooper.concussion_charge">
         <Label Value="Concussion Charge" />
-        <Description Value="Deals &lt;&lt;1&gt;&gt; elemental damage and pushes up to 5 nearby enemies back away from the Trooper. Targets have their movement speed reduced by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after being knocked back." />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; elemental damage and pushes up to 8 nearby enemies back away from the Trooper. Targets have their movement speed reduced by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after being knocked back." />
         <Icon Value="vanguard" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1384,7 +1384,7 @@
       </Ability>
       <Ability Name="abl.trooper.hail_of_bolts">
         <Label Value="Hail of Bolts" />
-        <Description Value="Launches waves of blaster fire at up to 5 targets within 5 meters of the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Standard and weak targets are sometimes knocked back by the hail of bolts. Requires Assault Cannon. Spends 32 energy cells over the duration." />
+        <Description Value="Launches waves of blaster fire at up to 8 targets within 5 meters of the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Standard and weak targets are sometimes knocked back by the hail of bolts. Requires Assault Cannon. Spends 32 energy cells over the duration." />
         <Icon Value="hailofBolts" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2778,7 +2778,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.tactical_surge">
         <Label Value="Tactical Surge" />
-        <Description Value="Fires a concentrated surge of energy at an enemy target, dealing &lt;&lt;1&gt;&gt; energy damage.  Replaces Ion Pulse." />
+        <Description Value="Fires a concentrated surge of energy at an enemy target, dealing &lt;&lt;1&gt;&gt; energy damage." />
         <Icon Value="abl_tr_vg_tactical_surge" />
         <Damage Value="True" />
         <Healing Value="False" />

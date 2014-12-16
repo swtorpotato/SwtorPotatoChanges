@@ -1373,7 +1373,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Sundering Assault or Sundering Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the minimum range of Saber Throw by 10 meters." />
-    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
+    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit. This effect cannot occur more than once every minute." />
     <Sources>
       <ItemName Value="Revanite Vindicator's Chestguard" NodeName="itm.gen.raid.melee_dps_str.ilvl_0087.artifact.heavy_chest" />
       <ItemName Value="Revanite Vindicator's Greaves" NodeName="itm.gen.raid.melee_dps_str.ilvl_0087.artifact.heavy_legs" />
@@ -2338,7 +2338,7 @@
     <MaxSetBonusPieces Value="7" />
     <TwoPiece Value="Sundering Assault or Sundering Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 of seconds." />
     <FourPiece Value="Reduces the minimum range of Saber Throw by 10 meters." />
-    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit." />
+    <SixPiece Value="Activating Saber Throw will grant Vindicator's Critical Bonus making your next Impale and Furious Strike or Overhead Slash and Concentrated Slice critically hit. This effect cannot occur more than once every minute." />
     <Sources>
       <ItemName Value="Exhumed Vindicator's Handgear" NodeName="itm.gen.pvp.melee_dps_str.ilvl_0072.artifact.heavy_hands" />
       <ItemName Value="Dark Reaver Vindicator's Handgear" NodeName="itm.gen.pvp.melee_dps_str.ilvl_0075.artifact.heavy_hands" />

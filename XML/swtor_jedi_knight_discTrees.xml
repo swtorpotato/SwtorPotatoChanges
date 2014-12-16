@@ -211,7 +211,7 @@
       <Passive Value="False" />
       <LevelAquired Value="46" />
       <OnGCD Value="True" />
-      <Cooldown Value="6" />
+      <Cooldown Value="10" />
       <Range Value="10" />
       <TargetArc Value="270" />
       <CombatLogID Value="3461554662014976" />
@@ -292,7 +292,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.awe">
       <Label Value="Awe" />
-      <Description Value="Confounds all nearby enemies, preventing all action for up to 6 seconds. Damage ends the effect prematurely. Has no effect on droids." />
+      <Description Value="Confounds up to 8 nearby enemies, preventing all action for up to 6 seconds. Damage ends the effect prematurely. Has no effect on droids." />
       <Icon Value="blinded" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -746,15 +746,15 @@
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="1.23" />
-            <StandardHealthPercentMax Value="0.12" />
-            <StandardHealthPercentMin Value="0.12" />
+            <StandardHealthPercentMax Value="0.123" />
+            <StandardHealthPercentMin Value="0.123" />
             <AmmountModifier Value="-0.18" />
           </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0" />
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
-            <AmmountModifier Value="0.18" />
+            <AmmountModifier Value="-0.18" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -936,18 +936,6 @@
         <Cooldown Value="1" />
         <CombatLogID Value="1262183514112000" />
       </Ability>
-      <Ability Name="abl.jedi_knight.skill.watchman.searing_saber">
-        <Label Value="Searing Saber" />
-        <Description Value="Increases the critical strike damage of your burn effects by 15%." />
-        <Icon Value="explosivefuel" />
-        <Damage Value="False" />
-        <Healing Value="False" />
-        <Passive Value="True" />
-        <LevelAquired Value="24" />
-        <OnGCD Value="True" />
-        <Cooldown Value="1" />
-        <CombatLogID Value="1262157744308224" />
-      </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.merciless_slash">
         <Label Value="Merciless Slash" />
         <Description Value="Strikes the target with both lightsabers for &lt;&lt;1&gt;&gt; weapon damage. Each use of this ability grants Merciless for &lt;&lt;2&gt;&gt; seconds, lowering the cooldown of your next Merciless Slash by 1.5 seconds. Stacks up to 3 times. Requires two lightsabers." />
@@ -1013,6 +1001,12 @@
         <Cooldown Value="1" />
         <CombatLogID Value="2850754477948928" />
       </Ability>
+      <Talent Name="tal.jedi_knight.skill.watchman.searing_saber">
+        <Label Value="Searing Saber" />
+        <Description Value="Increases the critical strike damage of your burn effects by 5%." />
+        <Icon Value="explosivefuel" />
+        <LevelAquired Value="24" />
+      </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.juyo_mastery">
         <Label Value="Juyo Mastery" />
         <Description Value="Your burn effects are 2% more likely to critically hit per stack of Juyo Form." />
@@ -2058,7 +2052,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.plasma_brand">
         <Label Value="Plasma Brand" />
-        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; elemental damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; internal damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Description Value="Engulfs your lightsaber in fiery plasma, instantly dealing &lt;&lt;1&gt;&gt; elemental damage, with a further &lt;&lt;2[%d/%d/%d]&gt;&gt; elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="explosivefuel" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2447,10 +2441,10 @@
         <CombatLogID Value="812165430771712" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="1.52" />
-            <StandardHealthPercentMax Value="0.171" />
-            <StandardHealthPercentMin Value="0.131" />
-            <AmmountModifier Value="0.01" />
+            <Coefficient Value="1.58" />
+            <StandardHealthPercentMax Value="0.158" />
+            <StandardHealthPercentMin Value="0.158" />
+            <AmmountModifier Value="0.06" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2674,10 +2668,10 @@
         <CombatLogID Value="998060205277184" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
-            <Coefficient Value="0.98" />
-            <StandardHealthPercentMax Value="0.1" />
-            <StandardHealthPercentMin Value="0.098" />
-            <AmmountModifier Value="-0.35" />
+            <Coefficient Value="1.22" />
+            <StandardHealthPercentMax Value="0.122" />
+            <StandardHealthPercentMin Value="0.122" />
+            <AmmountModifier Value="-0.19" />
           </Type>
         </Coeffcients>
       </Ability>
