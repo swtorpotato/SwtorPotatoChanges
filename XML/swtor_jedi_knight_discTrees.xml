@@ -74,7 +74,7 @@
     </Ability>
     <Ability Name="abl.jedi_knight.saber_ward">
       <Label Value="Saber Ward" />
-      <Description Value="Raises a lightsaber ward, increasing melee and ranged defense by 50% and reducing the damage taken from Force and tech attacks by 25%. Lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Description Value="Raises a lightsaber ward, increasing melee and ranged defenses by 50% and absorbing 25% of the damage taken from Force and tech attacks. Lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
       <Icon Value="redirect" />
       <Damage Value="False" />
       <Healing Value="False" />
@@ -1022,7 +1022,7 @@
       <Talent Name="tal.jedi_knight.skill.watchman.repelling_blows">
         <Label Value="Repelling Blows" />
         <Description Value="Increases the direct damage dealt by Cauterize by 5%." />
-        <Icon Value="vicioussaber" />
+        <Icon Value="slash" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.watchman.burning_sweep">
@@ -1294,7 +1294,7 @@
       <Talent Name="tal.jedi_knight.skill.focus.shiicho_mastery">
         <Label Value="Shii-Cho Mastery" />
         <Description Value="Shii-Cho Form increases armor penetration by 30%." />
-        <Icon Value="slash" />
+        <Icon Value="spike" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.focused_resonance">
@@ -1715,7 +1715,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.guardian_slash">
         <Label Value="Guardian Slash" />
-        <Description Value="Strikes the target with a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Riposte, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Warding Strike, Guardian Slash damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
+        <Description Value="Strikes the target with a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Riposte while in Soresu Form, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Warding Strike, Guardian Slash damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
         <Icon Value="flourish" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1825,7 +1825,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.dust_storm">
         <Label Value="Dust Storm" />
-        <Description Value="Targets damaged by your Force Sweep and Cyclone Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Targets damaged by your Force Sweep and Cyclone Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Blade Storm is increased by 50%." />
         <Icon Value="coveredescape" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1837,7 +1837,7 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.defense.warding_power">
         <Label Value="Warding Power" />
-        <Description Value="Increases the critical chance of Force Sweep by 20%. Additionally, Warding Strike increases shield absorption by 3%." />
+        <Description Value="Increases the critical chance of Force Sweep by 20%. Additionally, Warding Strike deals an additional 15% damage and increases shield absorption by 3%." />
         <Icon Value="abl_jk_gu_warding_power" />
         <LevelAquired Value="56" />
       </Talent>
@@ -1849,13 +1849,13 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.pacification">
         <Label Value="Pacification" />
-        <Description Value="Force Sweep deals 65% more damage and consumes 2 less focus. Additionally, the critical chance of Cyclone Slash is increased by 20%." />
+        <Description Value="Force Sweep deals 75% more damage and consumes 2 less focus. Additionally, the critical chance of Cyclone Slash and Master Strike is increased by 30%." />
         <Icon Value="abl_jk_gu_pacification" />
         <LevelAquired Value="12" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.lunge">
         <Label Value="Lunge" />
-        <Description Value="While Soresu Form is active, Riposte consumes no focus and its critical chance is increased by 40%. In addition, the cooldown of Riposte is reduced by 1 seconds while Saber Ward is active." />
+        <Description Value="While Soresu Form is active, Riposte consumes no focus and its critical chance is increased by 50%. In addition, Soresu Form no longer reduces all damage dealt by 10%." />
         <Icon Value="riposte" />
         <LevelAquired Value="20" />
       </Talent>
@@ -1873,13 +1873,13 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.stasis_mastery">
         <Label Value="Stasis Mastery" />
-        <Description Value="Force Stasis no longer needs to be channeled, applying its full effect over 3 seconds." />
+        <Description Value="Force Stasis deals 100% more damage, generates 100% more threat, and activates instantly." />
         <Icon Value="carbonized" />
         <LevelAquired Value="36" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.beacon_of_might">
         <Label Value="Beacon of Might" />
-        <Description Value="Reduces the cooldown of Warding Call by 30 seconds, increases the damage dealt by Hilt Bash and Guardian Slash by 40%, and reduces the cooldown of Riposte by 1 second." />
+        <Description Value="Reduces the cooldown of Warding Call by 30 seconds and increases the damage dealt by Hilt Bash and Guardian Slash by 30%." />
         <Icon Value="unleashedpalm" />
         <LevelAquired Value="59" />
       </Talent>
@@ -2168,7 +2168,7 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3430008127225856" />
-        <UtilityLevel Value="Masterful" />
+        <UtilityLevel Value="Skillful" />
         <UtilityPos Value="9" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.purifying_sweep">
@@ -2187,7 +2187,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.gather_strength">
         <Label Value="Gather Strength" />
-        <Description Value="Whenever your movement is impaired, you gain a 5% damage bonus to your next melee ability that costs Focus. This effect can stack up to 5 times and lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Description Value="Whenever your movement is impaired, you gain a 5% damage bonus to your next ability that consumes focus. This effect can stack up to 5 times and lasts &lt;&lt;1&gt;&gt; seconds." />
         <Icon Value="auraoflight" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2196,7 +2196,7 @@
         <OnGCD Value="True" />
         <Cooldown Value="1" />
         <CombatLogID Value="3429990947356672" />
-        <UtilityLevel Value="Skillful" />
+        <UtilityLevel Value="Masterful" />
         <UtilityPos Value="5" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.daunting_presence">
@@ -2677,7 +2677,7 @@
       </Ability>
       <Talent Name="tal.jedi_knight.skill.single_saber_mastery">
         <Label Value="Single Saber Mastery" />
-        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 3%. Shien Form: Increases all melee damage dealt by 3%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Force Sweep and Cyclone Slash by 30%." />
+        <Description Value="Increases the damage dealt by your weapon by 20% and grants a bonus based on your currently active form: Shii-Cho Form: Increases all Force damage dealt by 3%. Shien Form: Increases all melee damage dealt by 3%. Soresu Form: Increases melee and ranged defense by 3% and increases the threat generated by Force Sweep, Slash, Riposte, and Cyclone Slash by 15%." />
         <Icon Value="shiicho" />
         <LevelAquired Value="25" />
       </Talent>
@@ -2932,7 +2932,7 @@
       <Talent Name="tal.jedi_knight.skill.focus.shiicho_mastery">
         <Label Value="Shii-Cho Mastery" />
         <Description Value="Shii-Cho Form increases armor penetration by 30%." />
-        <Icon Value="slash" />
+        <Icon Value="spike" />
         <LevelAquired Value="16" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.focus.focused_resonance">

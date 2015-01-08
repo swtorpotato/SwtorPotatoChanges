@@ -549,7 +549,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.subduing_techniques">
         <Label Value="Subduing Techniques" />
-        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds each." />
+        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds." />
         <Icon Value="thrown" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -1990,7 +1990,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.utility.upheaval">
         <Label Value="Upheaval" />
-        <Description Value="When you activate Project, you have a 5% chance to project an additional chunk of debris at the target, dealing 50% of normal damage." />
+        <Description Value="Increases the damage dealt by Project by 5%. In addition, Project gains a 50% chance to throw a second chunk of debris that deals 50% less damage." />
         <Icon Value="upheaval" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
