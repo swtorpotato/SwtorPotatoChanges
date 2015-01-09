@@ -1,0 +1,2908 @@
+<Class Name="jedi_consular">
+  <Name Value="jedi_consular" />
+  <Label Value="Jedi Consular" />
+  <base>
+    <Ability Name="abl.player.proficiency.weapon.trainingsaber">
+      <Label Value="Weapon Proficiency: Training Saber" />
+      <Description Value="Able to equip training sabers." />
+      <Icon Value="melee.trainingsaber.a01_v01" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="1985486071529472" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_stun">
+      <Label Value="Force Stun" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage and stuns the target for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="forcestun" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="6" />
+      <OnGCD Value="True" />
+      <Cooldown Value="60" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="1679250608357376" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.71" />
+          <StandardHealthPercentMax Value="0.091" />
+          <StandardHealthPercentMin Value="0.051" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.mind_snap">
+      <Label Value="Mind Snap" />
+      <Description Value="Interrupts the target's current action and prevents that ability from being used for 4 seconds." />
+      <Icon Value="mentalblock" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="18" />
+      <OnGCD Value="False" />
+      <Cooldown Value="18" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="875086701658112" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_potency">
+      <Label Value="Force Potency" />
+      <Description Value="Grants 2 charges of Force Potency, which increases the Force critical chance of your direct attacks and heals by 60% and increases the range of Telekinetic Throw and Cascading Debris to 30 meters. Each time a direct Force ability critically hits or each time a channeled Force ability is activated, 1 charge is consumed. Lasts &lt;&lt;1&gt;&gt; seconds." />
+      <Icon Value="agonizingsaber" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="8" />
+      <OnGCD Value="False" />
+      <Cooldown Value="90" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="3428015262400512" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.meditation">
+      <Label Value="Meditation" />
+      <Description Value="Allows you to pause and meditate to restore your health and Force. Cannot be used during combat." />
+      <Icon Value="jkforcesensitiveorphan" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <ChannelDuration Value="15" />
+      <CombatLogID Value="812792495996928" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_speed">
+      <Label Value="Force Speed" />
+      <Description Value="Increases your movement speed by 150% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Does not break Stealth." />
+      <Icon Value="forcespeed" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="16" />
+      <OnGCD Value="False" />
+      <Cooldown Value="20" />
+      <CombatLogID Value="812762431225856" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_of_will">
+      <Label Value="Force of Will" />
+      <Description Value="Demonstrates your force of will, purging all incapacitating and movement-impairing effects." />
+      <Icon Value="unwaveringResolve" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="9" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="812740956389376" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.telekinetic_throw">
+      <Label Value="Telekinetic Throw" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the target and consumes 40 Force over the duration of the channel. Also slows the movement speed of the target by 50% and immobilizes weak and standard enemies." />
+      <Icon Value="jediconsular" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="2" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <ChannelDuration Value="3" />
+      <CombatLogID Value="812856920506368" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.765" />
+          <StandardHealthPercentMax Value="0.0765" />
+          <StandardHealthPercentMin Value="0.0765" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.mind_blast">
+      <Label Value="Mind Crush" />
+      <Description Value="Crushes the target's mind with the Force, instantly dealing &lt;&lt;1&gt;&gt; kinetic damage and an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="mindcrush" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="14" />
+      <OnGCD Value="True" />
+      <Cooldown Value="15" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <ActivationTime Value="2" />
+      <CombatLogID Value="812796790964224" />
+      <ForceCost Value="40" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.23" />
+          <StandardHealthPercentMax Value="0.143" />
+          <StandardHealthPercentMin Value="0.103" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.295" />
+          <StandardHealthPercentMax Value="0.0295" />
+          <StandardHealthPercentMin Value="0.0295" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.295" />
+          <StandardHealthPercentMax Value="0.0295" />
+          <StandardHealthPercentMin Value="0.0295" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.lightsaber">
+      <Label Value="Weapon Proficiency: Lightsaber" />
+      <Description Value="Able to equip single-bladed lightsabers." />
+      <Icon Value="lightsabers" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810700846923776" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.faction.republic">
+      <Label Value="" />
+      <Description Value="" />
+      <Icon Value="republicbanner" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="-1" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_valor">
+      <Label Value="Force Valor" />
+      <Description Value="Increases the target's Strength, Aim, Willpower and Cunning by 5% and internal and elemental damage reduction by 10% for 60 minutes. If the target is a group member, all other group members are also affected." />
+      <Icon Value="forcevalor" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="30" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="875503313485824" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.vibrosword">
+      <Label Value="Weapon Proficiency: Vibrosword" />
+      <Description Value="Able to equip vibroswords and other one-handed melee weapons tied to the Strength attribute." />
+      <Icon Value="vibroblades" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810730911694848" />
+    </Ability>
+    <Ability Name="abl.player.sprint">
+      <Label Value="Sprint" />
+      <Description Value="Increase movement speed by 35% while not in combat." />
+      <Icon Value="sprint" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810670782152704" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_slow">
+      <Label Value="Force Slow" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target's movement speed by 50% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="movementslowed" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="22" />
+      <OnGCD Value="True" />
+      <Cooldown Value="12" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="946838425305088" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.07" />
+          <StandardHealthPercentMax Value="0.127" />
+          <StandardHealthPercentMin Value="0.087" />
+          <LifeStealModifier Value="1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.project">
+      <Label Value="Project" />
+      <Description Value="Throws debris at the target, dealing &lt;&lt;1&gt;&gt; kinetic damage. Standard and weak targets are additionally stunned for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="pileofrubble" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="876461091192832" />
+      <ForceCost Value="40" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.75" />
+          <StandardHealthPercentMax Value="0.195" />
+          <StandardHealthPercentMin Value="0.155" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.49" />
+          <StandardHealthPercentMax Value="0.169" />
+          <StandardHealthPercentMin Value="0.129" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.88" />
+          <StandardHealthPercentMax Value="0.0975" />
+          <StandardHealthPercentMin Value="0.0775" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.75" />
+          <StandardHealthPercentMax Value="0.0845" />
+          <StandardHealthPercentMin Value="0.0645" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_wave">
+      <Label Value="Force Wave" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage and knocks back up to 8 enemies within a 15-meter cone in front of you. Standard and weak enemies are additionally knocked down for 3 seconds." />
+      <Icon Value="shockwave" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="3" />
+      <OnGCD Value="True" />
+      <Cooldown Value="20" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="3414095273394176" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.58" />
+          <StandardHealthPercentMax Value="0.078" />
+          <StandardHealthPercentMin Value="0.038" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.channel_the_force">
+      <Label Value="Heroic Moment: Channel the Force" />
+      <Description Value="Summons the Force to aid you and your companion, immediately finishing the cooldown on Force Stun and restoring 2% of maximum health every 3 seconds. Requires an active companion. Lasts 1 minute." />
+      <Icon Value="forcedrain" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="15" />
+      <OnGCD Value="False" />
+      <Cooldown Value="1200" />
+      <CombatLogID Value="1412528844308480" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.mount.skill.speeder_piloting">
+      <Label Value="Speeder Piloting" />
+      <Description Value="Able to ride speeder bikes." />
+      <Icon Value="mount.speederbike.anteater.02" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="25" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="1768010402496512" />
+    </Ability>
+    <Ability Name="abl.jedi_consular.double_strike">
+      <Label Value="Double Strike" />
+      <Description Value="Strikes the target twice. Each hit deals &lt;&lt;1&gt;&gt; weapon damage." />
+      <Icon Value="cleave" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="0" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="812728071487488" />
+      <ForceCost Value="25" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.775" />
+          <StandardHealthPercentMax Value="0.0775" />
+          <StandardHealthPercentMin Value="0.0775" />
+          <AmmountModifier Value="-0.48" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.775" />
+          <StandardHealthPercentMax Value="0.0775" />
+          <StandardHealthPercentMin Value="0.0775" />
+          <AmmountModifier Value="-0.48" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.flurry.jedi_consular.saber_strike_optimize">
+      <Label Value="Saber Strike" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage spread across a flurry of 3 melee attacks." />
+      <Icon Value="saberstrike" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="0" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="947486965366784" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.33" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-0.66" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.66" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-0.33" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="1" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.jedi_consular.force_lift">
+      <Label Value="Force Lift" />
+      <Description Value="Lifts the target helplessly into the air, preventing all action for up to &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Non-player, non-standard and non-weak targets heal rapidly while lifted out of harm's way. Damage will break the effect prematurely." />
+      <Icon Value="skydrop" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="4" />
+      <OnGCD Value="True" />
+      <Cooldown Value="60" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <ActivationTime Value="2" />
+      <CombatLogID Value="3488187754217472" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.025" />
+          <ThreatModifier Value="-1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.armor.focus">
+      <Label Value="Armor Proficiency: Focus" />
+      <Description Value="Able to equip a Force focus in your off-hand." />
+      <Icon Value="shieldgeneratorproficiency" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="2035415066345472" />
+    </Ability>
+  </base>
+  <AdvClass Name="shadow" Label="Shadow">
+    <UtilityTree Name="utility">
+      <Ability Name="abl.jedi_consular.skill.utility.misdirection">
+        <Label Value="Misdirection" />
+        <Description Value="Increases your movement speed by 15% and your effective stealth level by 5." />
+        <Icon Value="cull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3414456050647040" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="4" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.egress">
+        <Label Value="Egress" />
+        <Description Value="Force Speed grants Egress, removing all movement-impairing effects and granting immunity to them for the duration." />
+        <Icon Value="fade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413970719342592" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="12" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.force_wake">
+        <Label Value="Force Wake" />
+        <Description Value="Force Wave unbalances its targets, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Icon Value="forceslam" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413940654571520" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.utility.celerity">
+        <Label Value="Celerity" />
+        <Description Value="Reduces the cooldown of Mind Snap by 2 seconds, Force of Will by 30 seconds, and Force Speed by 5 seconds." />
+        <Icon Value="mentalblock" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.cloak_of_resilience">
+        <Label Value="Cloak of Resilience" />
+        <Description Value="Activating Force Cloak grants 2 seconds of Resilience." />
+        <Icon Value="abl_jc_sh_cloak_resilience" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.motion_control">
+        <Label Value="Motion Control" />
+        <Description Value="Force Cloak increases your movement speed by 50% while it is active, and Force Slow reduces the movement speed of its target by an additional 20%." />
+        <Icon Value="abl_sijc_assh_gaitmanip_motioncontrol" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.shadows_shelter">
+        <Label Value="Shadow's Shelter" />
+        <Description Value="Increases all healing received by 3%. In addition, deploying Phase Walk also deploys Shadow's Shelter, increasing the healing done by those within 5 meters of the Phase Walk by 5%." />
+        <Icon Value="phasewalkheal" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.containment">
+        <Label Value="Containment" />
+        <Description Value="If your Force Lift breaks early from damage, the target is stunned for 2 seconds. In addition, Force Lift activates instantly." />
+        <Icon Value="levitated" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.lambaste">
+        <Label Value="Lambaste" />
+        <Description Value="Increases the damage done by Whirling Blow by 25%." />
+        <Icon Value="bladedance" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.martial_prowess">
+        <Label Value="Martial Prowess" />
+        <Description Value="Force Pull immobilizes its target for 3 seconds, Serenity Strike immobilizes its target for 2 seconds, and Low Slash immobilizes its target for 1 second after the incapacitating effect wears off." />
+        <Icon Value="abl_jc_sh_martial_prowess" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.mind_over_matter">
+        <Label Value="Mind Over Matter" />
+        <Description Value="Increases the durations of Resilence by 2 seconds and Force Speed by 0.5 seconds." />
+        <Icon Value="mentalfocus" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.mental_defense">
+        <Label Value="Mental Defense" />
+        <Description Value="Reduces all damage taken while stunned by 30%." />
+        <Icon Value="spiritarmor" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.subduing_techniques">
+        <Label Value="Subduing Techniques" />
+        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds each." />
+        <Icon Value="thrown" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.nerve_wracking">
+        <Label Value="Nerve Wracking" />
+        <Description Value="Targets controlled by your Spinning Kick or Force Stun take 5% more damage from all sources." />
+        <Icon Value="opportunisticstrike" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.sturdiness">
+        <Label Value="Sturdiness" />
+        <Description Value="While Deflection is active, you are immune to stun, sleep, lift, and incapacitating effects." />
+        <Icon Value="abl_jc_sh_sturdiness" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.humbling_strike">
+        <Label Value="Humbling Strike" />
+        <Description Value="When a target recovers from being stunned by your Spinning Kick or Force Stun, its movement speed is slowed by 90% for the following 3 seconds." />
+        <Icon Value="forceslam" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.sapped_mind">
+        <Label Value="Sapped Mind" />
+        <Description Value="When damage breaks your Mind Maze prematurely, the target will suffer from a Sapped Mind, reducing the damage they deal by 25% for 10 seconds." />
+        <Icon Value="abl_sijc_assh_sapped_mind" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="13" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.shadowy_veil">
+        <Label Value="Shadowy Veil" />
+        <Description Value="Increases your armor rating by 30% while Force Technique or Shadow Technique is active. In addition, targets you Guard gain Shadowy Veil when they take damage, increasing their damage reduction by 1%. This effect stacks up to 3 times, cannot occur more than once per second, and lasts up to 10 seconds if you keep Guard on the target." />
+        <Icon Value="robeupgrade1" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.fade">
+        <Label Value="Fade" />
+        <Description Value="Reduces the cooldown of Blackout by 15 seconds and Force Cloak by 30 seconds. " />
+        <Icon Value="healing" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.force_harmonics">
+        <Label Value="Force Harmonics" />
+        <Description Value="Reduces the cooldown of Force Wave by 2.5 seconds and Force Potency grants 1 additional charge when activated." />
+        <Icon Value="abl_jc_sh_force_harmonics" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.pinning_resolve">
+        <Label Value="Pinning Resolve" />
+        <Description Value="Reduces the cooldown of Force Stun by 10 seconds. In addition, your Force Lift affects up to 2 additional standard or weak enemies within 8 meters of the target." />
+        <Icon Value="groundswell" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Talent>
+    </UtilityTree>
+    <DisciplineTree Name="combat">
+      <Label Value="Kinetic Combat" />
+      <Ability Name="abl.jedi_consular.skill.combat.shadowsight">
+        <Label Value="Shadowsight" />
+        <Description Value="Increases your Stealth detection level by 2, defense by 2%, and shield absorption by 4%. In addition, when you activate Battle Readiness while Combat Technique is active, damage reduction is increased by 25% for the duration." />
+        <Icon Value="unleash" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="967166505517056" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.force_pull">
+        <Label Value="Force Pull" />
+        <Description Value="Uses the Force to draw the target in, instantly pulling it to your location and generating a high amount of threat. Does not work against targets in cover." />
+        <Icon Value="forcePull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="45" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2453757765877760" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.rapid_recovery">
+        <Label Value="Rapid Recovery" />
+        <Description Value="Increases the amount of Force recovered by Double-bladed Saber Defense by 100%. In addition, when you shield, parry, or deflect an attack, the active cooldown of Resilience is reduced by 1 second. This effect cannot occur more than once a second." />
+        <Icon Value="feint" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="980614048120832" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.particle_acceleration">
+        <Label Value="Particle Acceleration" />
+        <Description Value="While Combat Technique is active, damage dealt by Double Strike, Shadow Strike, Whirling Blow and Spinning Strike has a 30% chance to finish the cooldown on Project and make your next Project a critical hit. Accelerated Projects that consume a charge of Force Potency deal an additional 50% critical damage." />
+        <Icon Value="chaffflare" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="981172393869312" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.kinetic_ward">
+        <Label Value="Kinetic Ward" />
+        <Description Value="Erects a kinetic ward with 15 charges that increases your shield chance by 15% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Each time you successfully shield, Kinetic Ward loses 1 charge. Does not break Stealth." />
+        <Icon Value="durablearmors" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="980828796485632" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.mental_fortitude">
+        <Label Value="Mental Fortitude" />
+        <Description Value="Increases damage reduction and Endurance by 2% and allows for Spinning Kick to be used out of Stealth mode. Additionally, while Combat Technique is active, activating Force Potency will grant 30% shield absorption for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="abl_jc_sh_mental_fortitude" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="980592573284352" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.shadow_wrap">
+        <Label Value="Shadow Wrap" />
+        <Description Value="Exiting stealth instantly grants 4 stacks of Shadow Protection. In addition, Double Strike, Whirling Blow, and Spinning Strike grant Shadow Wrap, which makes your next Shadow Strike consume 50% less Force and usable when face-to-face with your target. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="stealthbackstab" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3220744435662848" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.harnessed_shadows">
+        <Label Value="Harnessed Shadows" />
+        <Description Value="Project and Slow Time grant Harnessed Shadows, which makes the next Telekinetic Throw or Cascading Debris used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Telekinetic Throw or Cascading Debris by 25%. Stacks up to 3 times. At 3 stacks, each tick of Telekinetic Throw and Cascading Debris grants Shadow Protection, which increases damage reduction by 1%. Shadow Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="healing" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2312839888896000" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.cascading_debris">
+        <Label Value="Cascading Debris" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage to the target and consumes 40 Force over the duration of the channel. Slows the movement speed of the target by 50% and stuns weak or standard enemies while channeled.  Shares a cooldown with Telekinetic Throw." />
+        <Icon Value="abl_jc_sh_cascading_debris" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="3414228417380352" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.17" />
+            <StandardHealthPercentMax Value="0.117" />
+            <StandardHealthPercentMin Value="0.117" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.double_bladed_saber_defense">
+        <Label Value="Double-bladed Saber Defense" />
+        <Description Value="Whenever you successfully shield, parry or deflect an attack, you recover 2% of your total Force. This effect cannot occur more than once a second. In addition, your melee and ranged defense is increased by 4%." />
+        <Icon Value="lightsaberdeflection" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="980558213545984" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.combat.slow_time">
+        <Label Value="Slow Time" />
+        <Description Value="Slows the passage of time for up to 8 targets, dealing &lt;&lt;1&gt;&gt; kinetic damage, slowing the movement speed of all affected targets by 30% for &lt;&lt;3&gt;&gt; seconds, and weakening all affected targets for &lt;&lt;2&gt;&gt; seconds. Weakened targets deal 5% less melee and ranged damage. Does not damage sleeping, lifted, or incapacitated enemies. This ability generates a high amount of threat." />
+        <Icon Value="attackslowed" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="10" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="981503106351104" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.54" />
+            <StandardHealthPercentMax Value="0.174" />
+            <StandardHealthPercentMin Value="0.134" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.54" />
+            <StandardHealthPercentMax Value="0.174" />
+            <StandardHealthPercentMin Value="0.134" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.combat.bombardment">
+        <Label Value="Bombardment" />
+        <Description Value="While Combat Technique is active, Project deals 25% more damage and consumes 15 less Force, and Double Strike and Whirling Blow inflict their targets with Trauma, which reduces the healing received from all sources by 20% for 6 seconds." />
+        <Icon Value="pileofrubble" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.combat.force_break">
+        <Label Value="Force Break" />
+        <Description Value="Increases the damage dealt by Combat Technique's Force Breach by 15% and Slow Time by 30%." />
+        <Icon Value="disable" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.combat.one_with_the_force">
+        <Label Value="One with the Force" />
+        <Description Value="Increases the rate at which your Force regenerates by 30%." />
+        <Icon Value="energydrain" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.combat.psychokinesis">
+        <Label Value="Psychokinesis" />
+        <Description Value="While Combat Technique is active, Force Breach causes its targets to become unsteady for 45 seconds. Unsteady targets have their melee and ranged accuracy reduced by 5%. In addition, Whirling Blow deals 15% more damage to Unsteady targets." />
+        <Icon Value="abl_jc_sh_psychokinesis" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.combat.kinetic_bulwark">
+        <Label Value="Kinetic Bulwark" />
+        <Description Value="Consuming a charge of Kinetic Ward increases shield absorption by 1%. Stacks up to 8 times. This effect lasts for 20 seconds or until Kinetic Ward is reactivated." />
+        <Icon Value="handdeflect" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.combat.elusiveness">
+        <Label Value="Elusiveness" />
+        <Description Value="Increases the armor rating Combat Technique grants by an additional 20%, and increases damage reduction by 2%." />
+        <Icon Value="bhoutlaw" />
+        <LevelAquired Value="20" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="serenity">
+      <Ability Name="abl.jedi_consular.skill.balance.suppression">
+        <Label Value="Force Suppression" />
+        <Description Value="Force in Balance now suppresses resistance to the Force, increasing the amount of damage the targets suffer from your next 15 periodic damaging abilities by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="forcesuppression" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2156997000560640" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.crush_spirit">
+        <Label Value="Crush Spirit" />
+        <Description Value="Your damaging periodic effects have a 30% chance to trigger Crush Spirit, which finishes the cooldown of Spinning Strike and makes your next Spinning Strike usable on a target with any health level. This effect cannot occur more than once every 15 seconds." />
+        <Icon Value="smash" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3218493872799744" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.vanquish">
+        <Label Value="Vanquish" />
+        <Description Value="Vanquishes the target with mighty force, dealing &lt;&lt;1&gt;&gt; kinetic damage initially, plus an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3&gt;&gt; seconds. The target also becomes Vulnerable for &lt;&lt;4&gt;&gt; seconds, increasing the damage taken from Force attacks by 5%.  Shares cooldown with Mind Crush." />
+        <Icon Value="abl_jc_sh_vanquish" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="3347334301745152" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.serenity.serenity_strike">
+        <Label Value="Serenity Strike" />
+        <Description Value="Redistributes life from an enemy, dealing &lt;&lt;1&gt;&gt; weapon damage to the target and healing you for 50% of the damage dealt. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="abl_jc_sh_serenity_strike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3414395921104896" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.86" />
+            <StandardHealthPercentMax Value="0.186" />
+            <StandardHealthPercentMin Value="0.186" />
+            <AmmountModifier Value="0.24" />
+            <LifeStealModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.sever_force">
+        <Label Value="Sever Force" />
+        <Description Value="Weakens the target, freezing it in place for &lt;&lt;1&gt;&gt; seconds and dealing &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3&gt;&gt; seconds. The immobilizing effect cannot occur more than once every &lt;&lt;4&gt;&gt; seconds." />
+        <Icon Value="sacrifice" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="813226287693824" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.serenity.rebounding_force">
+        <Label Value="Rebounding Force" />
+        <Description Value="Sever Force deals 10% additional damage and when your Force Technique deals damage, it restores 5 Force." />
+        <Icon Value="reflection" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3450357682274304" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.force_strike">
+        <Label Value="Force Strike" />
+        <Description Value="Melee attacks that strike a target affected by your Force Technique's Force Breach effect finish the cooldown on Mind Crush and Vanquish and make your next Mind Crush or Vanquish activate instantly and consume no Force. This effect cannot occur more than once every 9 seconds." />
+        <Icon Value="chargedupforce" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1792401521770496" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.force_in_balance">
+        <Label Value="Force in Balance" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; internal damage and redistributes life from affected targets to heal you for 10% of the damage dealt. Strikes up to 8 targets within an 8-meter radius." />
+        <Icon Value="twindisciplines" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="2157001295527936" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
+            <LifeStealModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.balance.mental_potency">
+        <Label Value="Mental Potency" />
+        <Description Value="Reduces the Force cost of Force in Balance by 20." />
+        <Icon Value="mentalfocus" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.mind_quell">
+        <Label Value="Mind Quell" />
+        <Description Value="Increases the damage dealt by Serenity Strike, Mind Crush, and Vanquish by 20%." />
+        <Icon Value="introspection" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.force_focus">
+        <Label Value="Force Focus" />
+        <Description Value="Increases the damage dealt by Force Technique's Force Breach effect by 20%." />
+        <Icon Value="railshot" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.prolific_justice">
+        <Label Value="Prolific Justice" />
+        <Description Value="Force in Balance spreads your periodic Force Breach and Sever Force effects to the targets it damages, as long as it damages targets already affected by your Force Breach and Sever Force. In addition, Force in Balance overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Icon Value="abl_jc_sh_prolific_justice" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.adjudication">
+        <Label Value="Adjudication" />
+        <Description Value="Increases the critical strike damage dealt by Double Strike, Spinning Strike, and Serenity Strike by 30% and reduces the Force Cost of Spinning Strike by 3." />
+        <Icon Value="powerswing" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.mind_and_body">
+        <Label Value="Mind and Body" />
+        <Description Value="Reduces the damage taken from all periodic effects by 15%. In addition, Mass Mind Control increases your damage reduction by 30% for 6 seconds." />
+        <Icon Value="lightningstorm" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.psychic_absorption">
+        <Label Value="Psychic Absorption" />
+        <Description Value="Increases the life redirected by Force in Balance and Serenity Strike by 100% and causes Sever Force and Force Technique's Force Breach effect to steal life from enemy targets, healing you for 25% of the damage they deal." />
+        <Icon Value="mentalblock" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.drain_thoughts">
+        <Label Value="Drain Thoughts" />
+        <Description Value="Increases all periodic damage dealt by 10%." />
+        <Icon Value="drainingforce" />
+        <LevelAquired Value="40" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.serenity.aching_mind">
+        <Label Value="Aching Mind" />
+        <Description Value="Force in Balance, Vanquish, and your periodic damage abilities deal 15% more damage on targets under 30% health." />
+        <Icon Value="creepingterror" />
+        <LevelAquired Value="59" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="infiltration">
+      <Label Value="Infiltration" />
+      <Ability Name="abl.jedi_consular.skill.infiltration.profundity">
+        <Label Value="Profundity" />
+        <Description Value="Your Shadow Technique restores 9 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Whirling Blow builds charges of Clairvoyance, and while Shadow Technique is active, Force Breach causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
+        <Icon Value="jkforcesensitiveorphan" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="813058783969280" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.shadow_technique">
+        <Label Value="Shadow Technique" />
+        <Description Value="Assumes a shadow technique using all your available Force, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; internal damage and build 1 Breaching Shadow. Breaching Shadows stack up to 3 times and increase the damage dealt by your next Force Breach. This effect cannot occur more than once every 6 seconds. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="shadowtechnique" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="979819479171072" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.potent_shadows">
+        <Label Value="Potent Shadows" />
+        <Description Value="While Shadow Technique is active, Force Potency builds 3 Breaching Shadows, and exiting combat reduces the active cooldown of Force Potency by 60 seconds. Additionally, the critical damage dealt by Shadow Strike is increased by 30%." />
+        <Icon Value="agonizingsaber" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3257376211730432" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.circling_shadows">
+        <Label Value="Circling Shadows" />
+        <Description Value="Double Strike, Whirling Blow, Clairvoyant Strike, Shadow Strike, and Spinning Strike grant Circling Shadows while Shadow Technique is active, reducing the Force cost of your next Project or Psychokinetic Blast by 25%. Stacks up to 2 times." />
+        <Icon Value="rapidshots" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2014421266202624" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.psychokinetic_blast">
+        <Label Value="Psychokinetic Blast" />
+        <Description Value="Blasts the target with the psychokinetic power of the Force for &lt;&lt;1&gt;&gt; kinetic damage. Standard and weak targets are additionally stunned for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;.  Shares a cooldown with Project." />
+        <Icon Value="abl_jc_sh_psychokinetic_blast" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3401425119870976" />
+        <ForceCost Value="32" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.06" />
+            <StandardHealthPercentMax Value="0.226" />
+            <StandardHealthPercentMin Value="0.186" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.03" />
+            <StandardHealthPercentMax Value="0.123" />
+            <StandardHealthPercentMin Value="0.083" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.infiltration_tactics">
+        <Label Value="Infiltration Tactics" />
+        <Description Value="Direct damage attacks grant Infiltration Tactics, causing your next Shadow Strike to deal 20% more damage and consume 75% less Force. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="lunge" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="813037309132800" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.masked_assault">
+        <Label Value="Masked Assault" />
+        <Description Value="Exiting stealth mode now finishes the cooldown of Blackout, and Blackout can now be used out of stealth mode, granting &lt;&lt;1&gt;&gt; seconds of Shadow's Respite and restoring 15 Force. While Shadow's Respite is active, all damage taken is reduced by 25%." />
+        <Icon Value="disappear" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1776540207546368" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.kinetic_field">
+        <Label Value="Kinetic Field" />
+        <Description Value="Reduces the damage taken from area attacks by 30%. In addition, dealing critical damage grants Kinetic Field, increasing damage reduction by 2% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
+        <Icon Value="highenergyclip" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1776578862252032" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.clairvoyant_strike">
+        <Label Value="Clairvoyant Strike" />
+        <Description Value="Strikes the target twice, dealing &lt;&lt;1&gt;&gt; weapon damage with each hit. Each use of this ability builds Clairvoyance, which gives Project a 50% chance to automatically trigger your Shadow Technique off of its normal rate limit. Stacks up to 2 times. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="inspiringstrike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="980042817470464" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.81" />
+            <StandardHealthPercentMax Value="0.081" />
+            <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.81" />
+            <StandardHealthPercentMax Value="0.081" />
+            <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.infiltration.low_slash">
+        <Label Value="Low Slash" />
+        <Description Value="Slashes the target low, dealing &lt;&lt;1&gt;&gt; weapon damage and incapacitating the target for &lt;&lt;2&gt;&gt; seconds. Damage causes this effect to end prematurely. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="lowslash" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="1962349082705920" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.64" />
+            <StandardHealthPercentMax Value="0.164" />
+            <StandardHealthPercentMin Value="0.164" />
+            <AmmountModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.infiltration.shadows_mark">
+        <Label Value="Shadow's Mark" />
+        <Description Value="Shadow Strike sunders its target for 45 seconds. Sundered targets have their armor reduced by 20%." />
+        <Icon Value="linetheshot" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.prevalling_strikes">
+        <Label Value="Prevalling Strikes" />
+        <Description Value="Increases the damage dealt by Clairvoyant Strike, Whirling Blow and Spinning Strike by 10%." />
+        <Icon Value="abl_jc_sh_prevailing_strikes" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.shadows_respite">
+        <Label Value="Shadow's Respite" />
+        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 50%." />
+        <Icon Value="jkwilderfugitive" />
+        <LevelAquired Value="20" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.judgement">
+        <Label Value="Judgement" />
+        <Description Value="Increases all damage dealt to targets below 30% of max health by 5%. Additionally, reduces the Force consumed by Spinning Strike by 10." />
+        <Icon Value="twirl" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.whirling_edge">
+        <Label Value="Whirling Edge" />
+        <Description Value="Increases the critical chance of Whirling Blow by 15% and its critical damage bonus by 30%." />
+        <Icon Value="abl_sijc_assh_whirling_edge" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.deep_impact">
+        <Label Value="Deep Impact" />
+        <Description Value="Increases the critical strike damage dealt by Shadow Techinque's Force Breach effect and Psychokinetic Blast by 30%." />
+        <Icon Value="shrapnelburst" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.infiltration.upheaval">
+        <Label Value="Upheaval" />
+        <Description Value="Project and Psychokinetic Blast have a 50% chance to attack the target twice, with the second attack dealing half damage. This second attack cannot trigger Shadow Technique." />
+        <Icon Value="upheaval" />
+        <LevelAquired Value="32" />
+      </Talent>
+    </DisciplineTree>
+    <base Name="base">
+      <Ability Name="abl.player.proficiency.weapon.electrostaff">
+        <Label Value="Weapon Proficiency: Electrostaff" />
+        <Description Value="Able to equip electrostaves and other staff melee weapons tied to the Willpower attribute." />
+        <Icon Value="electrostaves" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="810692256989184" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_synergy">
+        <Label Value="Force Synergy" />
+        <Description Value="Critical hits with Force attacks increase your melee critical chance by 5% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="vengefulstrike" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3496713264300032" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.blackout">
+        <Label Value="Blackout" />
+        <Description Value="Increases your stealth level by 15 for 8 seconds. Only usable in stealth mode." />
+        <Icon Value="disappear" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="1615599193030656" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.mass_mind_control">
+        <Label Value="Mass Mind Control" />
+        <Description Value="Forces all enemies within 15 meters to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; if Combat Technique is active. If Combat Technique is not active, threat towards all current enemies is immediately reduced. Player targets deal 30% less damage for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; when attacking anyone other than you." />
+        <Icon Value="massdisorientation" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="2522765005422592" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.combat_technique">
+        <Label Value="Combat Technique" />
+        <Description Value="Consumes all of your available Force to assume a Combat Technique, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; internal damage and generate additional threat. Increases armor rating by 130%, shield chance by 15%, threat generation by 100%, and accuracy by 10% and reduces all damage dealt by 10% while active. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="callontheforce" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="979806594269184" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.14" />
+            <StandardHealthPercentMax Value="0.014" />
+            <StandardHealthPercentMin Value="0.014" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_breach">
+        <Label Value="Force Breach" />
+        <Description Value="Locates and breaches the target's shatterpoint, causing an effect based on your current technique. Only usable while a technique is active. Requires a double-bladed lightsaber or electrostaff. Combat Technique: Strikes up to 8 nearby enemies, dealing &lt;&lt;1&gt;&gt; internal damage and generating a high amount of threat. Puts Force Breach on cooldown for 10 seconds. Force Technique: Deals &lt;&lt;2&gt;&gt; energy damage over &lt;&lt;3&gt;&gt; seconds. Shadow Technique: Releases your Breaching Shadow to deal &lt;&lt;4&gt;&gt; internal damage. This damage scales up with each stack of Breaching Shadow." />
+        <Icon Value="disable" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="964675424485376" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.66" />
+            <StandardHealthPercentMax Value="0.086" />
+            <StandardHealthPercentMin Value="0.046" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.39" />
+            <StandardHealthPercentMax Value="0.039" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.39" />
+            <StandardHealthPercentMax Value="0.039" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.73" />
+            <StandardHealthPercentMax Value="0.093" />
+            <StandardHealthPercentMin Value="0.053" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.shadow_strike">
+        <Label Value="Shadow Strike" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage to a single target. Only usable from behind the target. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="lunge" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="812839740637184" />
+        <ForceCost Value="40" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.31" />
+            <StandardHealthPercentMax Value="0.231" />
+            <StandardHealthPercentMin Value="0.231" />
+            <AmmountModifier Value="0.54" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.guard">
+        <Label Value="Guard" />
+        <Description Value="While active, the guarded player takes 5% less damage and generates 25% less threat. In addition, so long as you remain within 15 meters of the guarded player, 50% of all incoming damage from enemy players is transferred back to you. Requires Combat Technique." />
+        <Icon Value="zabrakswordsman" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="1780006246154240" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.battle_readiness">
+        <Label Value="Battle Readiness" />
+        <Description Value="Ready yourself with the Force, immediately restoring 15% of your max health, increasing the damage of all Techniques by 50%, increasing the chance to trigger their effects by 25%, and healing you for &lt;&lt;2&gt;&gt; when their effects are triggered. Lasts &lt;&lt;1&gt;&gt; seconds. The triggered healing cannot occur more than once per second." />
+        <Icon Value="jumping_strike" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="979849543942144" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.15" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.6" />
+            <StandardHealthPercentMax Value="0.03" />
+            <StandardHealthPercentMin Value="0.03" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.player.proficiency.armor.shield">
+        <Label Value="Armor Proficiency: Shield Generator" />
+        <Description Value="Able to equip a personal shield generator in your off-hand." />
+        <Icon Value="shieldgeneratorproficiency" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="838789933039616" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.weapon.polesaber">
+        <Label Value="Weapon Proficiency: Double-Bladed Lightsaber" />
+        <Description Value="Able to equip double-bladed lightsabers and saberstaves." />
+        <Icon Value="doublebladedlightsabers" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="810709436858368" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.mind_control">
+        <Label Value="Mind Control" />
+        <Description Value="Controls the mind of the target, forcing it to attack you for &lt;&lt;1&gt;&gt; seconds. Player targets deal 30% less damage for &lt;&lt;2&gt;&gt; seconds when attacking anyone other than you." />
+        <Icon Value="taunt" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="979772234530816" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.shadows_training">
+        <Label Value="Shadow's Training" />
+        <Description Value="Increases your total Endurance by 3% and the base damage dealt by Project by 17%. In addition, Saber Strike restores 1 Force each time it damages an enemy." />
+        <Icon Value="assassinstraining" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3429084709257216" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_cloak">
+        <Label Value="Force Cloak" />
+        <Description Value="Uses the Force to make you vanish from sight, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable." />
+        <Icon Value="healing" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="2271612497821696" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.spinning_kick">
+        <Label Value="Spinning Kick" />
+        <Description Value="Performs a spin kick that deals &lt;&lt;1&gt;&gt; kinetic damage and stuns the target for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Standard and weak enemies are additionally knocked down. Requires a double-bladed lightsaber or electrostaff. Only usable in stealth mode." />
+        <Icon Value="spinningKick" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="42" />
+        <OnGCD Value="True" />
+        <Cooldown Value="20" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="966818613166080" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.08" />
+            <StandardHealthPercentMax Value="0.228" />
+            <StandardHealthPercentMin Value="0.188" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.spinning_strike">
+        <Label Value="Spinning Strike" />
+        <Description Value="Issues a subduing strike, dealing &lt;&lt;1&gt;&gt; weapon damage. Only usable on targets at or below 30% max health." />
+        <Icon Value="twirl" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2295904832847872" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.657" />
+            <StandardHealthPercentMax Value="0.266" />
+            <StandardHealthPercentMin Value="0.266" />
+            <AmmountModifier Value="0.77" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_technique">
+        <Label Value="Force Technique" />
+        <Description Value="Consumes all your Force to assume a Force technique, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; energy damage. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="forcetechnique" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="979789414400000" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.234" />
+            <StandardHealthPercentMax Value="0.0234" />
+            <StandardHealthPercentMin Value="0.0234" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.whirling_blow">
+        <Label Value="Whirling Blow" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage to up to 8 targets within 5 meters. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="bladedance" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="979716399955968" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.78" />
+            <StandardHealthPercentMax Value="0.078" />
+            <StandardHealthPercentMin Value="0.078" />
+            <AmmountModifier Value="-0.48" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.deflection">
+        <Label Value="Deflection" />
+        <Description Value="Increases your ranged and melee defenses by 50% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Requires a melee weapon." />
+        <Icon Value="lightsaberdeflection" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="812719481552896" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.resilience">
+        <Label Value="Resilience" />
+        <Description Value="Purges all hostile removable effects and increases your chance to resist Force and tech attacks by 200% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Does not break Stealth." />
+        <Icon Value="aegis" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <CombatLogID Value="812822560768000" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.phase_walk">
+        <Label Value="Phase Walk" />
+        <Description Value="Activating this ability marks your current location for &lt;&lt;1&gt;&gt; seconds. When this ability is activated again, if you are within 60 meters of the marked location, you instantly return to the marked location. When returning to the marked location or when the effect ends, Phase Walk goes on cooldown for 45 seconds. Does not break stealth." />
+        <Icon Value="phasewalkshadow" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="0.5" />
+        <CombatLogID Value="3200416355450880" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.mind_maze">
+        <Label Value="Mind Maze" />
+        <Description Value="Confuses the target, leaving it bewildered and unable to act for 60 seconds. Damage will break the effect prematurely. This ability is only usable in stealth mode and cannot be used against a target in combat. Only one target can be incapacitated at any given time. Cannot be used on droids." />
+        <Icon Value="mindtrap" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="812801085931520" />
+        <ForceCost Value="50" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.stealth">
+        <Label Value="Stealth" />
+        <Description Value="Enters stealth mode, making your movements difficult to detect but slowing movement speed to 85% of normal. Your companion will not react to enemy attacks while in stealth. Most hostile actions will end the effect prematurely. Cannot be used in combat." />
+        <Icon Value="shadowwalk" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="812852625539072" />
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.technique_mastery">
+        <Label Value="Technique Mastery" />
+        <Description Value="Improves the effect of your lightsaber charges while they are active: Combat Technique: Increases internal and elemental damage reduction by 10%. Force Technique: Increases the critical hit chance of Force Technique by 50%. Shadow Technique: Increases your armor penetration by 10%." />
+        <Icon Value="techniques" />
+        <LevelAquired Value="15" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.applied_force">
+        <Label Value="Applied Force" />
+        <Description Value="Increases the damage dealt by Double Strike, Whirling Blow, Clairvoyant Strike, and Serenity Strike by 5% and reduces the Force they consume by 3." />
+        <Icon Value="penetratedefenses" />
+        <LevelAquired Value="35" />
+      </Talent>
+    </base>
+  </AdvClass>
+  <AdvClass Name="sage" Label="Sage">
+    <DisciplineTree Name="seer">
+      <Label Value="Seer" />
+      <Ability Name="abl.jedi_consular.skill.seer.altruism">
+        <Label Value="Altruism" />
+        <Description Value="Mind Crush, Disturbance, Deliverance, and Salvation grant Altruism, which causes your next Benevolence to activate instantly and consume no Force. This effect may not occur more than once every 10 seconds." />
+        <Icon Value="abl_jc_sa_altruism" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3347299942006784" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.salvation">
+        <Label Value="Salvation" />
+        <Description Value="Applies a periodic healing effect to up to 8 allies within 8 meters of the targeted area, which heals for &lt;&lt;1&gt;&gt; over &lt;&lt;2&gt;&gt; seconds. Once a target has received the periodic healing effect, the target may leave the area and will continue to be healed by the effect." />
+        <Icon Value="onewiththeforce" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="812990064492544" />
+        <ForceCost Value="60" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.2" />
+            <StandardHealthPercentMax Value="0.01" />
+            <StandardHealthPercentMin Value="0.01" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.deliverance">
+        <Label Value="Deliverance" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health." />
+        <Icon Value="benevolence" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
+        <CombatLogID Value="812951409786880" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.1345" />
+            <StandardHealthPercentMin Value="0.0945" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.conveyance">
+        <Label Value="Conveyance" />
+        <Description Value="Your Rejuvenate grants Conveyance for 15 seconds, which increases the effect of your next healing ability: Benevolence: Critical chance increased by 60%. Deliverance: Activation time reduced by 0.5 seconds. Healing Trance: Critical chance increased by 25%. Salvation: Force cost reduced by 30%. Wandering Mend: Immediately wanders to and heals each target, without waiting for the target to take damage first." />
+        <Icon Value="jcjedischolar" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="880421051039744" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.wandering_mend">
+        <Label Value="Wandering Mend" />
+        <Description Value="Places a mending Force on a friendly target that heals them for &lt;&lt;1&gt;&gt; health the next time they take damage. After healing the target, Wandering Mend travels to another friendly target within 20 meters. Wandering Mend lasts up to &lt;&lt;2&gt;&gt; seconds on each target and travels up to 3 times, healing up to 4 targets. Wandering Mend can only be placed on one target at a time." />
+        <Icon Value="abl_jc_sa_wandering_mend" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3347287057104896" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.resplendence">
+        <Label Value="Resplendence" />
+        <Description Value="Healing Trance critical hits grant 1 charge of Resplendence, which improves the effectiveness of your next Noble Sacrifice or Salvation. Noble Sacrifice: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Salvation: Consumes 5 less Force per charge and reduces activation time by 0.25 seconds for each of the first two charges, or makes it activate instantly with the third charge. Consumes all charges." />
+        <Icon Value="unleashedpalm" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="812985769525248" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.renewal">
+        <Label Value="Renewal" />
+        <Description Value="&lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after refreshing your Rejuvenate on a target, the target will be healed for &lt;&lt;1&gt;&gt; health plus any healing that remained from the previous Rejuvenate." />
+        <Icon Value="supriseadvantage" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3428311615143936" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.mend_wounds">
+        <Label Value="Mend Wounds" />
+        <Description Value="Restoration now removes negative physical effects and heals the target for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="casting" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="953182092001280" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.68" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.healing_trance">
+        <Label Value="Healing Trance" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health and consumes 40 Force over the channel duration." />
+        <Icon Value="rejuvinate" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="9" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="812964294688768" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.92" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.seer.force_warden">
+        <Label Value="Force Warden" />
+        <Description Value="Healing Trance channels and ticks 20% faster, and Wandering Mend grants resistance to the targets it heals for 45 seconds. Resistant targets have their internal and elemental damage reduction increased by 3%." />
+        <Icon Value="koltostream" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3218107325743104" />
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.seer.preservation">
+        <Label Value="Preservation" />
+        <Description Value="Reduces the Force cost of Force Armor by 30 and reduces the duration of Force-imbalance by 5 seconds." />
+        <Icon Value="forcearmor" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.foresight">
+        <Label Value="Foresight" />
+        <Description Value="Reduces the pushback suffered while activating healing abilities by 75% and lowers the threat generated by healing abilities by 10%." />
+        <Icon Value="bhoutlaw" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.immutable_force">
+        <Label Value="Immutable Force" />
+        <Description Value="Reduces the activation time of Deliverance by 0.5 seconds and the Force cost of Benevolence by 5." />
+        <Icon Value="benevolence" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.clairvoyance">
+        <Label Value="Clairvoyance" />
+        <Description Value="Increases your bonus healing by 5%." />
+        <Icon Value="drainingpresence" />
+        <LevelAquired Value="40" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.force_shelter">
+        <Label Value="Force Shelter" />
+        <Description Value="Increases the duration of Rejuvenate by 6 seconds. In addition, Rejuvenate grants protection to its target for 45 seconds. Protected targets have their armor rating increased by 10%." />
+        <Icon Value="mediumarmors" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.amnesty">
+        <Label Value="Amnesty" />
+        <Description Value="Reduces the duration of Noble Sacrifice's force degeneration effects by 3 seconds. In addition, Force Barrier now purges Noble Sacrifice's force degeneration effects." />
+        <Icon Value="ballisticdampers" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.seer.serenity">
+        <Label Value="Serenity" />
+        <Description Value="Increases Force critical chance and damage reduction by 3%." />
+        <Icon Value="jkforcesensitiveorphan" />
+        <LevelAquired Value="36" />
+      </Talent>
+    </DisciplineTree>
+    <UtilityTree Name="utility">
+      <Ability Name="abl.jedi_consular.skill.utility.blockout">
+        <Label Value="Blockout" />
+        <Description Value="Activating Cloud Mind grants Blockout, which increases damage reduction by 25% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="cloudmind" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3414103863328768" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.psychic_suffusion">
+        <Label Value="Psychic Suffusion" />
+        <Description Value="Force Wave heals you and up to 7 affected allies for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="sonicboom" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413927769669632" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.61" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.01" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.egress">
+        <Label Value="Egress" />
+        <Description Value="Force Speed grants Egress, removing all movement-impairing effects and granting immunity to them for the duration." />
+        <Icon Value="fade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413970719342592" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.metaphysical_alacrity">
+        <Label Value="Metaphysical Alacrity" />
+        <Description Value="Mental Alacrity increases your movement speed by 50% while active. In addition, Force Speed lasts 0.5 seconds longer, and when Force Barrier ends, the active cooldown of Force Speed is finished." />
+        <Icon Value="stealthspeed" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413992194179072" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.utility.force_wake">
+        <Label Value="Force Wake" />
+        <Description Value="Force Wave unbalances its targets, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Icon Value="forceslam" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413940654571520" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="13" />
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.utility.life_ward">
+        <Label Value="Life Ward" />
+        <Description Value="Your Force Armor, Force Barrier, and Enduring Bastion heal you for 2% of your total health every second for as long as they last. This healing scales up to 8% with the charges for Enduring Bastion." />
+        <Icon Value="poweredforcebarrier" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.kinetic_collapse">
+        <Label Value="Kinetic Collapse" />
+        <Description Value="Force Armors you place on yourself erupt in a flash of light when they end, blinding up to 8 nearby enemies for 3 seconds. This effect breaks from direct damage." />
+        <Icon Value="interceptorshield" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.force_mobility">
+        <Label Value="Force Mobility" />
+        <Description Value="Turbulence, Healing Trance, and Force Serenity can be activated while moving." />
+        <Icon Value="abl_sijc_sosa_force_mobility" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.confound">
+        <Label Value="Confound" />
+        <Description Value="Targets affected by your Weaken Mind are slowed by 30% for its duration." />
+        <Icon Value="damagevulnerability" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.telekinetic_defense">
+        <Label Value="Telekinetic Defense" />
+        <Description Value="Increases the amount absorbed by your Force Armor by 10%." />
+        <Icon Value="chargedplating" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.containment">
+        <Label Value="Containment" />
+        <Description Value="If your Force Lift breaks early from damage, the target is stunned for 2 seconds. In addition, Force Lift activates instantly." />
+        <Icon Value="levitated" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.mind_ward">
+        <Label Value="Mind Ward" />
+        <Description Value="Reduces the damage taken by all periodic effects by 15%." />
+        <Icon Value="introspection" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.valiance">
+        <Label Value="Valiance" />
+        <Description Value="Reduces the health spent by Noble Sacrifice by 25%, and increases the healing done by Force Mend by 30%." />
+        <Icon Value="lightarmors" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.upheaval">
+        <Label Value="Upheaval" />
+        <Description Value="When you activate Project, you have a 5% chance to project an additional chunk of debris at the target, dealing 50% of normal damage." />
+        <Icon Value="upheaval" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.mental_defense">
+        <Label Value="Mental Defense" />
+        <Description Value="Reduces all damage taken while stunned by 30%." />
+        <Icon Value="spiritarmor" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.jedi_resistance">
+        <Label Value="Jedi Resistance" />
+        <Description Value="Increases damage reduction by 3%." />
+        <Icon Value="jedigeneral" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.force_haste">
+        <Label Value="Force Haste" />
+        <Description Value="Reduces the cooldown of Force Speed by 5 seconds, Force Slow by 3 seconds, and Force Barrier by 30 seconds." />
+        <Icon Value="movementslowed" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.pinning_resolve">
+        <Label Value="Pinning Resolve" />
+        <Description Value="Reduces the cooldown of Force Stun by 10 seconds. In addition, your Force Lift affects up to 2 additional standard or weak enemies within 8 meters of the target." />
+        <Icon Value="groundswell" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.humility">
+        <Label Value="Humility" />
+        <Description Value="Targets stunned by your Force Stun suffer Humility when Force Stun wears off, which reduces all damage dealt by 25% for 10 seconds." />
+        <Icon Value="damagereduced" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.pain_bearer">
+        <Label Value="Pain Bearer" />
+        <Description Value="Increases all healing received by 10%. Does not affect redistributed life." />
+        <Icon Value="guardianleap" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.utility.tectonic_mastery">
+        <Label Value="Tectonic Mastery" />
+        <Description Value="Increases the damage dealt by Forcequake by 25%." />
+        <Icon Value="abl_jc_sa_tectonic_mastery" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="4" />
+      </Talent>
+    </UtilityTree>
+    <base Name="base">
+      <Ability Name="abl.jedi_consular.noble_sacrifice">
+        <Label Value="Noble Sacrifice" />
+        <Description Value="Sacrifices 15% of your maximum health to restore 8% of your maximum Force. Each time this ability is used, your Force regeneration rate is reduced by 25% for the next &lt;&lt;1&gt;&gt; seconds. Stacks up to 4 times." />
+        <Icon Value="energydrain" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="960943097905152" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.weaken_mind">
+        <Label Value="Weaken Mind" />
+        <Description Value="Weakens the target's mind, dealing &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Icon Value="cloudmind_2" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="812861215473664" />
+        <ForceCost Value="35" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.cloud_mind">
+        <Label Value="Cloud Mind" />
+        <Description Value="Clouds the minds of your enemies, instantly lowering your threat by a moderate amount." />
+        <Icon Value="cloudmind" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="30" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <CombatLogID Value="3429037464616960" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_mend">
+        <Label Value="Force Mend" />
+        <Description Value="Immediately restores &lt;&lt;1&gt;&gt; health to you. Cannot be used on others." />
+        <Icon Value="prioritymedevac2" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="18" />
+        <OnGCD Value="False" />
+        <Cooldown Value="30" />
+        <CombatLogID Value="3030524629090304" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.92" />
+            <StandardHealthPercentMax Value="0.166" />
+            <StandardHealthPercentMin Value="0.126" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.benevolence">
+        <Label Value="Benevolence" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health." />
+        <Icon Value="sharedbenevolence" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="812710891618304" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.75" />
+            <StandardHealthPercentMax Value="0.108" />
+            <StandardHealthPercentMin Value="0.068" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.revive">
+        <Label Value="Revival" />
+        <Description Value="Revives an incapacitated ally. This ability is usable while in combat. When used, all group members can neither use nor be the target of an in-combat revival for the next 5 minutes." />
+        <Icon Value="secondchance" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="True" />
+        <Cooldown Value="300" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="812826855735296" />
+        <ForceCost Value="30" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.mental_alacrity">
+        <Label Value="Mental Alacrity" />
+        <Description Value="Grants &lt;&lt;1&gt;&gt;% alacrity and immunity to pushback and interrupts for &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="mentalacuity" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="3217995656593408" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.forcequake">
+        <Label Value="Forcequake" />
+        <Description Value="Channels the Force into the ground at the target location, causing it to quake and tremble, consuming 120 Force and dealing &lt;&lt;1&gt;&gt; energy damage to up to 8 targets within 8 meters over the duration of the channel. Affected enemies are additionally slowed by 30% for as long as they remain in the area of effect. In addition, standard and weak targets have a 33% chance to be stunned by the storm each second." />
+        <Icon Value="forcequake" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="6" />
+        <CombatLogID Value="812732366454784" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.79" />
+            <StandardHealthPercentMax Value="0.079" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.jedi_healer">
+        <Label Value="Jedi Healer" />
+        <Description Value="Reduces the cooldown of Revive by 100%." />
+        <Icon Value="twilekvisionary" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2439034617987072" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.rescue">
+        <Label Value="Rescue" />
+        <Description Value="Lowers the target's threat by a moderate amount and, if the target is a group member, pulls the target to your location." />
+        <Icon Value="rescue" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="34" />
+        <OnGCD Value="True" />
+        <Cooldown Value="60" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="812818265800704" />
+        <ForceCost Value="30" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.rejuvenate">
+        <Label Value="Rejuvenate" />
+        <Description Value="Immediately heals a target for a &lt;&lt;1&gt;&gt;, plus an additional &lt;&lt;2&gt;&gt; over &lt;&lt;3&gt;&gt; seconds." />
+        <Icon Value="salvation" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="812809675866112" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.8" />
+            <StandardHealthPercentMax Value="0.06" />
+            <StandardHealthPercentMin Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.disturbance">
+        <Label Value="Disturbance" />
+        <Description Value="Fires a blast of telekinetic energy at the target, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
+        <Icon Value="disturbance" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="812723776520192" />
+        <ForceCost Value="40" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.5" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_barrier">
+        <Label Value="Force Barrier" />
+        <Description Value="Projects a Force Barrier around you, granting immunity to all control, damage, and negative effects while channeled. This ability does not respect the global cooldown and can be used while controlled. While you are protected by Force Barrier charges will build up and grant Enduring Bastion, a shield that absorbs an amount of damage based off the charges that are present when Force Barrier ended. Enduring Bastion also grants immunity to interrupts." />
+        <Icon Value="forcebarriersage" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="False" />
+        <Cooldown Value="180" />
+        <ChannelDuration Value="8" />
+        <CombatLogID Value="3120895035965440" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3.27" />
+            <StandardHealthPercentMax Value="0.164" />
+            <StandardHealthPercentMin Value="0.164" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="6.54" />
+            <StandardHealthPercentMax Value="0.328" />
+            <StandardHealthPercentMin Value="0.328" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.04" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="9.81" />
+            <StandardHealthPercentMax Value="0.492" />
+            <StandardHealthPercentMin Value="0.492" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.06" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="13.08" />
+            <StandardHealthPercentMax Value="0.656" />
+            <StandardHealthPercentMin Value="0.656" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.08" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_empowerment">
+        <Label Value="Force Empowerment" />
+        <Description Value="Increases Strength, Presence, Aim, Cunning, Endurance, and Willpower for you and your Operation group members within 40 meters by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="uti_imp_rep_power_raid_buff" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="False" />
+        <Cooldown Value="300" />
+        <CombatLogID Value="3429041759584256" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.0736223" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.force_armor">
+        <Label Value="Force Armor" />
+        <Description Value="Surrounds the target in a Force shield that absorbs a high amount of damage and lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. The target becomes Force-imbalanced and cannot benefit from Force Armor again for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Icon Value="forcearmor" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="812736661422080" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3.27" />
+            <StandardHealthPercentMax Value="0.164" />
+            <StandardHealthPercentMin Value="0.164" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.restoration">
+        <Label Value="Restoration" />
+        <Description Value="Cleanses a friendly target of up to 2 negative mental or Force effects." />
+        <Icon Value="casting" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="952181364621312" />
+        <ForceCost Value="15" />
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.inner_strength">
+        <Label Value="Inner Strength" />
+        <Description Value="Reduces the Force consumed by Force abilities by 10%." />
+        <Icon Value="zabrakswordsman" />
+        <LevelAquired Value="15" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.force_reach">
+        <Label Value="Force Reach" />
+        <Description Value="Increases the range of Telekinetic Throw, Project, Mind Snap, and Force Slow by 20 meters. Also increases the duration of Force Lift to 60 seconds." />
+        <Icon Value="cloakofpain" />
+        <LevelAquired Value="10" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.force_studies">
+        <Label Value="Force Studies" />
+        <Description Value="Attuned to the Force, your maximum Force is increased by 500." />
+        <Icon Value="jcjedischolar" />
+        <LevelAquired Value="10" />
+      </Talent>
+    </base>
+    <DisciplineTree Name="balance">
+      <Label Value="Balance" />
+      <Ability Name="abl.jedi_consular.skill.balance.suppression">
+        <Label Value="Force Suppression" />
+        <Description Value="Force in Balance now suppresses resistance to the Force, increasing the amount of damage the targets suffer from your next 15 periodic damaging abilities by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="forcesuppression" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2156997000560640" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.presence_of_mind">
+        <Label Value="Presence of Mind" />
+        <Description Value="Dealing damage with Telekinetic Throw produces a stack of Presence of Mind. At 4 stacks, Presence of Mind causes your next Disturbance, Mind Crush, or Vanquish to activate instantly, consume 50% less Force, and deal 25% more damage." />
+        <Icon Value="replenish" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1197192068988928" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.vanquish">
+        <Label Value="Vanquish" />
+        <Description Value="Vanquishes the target with mighty force, dealing &lt;&lt;1&gt;&gt; kinetic damage initially, plus an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3&gt;&gt; seconds. The target also becomes Vulnerable for &lt;&lt;4&gt;&gt; seconds, increasing the damage taken from Force attacks by 5%.  Shares cooldown with Mind Crush." />
+        <Icon Value="abl_jc_sh_vanquish" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="3347334301745152" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.psychic_barrier">
+        <Label Value="Psychic Barrier" />
+        <Description Value="Reduces the pushback suffered while activating Force Serenity by 75% and Telekinetic Throw by 100%. In addition, each time your Telekinetic Throw deals damage, you recover 1% of your total Force." />
+        <Icon Value="forcedrain" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="981739329552384" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.sever_force">
+        <Label Value="Sever Force" />
+        <Description Value="Weakens the target, freezing it in place for &lt;&lt;1&gt;&gt; seconds and dealing &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3&gt;&gt; seconds. The immobilizing effect cannot occur more than once every &lt;&lt;4&gt;&gt; seconds." />
+        <Icon Value="sacrifice" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="813226287693824" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.force_serenity">
+        <Label Value="Force Serenity" />
+        <Description Value="Redistributes life from an enemy, dealing &lt;&lt;1&gt;&gt; internal damage to the target and healing you for 50% of the damage dealt." />
+        <Icon Value="abl_jc_sa_force_serenity" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3347338596712448" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.74" />
+            <StandardHealthPercentMax Value="0.194" />
+            <StandardHealthPercentMin Value="0.154" />
+            <LifeStealModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.rippling_force">
+        <Label Value="Rippling Force" />
+        <Description Value="Damage dealt by Telekinetic Throw has a 20% chance and damage dealt by Force Serenity has a 60% chance to apply Rippling Force to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="crushed" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3218403678486528" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.027" />
+            <StandardHealthPercentMin Value="0.027" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.balance.force_in_balance">
+        <Label Value="Force in Balance" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; internal damage and redistributes life from affected targets to heal you for 10% of the damage dealt. Strikes up to 8 targets within an 8-meter radius." />
+        <Icon Value="twindisciplines" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="2157001295527936" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
+            <LifeStealModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.balance.minds_eye">
+        <Label Value="Mind's Eye" />
+        <Description Value="Force Serenity deals 25% more damage when used on a target affected by your Weaken Mind. In addition, each time a charge of your Force Suppression is consumed, you gain 2 Force." />
+        <Icon Value="jkmiralukansurvivor" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.mental_scarring">
+        <Label Value="Mental Scarring" />
+        <Description Value="Increases the damage dealt by periodic effects by 15% on targets below 30% of max health. In addition, Force Serenity restore 15 force when used on a target affected by your Force Suppression." />
+        <Icon Value="soothe" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.abundant_justice">
+        <Label Value="Abundant Justice" />
+        <Description Value="Force in Balance spreads your Weaken Mind and Sever Force to the targets it damages, as long as it damages targets already affected by your Weaken Mind and Sever Force. In addition, Force in Balance overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Icon Value="abl_jc_sa_abundant_justice" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.telekinetic_balance">
+        <Label Value="Telekinetic Balance" />
+        <Description Value="Telekinetic Throw no longer has a cooldown." />
+        <Icon Value="cc_stay" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.critical_kinesis">
+        <Label Value="Critical Kinesis" />
+        <Description Value="Increases the critical chance of Force Serenity and Disturbance by 5%." />
+        <Icon Value="railshot" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.psychic_projection">
+        <Label Value="Psychic Projection" />
+        <Description Value="Telekinetic Throw channels and ticks 33% faster but deals 25% less damage." />
+        <Icon Value="forceactivate" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.mind_warp">
+        <Label Value="Mind Warp" />
+        <Description Value="Increases the duration of Mind Crush and Vanquish by 2 seconds." />
+        <Icon Value="mindcrush" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.focused_insight">
+        <Label Value="Focused Insight" />
+        <Description Value="Increases the life stolen by Force in Balance and Force Serenity by 100% and causes Weaken Mind and Sever Force to reclaim life from enemy targets, healing you for 25% of the damage they deal." />
+        <Icon Value="salvation" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.balance.drain_thoughts">
+        <Label Value="Drain Thoughts" />
+        <Description Value="Increases all periodic damage dealt by 10%." />
+        <Icon Value="drainingforce" />
+        <LevelAquired Value="36" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="telekinetics">
+      <Label Value="Telekinetics" />
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_gust">
+        <Label Value="Telekinetic Gust" />
+        <Description Value="Blasts the target with a quick gust of Force power, which deals &lt;&lt;1&gt;&gt; kinetic damage and grants Force Gust, which reduces the activation time of your next Mind Crush by 0.5 seconds. This effect lasts up to &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="abl_jc_sa_telekinetic_gust" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3347321416843264" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.96" />
+            <StandardHealthPercentMax Value="0.216" />
+            <StandardHealthPercentMin Value="0.176" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.tremors">
+        <Label Value="Tremors" />
+        <Description Value="Each Telekinetic Momentum and Mental Momentum reduces the active cooldown of Mental Alacrity by 1 second. In addition, being interrupted grants Unshakeable for 4 seconds. This can only occur once every 15 seconds." />
+        <Icon Value="scatterclip" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="812934229917696" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.tidal_force">
+        <Label Value="Tidal Force" />
+        <Description Value="Disturbance, Telekinetic Burst, Turbulence, and Forcequake grant Tidal Force when activated. Tidal Force immediately finishes the cooldown on Telekinetic Wave and makes your next Telekinetic Wave activate instantly and consume 50% less Force. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="abl_jc_sa_mental_continuum" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="878638639611904" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_momentum">
+        <Label Value="Telekinetic Momentum" />
+        <Description Value="Disturbance, Telekinetic Wave, Telekinetics Gust, and Telekinetics Burst have a 30% chance to unleash a second charge of Telekinetics that strikes the same targets for 30% damage. Additionally, Telekinetic Wave overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
+        <Icon Value="chargedupforce" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="999348695465984" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.051" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.64" />
+            <StandardHealthPercentMax Value="0.084" />
+            <StandardHealthPercentMin Value="0.044" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.51" />
+            <StandardHealthPercentMax Value="0.071" />
+            <StandardHealthPercentMin Value="0.031" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.588" />
+            <StandardHealthPercentMax Value="0.0648" />
+            <StandardHealthPercentMin Value="0.0528" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_burst">
+        <Label Value="Telekinetic Burst" />
+        <Description Value="Summons a burst of telekinetic power that deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target by 30% for 3 seconds." />
+        <Icon Value="abl_jc_sa_telekinetic_burst" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3347325711810560" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.565" />
+            <StandardHealthPercentMax Value="0.177" />
+            <StandardHealthPercentMin Value="0.137" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_effusion">
+        <Label Value="Telekinetic Effusion" />
+        <Description Value="Direct Force attacks grant Telekinetic Effusion when they critically hit, reducing the Force consumed by your next two non-channeled Force attacks by 75%." />
+        <Icon Value="jcforceprodigy" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="812929934950400" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_wave">
+        <Label Value="Telekinetic Wave" />
+        <Description Value="Sends a wave of telekinetic energy that deals &lt;&lt;1&gt;&gt; kinetic damage to up to 8 targets within 8 meters of the primary target." />
+        <Icon Value="telekineticBlast" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2.5" />
+        <CombatLogID Value="947130483081216" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.14" />
+            <StandardHealthPercentMax Value="0.234" />
+            <StandardHealthPercentMin Value="0.194" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.cascading_force">
+        <Label Value="Cascading Force" />
+        <Description Value="Increases the maximum range of your Force attacks by 5 meters. Additionally, Telekinetic Wave immobilizes all affected targets for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and slows all affected targets by 50% for &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="force" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3218193225089024" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_focal_point">
+        <Label Value="Telekinetic Focal Point" />
+        <Description Value="Damage dealt by Telekinetic Wave and Telekinetic Gust has a 100% chance and damage dealt by Disturbance and Telekinetic Burst has a 50% chance to grant Focal Telekinetics, which increases alacrity by 1%. Stacks up to 5 times. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="ballisticdampers" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3428431874228224" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.mental_momentum">
+        <Label Value="Mental Momentum" />
+        <Description Value="Mind Crush has a 30% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Turbulence, there is a 30% chance the ability will produce a second blast that strikes the same target for 30% damage." />
+        <Icon Value="cc_follow" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3218339253977088" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.474" />
+            <StandardHealthPercentMax Value="0.057" />
+            <StandardHealthPercentMin Value="0.037" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.clamoring_force">
+        <Label Value="Clamoring Force" />
+        <Description Value="Force Speed gives 2 stacks of Clamoring Force, which allows Disturbance and Telekinetic Burst to be activated instantly." />
+        <Icon Value="disturbance" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="960870083461120" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.concentration">
+        <Label Value="Concentration" />
+        <Description Value="Reduces the pushback suffered while activating Telekinetic Wave, Disturbance, Mind Crush, Turbulence, and Telekinetics Bolt by 75%. Additionally, you have a 25% chance when taking direct damage to gain Concentration, which causes your next Disturbance or Telekinetic Burst to activate instantly. This effect cannot occur more than once every 8 seconds and lasts for up to &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="cc_aggressive" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="812865510440960" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.mental_continuum">
+        <Label Value="Mental Continuum" />
+        <Description Value="Direct damage dealt by your Mind Crush and Telekinetic Wave abilities refreshes the duration of your Weaken Mind on affected targets. In addition, Telekinetic Burst increases your Force regeneration rate by 10% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
+        <Icon Value="mentalfocus" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3347308531941376" />
+      </Ability>
+      <Ability Name="abl.jedi_consular.skill.telekinetics.turbulence">
+        <Label Value="Turbulence" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; internal damage to a single target. Turbulence automatically critically hits targets affected by your Weaken Mind." />
+        <Icon Value="turbulence" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="9" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="885781170225152" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.2" />
+            <StandardHealthPercentMin Value="0.16" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.jedi_consular.skill.telekinetics.reverberation">
+        <Label Value="Reverberation" />
+        <Description Value="Increases the critical damage dealt by Telekinetic Wave, Mind Crush, Turbulence, and Telekinetic Gust by 30%." />
+        <Icon Value="energyrebounder" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.telekinetics.resonating_vibrations">
+        <Label Value="Resonating Vibrations" />
+        <Description Value="Increases the critical chance of Forcequake by 15% and its critical damage bonus by 30%." />
+        <Icon Value="abl_jc_sa_resonating_vibrations" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.jedi_consular.skill.telekinetics.flowing_force">
+        <Label Value="Flowing Force" />
+        <Description Value="Telekinetic Momentum is twice as likely to trigger while Mental Alacrity is active. Additionally increases the duration of Mental Alacrity by 5 seconds and reduces its cooldown by 15  seconds." />
+        <Icon Value="mentalacuity" />
+        <LevelAquired Value="48" />
+      </Talent>
+    </DisciplineTree>
+  </AdvClass>
+</Class>

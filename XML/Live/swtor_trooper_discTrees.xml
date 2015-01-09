@@ -1,0 +1,2906 @@
+<Class Name="trooper">
+  <Name Value="trooper" />
+  <Label Value="Trooper" />
+  <base>
+    <Ability Name="abl.player.proficiency.armor.heavy">
+      <Label Value="Armor Proficiency: Heavy" />
+      <Description Value="Able to equip heavy combat armor." />
+      <Icon Value="heavyArmors" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810735206662144" />
+    </Ability>
+    <Ability Name="abl.trooper.pulse_cannon">
+      <Label Value="Pulse Cannon" />
+      <Description Value="Sprays waves of ionizing energy at targets in a 10-meter cone, dealing &lt;&lt;1&gt;&gt; elemental damage to up to 8 targets and depleting 28 energy cells over the duration." />
+      <Icon Value="highenergyclip" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="8" />
+      <OnGCD Value="True" />
+      <Cooldown Value="18" />
+      <TargetArc Value="360" />
+      <ChannelDuration Value="3" />
+      <CombatLogID Value="3412050868961280" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.555" />
+          <StandardHealthPercentMax Value="0.0555" />
+          <StandardHealthPercentMin Value="0.0555" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.hold_the_line">
+      <Label Value="Hold the Line" />
+      <Description Value="Grants &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; of immunity from all movement-impairing effects, knockdowns and physics and increases movement speed by 30%." />
+      <Icon Value="trepublicelite" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="26" />
+      <OnGCD Value="False" />
+      <Cooldown Value="30" />
+      <CombatLogID Value="801303458480128" />
+    </Ability>
+    <Ability Name="abl.trooper.recharge_cells">
+      <Label Value="Recharge Cells" />
+      <Description Value="Recharges 50 energy cells over &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="blastermagazine2" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="1991194083065856" />
+    </Ability>
+    <Ability Name="abl.trooper.mortar_volley">
+      <Label Value="Mortar Volley" />
+      <Description Value="Launches a volley of mortar shells at the target area, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 8 enemies within 5 meters over the duration. Standard and weak targets are knocked down by the blasts. Depletes 30 energy cells over the duration." />
+      <Icon Value="deathfromabove" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="45" />
+      <Range Value="30" />
+      <TargetArc Value="360" />
+      <ChannelDuration Value="3" />
+      <CombatLogID Value="2292571938226176" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.5333333" />
+          <StandardHealthPercentMax Value="0.07333333" />
+          <StandardHealthPercentMin Value="0.03333333" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.recharge_and_reload">
+      <Label Value="Recharge and Reload" />
+      <Description Value="Regenerates health and recharges your energy cells while channeling. Not usable in combat." />
+      <Icon Value="rechargeAndReload" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <ChannelDuration Value="15" />
+      <CombatLogID Value="801333523251200" />
+    </Ability>
+    <Ability Name="abl.trooper.reactive_shield">
+      <Label Value="Reactive Shield" />
+      <Description Value="Increases damage reduction by &lt;&lt;1&gt;&gt;% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="carbonitereinforcedshield" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="14" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="801329228283904" />
+    </Ability>
+    <Ability Name="abl.trooper.plasma_cell">
+      <Label Value="Plasma Cell" />
+      <Description Value="Loads your rifle with a plasma powercell, giving all of your rifle attacks a 25% chance to deal &lt;&lt;1&gt;&gt; additional elemental damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Only one cell can be active at a time." />
+      <Icon Value="plasmaclip" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="4" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <ActivationTime Value="1.5" />
+      <CombatLogID Value="1202324554907648" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.1715" />
+          <StandardHealthPercentMax Value="0.01715" />
+          <StandardHealthPercentMin Value="0.01715" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.hammer_shot">
+      <Label Value="Hammer Shot" />
+      <Description Value="Fires a series of hammering shots that deals &lt;&lt;1&gt;&gt; weapon damage to the target." />
+      <Icon Value="hammerShot" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="801299163512832" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="1" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.faction.republic">
+      <Label Value="" />
+      <Description Value="" />
+      <Icon Value="republicbanner" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="-1" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.rifle">
+      <Label Value="Weapon Proficiency: Blaster Rifle" />
+      <Description Value="Able to equip blaster rifles, carbines, and repeaters." />
+      <Icon Value="rifles" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810713731825664" />
+    </Ability>
+    <Ability Name="abl.trooper.full_auto">
+      <Label Value="Full Auto" />
+      <Description Value="Fires a continuous stream of bolts that deals &lt;&lt;1&gt;&gt; weapon damage and depletes 24 energy cells over the duration. Weak and standard enemies caught in the blaster fire are stunned for the duration." />
+      <Icon Value="fullAuto" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="3" />
+      <OnGCD Value="True" />
+      <Cooldown Value="15" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <ChannelDuration Value="3" />
+      <CombatLogID Value="801290573578240" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="1.0475" />
+          <StandardHealthPercentMax Value="0.10475" />
+          <StandardHealthPercentMin Value="0.10475" />
+          <AmmountModifier Value="-0.3" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.sprint">
+      <Label Value="Sprint" />
+      <Description Value="Increase movement speed by 35% while not in combat." />
+      <Icon Value="sprint" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810670782152704" />
+    </Ability>
+    <Ability Name="abl.trooper.explosive_round">
+      <Label Value="Explosive Round" />
+      <Description Value="Fires a heavy round that deals &lt;&lt;1&gt;&gt; kinetic damage to the primary target and &lt;&lt;2&gt;&gt; kinetic damage to up to 7 standard or weak targets within 5 meters of the primary target. If the primary target is a weak or standard enemy, it is knocked to the ground." />
+      <Icon Value="rifleGrenade" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="801277688676352" />
+      <EnergyCost Value="20" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.31" />
+          <StandardHealthPercentMax Value="0.151" />
+          <StandardHealthPercentMin Value="0.111" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.655" />
+          <StandardHealthPercentMax Value="0.0855" />
+          <StandardHealthPercentMin Value="0.0455" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.adrenaline_rush">
+      <Label Value="Adrenaline Rush" />
+      <Description Value="Activating this ability makes you Fired Up for up to &lt;&lt;1&gt;&gt; seconds, which triggers an Adrenaline Rush when your health is reduced to 35% or less. If your health is already 35% or less, Adrenaline Rush triggers immediately. Once triggered, Adrenaline Rush goes on cooldown for 3 minutes and rapidly heals you up to 35% of your max health for &lt;&lt;2&gt;&gt; seconds but will not exceed 35% of your max health." />
+      <Icon Value="adrenelinerush" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="32" />
+      <OnGCD Value="False" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="801251918872576" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.005" />
+        </Type>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.015" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.mount.skill.speeder_piloting">
+      <Label Value="Speeder Piloting" />
+      <Description Value="Able to ride speeder bikes." />
+      <Icon Value="mount.speederbike.anteater.02" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="25" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="1768010402496512" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.armor.medium">
+      <Label Value="Armor Proficiency: Medium" />
+      <Description Value="Able to equip medium-weight armor." />
+      <Icon Value="mediumArmors" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810743796596736" />
+    </Ability>
+    <Ability Name="abl.trooper.cryo_grenade">
+      <Label Value="Cryo Grenade" />
+      <Description Value="Hurls a cryo grenade that freezes the target, dealing &lt;&lt;2&gt;&gt; energy damage and stunning it for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="cryobanGrenade" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="12" />
+      <OnGCD Value="True" />
+      <Cooldown Value="60" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="958439131971584" />
+      <EnergyCost Value="5" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.58" />
+          <StandardHealthPercentMax Value="0.078" />
+          <StandardHealthPercentMin Value="0.038" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.tenacity">
+      <Label Value="Tenacity" />
+      <Description Value="Purges incapacitating and movement-impairing effects." />
+      <Icon Value="tenacity" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="9" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="801372177956864" />
+    </Ability>
+    <Ability Name="abl.trooper.stockstrike">
+      <Label Value="Stockstrike" />
+      <Description Value="Strikes the target with the butt of the rifle, dealing &lt;&lt;1&gt;&gt; kinetic damage." />
+      <Icon Value="stockStrike" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="2" />
+      <OnGCD Value="True" />
+      <Cooldown Value="9" />
+      <Range Value="0" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="801367882989568" />
+      <EnergyCost Value="15" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.77" />
+          <StandardHealthPercentMax Value="0.198" />
+          <StandardHealthPercentMin Value="0.158" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.high_impact_round">
+      <Label Value="High Impact Bolt" />
+      <Description Value="Fires a very powerful round at the target, dealing &lt;&lt;1&gt;&gt; weapon damage. Only usable against incapacitated targets and targets suffering from periodic damage." />
+      <Icon Value="highimpactround" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="6" />
+      <OnGCD Value="True" />
+      <Cooldown Value="15" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="2021194429628416" />
+      <EnergyCost Value="15" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="1.97" />
+          <StandardHealthPercentMax Value="0.197" />
+          <StandardHealthPercentMin Value="0.197" />
+          <AmmountModifier Value="0.31" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.fortification">
+      <Label Value="Fortification" />
+      <Description Value="Increases the target's Endurance by 5% for 60 minutes. If the target is a group member, all other group members are also affected." />
+      <Icon Value="touterrimveteran" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="30" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="1781488009871360" />
+    </Ability>
+    <Ability Name="abl.trooper.sticky_grenade">
+      <Label Value="Sticky Grenade" />
+      <Description Value="Throws a sticky grenade that will detonate after several seconds. Standard and weak enemies enter a state of panic when the grenade is active. The explosion deals &lt;&lt;1&gt;&gt; kinetic damage to up to 8 enemies when it detonates. Standard and weak targets are knocked back from the blast." />
+      <Icon Value="forcetrinket2" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="5" />
+      <OnGCD Value="True" />
+      <Cooldown Value="15" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="801363588022272" />
+      <EnergyCost Value="15" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.91" />
+          <StandardHealthPercentMax Value="0.111" />
+          <StandardHealthPercentMin Value="0.071" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.no_retreat">
+      <Label Value="Heroic Moment: No Retreat" />
+      <Description Value="Finishes the cooldown on Cryo Grenade and restores 2% of maximum health to you and your companion every 3 seconds. Requires an active companion. Usable while in combat. Lasts 1 minute." />
+      <Icon Value="trooper" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="15" />
+      <OnGCD Value="False" />
+      <Cooldown Value="1200" />
+      <CombatLogID Value="1342946079145984" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.trooper.stealth_scan">
+      <Label Value="Stealth Scan" />
+      <Description Value="Fires off probes that scan the area for stealthed opponents. The probes last for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="probedroid" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="36" />
+      <OnGCD Value="True" />
+      <Cooldown Value="20" />
+      <Range Value="30" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="801359293054976" />
+    </Ability>
+    <Ability Name="abl.trooper.reserve_powercell">
+      <Label Value="Reserve Powercell" />
+      <Description Value="Your next ability depletes no energy cells. Effect lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="blasterpowerpacka" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="42" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="1201697489682432" />
+    </Ability>
+  </base>
+  <AdvClass Name="commando" Label="Commando">
+    <DisciplineTree Name="assault_specialist">
+      <Label Value="Assault Specialist" />
+      <Ability Name="abl.trooper.skill.assault_specialist.mag_bolt">
+        <Label Value="Mag Bolt" />
+        <Description Value="Fires a very powerful shot at the target that deals &lt;&lt;1&gt;&gt; weapon damage.  Shares a cooldown with High Impact Bolt." />
+        <Icon Value="abl_tr_co_mag_bolt" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393762898214912" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.47" />
+            <StandardHealthPercentMax Value="0.247" />
+            <StandardHealthPercentMin Value="0.247" />
+            <AmmountModifier Value="0.65" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.scorching_bolts">
+        <Label Value="Scorching Bolts" />
+        <Description Value="High Impact Bolt and Mag Bolt ignores 30% of the target's armor, and dealing damage with either ability will always trigger your Plasma Cell, if it is active. In addition, if High Impact Bolt or Mag Bolt is used against a burning target, you regenerate 5 energy cells." />
+        <Icon Value="shrapround" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3414069503590400" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.assault_plastique">
+        <Label Value="Assault Plastique" />
+        <Description Value="Throws a moldable plastic explosive that sticks to the target and detonates after several seconds, exploding for &lt;&lt;1&gt;&gt; kinetic damage. Standard and weak enemies enter a state of panic when the explosive attaches and are knocked down when it detonates." />
+        <Icon Value="security" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393277566910464" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.48" />
+            <StandardHealthPercentMax Value="0.268" />
+            <StandardHealthPercentMin Value="0.228" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.degauss">
+        <Label Value="Degauss" />
+        <Description Value="Activating Diversion increases your defense chance by 25% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="assaulttech" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2267253106016256" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.hyper_assault_rounds">
+        <Label Value="Hyper Assault Rounds" />
+        <Description Value="Dealing periodic damage to a target with less than 30% max health grants Hyper Assault Rounds, which reduces the cost of your next Explosive Round by 10 and increases the damage it deals by 75%. This effect cannot occur more than once every 15 seconds." />
+        <Icon Value="volitilewarhead" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3170720951566336" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.blazing_celerity">
+        <Label Value="Blazing Celerity" />
+        <Description Value="Damage dealt by Mag Bolt makes your next Charged Bolts or Serrated Bolt activate instantly. This effect cannot occur more than once every 15 seconds." />
+        <Icon Value="abl_tr_co_blazing_celerity" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3414060913655808" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.ionic_accelerator_commando">
+        <Label Value="Ionic Accelerator" />
+        <Description Value="While Plasma Cell is active, Charged Bolts, Full Auto, and Hail of Bolts finish the cooldown on High Impact Bolt and Mag Bolt and make the next High Impact Bolt or Mag Bolt cost no energy cells.  This effect cannot occur more than once every 7.5 seconds." />
+        <Icon Value="terminate" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393741423378432" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.incendiary_round">
+        <Label Value="Incendiary Round" />
+        <Description Value="Launches an incendiary projectile, setting the target ablaze for &lt;&lt;1&gt;&gt; elemental damage and an additional &lt;&lt;2&gt;&gt; elemental damage over &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="fireBomb" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3391477975613440" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.41" />
+            <StandardHealthPercentMax Value="0.061" />
+            <StandardHealthPercentMin Value="0.021" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.34" />
+            <StandardHealthPercentMax Value="0.034" />
+            <StandardHealthPercentMin Value="0.034" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.assault_specialist.serrated_bolt">
+        <Label Value="Serrated Bolt" />
+        <Description Value="Fires special serrated bolts at the target that deal &lt;&lt;1&gt;&gt; weapon damage and cause the target to bleed for &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3&gt;&gt; seconds." />
+        <Icon Value="abl_tr_co_serrated_bolt" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3418278571540480" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.7" />
+            <StandardHealthPercentMax Value="0.07" />
+            <StandardHealthPercentMin Value="0.07" />
+            <AmmountModifier Value="-0.53" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.4" />
+            <StandardHealthPercentMax Value="0.04" />
+            <StandardHealthPercentMin Value="0.04" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.trooper.skill.assault_specialist.sweltering_heat">
+        <Label Value="Sweltering Heat" />
+        <Description Value="Incendiary Round reduces the movement speed of the target by 30% while it burns them. Additionally, Incendiary Round makes the target Assailable for 45 seconds. Assailable targets take 7% more internal and elemental damage." />
+        <Icon Value="creepingterror" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.rapid_recharge">
+        <Label Value="Rapid Recharge" />
+        <Description Value="Increases alacrity by 2% and reduces the cooldown of Recharge Cells and Reserve Powercell by 30 seconds." />
+        <Icon Value="blastermagazine2" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.relentless_assault">
+        <Label Value="Relentless Assault" />
+        <Description Value="Increases tech critical hit chance by 3% and increases the damage dealt by periodic effects by 30% on targets below 30% max health." />
+        <Icon Value="immolate" />
+        <LevelAquired Value="36" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.superheated_plasma">
+        <Label Value="Superheated Plasma" />
+        <Description Value="Increases the damage dealt by Plasma Cell by 30% and increases its chance to be triggered by 10%." />
+        <Icon Value="plasmaclip" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.hyper_barrels">
+        <Label Value="Hyper Barrels" />
+        <Description Value="Reduces the cooldown of Full Auto by 3 seconds and Plasma Grenade by 6.5 seconds. Additionally lowers the energy cell cost of Plasma Grenade by 5." />
+        <Icon Value="shockround" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.explosive_dissemination">
+        <Label Value="Explosive Dissemination" />
+        <Description Value="Increases the damage dealt by Plasma Grenade and Sticky Grenade by 25% and causes your Plasma Grenade to spread your Incendiary Round burn to targets it hits, if it hits a target already affected by your Incendiary Round burn.  Additionally, Sticky Grenade will spread your Serrated Bolt bleed to targets it hits, if it hits a target already affected by your Serrated Bolt bleed." />
+        <Icon Value="abl_tr_co_explosive_dessemination" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.flaming_wound">
+        <Label Value="Flaming Wound" />
+        <Description Value="Your elemental attacks deal 5% more damage to bleeding targets." />
+        <Icon Value="decoyarsenal" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.assault_specialist.assault_trooper_commando">
+        <Label Value="Assault Trooper" />
+        <Description Value="Increases the critical damage bonus for Full Auto, Charged Bolts, Incendiary Round, Assault Plastique, Serrated Bolt, and Mag Bolt by 30%.  Additionaly, Serrated Bolt marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
+        <Icon Value="tzabrakguerillafighter" />
+        <LevelAquired Value="44" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="combat_medic">
+      <Label Value="Combat Medic" />
+      <Ability Name="abl.trooper.skill.combat_medic.preventative_medicine">
+        <Label Value="Preventative Medicine" />
+        <Description Value="Bacta Infusion applies Preventative Medicine to the target, healing for an additional &lt;&lt;1&gt;&gt; over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Additionally, Successive Treatment grants the Protected effect to targets it heals, increasing their armor by 10% for &lt;&lt;3&gt;&gt; seconds." />
+        <Icon Value="armament3" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2040994228862976" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.26" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.successive_treatment">
+        <Label Value="Successive Treatment" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; over the duration, and heals one new friendly target within 20 meters for &lt;&lt;2&gt;&gt; with each tick, healing up to four total targets with the final tick. 28 energy cells are used over the channel duration." />
+        <Icon Value="abl_tr_co_successive_treatment" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="3393470840438784" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.01" />
+            <StandardHealthPercentMax Value="0.0505" />
+            <StandardHealthPercentMin Value="0.0505" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.emergency_response">
+        <Label Value="Emergency Response" />
+        <Description Value="Eliminates the energy cell use by Bacta Infusion. In addition, activating Bacta Infusion grants Emergency Response, which makes your next Advanced Medical Probe activate instantly. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="abl_bhtr_meco_emergency_response" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3393466545471488" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.field_triage">
+        <Label Value="Field Triage" />
+        <Description Value="Activating Medical Probe grants a charge of field Triage, which reduces the cost of your next Advanced Medical Probe by 5 energy cells. This effect can stack up to 3 charges." />
+        <Icon Value="abl_tr_co_med_shot" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2275967594659840" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.psych_aid">
+        <Label Value="Psych Aid" />
+        <Description Value="Field Aid now removes negative mental effects and heals the target for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="mentalblock" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2275984774529024" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.67" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.med_boosters">
+        <Label Value="Med Boosters" />
+        <Description Value="Reduces the energy cells depleted of Kolto Bomb by 5, and increases the critical heal chance of Trauma Probe by 5%. Additionally, Med Shot regenerates 1 energy cell when it normally heals and 2 energy cells when it critically heals." />
+        <Icon Value="abl_tr_co_med_boosters" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3408258412838912" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.trauma_probe">
+        <Label Value="Trauma Probe" />
+        <Description Value="Deploys a Trauma Probe with 6 charges that lasts up to 3 minutes. When the target is damaged, Trauma Probe loses 1 charge and heals the target for &lt;&lt;1&gt;&gt;. This effect cannot occur more than once every 3 seconds. A target may not have more than one Trauma Probe active." />
+        <Icon Value="guardprobe" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="999516199190528" />
+        <EnergyCost Value="10" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.46" />
+            <StandardHealthPercentMax Value="0.023" />
+            <StandardHealthPercentMin Value="0.023" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.kolto_residue">
+        <Label Value="Kolto Residue" />
+        <Description Value="Kolto Bomb leaves a residue on up to 8 enemies in its area of impact, reducing movement speed by 50% for 3 seconds. In addition, Advanced Medical Probe grants Invigorated to its target, increasing healing received by 3% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="mucus" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393457955536896" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.medical_probe">
+        <Label Value="Medical Probe" />
+        <Description Value="Summons a probe that heals for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="resuscitationprobe" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3393462250504192" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.873" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.074" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.kolto_pods">
+        <Label Value="Kolto Pods" />
+        <Description Value="Kolto Bomb leaves a pool of kolto that heals allies for &lt;&lt;1&gt;&gt; over &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="koltotank" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3169260662685696" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.51" />
+            <StandardHealthPercentMax Value="0.0255" />
+            <StandardHealthPercentMin Value="0.0255" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.combat_medic.kolto_bomb">
+        <Label Value="Kolto Bomb" />
+        <Description Value="Lobs a kolto bomb at the target area, exploding on impact. Heals up to 8 allies within 8 meters of the targeted area for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="healbomb" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="999090997428224" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.04" />
+            <StandardHealthPercentMax Value="0.072" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.17" />
+            <StandardHealthPercentMax Value="0.0085" />
+            <StandardHealthPercentMin Value="0.0085" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.trooper.skill.combat_medic.treated_wound_dressings">
+        <Label Value="Treated Wound Dressings" />
+        <Description Value="Reduces all damage taken by 5% while Combat Support Cell is active." />
+        <Icon Value="revive" />
+        <LevelAquired Value="20" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.combat_medic.probe_medic">
+        <Label Value="Probe Medic" />
+        <Description Value="Increases the max number of Trauma Probe charges by 1, increases the healing each charge does by 5%, and reduces Trauma Probe's rate limit by 0.5 seconds." />
+        <Icon Value="surgicalprobe" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.combat_medic.steady_hands">
+        <Label Value="Steady Hands" />
+        <Description Value="Reduces the pushback suffered while activating healing abilities by 70% and reduces the threat generated by healing abilities by 10%." />
+        <Icon Value="firstaid" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.combat_medic.potent_medicine">
+        <Label Value="Potent Medicine" />
+        <Description Value="Increases the critical healing bonus of all heals by 15%." />
+        <Icon Value="medicalcrate" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.combat_medic.field_medicine">
+        <Label Value="Field Medicine" />
+        <Description Value="Increases the healing done by Bacta Infusion and Advanced Medical Probe by 5%. In addition, Medical Probe generates an extra stack of Supercharge when activated, and Successive Treatment channels 20% faster." />
+        <Icon Value="firstaidbox" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.combat_medic.quick_thinking">
+        <Label Value="Quick Thinking" />
+        <Description Value="Reduces the cooldown of Advanced Medical Probe by 3 seconds." />
+        <Icon Value="auraofleadership" />
+        <LevelAquired Value="16" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="gunnery">
+      <Label Value="Gunnery" />
+      <Ability Name="abl.trooper.skill.gunnery.boltstorm">
+        <Label Value="Boltstorm" />
+        <Description Value="Fires a continuous stream of bolts that deals &lt;&lt;1&gt;&gt; weapon damage and depletes 16 energy cells over the duration. Weak and standard enemies caught in the blaster fire are stunned for the duration.  Shares a cooldown with Full Auto." />
+        <Icon Value="abl_tr_co_boltstorm" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="3393522380046336" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.125" />
+            <StandardHealthPercentMax Value="0.1125" />
+            <StandardHealthPercentMin Value="0.1125" />
+            <AmmountModifier Value="-0.25" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.decoy">
+        <Label Value="Decoy" />
+        <Description Value="Diversion intercepts and absorb the next incoming direct Force or tech attack. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="decoygunner" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3169672979546112" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.charged_barrel">
+        <Label Value="Charged Barrel" />
+        <Description Value="Grav Round grants Charged Barrel, increasing the damage dealt by the next High Impact Bolt by 6% and reducing the activation time of the next Advanced Medical Probe by 20%. Stacks up to 5 times." />
+        <Icon Value="electrostaves" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="998219119067136" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.vortex_bolt">
+        <Label Value="Vortex Bolt" />
+        <Description Value="Fires a bolt that deals &lt;&lt;1&gt;&gt; weapon damage, and if it successfully hits the target, allows your next Grav Round to activate instantly." />
+        <Icon Value="abl_tr_co_vortex_bolt" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="18" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393513790111744" />
+        <EnergyCost Value="12" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.02" />
+            <StandardHealthPercentMax Value="0.202" />
+            <StandardHealthPercentMin Value="0.202" />
+            <AmmountModifier Value="0.34" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.blowback">
+        <Label Value="Blowback" />
+        <Description Value="Being interrupted grants Blowback, which makes your next Boltstorm immune to interruption. This effect cannot occur more than once every 8 seconds." />
+        <Icon Value="abl_bhtr_meco_blowback" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393526675013632" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.grav_round">
+        <Label Value="Grav Round" />
+        <Description Value="Fires a round that creates a gravity vortex on the target, dealing &lt;&lt;1&gt;&gt; kinetic damage, crushing the target's armor and reducing armor rating by 20% for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Gravity vortices leave targets vulnerable to High Impact Bolt and increases the damage they take from Demolition Round for &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+        <Icon Value="sonicgrenade" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="1202535008305152" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.502" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.curtain_of_fire">
+        <Label Value="Curtain of Fire" />
+        <Description Value="Grav Round finishes the cooldown on Full Auto and Boltstorm and increases the damage dealt by the next Full Auto or Boltstorm by 10%. This effect cannot occur more than once every 8 seconds." />
+        <Icon Value="dazingshot" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="801647055863808" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.gunnery.demolition_round">
+        <Label Value="Demolition Round" />
+        <Description Value="Fires a demolition round that explodes on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage. This damage is increased by 25% if the target is affected by your gravity vortex." />
+        <Icon Value="democharge" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2025880238948352" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.78" />
+            <StandardHealthPercentMax Value="0.297" />
+            <StandardHealthPercentMin Value="0.258" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.22" />
+            <StandardHealthPercentMax Value="0.242" />
+            <StandardHealthPercentMin Value="0.202" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.trooper.skill.gunnery.blazing_barrel">
+        <Label Value="Blazing Barrel" />
+        <Description Value="Increases the critical chance of Hail of Bolts by 15% and its critical damage bonus by 30%." />
+        <Icon Value="abl_tr_co_blazing_barrel" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.cell_charger">
+        <Label Value="Cell Charger" />
+        <Description Value="While Armor Piercing Cell is active, you regenerate 2 energy cells every 1.5 seconds." />
+        <Icon Value="powercell1" />
+        <LevelAquired Value="20" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.gravity_surge">
+        <Label Value="Gravity Surge" />
+        <Description Value="Grav Round now applies an additional stack of Charged Barrel and Charged Barrier, if applicable." />
+        <Icon Value="spaceupgradejammingfield" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.burst_mode">
+        <Label Value="Burst Mode" />
+        <Description Value="While Armor Piercing Cell is active, the armor penetration granted by Supercharged Cell is increased by 5%, and Supercharged Celerity stacks build twice as fast and can build 3 additional stacks." />
+        <Icon Value="abl_bhtr_meco_burst_mode" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.ironsights">
+        <Label Value="Ironsights" />
+        <Description Value="Increases the damage dealt by grenade attacks, round attacks, and Vortex Bolt by 10%.  Additionally, Vortex Bolt marks its target. Marked targets take 5% more damage from ranged attacks." />
+        <Icon Value="assaultcannonironsight" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.cover_fire">
+        <Label Value="Cover Fire" />
+        <Description Value="Full Auto and Boltstorm slow the target's movement speed by 70% for 2 seconds with each hit." />
+        <Icon Value="cripplingfire" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.deadly_cannon">
+        <Label Value="Deadly Cannon" />
+        <Description Value="Increases the critical damage bonus of High Impact Bolt, Demolition Round, and Vortex Bolt by 30%." />
+        <Icon Value="deadlycannon" />
+        <LevelAquired Value="36" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.rotary_cannon">
+        <Label Value="Rotary Cannon" />
+        <Description Value="Increases the critical hit chance for Full Auto, Boltstorm, and Vortex Bolt by 5%." />
+        <Icon Value="rotarycannon" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.gunnery.charged_launcher">
+        <Label Value="Charged Launcher" />
+        <Description Value="Increases the damage dealt by High Impact Bolt, Grav Round, Demolition Round, and Electro Net by 5%." />
+        <Icon Value="powerednet" />
+        <LevelAquired Value="56" />
+      </Talent>
+    </DisciplineTree>
+    <base Name="base">
+      <Ability Name="abl.trooper.disabling_shot">
+        <Label Value="Disabling Shot" />
+        <Description Value="Interrupts the target's current action and prevents that ability from being used for 4 seconds." />
+        <Icon Value="pacify" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="18" />
+        <OnGCD Value="False" />
+        <Cooldown Value="24" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3029339218116608" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.weapon.assault_cannon">
+        <Label Value="Weapon Proficiency: Assault Cannon" />
+        <Description Value="Able to equip assault cannons and other heavy ranged weapons." />
+        <Icon Value="assaultCannon" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="810687962021888" />
+      </Ability>
+      <Ability Name="abl.trooper.diversion">
+        <Label Value="Diversion" />
+        <Description Value="Reduces the threat towards all current enemies." />
+        <Icon Value="decoygunner" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="30" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <CombatLogID Value="801273393709056" />
+      </Ability>
+      <Ability Name="abl.trooper.charged_bolts">
+        <Label Value="Charged Bolts" />
+        <Description Value="Spins up the assault cannon and fires off a quick burst of powerful, charged rounds at the target for &lt;&lt;1&gt;&gt; weapon damage. Requires Assault Cannon." />
+        <Icon Value="burst" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="801260508807168" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.42" />
+            <StandardHealthPercentMax Value="0.142" />
+            <StandardHealthPercentMin Value="0.142" />
+            <AmmountModifier Value="-0.05" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.combat_support_cell">
+        <Label Value="Combat Support Cell" />
+        <Description Value="Loads your cannon with a combat support cell. While active, all healing and damage done is increased by 3%. Only one cell can be active at a time." />
+        <Icon Value="emittermatrix2" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="2491411744161792" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.armor.generator">
+        <Label Value="Armor Proficiency: Power Generator" />
+        <Description Value="Able to equip a power generator in your off-hand." />
+        <Icon Value="shieldgeneratorproficiency" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2035470900920320" />
+      </Ability>
+      <Ability Name="abl.trooper.supercharged_cell">
+        <Label Value="Supercharged Cell" />
+        <Description Value="Requires and converts 10 stacks of Supercharge to recharge 10 energy cells and empower your active cell: Combat Support Cell: Increases healing done by 5% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. While active, Advanced Medical Probe has no cooldown and cost 5 fewer energy cells. Plasma Cell: Increases periodic damage dealt by 10% for &lt;&lt;2&gt;&gt; seconds and causes the next successful ranged attack on a target affected by your Incendiary Round's burn to apply Supercharged Burn to the target, which deals &lt;&lt;3&gt;&gt; elemental damage over &lt;&lt;4&gt;&gt; seconds. Armor-piercing Cell: Increases armor penetration by 10% for &lt;&lt;5&gt;&gt; seconds. While active, damage dealt by Grav Round, Demolition Round, Boltstorm, and Vortex Bolt grants Supercharged Velocity, which increases alacrity by 1%. This effect cannot occur more than once per second and can stack up to 3 times." />
+        <Icon Value="bodyguardhealproc" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3408202578264064" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.5" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.concussion_charge">
+        <Label Value="Concussion Charge" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; elemental damage and pushes up to 8 nearby enemies back away from the Trooper. Targets have their movement speed reduced by 50% for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after being knocked back." />
+        <Icon Value="vanguard" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="True" />
+        <Cooldown Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="801264803774464" />
+        <EnergyCost Value="5" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.37" />
+            <StandardHealthPercentMax Value="0.06" />
+            <StandardHealthPercentMin Value="0.017" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.plasma_grenade">
+        <Label Value="Plasma Grenade" />
+        <Description Value="Lobs a plasma grenade that detonates on contact, dealing &lt;&lt;1&gt;&gt; kinetic damage to up to 8 targets within 8 meters and igniting the targets in fiery plasma, dealing &lt;&lt;2&gt;&gt; additional elemental damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds. Standard and weak targets enter a state of panic from the flames." />
+        <Icon Value="fraggrenade" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="True" />
+        <Cooldown Value="20" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="2297266337480704" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.565" />
+            <StandardHealthPercentMax Value="0.077" />
+            <StandardHealthPercentMin Value="0.037" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.11" />
+            <StandardHealthPercentMax Value="0.011" />
+            <StandardHealthPercentMin Value="0.011" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.tech_override">
+        <Label Value="Tech Override" />
+        <Description Value="Your next ability used within  &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; with an activation time will activate instantly and then grant immunity to pushback and interrupts for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="complexaccesscard" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="46" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <CombatLogID Value="1027927407853568" />
+      </Ability>
+      <Ability Name="abl.trooper.supercharged_celerity">
+        <Label Value="Supercharged Celerity" />
+        <Description Value="Requires and converts 10 stacks of Supercharge to issue Supercharged Celerity to you and your Operation group members within 40 meters, increasing alacrity by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="uti_imp_rep_alacrity_raid_buff" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="False" />
+        <Cooldown Value="300" />
+        <CombatLogID Value="3413304999411712" />
+      </Ability>
+      <Ability Name="abl.trooper.supercharge">
+        <Label Value="Supercharge" />
+        <Description Value="Activating Hammer Shot, Med Shot, Charged Bolts, Grav Round, or Medical Probe generates a stack of Supercharge. Each stack increases all damage and healing done by 0.1%. Stacks up to 10 times and lasts &lt;&lt;1&gt;&gt; seconds. Requires an active cell." />
+        <Icon Value="force" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3408198283296768" />
+      </Ability>
+      <Ability Name="abl.trooper.med_shot">
+        <Label Value="Med Shot" />
+        <Description Value="Fires a quick stream of bolts, causing &lt;&lt;1&gt;&gt; healing." />
+        <Icon Value="rapidshots" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="18" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3408262707806208" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.advanced_medical_probe">
+        <Label Value="Advanced Medical Probe" />
+        <Description Value="Summons a probe that heals for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="advancedmedicalprobe" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="13" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="997175442014208" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.898" />
+            <StandardHealthPercentMax Value="0.165" />
+            <StandardHealthPercentMin Value="0.125" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.emergency_medical_probe">
+        <Label Value="Emergency Medical Probe" />
+        <Description Value="Summons a droid that revives an incapacitated ally. This ability is usable while in combat. When used, all party members can neither use nor be the target of an in-combat revival for the next 5 minutes." />
+        <Icon Value="antitoxinprobe" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="True" />
+        <Cooldown Value="300" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="2940764107571200" />
+      </Ability>
+      <Ability Name="abl.trooper.field_aid">
+        <Label Value="Field Aid" />
+        <Description Value="Cleanses a friendly target of up to 2 negative tech or physical effects." />
+        <Icon Value="medicinepack" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3413249164836864" />
+        <EnergyCost Value="10" />
+      </Ability>
+      <Ability Name="abl.trooper.hail_of_bolts">
+        <Label Value="Hail of Bolts" />
+        <Description Value="Launches waves of blaster fire at up to 8 targets within 5 meters of the target area, dealing &lt;&lt;1&gt;&gt; weapon damage over the duration. Standard and weak targets are sometimes knocked back by the hail of bolts. Requires Assault Cannon. Spends 32 energy cells over the duration." />
+        <Icon Value="hailofBolts" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="801294868545536" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.515" />
+            <StandardHealthPercentMax Value="0.0515" />
+            <StandardHealthPercentMin Value="0.0515" />
+            <AmmountModifier Value="-0.6575" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.frontline_physician">
+        <Label Value="Frontline Physician" />
+        <Description Value="Reduces the cooldown of Revive by 100%." />
+        <Icon Value="accomplishedsawbones" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2439253661319168" />
+      </Ability>
+      <Ability Name="abl.trooper.concussive_round">
+        <Label Value="Concussive Round" />
+        <Description Value="Fires a round at the target that knocks it out for up to &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Non-player, non-standard and non-weak targets regenerate health rapidly while knocked out. Damage causes this effect to end prematurely." />
+        <Icon Value="concussionmissiles" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="True" />
+        <Cooldown Value="60" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="1682579208011776" />
+        <EnergyCost Value="5" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+            <ThreatModifier Value="-1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.bacta_infusion">
+        <Label Value="Bacta Infusion" />
+        <Description Value="Instantly heals a friendly target for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="heal" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="21" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3412772423467008" />
+        <EnergyCost Value="10" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.88" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.074" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.armor_piercing_cell">
+        <Label Value="Armor-piercing Cell" />
+        <Description Value="Loads your rifle with an armor-piercing powercell. While active, armor penetration is increased by &lt;&lt;1&gt;&gt;% and alacrity is increased by &lt;&lt;2&gt;&gt;%. Only one cell can be active at a time." />
+        <Icon Value="piercingshot" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="801256213839872" />
+      </Ability>
+      <Ability Name="abl.trooper.target_lock">
+        <Label Value="Target Lock" />
+        <Description Value="Full Auto, Boltstorm, High Impact Bolt, and Mag Bolt ignore 30% of the target's armor. In addition, the critical chance of Advanced Medical Probe and Bacta Infusion are increased by 5%, and critical results with damage and healing abilities increase critical damage and healing by 10% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="lockandload" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="25" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3514618982957056" />
+      </Ability>
+      <Ability Name="abl.trooper.electro_net">
+        <Label Value="Electro Net" />
+        <Description Value="Fires an electro net that ensnares the target, reducing its movement speed by 50% and dealing &lt;&lt;1&gt;&gt; energy damage over &lt;&lt;2&gt;&gt; seconds. While affected, a target that moves takes 20% more damage from electro net, and this effect can stack up to 10 times on enemy players or 5 times on any other target. Additionally, the electro net hinders the target, preventing the use of high mobility actions and escapes such as charges, vanishes, and speed boosts. Lasts &lt;&lt;3&gt;&gt; seconds." />
+        <Icon Value="electronetcommando" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="True" />
+        <Cooldown Value="90" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3066473505357824" />
+        <EnergyCost Value="10" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.3" />
+            <StandardHealthPercentMax Value="0.03" />
+            <StandardHealthPercentMin Value="0.03" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.29" />
+            <StandardHealthPercentMax Value="0.029" />
+            <StandardHealthPercentMin Value="0.029" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.trooper.skill.gunnery.special_munitions">
+        <Label Value="Special Munitions" />
+        <Description Value="Reduces the pushback suffered while activating Charged Bolt, Grav Round, Concussive Round, Plasma Grenade, and Serrated Bolt by 75%, and increases the effect of your cells while they are active: Plasma Cell: Increases ranged critical chance by 5%. Armor Piercing Cell: Reduces the cost of High Impact Bolt by 10. Combat Support Cell: Increases tech critical chance by 3%." />
+        <Icon Value="armament2" />
+        <LevelAquired Value="38" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.mortar_salvo">
+        <Label Value="Mortar Salvo" />
+        <Description Value="Increases the damage dealt by Explosive Round by 10%." />
+        <Icon Value="missilesalvo" />
+        <LevelAquired Value="10" />
+      </Talent>
+    </base>
+    <UtilityTree Name="utility">
+      <Ability Name="abl.trooper.skill.utility.kolto_wave">
+        <Label Value="Kolto Wave" />
+        <Description Value="Concussion Charge heals you and up to 7 other allies within range for &lt;&lt;2&gt;&gt;." />
+        <Icon Value="meleetankunlock" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413622826991616" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.44" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.012" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.concussive_force">
+        <Label Value="Concussive Force" />
+        <Description Value="Stockstrike immobilizes the target for &lt;&lt;1&gt;&gt; seconds. Direct damage caused after 2 seconds ends the effect. In addition, Concussion Charge's knockback effect is stronger and pushes enemies 4 meters further away." />
+        <Icon Value="vanguard" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393784373051392" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.reflexive_shield">
+        <Label Value="Reflexive Shield" />
+        <Description Value="When you take damage, the active cooldown of Reactive Shield is reduced by 3 seconds. This effect cannot occur more than once every 1.5 seconds. In addition, when taking damage, you have a 20% chance to emit an Energy Redoubt, which absorbs a low amount of damage and lasts &lt;&lt;1&gt;&gt; seconds. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="absorbtionfield" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413631416926208" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="12" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="0.58" />
+            <StandardHealthPercentMax Value="0.029" />
+            <StandardHealthPercentMin Value="0.029" />
+            <AmmountPercent Value="1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.reflexive_battery">
+        <Label Value="Reflexive Battery" />
+        <Description Value="Increases the damage dealt by Concussion Charge by 30%. In addition, taking damage reduces the active cooldown of Concussion Charge by 1 second. This effect cannot occur more than once every 1.5 seconds." />
+        <Icon Value="automateddefenses" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413609942089728" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.electro_shield">
+        <Label Value="Electro Shield" />
+        <Description Value="When activated, your Reactive Shield charges with electricity, zapping attackers for &lt;&lt;1&gt;&gt; elemental damage while it remains active. This effect cannot occur more than once each second." />
+        <Icon Value="chargedplating" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393406415929344" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.46" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.cell_capacitor">
+        <Label Value="Cell Capacitor" />
+        <Description Value="Recharge Cells now immediately recharges 15 additional cells and grants 10% alacrity for &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="powercore" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413605647122432" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.charged_barrier">
+        <Label Value="Charged Barrier" />
+        <Description Value="Charged Bolts, Grav Round, and Medical Probe build a Charged Barrier that reduces damage taken by 1% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Stacks up to 5 times." />
+        <Icon Value="portablecover" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393964761677824" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.suit_foe">
+        <Label Value="Suit FOE" />
+        <Description Value="When you activate Field Aid on yourself, a Foreign Object Excisor reduces all periodic damage taken by 30% for &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="outerrimveteran" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413614237057024" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.parallactic_combat_stims">
+        <Label Value="Parallactic Combat Stims" />
+        <Description Value="You recharge 10 energy cells when stunned, immobilized, knocked down or otherwise incapacitated." />
+        <Icon Value="stimulants" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393363466256384" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Ability>
+      <Talent Name="tal.trooper.skill.utility.efficient_conversions">
+        <Label Value="Efficient Conversions" />
+        <Description Value="Removes the energy cell cost of Concussion Charge, Concussive Round, Field Aid, and Cryo Grenade." />
+        <Icon Value="electronicplug" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.forced_march">
+        <Label Value="Forced March" />
+        <Description Value="Allows Full Auto, Boltstorm, and Successive Treatment to be activated while moving." />
+        <Icon Value="abl_tr_co_forced_march" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.combat_shield">
+        <Label Value="Combat Shield" />
+        <Description Value="Reactive Shield now further decreases ability activation pushback by 30% and makes you immune to interrupts." />
+        <Icon Value="energyshield" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.nightvision_scope">
+        <Label Value="Nightvision Scope" />
+        <Description Value="Increases stealth detection level by 2, melee and ranged defense by 2%, and reduces the cooldown of Stealth Scan by 5 seconds." />
+        <Icon Value="blastershortscope" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="7" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.overclock">
+        <Label Value="Overclock" />
+        <Description Value="Reduces the cooldowns of Concussive Round and Tech Override by 15 seconds each. In addition, Tech Override grants a second charge, making your next two abilities with an activation time activate instantly." />
+        <Icon Value="complexaccesscard" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="13" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.heavy_trooper">
+        <Label Value="Heavy Trooper" />
+        <Description Value="Increases Endurance by 3% and all healing received by 3%." />
+        <Icon Value="trooper" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.med_zone">
+        <Label Value="Med Zone" />
+        <Description Value="Increases all healing received by 20% while Reactive Shield is active." />
+        <Icon Value="medshield" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.tenacious_defense">
+        <Label Value="Tenacious Defense" />
+        <Description Value="Reduces the cooldown of Concussion Charge by 5 seconds and Tenacity by 30 seconds." />
+        <Icon Value="heavyarmors" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.supercharged_reserves">
+        <Label Value="Supercharged Reserves" />
+        <Description Value="Reduces the cooldowns of Field Aid and Disabling Shot by 3 seconds each. In addition, you build up to 10 stacks of Supercharge over the course of using Recharge and Reload. This effect cannot occur more than once every 30 seconds." />
+        <Icon Value="rechargeandreload" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.advance_the_line">
+        <Label Value="Advance the Line" />
+        <Description Value="Increases the duration of Hold the Line by 4 seconds." />
+        <Icon Value="trepublicelite" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.chain_gunnery">
+        <Label Value="Chain Gunnery" />
+        <Description Value="Increases the damage dealt by Hail of Bolts by 25%." />
+        <Icon Value="abl_tr_co_chain_gunnery" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.shock_absorbers">
+        <Label Value="Shock Absorbers" />
+        <Description Value="Reduces damage taken from area effects by 30%. Additionally, while stunned, you take 30% less damage from all sources." />
+        <Icon Value="assaultcannonshockabsorberb" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="4" />
+      </Talent>
+    </UtilityTree>
+  </AdvClass>
+  <AdvClass Name="specialist" Label="Specialist">
+    <DisciplineTree Name="shield_specialist">
+      <Label Value="Shield Specialist" />
+      <Ability Name="abl.trooper.skill.shield_specialist.pulse_engine">
+        <Label Value="Pulse Engine" />
+        <Description Value="While Ion Cell is active, direct damage attacks have a 50% chance to trigger Pulse Engine, which finishes the cooldown on Pulse Cannon or Ion Storm and causes your next Pulse Cannon or Ion Storm to deplete no energy cells and channel twice as fast. This effect cannot occur more than once every 15 seconds." />
+        <Icon Value="poweredpulsecannon" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3172602147241984" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.static_shield">
+        <Label Value="Static Shield" />
+        <Description Value="Increases the critical chance of Stockstrike and Explosive Surge by 10%. In addition, shielding or defending an attack has a 50% chance to finish the cooldown on Stockstrike. This effect cannot occur more than once every 7.5 seconds." />
+        <Icon Value="portablecover" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="801599811223552" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.shield_cycler">
+        <Label Value="Shield Cycler" />
+        <Description Value="Increases shield chance by 2%. In addition, shielding or defending an attack generates 1 energy cell. This effect cannot occur more than once every 1.5 seconds." />
+        <Icon Value="droideye" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2264585931325440" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.static_field">
+        <Label Value="Static Field" />
+        <Description Value="While Ion Cell is active, Ion Pulse and Explosive Surge cause trauma and weaken their targets. Weakened targets deal 5% less damage with ranged and melee attacks for &lt;&lt;1&gt;&gt; seconds. Targets with Trauma receive 20% less healing from all sources for &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="spaceupgradeempburst" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2043940576428032" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.ion_storm">
+        <Label Value="Ion Storm" />
+        <Description Value="Sprays waves of ionizing energy in a 10-meter cone, depleting 28 energy cells and dealing &lt;&lt;1&gt;&gt; elemental damage to up to 8 enemy targets over the duration. Affected targets are impaired for &lt;&lt;2&gt;&gt; seconds, reducing the Force and tech damage they deal by 5%.  Shares a cooldown with Pulse Cannon." />
+        <Icon Value="abl_tr_vg_ion_storm" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="18" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="3389987621961728" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.11" />
+            <StandardHealthPercentMax Value="0.111" />
+            <StandardHealthPercentMin Value="0.111" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.riot_gas">
+        <Label Value="Riot Gas" />
+        <Description Value="Throws down a canister of Riot Gas over the immediate area for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;. Enemies that enter and remain within the riot gas are slowed by 70% and suffer a 30% melee and ranged accuracy loss." />
+        <Icon Value="smokeGrenade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <CombatLogID Value="3396893929373696" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.energy_blast">
+        <Label Value="Energy Blast" />
+        <Description Value="Fires a shot that consumes all Power Screens to deal &lt;&lt;1&gt;&gt; elemental damage, regenerate 10 energy cells, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Power Screens and does not respect the global cooldown." />
+        <Icon Value="inspiringcommand" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2264568751456256" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.96" />
+            <StandardHealthPercentMax Value="0.116" />
+            <StandardHealthPercentMin Value="0.076" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.static_surge">
+        <Label Value="Static Surge" />
+        <Description Value="Increases the damage dealt by Explosive Surge by 15%. In addition, Storm grants 2 charges of Static Surge, which makes Ion Pulse and Explosive Surge deplete no energy cells. Each use of Ion Pulse or Explosive Surge consumes a charge of Static Surge." />
+        <Icon Value="telekineticblast" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="801604106190848" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.shield_enhancers">
+        <Label Value="Shield Enhancers" />
+        <Description Value="Stockstrike and High Impact Bolt grant Shield Enhancers when activated, increasing shield chance by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
+        <Icon Value="abl_bhtr_ptvg_shield_enhancers" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3389991916929024" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.storm">
+        <Label Value="Storm" />
+        <Description Value="Storms up to a distant target, dealing &lt;&lt;1&gt;&gt; kinetic damage, interrupting the target's current action and immobilizing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Cannot be used against targets in cover. Activating Storm grants Blitz, increasing movement speed by 30% for &lt;&lt;3&gt;&gt; seconds. The duration of Blitz is refreshed if attacked while it is active." />
+        <Icon Value="chargedplating" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="999889861345280" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.14" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.114" />
+            <AmmountModifier Value="0.01" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.14" />
+            <StandardHealthPercentMax Value="0.114" />
+            <StandardHealthPercentMin Value="0.114" />
+            <AmmountModifier Value="0.01" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.ion_overload">
+        <Label Value="Ion Overload" />
+        <Description Value="While Ion Cell is active, dealing damage with Stockstrike triggers Ion Cell on the target and dealing damage with High Impact Bolt triggers Ion Cell on the target and up to 7 additional enemies within 5 meters. In addition, when Ion Cell deals damage, it will also shock the target for &lt;&lt;1&gt;&gt; additional energy damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. None of these effects damage sleeping, lifted, or incapacitated enemies. Generates a high amount of threat." />
+        <Icon Value="ionClip" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2044520397012992" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.1" />
+            <StandardHealthPercentMax Value="0.01" />
+            <StandardHealthPercentMin Value="0.01" />
+            <ThreatModifier Value="3" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.shield_specialist.power_screen">
+        <Label Value="Power Screen" />
+        <Description Value="Shielding an attack or triggering your Ion Cell generates a Power Screen, increasing shield absorption by 1% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times. This effect cannot occur more than once every 1.5 seconds. In addition, each time you build a Power Screen or refresh your Power Screen stacks, the active cooldown of Energy Blast is reduced by 1 second." />
+        <Icon Value="energyscreen" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2842082938978304" />
+      </Ability>
+      <Talent Name="tal.trooper.skill.shield_specialist.soldiers_grit">
+        <Label Value="Soldier's Grit" />
+        <Description Value="Adrenaline Rush now heals you for 2% of your total health every second while above 35% of your maximum health. Additionally, Battle Focus increases defense chance by 35% while active." />
+        <Icon Value="cc_aggressive" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.shield_specialist.ceramic_plating">
+        <Label Value="Ceramic Plating" />
+        <Description Value="Increases shield absorption by 4%." />
+        <Icon Value="armoroverlay3" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.shield_specialist.deflective_guards">
+        <Label Value="Deflective Guards" />
+        <Description Value="Increases melee and ranged defense by 4%." />
+        <Icon Value="block" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.shield_specialist.ion_shield">
+        <Label Value="Ion Shield" />
+        <Description Value="Further increases damage reduction while Ion Cell is active by 2%." />
+        <Icon Value="disturbance" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.shield_specialist.power_armor">
+        <Label Value="Power Armor" />
+        <Description Value="Increases damage reduction by 2% and armor rating by 15%." />
+        <Icon Value="powerarmor" />
+        <LevelAquired Value="36" />
+      </Talent>
+    </DisciplineTree>
+    <UtilityTree Name="utility">
+      <Ability Name="abl.trooper.skill.utility.electro_shield">
+        <Label Value="Electro Shield" />
+        <Description Value="When activated, your Reactive Shield charges with electricity, zapping attackers for &lt;&lt;1&gt;&gt; elemental damage while it remains active. This effect cannot occur more than once each second." />
+        <Icon Value="chargedplating" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393406415929344" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.46" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.battlefield_training">
+        <Label Value="Battlefield Training" />
+        <Description Value="Increases movement speed by 15%." />
+        <Icon Value="hustle" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393346286387200" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.parallactic_combat_stims">
+        <Label Value="Parallactic Combat Stims" />
+        <Description Value="You recharge 10 energy cells when stunned, immobilized, knocked down or otherwise incapacitated." />
+        <Icon Value="stimulants" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393363466256384" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.reflective_armor">
+        <Label Value="Reflective Armor" />
+        <Description Value="When Into the Fray is triggered, it will also deal &lt;&lt;1&gt;&gt; elemental damage to the attacker if the attacker is within 10 meters." />
+        <Icon Value="abl_bhtr_ptvg_reflective_armor" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393367761223680" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.guard_cannon">
+        <Label Value="Guard Cannon" />
+        <Description Value="Damaging a target with your Shoulder Cannon missiles heals you for 5% of your total health." />
+        <Icon Value="cannonheal" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3393419300831232" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.05" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.utility.entangling_tools">
+        <Label Value="Entangling Heat" />
+        <Description Value="Tactical Surge, Ion Pulse, and Explosive Surge reduce the movement speed of affected targets by 50% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="creepingterror" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3414073798557696" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="4" />
+      </Ability>
+      <Talent Name="tal.trooper.skill.utility.paralytic_augs">
+        <Label Value="Paralytic Augs" />
+        <Description Value="Increases the stun durations of Cryo Grenade and Neural Surge by 1 second each." />
+        <Icon Value="abl_tr_vg_paralytic_augs" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.re_energizers">
+        <Label Value="Re-energizers" />
+        <Description Value="When Reserve Powercell is activated, it recharges 10 energy cells over the next 5 seconds and immediately increases threat towards all current enemies by a small amount if Ion Cell is active, or reduces threat towards all current enemies if Ion Cell is not active." />
+        <Icon Value="abl_tr_vg_reenergizers" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.containment_tactics">
+        <Label Value="Containment Tactics" />
+        <Description Value="Reduces the cooldown of Cryo Grenade by 10 seconds." />
+        <Icon Value="abl_tr_vg_muzzle_augs" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="13" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.emergency_stims">
+        <Label Value="Emergency Stims" />
+        <Description Value="Allows Adrenaline Rush to be activated while stunned and causes Adrenaline Rush to purge stun effects when activated. This will not work against other types of incapacitating effects or scripted stuns, which are often used by Flashpoint and Operation bosses or other special non-player characters." />
+        <Icon Value="abl_tr_vg_emergency_stims" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.shrap_satchel">
+        <Label Value="Shrap Satchel" />
+        <Description Value="Increases Explosive Surge damage by 25%." />
+        <Icon Value="assaultcannonbattleharness" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.focus_stims">
+        <Label Value="Focus Stims" />
+        <Description Value="Battle Focus increases damage done by 5% while Ion Cell is active and increases damage reduction by 5% while Ion Cell is not active." />
+        <Icon Value="abl_tr_vg_focus_stims" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.efficient_tools">
+        <Label Value="Efficient Tools" />
+        <Description Value="Increases the range of Harpoon and Shoulder Cannon by 10 meters and eliminates the energy cell cost of Cryo Grenade and Neural Surge." />
+        <Icon Value="abl_tr_vg_efficent_tools" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.iron_will">
+        <Label Value="Iron Will" />
+        <Description Value="Reduces the cooldown of Tenacity by 30 seconds and the cooldown of Hold the Line by 5 seconds." />
+        <Icon Value="abl_bhtr_ptvg_iron_will" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.defensive_measures">
+        <Label Value="Defensive Measures" />
+        <Description Value="Harpoon immobilizes the target for 3 seconds. In addition, the cooldown of Stealth Scan is reduced by 5 seconds, and any targets it reveals are immobilized for 3 seconds." />
+        <Icon Value="probedroid" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.charge_the_line">
+        <Label Value="Charge the Line" />
+        <Description Value="Hold the Line increases movement speed by an additional 45% while active." />
+        <Icon Value="abl_tr_vg_charge_line" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.accelerated_reel">
+        <Label Value="Accelerated Reel" />
+        <Description Value="Reduces the cooldown of Harpoon by 15 seconds." />
+        <Icon Value="abl_bhtr_ptvg_accelerated_reel" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.advance_the_line">
+        <Label Value="Advance the Line" />
+        <Description Value="Increases the duration of Hold the Line by 4 seconds." />
+        <Icon Value="trepublicelite" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.sonic_rebounder">
+        <Label Value="Sonic Rebounder" />
+        <Description Value="Sonic Round protects all friendly targets in its area of impact, excluding you, granting Sonic Rebounder, which reflects the next direct, single-target attack back at the attacker." />
+        <Icon Value="abl_tr_vg_sonic_rebounder" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="12" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.muzzle_augs">
+        <Label Value="Muzzle Augs" />
+        <Description Value="Increases the range of Ion Pulse and Tactical Surge by 5 meters and the radius of Explosive Surge by 2 meters." />
+        <Icon Value="blasterbarrel1" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.utility.frontline_defense">
+        <Label Value="Frontline Defense" />
+        <Description Value="Reduces the cooldown of Riot Strike by 2 seconds." />
+        <Icon Value="battlefrenzy" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+      </Talent>
+    </UtilityTree>
+    <base Name="base">
+      <Ability Name="abl.trooper.shoulder_cannon">
+        <Label Value="Shoulder Cannon" />
+        <Description Value="Deploys a shoulder cannon that gradually loads 4 missiles over time. Once loaded, the shoulder cannon can be triggered again to fire against an enemy target within 10 meters, launching 1 missile that deals &lt;&lt;1&gt;&gt; kinetic damage. A missile can be launched up to once per second. Loading and launching the shoulder cannon does not respect the global cooldown and can be done while controlled. Once all missiles have been loaded, depleting all missiles puts the shoulder cannon on cooldown for 1.5 minutes." />
+        <Icon Value="powerloaders" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="False" />
+        <Cooldown Value="0" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3066516455030784" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1" />
+            <StandardHealthPercentMax Value="0.12" />
+            <StandardHealthPercentMin Value="0.08" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.ion_pulse">
+        <Label Value="Ion Pulse" />
+        <Description Value="Fires an ion pulse at the target, dealing &lt;&lt;1&gt;&gt; elemental damage." />
+        <Icon Value="scatterclip" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2199843594305536" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1" />
+            <StandardHealthPercentMax Value="0.12" />
+            <StandardHealthPercentMin Value="0.08" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.harpoon">
+        <Label Value="Harpoon" />
+        <Description Value="Fires a harpoon line that pulls the target to your location and generates a high amount of threat. Cannot be used on targets in cover." />
+        <Icon Value="grapple" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="True" />
+        <Cooldown Value="45" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2029092874485760" />
+      </Ability>
+      <Ability Name="abl.trooper.explosive_surge">
+        <Label Value="Explosive Surge" />
+        <Description Value="Emits an explosive surge, dealing &lt;&lt;1&gt;&gt; elemental damage to up to 8 enemies within 5 meters." />
+        <Icon Value="orbitalbombardment" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="801281983643648" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.64" />
+            <StandardHealthPercentMax Value="0.084" />
+            <StandardHealthPercentMin Value="0.044" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.player.proficiency.armor.generator">
+        <Label Value="Armor Proficiency: Power Generator" />
+        <Description Value="Able to equip a power generator in your off-hand." />
+        <Icon Value="shieldgeneratorproficiency" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2035470900920320" />
+      </Ability>
+      <Ability Name="abl.trooper.ion_cell">
+        <Label Value="Ion Cell" />
+        <Description Value="Loads your rifle with an ion powercell, giving ranged attacks a 15% chance to deal &lt;&lt;1&gt;&gt; additional energy damage once every 1.5 seconds. While this cell is active, armor rating is increased by 60%, damage reduction is increased by 5%, shield chance is increased by 15%, threat generation is increased by 100%, accuracy is increased by 10%, and all damage dealt is reduced by 10%. Only one cell can be active at a time." />
+        <Icon Value="ionClip" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="801312048414720" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.riot_strike">
+        <Label Value="Riot Strike" />
+        <Description Value="Interrupts the target's current action and prevents that ability from being used for the next 4 seconds." />
+        <Icon Value="battlefrenzy" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="18" />
+        <OnGCD Value="False" />
+        <Cooldown Value="12" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2204391964672000" />
+      </Ability>
+      <Ability Name="abl.trooper.sonic_round">
+        <Label Value="Sonic Round" />
+        <Description Value="Fires a sonic round that taunts your target and all nearby enemies, forcing them to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;, if Ion Cell is active. If Ion Cell is not active, threat towards all current enemies is immediately reduced. Enemy players have their damage reduced by 30% for &lt;&lt;2&gt;&gt; seconds unless they attack you." />
+        <Icon Value="sonicGrenade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="801354998087680" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.armor.shield">
+        <Label Value="Armor Proficiency: Shield Generator" />
+        <Description Value="Able to equip a personal shield generator in your off-hand." />
+        <Icon Value="shieldgeneratorproficiency" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="838789933039616" />
+      </Ability>
+      <Ability Name="abl.trooper.neural_surge">
+        <Label Value="Neural Surge" />
+        <Description Value="Deals &lt;&lt;2&gt;&gt; internal damage to up to 8 enemies within 8 meters, stunning them for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="unleash" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="46" />
+        <OnGCD Value="True" />
+        <Cooldown Value="45" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="2027503736586240" />
+        <EnergyCost Value="5" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.29" />
+            <StandardHealthPercentMax Value="0.039" />
+            <StandardHealthPercentMin Value="0.019" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.into_the_fray">
+        <Label Value="Into the Fray" />
+        <Description Value="Increases the duration of Reactive Shield by 3 seconds. In addition, suffering direct damage from area attacks regenerates 2 energy cells and heals you for 2.5% of your total health. This effect cannot occur more than once every 3 seconds." />
+        <Icon Value="meleetankunlock" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3172499068026880" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.025" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.neural_jolt">
+        <Label Value="Neural Jolt" />
+        <Description Value="Shocks the target at long range, taunting it to attack. Player targets deal 30% less damage when attacking anyone other than you. Effect lasts &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="sleepDart" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="801316343382016" />
+      </Ability>
+      <Ability Name="abl.trooper.battle_focus">
+        <Label Value="Battle Focus" />
+        <Description Value="Increases ranged and tech critical hit chance by 25% for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="aimboost" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="1003974375243776" />
+      </Ability>
+      <Ability Name="abl.trooper.high_energy_cell">
+        <Label Value="High Energy Cell" />
+        <Description Value="Loads your rifle with a high-energy powercell. While active, all energy and kinetic damage dealt is increased by 3%. Only one cell can be active at a time." />
+        <Icon Value="armorPiercingClip" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="2466986265149440" />
+      </Ability>
+      <Ability Name="abl.trooper.guard">
+        <Label Value="Guard" />
+        <Description Value="While active, the guarded player takes 5% less damage and generates 25% less threat. In addition, so long as you remain within 15 meters of the guarded player, 50% of all incoming damage from enemy players is transferred back to you. Requires Ion Cell." />
+        <Icon Value="cc_defensive" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="1775934617157632" />
+      </Ability>
+      <Talent Name="tal.trooper.skill.blaster_augs">
+        <Label Value="Blaster Augs" />
+        <Description Value="Increases the effect of your cells while they are active: Plasma Cell: Increases the critical hit chance of elemental attacks by 3%. Ion Cell: Increases the damage dealt by Ion Cell by 10%. High Energy Cell: Further increases all energy and kinetic damage dealt by 2%." />
+        <Icon Value="armament2" />
+        <LevelAquired Value="38" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.focused_impact">
+        <Label Value="Focused Impact" />
+        <Description Value="High Impact Bolt ignores 60% of the target's armor and Stockstrike or Shockstrike deals 10% more damage." />
+        <Icon Value="bloomingshot" />
+        <LevelAquired Value="30" />
+      </Talent>
+    </base>
+    <DisciplineTree Name="plasmatech">
+      <Label Value="Plasmatech" />
+      <Ability Name="abl.trooper.skill.plasmatech.fire_pulse">
+        <Label Value="Fire Pulse" />
+        <Description Value="Emits a fiery pulse wave, dealing &lt;&lt;1&gt;&gt; elemental damage to the target." />
+        <Icon Value="abl_tr_vg_shrap_satchel" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3391499450449920" />
+        <EnergyCost Value="12" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.84" />
+            <StandardHealthPercentMax Value="0.204" />
+            <StandardHealthPercentMin Value="0.164" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.plasma_barrage">
+        <Label Value="Plasma Barrage" />
+        <Description Value="High Impact Bolt and Fire Pulse make your next Ion Pulse or Explosive Surge deplete no energy cells. Additionally, Pulse Cannon will now overwhelm the targets it damages. Overwhelmed targets take 10% more damage from area attacks." />
+        <Icon Value="suckerpunch" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3391632594436096" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.shockstrike">
+        <Label Value="Shockstrike" />
+        <Description Value="Strikes the target with an overcharged rifle butt, dealing &lt;&lt;1&gt;&gt; kinetic damage and releasing a powerful discharge that deals &lt;&lt;2&gt;&gt; elemental damage. Shockstrike shares a cooldown with Stockstrike.  Shares a cooldown with Stockstrike." />
+        <Icon Value="abl_tr_vg_shockstrike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="9" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3391447910842368" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.78" />
+            <StandardHealthPercentMax Value="0.198" />
+            <StandardHealthPercentMin Value="0.158" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.52" />
+            <StandardHealthPercentMax Value="0.072" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.plasmatize">
+        <Label Value="Plasmatize" />
+        <Description Value="Drenches the target with a blast of plasma, melting them for &lt;&lt;1&gt;&gt; elemental damage over &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Plasmatize also makes the target Susceptible for &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;, increasing the damage the target takes from tech attacks by 5%. When a target affected by Plasmatize dies, Plasmatize spreads to the closest enemy target within 10 meters that is not already affected by your Plasmatize." />
+        <Icon Value="abl_tr_vg_plasmatize" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3391666954174464" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.37" />
+            <StandardHealthPercentMax Value="0.037" />
+            <StandardHealthPercentMin Value="0.037" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.37" />
+            <StandardHealthPercentMax Value="0.037" />
+            <StandardHealthPercentMin Value="0.037" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.37" />
+            <StandardHealthPercentMax Value="0.037" />
+            <StandardHealthPercentMin Value="0.037" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.hyper_assault_cell">
+        <Label Value="Hyper Assault Cell" />
+        <Description Value="While Plasma Cell is active, activating Shockstrike makes your next High Impact Bolt an automatic critical hit." />
+        <Icon Value="linetheshot" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3397645548650496" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.incendiary_round">
+        <Label Value="Incendiary Round" />
+        <Description Value="Launches an incendiary projectile, setting the target ablaze for &lt;&lt;1&gt;&gt; elemental damage and an additional &lt;&lt;2&gt;&gt; elemental damage over &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="fireBomb" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3391477975613440" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.41" />
+            <StandardHealthPercentMax Value="0.061" />
+            <StandardHealthPercentMin Value="0.021" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.34" />
+            <StandardHealthPercentMax Value="0.034" />
+            <StandardHealthPercentMin Value="0.034" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.pulse_generator">
+        <Label Value="Pulse Generator" />
+        <Description Value="While Plasma Cell is active, Ion Pulse, Explosive Surge, and Fire Pulse grant Pulse Generator, increasing the damage your next Pulse Cannon deals by 15%, causing it to slow affected targets by 30%, and making it immune to interrupts. This effect can stack up to 3 times." />
+        <Icon Value="demolition" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3391495155482624" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.plasmatech.adrenaline_fueled">
+        <Label Value="Adrenaline Fueled" />
+        <Description Value="While Adrenaline Rush is active, your damage reduction is increased by 30%. Additionally, getting attacked reduces the active cooldown of your Adrenaline Rush by 6 seconds. This effect cannot occur more than once every 1.5 seconds." />
+        <Icon Value="adrenelinerush" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3391624004501504" />
+      </Ability>
+      <Talent Name="tal.trooper.skill.plasmatech.plasmatic_assault">
+        <Label Value="Plasmatic Assault" />
+        <Description Value="Increases the critical bonus damage of Pulse Cannon, Shockstrike, and Fire Pulse by 30%." />
+        <Icon Value="elementaloverload" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.heated_tools">
+        <Label Value="Heated Tools" />
+        <Description Value="Reduces the cooldown of Pulse Cannon by 3 seconds and causes Shockstrike to root its target for 2 seconds." />
+        <Icon Value="toolbox" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.insulated_augs">
+        <Label Value="Insulated Augs" />
+        <Description Value="Increases elemental and internal damage reduction by 2% and reduces the cooldown on Sonic Round by 10 seconds." />
+        <Icon Value="abl_tr_vg_insulated_augs" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.rain_of_fire">
+        <Label Value="Rain of Fire" />
+        <Description Value="Shockstrike and High Impact Bolt deal 10% additional damage to burning targets." />
+        <Icon Value="decoyarsenal" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.assault_frame">
+        <Label Value="Assault Frame" />
+        <Description Value="Reduces the damage taken from all periodic effects by 15%." />
+        <Icon Value="rangedtankunlock" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.superheated_plasma">
+        <Label Value="Superheated Plasma" />
+        <Description Value="Increases the damage dealt by Plasma Cell by 30% and increases its chance to be triggered by 10%." />
+        <Icon Value="plasmaclip" />
+        <LevelAquired Value="20" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.cell_generator">
+        <Label Value="Cell Generator" />
+        <Description Value="While Plasma Cell is active, you regenerate 2 energy cells every 1.5 seconds." />
+        <Icon Value="blasterpowerpackb" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.burnout">
+        <Label Value="Burnout" />
+        <Description Value="Increases the damage dealt by elemental attacks by 10% on targets below 30% max health." />
+        <Icon Value="immolate" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.plasmatech.ionized_ignition">
+        <Label Value="Ionized Ignition" />
+        <Description Value="Shockstrike, Ion Pulse, and Explosive Surge trigger Plasma Cell, if it is active, on all affected targets." />
+        <Icon Value="damageincreased" />
+        <LevelAquired Value="12" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="tactics">
+      <Label Value="Tactics" />
+      <Ability Name="abl.trooper.skill.tactics.sonic_defense">
+        <Label Value="Sonic Defense" />
+        <Description Value="Activating Sonic Round increases your defense chance by 30% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="assaulttech" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3399183146942464" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.assault_plastique">
+        <Label Value="Assault Plastique" />
+        <Description Value="Throws a moldable plastic explosive that sticks to the target and detonates after several seconds, exploding for &lt;&lt;1&gt;&gt; kinetic damage. Standard and weak enemies enter a state of panic when the explosive attaches and are knocked down when it detonates." />
+        <Icon Value="security" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393277566910464" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.48" />
+            <StandardHealthPercentMax Value="0.268" />
+            <StandardHealthPercentMin Value="0.228" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.gut">
+        <Label Value="Gut" />
+        <Description Value="Guts the target with a knuckle-plate vibroblade, dealing &lt;&lt;1&gt;&gt; kinetic damage and causing the target to bleed for &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="retractableblade" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2029878853500928" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.95" />
+            <StandardHealthPercentMax Value="0.115" />
+            <StandardHealthPercentMin Value="0.075" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.high_friction_bolts">
+        <Label Value="High Friction Bolts" />
+        <Description Value="While High Energy Cell is active, High Impact Bolt may be fired at targets that are not incapacitated or suffering from periodic damage. In addition, High Impact Bolt ignores 30% of the target's armor, regenerates 5 energy cells if it hits a bleeding target, and refreshes the duration of your Gut's bleed effect, if present." />
+        <Icon Value="shrapround" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3398414347796480" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.reflexive_shield">
+        <Label Value="Reflexive Shield" />
+        <Description Value="When you take damage, the active cooldown of Reactive Shield is reduced by 3 seconds. This effect cannot occur more than once every 1.5 seconds. In addition, when taking damage, you have a 20% chance to emit an Energy Redoubt, which absorbs a low amount of damage and lasts &lt;&lt;1&gt;&gt; seconds. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="absorbtionfield" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3174264299585536" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="0.58" />
+            <StandardHealthPercentMax Value="0.029" />
+            <StandardHealthPercentMin Value="0.029" />
+            <AmmountPercent Value="1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.tactical_surge">
+        <Label Value="Tactical Surge" />
+        <Description Value="Fires a concentrated surge of energy at an enemy target, dealing &lt;&lt;1&gt;&gt; energy damage." />
+        <Icon Value="abl_tr_vg_tactical_surge" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393260387041280" />
+        <EnergyCost Value="15" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.72" />
+            <StandardHealthPercentMax Value="0.192" />
+            <StandardHealthPercentMin Value="0.152" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.tactical_accelerator">
+        <Label Value="Tactical Accelerator" />
+        <Description Value="While High Energy Cell is active, Stockstrike, Tactical Surge, Sticky Grenade, and Explosive Surge finish the cooldown on High Impact Bolt and make the next High Impact Bolt deplete no energy cells. This effect cannot occur more than once every 6 seconds." />
+        <Icon Value="terminate" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3399170262040576" />
+      </Ability>
+      <Ability Name="abl.trooper.skill.tactics.cell_burst">
+        <Label Value="Cell Burst" />
+        <Description Value="Unleashes your High Energy Cell's stored energy to decimate the target, dealing &lt;&lt;1&gt;&gt; energy damage. This damage increases based on your current number of Energy Lodes. While High Energy Cell is active, Energy Lodes build when High Impact Bolt is used, and up to 4 charges may be stored at once." />
+        <Icon Value="abl_si_as_demolish" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3393354876321792" />
+        <EnergyCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.84" />
+            <StandardHealthPercentMax Value="0.089" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.trooper.skill.tactics.havoc_training">
+        <Label Value="Havoc Training" />
+        <Description Value="Increases the critical strike damage bonus of Stockstrike, High Impact Bolt, Tactical Surge, Gut, Assault Plastique, and Cell Burst by 30%. Additionally, when Assault Plastique damages a target, the target will become Susceptible, increasing the damage it takes from tech attacks by 5% for 45 seconds." />
+        <Icon Value="trooper" />
+        <LevelAquired Value="48" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.shock_absorbers">
+        <Label Value="Shock Absorbers" />
+        <Description Value="Reduces damage taken from area effects by 30%. Additionally, while stunned, you take 30% less damage from all sources." />
+        <Icon Value="assaultcannonshockabsorberb" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.grenadiership">
+        <Label Value="Grenadiership" />
+        <Description Value="Reduces the cooldown of Mortar Volley by 15 seconds and increases the damage it deals by 10%. In addition, Sticky Grenade deals 50% more damage, its cooldown is reduced by 6 seconds, and damage dealt by it will refresh the duration of your Gut's bleed on the affected target, if present." />
+        <Icon Value="abl_tr_vg_grenadiership" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.riot_augs">
+        <Label Value="Riot Augs" />
+        <Description Value="Increases the damage dealt by Stockstrike, High Impact Bolt, Tactical Surge, Explosive Surge, Gut, Assault Plastique, and Cell Burst by 5%." />
+        <Icon Value="weaponcharge" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.critical_recharge">
+        <Label Value="Critical Recharge" />
+        <Description Value="Increases ranged and tech critical chance by 2% and reduces the cooldowns of Recharge Cells and Reserve Powercell by 30 seconds. In addition, Recharge and Reload builds Energy Lodes while High Energy Cell is active." />
+        <Icon Value="blastermagazine2" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.triumph">
+        <Label Value="Triumph" />
+        <Description Value="Increases the damage you deal to bleeding targets by 3%." />
+        <Icon Value="recklessness" />
+        <LevelAquired Value="36" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.nightvision_scope">
+        <Label Value="Nightvision Scope" />
+        <Description Value="Increases your melee and ranged defense chance by 3% and your stealth detection level by 3." />
+        <Icon Value="blastershortscope" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.charged_loaders">
+        <Label Value="Charged Loaders" />
+        <Description Value="Increases the damage dealt by Shoulder Cannon by 15%, and immediately loads 3 additional missiles. Additionally, this increases the critical hit chance of Stockstrike and Assault Plastique by 5%." />
+        <Icon Value="powerloaders" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.trooper.skill.tactics.serrated_blades">
+        <Label Value="Serrated Blades" />
+        <Description Value="Increases the damage dealt by Gut's bleed effect by 15% and causes targets damaged by your Stockstrike to become Sundered, reducing their armor by 20% for 45 seconds." />
+        <Icon Value="criticalblade" />
+        <LevelAquired Value="16" />
+      </Talent>
+    </DisciplineTree>
+  </AdvClass>
+</Class>

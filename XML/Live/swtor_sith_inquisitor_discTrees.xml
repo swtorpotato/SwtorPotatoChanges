@@ -1,0 +1,2904 @@
+<Class Name="sith_inquisitor">
+  <Name Value="sith_inquisitor" />
+  <Label Value="Sith Inquisitor" />
+  <base>
+    <Ability Name="abl.sith_inquisitor.overload">
+      <Label Value="Overload" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; energy damage and knocks back up to 8 enemies within a 15-meter cone in front of you. Standard and weak enemies are additionally knocked down for 3 seconds." />
+      <Icon Value="overload" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="3" />
+      <OnGCD Value="True" />
+      <Cooldown Value="20" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="808282780336128" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.58" />
+          <StandardHealthPercentMax Value="0.078" />
+          <StandardHealthPercentMin Value="0.038" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.trainingsaber">
+      <Label Value="Weapon Proficiency: Training Saber" />
+      <Description Value="Able to equip training sabers." />
+      <Icon Value="melee.trainingsaber.a01_v01" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="1985486071529472" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.recklessness">
+      <Label Value="Recklessness" />
+      <Description Value="Grants 2 charges of Recklessness, which increases the Force critical chance of your direct attacks and heals by 60% and increases the ranges of Force Lightning and Depredating Volts to 30 meters. Each time a direct Force ability critically hits or each time a channeled Force ability is activated, 1 charge is consumed. Lasts &lt;&lt;1&gt;&gt; seconds." />
+      <Icon Value="chargedgauntlets" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="8" />
+      <OnGCD Value="False" />
+      <Cooldown Value="90" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="975399957823488" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.shock">
+      <Label Value="Shock" />
+      <Description Value="Shocks the target for &lt;&lt;1&gt;&gt; energy damage. Standard and weak targets are additionally stunned for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+      <Icon Value="shock" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="808308550139904" />
+      <ForceCost Value="40" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.75" />
+          <StandardHealthPercentMax Value="0.195" />
+          <StandardHealthPercentMin Value="0.155" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.49" />
+          <StandardHealthPercentMax Value="0.169" />
+          <StandardHealthPercentMin Value="0.129" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.875" />
+          <StandardHealthPercentMax Value="0.0975" />
+          <StandardHealthPercentMin Value="0.0775" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.745" />
+          <StandardHealthPercentMax Value="0.0845" />
+          <StandardHealthPercentMin Value="0.0645" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.channel_the_force">
+      <Label Value="Heroic Moment: Channel the Force" />
+      <Description Value="Summons the Force to aid you and your companion, immediately finishing the cooldown on Electrocute and restoring 2% of maximum health every 3 seconds. Requires an active companion. Lasts 1 minute." />
+      <Icon Value="forcedrain" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="15" />
+      <OnGCD Value="False" />
+      <Cooldown Value="1200" />
+      <CombatLogID Value="1412606153719808" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.02" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.force_slow">
+      <Label Value="Force Slow" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; kinetic damage and slows the target's movement speed by 50% for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="movementslowed" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="22" />
+      <OnGCD Value="True" />
+      <Cooldown Value="12" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="948693851176960" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.07" />
+          <StandardHealthPercentMax Value="0.127" />
+          <StandardHealthPercentMin Value="0.087" />
+          <LifeStealModifier Value="1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.crushing_darkness">
+      <Label Value="Crushing Darkness" />
+      <Description Value="Summons a dark cloud of energy to crush the target, instantly dealing &lt;&lt;1&gt;&gt; kinetic damage and an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="dark_embrace" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="14" />
+      <OnGCD Value="True" />
+      <Cooldown Value="15" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <ActivationTime Value="2" />
+      <CombatLogID Value="863460225187840" />
+      <ForceCost Value="40" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="1.23" />
+          <StandardHealthPercentMax Value="0.143" />
+          <StandardHealthPercentMin Value="0.103" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.295" />
+          <StandardHealthPercentMax Value="0.0295" />
+          <StandardHealthPercentMin Value="0.0295" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.295" />
+          <StandardHealthPercentMax Value="0.0295" />
+          <StandardHealthPercentMin Value="0.0295" />
+          <AmmountModifier Value="0.01" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.lightsaber">
+      <Label Value="Weapon Proficiency: Lightsaber" />
+      <Description Value="Able to equip single-bladed lightsabers." />
+      <Icon Value="lightsabers" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810700846923776" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.seethe">
+      <Label Value="Seethe" />
+      <Description Value="Allows you to pause to prepare for the coming fight, restoring your health and Force. Cannot be used during combat." />
+      <Icon Value="sizabrakcriminal" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <ChannelDuration Value="15" />
+      <CombatLogID Value="3413206215163904" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.whirlwind">
+      <Label Value="Whirlwind" />
+      <Description Value="Traps the target in a whirlwind for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Non-player, non-standard, and non-weak targets heal rapidly while trapped. Damage causes this effect to end prematurely." />
+      <Icon Value="whirlwind" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="4" />
+      <OnGCD Value="True" />
+      <Cooldown Value="60" />
+      <Range Value="30" />
+      <TargetArc Value="270" />
+      <ActivationTime Value="2" />
+      <CombatLogID Value="808334319943680" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_Heal">
+          <HealingPowerCoefficient Value="0" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountPercent Value="0.025" />
+          <ThreatModifier Value="-1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.proficiency.weapon.vibrosword">
+      <Label Value="Weapon Proficiency: Vibrosword" />
+      <Description Value="Able to equip vibroswords and other one-handed melee weapons tied to the Strength attribute." />
+      <Icon Value="vibroblades" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810730911694848" />
+    </Ability>
+    <Ability Name="abl.player.sprint">
+      <Label Value="Sprint" />
+      <Description Value="Increase movement speed by 35% while not in combat." />
+      <Icon Value="sprint" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="810670782152704" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.faction.empire">
+      <Label Value="" />
+      <Description Value="" />
+      <Icon Value="imperialbanner" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="-1" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.force_speed">
+      <Label Value="Force Speed" />
+      <Description Value="Increases movement speed by 150% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Does not break Stealth." />
+      <Icon Value="forceSpeed" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="16" />
+      <OnGCD Value="False" />
+      <Cooldown Value="20" />
+      <CombatLogID Value="808257010532352" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.force_lightning">
+      <Label Value="Force Lightning" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; energy damage to the target and consumes 40 Force over the duration of the channel. Also slows the movement speed of the target by 50% and immobilizes weak and standard enemies." />
+      <Icon Value="sithsorcerer" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="2" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <ChannelDuration Value="3" />
+      <CombatLogID Value="808252715565056" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.765" />
+          <StandardHealthPercentMax Value="0.0765" />
+          <StandardHealthPercentMin Value="0.0765" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.player.mount.skill.speeder_piloting">
+      <Label Value="Speeder Piloting" />
+      <Description Value="Able to ride speeder bikes." />
+      <Icon Value="mount.speederbike.anteater.02" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="25" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="1768010402496512" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.jolt">
+      <Label Value="Jolt" />
+      <Description Value="Interrupts the target's current action and prevents that ability from being used for 4 seconds." />
+      <Icon Value="counterattack" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="18" />
+      <OnGCD Value="False" />
+      <Cooldown Value="18" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="875060931854336" />
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.thrash">
+      <Label Value="Thrash" />
+      <Description Value="Strikes the target twice. Each hit deals &lt;&lt;1&gt;&gt; weapon damage." />
+      <Icon Value="viciousslash" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="0" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="3413184740327424" />
+      <ForceCost Value="25" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.775" />
+          <StandardHealthPercentMax Value="0.0775" />
+          <StandardHealthPercentMin Value="0.0775" />
+          <AmmountModifier Value="-0.48" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.775" />
+          <StandardHealthPercentMax Value="0.0775" />
+          <StandardHealthPercentMin Value="0.0775" />
+          <AmmountModifier Value="-0.48" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.electrocution">
+      <Label Value="Electrocute" />
+      <Description Value="Electrocutes the target, dealing &lt;&lt;1&gt;&gt; energy damage and stunning it for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+      <Icon Value="taserjolt" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="6" />
+      <OnGCD Value="True" />
+      <Cooldown Value="60" />
+      <Range Value="10" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="808244125630464" />
+      <ForceCost Value="10" />
+      <Coeffcients>
+        <Type Value="effAction_SpellDamage">
+          <Coefficient Value="0.71" />
+          <StandardHealthPercentMax Value="0.091" />
+          <StandardHealthPercentMin Value="0.051" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.unbreakable_will">
+      <Label Value="Unbreakable Will" />
+      <Description Value="Summons the unbreakable will of the Sith, immediately purging incapacitating and movement-impairing effects." />
+      <Icon Value="siupstartslave" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="9" />
+      <OnGCD Value="False" />
+      <Cooldown Value="120" />
+      <CombatLogID Value="808330024976384" />
+    </Ability>
+    <Ability Name="abl.player.proficiency.armor.focus">
+      <Label Value="Armor Proficiency: Focus" />
+      <Description Value="Able to equip a Force focus in your off-hand." />
+      <Icon Value="shieldgeneratorproficiency" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="True" />
+      <LevelAquired Value="10" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <CombatLogID Value="2035415066345472" />
+    </Ability>
+    <Ability Name="abl.flurry.sith_inquisitor.saber_strike_optimize">
+      <Label Value="Saber Strike" />
+      <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage spread across a flurry of 3 melee attacks." />
+      <Icon Value="assault" />
+      <Damage Value="True" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="1" />
+      <Range Value="0" />
+      <TargetArc Value="270" />
+      <CombatLogID Value="947495555301376" />
+      <Coeffcients>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.33" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-0.66" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="0.66" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-0.33" />
+        </Type>
+        <Type Value="effAction_WeaponDamage">
+          <Coefficient Value="1" />
+          <StandardHealthPercentMax Value="0" />
+          <StandardHealthPercentMin Value="0" />
+          <AmmountModifier Value="-1" />
+        </Type>
+      </Coeffcients>
+    </Ability>
+    <Ability Name="abl.sith_inquisitor.mark_of_power">
+      <Label Value="Mark of Power" />
+      <Description Value="Increases the target's Strength, Aim, Willpower and Cunning by 5% and internal and elemental damage reduction by 10% for 60 minutes. If the target is a group member, all other group members are also affected." />
+      <Icon Value="markofpower" />
+      <Damage Value="False" />
+      <Healing Value="False" />
+      <Passive Value="False" />
+      <LevelAquired Value="1" />
+      <OnGCD Value="True" />
+      <Cooldown Value="6" />
+      <Range Value="30" />
+      <TargetArc Value="360" />
+      <CombatLogID Value="952795544944640" />
+    </Ability>
+  </base>
+  <AdvClass Name="sorcerer" Label="Sorcerer">
+    <DisciplineTree Name="lightning">
+      <Label Value="Lightning" />
+      <Ability Name="abl.sith_inquisitor.skill.lightning.convection">
+        <Label Value="Convection" />
+        <Description Value="Force Speed gives 2 stacks of Convection which allows Lightning Strike and Lightning Bolt to be activated instantly." />
+        <Icon Value="lightningstrike" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808497528700928" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.forked_lightning">
+        <Label Value="Forked Lightning" />
+        <Description Value="Lightning Strike, Chain Lightning, Lightning Flash, and Lightning Bolt have a 30% chance to produce a second arc of lightning that strikes the same targets for 30% damage. Additionally, Chain Lightning overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
+        <Icon Value="forkedlightning" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808519003537408" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.051" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.64" />
+            <StandardHealthPercentMax Value="0.084" />
+            <StandardHealthPercentMin Value="0.044" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.588" />
+            <StandardHealthPercentMax Value="0.0648" />
+            <StandardHealthPercentMin Value="0.0528" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.51" />
+            <StandardHealthPercentMax Value="0.071" />
+            <StandardHealthPercentMin Value="0.031" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_effusion">
+        <Label Value="Lightning Effusion" />
+        <Description Value="Direct Force attacks grant Lightning Effusion when they critically hit, reducing the Force consumed by your next two non-channeled Force attacks by 75%." />
+        <Icon Value="lightningdrain" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1005649412489216" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.charged_reaction">
+        <Label Value="Charged Reaction" />
+        <Description Value="Direct damage dealt by your Crushing Darkness and Chain Lightning abilities refreshes the duration of your Affliction on affected targets. In addition, Lightning Bolt increases your Force regeneration rate by 10% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
+        <Icon Value="abl_si_so_charged_reaction" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3417337973702656" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.subversion">
+        <Label Value="Subversion" />
+        <Description Value="Reduces the pushback suffered while activating Chain Lightning, Lightning Strike, Crushing Darkness, Thundering Blast, and Lightning Bolt by 75%. Additionally, you have a 25% chance when taking direct damage to gain Subversion, which causes your next Lightning Strike or Lightning Bolt to activate instantly. This effect cannot occur more than once every 8 seconds and lasts for up to &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="lastresort" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808549068308480" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_flash">
+        <Label Value="Lightning Flash" />
+        <Description Value="Blasts the target with a quick flash of lightning, which deals &lt;&lt;1&gt;&gt; energy damage and grants Force Flash, which reduces the activation time of your next Crushing Darkness by 0.5 seconds. This effect lasts up to &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="abl_si_so_lightning_flash" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3401218961440768" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.96" />
+            <StandardHealthPercentMax Value="0.216" />
+            <StandardHealthPercentMin Value="0.176" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.forked_darkness">
+        <Label Value="Forked Darkness" />
+        <Description Value="Crushing Darkness has a 30% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Thundering Blast, there is a 30% chance the ability will produce a second blast that strikes the same target for 30% damage." />
+        <Icon Value="darkblood" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3210531003432960" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.646" />
+            <StandardHealthPercentMax Value="0.0706" />
+            <StandardHealthPercentMin Value="0.0586" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.conduction">
+        <Label Value="Conduction" />
+        <Description Value="Each Forked Lightning and Forked Darkness reduces the active cooldown of Polarity Shift by 1 second. In addition, being interrupted grants Unshakeable for 4 seconds. This can only occur once every 15 seconds." />
+        <Icon Value="swchildoftheempire" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808493233733632" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.focal_lightning">
+        <Label Value="Focal Lightning" />
+        <Description Value="Damage dealt by Chain Lightning and Lightning Flash has a 100% chance and damage dealt by Lightning Strike and Lightning Bolt has a 50% chance to grant Focal Lightning, which increases alacrity by 1%. Stacks up to 5 times. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="debuff_moving" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3411024371777536" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.chain_lightning">
+        <Label Value="Chain Lightning" />
+        <Description Value="Delivers an arc of lightning that deals &lt;&lt;1&gt;&gt; energy damage to up to 8 targets within 8 meters." />
+        <Icon Value="chainLightning" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2.5" />
+        <CombatLogID Value="808484643799040" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.14" />
+            <StandardHealthPercentMax Value="0.234" />
+            <StandardHealthPercentMin Value="0.194" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
+        <Label Value="Lightning Bolt" />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds. Lightning Bolt shares a cooldown with Lightning Strike." />
+        <Icon Value="abl_si_so_lightning_bolt" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3411385149030400" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.565" />
+            <StandardHealthPercentMax Value="0.177" />
+            <StandardHealthPercentMin Value="0.137" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.thundering_blast">
+        <Label Value="Thundering Blast" />
+        <Description Value="Sends a thundering blastwave at a target that deals &lt;&lt;1&gt;&gt; internal damage. Thundering Blast automatically critically hits targets affected by your Affliction." />
+        <Icon Value="shadowtechnique" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="9" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="961338234896384" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.8" />
+            <StandardHealthPercentMax Value="0.2" />
+            <StandardHealthPercentMin Value="0.16" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_swarm">
+        <Label Value="Lightning Swarm" />
+        <Description Value="Increases the maximum range of your Force attacks by 5 meters. Additionally, Chain Lightning immobilizes all affected targets for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; and slows all affected targets by 50% for &lt;&lt;3[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="electrofield" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3210329139970048" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_storm">
+        <Label Value="Lightning Storm" />
+        <Description Value="Lightning Strike, Lightning Bolt, Thundering Blast, and Force Storm grant Lightning Storm when activated. Lightning Storm immediately finishes the cooldown on Chain Lightning and makes your next Chain Lightning activate instantly and consume 50% less Force. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="spaceupgradeempburst" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808523298504704" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.lightning.reverberating_force">
+        <Label Value="Reverberating Force" />
+        <Description Value="Increases the critical damage dealt by Chain Lightning, Crushing Darkness, Thundering Blast, and Lightning Flash by 30%." />
+        <Icon Value="energyrebounder" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.lightning.storm_brewing">
+        <Label Value="Storm Brewing" />
+        <Description Value="Increases the critical chance of Force Storm by 15% and its critical damage bonus by 30%." />
+        <Icon Value="abl_si_so_storm_brewing" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.lightning.chaos_nexus">
+        <Label Value="Chaos Nexus" />
+        <Description Value="Forked Lightning is twice as likely to trigger while Polarity Shift is active. Additionally, increases the duration of Polarity Shift by 5 seconds and reduces its cooldown by 15 seconds." />
+        <Icon Value="chaosnexus" />
+        <LevelAquired Value="48" />
+      </Talent>
+    </DisciplineTree>
+    <base Name="base">
+      <Ability Name="abl.sith_inquisitor.resurgence">
+        <Label Value="Resurgence" />
+        <Description Value="Immediately heals the target for &lt;&lt;1&gt;&gt;, plus an additional &lt;&lt;2&gt;&gt; over &lt;&lt;3&gt;&gt; seconds." />
+        <Icon Value="smugglerrecuperate" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3412162538110976" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.8" />
+            <StandardHealthPercentMax Value="0.06" />
+            <StandardHealthPercentMin Value="0.02" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.unnatural_preservation">
+        <Label Value="Unnatural Preservation" />
+        <Description Value="Immediately restores &lt;&lt;1&gt;&gt; health to you. Cannot be used on others." />
+        <Icon Value="prioritymedevac2" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="18" />
+        <OnGCD Value="False" />
+        <Cooldown Value="30" />
+        <CombatLogID Value="3031100154707968" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.92" />
+            <StandardHealthPercentMax Value="0.166" />
+            <StandardHealthPercentMin Value="0.126" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.reanimation">
+        <Label Value="Reanimation" />
+        <Description Value="Revives an incapacitated ally. This ability is usable while in combat. When used, all group members can neither use nor be the target of an in-combat revival for the next 5 minutes." />
+        <Icon Value="reanimation" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="True" />
+        <Cooldown Value="300" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="808287075303424" />
+        <ForceCost Value="30" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.polarity_shift">
+        <Label Value="Polarity Shift" />
+        <Description Value="Your connection to the Force shifts, granting &lt;&lt;1&gt;&gt;% alacrity and immunity to pushback and interrupts for &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="polarityCharge" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="961325349994496" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.cloud_mind">
+        <Label Value="Cloud Mind" />
+        <Description Value="Wipes your enemies' thoughts, instantly lowering your threat by a moderate amount." />
+        <Icon Value="cloudmind" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="30" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="808209765892096" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.affliction">
+        <Label Value="Affliction" />
+        <Description Value="Casts a powerful Force affliction upon the target that deals &lt;&lt;1&gt;&gt; internal damage over &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Icon Value="lifedrain" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="808192586022912" />
+        <ForceCost Value="35" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.32" />
+            <StandardHealthPercentMax Value="0.032" />
+            <StandardHealthPercentMin Value="0.032" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.extrication">
+        <Label Value="Extrication" />
+        <Description Value="Lowers the target's threat by a moderate amount and, if the target is a group member, pulls the target to your location." />
+        <Icon Value="rescue" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="34" />
+        <OnGCD Value="True" />
+        <Cooldown Value="60" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="881868455018496" />
+        <ForceCost Value="30" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.force_storm">
+        <Label Value="Force Storm" />
+        <Description Value="Calls down a Force storm over the target area, consuming 120 Force and dealing &lt;&lt;1&gt;&gt; energy damage to up to 8 targets within 8 meters over the duration of the channel. Affected enemies are additionally slowed by 30% for as long as they remain in the area of effect. In addition, standard and weak targets have a 33% chance to be stunned by the storm each second." />
+        <Icon Value="forceStorm" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="6" />
+        <CombatLogID Value="808261305499648" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.79" />
+            <StandardHealthPercentMax Value="0.079" />
+            <StandardHealthPercentMin Value="0.079" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.consumption">
+        <Label Value="Consumption" />
+        <Description Value="Consumes 15% of your maximum health to restore 8% of your maximum Force. Each time this ability is used, your Force regeneration rate is reduced by 25% for the next &lt;&lt;1&gt;&gt; seconds. Stacks up to 4 times." />
+        <Icon Value="consumption" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="808214060859392" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.lightning_strike">
+        <Label Value="Lightning Strike" />
+        <Description Value="Fires a charge of lightning at the target, deals &lt;&lt;1&gt;&gt; energy damage." />
+        <Icon Value="lightningStrike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="808265600466944" />
+        <ForceCost Value="40" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.5" />
+            <StandardHealthPercentMax Value="0.17" />
+            <StandardHealthPercentMin Value="0.13" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.expunge">
+        <Label Value="Expunge" />
+        <Description Value="Cleanses a friendly target of up to 2 negative mental or Force effects." />
+        <Icon Value="casting" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3412806783205376" />
+        <ForceCost Value="15" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.force_barrier">
+        <Label Value="Force Barrier" />
+        <Description Value="Projects a Force Barrier around you, granting immunity to all control, damage, and negative effects while channeled. This ability does not respect the global cooldown and can be used while controlled. While you are protected by Force Barrier charges will build up and grant Enduring Bastion, a shield that absorbs an amount of damage based off the charges that are present when Force Barrier ended. Enduring Bastion also grants immunity to interrupts." />
+        <Icon Value="forcebarriersorcerer" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="False" />
+        <Cooldown Value="180" />
+        <ChannelDuration Value="8" />
+        <CombatLogID Value="3120899330932736" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3.27" />
+            <StandardHealthPercentMax Value="0.164" />
+            <StandardHealthPercentMin Value="0.164" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="6.54" />
+            <StandardHealthPercentMax Value="0.328" />
+            <StandardHealthPercentMin Value="0.328" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.04" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="9.81" />
+            <StandardHealthPercentMax Value="0.492" />
+            <StandardHealthPercentMin Value="0.492" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.06" />
+          </Type>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="13.08" />
+            <StandardHealthPercentMax Value="0.656" />
+            <StandardHealthPercentMin Value="0.656" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.08" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.static_barrier">
+        <Label Value="Static Barrier" />
+        <Description Value="Surrounds the target in a lightning shield that lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds and absorbs a high amount of damage. The target becomes deionized and cannot benefit from Static Barrier again for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds." />
+        <Icon Value="electricshield" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="3411286364782592" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_AbsorbDamage">
+            <HealingPowerCoefficient Value="3" />
+            <StandardHealthPercentMax Value="0.15" />
+            <StandardHealthPercentMin Value="0.15" />
+            <AmmountPercent Value="1" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.02" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.dark_heal">
+        <Label Value="Dark Heal" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health." />
+        <Icon Value="darkGift" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="808218355826688" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="1.75" />
+            <StandardHealthPercentMax Value="0.108" />
+            <StandardHealthPercentMin Value="0.068" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.unlimited_power">
+        <Label Value="Unlimited Power" />
+        <Description Value="Increases Strength, Presence, Aim, Cunning, Endurance, and Willpower for you and your Operation group members within 40 meters by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="uti_imp_rep_power_raid_buff" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="False" />
+        <Cooldown Value="300" />
+        <CombatLogID Value="3415495432732672" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.0736223" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.sith_lifebinder">
+        <Label Value="Sith Lifebinder" />
+        <Description Value="Reduces the cooldown of Revive by 100%." />
+        <Icon Value="emergencyscan" />
+        <LevelAquired Value="10" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.electric_induction">
+        <Label Value="Electric Induction" />
+        <Description Value="Reduces the Force consumed by Force abilities by 10%." />
+        <Icon Value="replenish" />
+        <LevelAquired Value="15" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.transmission">
+        <Label Value="Transmission" />
+        <Description Value="Increases the range of Force Lightning, Shock, Jolt, and Force Slow by 20 meters. Also increases the duration of Whirlwind to 60 seconds." />
+        <Icon Value="cloakofpain" />
+        <LevelAquired Value="10" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.force_attunement">
+        <Label Value="Force Attunement" />
+        <Description Value="Attuned to the Force, your maximum Force is increased by 500." />
+        <Icon Value="swsithpureblood" />
+        <LevelAquired Value="10" />
+      </Talent>
+    </base>
+    <DisciplineTree Name="madness">
+      <Label Value="Madness" />
+      <Ability Name="abl.sith_inquisitor.skill.madness.sith_efficacy">
+        <Label Value="Sith Efficacy" />
+        <Description Value="Reduces the pushback suffered while activating Force Leech by 75% and Force Lightning by 100%. In addition, each time your Force Lightning deals damage, you recover 1% of your total Force." />
+        <Icon Value="hatred" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808471758897152" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.force_leech">
+        <Label Value="Force Leech" />
+        <Description Value="Steals life from an enemy, dealing &lt;&lt;1&gt;&gt; internal damage to the target and healing you for 50% of the damage dealt." />
+        <Icon Value="abl_si_so_force_leech" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="1.5" />
+        <CombatLogID Value="3400587601248256" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.74" />
+            <StandardHealthPercentMax Value="0.194" />
+            <StandardHealthPercentMin Value="0.154" />
+            <LifeStealModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.wrath">
+        <Label Value="Wrath" />
+        <Description Value="Dealing damage with Force Lightning produces a stack of Wrath. At 4 stacks, Wrath causes your next Lightning Strike, Crushing Darkness, or Demolish to activate instantly, consume 50% less Force, and deal 25% more damage." />
+        <Icon Value="cloakofpain" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1195199204163584" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.creeping_terror">
+        <Label Value="Creeping Terror" />
+        <Description Value="Paralyzes the target in fear, dealing &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3&gt;&gt; seconds and immobilizing it for &lt;&lt;1&gt;&gt; seconds. The immobilizing effect cannot occur more than once every &lt;&lt;4&gt;&gt; seconds." />
+        <Icon Value="creepingTerror" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808424514256896" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.demolish">
+        <Label Value="Demolish" />
+        <Description Value="Crushes the target with devastating force, dealing &lt;&lt;1&gt;&gt; kinetic damage initially, plus an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3&gt;&gt; seconds. The target also becomes Vulnerable for &lt;&lt;4&gt;&gt; seconds, increasing the damage taken from Force attacks by 5%.  Shares a cooldown with Crushing Darkness." />
+        <Icon Value="abl_si_as_demolish" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="3400617666019328" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.death_field">
+        <Label Value="Death Field" />
+        <Description Value="Creates a death field at the target location, dealing &lt;&lt;1&gt;&gt; internal damage and stealing life from affected targets to heal you for 10% of the damage dealt. Strikes up to 8 targets within an 8-meter radius." />
+        <Icon Value="deathfield" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="808433104191488" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
+            <LifeStealModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.lightning_burns">
+        <Label Value="Lightning Burns" />
+        <Description Value="Damage dealt by Force Lightning has a 20% chance and damage dealt by Force Leech has a 60% chance to apply Lightning Burns to the target, which deals &lt;&lt;1&gt;&gt; energy damage and restores 2 Force after &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;." />
+        <Icon Value="crushed" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3210655557484544" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.027" />
+            <StandardHealthPercentMin Value="0.027" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.deathmark">
+        <Label Value="Deathmark" />
+        <Description Value="Death Field places a deathmark on affected targets, increasing the amount of damage the targets suffer from your next 15 periodic damaging abilities by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="alienskull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808428809224192" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.madness.lingering_nightmares">
+        <Label Value="Lingering Nightmares" />
+        <Description Value="Increases the duration of Crushing Darkness and Demolish by 2 seconds." />
+        <Icon Value="dark_embrace" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.disintegration">
+        <Label Value="Disintegration" />
+        <Description Value="Increases the critical chance of Force Leech and Lightning Strike by 5%." />
+        <Icon Value="crushingdarkness" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.pestilence">
+        <Label Value="Pestilence" />
+        <Description Value="Death Field spreads your Affliction and Creeping Terror to the targets it damages, as long as it damages targets already affected by your Affliction and Creeping Terror. In addition, Death Field overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Icon Value="abl_si_so_pestilence" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.devour">
+        <Label Value="Devour" />
+        <Description Value="Force Leech deals 25% more damage when used on a target affected by your Affliction. In addition, each time a charge of your Deathmark is consumed, you gain 2 Force." />
+        <Icon Value="suffocate" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.force_horrors">
+        <Label Value="Force Horrors" />
+        <Description Value="Increases all periodic damage dealt by 10%." />
+        <Icon Value="forcehorrors" />
+        <LevelAquired Value="36" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.madness">
+        <Label Value="Madness" />
+        <Description Value="Force Lightning no longer has a cooldown." />
+        <Icon Value="instantdeathdevice" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.lightning_barrage">
+        <Label Value="Lightning Barrage" />
+        <Description Value="Force Lightning channels and ticks 33% faster but deals 25% less damage." />
+        <Icon Value="sithsorcerer" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.parasitism">
+        <Label Value="Parasitism" />
+        <Description Value="Increases the life stolen by Death Field and Force Leech by 100% and causes Affliction and Creeping Terror to steal life from enemy targets, healing you for 25% of the damage they deal." />
+        <Icon Value="animalinsectmouthpart" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.creeping_death">
+        <Label Value="Creeping Death" />
+        <Description Value="Increases the damage dealt by periodic effects by 15% on targets below 30% of max health. In addition, Force Leech restore 15 force when used on a target affected by your Deathmark." />
+        <Icon Value="forcecrush" />
+        <LevelAquired Value="48" />
+      </Talent>
+    </DisciplineTree>
+    <UtilityTree Name="utility">
+      <Ability Name="abl.sith_inquisitor.skill.utility.electric_bindings">
+        <Label Value="Electric Bindings" />
+        <Description Value="Overload binds its targets in electricity, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Icon Value="staticcling" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3410225507860480" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="13" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.force_suffusion">
+        <Label Value="Force Suffusion" />
+        <Description Value="Overload heals you and up to 7 affected allies for &lt;&lt;1&gt;&gt;." />
+        <Icon Value="sonicboom" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3411252005044224" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.61" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.01" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.emersion">
+        <Label Value="Emersion" />
+        <Description Value="Force Speed grants Emersion, removing all movement-impairing effects and granting immunity to them for the duration." />
+        <Icon Value="fade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3424175561637888" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.surging_speed">
+        <Label Value="Surging Speed" />
+        <Description Value="Polarity Shift increases your movement speed by 50% while active. In addition, Force Speed lasts 0.5 seconds longer, and when Force Barrier ends, the active cooldown of Force Speed is finished." />
+        <Icon Value="cc_follow" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3411325019488256" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.suppression">
+        <Label Value="Suppression" />
+        <Description Value="Activating Cloud Mind grants Suppression, which increases damage reduction by 25% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="cloudmind" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3413360833986560" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.utility.corrupted_barrier">
+        <Label Value="Corrupted Barrier" />
+        <Description Value="Your Static Barrier, Force Barrier, and Enduring Bastion heal you for 2% of your total health every second for as long as they last. This healing scales up to 8% with the charges for Enduring Bastion." />
+        <Icon Value="barriercleanse" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.oppressing_force">
+        <Label Value="Oppressing Force" />
+        <Description Value="Lowers the cooldown of Electrocute by 10 seconds. In addition, your Whirlwind affects up to 2 additional standard or weak enemies within 8 meters of the target." />
+        <Icon Value="carbonize" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.force_mobility">
+        <Label Value="Force Mobility" />
+        <Description Value="Thundering Blast, Innervate, and Force Leech may be activated while moving." />
+        <Icon Value="abl_sijc_sosa_force_mobility" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.sith_defiance">
+        <Label Value="Sith Defiance" />
+        <Description Value="Increases damage reduction by 3%." />
+        <Icon Value="smash" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.tempest_mastery">
+        <Label Value="Tempest Mastery" />
+        <Description Value="Increases the damage dealt by Force Storm by 25%." />
+        <Icon Value="abl_si_so_tempest_mastery" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="4" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.dark_resilience">
+        <Label Value="Dark Resilience" />
+        <Description Value="Reduces the health spent by Consumption by 25%, and increases the healing done by Unnatural Preservation by 30%." />
+        <Icon Value="rage" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.backlash">
+        <Label Value="Backlash" />
+        <Description Value="Static Barriers you place on yourself erupt in a flash of light when they end, blinding up to 8 nearby enemies for 3 seconds. This effect breaks from direct damage." />
+        <Icon Value="backlash" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.chain_shock">
+        <Label Value="Chain Shock" />
+        <Description Value="Increases the damage dealt by Shock by 5%. In addition, Shock gains a 50% chance to produce a second Shock that deals 50% less damage." />
+        <Icon Value="thundering_blast" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.corrupted_flesh">
+        <Label Value="Corrupted Flesh" />
+        <Description Value="Reduces the damage taken from all periodic effects by 15%." />
+        <Icon Value="lightningstorm" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.force_haste">
+        <Label Value="Force Haste" />
+        <Description Value="Reduces the cooldown of Force Speed by 5 seconds, Force Slow by 3 seconds, and Force Barrier by 30 seconds." />
+        <Icon Value="movementslowed" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.empty_body">
+        <Label Value="Empty Body" />
+        <Description Value="Increases all healing received by 10%. Does not affect stolen life." />
+        <Icon Value="outerrimveteran" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.conspiring_force">
+        <Label Value="Conspiring Force" />
+        <Description Value="Targets affected by your Affliction are slowed by 30% for its duration." />
+        <Icon Value="doom_aura" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.sap_strength">
+        <Label Value="Sap Strength" />
+        <Description Value="Targets stunned by your Electrocute suffer Sapped Strength when Electrocute wears off, which reduces all damage dealt by 25% for 10 seconds." />
+        <Icon Value="damagereduced" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.haunted_dreams">
+        <Label Value="Haunted Dreams" />
+        <Description Value="If your Whirlwind breaks early from damage, the target is stunned for 2 seconds. In addition, Whirlwind activates instantly." />
+        <Icon Value="nightmare" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.shapeless_spirit">
+        <Label Value="Shapeless Spirit" />
+        <Description Value="Reduces all damage taken while stunned by 30%." />
+        <Icon Value="spiritarmor" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.lightning_barrier">
+        <Label Value="Lightning Barrier" />
+        <Description Value="Increases the amount absorbed by your Static Barrier by 10%." />
+        <Icon Value="chargedplating" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+      </Talent>
+    </UtilityTree>
+    <DisciplineTree Name="corruption">
+      <Label Value="Corruption" />
+      <Ability Name="abl.sith_inquisitor.skill.corruption.dark_concentration">
+        <Label Value="Dark Concentration" />
+        <Description Value="Crushing Darkness, Lightning Strike, Dark Infusion, and Revivification grant Dark Concentration, which causes your next Dark Heal to activate instantly and consume no Force. This effect may not occur more than once every 10 seconds." />
+        <Icon Value="abl_si_so_dark_concentration" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3415280684367872" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.revivification">
+        <Label Value="Revivification" />
+        <Description Value="Applies a periodic healing effect to up to 8 allies within 8 meters of the targeted area, which heals for &lt;&lt;1&gt;&gt; over &lt;&lt;2&gt;&gt; seconds. Once a target has received the periodic healing effect, the target may leave the area and will continue to be healed by the effect." />
+        <Icon Value="darkaffliction" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="808703687131136" />
+        <ForceCost Value="60" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.2" />
+            <StandardHealthPercentMax Value="0.01" />
+            <StandardHealthPercentMin Value="0.01" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.dark_infusion">
+        <Label Value="Dark Infusion" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health." />
+        <Icon Value="darkInfusion" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ActivationTime Value="2.5" />
+        <CombatLogID Value="3411032961712128" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.29" />
+            <StandardHealthPercentMax Value="0.1345" />
+            <StandardHealthPercentMin Value="0.0945" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.twisted_force">
+        <Label Value="Twisted Force" />
+        <Description Value="Innervate channels and ticks 20% faster, and Roaming Mend grants resistance to the targets it heals for 45 seconds. Resistant targets have their internal and elemental damage reduction increased by 3%." />
+        <Icon Value="koltostream" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3210247535591424" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.force_bending">
+        <Label Value="Force Bending" />
+        <Description Value="Your Resurgence grants Force Bending for 15 seconds, which increases the effect of your next healing ability: Dark Heal: Critical chance increased by 60%. Dark Infusion: Activation time reduced by 0.5 seconds. Innervate: Critical chance increased by 25%. Revivification: Force cost reduced by 30%. Roaming Mend: Immediately roams to and heals each target, without waiting for the target to take damage first." />
+        <Icon Value="drain_life" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808669327392768" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.sith_purity">
+        <Label Value="Sith Purity" />
+        <Description Value="Expunge now removes negative physical effects and heals the target for &lt;&lt;1&gt;&gt; health." />
+        <Icon Value="casting" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="987632024682496" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.68" />
+            <StandardHealthPercentMax Value="0.054" />
+            <StandardHealthPercentMin Value="0.014" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.force_surge">
+        <Label Value="Force Surge" />
+        <Description Value="Innervate critical heals grant 1 charge of Force Surge, which improves the effectiveness of your next Consumption or Revivification. Consumption: Activates without degenerating your Force or causing a global cooldown and consumes 1 charge. Revivification: Consumes 5 less Force per charge and reduces activation time by 0.25 seconds for each of the first two charges, or makes it activate instantly with the third charge. Consumes all charges." />
+        <Icon Value="berserk" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808677917327360" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.roaming_mend">
+        <Label Value="Roaming Mend" />
+        <Description Value="Places a mending Force on a friendly target that heals them for &lt;&lt;1&gt;&gt; health the next time they take damage. After healing the target, Roaming Mend travels to another friendly target within 20 meters. Roaming Mend lasts up to &lt;&lt;2&gt;&gt; seconds on each target and travels up to 3 times, healing up to 4 targets. Roaming Mend can only be placed on one target at a time." />
+        <Icon Value="abl_si_so_roaming_mend" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="3401283385950208" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="2.1" />
+            <StandardHealthPercentMax Value="0.125" />
+            <StandardHealthPercentMin Value="0.085" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.innervate">
+        <Label Value="Innervate" />
+        <Description Value="Heals a friendly target for &lt;&lt;1&gt;&gt; health and consumes 40 Force over the channel duration." />
+        <Icon Value="drainingpresence" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="9" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="1104395005591552" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.92" />
+            <StandardHealthPercentMax Value="0.046" />
+            <StandardHealthPercentMin Value="0.046" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.corruption.renewal">
+        <Label Value="Renewal" />
+        <Description Value="&lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; after refreshing your Resurgence on a target, the target will be healed for &lt;&lt;1&gt;&gt; health plus any healing that remained from the previous Resurgence." />
+        <Icon Value="abl_sijc_sosa_renewal" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3415246324629504" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.27" />
+            <StandardHealthPercentMax Value="0.013" />
+            <StandardHealthPercentMin Value="0.013" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.efficacious_currents">
+        <Label Value="Efficacious Currents" />
+        <Description Value="Reduces the Force cost of Static Barrier by 30 and reduces the duration of Deionized by 5 seconds." />
+        <Icon Value="electricshield" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.dark_mending">
+        <Label Value="Dark Mending" />
+        <Description Value="Reduces the activation time of Dark Infusion by 0.5 seconds and the Force cost of Dark Heal by 5." />
+        <Icon Value="sorcererhaste" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.lucidity">
+        <Label Value="Lucidity" />
+        <Description Value="Reduces the pushback suffered while activating healing abilities by 75% and lowers the threat generated by healing abilities by 10%." />
+        <Icon Value="shadowcloak" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.reconstruct">
+        <Label Value="Reconstruct" />
+        <Description Value="Increases the duration of Resurgence by 6 seconds. In addition, Resurgence grants protection to its target for 45 seconds. Protected targets have their armor rating increased by 10%." />
+        <Icon Value="recuperativenanotech" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.reverse_corruptions">
+        <Label Value="Reverse Corruptions" />
+        <Description Value="Reduces the duration of Consumption's Force degeneration effects by 3 seconds. In addition, Force Barrier now purges Consumption's Force degeneration effects." />
+        <Icon Value="consumption" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.penetrating_darkness">
+        <Label Value="Penetrating Darkness" />
+        <Description Value="Increases your bonus healing by 5%." />
+        <Icon Value="identifyweakness" />
+        <LevelAquired Value="40" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.corruption.life_surge">
+        <Label Value="Life Surge" />
+        <Description Value="Increases Force critical chance and damage reduction by 3%." />
+        <Icon Value="rejuvinate" />
+        <LevelAquired Value="36" />
+      </Talent>
+    </DisciplineTree>
+  </AdvClass>
+  <AdvClass Name="assassin" Label="Assassin">
+    <base Name="base">
+      <Ability Name="abl.player.proficiency.weapon.electrostaff">
+        <Label Value="Weapon Proficiency: Electrostaff" />
+        <Description Value="Able to equip electrostaves and other staff melee weapons tied to the Willpower attribute." />
+        <Icon Value="electrostaves" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="810692256989184" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.stealth">
+        <Label Value="Stealth" />
+        <Description Value="Enters stealth mode, making your movements difficult to detect but slowing movement speed to 85% of normal. Your companion will not react to enemy attacks while in stealth. Most hostile actions prematurely end the effect. Cannot be used in combat." />
+        <Icon Value="shadowwalk" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808317140074496" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.mass_mind_control">
+        <Label Value="Mass Mind Control" />
+        <Description Value="Forces all enemies within 15 meters to attack you for &lt;&lt;1[%d seconds/%d second/%d seconds]&gt;&gt; if Dark Charge is active. If Dark Charge is not active, threat towards all current enemies is immediately reduced. Player targets deal 30% less damage for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt; when attacking anyone other than you." />
+        <Icon Value="massdisorientation" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="False" />
+        <Cooldown Value="45" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="2522790775226368" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.spike">
+        <Label Value="Spike" />
+        <Description Value="Spikes the target upon an overloaded lightsaber, dealing &lt;&lt;1&gt;&gt;  energy damage and stunning the target for &lt;&lt;2[%d/%d/%d]&gt;&gt; seconds. Standard and weak enemies are additionally knocked down. Requires a double-bladed lightsaber or electrostaff. Only usable in stealth mode." />
+        <Icon Value="spike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="42" />
+        <OnGCD Value="True" />
+        <Cooldown Value="20" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808312845107200" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.08" />
+            <StandardHealthPercentMax Value="0.228" />
+            <StandardHealthPercentMin Value="0.188" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.lacerate">
+        <Label Value="Lacerate" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage to up to 8 targets within 5 meters. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="spinningstrike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="975129374883840" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.78" />
+            <StandardHealthPercentMax Value="0.078" />
+            <StandardHealthPercentMin Value="0.078" />
+            <AmmountModifier Value="-0.48" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.assassins_training">
+        <Label Value="Assassin's Training" />
+        <Description Value="Increases your total Endurance by 3% and the base damage dealt by Shock by 17%. In addition, Saber Strike restores 1 Force each time it damages an enemy." />
+        <Icon Value="assassinstraining" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3421972243415040" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.maul">
+        <Label Value="Maul" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; weapon damage to a single target. Only usable from behind the target. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="sunderingassault" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808269895434240" />
+        <ForceCost Value="40" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.31" />
+            <StandardHealthPercentMax Value="0.231" />
+            <StandardHealthPercentMin Value="0.231" />
+            <AmmountModifier Value="0.54" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.assassinate">
+        <Label Value="Assassinate" />
+        <Description Value="Attempts to assassinate the target, dealing &lt;&lt;1&gt;&gt; weapon damage. Only usable on targets at or below 30% max health." />
+        <Icon Value="disorientingblow" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2295741624090624" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="2.657" />
+            <StandardHealthPercentMax Value="0.266" />
+            <StandardHealthPercentMin Value="0.266" />
+            <AmmountModifier Value="0.77" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.phase_walk">
+        <Label Value="Phase Walk" />
+        <Description Value="Activating this ability marks your current location for 10 minutes. When this ability is activated again, if you are within 60 meters of the marked location, you instantly return to the marked location. Phase Walk goes on cooldown for 45 seconds when used to return to the marked location. Does not break stealth." />
+        <Icon Value="phasewalkassassin" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="51" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <ActivationTime Value="0.5" />
+        <CombatLogID Value="3200459305123840" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.armor.shield">
+        <Label Value="Armor Proficiency: Shield Generator" />
+        <Description Value="Able to equip a personal shield generator in your off-hand." />
+        <Icon Value="shieldgeneratorproficiency" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="838789933039616" />
+      </Ability>
+      <Ability Name="abl.player.proficiency.weapon.polesaber">
+        <Label Value="Weapon Proficiency: Double-Bladed Lightsaber" />
+        <Description Value="Able to equip double-bladed lightsabers and saberstaves." />
+        <Icon Value="doublebladedlightsabers" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="810709436858368" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.mind_control">
+        <Label Value="Mind Control" />
+        <Description Value="Controls the mind of the target, forcing it to attack you for &lt;&lt;1&gt;&gt; seconds. Player targets deal 30% less damage for &lt;&lt;2&gt;&gt; seconds when attacking anyone other than you." />
+        <Icon Value="taunt" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="14" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="975279698739200" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.lightning_charge">
+        <Label Value="Lightning Charge" />
+        <Description Value="Consumes all of your available Force to charge your lightsaber with lightning, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; energy damage. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="chargedSaber" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3421035940544512" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.234" />
+            <StandardHealthPercentMax Value="0.0234" />
+            <StandardHealthPercentMin Value="0.0234" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.guard">
+        <Label Value="Guard" />
+        <Description Value="While active, the guarded player takes 5% less damage and generates 25% less threat. In addition, so long as you remain within 15 meters of the guarded player, 50% of all incoming damage from enemy players is transferred back to you. Requires Dark Charge." />
+        <Icon Value="sitwilekrenegade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <CombatLogID Value="1780023426023424" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.force_shroud">
+        <Label Value="Force Shroud" />
+        <Description Value="Purges all hostile removable effects and increases your chance to resist Force and tech attacks by 200% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Does not break Stealth." />
+        <Icon Value="shadowcloak" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <CombatLogID Value="954616611078144" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.blackout">
+        <Label Value="Blackout" />
+        <Description Value="Increases your stealth level by 15 for 8 seconds. Only usable in stealth mode." />
+        <Icon Value="disappear" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="False" />
+        <Cooldown Value="60" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="1615564833292288" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.discharge">
+        <Label Value="Discharge" />
+        <Description Value="Unleashes your current lightsaber charge upon the target, applying an effect based on your current charge. Only usable with a charged double-bladed lightsaber or electrostaff. Dark Charge: Strikes up to 8 nearby enemies, dealing &lt;&lt;1&gt;&gt; internal damage and generating a high amount of threat. Puts Discharge on cooldown for 10 seconds. Lightning Charge: Deals &lt;&lt;2&gt;&gt; energy damage over &lt;&lt;3&gt;&gt; seconds. Surging Charge: Releases your Static Charge to deal &lt;&lt;4&gt;&gt; internal damage. This damage scales up with each stack of Static Charge." />
+        <Icon Value="discharge" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808235535695872" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.66" />
+            <StandardHealthPercentMax Value="0.086" />
+            <StandardHealthPercentMin Value="0.046" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.39" />
+            <StandardHealthPercentMax Value="0.039" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.39" />
+            <StandardHealthPercentMax Value="0.039" />
+            <StandardHealthPercentMin Value="0.039" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.73" />
+            <StandardHealthPercentMax Value="0.093" />
+            <StandardHealthPercentMin Value="0.053" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.dark_charge">
+        <Label Value="Dark Charge" />
+        <Description Value="Consumes all of your available Force to charge your lightsaber with dark energy, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; internal damage and generate additional threat. Increases armor rating by 130%, shield chance by 15%, threat generation by 100%, and accuracy by 10% and reduces all damage dealt by 10% while active. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="darkSaber" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="12" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3421302228516864" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.14" />
+            <StandardHealthPercentMax Value="0.014" />
+            <StandardHealthPercentMin Value="0.014" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.mind_trap">
+        <Label Value="Mind Trap" />
+        <Description Value="Traps the target's mind, leaving it bewildered and unable to act for 60 seconds. Damage will break the effect prematurely. This ability is only usable in stealth mode and cannot be used against a target in combat. Only one target can be incapacitated at any given time. Cannot be used on droids." />
+        <Icon Value="mindtrap" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808274190401536" />
+        <ForceCost Value="50" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.deflection">
+        <Label Value="Deflection" />
+        <Description Value="Increases your ranged and melee defenses by 50% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Requires a melee weapon." />
+        <Icon Value="lightsaberReflection" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="3421834804461568" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.exploitive_strikes">
+        <Label Value="Exploitive Strikes" />
+        <Description Value="Critical hits with Force attacks increase your melee critical chance by 5% for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="vengefulstrike" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3420357335711744" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.overcharge_saber">
+        <Label Value="Overcharge Saber" />
+        <Description Value="Overcharges your lightsaber charge for &lt;&lt;1&gt;&gt; seconds, immediately restoring 15% of your max health, increasing the damage of all Charges by 50%, increasing the chance to trigger their effects by 25%, and healing you for &lt;&lt;2&gt;&gt; when their effects are triggered. The triggered healing cannot occur more than once per second. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="sithwarrior" />
+        <Damage Value="False" />
+        <Healing Value="True" />
+        <Passive Value="False" />
+        <LevelAquired Value="50" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="975430022594560" />
+        <Coeffcients>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountPercent Value="0.15" />
+          </Type>
+          <Type Value="effAction_Heal">
+            <HealingPowerCoefficient Value="0.6" />
+            <StandardHealthPercentMax Value="0.03" />
+            <StandardHealthPercentMin Value="0.03" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.force_cloak">
+        <Label Value="Force Cloak" />
+        <Description Value="Uses the Force to vanish from sight, immediately exiting combat and entering stealth mode. For &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds, you become virtually undetectable." />
+        <Icon Value="force" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="22" />
+        <OnGCD Value="False" />
+        <Cooldown Value="120" />
+        <CombatLogID Value="2271329029980160" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.thrashing_blades">
+        <Label Value="Thrashing Blades" />
+        <Description Value="Increases the damage dealt by Thrash, Lacerate, Voltaic Slash, and Leeching Strike by 5% and reduces the Force they consume by 3." />
+        <Icon Value="sithwarrior" />
+        <LevelAquired Value="35" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.charge_mastery">
+        <Label Value="Charge Mastery" />
+        <Description Value="Improves the effect of your lightsaber charges while they are active: Dark Charge: Increases internal and elemental damage reduction by 10%. Lightning Charge: Increases the critical hit chance of Lightning Charge by 50%. Surging Charge: Increases your armor penetration by 10%." />
+        <Icon Value="agonizingsaber" />
+        <LevelAquired Value="15" />
+      </Talent>
+    </base>
+    <DisciplineTree Name="deception">
+      <Label Value="Deception" />
+      <Ability Name="abl.sith_inquisitor.skill.deception.low_slash">
+        <Label Value="Low Slash" />
+        <Description Value="Slashes the target low, dealing &lt;&lt;1&gt;&gt; weapon damage and incapacitating the target for &lt;&lt;2&gt;&gt; seconds. Damage causes this effect to end prematurely. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="lowslash" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="1962284658196480" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.64" />
+            <StandardHealthPercentMax Value="0.164" />
+            <StandardHealthPercentMin Value="0.164" />
+            <AmmountModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.electric_ambush">
+        <Label Value="Electric Ambush" />
+        <Description Value="While Surging Charge is active, Recklessness builds 3 Static Charges, and exiting combat reduces the active cooldown of Recklessness by 60 seconds. Additionally, the critical damage dealt by Maul is increased by 30%." />
+        <Icon Value="chargedgauntlets" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3257230182842368" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.duplicity">
+        <Label Value="Duplicity" />
+        <Description Value="Direct damage attacks grant Duplicity, causing your next Maul to deal 20% more damage and consume 75% less Force. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="sunderingassault" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="949110463004672" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.entropic_field">
+        <Label Value="Entropic Field" />
+        <Description Value="Reduces the damage taken from area attacks by 30%. In addition, dealing critical damage grants Entropic Field, increasing damage reduction by 2% for &lt;&lt;1&gt;&gt; seconds. Stacks up to 3 times." />
+        <Icon Value="highenergyclip" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3410019349430272" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.induction">
+        <Label Value="Induction" />
+        <Description Value="Thrash, Lacerate, Voltaic Slash, Maul, and Assassinate grant Induction while Surging Charge is active, reducing the Force cost of your next Shock or Ball Lightning by 25%. Stacks up to 2 times." />
+        <Icon Value="force_crush" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="16" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1776084941012992" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.saber_conduit">
+        <Label Value="Saber Conduit" />
+        <Description Value="Your Surging Charge restores 9 Force over &lt;&lt;2&gt;&gt; seconds when it deals damage to an enemy target. This effect cannot occur more than once every 12 seconds. In addition, Lacerate builds charges of Voltage, and while Surging Charge is active, Discharge causes its target to become vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks." />
+        <Icon Value="chargedsaber" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="28" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808626377719808" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.ball_lightning">
+        <Label Value="Ball Lightning" />
+        <Description Value="Blasts the target with a ball of lightning for &lt;&lt;1&gt;&gt; energy damage. Standard and weak targets are additionally stunned for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;.  Shares a cooldown with Shock." />
+        <Icon Value="abl_si_as_ball_lightning" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3408941312638976" />
+        <ForceCost Value="32" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="2.06" />
+            <StandardHealthPercentMax Value="0.226" />
+            <StandardHealthPercentMin Value="0.186" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.03" />
+            <StandardHealthPercentMax Value="0.123" />
+            <StandardHealthPercentMin Value="0.083" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.darkswell">
+        <Label Value="Darkswell" />
+        <Description Value="Exiting stealth mode now finishes the cooldown of Blackout, and Blackout can now be used out of stealth mode, granting &lt;&lt;1&gt;&gt; seconds of Dark Embrace and restoring 15 Force. While Dark Embrace is active, all damage taken is reduced by 25%." />
+        <Icon Value="disappear" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="24" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="1775844422844416" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.surging_charge">
+        <Label Value="Surging Charge" />
+        <Description Value="Consumes all of your available Force to charge your lightsaber with raw surging Force, giving your melee attacks a 50% chance to deal &lt;&lt;1&gt;&gt; internal damage and build 1 Static Charge. Static Charge stacks up to 3 times and increases the damage dealt by your next Discharge. This effect cannot occur more than once every 6 seconds. Requires a double-bladed lightsaber or electrostaff. Does not break Stealth." />
+        <Icon Value="novaSaber" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="948659491438592" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.045" />
+            <StandardHealthPercentMin Value="0.045" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.deception.voltaic_slash">
+        <Label Value="Voltaic Slash" />
+        <Description Value="Strikes the target twice, dealing &lt;&lt;1&gt;&gt; weapon damage with each hit. Each use of this ability builds Voltage, which gives Shock and Ball Lightning a 50% chance to automatically trigger your Surging Charge off of its normal rate limit. Stacks up to 2 times. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="lightningswing" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="975584641417216" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.81" />
+            <StandardHealthPercentMax Value="0.081" />
+            <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.81" />
+            <StandardHealthPercentMax Value="0.081" />
+            <StandardHealthPercentMin Value="0.081" />
+            <AmmountModifier Value="-0.46" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.deception.dominating_slashes">
+        <Label Value="Dominating Slashes" />
+        <Description Value="Increases the damage dealt by Lacerate, Voltaic Slash, and Assassinate by 10%." />
+        <Icon Value="abl_si_as_dominating_slashes" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.assassins_mark">
+        <Label Value="Assassin's Mark" />
+        <Description Value="Maul sunders its target for 45 seconds. Sundered targets have their armor reduced by 20%." />
+        <Icon Value="linetheshot" />
+        <LevelAquired Value="44" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.whirling_edge">
+        <Label Value="Whirling Edge" />
+        <Description Value="Increases the critical chance of Lacerate by 15% and its critical damage bonus by 30%." />
+        <Icon Value="abl_sijc_assh_whirling_edge" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.twin_surge">
+        <Label Value="Twin Surge" />
+        <Description Value="Shock and Ball Lightning have a 50% chance to attack the target twice, with the second attack dealing half damage. This second attack cannot trigger Surging Charge." />
+        <Icon Value="thundering_blast" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.crackling_blasts">
+        <Label Value="Crackling Blasts" />
+        <Description Value="Increases the critical strike damage dealt by Surging Charge's Discharge effect and Ball Lightning by 30%." />
+        <Icon Value="debuff_moving" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.sith_executioner">
+        <Label Value="Sith Executioner" />
+        <Description Value="Increases all damage dealt to targets below 30% of max health by 5%. Additionally, reduces the Force consumed by Assassinate by 10." />
+        <Icon Value="disorientingblow" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.deception.dark_embrace">
+        <Label Value="Dark Embrace" />
+        <Description Value="While in stealth mode and for 6 seconds after leaving stealth mode, Force regeneration is increased by 50%." />
+        <Icon Value="rattatakiacolyte" />
+        <LevelAquired Value="20" />
+      </Talent>
+    </DisciplineTree>
+    <UtilityTree Name="utility">
+      <Ability Name="abl.sith_inquisitor.skill.utility.electric_bindings">
+        <Label Value="Electric Bindings" />
+        <Description Value="Overload binds its targets in electricity, immobilizing them for 5 seconds. Direct damage dealt after 2 seconds ends the effect prematurely." />
+        <Icon Value="staticcling" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3410225507860480" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.obfuscation">
+        <Label Value="Obfuscation" />
+        <Description Value="Increases your movement speed by 15% and your effective stealth level by 5." />
+        <Icon Value="stealth" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3410234097795072" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="4" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.utility.emersion">
+        <Label Value="Emersion" />
+        <Description Value="Force Speed grants Emersion, removing all movement-impairing effects and granting immunity to them for the duration." />
+        <Icon Value="fade" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="1" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3424175561637888" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="12" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.utility.oppressing_force">
+        <Label Value="Oppressing Force" />
+        <Description Value="Lowers the cooldown of Electrocute by 10 seconds. In addition, your Whirlwind affects up to 2 additional standard or weak enemies within 8 meters of the target." />
+        <Icon Value="carbonize" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="2" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.nerve_wracking">
+        <Label Value="Nerve Wracking" />
+        <Description Value="Targets controlled by your Spike or Electrocute take 5% more damage from all sources." />
+        <Icon Value="opportunisticstrike" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="11" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.lambaste">
+        <Label Value="Lambaste" />
+        <Description Value="Increases the damage dealt by Lacerate by 25%." />
+        <Icon Value="whirlingassault" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.insulation">
+        <Label Value="Insulation" />
+        <Description Value="Increases your armor rating by 30% while Lightning Charge or Surging Charge is active. In addition, targets you Guard gain Insulation when they take damage, increasing their damage reduction by 1%. This effect stacks up to 3 times, cannot occur more than once per second, and lasts up to 10 seconds if you keep Guard on the target." />
+        <Icon Value="robeupgrade3" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="6" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.fade">
+        <Label Value="Fade" />
+        <Description Value="Reduces the cooldown of Blackout by 15 seconds and Force Cloak by 30 seconds." />
+        <Icon Value="force" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="10" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.avoidance">
+        <Label Value="Avoidance" />
+        <Description Value="Reduces the cooldown of Jolt by 2 seconds, Unbreakable Will by 30 seconds, and Force Speed by 5 seconds." />
+        <Icon Value="siupstartslave" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="1" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.magnetism">
+        <Label Value="Magnetism" />
+        <Description Value="When a target recovers from being stunned by your Spike or Electrocute, its movement speed is slowed by 90% for the following 3 seconds." />
+        <Icon Value="forceslam" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="15" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.hand_of_darkness">
+        <Label Value="Hand of Darkness" />
+        <Description Value="Force Pull immobilizes its target for 3 seconds, Leeching Strike immobilizes its target for 2 seconds, and Low Slash immobilizes its target for 1 second after the incapacitating effect wears off." />
+        <Icon Value="abl_si_as_hand_darkness" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="19" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.disjunction">
+        <Label Value="Disjunction" />
+        <Description Value="Increases the durations of Force Shroud by 2 seconds and Force Speed by 0.5 seconds." />
+        <Icon Value="carbonitegrenade" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="8" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.gait_manipulation">
+        <Label Value="Gait Manipulation" />
+        <Description Value="Force Cloak increases your movement speed by 50% while it is active, and Force Slow reduces the movement speed of its target by an additional 20%." />
+        <Icon Value="abl_sijc_assh_gaitmanip_motioncontrol" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="21" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.sapped_mind">
+        <Label Value="Sapped Mind" />
+        <Description Value="When damage breaks your Mind Trap prematurely, the target will suffer from a Sapped Mind, reducing the damage they deal by 25% for 10 seconds." />
+        <Icon Value="abl_sijc_assh_sapped_mind" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="13" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.dark_stability">
+        <Label Value="Dark Stability" />
+        <Description Value="While Deflection is active, you are immune to stun, sleep, lift, and incapacitating effects." />
+        <Icon Value="abl_si_as_dark_stability" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.assassins_shelter">
+        <Label Value="Assassin's Shelter" />
+        <Description Value="Increases all healing received by 3%. In addition, deploying Phase Walk also deploys Assassin's Shelter, increasing the healing done by those within 5 meters of the Phase Walk by 5%." />
+        <Icon Value="phasewalkheal" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.haunted_dreams">
+        <Label Value="Haunted Dreams" />
+        <Description Value="If your Whirlwind breaks early from damage, the target is stunned for 2 seconds. In addition, Whirlwind activates instantly." />
+        <Icon Value="nightmare" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="17" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.static_cling">
+        <Label Value="Static Cling" />
+        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds each." />
+        <Icon Value="movementslowed" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="9" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.shroud_of_madness">
+        <Label Value="Shroud of Madness" />
+        <Description Value="Activating Force Cloak grants 2 seconds of Force Shroud." />
+        <Icon Value="abl_si_as_shroud_madness" />
+        <UtilityLevel Value="Heroic" />
+        <UtilityPos Value="20" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.shapeless_spirit">
+        <Label Value="Shapeless Spirit" />
+        <Description Value="Reduces all damage taken while stunned by 30%." />
+        <Icon Value="spiritarmor" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="3" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.utility.audacity">
+        <Label Value="Audacity" />
+        <Description Value="Reduces the cooldown of Overload by 2.5 seconds and Recklessness grants 1 additional charge when activated." />
+        <Icon Value="abl_si_as_audacity" />
+        <UtilityLevel Value="Masterful" />
+        <UtilityPos Value="14" />
+      </Talent>
+    </UtilityTree>
+    <DisciplineTree Name="hatred">
+      <Label Value="Hatred" />
+      <Ability Name="abl.sith_inquisitor.skill.hatred.leeching_strike">
+        <Label Value="Leeching Strike" />
+        <Description Value="Saps the life away from an enemy, dealing &lt;&lt;1&gt;&gt; weapon damage to the target and healing you for 50% of the damage dealt. Requires a double-bladed lightsaber or electrostaff." />
+        <Icon Value="abl_si_as_leeching_strike" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="12" />
+        <Range Value="0" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="3410053709168640" />
+        <ForceCost Value="25" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.86" />
+            <StandardHealthPercentMax Value="0.186" />
+            <StandardHealthPercentMin Value="0.186" />
+            <AmmountModifier Value="0.24" />
+            <LifeStealModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.creeping_terror">
+        <Label Value="Creeping Terror" />
+        <Description Value="Paralyzes the target in fear, dealing &lt;&lt;2&gt;&gt; internal damage over &lt;&lt;3&gt;&gt; seconds and immobilizing it for &lt;&lt;1&gt;&gt; seconds. The immobilizing effect cannot occur more than once every &lt;&lt;4&gt;&gt; seconds." />
+        <Icon Value="creepingTerror" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="808424514256896" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.36" />
+            <StandardHealthPercentMax Value="0.036" />
+            <StandardHealthPercentMin Value="0.036" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.hatred.bloodletting">
+        <Label Value="Bloodletting" />
+        <Description Value="Your damaging periodic effects have a 30% chance to trigger Bloodletting, which finishes the cooldown of Assassinate and makes your next Assassinate usable on a target with any health level. This effect cannot occur more than once every 15 seconds." />
+        <Icon Value="blood_soaked_skull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3430828465979392" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.hatred.raze">
+        <Label Value="Raze" />
+        <Description Value="Melee attacks that strike a target affected by your Lightning Charge's Discharge effect finish the cooldown on Crushing Darkness and Demolish and make your next Crushing Darkness or Demolish activate instantly and consume no Force. This effect cannot occur more than once every 9 seconds." />
+        <Icon Value="rupture" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="20" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3420361630679040" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.demolish">
+        <Label Value="Demolish" />
+        <Description Value="Crushes the target with devastating force, dealing &lt;&lt;1&gt;&gt; kinetic damage initially, plus an additional &lt;&lt;2&gt;&gt; kinetic damage over &lt;&lt;3&gt;&gt; seconds. The target also becomes Vulnerable for &lt;&lt;4&gt;&gt; seconds, increasing the damage taken from Force attacks by 5%.  Shares a cooldown with Crushing Darkness." />
+        <Icon Value="abl_si_as_demolish" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ActivationTime Value="2" />
+        <CombatLogID Value="3400617666019328" />
+        <ForceCost Value="30" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.295" />
+            <StandardHealthPercentMax Value="0.149" />
+            <StandardHealthPercentMin Value="0.1109" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.35" />
+            <StandardHealthPercentMax Value="0.035" />
+            <StandardHealthPercentMin Value="0.035" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.death_field">
+        <Label Value="Death Field" />
+        <Description Value="Creates a death field at the target location, dealing &lt;&lt;1&gt;&gt; internal damage and stealing life from affected targets to heal you for 10% of the damage dealt. Strikes up to 8 targets within an 8-meter radius." />
+        <Icon Value="deathfield" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="808433104191488" />
+        <ForceCost Value="50" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.81" />
+            <StandardHealthPercentMax Value="0.201" />
+            <StandardHealthPercentMin Value="0.161" />
+            <LifeStealModifier Value="0.1" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.hatred.fulguration">
+        <Label Value="Fulguration" />
+        <Description Value="Creeping Terror now deals 10% additional damage, and when your Lightning Charge deals damage, it restores 5 Force." />
+        <Icon Value="crushed" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="32" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3410186853154816" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.madness.deathmark">
+        <Label Value="Deathmark" />
+        <Description Value="Death Field places a deathmark on affected targets, increasing the amount of damage the targets suffer from your next 15 periodic damaging abilities by 10%. Lasts &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="alienskull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="808428809224192" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.nefarious_methods">
+        <Label Value="Nefarious Methods" />
+        <Description Value="Reduces the damage taken from all periodic effects by 15%. In addition, Mass Mind Control increases your damage reduction by 30% for 6 seconds." />
+        <Icon Value="lightningstorm" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.imbibe">
+        <Label Value="Imbibe" />
+        <Description Value="Increases the life stolen by Death Field and Leeching Strike by 100% and causes Creeping Terror and Lightning Charge's Discharge effect to steal life from enemy targets, healing you for 25% of the damage they deal." />
+        <Icon Value="venomsackrecolor" />
+        <LevelAquired Value="52" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.madness.force_horrors">
+        <Label Value="Force Horrors" />
+        <Description Value="Increases all periodic damage dealt by 10%." />
+        <Icon Value="forcehorrors" />
+        <LevelAquired Value="40" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.dreadful_nightmares">
+        <Label Value="Dreadful Nightmares" />
+        <Description Value="Increases the damage dealt by Leeching Strike, Crushing Darkness, and Demolish by 20%." />
+        <Icon Value="dark_embrace" />
+        <LevelAquired Value="56" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.crackling_charge">
+        <Label Value="Crackling Charge" />
+        <Description Value="Increases the damage dealt by Lightning Charge's Discharge effect by 20%." />
+        <Icon Value="shocked" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.fanatacism">
+        <Label Value="Fanaticism" />
+        <Description Value="Reduces the Force consumed by Death Field by 20." />
+        <Icon Value="frenzy" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.profuse_horror">
+        <Label Value="Profuse Horror" />
+        <Description Value="Death Field spreads your periodic Discharge and Creeping Terror effects to the targets it damages, as long as it damages targets already affected by your Discharge and Creeping Terror. In addition, Death Field overwhelms its targets for 45 seconds. Overwhelmed targets take 10% more damage from area attacks." />
+        <Icon Value="abl_si_as_profuse_horror" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.inevitable_demise">
+        <Label Value="Inevitable Demise" />
+        <Description Value="Death Field, Demolish, and your periodic damage abilities deal 15% more damage on targets under 30% health." />
+        <Icon Value="forcecrush" />
+        <LevelAquired Value="59" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.hatred.claws_of_decay">
+        <Label Value="Claws of Decay" />
+        <Description Value="Increases the critical strike damage dealt by Thrash, Assassinate, and Leeching Strike by 30% and reduces the Force Cost of Assassinate by 3." />
+        <Icon Value="animalinsectclaw" />
+        <LevelAquired Value="44" />
+      </Talent>
+    </DisciplineTree>
+    <DisciplineTree Name="darkness">
+      <Label Value="Darkness" />
+      <Ability Name="abl.sith_inquisitor.skill.darkness.energize">
+        <Label Value="Energize" />
+        <Description Value="While Dark Charge is active, damage dealt by Thrash, Maul, Lacerate, and Assassinate has a 30% chance to finish the cooldown on Shock and make your next Shock a critical hit. Energized Shocks that consume a charge of Recklessness deal an additional 50% critical damage." />
+        <Icon Value="backlash" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="36" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3428663802462208" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.harnessed_darkness">
+        <Label Value="Harnessed Darkness" />
+        <Description Value="Shock and Wither grant Harnessed Darkness, which makes the next Force Lightning or Depredating Volts used uninterruptible and immune to pushback. In addition, each stack increases the damage dealt by your next Force Lightning or Depredating Volts by 25%. Stacks up to 3 times. At 3 stacks, each tick of Force Lightning or Depredating Volts grants Dark Protection, which increases damage reduction by 1%. Dark Protection stacks up to 4 times and lasts &lt;&lt;2&gt;&gt; seconds." />
+        <Icon Value="cloakofpain" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="44" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="2312741104648192" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.wither">
+        <Label Value="Wither" />
+        <Description Value="Causes up to 8 targets to wither under the weight of the Force, dealing &lt;&lt;1&gt;&gt; kinetic damage, slowing the movement speed of all affected targets by 30% for &lt;&lt;3&gt;&gt; seconds, and weakening all affected targets for &lt;&lt;2&gt;&gt; seconds. Weakened targets deal 5% less melee and ranged damage. Does not damage sleeping, lifted, or incapacitated enemies. This ability generates a high amount of threat." />
+        <Icon Value="crushingdarkness" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="26" />
+        <OnGCD Value="True" />
+        <Cooldown Value="10" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="975687720632320" />
+        <ForceCost Value="20" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.54" />
+            <StandardHealthPercentMax Value="0.174" />
+            <StandardHealthPercentMin Value="0.134" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.54" />
+            <StandardHealthPercentMax Value="0.174" />
+            <StandardHealthPercentMin Value="0.134" />
+            <ThreatModifier Value="0.5" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.shroud_of_darkness">
+        <Label Value="Shroud of Darkness" />
+        <Description Value="Increases damage reduction and Endurance by 2% and allows for Spike to be used out of stealth mode. Additionally, while Dark Charge is active, activating Recklessness will grant 30% shield absorption for &lt;&lt;1&gt;&gt; seconds." />
+        <Icon Value="abl_si_as_shroud_darkness" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="59" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="976061382787072" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.lightning_reflexes">
+        <Label Value="Lightning Reflexes" />
+        <Description Value="Whenever you successfully shield, parry or deflect an attack, you recover 2% of your total Force. This effect cannot occur more than once a second. In addition, your melee and ranged defense is increased by 4%." />
+        <Icon Value="force_charge" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="40" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="975047770505216" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.depredating_volts">
+        <Label Value="Depredating Volts" />
+        <Description Value="Deals &lt;&lt;1&gt;&gt; energy damage to the target and consumes 40 Force over the duration of the channel. Slows the movement speed of the target by 50% and stuns weak or standard enemies while channeled.  Shares a cooldown with Force Lightning." />
+        <Icon Value="abl_si_as_depredating_volts" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="57" />
+        <OnGCD Value="True" />
+        <Cooldown Value="6" />
+        <Range Value="10" />
+        <TargetArc Value="270" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="3408949902573568" />
+        <Coeffcients>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="1.17" />
+            <StandardHealthPercentMax Value="0.117" />
+            <StandardHealthPercentMin Value="0.117" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.lightning_recovery">
+        <Label Value="Lightning Recovery" />
+        <Description Value="Increases the amount of Force recovered by Lightning Reflexes by 100%. In addition, when you shield, parry, or deflect an attack, the active cooldown of Force Shroud is reduced by 1 second. This effect cannot occur more than once a second." />
+        <Icon Value="berserk" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="48" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="976117217361920" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.dark_ward">
+        <Label Value="Dark Ward" />
+        <Description Value="Surrounds you in a dark ward with 15 charges that increases your shield chance by 15% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Each time you successfully shield, Dark Ward loses 1 charge. Does not break Stealth." />
+        <Icon Value="swchildoftheempire" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="10" />
+        <OnGCD Value="False" />
+        <Cooldown Value="15" />
+        <TargetArc Value="360" />
+        <CombatLogID Value="975760735076352" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.conspirators_cloak">
+        <Label Value="Conspirator's Cloak" />
+        <Description Value="Exiting stealth instantly grants 4 stacks of Dark Protection. In addition, Thrash, Lacerate, and Assassinate grant Conspirator's Cloak, which makes your next Maul consume 50% less Force and usable when face-to-face with your target. This effect cannot occur more than once every 10 seconds." />
+        <Icon Value="stealthbackstab" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="52" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="3213455876161536" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.force_pull">
+        <Label Value="Force Pull" />
+        <Description Value="Uses the Force to draw the target in, instantly pulling it to your location and generating a high amount of threat. Does not work against targets in cover." />
+        <Icon Value="forcePull" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="41" />
+        <OnGCD Value="True" />
+        <Cooldown Value="45" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <CombatLogID Value="2453744880975872" />
+      </Ability>
+      <Ability Name="abl.sith_inquisitor.skill.darkness.premonition">
+        <Label Value="Premonition" />
+        <Description Value="Increases your stealth detection level by 2, defense by 2%, and shield absorption by 4%. In addition, when you activate Overcharge Saber while Dark Charge is active, damage reduction is increased by 25% for the duration." />
+        <Icon Value="drain_life" />
+        <Damage Value="False" />
+        <Healing Value="False" />
+        <Passive Value="True" />
+        <LevelAquired Value="56" />
+        <OnGCD Value="True" />
+        <Cooldown Value="1" />
+        <CombatLogID Value="976095742525440" />
+      </Ability>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.electrify">
+        <Label Value="Electrify" />
+        <Description Value="While Dark Charge is active, Shock deals 25% more damage and consumes 15 less Force, and Thrash and Lacerate inflict their targets with Trauma, which reduces the healing received from all sources by 20% for 6 seconds." />
+        <Icon Value="lightningstrike" />
+        <LevelAquired Value="16" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.mounting_darkness">
+        <Label Value="Mounting Darkness" />
+        <Description Value="Increases the damage dealt by Dark Charge's Discharge by 15% and Wither by 30%." />
+        <Icon Value="disturbance" />
+        <LevelAquired Value="28" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.torment">
+        <Label Value="Torment" />
+        <Description Value="While Dark Charge is active, Discharge causes its targets to become unsteady for 45 seconds. Unsteady targets have their melee and ranged accuracy reduced by 5%. In addition, Lacerate deals 15% more damage to Unsteady targets." />
+        <Icon Value="abl_si_as_torment" />
+        <LevelAquired Value="12" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.blood_of_sith">
+        <Label Value="Blood of Sith" />
+        <Description Value="Increases the rate at which your Force regenerates by 30%." />
+        <Icon Value="swsithpureblood" />
+        <LevelAquired Value="24" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.dark_bulwark">
+        <Label Value="Dark Bulwark" />
+        <Description Value="Consuming a charge of Dark Ward increases shield absorption by 1%. Stacks up to 8 times. This effect lasts for 20 seconds or until Dark Ward is reactivated." />
+        <Icon Value="handdeflect" />
+        <LevelAquired Value="32" />
+      </Talent>
+      <Talent Name="tal.sith_inquisitor.skill.darkness.swelling_shadows">
+        <Label Value="Swelling Shadows" />
+        <Description Value="Increases the armor rating Dark Charge grants by an additional 20%, and increases damage reduction by 2%." />
+        <Icon Value="forcecharge" />
+        <LevelAquired Value="20" />
+      </Talent>
+    </DisciplineTree>
+  </AdvClass>
+</Class>
