@@ -2263,7 +2263,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.crushing_blow">
         <Label Value="Crushing Blow" />
-        <Description Value="Crushes the target beneath a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Retaliation, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Aegis Assault, Crushing Blow damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
+        <Description Value="Crushes the target beneath a powerful blow, dealing &lt;&lt;1&gt;&gt; weapon damage, enabling your Retaliation while in Soresu Form, and impairing the target for &lt;&lt;2[%d seconds/%d second/%d seconds]&gt;&gt;. Impaired targets deal 5% less damage with Force and tech attacks. If you are protected by your Aegis Assault, Crushing Blow damages up to 7 additional nearby enemies for the same amount. Does not damage sleeping, lifted, or incapacitated enemies. This attack knocks down all affected standard and weak enemies. Generates a high amount of threat." />
         <Icon Value="crushingblow" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2347,7 +2347,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.lash_out">
         <Label Value="Lash Out" />
-        <Description Value="While Soresu Form is active, Retaliation consumes no rage and its critical chance is increased by 40%. In addition, the cooldown of Retaliation is reduced by 1 second while Saber Ward is active." />
+        <Description Value="While Soresu Form is active, Retaliation consumes no rage and its critical chance is increased by 40%. In addition, the cooldown of Retaliation is reduced by 3 seconds while Saber Ward is active." />
         <Icon Value="vicious_slash" />
         <LevelAquired Value="20" />
       </Talent>

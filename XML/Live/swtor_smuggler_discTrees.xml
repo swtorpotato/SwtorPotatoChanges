@@ -2893,7 +2893,7 @@
       </Ability>
       <Talent Name="tal.smuggler.skill.dirty_fighting.cheap_shots">
         <Label Value="Cheap Shots" />
-        <Description Value="Increases the damage dealt by Charged Burst, Dirty Bast, Speed Shot and Wounding Shots by 5%. Additionally, when Shrap Bomb and Vital Shots end they are replaced by a lingering version for 5 seconds that will only deal damage when Wounding Shots deals damage." />
+        <Description Value="Increases the damage dealt by Charged Burst, Dirty Blast, Speed Shot and Wounding Shots by 5%. Additionally, when Shrap Bomb and Vital Shots end they are replaced by a lingering version for 5 seconds that will only deal damage when Wounding Shots deals damage." />
         <Icon Value="hammershot" />
         <LevelAquired Value="36" />
       </Talent>

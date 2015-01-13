@@ -269,6 +269,15 @@
       <Item Name="Emote: Kloo" Description="Use this item to learn the /Kloo emote." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="120493116441029216">
+    <Name Value="Advanced White-Blue-Purple Indestructible Crystal" />
+    <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_white_blue_purple" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced White-Blue-Purple Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="124974606126831148">
     <Name Value="Pitiless Raider Lightsaber" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -451,6 +460,15 @@
     <Golden-description Value="Additional copies of this item are only available from the Reputation vendor." ID="0" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="238369333896382134">
+    <Name Value="Betrayer's Starforged Dualsaber" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="dualsaber.high34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Betrayer's Starforged Dualsaber" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="242170197024197410">
@@ -873,8 +891,8 @@
     <Golden-description Value="Increases movement speed based on Piloting Skill." ID="2" />
     <Golden-description Value="This item is exclusive to the Cartel Market." ID="3" />
     <Items>
-      <Item Name="Walkhar Trickster" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
       <Item Name="Improved Speeder Piloting I" Description="Immediately grants the player Speeder Piloting I. This will unlock the matching Legacy Character Perk." Rarity="itmMTXRarityNormal" />
+      <Item Name="Walkhar Trickster" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="454507917563885185">
@@ -889,6 +907,20 @@
     <Image Value="generic_unlock" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="457249974369167158">
+    <Name Value="Shae Vizla's Armor Set" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="Mtx.Season6.Shae_Vizla" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Shae Vizla's Chestguard" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Shae Vizla's Boots" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Shae Vizla's Gloves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Shae Vizla's Helmet" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Shae Vizla's Greaves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Shae Vizla's Belt" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="459622401308616268">
@@ -971,6 +1003,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="539918906848864156">
+    <Name Value="Betrayer's Starforged Dualsaber" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="543810384054469457">
     <Name Value="Party Jawa" />
@@ -1503,6 +1539,10 @@
     <Items>
       <Item Name="Tobus Prowler" Description="Unlocks the Tobus Prowler mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="924528238126787540">
+    <Name Value="Advanced White-Blue-Purple War Hero's Crystal" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="928859776228415749">
     <Name Value="Emote: Point and Laugh" />
@@ -2184,6 +2224,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="1423621437200512387">
+    <Name Value="YV-24 Starforged Blaster Rifle" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="1446391816980033931">
     <Name Value="Rename: Legacy Name" />
     <Description Value="Allows you to rename your Legacy on this server." />
@@ -2272,6 +2316,15 @@
     <Image Value="generic_unlock" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="1537557440522953210">
+    <Name Value="Qyzen Fess Customization 6" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_companion_qyzen_custom_v06" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Qyzen Customization 5" Description="Jedi Consular Companion." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="1540462032230446500">
@@ -2482,6 +2535,21 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="1677818092685923110">
+    <Name Value="Blade Savant Armor Set" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.season6.blade_savant" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Blade Savant Chestguard" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Boots" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Gloves" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Headgear" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Greaves" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Belt" Rarity="itmMTXRarityRare" />
+      <Item Name="Blade Savant Wristguards" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
   <collection ID="1678001809690118210">
     <Name Value="Hoth Wampa Cub" />
     <Image Value="generic_unlock" />
@@ -2633,6 +2701,14 @@
     <Image Value="generic_unlock" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="1809818640578465286">
+    <Name Value="Emote: No Bones Dance" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_emotes_no_bones" />
+    <Items>
+      <Item Name="Emote: No Bones" Description="Use this item to learn the /Nobones dance emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="1823249018178119380">
@@ -2992,6 +3068,15 @@
     <Golden-description Value="Additional copies of this item are only available from the Embargoed Items vendor." ID="3" />
     <Items>
       <Item Name="CZ-18X Avalanche Chestplate" Rarity="itmMTXRarityNormal" />
+    </Items>
+  </collection>
+  <collection ID="2029026325815989232">
+    <Name Value="Vector Hyllus Customization 9" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_companion_vector_custom_v09" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Vector Customization 9" Description="Imperial Agent Companion." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="2041350778713770254">
@@ -3422,6 +3507,7 @@
     <Image Value="mtx_crystal_black_core_pink_outline" />
     <Golden-description Value="Found in the Initiate's Shadow Pack." ID="0" />
     <Golden-description Value="Found in the Pilgrim's Shadow Pack." ID="1" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="2" />
     <Items>
       <Item Name="Advanced Black-Pink Eviscerating Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -3429,6 +3515,16 @@
   <collection ID="2356050181691830951">
     <Name Value="DS-8 Starforged Sniper Rifle" />
     <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="2373128206883557075">
+    <Name Value="Appearance Option: Double Braids" />
+    <Description Value="Adds a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
+    <Image Value="mtx_appearance_double_braids" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
+    <Items>
+      <Item Name="Appearance Options: Double Braids" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." />
+    </Items>
   </collection>
   <collection ID="2374368765709680371">
     <Name Value="Recovered Hero's Armor Set" />
@@ -3523,6 +3619,10 @@
   </collection>
   <collection ID="2414366261678417914">
     <Name Value="Tobus Prowler" />
+    <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="2432044162004500566">
+    <Name Value="Appearance Option: Dreadlocks" />
     <Image Value="generic_unlock" />
   </collection>
   <collection ID="2442791370262202192">
@@ -4568,6 +4668,15 @@
       <Item Name="Marshland Ambusher's Wristguards" Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="3233449056028804968">
+    <Name Value="Model GSS-47 Jurgoran" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="veh.mini.imp.gunship.a" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Model GSS-47 Jurgoran" Description="Right-click this item to add Model GSS-47 Jurgoran to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
   <collection ID="3245285467053227060">
     <Name Value="Trailblazer's Armor Set" />
     <Image Value="generic_unlock" />
@@ -5537,6 +5646,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="3873048851005885268">
+    <Name Value="Qyzen Fess Customization 6" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="3876543065417081415">
     <Name Value="Nimble Brawler's Armor Set" />
     <Image Value="generic_unlock" />
@@ -5702,6 +5815,10 @@
     <Items>
       <Item Name="Antique Socorro Saberstaff Cresh" Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="3972804070870645716">
+    <Name Value="Appearance Option: Vibrant Green Eyes" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="3973347149471238126">
     <Name Value="Emote: Beach Party" />
@@ -5985,6 +6102,7 @@
     <Image Value="mtx_crystal_black_core_pink_outline" />
     <Golden-description Value="Found in the Initiate's Shadow Pack." ID="0" />
     <Golden-description Value="Found in the Pilgrim's Shadow Pack." ID="1" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="2" />
     <Items>
       <Item Name="Advanced Black-Pink War Hero's Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -6088,6 +6206,15 @@
       <Item Name="Amended Mystic's Lower Robes" />
       <Item Name="Amended Mystic's Belt" />
       <Item Name="Amended Mystic's Wristwraps" />
+    </Items>
+  </collection>
+  <collection ID="4158849394425910595">
+    <Name Value="RK-5 Starforged Blaster" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="blaster.high34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="RK-5 Starforged Blaster" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="4159779396524363789">
@@ -6374,6 +6501,15 @@
       <Item Name="Regal Apparel Cuffs" Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="4378078146844607486">
+    <Name Value="Title: Shadow's Acolyte" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="titles_sticker" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Title: Shadow's Acolyte" Description="Grants your character the title &quot;Shadow's Acolyte&quot;." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="4389193297750096344">
     <Name Value="Dire Warmaster's Body Armor" />
     <Description Value="The Dire Warmaster's Body Armor is an adaptive Chestpiece, containing removeable modifications specific to Melee damage dealers." />
@@ -6481,6 +6617,10 @@
     <Items>
       <Item Name="Appearance Options: Chiss Customizations 1" Description="Unlocks new options for Chiss characters, available at Character Creation or via the Appearance Designer.  Includes 2 new skin colors and 2 new hair colors." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="4495768852262768196">
+    <Name Value="Shae Vizla's Armor Set" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="4500948090993009418">
     <Name Value="Room Expansion: Coruscant Skyrise Apartment" />
@@ -6783,6 +6923,15 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="4622622895688856242">
+    <Name Value="One Man Band" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_toy_one_man_band" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="One Man Band" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="4625911186984337564">
     <Name Value="Black Efficiency Scanner" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -6861,6 +7010,16 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="4657122926633905721">
+    <Name Value="Appearance Option: Dreadlocks" />
+    <Description Value="Adds a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
+    <Image Value="mtx_appearance_dreadlocks" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
+    <Items>
+      <Item Name="Appearance Options: Dreadlocks" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="4675405505992936628">
     <Name Value="Gurian Rose" />
     <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
@@ -6922,6 +7081,7 @@
     <Image Value="mtx_crystal_black_core_pink_outline" />
     <Golden-description Value="Found in the Initiate's Shadow Pack." ID="0" />
     <Golden-description Value="Found in the Pilgrim's Shadow Pack." ID="1" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="2" />
     <Items>
       <Item Name="Advanced Black-Pink Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -7618,8 +7778,16 @@
       <Item Name="Advanced Silver-Blue War Hero's Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="5185541079005991209">
+    <Name Value="RH-33 Starforged Assault Cannon" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="5189032422739934253">
     <Name Value="Title: Shadow Collector" />
+    <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="5198173499941845913">
+    <Name Value="Advanced White-Blue-Purple Eviscerating Crystal" />
     <Image Value="generic_unlock" />
   </collection>
   <collection ID="5199875836201716515">
@@ -8164,6 +8332,10 @@
   <collection ID="5512232968751508060">
     <Name Value="Room Expansion: Kaas City Skyrise Apartment" />
   </collection>
+  <collection ID="5513933294382682266">
+    <Name Value="Emote: Punt" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="5515096859012875736">
     <Name Value="Ikas Spear" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -8670,6 +8842,15 @@
     <Golden-description Value="Found in the Tracker's Bounty Pack" ID="0" />
     <Items>
       <Item Name="Morlinger Nighthawk" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="5872432508419735760">
+    <Name Value="Glacial Icetromper" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_mount_glacial_icetromper" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Glacial Ice Tromper" Description="Unlocks the Glacial Ice Tromper creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The Glacial Ice Tromper is a mammalian herbivore that could be found on Hoth. Easily domesticated, ice trompers can be trained by creature handlers as riding animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="5877829035308519572">
@@ -9246,6 +9427,16 @@
       <Item Name="The First Line of Defense" Description="Reward for achieving level 10 on Star Wars: The Old Republic Public Test." />
     </Items>
   </collection>
+  <collection ID="6255156212372813375">
+    <Name Value="Appearance Option: Bright Yellow Eyes" />
+    <Description Value="Adds a new eye color for Human characters." />
+    <Image Value="mtx_appearance_bright_yellow_eyes" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
+    <Items>
+      <Item Name="Appearance Options: Bright Yellow Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="6265328653265119993">
     <Name Value="Advanced Orange-Red Indestructible Crystal" />
     <Image Value="generic_unlock" />
@@ -9281,6 +9472,7 @@
     <Image Value="titles_sticker" />
     <Golden-description Value="Found in the Initiate's Shadow Pack." ID="0" />
     <Golden-description Value="Found in the Pilgrim's Shadow Pack." ID="1" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="2" />
     <Items>
       <Item Name="Title: Shadow Collector" Description="Grants your character the title &quot;Shadow Collector&quot;." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -9478,8 +9670,8 @@
     <Golden-description Value="Initial purchase includes the Legacy Perk: Speeder Piloting I.  This Legacy Perk is not included when retrieving this item from Collections." ID="2" />
     <Golden-description Value="Increases movement speed based on Piloting Skill." ID="3" />
     <Items>
-      <Item Name="Vectron J0-1Y" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  This Speeder provides exceptional protection against being knocked off.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
       <Item Name="Improved Speeder Piloting I" Description="Immediately grants the player Speeder Piloting I. This will unlock the matching Legacy Character Perk." Rarity="itmMTXRarityNormal" />
+      <Item Name="Vectron J0-1Y" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  This Speeder provides exceptional protection against being knocked off.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="6492354505812532390">
@@ -9648,6 +9840,15 @@
     <Golden-description Value="Found in the Dogfighter Starfighter Pack" ID="1" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="6620811587624722478">
+    <Name Value="Emote: Worthy" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_emote_worthy" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Emote: Worthy" Description="Use this item to learn the /worthy emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="6624962402493043885">
@@ -10114,6 +10315,10 @@
       <Item Name="Model ML-39 Brute Patrol Ship" Description="Right-click this item to add Model ML-39 Brute Patrol Ship to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="6919042224398932619">
+    <Name Value="Lord Scourge Customization 9" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="6923711301865126980">
     <Name Value="Authorization: Artifact Equipment (Account)" />
     <Description Value="This Authorization allows you to equip and use most Artifact quality gear and item modifications." />
@@ -10392,6 +10597,10 @@
       <Item Name="IL-5 Ocula" Description="This prototype Imperial Scout comes with all the functionality of a S-13 Sting." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="7168804943842103282">
+    <Name Value="Advanced White-Blue-Purple Indestructible Crystal" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="7178527986095634111">
     <Name Value="Vice Commandant's Contraband Pack" />
     <Description Value="An assemblage of exquisite items from the Contraband Shipment. Each pack contains rare items found nowhere else!" />
@@ -10616,6 +10825,21 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="7238429601030223725">
+    <Name Value="Nomad Armor Set" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="Mtx.Season6.Nomad" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Nomad Breastplate" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Boots" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Gloves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Helmet" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Greaves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Belt" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Nomad Bracers" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="7255812492113441046">
     <Name Value="Frogdog Huttball Home Uniform" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -10819,6 +11043,15 @@
       <Item Name="Clandestine Officer Gloves" Rarity="itmMTXRarityRare" />
       <Item Name="Clandestine Officer Pants" Rarity="itmMTXRarityRare" />
       <Item Name="Clandestine Officer Bracers" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="7383778692954832369">
+    <Name Value="Savanna Vorantikus" />
+    <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_mount_vorantikus_savanna" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Savanna Vorantikus" Description="Unlocks the Savanna Vorantikus creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The Savanna Vorantikus is a large bipedal non-sentient species native to the planet Voss. An expert creature handler can domesticate Vorantikus as riding animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="7388065176926679824">
@@ -11240,6 +11473,15 @@
       <Item Name="WL-29 Blaster Rifle" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="7627856371843521359">
+    <Name Value="Sabertooth Skarkla" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.pet.skarkla.sabertooth" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Sabertooth Skarkla" Description="Right-click this item to add the Sabertooth Skarkla to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
   <collection ID="7628498991498818296">
     <Name Value="Recreational Isotope-5 Droid" />
     <Image Value="generic_unlock" />
@@ -11482,6 +11724,15 @@
       <Item Name="Appearance Options: Alien Options 1" Description="Unlocks 4 new hair style options for Chiss, Cyborg, Mirialan, and Miralukan characters. Includes 2 female hair styles, 1 male hair style, and 1 unisex hair style.  Also includes 6 new hair colors and 1 new eye color option for Cyborg characters.  These options are available at the Appearance Designer or during Character Creation.  &#xA;&#xA;These options were previously available only to Human characters.&#xA;" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="7826400019986489531">
+    <Name Value="Advanced White-Blue-Purple Eviscerating Crystal" />
+    <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_white_blue_purple" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced White-Blue-Purple Eviscerating Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="7828491774923974560">
     <Name Value="Advanced Yellow Blue Indestructible Crystal" />
     <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
@@ -11589,6 +11840,15 @@
     <Golden-description Value="Found in the Seneschal's Stronghold pack." ID="0" />
     <Items>
       <Item Name="Advanced Sea Green Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="7903017735839703082">
+    <Name Value="Emote: Angry Dance" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_emote_angry_dance" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Emote: Angry Dance" Description="Use this item to learn the /angrydance emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="7907501617381588946">
@@ -11755,6 +12015,10 @@
       <Item Name="Republic's Black Red Gas Canister" Description="This Gas Canister can be used to change the color of your Galactic Starfighter ship's blasters bolts." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="8023939041557050685">
+    <Name Value="Czerka Enforcer" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="8041158742019752381">
     <Name Value="Nefarious Bandit's Armor Set" />
     <Image Value="generic_unlock" />
@@ -11835,6 +12099,10 @@
     <Items>
       <Item Name="Advanced Orange-Red Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="8083628279490505022">
+    <Name Value="Vector Hyllus Customization 9" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="8104249998732038582">
     <Name Value="Room Expansion: Nar Shaddaa Sky Palace" />
@@ -12029,6 +12297,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="8270997846867291020">
+    <Name Value="Emote: Angry Dance" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="8274154284736684550">
     <Name Value="Advanced Blue Core Eviscerating Crystal" />
@@ -13167,6 +13439,10 @@
   <collection ID="9127706654170794681">
     <Name Value="Room Expansion: Kaas City Skyrise Apartment" />
   </collection>
+  <collection ID="9130558502585993328">
+    <Name Value="Blade Savant Armor Set" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="9135279224915019838">
     <Name Value="Legacy Perk: Improved Warzone Experience IV" />
     <Image Value="legacy_upsell" />
@@ -13447,6 +13723,10 @@
       <Item Name="Dye Module Kit" Description="A kit containing two random Dye Modules." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-9123255872337191580">
+    <Name Value="One Man Band" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-9110426376723709459">
     <Name Value="Infernal Thranta Mask" />
     <Description Value="Scare your friends with the Infernal Thranta Mask." />
@@ -13624,6 +13904,15 @@
       <Item Name="Rectified Brawler's Greaves" />
       <Item Name="Rectified Brawler's Belt" />
       <Item Name="Rectified Brawler's Wristguards" />
+    </Items>
+  </collection>
+  <collection ID="-8971738003996224578">
+    <Name Value="Razalon FC-3" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="razalon.fc.3" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Razalon FC-3" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="-8966625585564480066">
@@ -13840,6 +14129,15 @@
     <Golden-description Value="Found in the Dogfighter Starfighter Pack" ID="1" />
     <Items>
       <Item Name="Model Blue Hutt Barge" Description="Right-click this item to add Model Blue Hutt Barge to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-8764102716353736940">
+    <Name Value="Talon Cutter" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.cutter.talon" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Talon Cutter" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-8742332983285894425">
@@ -14301,6 +14599,19 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-8447620269345884273">
+    <Name Value="Title: Shadow's Master" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="titles_sticker" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Title: Shadow's Master" Description="Grants your character the title &quot;Shadow's Master&quot;." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-8445858363947958444">
+    <Name Value="Razalon FC-3" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-8442152873026087709">
     <Name Value="Stronghold Defender's Assault Cannon" />
     <Image Value="generic_unlock" />
@@ -14399,6 +14710,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-8377983020631771392">
+    <Name Value="Formal Militant Armor Set" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-8372780177233912132">
     <Name Value="Legacy Unlock: Galactic Market Kiosk" />
     <Image Value="legacy_upsell" />
@@ -14421,7 +14736,7 @@
     <Image Value="mtx.mount.armored.uxibeast" />
     <Golden-description Value="Additional copies of this item are only available from the Reputation vendor." ID="0" />
     <Items>
-      <Item Name="Armored Uxibeast" Description="Unlocks the Armored Uxibeast creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The Armored Uxibeast is a mammalian herbivore that could be found on Tython. Though difficult to domesticate, their size and strength makes them valuable pack animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
+      <Item Name="Armored Uxibeast" Description="Unlocks the Armored Uxibeast creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The ArmoredUxibeast is a mammalian herbivore that could be found on Tython. Though difficult to domesticate, their size and strength makes them valuable pack animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
     </Items>
   </collection>
   <collection ID="-8353792977189877310">
@@ -14897,6 +15212,15 @@
       <Item Name="Art: Hoth Starship Graveyard " Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-8015176375603752214">
+    <Name Value="DS-9 Starforged Sniper Rifle" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="rifle.sniperhigh34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="DS-9 Starforged Sniper Rifle" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-8013429810856635478">
     <Name Value="Kaliyo Djannis Customization 9" />
     <Description Value="Purchased from the Contraband Resale Corporation Reputation vendor." />
@@ -15188,6 +15512,21 @@
     <Name Value="Advanced Pink Core Indestructible Crystal" />
     <Image Value="generic_unlock" />
   </collection>
+  <collection ID="-7799642151361019021">
+    <Name Value="Revanite Pursuer Armor Set" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.season6.revanite_pursuer" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Revanite Pursuer's Breastplate" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Boots" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Gloves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Helmet" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Greaves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Belt" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Revanite Pursuer's Bracers" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-7794650854166515045">
     <Name Value="Imperial Supply Locker            &#xA;" />
     <Description Value="Add some style to your Stronghold with this decoration." />
@@ -15303,6 +15642,16 @@
       <Item Name="Mood: Crying" Description="Use this item to learn the /crying Mood." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="-7711604470928379810">
+    <Name Value="Appearance Option: Vibrant Green Eyes" />
+    <Description Value="Adds a new eye color for Human characters." />
+    <Image Value="mtx_appearance_vibrant_green_eyes_customization" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
+    <Items>
+      <Item Name="Appearance Options: Vibrant Green Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-7709364419168506840">
     <Name Value="Canderous Ordo's Armor Set" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -15390,6 +15739,10 @@
     <Items>
       <Item Name="Legacy of Crafting I" Description="Increases the chance of an augmented result while crafting by 1%." />
     </Items>
+  </collection>
+  <collection ID="-7660348638901084840">
+    <Name Value="Lergo Provocateur" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-7649381336118906648">
     <Name Value="Emote: Smuggler Shuffle" />
@@ -15558,6 +15911,10 @@
       <Item Name="Nefarious Bandit's Belt" Rarity="itmMTXRarityRare" />
       <Item Name="Nefarious Bandit's Bracers" Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="-7511498379997230471">
+    <Name Value="Appearance Option: Bright Yellow Eyes" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-7510922942385598810">
     <Name Value="Advanced Hot Orange Hawkeye Crystal" />
@@ -16135,6 +16492,10 @@
   <collection ID="-7140388696158436067">
     <Name Value="Room Expansion: Tatooine Homestead" />
   </collection>
+  <collection ID="-7128875475606945904">
+    <Name Value="Emote: Worthy" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-7123954944348281082">
     <Name Value="Lhosan Nexu" />
     <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
@@ -16553,6 +16914,14 @@
       <Item Name="HK-51 (Imperial)" Description="Unlocks HK-51 as a companion for an Imperial character." />
     </Items>
   </collection>
+  <collection ID="-6892079889528294508">
+    <Name Value="Joko TZ-11" />
+    <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="-6876095762579698696">
+    <Name Value="Emote: No Bones Dance" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-6873688304315049348">
     <Name Value="Sky Cruiser" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -16586,7 +16955,7 @@
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
     <Image Value="mtx_emote_sinister" />
     <Items>
-      <Item Name="Mood: Sinister" Rarity="itmMTXRarityRare" />
+      <Item Name="Emote: Sinister" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-6846474940299464136">
@@ -17146,6 +17515,21 @@
       <Item Name="Ironclad Soldier Bracers" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-6463344838094413675">
+    <Name Value="Fearsome Harbinger Armor Set" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.season6.fearsome_harbinger" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Fearsome Harbinger Chestguard" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Boots" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Gloves" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Headgear" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Greaves" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Belt" Rarity="itmMTXRarityRare" />
+      <Item Name="Fearsome Harbinger Wristguards" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
   <collection ID="-6463242114727523321">
     <Name Value="Archon's Contraband Pack" />
     <Description Value="A gathering of precious goods from the Contraband Shipment. Each pack contains rare items found nowhere else!" />
@@ -17424,6 +17808,7 @@
     <Image Value="mtx_crystal_black_core_pink_outline" />
     <Golden-description Value="Found in the Initiate's Shadow Pack." ID="0" />
     <Golden-description Value="Found in the Pilgrim's Shadow Pack." ID="1" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="2" />
     <Items>
       <Item Name="Advanced Black-Pink Hawkeye Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -17769,6 +18154,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-5982146987367835223">
+    <Name Value="RK-5 Starforged Blaster" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-5964263177646776381">
     <Name Value="Ikas Flamethrower" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -17777,6 +18166,10 @@
     <Items>
       <Item Name="Ikas Flamethrower" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-5961589177327612675">
+    <Name Value="B-100 Cybernetic Armor Set" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-5945587018727225133">
     <Name Value="Exchange Corporate Shirt" />
@@ -18041,6 +18434,10 @@
       <Item Name="Emote: Dud" Description="Use this item to learn the /dud emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-5759453119748454937">
+    <Name Value="Nomad Armor Set" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-5751519492164896916">
     <Name Value="Advanced White Hawkeye Crystal" />
     <Image Value="generic_unlock" />
@@ -18057,6 +18454,25 @@
     <Golden-description Value="Boosts are not removed when your character is defeated." ID="2" />
     <Items>
       <Item Name="Minor Valor Boost" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-5746894995213664838">
+    <Name Value="Talon Cutter" />
+    <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="-5737659599993194726">
+    <Name Value="Formal Militant Armor Set" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="Mtx.Season6.Formal_Militant" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Formal Militant's Jacket" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Boots" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Gloves" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Hat" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Pants" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Belt" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Formal Militant's Wristguards" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-5737179984991279095">
@@ -18092,6 +18508,15 @@
     <Golden-description Value="Additional copies of this item are only available from the Reputation vendor." ID="0" />
     <Items>
       <Item Name="Stronghold Defender's Blaster Rifle" />
+    </Items>
+  </collection>
+  <collection ID="-5719069594661997661">
+    <Name Value="RH-33 Starforged Assault Cannon" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="assaultcannon.high34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="RH-33 Starforged Assault Cannon" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-5717826884165507127">
@@ -18616,9 +19041,6 @@
   <collection ID="-5295491548610864017">
     <Name Value="Kurtob Alliance" />
     <Description Value="Rewarded for participation in the Friends of Star WarsT: The Old RepublicT promotion. More information:  &lt;hl lid=&quot;BFBT&quot; &gt;Incl" />
-    <Items>
-      <Item Name="Kurtob Alliance" Description="Increase movement speed by 110%" />
-    </Items>
   </collection>
   <collection ID="-5293424506618208236">
     <Name Value="Etched Dueler's Lightsaber&#xA;" />
@@ -19246,6 +19668,14 @@
       <Item Name="Mira's Utility Belt" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-4864160426302567784">
+    <Name Value="Emote: Punt" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_emote_punt" />
+    <Items>
+      <Item Name="Emote: Punt" Description="Use this item to learn the /Punt emote." Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
   <collection ID="-4862357572229785229">
     <Name Value="Gurian Lightning" />
     <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
@@ -19816,6 +20246,15 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-4550144079937048662">
+    <Name Value="Lergo Provocateur" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.lergo.provocateur" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Lergo Provocateur" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-4542216132167967166">
     <Name Value="Aratech Lux" />
     <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
@@ -19910,6 +20349,15 @@
   <collection ID="-4474916380683174851">
     <Name Value="Revan Reborn Armor Set" />
     <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="-4464317664558359282">
+    <Name Value="Betrayer's Starforged Lightsaber" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="saber.high34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Betrayer's Starforged Lightsaber" Rarity="itmMTXRaritySuperRare" />
+    </Items>
   </collection>
   <collection ID="-4461180995797384401">
     <Name Value="Model X-70 Phantom" />
@@ -20209,6 +20657,15 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-4291878245703260859">
+    <Name Value="Advanced White-Blue-Purple Hawkeye Crystal" />
+    <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_white_blue_purple" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced White-Blue-Purple Hawkeye Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-4290188360495194576">
     <Name Value="Hotshot's Starfighter Pack" />
     <Description Value="Enjoy an ample assortment of goods provided by the Interplanetary Component Exchange.  Each pack contains rare bonus items found nowhere else!" />
@@ -20264,6 +20721,21 @@
     <Golden-description Value="Found in the Gatekeeper's Stronghold pack." ID="1" />
     <Items>
       <Item Name="Canyon Bantha" Description="Unlocks the Canyon Bantha creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The Canyon Bantha is a mammalian herbivore that could be found on Tatooine. Easily domesticated, banthas can be trained by creature handlers as riding animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-4266465540405338841">
+    <Name Value="B-100 Cybernetic Armor Set" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.armor.season6.cyborg_v13" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="B-100 Cybernetic Torso" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Feet" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Hands" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Skull" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Legs" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Support Belt" Rarity="itmMTXRaritySuperRare" />
+      <Item Name="B-100 Cybernetic Wristguards" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-4256250492350352503">
@@ -20520,6 +20992,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-4105857588726884327">
+    <Name Value="Sabertooth Skarkla" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-4100798818689528028">
     <Name Value="UNKNOWN" />
@@ -20938,6 +21414,10 @@
       <Item Name="G-X1 Firehauler" Description="This prototype Republic Bomber comes with all the functionality of a Warcarrier." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-3867238972437518697">
+    <Name Value="Savanna Vorantikus" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-3854429011096312586">
     <Name Value="Gurian Royale" />
     <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
@@ -21354,10 +21834,23 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-3462018715355640339">
+    <Name Value="Title: Shadow's Master" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-3453975251733175363">
     <Name Value="UNKNOWN" />
     <Items>
       <Item Name="Imperial's Blue Engine Reactant" Description="This Engine Reactant can be used to change the color of your Galactic Starfighter ship's engine trails. These are the default Engine Reactants for Imperial ships." Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-3447808587073155802">
+    <Name Value="Joko TZ-11" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.joko.tz11" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Joko TZ-11" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="-3435182326346998460">
@@ -21376,6 +21869,10 @@
     <Items>
       <Item Name="Mantellian Peacemaker Besh" Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="-3408438811495283530">
+    <Name Value="Model GSS-47 Jurgoran" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-3402240999604398231">
     <Name Value="Treek Customization 4" />
@@ -22050,6 +22547,15 @@
   </collection>
   <collection ID="-2924498315287309406">
     <Name Value="Flagship Expansion: Harrower-Class Imperial Dreadnaught" />
+  </collection>
+  <collection ID="-2914448516999813765">
+    <Name Value="Czerka Enforcer" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.czerka.enforcer" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Czerka Enforcer" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
+    </Items>
   </collection>
   <collection ID="-2913892497084346502">
     <Name Value="Canderous Ordo's Armor Set" />
@@ -22741,17 +23247,25 @@
   </collection>
   <collection ID="-2444723469329293807">
     <Name Value="Acolyte's Shadow Pack" />
-    <Description Value="Sample a wide range of good from the Shadow Shipment. Each pack contains rare bonus items found nowhere else!" />
+    <Description Value="Sample a wide range of goods from the Shadow Shipment. Each pack contains rare bonus items found nowhere else!" />
     <Image Value="mtx_shadow_acolyte" />
-    <Golden-description Value="Contains 1 bonus Stronghold decoration." ID="0" />
-    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="1" />
-    <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
-    <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
-    <Golden-description Value="One Freebooter's Trade Union item." ID="4" />
-    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="0" />
+    <Golden-description Value="One boost item, for either Experience or Social Points." ID="1" />
+    <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
+    <Golden-description Value="One Freebooter's Trade Union item." ID="3" />
+    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
     <Items>
       <Item Name="Acolyte's Shadow Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-2434445539137473383">
+    <Name Value="Acrid Chemlizard" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.chemilizard.acrid" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Acrid Chemilizard" Description="Unlocks the Acrid Chemilizard creature mount. Movement speed increases based on the rank of your Speeder Piloting skill.&#xA;&#xA;The Acrid Chemilizard is a reptilian carnivore native to Hutta. An expert animal trainer can domesticate Chemilizards for use as riding animals.&#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-2421333041620156982">
@@ -22810,6 +23324,10 @@
     <Items>
       <Item Name="Rising Hero Bundle" Description="This bundle contains the following items:&#xA;Authorization: Artifact Equipment&#xA;3 Major Experience Boosts&#xA;Medical Probes&#xA;Unlock: Inventory Module&#xA;Unlock: Cargo Hold Access&#xA;Unlock: Additional Cargo Bay&#xA;Unlock: Crew Skill Slot" Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="-2352692718874156897">
+    <Name Value="Advanced White-Blue-Purple Hawkeye Crystal" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-2343924407354673740">
     <Name Value="Highland Dewback" />
@@ -22875,6 +23393,10 @@
     <Items>
       <Item Name="Hypercrate: Gatekeeper's Stronghold Packs" Description="This item contains 24 Gatekeeper's Stronghold Packs" Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="-2250779300750131756">
+    <Name Value="DS-9 Starforged Sniper Rifle" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-2247733459617657122">
     <Name Value="Rotworm Huttball Away Uniform" />
@@ -23026,12 +23548,20 @@
       <Item Name="Emote: Chilly" Description="Use this item to learn the /chilly emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-2153327995199048602">
+    <Name Value="Appearance Option: Double Braids" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-2141907972365482687">
     <Name Value="Enforcer's Eyeguard" />
     <Image Value="generic_unlock" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-2113859504287891482">
+    <Name Value="Glacial Icetromper" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-2092089329303363574">
     <Name Value="Irakie Hawk" />
@@ -23148,6 +23678,15 @@
     <Golden-description Value="Found in the Archon's Contraband Pack." ID="0" />
     <Items>
       <Item Name="Green Efficiency Scanner" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-1994309794808897731">
+    <Name Value="Lord Scourge Customization 9" />
+    <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_companion_lord_scourge_customization_9" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Lord Scourge Customization 9" Description="Jedi Knight Companion." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-1990730541288632102">
@@ -23520,6 +24059,15 @@
       <Item Name="Theron Shan's Pants" Rarity="itmMTXRarityRare" />
       <Item Name="Theron Shan's Belt" Rarity="itmMTXRarityRare" />
       <Item Name="Theron Shan's Bracers" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-1788486207065424278">
+    <Name Value="Advanced White-Blue-Purple War Hero's Crystal" />
+    <Description Value="This is an ULTRA RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_white_blue_purple" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced White-Blue-Purple War Hero's Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-1776566495431618680">
@@ -24182,6 +24730,10 @@
       <Item Name="Adno Firewasp" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="-1223567541983601885">
+    <Name Value="Acrid Chemlizard" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-1223107508726402203">
     <Name Value="Revan Holostatue" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -24380,6 +24932,15 @@
     <Golden-description Value="Found in the Archon's Contraband Pack." ID="0" />
     <Items>
       <Item Name="Praxon Echo" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-1085507083455564363">
+    <Name Value="YV-24 Starforged Blaster Rifle" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="rifle.high34.a01_v02" />
+    <Golden-description Value="Found in the Acolyte's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="YV-24 Starforged Blaster Rifle" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-1084006885840248172">
@@ -24752,6 +25313,10 @@
     <Items>
       <Item Name="Doc Customization 9" Description="Jedi Knight Companion. " />
     </Items>
+  </collection>
+  <collection ID="-892881367848564532">
+    <Name Value="Betrayer's Starforged Lightsaber" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-867252568534031169">
     <Name Value="Relaxed Uniform Armor Set" />
@@ -25132,6 +25697,10 @@
     <Name Value="Ikas XK-4" />
     <Image Value="generic_unlock" />
   </collection>
+  <collection ID="-603713074419146288">
+    <Name Value="Title: Shadow's Acolyte" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-598002813910592848">
     <Name Value="Advanced Lime-Green War Hero's Crystal" />
     <Image Value="generic_unlock" />
@@ -25228,6 +25797,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-542702168289509939">
+    <Name Value="Revanite Pursuer Armor Set" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-538328602305405891">
     <Name Value="Blizz Customization 6" />
@@ -25875,6 +26448,10 @@
     <Items>
       <Item Name="Unconquered Defender's Saberstaff" Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-135557258359785949">
+    <Name Value="Fearsome Harbinger Armor Set" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-130801880602236729">
     <Name Value="Fortified Defender Armor Set" />

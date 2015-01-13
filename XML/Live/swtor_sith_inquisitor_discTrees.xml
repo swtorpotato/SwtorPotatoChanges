@@ -615,7 +615,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_bolt">
         <Label Value="Lightning Bolt" />
-        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds. Lightning Bolt shares a cooldown with Lightning Strike." />
+        <Description Value="Hurls a bolt of lightning at the target, dealing &lt;&lt;1&gt;&gt; energy damage and slows the target by 30% for 3 seconds." />
         <Icon Value="abl_si_so_lightning_bolt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2465,7 +2465,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.utility.static_cling">
         <Label Value="Static Cling" />
-        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds each." />
+        <Description Value="Increases the duration of Force Slow and reduces its cooldown by 6 seconds." />
         <Icon Value="movementslowed" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
