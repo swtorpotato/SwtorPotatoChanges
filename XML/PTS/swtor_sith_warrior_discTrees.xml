@@ -2294,7 +2294,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.quake">
         <Label Value="Quake" />
-        <Description Value="Targets damaged by your Smash and Sweeping Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Force Scream is increased by 50%." />
+        <Description Value="Targets damaged by your Smash and Sweeping Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Force Scream is increased by 40%." />
         <Icon Value="forcequake" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2347,7 +2347,7 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.immortal.lash_out">
         <Label Value="Lash Out" />
-        <Description Value="While Soresu Form is active, Retaliation consumes no rage and its critical chance is increased by 50%. In addition, Soresu Form no longer reduces all damage dealt by 10%." />
+        <Description Value="While Soresu Form is active, Retaliation is off the global cooldown and costs 1 less rage." />
         <Icon Value="vicious_slash" />
         <LevelAquired Value="20" />
       </Talent>

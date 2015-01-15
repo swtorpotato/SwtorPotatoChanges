@@ -2768,7 +2768,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.lightning_reflexes">
         <Label Value="Lightning Reflexes" />
-        <Description Value="Whenever you successfully shield, parry or deflect an attack, you recover 2% of your total Force. This effect cannot occur more than once a second. In addition, your melee and ranged defense is increased by 4%." />
+        <Description Value="Increases your melee and ranged defense by 4%. While Dark Charge is active, whenever you successfully shield, parry, or deflect an attack, you recover 2% of your total Force and increase the damage dealt by your next Discharge by 75%. This effect cannot occur more than once a second and does not stack." />
         <Icon Value="force_charge" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2794,9 +2794,9 @@
         <CombatLogID Value="3408949902573568" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.17" />
-            <StandardHealthPercentMax Value="0.117" />
-            <StandardHealthPercentMin Value="0.117" />
+            <Coefficient Value="1.1" />
+            <StandardHealthPercentMax Value="0.11" />
+            <StandardHealthPercentMin Value="0.11" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2871,7 +2871,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.darkness.mounting_darkness">
         <Label Value="Mounting Darkness" />
-        <Description Value="Increases the damage dealt by Dark Charge's Discharge by 15% and Wither by 30%." />
+        <Description Value="Increases the damage dealt by Dark Charge's Discharge and Wither by 30%." />
         <Icon Value="disturbance" />
         <LevelAquired Value="28" />
       </Talent>

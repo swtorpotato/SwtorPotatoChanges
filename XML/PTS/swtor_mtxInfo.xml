@@ -5724,13 +5724,6 @@
       <Item Name="Antique Socorro Saberstaff Cresh" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
-  <collection ID="3971096340445212019">
-    <Name Value="Legacy Perk: Improved Mounting" />
-    <Image Value="legacy_upsell" />
-    <Items>
-      <Item Name="Improved Mounting" Description="You may now summon any vehicle or creature mount while moving." />
-    </Items>
-  </collection>
   <collection ID="3972804070870645716">
     <Name Value="Appearance Option: Vibrant Green Eyes" />
     <Image Value="generic_unlock" />
@@ -15227,6 +15220,13 @@
     <Golden-description Value="Found in the Star Cluster Nightlife Pack." ID="3" />
     <Items>
       <Item Name="Credit Flip" Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-7848528561574502901">
+    <Name Value="Legacy Unlock: Improved Mounting" />
+    <Image Value="legacy_upsell" />
+    <Items>
+      <Item Name="Improved Mounting" Description="You may now summon any vehicle or creature mount while moving." />
     </Items>
   </collection>
   <collection ID="-7837617094926672377">

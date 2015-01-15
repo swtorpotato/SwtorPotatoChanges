@@ -1683,7 +1683,7 @@
       <Talent Name="tal.jedi_knight.skill.combat.swift_blades">
         <Label Value="Swift Blades" />
         <Description Value="Reduces the cooldowns of Blade Storm and Clashing Blast by 3 seconds and the focus they consume by 1." />
-        <Icon Value="flourish" />
+        <Icon Value="railshot" />
         <LevelAquired Value="44" />
       </Talent>
     </DisciplineTree>
@@ -1825,7 +1825,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.dust_storm">
         <Label Value="Dust Storm" />
-        <Description Value="Targets damaged by your Force Sweep and Cyclone Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Blade Storm is increased by 50%." />
+        <Description Value="Targets damaged by your Force Sweep and Cyclone Slash become unsteady. Unsteady targets have their melee and ranged accuracy decreased by 5% for &lt;&lt;1&gt;&gt; seconds. In addition, damage dealt by Blade Storm is increased by 40%." />
         <Icon Value="coveredescape" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1855,7 +1855,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.defense.lunge">
         <Label Value="Lunge" />
-        <Description Value="While Soresu Form is active, Riposte consumes no focus and its critical chance is increased by 50%. In addition, Soresu Form no longer reduces all damage dealt by 10%." />
+        <Description Value="While Soresu Form is active, Riposte is off the global cooldown and costs 1 less focus." />
         <Icon Value="riposte" />
         <LevelAquired Value="20" />
       </Talent>
