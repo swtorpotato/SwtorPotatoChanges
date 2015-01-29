@@ -574,14 +574,14 @@
       </Ability>
       <Ability Name="abl.jedi_knight.guarded_by_the_force">
         <Label Value="Guarded by the Force" />
-        <Description Value="Reduces the damage you take by 99% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. When the effect ends, 50% of your current health is lost." />
+        <Description Value="Reduces the damage you take by 99% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="absorbtionfield" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="38" />
         <OnGCD Value="False" />
-        <Cooldown Value="120" />
+        <Cooldown Value="180" />
         <CombatLogID Value="2528571801206784" />
       </Ability>
       <Ability Name="abl.jedi_knight.force_camouflage">
@@ -623,6 +623,18 @@
         <CombatLogID Value="1501804034523136" />
         <ActionCost Value="3" />
         <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+            <AmmountModifier Value="-0.83" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.83" />
+          </Type>
           <Type Value="effAction_WeaponDamage">
             <Coefficient Value="0.25" />
             <StandardHealthPercentMax Value="0.025" />
@@ -1427,13 +1439,6 @@
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="20" />
       </Talent>
-      <Talent Name="tal.jedi_knight.skill.utility.stagger">
-        <Label Value="Stagger" />
-        <Description Value="Increases the duration of Force Leap's immobilize effect by 1 second." />
-        <Icon Value="knockdown" />
-        <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="7" />
-      </Talent>
       <Talent Name="tal.jedi_knight.skill.utility.contemplation">
         <Label Value="Contemplation" />
         <Description Value="Reduces the cooldown of Awe by 15 seconds. In addition, you build up to 30 Centering over the course of using Introspection. This effect cannot occur more than once every 30 seconds." />
@@ -1457,7 +1462,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.utility.just_pursuit">
         <Label Value="Just Pursuit" />
-        <Description Value="Leg Slash consumes 2 less focus. In addition, using Leg Slash against a target already slowed by your Leg Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
+        <Description Value="Leg Slash immobilizes the target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
         <Icon Value="abl_jk_se_just_persuit" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
@@ -1475,6 +1480,13 @@
         <Icon Value="sitwilekrenegade" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
+      </Talent>
+      <Talent Name="tal.jedi_knight.skill.utility.reining_reach">
+        <Label Value="Reining Reach" />
+        <Description Value="Increases the range of Leg Slash to 10 meters. Additionally, Leg Slash now consumes 2 less focus." />
+        <Icon Value="knockdown" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
       </Talent>
       <Talent Name="tal.jedi_knight.skill.utility.watchguard">
         <Label Value="Watchguard" />
@@ -1652,7 +1664,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.saber_storm">
         <Label Value="Saber Storm" />
-        <Description Value="Increases the critical strike damage bonus of Blade Rush and Clashing Blast by 10%." />
+        <Description Value="Increases the critical strike damage bonus of Blade Rush and Clashing Blast by 30%." />
         <Icon Value="saberstorm" />
         <LevelAquired Value="59" />
       </Talent>
@@ -1676,7 +1688,7 @@
       </Talent>
       <Talent Name="tal.jedi_knight.skill.combat.immaculate_force">
         <Label Value="Immaculate Force" />
-        <Description Value="Execute now additionally increases the critical chance of Blade Storm and Clashing Blast by 100%." />
+        <Description Value="Opportune Attack now additionally increases the critical chance of Blade Storm and Clashing Blast by 100%." />
         <Icon Value="whirling_blow" />
         <LevelAquired Value="36" />
       </Talent>

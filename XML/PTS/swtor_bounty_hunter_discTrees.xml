@@ -258,7 +258,7 @@
       <Damage Value="True" />
       <Healing Value="False" />
       <Passive Value="False" />
-      <LevelAquired Value="10" />
+      <LevelAquired Value="8" />
       <OnGCD Value="True" />
       <Cooldown Value="45" />
       <Range Value="30" />
@@ -304,7 +304,7 @@
       <Damage Value="True" />
       <Healing Value="False" />
       <Passive Value="False" />
-      <LevelAquired Value="8" />
+      <LevelAquired Value="3" />
       <OnGCD Value="True" />
       <Cooldown Value="18" />
       <TargetArc Value="360" />
@@ -478,41 +478,6 @@
       <OnGCD Value="False" />
       <Cooldown Value="120" />
       <CombatLogID Value="814205540237312" />
-    </Ability>
-    <Ability Name="abl.bounty_hunter.unload">
-      <Label Value="Unload" />
-      <Description Value="Unloads your blaster into the target, dealing &lt;&lt;1&gt;&gt; weapon damage and generating 24 heat over the duration. Weak and standard enemies caught in the blaster fire are stunned for the duration. Fires both blasters if dual wielding." />
-      <Icon Value="unload" />
-      <Damage Value="True" />
-      <Healing Value="False" />
-      <Passive Value="False" />
-      <LevelAquired Value="3" />
-      <OnGCD Value="True" />
-      <Cooldown Value="15" />
-      <Range Value="30" />
-      <TargetArc Value="270" />
-      <ChannelDuration Value="3" />
-      <CombatLogID Value="814312914419712" />
-      <Coeffcients>
-        <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="1.0475" />
-          <StandardHealthPercentMax Value="0.10475" />
-          <StandardHealthPercentMin Value="0.10475" />
-          <AmmountModifier Value="-0.3" />
-        </Type>
-        <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="0" />
-          <StandardHealthPercentMax Value="0" />
-          <StandardHealthPercentMin Value="0" />
-          <AmmountModifier Value="-0.3" />
-        </Type>
-        <Type Value="effAction_WeaponDamage">
-          <Coefficient Value="1.0475" />
-          <StandardHealthPercentMax Value="0.10475" />
-          <StandardHealthPercentMin Value="0.10475" />
-          <AmmountModifier Value="-0.3" />
-        </Type>
-      </Coeffcients>
     </Ability>
     <Ability Name="abl.bounty_hunter.stealth_scan">
       <Label Value="Stealth Scan" />
@@ -888,7 +853,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.flaming_fist">
         <Label Value="Flaming Fist" />
-        <Description Value="Engages the jetpack and ignites your gauntlet, allowing you to strike the target with a flaming fist that deals &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;2&gt;&gt; elemental damage. Flaming Fist shares a cooldown with Rocket Punch.  Shares a cooldown with Rocket Punch." />
+        <Description Value="Engages the jetpack and ignites your gauntlet, allowing you to strike the target with a flaming fist that deals &lt;&lt;1&gt;&gt; kinetic damage and &lt;&lt;2&gt;&gt; elemental damage. Flaming Fist shares a cooldown with Rocket Punch." />
         <Icon Value="abl_bh_pt_flaming_fist" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1039,7 +1004,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.utility.pyro_shield">
         <Label Value="Pyro Shield" />
-        <Description Value="When activated, your Energy Shield ignites in a blaze, lashing attackers for &lt;&lt;1&gt;&gt; elemental damage while it remains active. This effect cannot occur more than once each second." />
+        <Description Value="When activated, your Energy Shield ignites in a blaze, scorching attackers for &lt;&lt;1&gt;&gt; elemental damage when they deal direct damage to you. This effect cannot occur more than once each second." />
         <Icon Value="armormelt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1348,7 +1313,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.heat_blast">
         <Label Value="Heat Blast" />
-        <Description Value="Fires a shot that consumes all Heat Screens to deal &lt;&lt;1&gt;&gt; elemental damage, vent 10 heat, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Heat Screens and does not respect the global cooldown." />
+        <Description Value="Fires a shot that consumes all Heat Screens to deal &lt;&lt;1&gt;&gt; elemental damage, vent 10 heat, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Heat Screens and does not respect the global cooldown. This ability generates 25% additional threat." />
         <Icon Value="desperatecommand" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1364,6 +1329,13 @@
             <Coefficient Value="0.96" />
             <StandardHealthPercentMax Value="0.116" />
             <StandardHealthPercentMin Value="0.076" />
+            <ThreatModifier Value="0.25" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.96" />
+            <StandardHealthPercentMax Value="0.116" />
+            <StandardHealthPercentMin Value="0.076" />
+            <ThreatModifier Value="0.25" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1441,7 +1413,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.shield_tech.ion_screen">
         <Label Value="Ion Screen" />
-        <Description Value="Further increases damage reduction while Ion Gas Cylinder is active by 2%." />
+        <Description Value="Further increases damage reduction while Ion Gas Cylinder is active by 2%. Additionally, Heat Blast spreads from the primary target to up to 3 additional enemy targets within 10 meters of the primary target. Does not damage sleeping, lifted, or incapacitated enemies." />
         <Icon Value="disturbance" />
         <LevelAquired Value="44" />
       </Talent>
@@ -1663,7 +1635,7 @@
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.blood_tracker">
         <Label Value="Blood Tracker" />
         <Description Value="Increases the damage you deal to bleeding targets by 3%." />
-        <Icon Value="cyborgmerc" />
+        <Icon Value="swwarhardenednoble" />
         <LevelAquired Value="36" />
       </Talent>
     </DisciplineTree>
@@ -2147,7 +2119,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.utility.pyro_shield">
         <Label Value="Pyro Shield" />
-        <Description Value="When activated, your Energy Shield ignites in a blaze, lashing attackers for &lt;&lt;1&gt;&gt; elemental damage while it remains active. This effect cannot occur more than once each second." />
+        <Description Value="When activated, your Energy Shield ignites in a blaze, scorching attackers for &lt;&lt;1&gt;&gt; elemental damage when they deal direct damage to you. This effect cannot occur more than once each second." />
         <Icon Value="armormelt" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -2739,6 +2711,41 @@
             <StandardHealthPercentMax Value="0" />
             <StandardHealthPercentMin Value="0" />
             <AmmountModifier Value="-0.05" />
+          </Type>
+        </Coeffcients>
+      </Ability>
+      <Ability Name="abl.bounty_hunter.unload">
+        <Label Value="Unload" />
+        <Description Value="Unloads your blaster into the target, dealing &lt;&lt;1&gt;&gt; weapon damage and generating 24 heat over the duration. Weak and standard enemies caught in the blaster fire are stunned for the duration. Fires both blasters if dual wielding." />
+        <Icon Value="unload" />
+        <Damage Value="True" />
+        <Healing Value="False" />
+        <Passive Value="False" />
+        <LevelAquired Value="15" />
+        <OnGCD Value="True" />
+        <Cooldown Value="15" />
+        <Range Value="30" />
+        <TargetArc Value="270" />
+        <ChannelDuration Value="3" />
+        <CombatLogID Value="814312914419712" />
+        <Coeffcients>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.0475" />
+            <StandardHealthPercentMax Value="0.10475" />
+            <StandardHealthPercentMin Value="0.10475" />
+            <AmmountModifier Value="-0.3" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.3" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="1.0475" />
+            <StandardHealthPercentMax Value="0.10475" />
+            <StandardHealthPercentMin Value="0.10475" />
+            <AmmountModifier Value="-0.3" />
           </Type>
         </Coeffcients>
       </Ability>

@@ -606,10 +606,17 @@
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.inescapable">
         <Label Value="Inescapable" />
-        <Description Value="Crippling Slash consumes 2 less rage. In addition, using Crippling Slash against a target already slowed by your Crippling Slash immobilizes that target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
+        <Description Value="Crippling Slash immobilizes the target for 3 seconds. This immobilizing effect cannot be applied to the same target more than once every 10 seconds." />
         <Icon Value="abl_sw_ma_inescapable" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
+      </Talent>
+      <Talent Name="tal.sith_warrior.skill.utility.maiming_reach">
+        <Label Value="Maiming Reach" />
+        <Description Value="Increases the range of Crippling Slash to 10 meters. Additionally, Crippling Slash now consumes 2 less rage." />
+        <Icon Value="knockdown" />
+        <UtilityLevel Value="Skillful" />
+        <UtilityPos Value="7" />
       </Talent>
       <Talent Name="tal.sith_warrior.skill.utility.path_carver">
         <Label Value="Path Carver" />
@@ -673,13 +680,6 @@
         <Icon Value="outerrimveteran" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
-      </Talent>
-      <Talent Name="tal.sith_warrior.skill.utility.stagger">
-        <Label Value="Stagger" />
-        <Description Value="Increases the duration of Force Charge's immobilize effect by 1 second." />
-        <Icon Value="knockdown" />
-        <UtilityLevel Value="Skillful" />
-        <UtilityPos Value="7" />
       </Talent>
     </UtilityTree>
     <DisciplineTree Name="annihilation">
@@ -1400,6 +1400,18 @@
             <StandardHealthPercentMin Value="0" />
             <AmmountModifier Value="-0.83" />
           </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0.25" />
+            <StandardHealthPercentMax Value="0.025" />
+            <StandardHealthPercentMin Value="0.025" />
+            <AmmountModifier Value="-0.83" />
+          </Type>
+          <Type Value="effAction_WeaponDamage">
+            <Coefficient Value="0" />
+            <StandardHealthPercentMax Value="0" />
+            <StandardHealthPercentMin Value="0" />
+            <AmmountModifier Value="-0.83" />
+          </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_warrior.predation">
@@ -1474,14 +1486,14 @@
       </Ability>
       <Ability Name="abl.sith_warrior.undying_rage">
         <Label Value="Undying Rage" />
-        <Description Value="Reduces the damage you take by 99% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. When the effect ends, 50% of your current health is lost." />
+        <Description Value="Reduces the damage you take by 99% for &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds." />
         <Icon Value="shadowcloak" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="38" />
         <OnGCD Value="False" />
-        <Cooldown Value="120" />
+        <Cooldown Value="180" />
         <CombatLogID Value="2517052698918912" />
       </Ability>
       <Talent Name="tal.sith_warrior.skill.short_fuse">
