@@ -1850,7 +1850,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.energy_blast">
         <Label Value="Energy Blast" />
-        <Description Value="Fires a shot that consumes all Power Screens to deal &lt;&lt;1&gt;&gt; elemental damage, regenerate 10 energy cells, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Power Screens and does not respect the global cooldown. This ability generates 25% additional threat." />
+        <Description Value="Fires a shot that consumes all Power Screens to deal &lt;&lt;1&gt;&gt; elemental damage, regenerate 10 energy cells, and increase shield absorption by 25% for &lt;&lt;2&gt;&gt; seconds. This ability is only usable with 3 Power Screens, generates 25% additional threat, and does not respect the global cooldown. " />
         <Icon Value="inspiringcommand" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -1980,7 +1980,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.shield_specialist.ion_shield">
         <Label Value="Ion Shield" />
-        <Description Value="Further increases damage reduction while Ion Cell is active by 2%. Additionally, Energy Blast spreads from the primary target to up to 3 additional enemy targets within 10 meters of the primary target. Does not damage sleeping, lifted, or incapacitated enemies." />
+        <Description Value="Further increases damage reduction while Ion Cell is active by 2%. Additionally, Energy Blast damages up to 3 additional enemy targets within 5 meters of the primary target. Does not damage sleeping, lifted, or incapacitated enemies." />
         <Icon Value="disturbance" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2207,14 +2207,14 @@
     <base Name="base">
       <Ability Name="abl.trooper.shoulder_cannon">
         <Label Value="Shoulder Cannon" />
-        <Description Value="Deploys a shoulder cannon that gradually loads 4 missiles over time. Once loaded, the shoulder cannon can be triggered again to fire against an enemy target within 10 meters, launching 1 missile that deals &lt;&lt;1&gt;&gt; kinetic damage. A missile can be launched up to once per second. Loading and launching the shoulder cannon does not respect the global cooldown and can be done while controlled. Once all missiles have been loaded, depleting all missiles puts the shoulder cannon on cooldown for 1.5 minutes." />
+        <Description Value="Deploys a shoulder cannon that gradually loads 4 missiles over time. Once loaded, the shoulder cannon can be triggered again to fire against an enemy target within 10 meters, launching 1 missile that deals &lt;&lt;1&gt;&gt; kinetic damage. A missile can be launched up to once per second. Loading and launching the shoulder cannon does not respect the global cooldown and can be done while controlled. Once all missiles have been loaded, depleting all missiles puts the shoulder cannon on cooldown for 2 minutes." />
         <Icon Value="powerloaders" />
         <Damage Value="True" />
         <Healing Value="False" />
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
-        <Cooldown Value="0" />
+        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="3066516455030784" />
         <Coeffcients>
@@ -2493,9 +2493,9 @@
         <EnergyCost Value="12" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.84" />
-            <StandardHealthPercentMax Value="0.204" />
-            <StandardHealthPercentMin Value="0.164" />
+            <Coefficient Value="1.74" />
+            <StandardHealthPercentMax Value="0.194" />
+            <StandardHealthPercentMin Value="0.154" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2532,9 +2532,9 @@
             <StandardHealthPercentMin Value="0.158" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.52" />
-            <StandardHealthPercentMax Value="0.072" />
-            <StandardHealthPercentMin Value="0.032" />
+            <Coefficient Value="0.41" />
+            <StandardHealthPercentMax Value="0.061" />
+            <StandardHealthPercentMin Value="0.021" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2623,7 +2623,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.adrenaline_fueled">
         <Label Value="Adrenaline Fueled" />
-        <Description Value="While Adrenaline Rush is active, your damage reduction is increased by 30%. Additionally, getting attacked reduces the active cooldown of your Adrenaline Rush by 6 seconds. This effect cannot occur more than once every 1.5 seconds." />
+        <Description Value="While Adrenaline Rush is active, your damage reduction is increased by 30%. Additionally, the cooldown of Adrenaline Rush is reduced by 30 seconds." />
         <Icon Value="adrenelinerush" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2653,7 +2653,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.plasmatech.rain_of_fire">
         <Label Value="Rain of Fire" />
-        <Description Value="Shockstrike and High Impact Bolt deal 10% additional damage to burning targets." />
+        <Description Value="Pulse Cannon deals 10% additional damage to burning targets." />
         <Icon Value="decoyarsenal" />
         <LevelAquired Value="44" />
       </Talent>

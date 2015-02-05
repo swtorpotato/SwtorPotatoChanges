@@ -2185,7 +2185,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.compounding_impact">
         <Label Value="Compounding Impact" />
-        <Description Value="Each shot of Speed Shot and Penetrating Rounds snare the target by 20% for 3 seconds. The effect can stack up to 4 times." />
+        <Description Value="Each shot of Speed Shot and Penetrating Rounds slows the target by 20% for 3 seconds. The effect can stack up to 4 times." />
         <Icon Value="abl_sm_gs_compounding_impact" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
