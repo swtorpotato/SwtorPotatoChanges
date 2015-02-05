@@ -11,7 +11,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810735206662144" />
     </Ability>
     <Ability Name="abl.trooper.pulse_cannon">
@@ -90,7 +89,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="801333523251200" />
     </Ability>
@@ -115,7 +113,6 @@
       <Passive Value="False" />
       <LevelAquired Value="4" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ActivationTime Value="1.5" />
       <CombatLogID Value="1202324554907648" />
       <Coeffcients>
@@ -135,7 +132,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="801299163512832" />
@@ -156,7 +152,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.player.proficiency.weapon.rifle">
@@ -168,7 +163,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810713731825664" />
     </Ability>
     <Ability Name="abl.player.sprint">
@@ -180,7 +174,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.trooper.explosive_round">
@@ -192,7 +185,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="801277688676352" />
@@ -219,7 +211,6 @@
       <Passive Value="False" />
       <LevelAquired Value="32" />
       <OnGCD Value="False" />
-      <Cooldown Value="1" />
       <CombatLogID Value="801251918872576" />
       <Coeffcients>
         <Type Value="effAction_Heal">
@@ -245,7 +236,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.player.proficiency.armor.medium">
@@ -257,7 +247,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810743796596736" />
     </Ability>
     <Ability Name="abl.trooper.cryo_grenade">
@@ -463,7 +452,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3414069503590400" />
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.assault_plastique">
@@ -497,7 +485,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2267253106016256" />
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.hyper_assault_rounds">
@@ -509,7 +496,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3170720951566336" />
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.blazing_celerity">
@@ -521,7 +507,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3414060913655808" />
       </Ability>
       <Ability Name="abl.trooper.skill.assault_specialist.ionic_accelerator_commando">
@@ -533,7 +518,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393741423378432" />
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.incendiary_round">
@@ -545,7 +529,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3391477975613440" />
@@ -572,7 +555,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -652,7 +634,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2040994228862976" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -693,7 +674,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3393466545471488" />
@@ -707,7 +687,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2275967594659840" />
       </Ability>
       <Ability Name="abl.trooper.skill.combat_medic.psych_aid">
@@ -719,7 +698,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2275984774529024" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -738,7 +716,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3408258412838912" />
       </Ability>
       <Ability Name="abl.trooper.skill.combat_medic.trauma_probe">
@@ -750,7 +727,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="999516199190528" />
         <EnergyCost Value="10" />
@@ -771,7 +747,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393457955536896" />
       </Ability>
       <Ability Name="abl.trooper.skill.combat_medic.medical_probe">
@@ -783,7 +758,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
@@ -806,7 +780,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3169260662685696" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -914,7 +887,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3169672979546112" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -934,7 +906,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="998219119067136" />
       </Ability>
       <Ability Name="abl.trooper.skill.gunnery.vortex_bolt">
@@ -969,7 +940,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393526675013632" />
       </Ability>
       <Ability Name="abl.trooper.skill.gunnery.grav_round">
@@ -981,7 +951,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="1202535008305152" />
@@ -1003,7 +972,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="801647055863808" />
       </Ability>
       <Ability Name="abl.trooper.skill.gunnery.demolition_round">
@@ -1112,7 +1080,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810687962021888" />
       </Ability>
       <Ability Name="abl.trooper.diversion">
@@ -1136,7 +1103,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -1160,7 +1126,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2491411744161792" />
       </Ability>
@@ -1173,7 +1138,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2035470900920320" />
       </Ability>
       <Ability Name="abl.trooper.supercharged_cell">
@@ -1185,7 +1149,7 @@
         <Passive Value="False" />
         <LevelAquired Value="28" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="3408202578264064" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1300,7 +1264,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3408198283296768" />
       </Ability>
       <Ability Name="abl.trooper.med_shot">
@@ -1312,7 +1275,6 @@
         <Passive Value="False" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3408262707806208" />
@@ -1338,7 +1300,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="13" />
+        <Cooldown Value="13.5" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="2" />
@@ -1391,7 +1353,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="3" />
@@ -1414,7 +1375,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2439253661319168" />
       </Ability>
       <Ability Name="abl.trooper.concussive_round">
@@ -1473,7 +1433,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="801256213839872" />
       </Ability>
@@ -1486,7 +1445,6 @@
         <Passive Value="True" />
         <LevelAquired Value="25" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3514618982957056" />
       </Ability>
       <Ability Name="abl.trooper.electro_net">
@@ -1539,7 +1497,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413622826991616" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
@@ -1560,7 +1517,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393784373051392" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -1574,7 +1530,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413631416926208" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="12" />
@@ -1596,7 +1551,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413609942089728" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
@@ -1610,7 +1564,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393406415929344" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -1631,7 +1584,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413605647122432" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -1645,7 +1597,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393964761677824" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
@@ -1659,7 +1610,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413614237057024" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1673,7 +1623,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393363466256384" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -1776,7 +1725,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3172602147241984" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.static_shield">
@@ -1788,7 +1736,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="801599811223552" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.shield_cycler">
@@ -1800,7 +1747,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2264585931325440" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.static_field">
@@ -1812,7 +1758,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2043940576428032" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.ion_storm">
@@ -1885,7 +1830,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="801604106190848" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.shield_enhancers">
@@ -1897,7 +1841,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3389991916929024" />
       </Ability>
       <Ability Name="abl.trooper.skill.shield_specialist.storm">
@@ -1937,7 +1880,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2044520397012992" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1957,7 +1899,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2842082938978304" />
       </Ability>
       <Talent Name="tal.trooper.skill.shield_specialist.soldiers_grit">
@@ -2001,7 +1942,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393406415929344" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -2022,7 +1962,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393346286387200" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -2036,7 +1975,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393363466256384" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -2050,7 +1988,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393367761223680" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -2071,7 +2008,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3393419300831232" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
@@ -2093,7 +2029,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3414073798557696" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -2214,7 +2149,7 @@
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <TargetArc Value="360" />
         <CombatLogID Value="3066516455030784" />
         <Coeffcients>
@@ -2234,7 +2169,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="2199843594305536" />
@@ -2270,7 +2204,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="801281983643648" />
         <EnergyCost Value="15" />
@@ -2291,7 +2224,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2035470900920320" />
       </Ability>
       <Ability Name="abl.trooper.ion_cell">
@@ -2303,7 +2235,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="801312048414720" />
         <Coeffcients>
@@ -2361,7 +2292,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.trooper.neural_surge">
@@ -2394,7 +2324,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3172499068026880" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -2445,7 +2374,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2466986265149440" />
       </Ability>
@@ -2458,7 +2386,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1775934617157632" />
       </Ability>
@@ -2508,7 +2435,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391632594436096" />
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.shockstrike">
@@ -2547,7 +2473,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3391666954174464" />
@@ -2579,7 +2504,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3397645548650496" />
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.incendiary_round">
@@ -2591,7 +2515,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3391477975613440" />
@@ -2618,7 +2541,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391495155482624" />
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.adrenaline_fueled">
@@ -2630,7 +2552,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391624004501504" />
       </Ability>
       <Talent Name="tal.trooper.skill.plasmatech.plasmatic_assault">
@@ -2699,7 +2620,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3399183146942464" />
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.assault_plastique">
@@ -2733,7 +2653,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="2029878853500928" />
@@ -2760,7 +2679,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3398414347796480" />
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.reflexive_shield">
@@ -2772,7 +2690,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3174264299585536" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -2792,7 +2709,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3393260387041280" />
@@ -2814,7 +2730,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3399170262040576" />
       </Ability>
       <Ability Name="abl.trooper.skill.tactics.cell_burst">
@@ -2826,7 +2741,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3393354876321792" />

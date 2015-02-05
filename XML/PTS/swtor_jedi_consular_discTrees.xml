@@ -11,7 +11,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1985486071529472" />
     </Ability>
     <Ability Name="abl.jedi_consular.force_stun">
@@ -72,7 +71,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="812792495996928" />
     </Ability>
@@ -167,7 +165,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810700846923776" />
     </Ability>
     <Ability Name="abl.player.proficiency.faction.republic">
@@ -179,7 +176,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.jedi_consular.force_valor">
@@ -205,7 +201,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810730911694848" />
     </Ability>
     <Ability Name="abl.player.sprint">
@@ -217,7 +212,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.jedi_consular.force_slow">
@@ -336,7 +330,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.jedi_consular.double_strike">
@@ -348,7 +341,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="812728071487488" />
@@ -377,7 +369,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="947486965366784" />
@@ -436,7 +427,6 @@
       <Passive Value="True" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="2035415066345472" />
     </Ability>
   </base>
@@ -451,7 +441,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3414456050647040" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -465,7 +454,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413970719342592" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="12" />
@@ -479,7 +467,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413940654571520" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="7" />
@@ -622,7 +609,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="967166505517056" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.force_pull">
@@ -648,7 +634,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="980614048120832" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.particle_acceleration">
@@ -660,7 +645,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="981172393869312" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.kinetic_ward">
@@ -685,7 +669,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="980592573284352" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.shadow_wrap">
@@ -697,7 +680,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3220744435662848" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.harnessed_shadows">
@@ -709,7 +691,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2312839888896000" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.cascading_debris">
@@ -743,7 +724,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3536793899106304" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.slow_time">
@@ -822,7 +802,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2156997000560640" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.crush_spirit">
@@ -834,7 +813,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3218493872799744" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.vanquish">
@@ -898,7 +876,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="813226287693824" />
@@ -925,7 +902,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3450357682274304" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.force_strike">
@@ -937,7 +913,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1792401521770496" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.force_in_balance">
@@ -1029,7 +1004,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="813058783969280" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.shadow_technique">
@@ -1041,7 +1015,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="979819479171072" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1060,7 +1034,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3257376211730432" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.circling_shadows">
@@ -1072,7 +1045,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2014421266202624" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.psychokinetic_blast">
@@ -1111,7 +1083,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="813037309132800" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.masked_assault">
@@ -1123,7 +1094,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1776540207546368" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.kinetic_field">
@@ -1135,7 +1105,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1776578862252032" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.infiltration.clairvoyant_strike">
@@ -1147,7 +1116,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="980042817470464" />
@@ -1243,7 +1211,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810692256989184" />
       </Ability>
       <Ability Name="abl.jedi_consular.force_synergy">
@@ -1255,7 +1222,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3496713264300032" />
       </Ability>
       <Ability Name="abl.jedi_consular.blackout">
@@ -1293,7 +1259,7 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="979806594269184" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1312,7 +1278,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="964675424485376" />
@@ -1350,7 +1315,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="812839740637184" />
@@ -1373,7 +1337,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1780006246154240" />
       </Ability>
@@ -1411,7 +1374,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.player.proficiency.weapon.polesaber">
@@ -1423,7 +1385,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810709436858368" />
       </Ability>
       <Ability Name="abl.jedi_consular.mind_control">
@@ -1449,7 +1410,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429084709257216" />
       </Ability>
       <Ability Name="abl.jedi_consular.force_cloak">
@@ -1518,7 +1478,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="979789414400000" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1537,7 +1497,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="979716399955968" />
         <ForceCost Value="25" />
         <Coeffcients>
@@ -1582,7 +1541,7 @@
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <ActivationTime Value="0.5" />
         <CombatLogID Value="3200416355450880" />
       </Ability>
@@ -1595,7 +1554,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="812801085931520" />
@@ -1610,7 +1568,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812852625539072" />
       </Ability>
       <Talent Name="tal.jedi_consular.skill.technique_mastery">
@@ -1639,7 +1596,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3347299942006784" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.salvation">
@@ -1674,7 +1630,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
@@ -1697,7 +1652,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="880421051039744" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.wandering_mend">
@@ -1736,7 +1690,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812985769525248" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.seer.renewal">
@@ -1748,7 +1701,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3428311615143936" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1767,7 +1719,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="953182092001280" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1808,7 +1759,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3218107325743104" />
       </Ability>
       <Talent Name="tal.jedi_consular.skill.seer.preservation">
@@ -1864,7 +1814,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3414103863328768" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1878,7 +1827,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413927769669632" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -1899,7 +1847,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413970719342592" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -1913,7 +1860,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413992194179072" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
@@ -1927,7 +1873,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413940654571520" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
@@ -2055,7 +2000,7 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <TargetArc Value="360" />
         <CombatLogID Value="960943097905152" />
       </Ability>
@@ -2068,7 +2013,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="812861215473664" />
@@ -2131,7 +2075,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
@@ -2182,7 +2125,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="6" />
@@ -2204,7 +2146,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2439034617987072" />
       </Ability>
       <Ability Name="abl.jedi_consular.rescue">
@@ -2263,7 +2204,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2376,7 +2316,6 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="812736661422080" />
         <ForceCost Value="50" />
@@ -2440,7 +2379,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2156997000560640" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.presence_of_mind">
@@ -2452,7 +2390,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1197192068988928" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.vanquish">
@@ -2492,7 +2429,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="981739329552384" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.balance.sever_force">
@@ -2504,7 +2440,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="813226287693824" />
@@ -2555,7 +2490,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3218403678486528" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2676,7 +2610,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812934229917696" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.tidal_force">
@@ -2688,7 +2621,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="878638639611904" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_momentum">
@@ -2700,7 +2632,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="999348695465984" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2734,7 +2665,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2757,7 +2687,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812929934950400" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_wave">
@@ -2792,7 +2721,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3218193225089024" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_focal_point">
@@ -2804,7 +2732,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3428431874228224" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.mental_momentum">
@@ -2816,7 +2743,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3218339253977088" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2835,7 +2761,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="960870083461120" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.concentration">
@@ -2847,7 +2772,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812865510440960" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.mental_continuum">
@@ -2859,7 +2783,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3347308531941376" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.turbulence">

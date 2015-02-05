@@ -11,7 +11,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810735206662144" />
     </Ability>
     <Ability Name="abl.bounty_hunter.vent_heat">
@@ -97,7 +96,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810705141891072" />
     </Ability>
     <Ability Name="abl.bounty_hunter.combustible_gas_cylinder">
@@ -109,7 +107,6 @@
       <Passive Value="False" />
       <LevelAquired Value="4" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ActivationTime Value="1.5" />
       <CombatLogID Value="2020687623487488" />
       <Coeffcients>
@@ -153,7 +150,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="814282849648640" />
@@ -234,7 +230,6 @@
       <Passive Value="False" />
       <LevelAquired Value="32" />
       <OnGCD Value="False" />
-      <Cooldown Value="1" />
       <CombatLogID Value="2264285283614720" />
       <Coeffcients>
         <Type Value="effAction_Heal">
@@ -282,7 +277,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.player.proficiency.faction.empire">
@@ -294,7 +288,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.bounty_hunter.flame_thrower">
@@ -349,7 +342,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.bounty_hunter.recharge_and_reload">
@@ -361,7 +353,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="814287144615936" />
     </Ability>
@@ -374,7 +365,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810743796596736" />
     </Ability>
     <Ability Name="abl.bounty_hunter.rail_shot">
@@ -449,7 +439,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="814261374812160" />
@@ -552,7 +541,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1776136480620544" />
       </Ability>
@@ -565,7 +553,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2035470900920320" />
       </Ability>
       <Ability Name="abl.bounty_hunter.ion_gas_cylinder">
@@ -577,7 +564,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2027705600049152" />
         <Coeffcients>
@@ -607,7 +593,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3177532769697792" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -632,7 +617,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.bounty_hunter.grapple">
@@ -658,7 +642,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2467012034953216" />
       </Ability>
@@ -671,7 +654,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="814227015073792" />
         <EnergyCost Value="15" />
@@ -692,7 +674,7 @@
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <TargetArc Value="360" />
         <CombatLogID Value="3066482095292416" />
         <Coeffcients>
@@ -740,7 +722,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="814222720106496" />
@@ -777,7 +758,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="992738740797440" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.incendiary_missile">
@@ -789,7 +769,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="2027022700249088" />
@@ -816,7 +795,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3384812186370048" />
@@ -848,7 +826,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2269160071495680" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.flaming_fist">
@@ -887,7 +864,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1708872997797888" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.immolate">
@@ -921,7 +897,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3385271747870720" />
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.firebug.heat_flow_recycler">
@@ -989,7 +964,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391422141038592" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
@@ -1011,7 +985,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391379191365632" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -1032,7 +1005,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391057068818432" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -1053,7 +1025,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3390829435551744" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -1067,7 +1038,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3390992644308992" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -1081,7 +1051,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3390885270126592" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -1203,7 +1172,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3379460657119232" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.ion_overload">
@@ -1215,7 +1183,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2037850312802304" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1284,7 +1251,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="991372941197312" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.flame_engine">
@@ -1296,7 +1262,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3182025305489408" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.combust">
@@ -1308,7 +1273,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="991390121066496" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.heat_blast">
@@ -1348,7 +1312,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2841833830875136" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.shield_vents">
@@ -1360,7 +1323,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2263383340482560" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.hydraulic_shield">
@@ -1372,7 +1334,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3396498792382464" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.shield_tech.oil_slick">
@@ -1451,7 +1412,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3182695320387584" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -1471,7 +1431,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3388896700268544" />
@@ -1508,7 +1467,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="2029831608860672" />
@@ -1535,7 +1493,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3399221801648128" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.prototype_particle_accelerator">
@@ -1547,7 +1504,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="991037933748224" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.prototype_rail">
@@ -1559,7 +1515,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3389102858698752" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.magnetic_blast">
@@ -1571,7 +1526,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3387479361060864" />
@@ -1652,7 +1606,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404212553646080" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.progressive_scan">
@@ -1686,7 +1639,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="987305607168000" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1705,7 +1657,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="985226842996736" />
         <EnergyCost Value="10" />
@@ -1726,7 +1677,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="987851068014592" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1772,7 +1722,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
@@ -1795,7 +1744,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394093610696704" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1814,7 +1762,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2274799363555328" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.kolto_residue">
@@ -1826,7 +1773,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394110790565888" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.bodyguard.emergency_response">
@@ -1838,7 +1784,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3403241891037184" />
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.bodyguard.surgical_precision_system">
@@ -1889,7 +1834,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3408219758133248" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.advanced_prototype.thermal_detonator">
@@ -1923,7 +1867,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394351308734464" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.incendiary_missile">
@@ -1935,7 +1878,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="2027022700249088" />
@@ -1962,7 +1904,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3409284910022656" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.serrated_shot">
@@ -1974,7 +1915,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2009,7 +1949,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3408039369506816" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.innovative_ordnance.mag_shot">
@@ -2050,7 +1989,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3408524700811264" />
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.collateral_damage">
@@ -2112,7 +2050,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394763625594880" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -2126,7 +2063,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3391379191365632" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -2147,7 +2083,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394849524940800" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="10" />
@@ -2161,7 +2096,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394858114875392" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="11" />
@@ -2182,7 +2116,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394750740692992" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="14" />
@@ -2196,7 +2129,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3390992644308992" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -2210,7 +2142,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394840935006208" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="8" />
@@ -2232,7 +2163,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394793690365952" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -2246,7 +2176,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394828050104320" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="5" />
@@ -2368,7 +2297,6 @@
         <Passive Value="True" />
         <LevelAquired Value="25" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3402086544834560" />
       </Ability>
       <Ability Name="abl.player.dual_wield">
@@ -2380,7 +2308,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810623537512448" />
       </Ability>
       <Ability Name="abl.bounty_hunter.combat_support_cylinder">
@@ -2392,7 +2319,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2497540662493184" />
       </Ability>
@@ -2405,7 +2331,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="2022311121125376" />
       </Ability>
@@ -2430,7 +2355,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="13" />
+        <Cooldown Value="13.5" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="2" />
@@ -2468,7 +2393,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="3" />
@@ -2497,7 +2421,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3401326335623168" />
       </Ability>
       <Ability Name="abl.bounty_hunter.jet_boost">
@@ -2581,7 +2504,6 @@
         <Passive Value="False" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="3392096450904064" />
@@ -2674,7 +2596,7 @@
         <Passive Value="False" />
         <LevelAquired Value="28" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="3401291975884800" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2693,7 +2615,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2794,7 +2715,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3165584170680320" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -2814,7 +2734,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1792027859615744" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.priming_shot">
@@ -2855,7 +2774,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="994022936018944" />
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.arsenal.heatseeker_missiles">
@@ -2923,7 +2841,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2946,7 +2863,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3394153740238848" />
       </Ability>
       <Talent Name="tal.bounty_hunter.skill.arsenal.terminal_velocity">
