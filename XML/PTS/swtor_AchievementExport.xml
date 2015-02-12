@@ -2545,7 +2545,7 @@
   </Achievement>
   <Achievement Name="ach.conquests.operation.xenoanalyst.any_difficulty" ID="16140962995383307128">
     <Description Value="Defeat Xenoanalyst II in any difficulty mode." />
-    <Label Value="Operation:The Gray Secant" />
+    <Label Value="Operation: The Gray Secant" />
     <Icon Value="datacron" />
     <Rewards ID="6680298434435731368">
       <AchievementPoints Value="1000" />

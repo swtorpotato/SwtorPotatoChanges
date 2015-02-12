@@ -574,7 +574,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.force_camouflage">
         <Label Value="Force Camouflage" />
-        <Description Value="Obscures yourself with the Force, becoming difficult to detect, reducing your threat towards all enemies, reducing all damage taken by 50%, and increasing movement speed by 30%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Dealing direct damage ends the effect prematurely." />
+        <Description Value="Obscures yourself with the Force, becoming difficult to detect, reducing your threat towards all enemies, reducing all damage taken by 50%, granting immunity to controlling effects, and increasing movement speed by 30%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Dealing direct damage ends the effect prematurely." />
         <Icon Value="feint" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1311,7 +1311,7 @@
     <UtilityTree Name="utility">
       <Ability Name="abl.jedi_knight.skill.utility.defiance">
         <Label Value="Defiance" />
-        <Description Value="Generates 4 Focus when stunned, slept or knocked down." />
+        <Description Value="Generates 4 Focus when stunned, slept or knocked down.Additionally, the cooldown of Resolute is reduced by 30 seconds." />
         <Icon Value="force_crush" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2104,7 +2104,7 @@
       </Ability>
       <Ability Name="abl.jedi_knight.skill.utility.defiance">
         <Label Value="Defiance" />
-        <Description Value="Generates 4 Focus when stunned, slept or knocked down." />
+        <Description Value="Generates 4 Focus when stunned, slept or knocked down.Additionally, the cooldown of Resolute is reduced by 30 seconds." />
         <Icon Value="force_crush" />
         <Damage Value="False" />
         <Healing Value="False" />

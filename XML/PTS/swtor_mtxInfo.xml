@@ -293,6 +293,15 @@
       <Item Name="Advanced White-Blue-Purple Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="121437383918664328">
+    <Name Value="Arctic Thranta" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.pet.manta.arctic" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Arctic Thranta" Description="Right-click this item to add the Arctic Thranta to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="124974606126831148">
     <Name Value="Pitiless Raider Lightsaber" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -308,6 +317,14 @@
     <Image Value="generic_unlock" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="136612946798372121">
+    <Name Value="Prinawe Congregate" />
+    <Description Value="Granted to players who attended the 2015 Community Cantina in Anaheim." />
+    <Image Value="mount.prinawe.congregate" />
+    <Items>
+      <Item Name="Prinawe Congregate" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
     </Items>
   </collection>
   <collection ID="139796491447067944">
@@ -413,7 +430,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Bounty Supply Corporation item" ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Pursuer's Bounty Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -496,7 +513,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Binary Star Realty item." ID="4" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Architect's Stronghold Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -1217,7 +1234,7 @@
     <Golden-description Value="This item can be used once per 30 days." ID="0" />
     <Golden-description Value="This character must be the leader of a Guild to use this item." ID="1" />
     <Items>
-      <Item Name="Rename: Guild Name" Description="A single-use item that allows you to change the name of your Guild.&#xA;&#xA;You must be the leader of a Guild to use this item. (Cooldown: 30 days)" Rarity="itmMTXRarityRare" />
+      <Item Name="Rename: Guild Name" Description="A single-use item that allows you to change the name of your Guild.&#xA;&#xA;You must be the leader of a Guild to use this item. (Cooldown: 30 days) This item will be consumed on use. Canceling the rename will still consume the item, and the rename will remain available to the activating character from the Guild window." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="683372737221541078">
@@ -1470,6 +1487,7 @@
     <Image Value="0" />
     <Golden-description Value="Found in the Opportunist's Bounty Pack" ID="0" />
     <Golden-description Value="This item is not consumed on use." ID="1" />
+    <Golden-description Value="Starts a Campfire.  You recover health and your class's energy pool while in use." ID="2" />
     <Items>
       <Item Name="Camping" Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -2330,7 +2348,7 @@
     <Golden-description Value="This item can be used once per 30 days." ID="0" />
     <Golden-description Value="This character must have an unlocked Legacy to use this item. " ID="1" />
     <Items>
-      <Item Name="Rename: Legacy Name" Description="A single-use item that allows you to change the name of your Legacy.&#xA;&#xA;You must currently have a Legacy unlocked to use this item. (Cooldown: 30 days)" Rarity="itmMTXRarityRare" />
+      <Item Name="Rename: Legacy Name" Description="A single-use item that allows you to change the name of your Legacy.&#xA;&#xA;You must currently have a Legacy unlocked to use this item. (Cooldown: 30 days) This item will be consumed on use. Canceling the rename will still consume the item, and the rename will remain available to the activating character from the Legacy window." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="1462380122828298983">
@@ -2693,6 +2711,15 @@
     <Golden-description Value="Found in the Enforcer's Contraband Pack." ID="1" />
     <Items>
       <Item Name="Aratech Nethian" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="1729676954095089878">
+    <Name Value="Advanced Pink-Yellow War Hero's Crystal" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_pink_yellow_war_hero" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced Pink-Yellow War Hero's Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="1736169207716473174">
@@ -3162,13 +3189,12 @@
     <Name Value="Master's Shadow Pack" />
     <Description Value="A vast array of quality goods from the Shadow Shipment. Each pack contains rare bonus items found nowhere else!" />
     <Image Value="mtx_shadow_master" />
-    <Golden-description Value="Contains 1 bonus Stronghold decoration." ID="0" />
-    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="1" />
-    <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
-    <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
-    <Golden-description Value="One Freebooter's Trade Union item." ID="4" />
-    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="0" />
+    <Golden-description Value="One boost item, for either Experience or Social Points." ID="1" />
+    <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
+    <Golden-description Value="One Freebooter's Trade Union item." ID="3" />
+    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Master's Shadow Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -3182,7 +3208,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Interplanetary Component Exchange item." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Galactic Ace's Starfighter Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -3518,7 +3544,7 @@
     <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="0" />
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="1" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="3" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="3" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
     <Items>
       <Item Name="Star Cluster Nightlife Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
@@ -3675,6 +3701,15 @@
     <Name Value="DS-8 Starforged Sniper Rifle" />
     <Image Value="generic_unlock" />
   </collection>
+  <collection ID="2368139379645021228">
+    <Name Value="Advanced Pink-Yellow Indestructible Crystal" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_pink_yellow_indestructible" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced Pink-Yellow Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="2373128206883557075">
     <Name Value="Appearance Option: Double Braids" />
     <Description Value="Adds a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
@@ -3682,7 +3717,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Double Braids" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." />
+      <Item Name="Appearance Option: Double Braids" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." />
     </Items>
   </collection>
   <collection ID="2374368765709680371">
@@ -4238,6 +4273,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="2761255070657765624">
+    <Name Value="Advanced Pink-Yellow War Hero's Crystal" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="2762157810015855778">
     <Name Value="Glowing Eyes - Gold" />
     <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
@@ -4261,7 +4300,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Interplanetary Component Exchange item." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Dogfighter's Starfighter Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -4475,6 +4514,14 @@
       <Item Name="THORN Containment Bracers" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="2876602723015853350">
+    <Name Value="Prinawe Collective" />
+    <Description Value="Granted to players who attended the 2015 Community Cantina in Germany." />
+    <Image Value="mount.prinawe.collective" />
+    <Items>
+      <Item Name="Prinawe Collective" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
+    </Items>
+  </collection>
   <collection ID="2876646927514007217">
     <Name Value="Spacer's Kolto Tank" />
     <Description Value="Add some style to your Stronghold with this furniture decoration." />
@@ -4566,7 +4613,7 @@
     <Image Value="mtx.pet.model.ssc4.bloodmark" />
     <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
     <Items>
-      <Item Name="Model S-SC4 Bloodmark" Description="Right-click this item to add Model S-SC4 Bloodmark to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRarityRare" />
+      <Item Name="Model S-SC4 Bloodmark" Description="Right-click this item to add Model S-SC4 Bloodmark to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="3019168694164725333">
@@ -4786,6 +4833,10 @@
     <Items>
       <Item Name="Advanced Blood Red Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRarityRare" />
     </Items>
+  </collection>
+  <collection ID="3216811763543526662">
+    <Name Value="Advanced Pink-Yellow Indestructible Crystal" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="3218666267875890920">
     <Name Value="UNKNOWN" />
@@ -5458,7 +5509,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
     <Golden-description Value="One Contraband Resale Corporation Item." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Supreme Mogul's Contraband Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -5874,7 +5925,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Pompadour" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Pompadour" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="3892848638876176872">
@@ -6863,7 +6914,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Bounty Supply Corporation item" ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Opportunists's Bounty Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -7230,6 +7281,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="4655709799875624571">
+    <Name Value="Prinawe Union" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="4655978607030401961">
     <Name Value="Mission Vao's Armor Set" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -7246,7 +7301,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Dreadlocks" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Dreadlocks" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="4675405505992936628">
@@ -7290,7 +7345,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Bounty Supply Corporation item" ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Tracker's Bounty Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -7695,6 +7750,10 @@
       <Item Name="Emote: Heel Click" Description="Use this item to learn the /Heelclick emote." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="4926086996779762343">
+    <Name Value="Prinawe Aggregate" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="4953005376800690912">
     <Name Value="Life Day Robes" />
     <Description Value="A collection of Life Day attire. The Life Day Robes are adaptive, allowing anyone to share the spirit of Life Day." />
@@ -7969,7 +8028,7 @@
     </Items>
   </collection>
   <collection ID="5136297106341852186">
-    <Name Value="Emote:Celebrate" />
+    <Name Value="Emote: Celebrate" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
     <Image Value="mtx_emote_celebration" />
     <Golden-description Value="Found in the Architect's Stronghold pack." ID="0" />
@@ -8083,7 +8142,7 @@
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Skip Tracer's Cartel Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -8859,7 +8918,8 @@
     <Name Value="Emote: Possessed" />
     <Description Value="Watch as a strange force possesses your mind." />
     <Image Value="mtx_emote_possessed" />
-    <Golden-description Value="This item unlocks Emote: Possessed." ID="0" />
+    <Golden-description Value="This item is exclusive to the Cartel Market." ID="0" />
+    <Golden-description Value="This item unlocks Emote: Possessed." ID="1" />
     <Items>
       <Item Name="Emote: Possessed" Description="Use this item to learn the /Possessed emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -9295,7 +9355,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Short Wavy" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Short Wavy" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="5993367849993457756">
@@ -9694,12 +9754,12 @@
   </collection>
   <collection ID="6255156212372813375">
     <Name Value="Appearance Option: Bright Yellow Eyes" />
-    <Description Value="Adds a new eye color for Human characters." />
+    <Description Value="Adds a new eye color for Human and Cyborg characters." />
     <Image Value="mtx_appearance_bright_yellow_eyes" />
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Bright Yellow Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Bright Yellow Eyes" Description="Unlocks a new eye color for Human and Cyborg characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="6265328653265119993">
@@ -9794,7 +9854,7 @@
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Space Pirate's Cartel Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -10475,7 +10535,7 @@
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Blockade Runner's Cartel Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -10742,6 +10802,7 @@
   </collection>
   <collection ID="7059552489790742026">
     <Name Value="Advanced Black-Purple Striated War Hero's Crystal" />
+    <Description Value="Granted to all players who subscribed to Star WarsT: The Old RepublicT as of March, 2015.Medi" />
     <Items>
       <Item Name="Advanced Black-Purple Striated War Hero's Crystal" Description="This Color Crystal can be used to change the color of your weapon." />
     </Items>
@@ -10772,6 +10833,7 @@
   </collection>
   <collection ID="7076784036024658768">
     <Name Value="Advanced Black-Purple Striated Indestructible Crystal" />
+    <Description Value="Granted to all players who subscribed to Star WarsT: The Old RepublicT as of March, 2015.Medi" />
     <Items>
       <Item Name="Advanced Black-Purple Striated Indestructible Crystal" Description="This Color Crystal can be used to change the color of your weapon." />
     </Items>
@@ -10786,7 +10848,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Binary Star Realty item." ID="4" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Gatekeeper's Stronghold Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -10914,7 +10976,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
     <Golden-description Value="One Contraband Resale Corporation Item." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Vice Commandant's Contraband Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -11238,7 +11300,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Binary Star Realty item." ID="4" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Constable's Stronghold Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -11404,7 +11466,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Binary Star Realty item." ID="4" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Seneschal's Stronghold Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -11611,6 +11673,14 @@
       <Item Name="Customization Control: Display Character Titles" Description="Unlocks access to displaying your Character Titles. " Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
+  <collection ID="7497782544899243894">
+    <Name Value="Prinawe Junction" />
+    <Description Value="Granted to players who attended the 2015 Community Cantina in San Diego." />
+    <Image Value="mount.prinawe.junction" />
+    <Items>
+      <Item Name="Prinawe Junction" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
+    </Items>
+  </collection>
   <collection ID="7498090284106204363">
     <Name Value="Flagship Expansion: Valor-Class Republic Cruiser" />
   </collection>
@@ -11674,6 +11744,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="7535839676527618253">
+    <Name Value="Advanced Pink-Yellow Eviscerating Crystal" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="7546889880134351842">
     <Name Value="Arrangement: Spacer's Lounge" />
@@ -11838,6 +11912,16 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="7631322064640748347">
+    <Name Value="Appearance Option: Undercut" />
+    <Description Value="Adds a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
+    <Image Value="mtx_appearance_undercut_customization" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
+    <Items>
+      <Item Name="Appearance Option: Undercut" Description="Unlocks a new hairstyle for male Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="7636094012118716833">
     <Name Value="Voss Dignitary Outfit" />
     <Image Value="generic_unlock" />
@@ -11943,12 +12027,12 @@
   </collection>
   <collection ID="7690592769615103731">
     <Name Value="Appearance Option: Bright Blue Eyes" />
-    <Description Value="Adds a new eye color for Human characters." />
-    <Image Value="mtx_appearance_bright_blue_eyes" />
+    <Description Value="Adds a new eye color for Human and Cyborg characters." />
+    <Image Value="mtx_appearance_human_eye_04" />
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Bright Blue Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Bright Blue Eyes" Description="Unlocks a new eye color for Human and Cyborg characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="7708342535094056735">
@@ -12216,7 +12300,7 @@
     <Image Value="mtx_emote_angry_dance" />
     <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
     <Items>
-      <Item Name="Emote: Angry Dance" Description="Use this item to learn the /angrydance emote." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Emote: Angry Dance" Description="Use this item to learn the /angrydance emote." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="7907501617381588946">
@@ -12446,7 +12530,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
     <Golden-description Value="One Freebooter's Trade Union item." ID="3" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Pilgrim's Shadow Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -13908,6 +13992,10 @@
       <Item Name="Interstellar Regulator's Blaster Aurek" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="9159126104626531064">
+    <Name Value="Prinawe Junction" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="9169508725081871372">
     <Name Value="Sanctified Caretaker Armor Set" />
     <Image Value="generic_unlock" />
@@ -14446,6 +14534,14 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-8869140332456452187">
+    <Name Value="Prinawe Union" />
+    <Description Value="Granted to players who attended the 2015 Community Cantina in New York." />
+    <Image Value="mount.prinawe.union" />
+    <Items>
+      <Item Name="Prinawe Union" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
+    </Items>
+  </collection>
   <collection ID="-8868373726508277035">
     <Name Value="Ambitious Warrior Armor Set" />
     <Description Value="This is a RARE item found in a Pack from the Cartel Market." />
@@ -14634,7 +14730,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Bounty Supply Corporation item" ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Freelancer's Bounty Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -15113,6 +15209,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-8399485396992174362">
+    <Name Value="Arctic Thranta" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-8392392442957436445">
     <Name Value="Mood: Cobalt Durasteel" />
@@ -16121,12 +16221,12 @@
   </collection>
   <collection ID="-7711604470928379810">
     <Name Value="Appearance Option: Vibrant Green Eyes" />
-    <Description Value="Adds a new eye color for Human characters." />
+    <Description Value="Adds a new eye color for Human and Cyborg characters." />
     <Image Value="mtx_appearance_vibrant_green_eyes_customization" />
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Vibrant Green Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Vibrant Green Eyes" Description="Unlocks a new eye color for Human and Cyborg characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-7709364419168506840">
@@ -16524,6 +16624,15 @@
     <Golden-description Value="Found in the Club Vertica Nightlife Pack." ID="0" />
     <Items>
       <Item Name="Model FT-2 Quell" Description="Right-click this item to add Model FT-2 Quell to your collection of pets. You can then summon it from the Pets tab of your Abilities page." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-7458979222432763785">
+    <Name Value="Advanced Pink-Yellow Eviscerating Crystal" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_pink_yellow_eviscerating" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced Pink-Yellow Eviscerating Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-7443894298168672033">
@@ -18033,7 +18142,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
     <Golden-description Value="One Contraband Resale Corporation Item." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Archon's Contraband Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -18605,7 +18714,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Pigtails" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Pigtails" Description="Unlocks a new hairstyle for female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-6005305823382114791">
@@ -18984,7 +19093,7 @@
     <Golden-description Value="Note: This is a credit escrow transfer and not a purchase of credits." ID="1" />
     <Golden-description Value="Subscribers have no Credit Limit and cannot use Credit Escrow items." ID="2" />
     <Items>
-      <Item Name="Credit Escrow Transfer: 600k" Description="Transfers 600,000 Credits from your Escrow to your current balance. &#xA;&#xA;You must have sufficient Credits in Escrow to use this. Subscribers do not have an Escrow." Rarity="itmMTXRarityRare" />
+      <Item Name="Credits Escrow Transfer: 600k" Description="Transfers 600,000 Credits from your Escrow to your current balance. &#xA;&#xA;You must have sufficient Credits in Escrow to use this. Subscribers do not have an Escrow." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="-5726718513814039523">
@@ -19654,7 +19763,7 @@
     </Items>
   </collection>
   <collection ID="-5198432984364016498">
-    <Name Value="Appearance Option: Brilliant Blue Eyes" />
+    <Name Value="Appearance Option: Bright Blue Eyes" />
     <Image Value="generic_unlock" />
   </collection>
   <collection ID="-5196954401229767973">
@@ -20102,7 +20211,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Interplanetary Component Exchange item." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Space Jockey's Starfighter Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -20847,9 +20956,10 @@
     <Name Value="Appearance Option: Afro" />
     <Description Value="Adds a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
     <Image Value="mtx_appearance_female_afro" />
-    <Golden-description Value="Found in the Apprentice's Shadow Pack." ID="0" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Afro" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Afro" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-4507087793775495730">
@@ -21225,7 +21335,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="2" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
     <Golden-description Value="One Interplanetary Component Exchange item." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Hotshot's Starfighter Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -21298,7 +21408,8 @@
     <Name Value="Emote: Freezing" />
     <Description Value="Try to warm yourself up when it is freezing out." />
     <Image Value="mtx_emote_freezing" />
-    <Golden-description Value="This item unlocks Emote: Freezing" ID="0" />
+    <Golden-description Value="This item is exclusive to the Cartel Market." ID="0" />
+    <Golden-description Value="This item unlocks Emote: Freezing" ID="1" />
     <Items>
       <Item Name="Emote: Freezing" Description="Use this item to learn the /freezing emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -21775,7 +21886,8 @@
     <Name Value="Emote: Sing" />
     <Description Value="Complete your musical group with the Emote: Sing unlock." />
     <Image Value="mtx_emote_sing" />
-    <Golden-description Value="This item unlocks Emote: Sing." ID="0" />
+    <Golden-description Value="This item is exclusive to the Cartel Market." ID="0" />
+    <Golden-description Value="This item unlocks Emote: Sing." ID="1" />
     <Items>
       <Item Name="Emote: Sing" Description="Use this item to learn the /Sing emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -21903,13 +22015,12 @@
     <Name Value="Apprentice's Shadow Pack" />
     <Description Value="A myriad of valuable goods from the Shadow Shipment. Each pack contains rare bonus items found nowhere else!" />
     <Image Value="mtx_shadow_apprentice" />
-    <Golden-description Value="Contains 1 bonus Stronghold decoration." ID="0" />
-    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="1" />
-    <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
-    <Golden-description Value="One companion gift of at least Prototype quality." ID="3" />
-    <Golden-description Value="One Freebooter's Trade Union item." ID="4" />
-    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="0" />
+    <Golden-description Value="One boost item, for either Experience or Social Points." ID="1" />
+    <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
+    <Golden-description Value="One Freebooter's Trade Union item." ID="3" />
+    <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Apprentice's Shadow Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -21935,7 +22046,7 @@
     <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
     <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: White Eyes" Description="Unlocks a new eye color for Human characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: White Eyes" Description="Unlocks a new eye color for Human and Cyborg characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-3891243214617873818">
@@ -22074,7 +22185,7 @@
     <Golden-description Value="Two Rare bonus items with a chance of a Super Rare!" ID="0" />
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="1" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="3" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="3" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
     <Items>
       <Item Name="Club Vertica Nightlife Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
@@ -22184,6 +22295,7 @@
   </collection>
   <collection ID="-3677712606327859045">
     <Name Value="Advanced Black-Purple Striated Eviscerating Crystal" />
+    <Description Value="Granted to all players who subscribed to Star WarsT: The Old RepublicT as of March, 2015.Medi" />
     <Items>
       <Item Name="Advanced Black-Purple Striated Eviscerating Crystal" Description="This Color Crystal can be used to change the color of your weapon." />
     </Items>
@@ -22520,6 +22632,7 @@
   </collection>
   <collection ID="-3367887033008859400">
     <Name Value="Advanced Black-Purple Striated Hawkeye Crystal" />
+    <Description Value="Granted to all players who subscribed to Star WarsT: The Old RepublicT as of March, 2015.Medi" />
     <Items>
       <Item Name="Advanced Black-Purple Striated Hawkeye Crystal" Description="This Color Crystal can be used to change the color of your weapon." />
     </Items>
@@ -22896,9 +23009,10 @@
     <Name Value="Appearance Option: Shaggy " />
     <Description Value="Adds a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters." />
     <Image Value="mtx_appearance_male_shaggy" />
-    <Golden-description Value="Found in the Apprentice's Shadow Pack." ID="0" />
+    <Golden-description Value="Appearance Options can be used in Appearance Designer and Character Creation." ID="0" />
+    <Golden-description Value="Appearance Options are an account wide unlock." ID="1" />
     <Items>
-      <Item Name="Appearance Options: Shaggy" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Appearance Option: Shaggy" Description="Unlocks a new hairstyle for male and female Human, Cyborg, Chiss, Mirialan, Miralukan, and Sith characters, available at Character Creation or via the Appearance Designer." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
   <collection ID="-3086478730202204760">
@@ -22948,7 +23062,7 @@
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
     <Golden-description Value="One Contraband Resale Corporation Item." ID="5" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="6" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="6" />
     <Items>
       <Item Name="Enforcer's Contraband Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -23557,6 +23671,10 @@
       <Item Name="Art: Underworld Casino" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-2664940066086671985">
+    <Name Value="Prinawe Congregate" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-2647986441664096962">
     <Name Value="Kolto Tank" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -23870,7 +23988,7 @@
     <Golden-description Value="One companion gift of at least Prototype quality." ID="2" />
     <Golden-description Value="One Freebooter's Trade Union item." ID="3" />
     <Golden-description Value="Contains a varied amount of Scrap Materials which can be traded to a Scrap Peddler on the fleet." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Acolyte's Shadow Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -23997,6 +24115,10 @@
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
+  </collection>
+  <collection ID="-2301563425528764509">
+    <Name Value="Advanced Pink-Yellow Hawkeye Crystal" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-2271542175457240095">
     <Name Value="Room Expansion: Nar Shaddaa Sky Palace" />
@@ -24159,7 +24281,8 @@
     <Name Value="Emote: Chilly" />
     <Description Value="Better bundle up: space can be a chilly place!" />
     <Image Value="mtx_emote_chilly" />
-    <Golden-description Value="This item unlocks Emote: Chilly" ID="0" />
+    <Golden-description Value="This item is exclusive to the Cartel Market." ID="0" />
+    <Golden-description Value="This item unlocks Emote: Chilly" ID="1" />
     <Items>
       <Item Name="Emote: Chilly" Description="Use this item to learn the /chilly emote." Rarity="itmMTXRaritySuperRare" />
     </Items>
@@ -24178,6 +24301,15 @@
   <collection ID="-2113859504287891482">
     <Name Value="Glacial Icetromper" />
     <Image Value="generic_unlock" />
+  </collection>
+  <collection ID="-2109529180770988441">
+    <Name Value="Gale Cutter" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx.mount.cutter.gale" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Gale Cutter" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" Rarity="itmMTXRaritySuperRare" />
+    </Items>
   </collection>
   <collection ID="-2092089329303363574">
     <Name Value="Irakie Hawk" />
@@ -24323,20 +24455,11 @@
     <Image Value="mtx_companion_lord_scourge_customization_9" />
     <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
     <Items>
-      <Item Name="Lord Scourge Customization 9" Description="Jedi Knight Companion." Rarity="itmMTXRaritySuperRare" />
+      <Item Name="Lord Scourge Customization 9" Description="Jedi Knight Companion." Rarity="itmMTXRarityRare" />
     </Items>
   </collection>
   <collection ID="-1990730541288632102">
     <Name Value="Room Expansion: Nar Shaddaa Sky Palace" />
-  </collection>
-  <collection ID="-1986952900387713636">
-    <Name Value="Appearance Option: Brilliant Blue Eyes" />
-    <Description Value="Adds a new eye color for Human characters." />
-    <Image Value="mtx_appearance_human_eye_04" />
-    <Golden-description Value="Found in the Apprentice's Shadow Pack." ID="0" />
-    <Items>
-      <Item Name="Appearance Options: Sith Brilliant Blue Eyes" Description="Unlocks a new eye color for Sith characters, available at Character Creation or via the Appearance Designer." />
-    </Items>
   </collection>
   <collection ID="-1985045353944393296">
     <Name Value="Covert Energy Boots" />
@@ -24792,6 +24915,10 @@
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-1736284022278714828">
+    <Name Value="Prinawe Collective" />
+    <Image Value="generic_unlock" />
+  </collection>
   <collection ID="-1735744111014524504">
     <Name Value="Advanced Copper Eviscerating Crystal" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -25220,6 +25347,15 @@
       <Item Name="TRK-R Treatment Chamber" Rarity="itmMTXRaritySuperRare" />
     </Items>
   </collection>
+  <collection ID="-1363896610763529487">
+    <Name Value="Advanced Pink-Yellow Hawkeye Crystal" />
+    <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
+    <Image Value="mtx_crystal_pink_yellow_hawkeye" />
+    <Golden-description Value="Found in the Master's Shadow Pack." ID="0" />
+    <Items>
+      <Item Name="Advanced Pink-Yellow Hawkeye Crystal" Description="This Color Crystal can be used to change the color of your weapon." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
   <collection ID="-1357290777331594693">
     <Name Value="Carth Onasi's Armor Set" />
     <Description Value="This is a SUPER RARE item found in a Pack from the Cartel Market." />
@@ -25354,6 +25490,42 @@
   </collection>
   <collection ID="-1280220013589408181">
     <Name Value="Room Expansion: Kaas City Skyrise Apartment" />
+  </collection>
+  <collection ID="-1274338452534094143">
+    <Name Value="Hypercrate: Shipment 3 Bounty Packs" />
+    <Description Value="The Hypercrate: Shipment 3 Bounty Packs offers a large quantity of Bounty Packs from Shipment 3. The Bounty Packs from Shipment 3 are the Freelancer's, Pursuer's, Tracker's, and Opportunist's." />
+    <Image Value="hypercrate_mixed_shipment_3" />
+    <Golden-description Value="Contains 6 Freelancer's Bounty Packs." ID="0" />
+    <Golden-description Value="Contains 6 Pursuer's Bounty Packs." ID="1" />
+    <Golden-description Value="Contains 6 Tracker's Bounty Packs." ID="2" />
+    <Golden-description Value="Contains 6 Opportunist's Bounty Packs." ID="3" />
+    <Items>
+      <Item Name="Hypercrate: Shipment 3 Bounty Packs" Description="This item contains:&#xA;6 Freelancer's Bounty Packs&#xA;6 Pursuer's Bounty Packs&#xA;6 Tracker's Bounty Packs&#xA;6 Opportunist's Bounty Packs" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-1274337353022465932">
+    <Name Value="Hypercrate: Shipment 4 Starfighter Packs" />
+    <Description Value="The Hypercrate: Shipment 4 Starfighter Packs offers a large quantity of Starfighter Packs from Shipment 4. The Starfighter Packs from Shipment 4 are the Dogfighter's, Galactic Ace's, Space Jockey's, and Hotshot's." />
+    <Image Value="hypercrate_mixed_shipment_4" />
+    <Golden-description Value="Contains 6 Dogfighter's Starfighter Packs." ID="0" />
+    <Golden-description Value="Contains 6 Galactic Ace's Starfighter Packs." ID="1" />
+    <Golden-description Value="Contains 6 Space Jockey's Starfighter Packs." ID="2" />
+    <Golden-description Value="Contains 6 Hotshot's Starfighter Packs." ID="3" />
+    <Items>
+      <Item Name="Hypercrate: Shipment 4 Starfighter Packs" Description="This item contains:&#xA;6 Dogfighter's Starfighter Packs&#xA;6 Galactic Ace's Starfighter Packs&#xA;6 Space Jockey's Starfighter Packs&#xA;6 Hotshot's Starfighter Packs" Rarity="itmMTXRarityRare" />
+    </Items>
+  </collection>
+  <collection ID="-1274336253510837721">
+    <Name Value="Hypercrate: Shipment 5 Stronghold Packs" />
+    <Description Value="The Hypercrate: Shipment 5 Stronghold Packs offers a large quantity of Stronghold Packs from Shipment 5. The Stronghold Packs from Shipment 5 are the Gatekeeper's, Constable's, Seneschal's, and Architect's." />
+    <Image Value="hypercrate_mixed_shipment_5" />
+    <Golden-description Value="Contains 6 Gatekeeper's Stronghold Packs." ID="0" />
+    <Golden-description Value="Contains 6 Constable's Stronghold Packs." ID="1" />
+    <Golden-description Value="Contains 6 Seneschal's Stronghold Packs." ID="2" />
+    <Golden-description Value="Contains 6 Architect's Stronghold Packs." ID="3" />
+    <Items>
+      <Item Name="Hypercrate: Shipment 5 Stronghold Packs" Description="This item contains:&#xA;6 Gatekeeper's Stronghold Packs&#xA;6 Constable's Stronghold Packs&#xA;6 Seneschal's Stronghold Packs&#xA;6 Architects's Packs" Rarity="itmMTXRarityRare" />
+    </Items>
   </collection>
   <collection ID="-1262421779956218671">
     <Name Value="Emote: Head Bang" />
@@ -25750,7 +25922,7 @@
     <Golden-description Value="One boost item, for either Experience or Social Points." ID="2" />
     <Golden-description Value="One crafting material of at least Prototype quality." ID="3" />
     <Golden-description Value="One companion gift of at least Prototype quality." ID="4" />
-    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack" ID="5" />
+    <Golden-description Value="This Pack contains Rare bonus items not found in any other Cartel Market Pack." ID="5" />
     <Items>
       <Item Name="Crime Lord's Cartel Pack" Description="A pack of assorted goods purchased from the Cartel Market." Rarity="itmMTXRarityRare" />
     </Items>
@@ -26314,6 +26486,14 @@
     <Golden-description Value="Found in the Archon's Contraband Pack." ID="0" />
     <Items>
       <Item Name="Collection Item Unlock" Description="Unlocks access to the Collection item for all players on your account." Rarity="itmMTXRaritySuperRare" />
+    </Items>
+  </collection>
+  <collection ID="-688585958623374091">
+    <Name Value="Prinawe Aggregate" />
+    <Description Value="Granted to players who attended the 2015 Community Cantina in Seattle." />
+    <Image Value="mount.prinawe.aggregate" />
+    <Items>
+      <Item Name="Prinawe Aggregate" Description="Movement speed increases based on the rank of your Speeder Piloting skill.  &#xA;&#xA;Speeder Piloting Rank 1:  90%&#xA;Speeder Piloting Rank 2:  100%&#xA;Speeder Piloting Rank 3:  110%" />
     </Items>
   </collection>
   <collection ID="-686344034723456712">
@@ -26966,6 +27146,10 @@
     <Items>
       <Item Name="Improved Space Mission Experience V" Description="Increases the amount of experience obtained from completing space missions by 6%. This increase is cumulative with previous increases to space experience." Rarity="itmMTXRarityNormal" />
     </Items>
+  </collection>
+  <collection ID="-258075120012725067">
+    <Name Value="Gale Cutter" />
+    <Image Value="generic_unlock" />
   </collection>
   <collection ID="-253067152650995717">
     <Name Value="Guild Bank" />

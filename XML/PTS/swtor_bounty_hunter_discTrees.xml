@@ -667,7 +667,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.shoulder_cannon">
         <Label Value="Shoulder Cannon" />
-        <Description Value="Deploys a shoulder cannon that gradually loads 4 missiles over time. Once loaded, the shoulder cannon can be triggered again to fire against an enemy target within 10 meters, launching 1 missile that deals &lt;&lt;1&gt;&gt; kinetic damage. A missile can be launched up to once per second. Loading and launching the shoulder cannon does not respect the global cooldown and can be done while controlled. Once all missiles have been loaded, depleting all missiles puts the shoulder cannon on cooldown for 2 minutes." />
+        <Description Value="Deploys a shoulder cannon that gradually loads 4 missiles over time. Once loaded, the shoulder cannon can be triggered again to fire against an enemy target within 10 meters, launching 1 missile that deals &lt;&lt;1&gt;&gt; kinetic damage. A missile can be launched up to once per 1.5 seconds. Loading and launching the shoulder cannon does not respect the global cooldown and can be done while controlled. Once all missiles have been loaded, depleting all missiles puts the shoulder cannon on cooldown for 1.5 minutes." />
         <Icon Value="powerloaders" />
         <Damage Value="True" />
         <Healing Value="False" />
@@ -679,9 +679,9 @@
         <CombatLogID Value="3066482095292416" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1" />
-            <StandardHealthPercentMax Value="0.12" />
-            <StandardHealthPercentMin Value="0.08" />
+            <Coefficient Value="0.98" />
+            <StandardHealthPercentMax Value="0.118" />
+            <StandardHealthPercentMin Value="0.078" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -819,7 +819,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.automated_defenses">
         <Label Value="Automated Defenses" />
-        <Description Value="While Kolto Overload is active, your damage reduction is increased by 30%. Additionally, the cooldown of Kolto Overload is reduced by 30 seconds." />
+        <Description Value="While Kolto Overload is active, your damage reduction is increased by 30%. Additionally, the cooldown of Kolto Overload is reduced by 60 seconds." />
         <Icon Value="adrenelinerush" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2897,7 +2897,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.pinning_fire">
         <Label Value="Pinning Fire" />
-        <Description Value="Unload and Blazing Bolts slow the target's movement speed by 70% for 2 seconds with each hit." />
+        <Description Value="Unload and Blazing Bolts slow the target's movement speed by 70% for 3 seconds with each hit." />
         <Icon Value="cripplingfire" />
         <LevelAquired Value="24" />
       </Talent>
@@ -2909,7 +2909,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.arsenal.target_tracking">
         <Label Value="Target Tracking" />
-        <Description Value="Increases the critical damage bonus of Rail Shot, Heatseeker Missiles, and  Priming Shot by 30%." />
+        <Description Value="Increases the critical damage bonus of Rail Shot, Heatseeker Missiles, and Priming Shot by 30%." />
         <Icon Value="missilefan" />
         <LevelAquired Value="36" />
       </Talent>

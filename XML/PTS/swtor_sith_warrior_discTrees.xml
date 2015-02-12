@@ -530,7 +530,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.utility.unyielding">
         <Label Value="Unyielding" />
-        <Description Value="You generate 4 rage when stunned, immobilized, put to sleep, or knocked around." />
+        <Description Value="You generate 4 rage when stunned, immobilized, put to sleep, or knocked around. Additionally, the cooldown of Unleash is reduced by 30 seconds." />
         <Icon Value="chargedgauntlets" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1330,7 +1330,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.force_camouflage">
         <Label Value="Force Camouflage" />
-        <Description Value="Obscures yourself with the Force, becoming difficult to detect, reducing your threat towards all enemies, reducing all damage taken by 50%, and increasing movement speed by 30%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Dealing direct damage ends the effect prematurely." />
+        <Description Value="Obscures yourself with the Force, becoming difficult to detect, reducing your threat towards all enemies, reducing all damage taken by 50%, granting immunity to controlling effects, and increasing movement speed by 30%. Lasts &lt;&lt;1[%d/%d/%d]&gt;&gt; seconds. Dealing direct damage ends the effect prematurely." />
         <Icon Value="feint" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -1783,7 +1783,7 @@
       </Ability>
       <Ability Name="abl.sith_warrior.skill.utility.unyielding">
         <Label Value="Unyielding" />
-        <Description Value="You generate 4 rage when stunned, immobilized, put to sleep, or knocked around." />
+        <Description Value="You generate 4 rage when stunned, immobilized, put to sleep, or knocked around. Additionally, the cooldown of Unleash is reduced by 30 seconds." />
         <Icon Value="chargedgauntlets" />
         <Damage Value="False" />
         <Healing Value="False" />
