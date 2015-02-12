@@ -11,7 +11,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1985486071529472" />
     </Ability>
     <Ability Name="abl.jedi_knight.force_kick">
@@ -107,7 +106,6 @@
       <Passive Value="False" />
       <LevelAquired Value="5" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="3460047128494080" />
       <ActionCost Value="3" />
       <Coeffcients>
@@ -187,7 +185,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810700846923776" />
     </Ability>
     <Ability Name="abl.player.proficiency.faction.republic">
@@ -199,7 +196,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.jedi_knight.dispatch">
@@ -275,7 +271,7 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="False" />
-      <Cooldown Value="1" />
+      <Cooldown Value="1.5" />
       <CombatLogID Value="989307061927936" />
     </Ability>
     <Ability Name="abl.player.proficiency.weapon.vibrosword">
@@ -287,7 +283,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810730911694848" />
     </Ability>
     <Ability Name="abl.jedi_knight.awe">
@@ -312,7 +307,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.flurry.jedi_knight.strike_optimize">
@@ -324,7 +318,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="947362411315200" />
@@ -375,7 +368,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="812131071033344" />
     </Ability>
@@ -402,7 +394,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.jedi_knight.force_leap">
@@ -442,7 +433,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810743796596736" />
     </Ability>
     <Ability Name="abl.jedi_knight.slash">
@@ -454,7 +444,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="947001634062336" />
@@ -523,7 +512,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810623537512448" />
       </Ability>
       <Ability Name="abl.jedi_knight.zealous_strike">
@@ -605,7 +593,7 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="812135366000640" />
       </Ability>
       <Ability Name="abl.jedi_knight.leg_slash">
@@ -617,7 +605,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="1501804034523136" />
@@ -672,7 +659,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2528580391141376" />
       </Ability>
       <Ability Name="abl.jedi_knight.transcendence">
@@ -684,7 +670,7 @@
         <Passive Value="False" />
         <LevelAquired Value="22" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="2528567506239488" />
       </Ability>
       <Ability Name="abl.jedi_knight.rebuke">
@@ -715,7 +701,6 @@
         <Passive Value="False" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -767,7 +752,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="2528563211272192" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -787,7 +772,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3478012976693248" />
       </Ability>
       <Talent Name="tal.jedi_knight.skill.valor">
@@ -808,7 +792,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="3460841697443840" />
@@ -842,7 +825,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3409216190545920" />
@@ -889,7 +871,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1262192104046592" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -909,7 +890,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1262196399013888" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.blazing_ward">
@@ -921,7 +901,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3466347845517312" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.burning_focus">
@@ -933,7 +912,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1262183514112000" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.merciless_slash">
@@ -974,7 +952,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3188042554671104" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.mind_sear">
@@ -986,7 +963,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1262187809079296" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.watchman.focused_leap">
@@ -998,7 +974,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2850754477948928" />
       </Ability>
       <Talent Name="tal.jedi_knight.skill.watchman.searing_saber">
@@ -1177,7 +1152,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3477450335977472" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.concentration.koan">
@@ -1189,7 +1163,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3477261357416448" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.concentration.force_flagellation">
@@ -1201,7 +1174,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3477441746042880" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1220,7 +1192,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3229407384698880" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.felling_blow">
@@ -1232,7 +1203,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1263403284824064" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.concentration.nimble_slashes">
@@ -1244,7 +1214,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3473851153383424" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
@@ -1256,7 +1225,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3187673187483648" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.force_exhaustion">
@@ -1338,7 +1306,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429982357422080" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -1352,7 +1319,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3516783646474240" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1366,7 +1332,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3477699444080640" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -1509,7 +1474,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3188815648784384" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.force_health">
@@ -1521,7 +1485,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3469650675367936" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.hand_of_justice">
@@ -1533,7 +1496,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3188858598457344" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.ataru_form">
@@ -1545,7 +1507,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="1261706772742144" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
@@ -1578,7 +1540,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3486302263574528" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.combat.blade_rush">
@@ -1590,7 +1551,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="1261711067709440" />
@@ -1753,7 +1713,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1281979018379264" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.blade_barricade">
@@ -1765,7 +1724,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429359587164160" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.defense.warding_call">
@@ -1812,7 +1770,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2308467612188672" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -1832,7 +1789,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1282013378117632" />
       </Ability>
       <Talent Name="tal.jedi_knight.skill.defense.warding_power">
@@ -1901,7 +1857,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="1280638988582912" />
         <Coeffcients>
@@ -1922,7 +1877,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3187106251800576" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.vigilant_thrust">
@@ -1955,7 +1909,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2848894757109760" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.zen_strike">
@@ -1967,7 +1920,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="2209868047974400" />
       </Ability>
@@ -1980,7 +1932,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1280780722503680" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.burning_purpose">
@@ -1992,7 +1943,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429814853697536" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2012,7 +1962,7 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="1280806492307456" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.overhead_slash">
@@ -2047,7 +1997,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1280849441980416" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.vigilance.plasma_brand">
@@ -2124,7 +2073,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430025307095040" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
@@ -2138,7 +2086,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430029602062336" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -2152,7 +2099,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429982357422080" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -2166,7 +2112,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430008127225856" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -2180,7 +2125,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430012422193152" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -2194,7 +2138,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429990947356672" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -2208,7 +2151,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430038191996928" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
@@ -2222,7 +2164,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430016717160448" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="11" />
@@ -2244,7 +2185,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3429973767487488" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -2258,7 +2198,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430003832258560" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -2351,7 +2290,6 @@
         <Passive Value="True" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3461090805547008" />
       </Ability>
       <Ability Name="abl.jedi_knight.taunt">
@@ -2377,7 +2315,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810735206662144" />
       </Ability>
       <Ability Name="abl.jedi_knight.visionary">
@@ -2389,7 +2326,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3185723272331264" />
       </Ability>
       <Ability Name="abl.jedi_knight.guard">
@@ -2401,7 +2337,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1780044900859904" />
       </Ability>
@@ -2414,7 +2349,6 @@
         <Passive Value="False" />
         <LevelAquired Value="15" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="1191685920915456" />
         <ActionCost Value="2" />
@@ -2526,7 +2460,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <CombatLogID Value="812161135804416" />
       </Ability>
@@ -2560,7 +2493,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.jedi_knight.blade_turning">
@@ -2572,7 +2504,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2311847751450624" />
       </Ability>
       <Ability Name="abl.jedi_knight.saber_reflect">
@@ -2603,7 +2534,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
         <CombatLogID Value="812174020706304" />
       </Ability>
       <Ability Name="abl.jedi_knight.combat_focus">
@@ -2627,7 +2557,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2035415066345472" />
       </Ability>
       <Ability Name="abl.jedi_knight.riposte">
@@ -2821,7 +2750,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3462830267301888" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2840,7 +2768,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1417102984478720" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.momentum">
@@ -2852,7 +2779,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3229407384698880" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.zephyrean_slash">
@@ -2864,7 +2790,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2848937706782720" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.felling_blow">
@@ -2876,7 +2801,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1263403284824064" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.heightened_power">
@@ -2888,7 +2812,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3187673187483648" />
       </Ability>
       <Ability Name="abl.jedi_knight.skill.focus.force_exhaustion">

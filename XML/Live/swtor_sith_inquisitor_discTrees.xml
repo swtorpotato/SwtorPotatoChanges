@@ -32,7 +32,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1985486071529472" />
     </Ability>
     <Ability Name="abl.sith_inquisitor.recklessness">
@@ -179,7 +178,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810700846923776" />
     </Ability>
     <Ability Name="abl.sith_inquisitor.seethe">
@@ -191,7 +189,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="3413206215163904" />
     </Ability>
@@ -229,7 +226,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810730911694848" />
     </Ability>
     <Ability Name="abl.player.sprint">
@@ -241,7 +237,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.player.proficiency.faction.empire">
@@ -253,7 +248,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.sith_inquisitor.force_speed">
@@ -299,7 +293,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.sith_inquisitor.jolt">
@@ -325,7 +318,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="3413184740327424" />
@@ -388,7 +380,6 @@
       <Passive Value="True" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="2035415066345472" />
     </Ability>
     <Ability Name="abl.flurry.sith_inquisitor.saber_strike_optimize">
@@ -400,7 +391,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="947495555301376" />
@@ -452,7 +442,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808497528700928" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.forked_lightning">
@@ -464,7 +453,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808519003537408" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -498,7 +486,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1005649412489216" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.charged_reaction">
@@ -510,7 +497,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3417337973702656" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.subversion">
@@ -522,7 +508,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808549068308480" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_flash">
@@ -556,7 +541,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3210531003432960" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -575,7 +559,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808493233733632" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.focal_lightning">
@@ -587,7 +570,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3411024371777536" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.chain_lightning">
@@ -622,7 +604,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -668,7 +649,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3210329139970048" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.lightning_storm">
@@ -680,7 +660,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808523298504704" />
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.lightning.reverberating_force">
@@ -804,7 +783,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="808192586022912" />
@@ -851,7 +829,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="6" />
@@ -873,7 +850,7 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <TargetArc Value="360" />
         <CombatLogID Value="808214060859392" />
       </Ability>
@@ -886,7 +863,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -993,7 +969,6 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="3411286364782592" />
         <ForceCost Value="50" />
@@ -1021,7 +996,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="1.5" />
@@ -1092,7 +1066,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808471758897152" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.force_leech">
@@ -1128,7 +1101,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1195199204163584" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.creeping_terror">
@@ -1140,7 +1112,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="808424514256896" />
@@ -1218,7 +1189,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3210655557484544" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1237,7 +1207,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808428809224192" />
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.madness.lingering_nightmares">
@@ -1305,7 +1274,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3410225507860480" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
@@ -1319,7 +1287,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3411252005044224" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -1340,7 +1307,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3424175561637888" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -1354,7 +1320,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3411325019488256" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="15" />
@@ -1368,7 +1333,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3413360833986560" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1497,7 +1461,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3415280684367872" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.revivification">
@@ -1532,7 +1495,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
@@ -1555,7 +1517,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3210247535591424" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.force_bending">
@@ -1567,7 +1528,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808669327392768" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.sith_purity">
@@ -1579,7 +1539,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="987632024682496" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1598,7 +1557,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808677917327360" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.corruption.roaming_mend">
@@ -1659,7 +1617,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3415246324629504" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1724,7 +1681,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810692256989184" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.stealth">
@@ -1736,7 +1692,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808317140074496" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.mass_mind_control">
@@ -1783,7 +1738,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="975129374883840" />
         <ForceCost Value="25" />
         <Coeffcients>
@@ -1804,7 +1758,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3421972243415040" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.maul">
@@ -1816,7 +1769,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="808269895434240" />
@@ -1862,7 +1814,7 @@
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <ActivationTime Value="0.5" />
         <CombatLogID Value="3200459305123840" />
       </Ability>
@@ -1875,7 +1827,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.player.proficiency.weapon.polesaber">
@@ -1887,7 +1838,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810709436858368" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.mind_control">
@@ -1913,7 +1863,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="3421035940544512" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1932,7 +1882,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1780023426023424" />
       </Ability>
@@ -1970,7 +1919,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="808235535695872" />
@@ -2008,7 +1956,7 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="3421302228516864" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2027,7 +1975,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="808274190401536" />
@@ -2054,7 +2001,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3420357335711744" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.overcharge_saber">
@@ -2141,7 +2087,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3257230182842368" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.duplicity">
@@ -2153,7 +2098,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="949110463004672" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.entropic_field">
@@ -2165,7 +2109,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3410019349430272" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.induction">
@@ -2177,7 +2120,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1776084941012992" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.saber_conduit">
@@ -2189,7 +2131,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808626377719808" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.ball_lightning">
@@ -2228,7 +2169,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1775844422844416" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.deception.surging_charge">
@@ -2240,7 +2180,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="948659491438592" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2259,7 +2199,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="975584641417216" />
@@ -2332,7 +2271,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3410225507860480" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="7" />
@@ -2346,7 +2284,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3410234097795072" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -2360,7 +2297,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3424175561637888" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="12" />
@@ -2527,7 +2463,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="808424514256896" />
@@ -2554,7 +2489,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3430828465979392" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.hatred.raze">
@@ -2566,7 +2500,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3420361630679040" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.demolish">
@@ -2629,7 +2562,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3410186853154816" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.madness.deathmark">
@@ -2641,7 +2573,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="808428809224192" />
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.hatred.nefarious_methods">
@@ -2710,7 +2641,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3428663802462208" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.harnessed_darkness">
@@ -2722,7 +2652,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2312741104648192" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.wither">
@@ -2763,7 +2692,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="976061382787072" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.lightning_reflexes">
@@ -2775,7 +2703,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="975047770505216" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.depredating_volts">
@@ -2809,7 +2736,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="976117217361920" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.dark_ward">
@@ -2834,7 +2760,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3213455876161536" />
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.darkness.force_pull">
@@ -2860,7 +2785,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="976095742525440" />
       </Ability>
       <Talent Name="tal.sith_inquisitor.skill.darkness.electrify">

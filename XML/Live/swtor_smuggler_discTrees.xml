@@ -37,7 +37,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="947955116802048" />
@@ -69,7 +68,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <ActivationTime Value="1.5" />
@@ -139,7 +137,6 @@
       <Passive Value="False" />
       <LevelAquired Value="12" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <ActivationTime Value="1.5" />
@@ -163,7 +160,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="807247693217792" />
     </Ability>
@@ -176,7 +172,6 @@
       <Passive Value="False" />
       <LevelAquired Value="8" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="10" />
       <TargetArc Value="270" />
       <CombatLogID Value="980094357078016" />
@@ -211,7 +206,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810705141891072" />
     </Ability>
     <Ability Name="abl.state.take_cover">
@@ -235,7 +229,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.smuggler.distraction">
@@ -275,7 +268,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.state.take_cover_wrapper">
@@ -365,7 +357,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.smuggler.surrender">
@@ -389,7 +380,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810743796596736" />
     </Ability>
     <Ability Name="abl.smuggler.flash_grenade">
@@ -453,7 +443,6 @@
       <Passive Value="False" />
       <LevelAquired Value="5" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="30" />
       <TargetArc Value="270" />
       <CombatLogID Value="2115340112756736" />
@@ -510,7 +499,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404341402664960" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -524,7 +512,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405836051283968" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -538,7 +525,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405848936185856" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="11" />
@@ -552,7 +538,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405891885858816" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="18" />
@@ -566,7 +551,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405831756316672" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="6" />
@@ -580,7 +564,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405904770760704" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="19" />
@@ -602,7 +585,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404358582534144" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
@@ -616,7 +598,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405844641218560" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -637,7 +618,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3405861821087744" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -760,7 +740,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3204118617260032" />
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.shank_shot">
@@ -793,7 +772,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3204105732358144" />
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.flying_fists">
@@ -805,7 +783,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1153499366686720" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -824,7 +801,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2165836043255808" />
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.flechette_round">
@@ -836,7 +812,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2277183070404608" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -855,7 +830,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2277148710666240" />
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.round_two">
@@ -867,7 +841,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2276891012628480" />
       </Ability>
       <Ability Name="abl.smuggler.skill.scrapper.bludgeon">
@@ -901,7 +874,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="985076519141376" />
@@ -976,7 +948,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810718026792960" />
       </Ability>
       <Ability Name="abl.smuggler.heartrigger_patch">
@@ -1027,7 +998,6 @@
         <Passive Value="False" />
         <LevelAquired Value="51" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3203848034320384" />
       </Ability>
       <Ability Name="abl.smuggler.back_blast">
@@ -1094,7 +1064,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="807269168054272" />
       </Ability>
       <Ability Name="abl.smuggler.tranquilizer">
@@ -1106,7 +1075,6 @@
         <Passive Value="False" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="1138200693178368" />
@@ -1158,7 +1126,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2275727076491264" />
       </Ability>
       <Ability Name="abl.smuggler.tendon_blast">
@@ -1192,7 +1159,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1797757345988608" />
         <EnergyCost Value="15" />
         <Coeffcients>
@@ -1213,7 +1179,6 @@
         <Passive Value="False" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="3" />
@@ -1235,7 +1200,6 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="3406415871868928" />
         <EnergyCost Value="15" />
@@ -1289,7 +1253,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ActivationTime Value="2.5" />
@@ -1312,7 +1275,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2281714260901888" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.exploratory_surgery">
@@ -1324,7 +1286,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1549456696672256" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.kolto_cloud">
@@ -1380,7 +1341,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="807544045961216" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sawbones.emergency_medpac">
@@ -1392,7 +1352,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="807518276157440" />
@@ -1414,7 +1373,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="982263315562496" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1433,7 +1391,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2281701376000000" />
       </Ability>
       <Talent Name="tal.smuggler.skill.sawbones.puissant_poultices">
@@ -1496,7 +1453,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2283462312591360" />
       </Ability>
       <Ability Name="abl.smuggler.skill.ruffian.sanguinary_shot">
@@ -1536,7 +1492,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807698664783872" />
@@ -1568,7 +1523,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3406695044743168" />
       </Ability>
       <Ability Name="abl.smuggler.skill.ruffian.brutal_shots">
@@ -1580,7 +1534,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3406729404481536" />
@@ -1613,7 +1566,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3406699339710464" />
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.fighting_spirit">
@@ -1625,7 +1577,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1415805904355328" />
       </Ability>
       <Ability Name="abl.smuggler.skill.ruffian.point_blank_shot">
@@ -1674,7 +1625,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3406686454808576" />
       </Ability>
       <Talent Name="tal.smuggler.skill.dirty_fighting.open_wound">
@@ -1738,7 +1688,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810623537512448" />
       </Ability>
       <Ability Name="abl.smuggler.quickdraw">
@@ -1779,7 +1728,6 @@
         <Passive Value="False" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807204743544832" />
@@ -1821,7 +1769,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3204762862354432" />
       </Ability>
       <Ability Name="abl.smuggler.hunker_down">
@@ -1905,7 +1852,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <ChannelDuration Value="4.5" />
@@ -2050,7 +1996,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404362877501440" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -2064,7 +2009,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3512729197346816" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="7" />
@@ -2078,7 +2022,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404315632861184" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -2100,7 +2043,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404302747959296" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -2114,7 +2056,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404298452992000" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="1" />
@@ -2136,7 +2077,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404358582534144" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="11" />
@@ -2279,7 +2219,6 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="360" />
         <CombatLogID Value="1159319047372800" />
@@ -2301,7 +2240,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303412435681280" />
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.insurrection">
@@ -2313,7 +2251,6 @@
         <Passive Value="True" />
         <LevelAquired Value="24" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303373780975616" />
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.scatter_bombs">
@@ -2325,7 +2262,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3205518776598528" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2344,7 +2280,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303214867185664" />
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.contingency_charges">
@@ -2356,7 +2291,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303348011171840" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2375,7 +2309,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303240636989440" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2394,7 +2327,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2303382370910208" />
       </Ability>
       <Ability Name="abl.smuggler.skill.saboteur.sabotage_charge">
@@ -2438,7 +2370,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="1957100632670208" />
@@ -2545,7 +2476,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404440186912768" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.smoking_barrel">
@@ -2557,7 +2487,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3206575338553344" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.recoil_control">
@@ -2569,7 +2498,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2302093880721408" />
       </Ability>
       <Ability Name="abl.smuggler.skill.sharpshooter.aimed_shot">
@@ -2640,7 +2568,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3255417706643456" />
       </Ability>
       <Talent Name="tal.smuggler.skill.sharpshooter.stay_low">
@@ -2709,7 +2636,6 @@
         <Passive Value="True" />
         <LevelAquired Value="20" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2283462312591360" />
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.shrap_bomb">
@@ -2721,7 +2647,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="807698664783872" />
@@ -2822,7 +2747,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -2857,7 +2781,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1415805904355328" />
       </Ability>
       <Ability Name="abl.smuggler.skill.dirty_fighting.incendiary_mine">
@@ -2869,7 +2792,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3404624870506496" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2888,7 +2810,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3204810106994688" />
       </Ability>
       <Talent Name="tal.smuggler.skill.dirty_fighting.cheap_shots">

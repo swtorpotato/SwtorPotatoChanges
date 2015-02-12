@@ -52,7 +52,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1985486071529472" />
     </Ability>
     <Ability Name="abl.sith_warrior.vicious_slash">
@@ -64,7 +63,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="807827513802752" />
@@ -93,7 +91,6 @@
       <Passive Value="False" />
       <LevelAquired Value="5" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="996140354895872" />
       <ActionCost Value="3" />
       <Coeffcients>
@@ -152,7 +149,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <Range Value="0" />
       <TargetArc Value="270" />
       <CombatLogID Value="898601647603712" />
@@ -217,7 +213,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810700846923776" />
     </Ability>
     <Ability Name="abl.sith_warrior.force_scream">
@@ -252,7 +247,7 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="False" />
-      <Cooldown Value="1" />
+      <Cooldown Value="1.5" />
       <CombatLogID Value="989268407222272" />
     </Ability>
     <Ability Name="abl.sith_warrior.force_choke">
@@ -329,7 +324,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810730911694848" />
     </Ability>
     <Ability Name="abl.player.sprint">
@@ -341,7 +335,6 @@
       <Passive Value="False" />
       <LevelAquired Value="10" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810670782152704" />
     </Ability>
     <Ability Name="abl.sith_warrior.intimidating_roar">
@@ -366,7 +359,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="-1" />
     </Ability>
     <Ability Name="abl.player.mount.skill.speeder_piloting">
@@ -378,7 +370,6 @@
       <Passive Value="True" />
       <LevelAquired Value="25" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="1768010402496512" />
     </Ability>
     <Ability Name="abl.player.proficiency.armor.medium">
@@ -390,7 +381,6 @@
       <Passive Value="True" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <CombatLogID Value="810743796596736" />
     </Ability>
     <Ability Name="abl.sith_warrior.vicious_throw">
@@ -506,7 +496,6 @@
       <Passive Value="False" />
       <LevelAquired Value="1" />
       <OnGCD Value="True" />
-      <Cooldown Value="1" />
       <ChannelDuration Value="15" />
       <CombatLogID Value="807733024522240" />
     </Ability>
@@ -522,7 +511,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3422573538836480" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -536,7 +524,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3423690230333440" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -550,7 +537,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3423694525300736" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="4" />
@@ -722,7 +708,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2850475305074688" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.bloodlust">
@@ -734,7 +719,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191186470731776" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.blood_guard">
@@ -746,7 +730,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3458771523207168" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.deadly_saber">
@@ -778,7 +761,6 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="3455541707800576" />
@@ -812,7 +794,6 @@
         <Passive Value="False" />
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="10" />
         <TargetArc Value="270" />
         <CombatLogID Value="3361615068004352" />
@@ -839,7 +820,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2521356256149504" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.hemmorhage">
@@ -851,7 +831,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261148426993664" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.annihilation.hungering">
@@ -863,7 +842,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261152721960960" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -928,7 +906,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191740521512960" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.fury.furious_defense">
@@ -940,7 +917,6 @@
         <Passive Value="True" />
         <LevelAquired Value="59" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3461507417374720" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
@@ -952,7 +928,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3229128211824640" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.dominate">
@@ -964,7 +939,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261775492218880" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.furious_strike">
@@ -1065,7 +1039,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3460833107509248" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.obliterate">
@@ -1148,7 +1121,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3461189589794816" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.fury.force_flagellation">
@@ -1160,7 +1132,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3461400043192320" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1217,7 +1188,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2515454971084800" />
       </Ability>
       <Ability Name="abl.player.dual_wield">
@@ -1229,7 +1199,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810623537512448" />
       </Ability>
       <Ability Name="abl.sith_warrior.dual_saber_throw">
@@ -1269,7 +1238,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="807724434587648" />
         <Coeffcients>
           <Type Value="effAction_Heal">
@@ -1322,7 +1291,6 @@
         <Passive Value="True" />
         <LevelAquired Value="12" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3455528822898688" />
       </Ability>
       <Ability Name="abl.sith_warrior.juyo_form">
@@ -1334,7 +1302,7 @@
         <Passive Value="False" />
         <LevelAquired Value="14" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="3421778969886720" />
       </Ability>
       <Ability Name="abl.sith_warrior.disable_droid">
@@ -1346,7 +1314,6 @@
         <Passive Value="False" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
@@ -1382,7 +1349,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="1501739610013696" />
@@ -1411,7 +1377,7 @@
         <Passive Value="False" />
         <LevelAquired Value="22" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="2516812180750336" />
       </Ability>
       <Ability Name="abl.sith_warrior.battering_assault">
@@ -1502,7 +1468,7 @@
         <Passive Value="False" />
         <LevelAquired Value="10" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="1259692433080320" />
         <Coeffcients>
           <Type Value="effAction_WeaponDamage">
@@ -1522,7 +1488,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191469938573312" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.massacre">
@@ -1534,7 +1499,6 @@
         <Passive Value="False" />
         <LevelAquired Value="26" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="0" />
         <TargetArc Value="270" />
         <CombatLogID Value="1259670958243840" />
@@ -1563,7 +1527,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261118362222592" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.gore">
@@ -1588,7 +1551,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191525773148160" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.force_vigor">
@@ -1600,7 +1562,6 @@
         <Passive Value="True" />
         <LevelAquired Value="52" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3459999883853824" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.carnage.devastating_blast">
@@ -1692,7 +1653,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426735362146304" />
         <UtilityLevel Value="Heroic" />
         <UtilityPos Value="16" />
@@ -1706,7 +1666,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426550678552576" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="11" />
@@ -1728,7 +1687,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426524908748800" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="5" />
@@ -1742,7 +1700,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426537793650688" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
@@ -1756,7 +1713,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426726772211712" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="14" />
@@ -1770,7 +1726,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426554973519872" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="13" />
@@ -1784,7 +1739,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426546383585280" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="10" />
@@ -1798,7 +1752,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3438847169921024" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="2" />
@@ -1812,7 +1765,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426533498683392" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="8" />
@@ -1826,7 +1778,6 @@
         <Passive Value="True" />
         <LevelAquired Value="1" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3423694525300736" />
         <UtilityLevel Value="Skillful" />
         <UtilityPos Value="3" />
@@ -1920,7 +1871,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191740521512960" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.overpower">
@@ -1932,7 +1882,6 @@
         <Passive Value="True" />
         <LevelAquired Value="32" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2849431628021760" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.battle_cry">
@@ -1944,7 +1893,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3229128211824640" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.force_lash">
@@ -1956,7 +1904,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3452354842066944" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -1975,7 +1922,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261775492218880" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.rage.furious_strike">
@@ -2147,7 +2093,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1383701023817728" />
       </Ability>
       <Talent Name="tal.sith_warrior.skill.rage.brutality">
@@ -2204,7 +2149,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3424394604969984" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.backhand">
@@ -2238,7 +2182,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1261642348232704" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.sonic_barrier">
@@ -2250,7 +2193,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2308471907155968" />
         <Coeffcients>
           <Type Value="effAction_AbsorbDamage">
@@ -2301,7 +2243,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1262372492673024" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.immortal.aegis_assault">
@@ -2426,7 +2367,7 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
+        <Cooldown Value="1.5" />
         <CombatLogID Value="807891938312192" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.sundering_throw">
@@ -2438,7 +2379,6 @@
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2849362908545024" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.draining_scream">
@@ -2450,7 +2390,6 @@
         <Passive Value="True" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="807857578573824" />
         <Coeffcients>
@@ -2471,7 +2410,6 @@
         <Passive Value="True" />
         <LevelAquired Value="48" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1177770226876416" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.destroyer">
@@ -2483,7 +2421,6 @@
         <Passive Value="True" />
         <LevelAquired Value="56" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3192328932032512" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.eviscerate">
@@ -2495,7 +2432,6 @@
         <Passive Value="True" />
         <LevelAquired Value="28" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3426078232150016" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
@@ -2565,7 +2501,6 @@
         <Passive Value="True" />
         <LevelAquired Value="36" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2209511565688832" />
       </Ability>
       <Ability Name="abl.sith_warrior.skill.vengeance.unstoppable">
@@ -2577,7 +2512,6 @@
         <Passive Value="True" />
         <LevelAquired Value="44" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="1177783111778304" />
       </Ability>
       <Talent Name="tal.sith_warrior.skill.vengeance.bloodbath">
@@ -2627,7 +2561,6 @@
         <Passive Value="False" />
         <LevelAquired Value="12" />
         <OnGCD Value="False" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3435720433729536" />
       </Ability>
       <Ability Name="abl.sith_warrior.guard">
@@ -2639,7 +2572,6 @@
         <Passive Value="False" />
         <LevelAquired Value="16" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <Range Value="30" />
         <CombatLogID Value="1780032015958016" />
       </Ability>
@@ -2652,7 +2584,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="810735206662144" />
       </Ability>
       <Ability Name="abl.sith_warrior.saber_reflect">
@@ -2683,7 +2614,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3191895140335616" />
       </Ability>
       <Ability Name="abl.sith_warrior.retaliation">
@@ -2718,7 +2648,6 @@
         <Passive Value="True" />
         <LevelAquired Value="18" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="3459673466339328" />
       </Ability>
       <Ability Name="abl.player.proficiency.armor.shield">
@@ -2730,7 +2659,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="838789933039616" />
       </Ability>
       <Ability Name="abl.sith_warrior.blade_turning">
@@ -2742,7 +2670,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2312058204848128" />
       </Ability>
       <Ability Name="abl.sith_warrior.chilling_scream">
@@ -2754,7 +2681,6 @@
         <Passive Value="False" />
         <LevelAquired Value="15" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <TargetArc Value="360" />
         <CombatLogID Value="3436051146211328" />
         <ActionCost Value="2" />
@@ -2796,7 +2722,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="999864091541504" />
       </Ability>
       <Ability Name="abl.sith_warrior.force_push">
@@ -2899,7 +2824,6 @@
         <Passive Value="True" />
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
-        <Cooldown Value="1" />
         <CombatLogID Value="2035415066345472" />
       </Ability>
       <Ability Name="abl.sith_warrior.enrage">
