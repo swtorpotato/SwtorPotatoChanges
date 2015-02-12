@@ -709,22 +709,22 @@
         <CombatLogID Value="3414228417380352" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.17" />
-            <StandardHealthPercentMax Value="0.117" />
-            <StandardHealthPercentMin Value="0.117" />
+            <Coefficient Value="1.1" />
+            <StandardHealthPercentMax Value="0.11" />
+            <StandardHealthPercentMin Value="0.11" />
           </Type>
         </Coeffcients>
       </Ability>
-      <Ability Name="abl.jedi_consular.skill.combat.double_bladed_saber_defense">
-        <Label Value="Double-bladed Saber Defense" />
-        <Description Value="Whenever you successfully shield, parry or deflect an attack, you recover 2% of your total Force. This effect cannot occur more than once a second. In addition, your melee and ranged defense is increased by 4%." />
+      <Ability Name="abl.jedi_consular.skill.combat.double_bladed_saber_tactics">
+        <Label Value="Double-bladed Saber Tactics" />
+        <Description Value="Increases your melee and ranged defense by 4%. While Combat Technique is active, whenever you successfully shield, parry, or deflect an attack, you recover 2% of your total Force and increase the damage dealt by your next Force Breach by 75%. This effect cannot occur more than once a second and does not stack." />
         <Icon Value="lightsaberdeflection" />
         <Damage Value="False" />
         <Healing Value="False" />
         <Passive Value="True" />
         <LevelAquired Value="40" />
         <OnGCD Value="True" />
-        <CombatLogID Value="980558213545984" />
+        <CombatLogID Value="3536793899106304" />
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.slow_time">
         <Label Value="Slow Time" />
@@ -763,7 +763,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.combat.force_break">
         <Label Value="Force Break" />
-        <Description Value="Increases the damage dealt by Combat Technique's Force Breach by 15% and Slow Time by 30%." />
+        <Description Value="Increases the damage dealt by Combat Technique's Force Breach and Slow Time by 30%." />
         <Icon Value="disable" />
         <LevelAquired Value="28" />
       </Talent>

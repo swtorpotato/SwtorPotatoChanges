@@ -1375,6 +1375,14 @@
       <AchievementPoints Value="1000" />
     </Rewards>
   </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.battle_of_rishi.hard_bonus" ID="16140904684455499787">
+    <Description Value="Defeat Commander Mokan in Flashpoint: Battle of Rishi on the hard difficulty mode." />
+    <Label Value="Defeat Commander Mokan (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
   <Achievement Name="ach.conquests.flashpoint.black_talon.any_difficulty" ID="16141051333945290533">
     <Description Value="Complete Flashpoint: The Black Talon on any difficulty mode." />
     <Label Value="Flashpoint: The Black Talon" />
@@ -1395,6 +1403,14 @@
     <Description Value="Complete Flashpoint: Blood Hunt on any difficulty mode." />
     <Label Value="Flashpoint: Blood Hunt" />
     <Icon Value="flashpoint" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.blood_hunt.hard_bonus" ID="16141045117101807602">
+    <Description Value="Defeat all Challenges in Flashpoint: Blood Hunt on the hard difficulty mode." />
+    <Label Value="Defeat all Challenges (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
     <Rewards ID="6680298434435731368">
       <AchievementPoints Value="1000" />
     </Rewards>
@@ -1559,6 +1575,14 @@
       <AchievementPoints Value="1000" />
     </Rewards>
   </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.korriban.hard_bonus" ID="16141000843101535384">
+    <Description Value="Defeat the Republic or Imperial Commander in Flashpoint: Korriban Incursion on the hard difficulty mode." />
+    <Label Value="Defeat the Republic or Imperial Commander (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
   <Achievement Name="ach.conquests.flashpoint.kuat.any_difficulty" ID="16141058695348305949">
     <Description Value="Complete Flashpoint: Kuat Drive Yards on any difficulty mode." />
     <Label Value="Flashpoint: Kuat Drive Yards" />
@@ -1607,6 +1631,14 @@
       <AchievementPoints Value="1000" />
     </Rewards>
   </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.manaan.hard_bonus" ID="16140969834490044401">
+    <Description Value="Defeat M2-AUX Foreman in Flashpoint: Depths of Manaan on the hard difficulty mode." />
+    <Label Value="Defeat M2-AUX Foreman (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
   <Achievement Name="ach.conquests.flashpoint.mandalorian_raiders.any_difficulty" ID="16141132992448134967">
     <Description Value="Complete Flashpoint: Mandalorian Raiders on any difficulty mode." />
     <Label Value="Flashpoint: Mandalorian Raiders" />
@@ -1627,6 +1659,14 @@
     <Description Value="Complete Flashpoint: Legacy of the Rakata on any difficulty mode." />
     <Label Value="Flashpoint: Legacy of the Rakata" />
     <Icon Value="flashpoint" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.rakata_prime.hard_bonus" ID="16141103243999342458">
+    <Description Value="Defeat Infinite Army Prototype in Flashpoint: Legacy of the Rakata on the hard difficulty mode." />
+    <Label Value="Defeat Infinite Army Prototype (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
     <Rewards ID="6680298434435731368">
       <AchievementPoints Value="1000" />
     </Rewards>
@@ -1659,6 +1699,14 @@
     <Description Value="Complete Flashpoint: Assault On Tython on any difficulty mode." />
     <Label Value="Flashpoint: Assault On Tython" />
     <Icon Value="flashpoint" />
+    <Rewards ID="6680298434435731368">
+      <AchievementPoints Value="1000" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.conquests.flashpoint.tython.hard_bonus" ID="16140932822658054013">
+    <Description Value="Defeat the Republic or Imperial Commander in Flashpoint: Assault On Tython on the hard difficulty mode." />
+    <Label Value="Defeat the Republic or Imperial Commander (Hard Mode)" />
+    <Icon Value="killnpchumanoid" />
     <Rewards ID="6680298434435731368">
       <AchievementPoints Value="1000" />
     </Rewards>
@@ -4500,6 +4548,109 @@
       <AchievementPoints Value="10" />
     </Rewards>
   </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_bonus" ID="16140967518856617609">
+    <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode." />
+    <Label Value="Compounded Success" />
+    <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
+    <Rewards ID="820735857044879210">
+      <AchievementPoints Value="5" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_bonus_x10" ID="16141155624635425255">
+    <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode 10 times." />
+    <Label Value="Flirting with Chemical Disaster" />
+    <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
+    <Rewards ID="-1113361748305060319">
+      <AchievementPoints Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_bonus_x25" ID="16141035777867413437">
+    <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode 25 times." />
+    <Label Value="It Tastes Like Mint Jelly" />
+    <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
+    <Rewards ID="463131769076453330">
+      <AchievementPoints Value="50" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss1" ID="16141016995120262041">
+    <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
+    <Label Value="Defeat Rarrook and Marko Ka" />
+    <Icon Value="takecover" />
+    <Rewards ID="820735857044879210">
+      <AchievementPoints Value="5" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss1_x10" ID="16140937641807644521">
+    <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Advanced: Defeat Rarrook and Marko Ka" />
+    <Icon Value="takecover" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss1_x25" ID="16141066284668709783">
+    <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Elite: Defeat Rarrook and Marko Ka" />
+    <Icon Value="takecover" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss2" ID="16141015895608634444">
+    <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
+    <Label Value="Defeat Master Obai and Lord Vodd" />
+    <Icon Value="flourish" />
+    <Rewards ID="820735857044879210">
+      <AchievementPoints Value="5" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss2_x10" ID="16141012594282265011">
+    <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Advanced: Defeat Master Obai and Lord Vodd" />
+    <Icon Value="flourish" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss2_x25" ID="16141130242026620404">
+    <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Elite: Defeat Master Obai and Lord Vodd" />
+    <Icon Value="flourish" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss3" ID="16141014796097007359">
+    <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
+    <Label Value="Defeat Shield Squadron Unit 1" />
+    <Icon Value="missilefan" />
+    <Rewards ID="8817709729029379005">
+      <AchievementPoints Value="50" />
+      <ItemRewards>
+        <Item Name="Trophy: Shield Squadron: Unit 1 (HM)" />
+      </ItemRewards>
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss3_x10" ID="16141129209296632731">
+    <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Advanced: Defeat Shield Squadron Unit 1" />
+    <Icon Value="missilefan" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.battle_of_rishi.hard.defeat_boss3_x25" ID="16140976377180085652">
+    <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Elite: Defeat Shield Squadron Unit 1" />
+    <Icon Value="missilefan" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
   <Achievement Name="ach.flashpoint.battle_of_rishi.quests.complete_fp_10x" ID="16141103865870120456">
     <Description Value="Completed the &quot;Battle of Rishi&quot; flashpoint 10 times." />
     <Label Value="Island Takeover" />
@@ -4538,6 +4689,108 @@
     <Icon Value="story" />
     <Rewards ID="-1108578872723288594">
       <AchievementPoints Value="50" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.complete_fp_10x" ID="16140936305758783010">
+    <Description Value="Complete the &quot;Blood Hunt&quot; flashpoint 10 times." />
+    <Label Value="Great Hunter" />
+    <Icon Value="iaassassin" />
+    <Rewards ID="-1113358449770175686">
+      <AchievementPoints Value="25" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.complete_fp_25x" ID="16141172700675532911">
+    <Description Value="Complete the &quot;Blood Hunt&quot; flashpoint 25 times." />
+    <Label Value="Master Hunter" />
+    <Icon Value="iaassassin" />
+    <Rewards ID="-1108578872723288594">
+      <AchievementPoints Value="50" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.defeat_challenges" ID="16141055409382667844">
+    <Description Value="Defeat all six of Torch's challenges in the &quot;Blood Hunt&quot; flashpoint." />
+    <Label Value="Defeat all of the Torch's Challenges" />
+    <Icon Value="killnpcbeast" />
+    <Rewards ID="-1113358449770175686">
+      <AchievementPoints Value="25" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_1" ID="16141020216008549761">
+    <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
+    <Label Value="Defeat Kyramla Gemas'rugam" />
+    <Icon Value="animalhorn" />
+    <Rewards ID="820735857044879210">
+      <AchievementPoints Value="5" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_1_x10" ID="16141152604796529122">
+    <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Defeat Kyramla Gemas'rugam" />
+    <Icon Value="animalhorn" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_1_x25" ID="16141008568773074063">
+    <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Defeat Kyramla Gemas'rugam" />
+    <Icon Value="animalhorn" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_2" ID="16141023514543431848">
+    <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
+    <Label Value="Defeat The Mandalorian Champions" />
+    <Icon Value="bhthemerc" />
+    <Rewards ID="820735857044879210">
+      <AchievementPoints Value="5" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_2_x10" ID="16141009606995936551">
+    <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Defeat The Mandalorian Champions" />
+    <Icon Value="bhthemerc" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_2_x25" ID="16140995313344310925">
+    <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Defeat The Mandalorian Champions" />
+    <Icon Value="bhthemerc" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_3" ID="16141022415031804191">
+    <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
+    <Label Value="Defeat Torch" />
+    <Icon Value="bountyhunter" />
+    <Rewards ID="8186393762261985442">
+      <AchievementPoints Value="50" />
+      <ItemRewards>
+        <Item Name="Trophy: Shae Vizla (HM)" />
+      </ItemRewards>
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_3_x10" ID="16140915131581906412">
+    <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
+    <Label Value="Defeat Torch" />
+    <Icon Value="bountyhunter" />
+    <Rewards ID="-1112369988816603222">
+      <AchievementPoints Value="10" />
+    </Rewards>
+  </Achievement>
+  <Achievement Name="ach.flashpoint.blood_hunt.hard.kill_boss_3_x25" ID="16140929425233610498">
+    <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
+    <Label Value="Defeat Torch" />
+    <Icon Value="bountyhunter" />
+    <Rewards ID="6464777614904528550">
+      <AchievementPoints Value="25" />
+      <CartelCoins Value="20" />
     </Rewards>
   </Achievement>
   <Achievement Name="ach.flashpoint.blood_hunt.imperial.complete_story_arc" ID="16140952861461968733">
@@ -7210,7 +7463,7 @@
   </Achievement>
   <Achievement Name="ach.flashpoint.manaan.hard.defeat_foreman_x10" ID="16141111318171996066">
     <Description Value="Defeat the M2-AUX Foreman Droid in the &quot;Depths of Manaan&quot; flashpoint on hard mode 10 times." />
-    <Label Value="A Logistical Nightmare" />
+    <Label Value="A Recurring Logistical Nightmare" />
     <Icon Value="slicedroid" />
     <Rewards ID="-1113361748305060319">
       <AchievementPoints Value="20" />

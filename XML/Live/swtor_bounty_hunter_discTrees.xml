@@ -1617,7 +1617,7 @@
       <Talent Name="tal.bounty_hunter.skill.advanced_prototype.blood_tracker">
         <Label Value="Blood Tracker" />
         <Description Value="Increases the damage you deal to bleeding targets by 3%." />
-        <Icon Value="cyborgmerc" />
+        <Icon Value="swwarhardenednoble" />
         <LevelAquired Value="36" />
       </Talent>
     </DisciplineTree>

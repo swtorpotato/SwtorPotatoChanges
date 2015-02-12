@@ -2090,7 +2090,7 @@
       </Talent>
       <Talent Name="tal.smuggler.skill.utility.hot_pursuit">
         <Label Value="Hot Pursuit" />
-        <Description Value="You gain 4 charges of Hot Pursuit upon exiting cover, which reduces the energy cost of Quick Shot by 100%. Each use of Quick Shot consumes 1 charge, and consuming the first charge triggers a 20 second rate-limit on this skill. This effect lasts 15 seconds but is also removed by consuming all charges or reentering cover." />
+        <Description Value="You gain 4 charges of Hot Pursuit upon exiting cover, which reduces the energy cost of Quick Shot by 100%. Each use of Quick Shot consumes 1 charge, and consumption of the first charge triggers a 20 second rate-limit on this skill. This effect lasts 15 seconds but is also removed by consuming all charges or reentering cover." />
         <Icon Value="desperatecommand" />
         <UtilityLevel Value="Masterful" />
         <UtilityPos Value="9" />
