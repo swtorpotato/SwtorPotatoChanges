@@ -4655,14 +4655,14 @@
   </Achievement>
   <Achievement Name="ach.event.rakghoul.kill_noeyes_01" ID="16141088969336641679">
     <Icon Value="alienskull" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
   </Achievement>
   <Achievement Name="ach.event.rakghoul.kill_noeyes_02" ID="16141087869825014082">
     <Icon Value="alienskull" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -5137,7 +5137,7 @@
     <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode." />
     <Label Value="Compounded Success" />
     <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -5146,7 +5146,7 @@
     <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode 10 times." />
     <Label Value="Flirting with Chemical Disaster" />
     <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113361748305060319">
       <AchievementPoints Value="20" />
     </Rewards>
@@ -5155,7 +5155,7 @@
     <Description Value="Defeat Commander Mokan in the &quot;Battle of Rishi&quot; flashpoint in Hard Mode 25 times." />
     <Label Value="It Tastes Like Mint Jelly" />
     <Icon Value="ipp.class.spy.raid.theal.t9x3.head" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="463131769076453330">
       <AchievementPoints Value="50" />
       <CartelCoins Value="20" />
@@ -5165,7 +5165,7 @@
     <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
     <Label Value="Defeat Rarrook and Marko Ka" />
     <Icon Value="takecover" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -5174,7 +5174,7 @@
     <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
     <Label Value="Advanced: Defeat Rarrook and Marko Ka" />
     <Icon Value="takecover" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5183,7 +5183,7 @@
     <Description Value="Defeat Rarrook and Marko Ka in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
     <Label Value="Elite: Defeat Rarrook and Marko Ka" />
     <Icon Value="takecover" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -5193,7 +5193,7 @@
     <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
     <Label Value="Defeat Master Obai and Lord Vodd" />
     <Icon Value="flourish" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -5202,7 +5202,7 @@
     <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
     <Label Value="Advanced: Defeat Master Obai and Lord Vodd" />
     <Icon Value="flourish" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5211,7 +5211,7 @@
     <Description Value="Defeat Master Obai and Lord Vodd in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
     <Label Value="Elite: Defeat Master Obai and Lord Vodd" />
     <Icon Value="flourish" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -5221,7 +5221,7 @@
     <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode." />
     <Label Value="Defeat Shield Squadron Unit 1" />
     <Icon Value="missilefan" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="8817709729029379005">
       <AchievementPoints Value="50" />
       <ItemRewards>
@@ -5233,7 +5233,7 @@
     <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode 10 times." />
     <Label Value="Advanced: Defeat Shield Squadron Unit 1" />
     <Icon Value="missilefan" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5242,7 +5242,7 @@
     <Description Value="Defeat Shield Squadron Unit 1 in the &quot;Battle of Rishi&quot; flashpoint on hard mode 25 times." />
     <Label Value="Elite: Defeat Shield Squadron Unit 1" />
     <Icon Value="missilefan" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -5298,7 +5298,7 @@
     <Description Value="Complete the &quot;Blood Hunt&quot; flashpoint 10 times." />
     <Label Value="Great Hunter" />
     <Icon Value="iaassassin" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -5307,7 +5307,7 @@
     <Description Value="Complete the &quot;Blood Hunt&quot; flashpoint 25 times." />
     <Label Value="Master Hunter" />
     <Icon Value="iaassassin" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1108578872723288594">
       <AchievementPoints Value="50" />
     </Rewards>
@@ -5316,7 +5316,7 @@
     <Description Value="Defeat all six of Torch's challenges in the &quot;Blood Hunt&quot; flashpoint." />
     <Label Value="Defeat all of the Torch's Challenges" />
     <Icon Value="killnpcbeast" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -5325,7 +5325,7 @@
     <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
     <Label Value="Defeat Kyramla Gemas'rugam" />
     <Icon Value="animalhorn" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -5334,7 +5334,7 @@
     <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
     <Label Value="Defeat Kyramla Gemas'rugam" />
     <Icon Value="animalhorn" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5343,7 +5343,7 @@
     <Description Value="Defeat Kyramla Gemas'rugam in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
     <Label Value="Defeat Kyramla Gemas'rugam" />
     <Icon Value="animalhorn" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -5353,7 +5353,7 @@
     <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
     <Label Value="Defeat The Mandalorian Champions" />
     <Icon Value="bhthemerc" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -5362,7 +5362,7 @@
     <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
     <Label Value="Defeat The Mandalorian Champions" />
     <Icon Value="bhthemerc" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5371,7 +5371,7 @@
     <Description Value="Defeat Jos and Valk Beroya in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
     <Label Value="Defeat The Mandalorian Champions" />
     <Icon Value="bhthemerc" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -5381,7 +5381,7 @@
     <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode." />
     <Label Value="Defeat Torch" />
     <Icon Value="bountyhunter" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="8186393762261985442">
       <AchievementPoints Value="50" />
       <ItemRewards>
@@ -5393,7 +5393,7 @@
     <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode 10 times." />
     <Label Value="Defeat Torch" />
     <Icon Value="bountyhunter" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -5402,7 +5402,7 @@
     <Description Value="Defeat Torch in the &quot;Blood Hunt&quot; flashpoint on hard mode 25 times." />
     <Label Value="Defeat Torch" />
     <Icon Value="bountyhunter" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="6464777614904528550">
       <AchievementPoints Value="25" />
       <CartelCoins Value="20" />
@@ -8368,7 +8368,7 @@
     <Description Value="Complete the &quot;Depths of Manaan&quot; flashpoint on hard mode." />
     <Label Value="Under Pressure" />
     <Icon Value="meta" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -8377,7 +8377,7 @@
     <Description Value="Complete the &quot;Depths of Manaan&quot; flashpoint on hard mode 10 times." />
     <Label Value="Under Pressure: Advanced" />
     <Icon Value="meta" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -8386,7 +8386,7 @@
     <Description Value="Complete the &quot;Depths of Manaan&quot; flashpoint on hard mode 25 times." />
     <Label Value="Under Pressure: Elite" />
     <Icon Value="meta" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="463131769076453330">
       <AchievementPoints Value="50" />
       <CartelCoins Value="20" />
@@ -23722,7 +23722,7 @@
     <Description Value="Defeated 1000 Dreadful Ugnaughts with Burning Lava in Oricon Fortress." />
     <Label Value="Makin' Bacon" />
     <Icon Value="animalmeat" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Visiblity Value="achVisibilityCompletion" />
     <Rewards ID="463131769076453330">
       <AchievementPoints Value="50" />
@@ -26115,7 +26115,7 @@
     <Description Value="Inflicted 5000 damage with a single ability in 10 different Arena Warzone matches." />
     <Label Value="Arena: Hotshot Critical Damage Dealer" />
     <Icon Value="intimidatingpresence" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -26124,7 +26124,7 @@
     <Description Value="Inflicted 5000 damage with a single ability in 25 different Arena Warzone matches." />
     <Label Value="Arena: Veteran Critical Damage Dealer" />
     <Icon Value="intimidatingpresence" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -26133,7 +26133,7 @@
     <Description Value="Inflicted 5000 damage with a single ability in 50 different Arena Warzone matches." />
     <Label Value="Arena: Master Critical Damage Dealer" />
     <Icon Value="hk51hunterkiller" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -26142,7 +26142,7 @@
     <Description Value="Dealt 200000 damage to other players in 10 different Arena Warzone matches." />
     <Label Value="Arena: Hotshot Damage Dealer" />
     <Icon Value="deathfromabove" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -26151,7 +26151,7 @@
     <Description Value="Dealt 200000 damage to other players in 25 different Arena Warzone matches." />
     <Label Value="Arena: Veteran Damage Dealer" />
     <Icon Value="firebomb" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -26160,7 +26160,7 @@
     <Description Value="Dealt 200000 damage to other players in 50 different Arena Warzone matches." />
     <Label Value="Arena: Master Damage Dealer" />
     <Icon Value="immolate" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -26169,7 +26169,7 @@
     <Description Value="Healed for 5000 health with a single ability in 10 different Arena Warzone matches." />
     <Label Value="Arena: Hotshot Critical Healer" />
     <Icon Value="koltoinfusion" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -26178,7 +26178,7 @@
     <Description Value="Healed for 5000 health with a single ability in 25 different Arena Warzone matches." />
     <Label Value="Arena: Veteran Critical Healer" />
     <Icon Value="koltoinjection" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -26187,7 +26187,7 @@
     <Description Value="Healed for 5000 health with a single ability in 50 different Arena Warzone matches." />
     <Label Value="Arena: Master Critical Healer" />
     <Icon Value="koltostream" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -27778,7 +27778,7 @@
     <Description Value="Reached 10000 affection with Kira Carsen." />
     <Label Value="The Unexpected Test" />
     <Icon Value="kira_carsen_light" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -27787,21 +27787,21 @@
     <Description Value="Reached 10000 affection with T7-01," />
     <Label Value="Best Fun Time" />
     <Icon Value="t7-01_light" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
   </Achievement>
   <Achievement Name="ach.qa.gameplay_persistence.string_test.t7_test" ID="16140994346032050183">
     <Icon Value="t7-01_light" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
   </Achievement>
   <Achievement Name="ach.qa.gameplay_persistence.string_test.t7_test1" ID="16141056087278713613">
     <Icon Value="t7-01_light" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1113358449770175686">
       <AchievementPoints Value="25" />
     </Rewards>
@@ -28447,7 +28447,7 @@
   <Achievement Name="ach.spvp.aggegate.general.allpowerup" ID="16141089906897895112">
     <Description Value="Gained all 4 power ups at once in a Galactic Starfighter match." />
     <Label Value="Powered Up" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.assisttotal01" ID="16141094865586902644">
     <Description Value="Assisted in destroying 9 enemy ships in 50 different matches while playing Galactic Starfighter across your Legacy. " />
@@ -28471,7 +28471,7 @@
     <Description Value="Earned XXXXX &quot;Attacker&quot; points in 100 differant matches while playing Galactic Starfighter across your Legacy. " />
     <Label Value="Attacker Master" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.capturetotal01" ID="16140936972947624100">
     <Description Value="Captured 3 objectives in 25 &quot;Domination&quot; matches while playing Galactic Starfighter across your Legacy. " />
@@ -28579,7 +28579,7 @@
     <Description Value="Delivery 5 objectives in 100 differant &quot;Smuggler Run&quot; matches while playing Galactic Starfighter across your Legacy. " />
     <Label Value="Bagman Master" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.destroyassaulttotal01" ID="16140998677102585249">
     <Description Value="Earned 500 &quot;Attacker&quot; points in 25 &quot;Assault&quot; matches while playing Galactic Starfighter across your Legacy. " />
@@ -28752,7 +28752,7 @@
     <Description Value="Played 50 matches of Galactic Starfighter using a Infiltrator across your Legacy." />
     <Label Value="Fleet Infiltrator Pilot" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -28761,7 +28761,7 @@
     <Description Value="Played 250 matches of Galactic Starfighter using a Infiltrator across your Legacy." />
     <Label Value="Expert: Fleet Infiltrator Pilot" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -28804,11 +28804,11 @@
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.pointtotal01" ID="16141014916556040679">
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.pointtotal02" ID="16141013817044413226">
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.powerup_01" ID="16141173424691333157">
     <Description Value="Got 5 power-ups in 25 &quot;Team Death Match&quot; matches while playing Galactic Starfighter across your Legacy. " />
@@ -28907,7 +28907,7 @@
     <Description Value="Earned 1000 Requisition while playing as a Infiltrator in 25 Galactic Starfighter matches." />
     <Label Value="Infiltrator Quartermaster" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -28934,25 +28934,25 @@
     <Description Value="Earned 25,000 Requisition on a single character while playing Galactic Starfighter." />
     <Label Value="Quartermaster" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.requisitiontotal02" ID="16141150124634000602">
     <Description Value="Earned 75,000 Requisition on a single character while playing Galactic Starfighter." />
     <Label Value="Expert: Quartermaster" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.requisitiontotal03" ID="16141149025122373269">
     <Description Value="Earned 150,000 Requisition on a single character while playing Galactic Starfighter." />
     <Label Value="Elite: Quartermaster" />
     <Icon Value="prioritytransportunlock3" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.resupplytotal02" ID="16140940545707762388">
     <Description Value="Resupplied 15 ships in 100 differant matches while playing Galactic Starfighter across your Legacy. " />
     <Label Value="Engineer Master" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.totalmedals01" ID="16141149970719484361">
     <Description Value="Earned 75 medals while playing Galactic Starfighter across your Legacy." />
@@ -29060,19 +29060,19 @@
     <Description Value="Won 50 Galactic Starfighter matches across your Legacy while using a Infiltrator." />
     <Label Value="Triumphant Infiltrator Pilot " />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.winmatchesmeta01" ID="16141045045701308392">
     <Description Value="Won 50 Galactic Starfighter matches across your Legacy for each of the following rolls:  Bomber, Gunship, Infiltrator, Scout, Strike Fighter" />
     <Label Value="Triumphant Pilot Adept" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.winmatchespremium01" ID="16140903431975304990">
     <Description Value="Won 50 Galactic Starfighter matches across your Legacy while using a Premium Ship. " />
     <Label Value="Triumphant Premium Pilot " />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.aggegate.general.winmatchesscout01" ID="16141035288931608996">
     <Description Value="Won 50 Galactic Starfighter matches across your Legacy while using a Scout. " />
@@ -29975,7 +29975,7 @@
     <Description Value="Earned 2500 number of &quot;attacker&quot; points in a single Galactic Starfighter match." />
     <Label Value="Invader" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -29984,7 +29984,7 @@
     <Description Value="Earned 5000 number of &quot;attacker&quot; points in a single Galactic Starfighter match." />
     <Label Value="Expert: Invader" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -30065,13 +30065,13 @@
     <Description Value="Delivery 3 objectives in a &quot;Smuggling Run&quot; Galactic Starfighter match." />
     <Label Value="Bagman" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.delivery02" ID="16140994355512291276">
     <Description Value="Delivery 5 objectives in a &quot;Smuggling Run&quot; Galactic Starfighter match." />
     <Label Value="Expert: Bagman" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.destroy_assault_01" ID="16141033205035144952">
     <Description Value="Earn 250 &quot;Attacker&quot; points in an &quot;Assault&quot; Galactic Starfighter match" />
@@ -30113,7 +30113,7 @@
     <Description Value="Destroy 6 enemy ships, get 6 assists, and repair friendly vessels for 1000 points in a single Galactic Starfighter match." />
     <Label Value="Generalist" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -30230,7 +30230,7 @@
     <Description Value="Earn 10 medals in a single Galactic Starfighter match." />
     <Label Value="Medalist" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="820735857044879210">
       <AchievementPoints Value="5" />
     </Rewards>
@@ -30239,7 +30239,7 @@
     <Description Value="Earn 14 medals in a single Galactic Starfighter match." />
     <Label Value="Gold Medalist" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
@@ -30257,49 +30257,49 @@
     <Description Value="Become a &quot;Nemesis&quot; to enemy players 2 times in a single Galactic Starfighter match." />
     <Label Value="Pick on Someone Your Own Size" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.nemesis02" ID="16141155807065013444">
     <Description Value="Become a &quot;Nemesis&quot; to enemy players 3 times in a single Galactic Starfighter match." />
     <Label Value="TBD General Match Assists 01" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.nemesiskill01" ID="16141139325879485764">
     <Description Value="2 enemies deemed &quot;Nemesis&quot; destroyed in a single Galactic Starfighter match." />
     <Label Value="Revenge is Sweet" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.nemesiskill02" ID="16141138226367859609">
     <Description Value="2 enemies deemed &quot;Nemesis&quot; destroyed in a single Galactic Starfighter match." />
     <Label Value="Best Served Cold" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.points01" ID="16140923949318891789">
     <Description Value="Earned 10000 points in a single Galactic Starfighter match." />
     <Label Value="Space Jockey" />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.points02" ID="16140925048830520256">
     <Description Value="Earned 15000 points in a single Galactic Starfighter match." />
     <Label Value="Advanced: Space Jockey" />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.points03" ID="16140926148342148503">
     <Description Value="Earned 20000 points in a single Galactic Starfighter match." />
     <Label Value="Expert: Space Jockey" />
     <Icon Value="prioritytransportunlock3" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.points04" ID="16140918451760746994">
     <Description Value="Earned 25000 points in a single Galactic Starfighter match." />
     <Label Value="Elite: Space Jockey" />
     <Icon Value="prioritytransportunlock3" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.powerup01" ID="16140942787209471282">
     <Description Value="Got 3 power-ups in a &quot;Team Death Match&quot; Galactic Starfighter match." />
@@ -30334,12 +30334,12 @@
   <Achievement Name="ach.spvp.match.general.resupply01" ID="16141066087817616128">
     <Description Value="Resupplied 10 friendly ships in a single Galactic Starfighter match." />
     <Icon Value="prioritytransportunlock1" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.resupply02" ID="16141064988305989069">
     <Description Value="Resupplied 15 friendly ships in a single Galactic Starfighter match." />
     <Icon Value="prioritytransportunlock2" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.spvp.match.general.turretsdestroyed01" ID="16140939902690908895">
     <Description Value="Destroyed 8 enemy defensive turrets in a single Galactic Starfighter match." />
@@ -31114,43 +31114,43 @@
     </Rewards>
   </Achievement>
   <Achievement Name="ach.test.bret.test" ID="16140970996369041544">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.qa.emulkey.string_test001" ID="16140966287027812193">
     <Icon Value="orbitalmultistrikes" />
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
     <Rewards ID="-1112369988816603222">
       <AchievementPoints Value="10" />
     </Rewards>
   </Achievement>
   <Achievement Name="ach.test.qa.fparker.achtest" ID="16141065066468313665">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.qa.fparker.condition_test.inphase" ID="16141052398479533522">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.qa.fparker.condition_test.intime" ID="16140938115684598789">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.qa.fparker.condition_test.isnightmare" ID="16141047351031167040">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.qa.fparker.condition_test.raiddifficulty" ID="16141082533981465756">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.test" ID="16140972897863263439">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.trader.mynewtestloc" ID="16141047574248877301">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.trader.test2" ID="16141168463099643503">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.trader.test3" ID="16141167363588015164">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
   <Achievement Name="ach.test.will.in_area_conditional" ID="16141048465141572575">
-    <UniqueID Value="BROKEN ACHIVEMENT - RESET ON LOGOUT" />
+    <UniqueID Value="BROKEN ACHIEVEMENT - RESET ON LOGOUT" />
   </Achievement>
 </Achievements>
