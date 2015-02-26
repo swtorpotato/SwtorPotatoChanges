@@ -701,6 +701,14 @@
     <Image Value="default" />
     <Body Value="" />
   </Codex>
+  <Codex Name="cdx.titles.mtx.outer_rim_explorer" ID="16140911032029742110">
+    <Title Value="Outer Rim Explorer" />
+    <Category Value="Achievement: Titles" />
+    <Level Value="1" />
+    <Index Value="3016" />
+    <Image Value="default" />
+    <Body Value="You received this title from an Outer Rim Explorer's Pack." />
+  </Codex>
   <Codex Name="cdx.persons.yavin_4.lord_darkspanner" ID="16140911033451941691">
     <Title Value="Lord Darkspanner" />
     <Category Value="Persons of Note" />
@@ -4630,6 +4638,14 @@
     <Image Value="cdx.datacron.tython.datacron_2" />
     <Body Value="This datacron holds unheard of power and knowledge collected by an ancient race. You access its power and discover writings which are clearly only one small piece of a massive galactic history:&#xA;&#xA;As the Core Worlds began to expand, another power in the Core was rising. The Tion Cluster, inhabited by the descendants of ancient sleeper ship crews, had developed a new hyperspace beacon technology based on fragments left by the Infinite Empire--far superior than the hyperspace cannons previously in use.&#xA;&#xA;The Tion Cluster was gradually conquered by an arrogant and powerful pirate prince, known to history as the despot Xim. Using the new hyperspace technology, he despoiled world after world, taking slaves and ruthlessly expanding his territory. His rule of the Tion Cluster lasted for thirty years and saw the conquest of hundreds of thousands of planets.&#xA;&#xA;Xim might have continued his rule unchallenged even longer, but he chose to expand his empire into a new area of space, one already inhabited by the powerful Hutt Empire." />
   </Codex>
+  <Codex Name="cdx.titles.mtx.galactic_wanderer" ID="16140962295954096886">
+    <Title Value="Galactic Wanderer" />
+    <Category Value="Achievement: Titles" />
+    <Level Value="1" />
+    <Index Value="3018" />
+    <Image Value="default" />
+    <Body Value="You received this title from an Explorer's Pack." />
+  </Codex>
   <Codex Name="cdx.blurb.class.agent.chapter_1.hutta.the_new_truth" ID="16140962386672746927">
     <Title Value="" />
     <Category Value="Uncategorized" />
@@ -7430,6 +7446,14 @@
     <Index Value="365" />
     <Body Value="With the help of Mia Hawkins, a former terrorist sickened by the ghost cell's methods, Cipher Nine has finally learned the location of the cell's hidden village--and the home of its leader, the Old Man...." />
   </Codex>
+  <Codex Name="cdx.titles.mtx.mid_rim_explorer" ID="16140998085853366236">
+    <Title Value="Mid Rim Explorer" />
+    <Category Value="Achievement: Titles" />
+    <Level Value="1" />
+    <Index Value="3015" />
+    <Image Value="default" />
+    <Body Value="You received this title from a Mid Rim Explorer's Pack." />
+  </Codex>
   <Codex Name="cdx.blurb.class.inquisitor.chapter_1.korriban.a_little_knowledge" ID="16140998287069783595">
     <Title Value="" />
     <Category Value="Uncategorized" />
@@ -8982,6 +9006,14 @@
     <Index Value="2608" />
     <Image Value="cdx.chapter_4.makeb.persons.supreme_chancellor_saresh" />
     <Body Value="The Supreme Chancellor of the Republic serves as both political arbiter and leader of the free galaxy--and no one is better suited to the honor than Leontyne Saresh. &#xA;&#xA;Enslaved by the Empire as a young child, the charismatic, ambitious and fiercely intelligent Saresh escaped her captors to become a passionate opponent of Imperial injustices. After Imperial forces sacked the Republic capital of Coruscant to end the war, Saresh launched an illustrious political career that would win her a seat on the Republic Senate, governorship of Taris and a fearless reputation.&#xA;&#xA;When war erupted again, Saresh was elected by the Senate to replace Supreme Chancellor Janarus. Surrounded by ardent supporters and loyal political allies, she delivered an impassioned speech on the steps of the Senate tower calling for the eradication of the Sith Empire. Saresh's rousing words inspired millions and gave birth to a new age in which the Republic would stop at nothing to win the conflict and ensure the galaxy's freedom." />
+  </Codex>
+  <Codex Name="cdx.titles.mtx.deep_core_explorer" ID="16141019190057287302">
+    <Title Value="Deep Core Explorer" />
+    <Category Value="Achievement: Titles" />
+    <Level Value="1" />
+    <Index Value="3014" />
+    <Image Value="default" />
+    <Body Value="You received this title from a Deep Core Explorer's Pack." />
   </Codex>
   <Codex Name="cdx.test.qa.mhadley.tus.dt_94217a" ID="16141019345203160448">
     <Title Value="" />
@@ -14437,6 +14469,14 @@
     <Index Value="2971" />
     <Image Value="default" />
     <Body Value="You earned this title after defeating Revan on Yavin 4." />
+  </Codex>
+  <Codex Name="cdx.titles.mtx.wild_space_explorer" ID="16141089742986396416">
+    <Title Value="Wild Space Explorer" />
+    <Category Value="Achievement: Titles" />
+    <Level Value="1" />
+    <Index Value="3017" />
+    <Image Value="default" />
+    <Body Value="You received this title from a Wild Space Explorer's Pack." />
   </Codex>
   <Codex Name="cdx.blurb.class.jedi_consular.chapter_1.tython.tython_end" ID="16141089757308370028">
     <Title Value="" />

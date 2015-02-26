@@ -129,7 +129,6 @@
           <Coefficient Value="1.07" />
           <StandardHealthPercentMax Value="0.127" />
           <StandardHealthPercentMin Value="0.087" />
-          <LifeStealModifier Value="1" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -143,7 +142,7 @@
       <LevelAquired Value="14" />
       <OnGCD Value="True" />
       <Cooldown Value="15" />
-      <Range Value="30" />
+      <Range Value="10" />
       <TargetArc Value="270" />
       <ActivationTime Value="2" />
       <CombatLogID Value="863460225187840" />
@@ -446,7 +445,7 @@
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.forked_lightning">
         <Label Value="Forked Lightning" />
-        <Description Value="Lightning Strike, Chain Lightning, Lightning Flash, and Lightning Bolt have a 30% chance to produce a second arc of lightning that strikes the same targets for 30% damage. Additionally, Chain Lightning overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
+        <Description Value="Lightning Strike, Chain Lightning, Lightning Flash, and Lightning Bolt have a 25% chance to produce a second arc of lightning that strikes the same targets for 25% damage. Additionally, Chain Lightning overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
         <Icon Value="forkedlightning" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -456,24 +455,24 @@
         <CombatLogID Value="808519003537408" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.45" />
-            <StandardHealthPercentMax Value="0.051" />
-            <StandardHealthPercentMin Value="0.039" />
+            <Coefficient Value="0.375" />
+            <StandardHealthPercentMax Value="0.0425" />
+            <StandardHealthPercentMin Value="0.0325" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.64" />
-            <StandardHealthPercentMax Value="0.084" />
+            <Coefficient Value="0.535" />
+            <StandardHealthPercentMax Value="0.0585" />
+            <StandardHealthPercentMin Value="0.0485" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.49" />
+            <StandardHealthPercentMax Value="0.054" />
             <StandardHealthPercentMin Value="0.044" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.588" />
-            <StandardHealthPercentMax Value="0.0648" />
-            <StandardHealthPercentMin Value="0.0528" />
-          </Type>
-          <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.51" />
-            <StandardHealthPercentMax Value="0.071" />
-            <StandardHealthPercentMin Value="0.031" />
+            <Coefficient Value="0.3925" />
+            <StandardHealthPercentMax Value="0.04425" />
+            <StandardHealthPercentMin Value="0.03425" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -519,22 +518,22 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="12" />
+        <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3401218961440768" />
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.96" />
-            <StandardHealthPercentMax Value="0.216" />
-            <StandardHealthPercentMin Value="0.176" />
+            <Coefficient Value="2.09" />
+            <StandardHealthPercentMax Value="0.229" />
+            <StandardHealthPercentMin Value="0.189" />
           </Type>
         </Coeffcients>
       </Ability>
       <Ability Name="abl.sith_inquisitor.skill.lightning.forked_darkness">
         <Label Value="Forked Darkness" />
-        <Description Value="Crushing Darkness has a 30% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Thundering Blast, there is a 30% chance the ability will produce a second blast that strikes the same target for 30% damage." />
+        <Description Value="Crushing Darkness has a 25% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Thundering Blast, there is a 25% chance the ability will produce a second blast that strikes the same target for 25% damage." />
         <Icon Value="darkblood" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -544,9 +543,9 @@
         <CombatLogID Value="3210531003432960" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.646" />
-            <StandardHealthPercentMax Value="0.0706" />
-            <StandardHealthPercentMin Value="0.0586" />
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.04" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -608,12 +607,12 @@
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="3411385149030400" />
-        <ForceCost Value="30" />
+        <ForceCost Value="33" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.565" />
-            <StandardHealthPercentMax Value="0.177" />
-            <StandardHealthPercentMin Value="0.137" />
+            <Coefficient Value="1.56" />
+            <StandardHealthPercentMax Value="0.176" />
+            <StandardHealthPercentMin Value="0.136" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -1044,7 +1043,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.transmission">
         <Label Value="Transmission" />
-        <Description Value="Increases the range of Force Lightning, Shock, Jolt, and Force Slow by 20 meters. Also increases the duration of Whirlwind to 60 seconds." />
+        <Description Value="Increases the range of Force Lightning, Shock, Jolt, Crushing Darkness, Death Field, Demolish, and Force Slow by 20 meters. Also increases the duration of Whirlwind to 60 seconds." />
         <Icon Value="cloakofpain" />
         <LevelAquired Value="10" />
       </Talent>
@@ -1139,7 +1138,7 @@
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="270" />
         <ActivationTime Value="2" />
         <CombatLogID Value="3400617666019328" />
@@ -1167,7 +1166,7 @@
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="360" />
         <CombatLogID Value="808433104191488" />
         <ForceCost Value="50" />
@@ -2512,7 +2511,7 @@
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="270" />
         <ActivationTime Value="2" />
         <CombatLogID Value="3400617666019328" />
@@ -2540,7 +2539,7 @@
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="360" />
         <CombatLogID Value="808433104191488" />
         <ForceCost Value="50" />
@@ -2583,7 +2582,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.imbibe">
         <Label Value="Imbibe" />
-        <Description Value="Increases the life stolen by Death Field and Leeching Strike by 100% and causes Creeping Terror and Lightning Charge's Discharge effect to steal life from enemy targets, healing you for 25% of the damage they deal." />
+        <Description Value="Increases the life stolen by Death Field and Leeching Strike by 100% and causes Creeping Terror and Lightning Charge's Discharge effect to steal life from enemy targets, healing you for 10% of the damage they deal." />
         <Icon Value="venomsackrecolor" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2595,7 +2594,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.hatred.dreadful_nightmares">
         <Label Value="Dreadful Nightmares" />
-        <Description Value="Increases the damage dealt by Leeching Strike, Crushing Darkness, and Demolish by 20%." />
+        <Description Value="Increases the damage dealt by Crushing Darkness and Demolish by 20%." />
         <Icon Value="dark_embrace" />
         <LevelAquired Value="56" />
       </Talent>
@@ -2795,7 +2794,7 @@
       </Talent>
       <Talent Name="tal.sith_inquisitor.skill.darkness.mounting_darkness">
         <Label Value="Mounting Darkness" />
-        <Description Value="Increases the damage dealt by Dark Charge's Discharge and Wither by 30%." />
+        <Description Value="Increases the damage dealt by Dark Charge's Discharge and Wither by 40%." />
         <Icon Value="disturbance" />
         <LevelAquired Value="28" />
       </Talent>

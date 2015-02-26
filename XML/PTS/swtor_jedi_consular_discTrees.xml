@@ -130,7 +130,7 @@
       <LevelAquired Value="14" />
       <OnGCD Value="True" />
       <Cooldown Value="15" />
-      <Range Value="30" />
+      <Range Value="10" />
       <TargetArc Value="270" />
       <ActivationTime Value="2" />
       <CombatLogID Value="812796790964224" />
@@ -233,7 +233,6 @@
           <Coefficient Value="1.07" />
           <StandardHealthPercentMax Value="0.127" />
           <StandardHealthPercentMin Value="0.087" />
-          <LifeStealModifier Value="1" />
         </Type>
       </Coeffcients>
     </Ability>
@@ -627,7 +626,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.combat.rapid_recovery">
         <Label Value="Rapid Recovery" />
-        <Description Value="Increases the amount of Force recovered by Double-bladed Saber Defense by 100%. In addition, when you shield, parry, or deflect an attack, the active cooldown of Resilience is reduced by 1 second. This effect cannot occur more than once a second." />
+        <Description Value="Increases the amount of Force recovered by Double-bladed Saber Tactics by 100%. In addition, when you shield, parry, or deflect an attack, the active cooldown of Resilience is reduced by 1 second. This effect cannot occur more than once a second." />
         <Icon Value="feint" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -763,7 +762,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.combat.force_break">
         <Label Value="Force Break" />
-        <Description Value="Increases the damage dealt by Combat Technique's Force Breach and Slow Time by 30%." />
+        <Description Value="Increases the damage dealt by Combat Technique's Force Breach and Slow Time by 40%." />
         <Icon Value="disable" />
         <LevelAquired Value="28" />
       </Talent>
@@ -825,7 +824,7 @@
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="270" />
         <ActivationTime Value="2" />
         <CombatLogID Value="3347334301745152" />
@@ -925,7 +924,7 @@
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="360" />
         <CombatLogID Value="2157001295527936" />
         <ForceCost Value="50" />
@@ -946,7 +945,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.mind_quell">
         <Label Value="Mind Quell" />
-        <Description Value="Increases the damage dealt by Serenity Strike, Mind Crush, and Vanquish by 20%." />
+        <Description Value="Increases the damage dealt by Mind Crush and Vanquish by 20%." />
         <Icon Value="introspection" />
         <LevelAquired Value="56" />
       </Talent>
@@ -976,7 +975,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.serenity.psychic_absorption">
         <Label Value="Psychic Absorption" />
-        <Description Value="Increases the life redirected by Force in Balance and Serenity Strike by 100% and causes Sever Force and Force Technique's Force Breach effect to steal life from enemy targets, healing you for 25% of the damage they deal." />
+        <Description Value="Increases the life redirected by Force in Balance and Serenity Strike by 100% and causes Sever Force and Force Technique's Force Breach effect to steal life from enemy targets, healing you for 10% of the damage they deal." />
         <Icon Value="mentalblock" />
         <LevelAquired Value="52" />
       </Talent>
@@ -2357,7 +2356,7 @@
       </Talent>
       <Talent Name="tal.jedi_consular.skill.force_reach">
         <Label Value="Force Reach" />
-        <Description Value="Increases the range of Telekinetic Throw, Project, Mind Snap, and Force Slow by 20 meters. Also increases the duration of Force Lift to 60 seconds." />
+        <Description Value="Increases the range of Telekinetic Throw, Project, Mind Snap, Mind Crush, Force in Balance, Vanquish, and Force Slow by 20 meters. Also increases the duration of Force Lift to 60 seconds." />
         <Icon Value="cloakofpain" />
         <LevelAquired Value="10" />
       </Talent>
@@ -2402,7 +2401,7 @@
         <LevelAquired Value="57" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="270" />
         <ActivationTime Value="2" />
         <CombatLogID Value="3347334301745152" />
@@ -2509,7 +2508,7 @@
         <LevelAquired Value="10" />
         <OnGCD Value="True" />
         <Cooldown Value="15" />
-        <Range Value="30" />
+        <Range Value="10" />
         <TargetArc Value="360" />
         <CombatLogID Value="2157001295527936" />
         <ForceCost Value="50" />
@@ -2588,16 +2587,16 @@
         <Passive Value="False" />
         <LevelAquired Value="41" />
         <OnGCD Value="True" />
-        <Cooldown Value="12" />
+        <Cooldown Value="15" />
         <Range Value="30" />
         <TargetArc Value="270" />
         <CombatLogID Value="3347321416843264" />
         <ForceCost Value="50" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.96" />
-            <StandardHealthPercentMax Value="0.216" />
-            <StandardHealthPercentMin Value="0.176" />
+            <Coefficient Value="2.09" />
+            <StandardHealthPercentMax Value="0.229" />
+            <StandardHealthPercentMin Value="0.189" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2625,7 +2624,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.telekinetic_momentum">
         <Label Value="Telekinetic Momentum" />
-        <Description Value="Disturbance, Telekinetic Wave, Telekinetics Gust, and Telekinetics Burst have a 30% chance to unleash a second charge of Telekinetics that strikes the same targets for 30% damage. Additionally, Telekinetic Wave overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
+        <Description Value="Disturbance, Telekinetic Wave, Telekinetics Gust, and Telekinetics Burst have a 25% chance to unleash a second charge of Telekinetics that strikes the same targets for 25% damage. Additionally, Telekinetic Wave overwhelms its targets for &lt;&lt;1&gt;&gt; seconds. Overwhelmed targets take an additional 10% damage from area attacks." />
         <Icon Value="chargedupforce" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2635,24 +2634,24 @@
         <CombatLogID Value="999348695465984" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.45" />
-            <StandardHealthPercentMax Value="0.051" />
-            <StandardHealthPercentMin Value="0.039" />
+            <Coefficient Value="0.375" />
+            <StandardHealthPercentMax Value="0.0425" />
+            <StandardHealthPercentMin Value="0.0325" />
           </Type>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.64" />
-            <StandardHealthPercentMax Value="0.084" />
+            <Coefficient Value="0.535" />
+            <StandardHealthPercentMax Value="0.0585" />
+            <StandardHealthPercentMin Value="0.0485" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.3925" />
+            <StandardHealthPercentMax Value="0.04425" />
+            <StandardHealthPercentMin Value="0.03425" />
+          </Type>
+          <Type Value="effAction_SpellDamage">
+            <Coefficient Value="0.49" />
+            <StandardHealthPercentMax Value="0.054" />
             <StandardHealthPercentMin Value="0.044" />
-          </Type>
-          <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.51" />
-            <StandardHealthPercentMax Value="0.071" />
-            <StandardHealthPercentMin Value="0.031" />
-          </Type>
-          <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.588" />
-            <StandardHealthPercentMax Value="0.0648" />
-            <StandardHealthPercentMin Value="0.0528" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2669,12 +2668,12 @@
         <TargetArc Value="270" />
         <ActivationTime Value="1.5" />
         <CombatLogID Value="3347325711810560" />
-        <ForceCost Value="30" />
+        <ForceCost Value="33" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="1.565" />
-            <StandardHealthPercentMax Value="0.177" />
-            <StandardHealthPercentMin Value="0.137" />
+            <Coefficient Value="1.56" />
+            <StandardHealthPercentMax Value="0.176" />
+            <StandardHealthPercentMin Value="0.136" />
           </Type>
         </Coeffcients>
       </Ability>
@@ -2736,7 +2735,7 @@
       </Ability>
       <Ability Name="abl.jedi_consular.skill.telekinetics.mental_momentum">
         <Label Value="Mental Momentum" />
-        <Description Value="Mind Crush has a 30% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Turbulence, there is a 30% chance the ability will produce a second blast that strikes the same target for 30% damage." />
+        <Description Value="Mind Crush has a 25% chance to tick twice and makes its target vulnerable for &lt;&lt;1&gt;&gt; seconds. Vulnerable targets take 5% more damage from Force attacks. In addition, when you activate Turbulence, there is a 25% chance the ability will produce a second blast that strikes the same target for 25% damage." />
         <Icon Value="cc_follow" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2746,9 +2745,9 @@
         <CombatLogID Value="3218339253977088" />
         <Coeffcients>
           <Type Value="effAction_SpellDamage">
-            <Coefficient Value="0.474" />
-            <StandardHealthPercentMax Value="0.057" />
-            <StandardHealthPercentMin Value="0.037" />
+            <Coefficient Value="0.45" />
+            <StandardHealthPercentMax Value="0.05" />
+            <StandardHealthPercentMin Value="0.04" />
           </Type>
         </Coeffcients>
       </Ability>

@@ -618,7 +618,7 @@
       </Talent>
       <Talent Name="tal.trooper.skill.assault_specialist.assault_trooper_commando">
         <Label Value="Assault Trooper" />
-        <Description Value="Increases the critical damage bonus for Full Auto, Charged Bolts, Incendiary Round, Assault Plastique, Serrated Bolt, and Mag Bolt by 30%.  Additionaly, Serrated Bolt marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
+        <Description Value="Increases the critical damage bonus for Full Auto, Charged Bolts, Assault Plastique, and Mag Bolt by 30%.  Additionaly, Serrated Bolt marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
         <Icon Value="tzabrakguerillafighter" />
         <LevelAquired Value="44" />
       </Talent>
@@ -2428,7 +2428,7 @@
       </Ability>
       <Ability Name="abl.trooper.skill.plasmatech.plasma_barrage">
         <Label Value="Plasma Barrage" />
-        <Description Value="High Impact Bolt and Fire Pulse make your next Ion Pulse or Explosive Surge deplete no energy cells. Additionally, Pulse Cannon will now overwhelm the targets it damages. Overwhelmed targets take 10% more damage from area attacks." />
+        <Description Value="Fire Pulse makes your next Ion Pulse or Explosive Surge deplete no energy cells. Additionally, Pulse Cannon will now overwhelm the targets it damages. Overwhelmed targets take 10% more damage from area attacks." />
         <Icon Value="suckerpunch" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -2556,7 +2556,7 @@
       </Ability>
       <Talent Name="tal.trooper.skill.plasmatech.plasmatic_assault">
         <Label Value="Plasmatic Assault" />
-        <Description Value="Increases the critical bonus damage of Pulse Cannon, Shockstrike, and Fire Pulse by 30%." />
+        <Description Value="Increases the critical bonus damage of Pulse Cannon, Shockstrike, Plasmatize, and Fire Pulse by 30%." />
         <Icon Value="elementaloverload" />
         <LevelAquired Value="48" />
       </Talent>

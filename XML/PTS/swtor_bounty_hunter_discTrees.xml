@@ -857,7 +857,7 @@
       </Ability>
       <Ability Name="abl.bounty_hunter.skill.firebug.flame_barrage">
         <Label Value="Flame Barrage" />
-        <Description Value="Rail Shot and Immolate make your next Flame Burst or Flame Sweep generate no heat. Additionally, Flame Thrower will now overwhelm the targets it damages. Overwhelmed targets take 10% more damage from area attacks." />
+        <Description Value="Immolate makes your next Flame Burst or Flame Sweep generate no heat. Additionally, Flame Thrower will now overwhelm the targets it damages. Overwhelmed targets take 10% more damage from area attacks." />
         <Icon Value="suckerpunch" />
         <Damage Value="False" />
         <Healing Value="False" />
@@ -907,7 +907,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.firebug.firebug">
         <Label Value="Firebug" />
-        <Description Value="Increases the critical bonus damage of Flame Thrower, Flaming Fist, and Immolate by 30%." />
+        <Description Value="Increases the critical bonus damage of Flame Thrower, Flaming Fist, Scorch, and Immolate by 30%." />
         <Icon Value="elementaloverload" />
         <LevelAquired Value="48" />
       </Talent>
@@ -2029,7 +2029,7 @@
       </Talent>
       <Talent Name="tal.bounty_hunter.skill.innovative_ordnance.ordnance_expert">
         <Label Value="Ordnance Expert" />
-        <Description Value="Increases the critical damage bonus for Unload, Power Shot, Incendiary Missile, Thermal Detonator, Serrated Shot, and Mag Shot by 30%. Additionally, Serrated Shot marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
+        <Description Value="Increases the critical damage bonus for Unload, Power Shot, Thermal Detonator, and Mag Shot by 30%. Additionally, Serrated Shot marks its target for 45 seconds. Marked targets take 5% more damage from ranged weapon attacks." />
         <Icon Value="elementaloverload" />
         <LevelAquired Value="44" />
       </Talent>
